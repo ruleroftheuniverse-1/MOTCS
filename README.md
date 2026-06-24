@@ -15,6 +15,15 @@ python -m pip install -e ".[test]"
 python -m pytest
 ```
 
+Run the pre-MgF `pylcp` convention check with:
+
+```powershell
+python -m pip install -e ".[notebook]"
+python -m jupyter lab notebooks/pylcp_conventions_sanity_check.ipynb
+```
+
+The checked-in notebook is already executed and contains its five force plots
+and quantitative sign assertions.
+
 Configuration files use angular-frequency detunings normalized to `Gamma`.
 Geometry functions use SI units (metres, tesla, and tesla/metre).
-
