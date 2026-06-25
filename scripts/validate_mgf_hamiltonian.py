@@ -88,9 +88,14 @@ def main() -> None:
         approximation_mode=ApproximationMode.COLLAPSED_PYLCP_ASTATE
     )
     print("\nExplicit approximation mode:")
+    print(f"  track: {approximate.provenance.track.value}")
     print(f"  mode: {approximate.report.mode.value}")
+    print(f"  replication-valid: {approximate.provenance.replication_valid}")
     print(f"  pylcp-compatible block sizes: {approximate.hamiltonian.ns}")
     print(f"  force-ready by default: {approximate.report.force_ready_by_default}")
+    print("  provenance warnings:")
+    for warning in approximate.provenance.warnings:
+        print(f"  - {warning}")
     print("  collapsed/omitted terms:")
     for term in approximate.report.missing_or_collapsed_terms:
         print(f"  - {term}")

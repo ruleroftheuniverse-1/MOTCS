@@ -41,5 +41,10 @@ exists for audit work only; it is not enabled by default and is not force-ready.
 `ExactBackendMode.LOCAL_EXTENDED_ASTATE` currently reports feasibility blockers
 rather than constructing a local exact backend.
 
+The project is split into Track E (`exact`) and Track P (`provisional`); see
+`docs/project-tracks.md`. Provisional force-map plumbing exists only behind
+explicit opt-in and every provisional artifact is labeled
+`PROVISIONAL_NOT_RODRIGUEZ_REPLICATION`.
+
 Configuration files use angular-frequency detunings normalized to `Gamma`.
 Geometry functions use SI units (metres, tesla, and tesla/metre).

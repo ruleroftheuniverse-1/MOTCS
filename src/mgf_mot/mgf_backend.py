@@ -16,6 +16,7 @@ from numpy.typing import NDArray
 import pylcp
 
 from .spectroscopy import ALL_SPECTROSCOPY_CONSTANTS, SourcedConstant
+from .tracks import BackendProvenance, ProjectTrack
 
 FloatArray = NDArray[np.float64]
 
@@ -104,6 +105,7 @@ class ApproximateMgFHamiltonian:
     hamiltonian: pylcp.hamiltonian
     validation_model: MgFValidationModel
     report: MgFApproximationReport
+    provenance: BackendProvenance
 
 
 @dataclass(frozen=True)
@@ -509,7 +511,32 @@ def build_mgf_approximate_hamiltonian_from_sources(
         undocumented_defaults_used=(),
         force_ready_by_default=False,
     )
-    return ApproximateMgFHamiltonian(ham, model, report)
+    provenance = BackendProvenance(
+        track=ProjectTrack.PROVISIONAL,
+        backend_mode=approximation_mode.value,
+        force_ready=False,
+        replication_valid=False,
+        warnings=(
+            "PROVISIONAL backend: engineering/plumbing artifact only.",
+            "NOT_RODRIGUEZ_REPLICATION: exact excited-state d operator and Zeeman mappings are unresolved.",
+            "No approximate force output from this backend is force-ready by default.",
+        ),
+        omitted_terms=(
+            "ground_fluorine_nuclear_g_factor",
+            "excited_hyperfine_d operator",
+            "excited_backend_gL",
+            "excited_backend_gl",
+            "excited_backend_glprime",
+            "excited_backend_gr",
+            "excited_backend_greprime",
+            "excited_backend_gN",
+        ),
+        collapsed_terms=(
+            "excited_b_F_plus_2c_over_3 -> pylcp Astate b+c/3 with c=0",
+            "excited_p_plus_2q -> pylcp Astate p with q=0",
+        ),
+    )
+    return ApproximateMgFHamiltonian(ham, model, report, provenance)
 
 
 def build_mgf_hamiltonian_from_sources(
