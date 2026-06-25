@@ -31,6 +31,13 @@ class ApproximationMode(str, Enum):
     COLLAPSED_PYLCP_ASTATE = "collapsed_pylcp_astate"
 
 
+class ExactBackendMode(str, Enum):
+    """Strict exact-backend feasibility modes."""
+
+    NONE = "none"
+    LOCAL_EXTENDED_ASTATE = "local_extended_astate"
+
+
 @dataclass(frozen=True)
 class GroundEigenstateLabel:
     index: int
@@ -97,6 +104,19 @@ class ApproximateMgFHamiltonian:
     hamiltonian: pylcp.hamiltonian
     validation_model: MgFValidationModel
     report: MgFApproximationReport
+
+
+@dataclass(frozen=True)
+class ExactBackendFeasibility:
+    """Feasibility report for a source-faithful local excited-state extension."""
+
+    mode: ExactBackendMode
+    can_construct: bool
+    force_ready: bool
+    required_source_constants: tuple[str, ...]
+    missing_source_constants: tuple[SourcedConstant, ...]
+    blockers: tuple[str, ...]
+    undocumented_defaults_used: tuple[str, ...]
 
 
 def _required(
@@ -258,6 +278,79 @@ def _factory_blockers(
     details = [constant.name for constant in model.missing_constants]
     details.extend(model.backend_limitations)
     return tuple(details)
+
+
+_LOCAL_EXTENDED_ASTATE_REQUIRED_CONSTANTS = (
+    "ground_N",
+    "fluorine_I",
+    "ground_rotational_B",
+    "ground_spin_rotation_gamma",
+    "ground_backend_b",
+    "ground_dipolar_c",
+    "ground_nuclear_spin_rotation_CI",
+    "ground_electric_quadrupole_q0",
+    "ground_electric_quadrupole_q2",
+    "electron_g_factor",
+    "bohr_magneton_muB",
+    "nuclear_magneton_muN",
+    "excited_J",
+    "excited_parity",
+    "excited_rotational_B",
+    "excited_hyperfine_a",
+    "excited_b_F_plus_2c_over_3",
+    "excited_hyperfine_d",
+    "excited_p_plus_2q",
+)
+
+
+def analyze_mgf_exact_backend_feasibility(
+    constants: Mapping[str, SourcedConstant] | None = None,
+    *,
+    exact_backend_mode: ExactBackendMode = ExactBackendMode.LOCAL_EXTENDED_ASTATE,
+) -> ExactBackendFeasibility:
+    """Report whether a faithful local exact backend can be built today."""
+    if exact_backend_mode is ExactBackendMode.NONE:
+        raise MgFBackendCapabilityError(
+            "exact backend feasibility requires an explicit ExactBackendMode"
+        )
+    if exact_backend_mode is not ExactBackendMode.LOCAL_EXTENDED_ASTATE:
+        raise MgFBackendCapabilityError(f"unsupported exact backend mode: {exact_backend_mode}")
+
+    constants = ALL_SPECTROSCOPY_CONSTANTS if constants is None else constants
+    required = _LOCAL_EXTENDED_ASTATE_REQUIRED_CONSTANTS
+    missing = tuple(constants[name] for name in required if constants[name].value is None)
+
+    blockers = [
+        "The independent Doppelbauer excited hyperfine d=135 MHz value is source-tagged, "
+        "but the corresponding operator matrix element is not implemented or audited "
+        "from Doppelbauer/Brown-Carrington equations.",
+        "The existing pylcp.Astate fermicontact term only exposes b+c/3; using it "
+        "for Doppelbauer b_F+2c/3 plus d would be a physical collapse, not exact.",
+        "Excited Zeeman inputs gL, gl, glprime, gr, greprime, and gN are not "
+        "source-mapped to MgF with pylcp sign conventions.",
+        "Rodriguez's g=+0.001 is a near-zero representative simulation "
+        "assumption; it is not an exact replacement for the full A-state Zeeman operator.",
+        "The fluorine nuclear g-factor/convention remains uncertified for exact "
+        "ground magnetic matrices.",
+        "The proposed local extension has not been validated against Doppelbauer "
+        "line positions or an explicitly sourced F'=0/F'=1 splitting.",
+    ]
+    if missing:
+        blockers.insert(
+            0,
+            "One or more required source-tagged constants for the local extended "
+            "Astate feasibility check are missing.",
+        )
+
+    return ExactBackendFeasibility(
+        mode=exact_backend_mode,
+        can_construct=False,
+        force_ready=False,
+        required_source_constants=required,
+        missing_source_constants=missing,
+        blockers=tuple(blockers),
+        undocumented_defaults_used=(),
+    )
 
 
 def build_mgf_validation_model_from_sources(
@@ -423,15 +516,30 @@ def build_mgf_hamiltonian_from_sources(
     constants: Mapping[str, SourcedConstant] | None = None,
     *,
     approximation_mode: ApproximationMode = ApproximationMode.NONE,
+    exact_backend_mode: ExactBackendMode = ExactBackendMode.NONE,
 ) -> pylcp.hamiltonian | ApproximateMgFHamiltonian:
     """Strict complete-Hamiltonian factory.
 
     This currently fails by design rather than replacing the unresolved
     excited-state constants or independent ``d`` term with zeros.
     """
+    if approximation_mode is not ApproximationMode.NONE and exact_backend_mode is not ExactBackendMode.NONE:
+        raise MgFBackendCapabilityError(
+            "choose either an approximation_mode or an exact_backend_mode, not both"
+        )
     if approximation_mode is not ApproximationMode.NONE:
         return build_mgf_approximate_hamiltonian_from_sources(
             constants, approximation_mode=approximation_mode
+        )
+    if exact_backend_mode is not ExactBackendMode.NONE:
+        feasibility = analyze_mgf_exact_backend_feasibility(
+            constants, exact_backend_mode=exact_backend_mode
+        )
+        details = [constant.name for constant in feasibility.missing_source_constants]
+        details.extend(feasibility.blockers)
+        raise MgFBackendCapabilityError(
+            f"exact MgF Hamiltonian construction via {exact_backend_mode.value} "
+            "is blocked:\n- " + "\n- ".join(details)
         )
     model = build_mgf_validation_model_from_sources(constants)
     details = _factory_blockers(model)

@@ -206,6 +206,31 @@ Tests assert that exact mode fails clearly, approximation mode must be
 requested explicitly, the approximation report lists the collapsed/missing
 physics, and no undocumented pylcp defaults are used.
 
+### Exact backend feasibility mode
+
+The code also includes `ExactBackendMode.LOCAL_EXTENDED_ASTATE` as a feasibility
+mode. It does not construct a Hamiltonian yet. It exists to answer whether a
+small local extension of `pylcp.Astate` is justified from the current
+source-tagged ledger.
+
+Current answer: not yet. The exact feasibility report says:
+
+- the `d=135 MHz` value is source-tagged, but the corresponding operator matrix
+  element has not been implemented or audited from the spectroscopy equations;
+- collapsing Doppelbauer `b_F+2c/3` and `d` into pylcp's `b+c/3` slot would be
+  approximate, not exact;
+- excited Zeeman inputs `gL`, `gl`, `glprime`, `gr`, `greprime`, and `gN` are
+  not source-mapped to MgF with pylcp sign conventions;
+- Rodriguez's `g=+0.001` is a representative near-zero simulation assumption,
+  not an exact replacement for the full excited Zeeman operator;
+- the fluorine nuclear g-factor/convention remains uncertified for exact
+  ground magnetic matrices; and
+- the proposed local extension has not been validated against Doppelbauer line
+  positions or an explicitly sourced `F'=0/F'=1` splitting.
+
+The detailed implementation plan and blocker list are in
+[`docs/mgf-exact-backend-extension-plan.md`](mgf-exact-backend-extension-plan.md).
+
 ## Result
 
 The validation layer **passes the Rodriguez 12+4 structural check and

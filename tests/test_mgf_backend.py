@@ -3,9 +3,12 @@ from dataclasses import replace
 import numpy as np
 import pytest
 
+from scripts.validate_mgf_hamiltonian import main as validate_mgf_hamiltonian_main
 from mgf_mot.mgf_backend import (
     ApproximationMode,
+    ExactBackendMode,
     MgFBackendCapabilityError,
+    analyze_mgf_exact_backend_feasibility,
     build_mgf_approximate_hamiltonian_from_sources,
     build_mgf_hamiltonian_from_sources,
     build_mgf_validation_model_from_sources,
@@ -79,6 +82,68 @@ def test_explicit_approximation_reports_collapsed_physics_and_no_defaults() -> N
     assert "b_F+2c/3 is collapsed" in report_text
     assert "gL, gl, glprime, gr, greprime, and gN are set to 0" in report_text
     assert approximate.hamiltonian.ns == [12, 4]
+
+
+def test_exact_backend_feasibility_reports_precise_blockers_and_no_defaults() -> None:
+    feasibility = analyze_mgf_exact_backend_feasibility()
+    assert feasibility.mode is ExactBackendMode.LOCAL_EXTENDED_ASTATE
+    assert not feasibility.can_construct
+    assert not feasibility.force_ready
+    assert feasibility.undocumented_defaults_used == ()
+    assert feasibility.missing_source_constants == ()
+    blocker_text = "\n".join(feasibility.blockers)
+    assert "operator matrix element is not implemented" in blocker_text
+    assert "gL, gl, glprime, gr, greprime, and gN" in blocker_text
+    assert "g=+0.001" in blocker_text
+
+
+def test_exact_backend_mode_fails_clearly_after_feasibility_check() -> None:
+    with pytest.raises(MgFBackendCapabilityError) as exc_info:
+        build_mgf_hamiltonian_from_sources(
+            exact_backend_mode=ExactBackendMode.LOCAL_EXTENDED_ASTATE
+        )
+    message = str(exc_info.value)
+    assert "local_extended_astate" in message
+    assert "Doppelbauer" in message
+    assert "Zeeman" in message
+
+
+def test_exact_backend_mode_reports_missing_required_constants_first() -> None:
+    constants = dict(ALL_SPECTROSCOPY_CONSTANTS)
+    constants["excited_hyperfine_d"] = replace(
+        constants["excited_hyperfine_d"],
+        value=None,
+        status="unknown",
+        note="deliberately absent for test",
+    )
+    feasibility = analyze_mgf_exact_backend_feasibility(constants)
+    assert [constant.name for constant in feasibility.missing_source_constants] == [
+        "excited_hyperfine_d"
+    ]
+    with pytest.raises(MgFBackendCapabilityError) as exc_info:
+        build_mgf_hamiltonian_from_sources(
+            constants,
+            exact_backend_mode=ExactBackendMode.LOCAL_EXTENDED_ASTATE,
+        )
+    assert "excited_hyperfine_d" in str(exc_info.value)
+
+
+def test_exact_backend_and_approximation_modes_are_mutually_exclusive() -> None:
+    with pytest.raises(MgFBackendCapabilityError, match="either an approximation_mode"):
+        build_mgf_hamiltonian_from_sources(
+            approximation_mode=ApproximationMode.COLLAPSED_PYLCP_ASTATE,
+            exact_backend_mode=ExactBackendMode.LOCAL_EXTENDED_ASTATE,
+        )
+
+
+def test_validation_output_prints_exact_and_excited_assumptions(capsys) -> None:
+    validate_mgf_hamiltonian_main()
+    output = capsys.readouterr().out
+    assert "Exact backend feasibility:" in output
+    assert "mode: local_extended_astate" in output
+    assert "Rodriguez excited g assumption: 0.001" in output
+    assert "Doppelbauer independent excited hyperfine d=135 MHz" in output
+    assert "force-ready: False" in output
 
 
 def test_required_ground_value_is_never_replaced_by_default() -> None:

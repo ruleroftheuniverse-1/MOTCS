@@ -3,6 +3,7 @@
 from mgf_mot.mgf_backend import (
     ApproximationMode,
     MgFBackendCapabilityError,
+    analyze_mgf_exact_backend_feasibility,
     build_mgf_hamiltonian_from_sources,
     build_mgf_validation_model_from_sources,
 )
@@ -68,6 +69,20 @@ def main() -> None:
         print(exc)
     else:  # pragma: no cover - becomes relevant only after the backend is completed
         print("\nComplete pylcp.hamiltonian status: READY")
+
+    feasibility = analyze_mgf_exact_backend_feasibility()
+    print("\nExact backend feasibility:")
+    print(f"  mode: {feasibility.mode.value}")
+    print(f"  can construct exact Hamiltonian: {feasibility.can_construct}")
+    print(f"  force-ready: {feasibility.force_ready}")
+    print(f"  undocumented pylcp defaults used: {feasibility.undocumented_defaults_used}")
+    if feasibility.missing_source_constants:
+        print("  missing required source constants:")
+        for constant in feasibility.missing_source_constants:
+            print(f"  - {constant.name}: {constant.note}")
+    print("  blockers:")
+    for blocker in feasibility.blockers:
+        print(f"  - {blocker}")
 
     approximate = build_mgf_hamiltonian_from_sources(
         approximation_mode=ApproximationMode.COLLAPSED_PYLCP_ASTATE

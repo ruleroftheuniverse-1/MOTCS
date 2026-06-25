@@ -38,6 +38,8 @@ construction remains deliberately blocked pending a reviewed implementation of
 the independent Doppelbauer hyperfine `d` term and unresolved parameter
 mappings. An explicit provisional `ApproximationMode.COLLAPSED_PYLCP_ASTATE`
 exists for audit work only; it is not enabled by default and is not force-ready.
+`ExactBackendMode.LOCAL_EXTENDED_ASTATE` currently reports feasibility blockers
+rather than constructing a local exact backend.
 
 Configuration files use angular-frequency detunings normalized to `Gamma`.
 Geometry functions use SI units (metres, tesla, and tesla/metre).
