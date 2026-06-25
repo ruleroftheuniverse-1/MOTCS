@@ -1,0 +1,145 @@
+{
+  "arrays_path": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_rodriguez_static_3_flipped_gradient_diagnostics.npz",
+  "axis": "z",
+  "backend_provenance": {
+    "backend_mode": "collapsed_pylcp_astate",
+    "collapsed_terms": [
+      "excited_b_F_plus_2c_over_3 -> pylcp Astate b+c/3 with c=0",
+      "excited_p_plus_2q -> pylcp Astate p with q=0"
+    ],
+    "force_ready": false,
+    "omitted_terms": [
+      "ground_fluorine_nuclear_g_factor",
+      "excited_hyperfine_d operator",
+      "excited_backend_gL",
+      "excited_backend_gl",
+      "excited_backend_glprime",
+      "excited_backend_gr",
+      "excited_backend_greprime",
+      "excited_backend_gN"
+    ],
+    "replication_valid": false,
+    "track": "provisional",
+    "warnings": [
+      "PROVISIONAL backend: engineering/plumbing artifact only.",
+      "NOT_RODRIGUEZ_REPLICATION: exact excited-state d operator and Zeeman mappings are unresolved.",
+      "No approximate force output from this backend is force-ready by default."
+    ]
+  },
+  "case": "flipped_gradient",
+  "dF_dv": -0.2,
+  "dF_dx": 1.0,
+  "disclaimer": "PROVISIONAL convention/plumbing diagnostic only; NOT_RODRIGUEZ_REPLICATION; no physical conclusions.",
+  "force_vs_position_finite": true,
+  "force_vs_position_shape": [
+    9
+  ],
+  "force_vs_velocity_finite": true,
+  "force_vs_velocity_shape": [
+    9
+  ],
+  "forces_finite": true,
+  "forces_shape": [
+    9,
+    9
+  ],
+  "grid_metadata": {
+    "backend_mode": "collapsed_pylcp_astate",
+    "collapsed_terms": [
+      "excited_b_F_plus_2c_over_3 -> pylcp Astate b+c/3 with c=0",
+      "excited_p_plus_2q -> pylcp Astate p with q=0"
+    ],
+    "filename": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_force_grid_1d_z_axis.png",
+    "force_ready": false,
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION",
+    "omitted_terms": [
+      "ground_fluorine_nuclear_g_factor",
+      "excited_hyperfine_d operator",
+      "excited_backend_gL",
+      "excited_backend_gl",
+      "excited_backend_glprime",
+      "excited_backend_gr",
+      "excited_backend_greprime",
+      "excited_backend_gN"
+    ],
+    "replication_valid": false,
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION force_grid_1d z_axis",
+    "track": "provisional",
+    "warnings": [
+      "PROVISIONAL backend: engineering/plumbing artifact only.",
+      "NOT_RODRIGUEZ_REPLICATION: exact excited-state d operator and Zeeman mappings are unresolved.",
+      "No approximate force output from this backend is force-ready by default.",
+      "Diagnostic normalized force law for plumbing only.",
+      "Output units are normalized hbar*k*Gamma; not calibrated to MgF."
+    ]
+  },
+  "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION",
+  "plot_error": null,
+  "plot_paths": [
+    "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_rodriguez_static_3_flipped_gradient_grid.png",
+    "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_rodriguez_static_3_flipped_gradient_force_vs_position_v0.png",
+    "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_rodriguez_static_3_flipped_gradient_force_vs_velocity_x0.png"
+  ],
+  "positions_shape": [
+    9
+  ],
+  "provisional_config": {
+    "explicit_provisional_opt_in": true,
+    "flipped_gradient": true,
+    "flipped_polarization": false,
+    "normalized_damping": 0.2,
+    "normalized_spring": 1.0,
+    "units": "hbar*k*Gamma"
+  },
+  "run_type": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_run_002_reversal_diagnostics",
+  "source_config": {
+    "beam_model": "infinite_plane_wave",
+    "frequency_components": [
+      {
+        "detuning_gamma": -1.0,
+        "id": 1,
+        "polarization": "sigma_plus",
+        "relative_saturation": 0.25,
+        "role": "lower_F1",
+        "saturation": 1.45
+      },
+      {
+        "detuning_gamma": -1.0,
+        "id": 2,
+        "polarization": "sigma_minus",
+        "relative_saturation": 0.25,
+        "role": "F0",
+        "saturation": 1.45
+      },
+      {
+        "detuning_gamma": -1.0,
+        "id": 3,
+        "polarization": "sigma_minus",
+        "relative_saturation": 0.5,
+        "role": "upper_F1_F2_mean",
+        "saturation": 2.89
+      },
+      {
+        "detuning_gamma": 2.0,
+        "enabled": false,
+        "id": 4,
+        "polarization": "sigma_plus",
+        "relative_saturation": 0.0,
+        "role": "upper_F1_F2_mean_confinement",
+        "saturation": 0.0
+      }
+    ],
+    "magnetic_gradient": {
+      "unit": "G/cm",
+      "value": 20.0
+    },
+    "name": "rodriguez_static_3",
+    "schema_version": 1,
+    "source": "Rodriguez et al., static MgF [3], Fig. 2(b)"
+  },
+  "source_config_path": "configs\\rodriguez_static_3.yaml",
+  "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION run 002 rodriguez_static_3 flipped_gradient",
+  "velocities_shape": [
+    9
+  ]
+}
