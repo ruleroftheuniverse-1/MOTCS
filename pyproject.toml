@@ -7,7 +7,7 @@ name = "mgf-mot-force-map"
 version = "0.1.0"
 description = "Static MgF MOT force-map replication scaffold"
 requires-python = ">=3.10"
-dependencies = ["PyYAML>=6.0"]
+dependencies = ["PyYAML>=6.0", "pylcp==1.0.2"]
 
 [project.optional-dependencies]
 test = ["pytest>=8.0"]
@@ -15,7 +15,6 @@ notebook = [
     "ipykernel>=6.0",
     "jupyter>=1.0",
     "matplotlib>=3.8",
-    "pylcp==1.0.2",
 ]
 
 [tool.pytest.ini_options]

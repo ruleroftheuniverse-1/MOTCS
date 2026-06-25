@@ -4,9 +4,10 @@ This repository contains the pre-Hamiltonian foundation for reproducing the
 static MgF MOT force maps of Rodriguez *et al.*: paper parameters, SI unit
 conversions, the MOT quadrupole field, and the rotated six-beam geometry.
 
-The MgF Hamiltonian, transition couplings, force calculation, and trajectories
-are intentionally not implemented. The source paper does not contain all
-spectroscopy constants required to construct them faithfully.
+The faithful full MgF Hamiltonian, force calculation, and trajectories are
+intentionally not implemented. The current code validates the source-supported
+ground Hamiltonian and angular coupling tensor, while the exact excited-state
+factory remains blocked until the missing mappings are resolved.
 
 Install and test with:
 
@@ -24,6 +25,19 @@ python -m jupyter lab notebooks/pylcp_conventions_sanity_check.ipynb
 
 The checked-in notebook is already executed and contains its five force plots
 and quantitative sign assertions.
+
+Validate the source-tagged MgF level structure with:
+
+```powershell
+python scripts/validate_mgf_hamiltonian.py
+```
+
+This validation constructs the sourced 12-state ground Hamiltonian and the
+12-by-4 angular coupling structure. Complete excited-state Hamiltonian
+construction remains deliberately blocked pending a reviewed implementation of
+the independent Doppelbauer hyperfine `d` term and unresolved parameter
+mappings. An explicit provisional `ApproximationMode.COLLAPSED_PYLCP_ASTATE`
+exists for audit work only; it is not enabled by default and is not force-ready.
 
 Configuration files use angular-frequency detunings normalized to `Gamma`.
 Geometry functions use SI units (metres, tesla, and tesla/metre).
