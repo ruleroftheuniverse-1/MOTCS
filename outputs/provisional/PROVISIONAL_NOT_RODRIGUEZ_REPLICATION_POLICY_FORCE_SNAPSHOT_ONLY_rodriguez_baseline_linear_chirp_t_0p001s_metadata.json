@@ -1,0 +1,174 @@
+{
+  "arrays_path": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLICY_FORCE_SNAPSHOT_ONLY_rodriguez_baseline_linear_chirp_t_0p001s_grid.npz",
+  "axis": "z",
+  "backend_provenance": {
+    "backend_mode": "collapsed_pylcp_astate",
+    "collapsed_terms": [
+      "excited_b_F_plus_2c_over_3 -> pylcp Astate b+c/3 with c=0",
+      "excited_p_plus_2q -> pylcp Astate p with q=0"
+    ],
+    "force_ready": false,
+    "omitted_terms": [
+      "ground_fluorine_nuclear_g_factor",
+      "excited_hyperfine_d operator",
+      "excited_backend_gL",
+      "excited_backend_gl",
+      "excited_backend_glprime",
+      "excited_backend_gr",
+      "excited_backend_greprime",
+      "excited_backend_gN"
+    ],
+    "replication_valid": false,
+    "track": "provisional",
+    "warnings": [
+      "PROVISIONAL backend: engineering/plumbing artifact only.",
+      "NOT_RODRIGUEZ_REPLICATION: exact excited-state d operator and Zeeman mappings are unresolved.",
+      "No approximate force output from this backend is force-ready by default."
+    ]
+  },
+  "derived_force_config": {
+    "explicit_provisional_opt_in": true,
+    "flipped_gradient": false,
+    "flipped_polarization": false,
+    "normalized_damping": 0.2,
+    "normalized_spring": 5.79,
+    "units": "hbar*k*Gamma"
+  },
+  "disclaimer": "PROVISIONAL NOT_RODRIGUEZ_REPLICATION POLICY_FORCE_SNAPSHOT_ONLY; frozen-time static force snapshot only; no trajectory or capture calculation.",
+  "force_ready": false,
+  "forces_finite": true,
+  "forces_shape": [
+    5,
+    3
+  ],
+  "grid_metadata": {
+    "backend_mode": "collapsed_pylcp_astate",
+    "collapsed_terms": [
+      "excited_b_F_plus_2c_over_3 -> pylcp Astate b+c/3 with c=0",
+      "excited_p_plus_2q -> pylcp Astate p with q=0"
+    ],
+    "filename": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLICY_FORCE_SNAPSHOT_ONLY_rodriguez_baseline_linear_chirp_t_0p001s_grid.png",
+    "force_ready": false,
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLICY_FORCE_SNAPSHOT_ONLY",
+    "omitted_terms": [
+      "ground_fluorine_nuclear_g_factor",
+      "excited_hyperfine_d operator",
+      "excited_backend_gL",
+      "excited_backend_gl",
+      "excited_backend_glprime",
+      "excited_backend_gr",
+      "excited_backend_greprime",
+      "excited_backend_gN"
+    ],
+    "replication_valid": false,
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLICY_FORCE_SNAPSHOT_ONLY rodriguez_baseline_linear_chirp t=0.001s",
+    "track": "provisional",
+    "warnings": [
+      "PROVISIONAL backend: engineering/plumbing artifact only.",
+      "NOT_RODRIGUEZ_REPLICATION: exact excited-state d operator and Zeeman mappings are unresolved.",
+      "No approximate force output from this backend is force-ready by default.",
+      "Diagnostic normalized force law for plumbing only.",
+      "Output units are normalized hbar*k*Gamma; not calibrated to MgF.",
+      "PROVISIONAL backend: engineering/plumbing artifact only.",
+      "NOT_RODRIGUEZ_REPLICATION: exact excited-state d operator and Zeeman mappings are unresolved.",
+      "No approximate force output from this backend is force-ready by default.",
+      "POLICY_FORCE_SNAPSHOT_ONLY: frozen-time static grid; no dynamics.",
+      "No physical conclusions should be drawn from provisional force magnitudes or topology."
+    ]
+  },
+  "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLICY_FORCE_SNAPSHOT_ONLY",
+  "plot_error": null,
+  "plot_path": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLICY_FORCE_SNAPSHOT_ONLY_rodriguez_baseline_linear_chirp_t_0p001s_grid.png",
+  "policy_config_path": "configs\\rodriguez_baseline_linear_chirp.yaml",
+  "policy_sample": {
+    "component_order": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "components": [
+      {
+        "component_id": 1,
+        "detuning_gamma": -1.0,
+        "enabled": true,
+        "relative_saturation": 0.25,
+        "role": "lower_F1",
+        "saturation": 1.45
+      },
+      {
+        "component_id": 2,
+        "detuning_gamma": -1.0,
+        "enabled": true,
+        "relative_saturation": 0.25,
+        "role": "F0",
+        "saturation": 1.45
+      },
+      {
+        "component_id": 3,
+        "detuning_gamma": -1.0,
+        "enabled": true,
+        "relative_saturation": 0.5,
+        "role": "upper_F1_F2_mean",
+        "saturation": 2.89
+      },
+      {
+        "component_id": 4,
+        "detuning_gamma": 2.0,
+        "enabled": false,
+        "relative_saturation": 0.0,
+        "role": "upper_F1_F2_mean_confinement",
+        "saturation": 0.0
+      }
+    ],
+    "detuning_unit": "Gamma",
+    "saturation_unit": "saturation_parameter",
+    "time_s": 0.001
+  },
+  "positions_shape": [
+    5
+  ],
+  "replication_valid": false,
+  "run_type": "policy_force_snapshot_only",
+  "snapshot_metadata": {
+    "backend_mode": "collapsed_pylcp_astate",
+    "component_detunings_gamma": [
+      -1.0,
+      -1.0,
+      -1.0,
+      2.0
+    ],
+    "component_enabled": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "component_saturations": [
+      1.45,
+      1.45,
+      2.89,
+      0.0
+    ],
+    "filename_stem": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLICY_FORCE_SNAPSHOT_ONLY_rodriguez_baseline_linear_chirp_t_0p001s",
+    "force_ready": false,
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLICY_FORCE_SNAPSHOT_ONLY",
+    "policy_name": "rodriguez_baseline_linear_chirp",
+    "policy_type": "linear_chirp",
+    "replication_valid": false,
+    "time_s": 0.001,
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLICY_FORCE_SNAPSHOT_ONLY rodriguez_baseline_linear_chirp t=0.001s",
+    "track": "provisional",
+    "warnings": [
+      "PROVISIONAL backend: engineering/plumbing artifact only.",
+      "NOT_RODRIGUEZ_REPLICATION: exact excited-state d operator and Zeeman mappings are unresolved.",
+      "No approximate force output from this backend is force-ready by default.",
+      "POLICY_FORCE_SNAPSHOT_ONLY: frozen-time static grid; no dynamics.",
+      "No physical conclusions should be drawn from provisional force magnitudes or topology."
+    ]
+  },
+  "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLICY_FORCE_SNAPSHOT_ONLY rodriguez_baseline_linear_chirp t=0.001s",
+  "velocities_shape": [
+    3
+  ]
+}

@@ -48,6 +48,9 @@ explicit opt-in and every provisional artifact is labeled
 
 Track P laser schedule policies are documented in `docs/policy-interface.md`;
 inspect them with `python scripts/inspect_policies.py`.
+Frozen-time policy-force snapshots are documented in
+`docs/policy-force-snapshots.md` and run with
+`python scripts/run_provisional_policy_force_snapshots.py`.
 
 Configuration files use angular-frequency detunings normalized to `Gamma`.
 Geometry functions use SI units (metres, tesla, and tesla/metre).
