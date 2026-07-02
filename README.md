@@ -46,5 +46,8 @@ The project is split into Track E (`exact`) and Track P (`provisional`); see
 explicit opt-in and every provisional artifact is labeled
 `PROVISIONAL_NOT_RODRIGUEZ_REPLICATION`.
 
+Track P laser schedule policies are documented in `docs/policy-interface.md`;
+inspect them with `python scripts/inspect_policies.py`.
+
 Configuration files use angular-frequency detunings normalized to `Gamma`.
 Geometry functions use SI units (metres, tesla, and tesla/metre).

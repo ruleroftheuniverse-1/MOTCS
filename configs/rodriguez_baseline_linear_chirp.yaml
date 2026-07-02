@@ -1,0 +1,27 @@
+schema_version: 1
+name: rodriguez_baseline_linear_chirp
+policy_type: linear_chirp
+source: Rodriguez et al., baseline MgF chirp schedule, Track P policy interface only
+track: provisional
+component_order: [1, 2, 3, 4]
+detuning_unit: Gamma
+saturation_unit: saturation_parameter
+time_unit: s
+beam_model: infinite_plane_wave
+chirp:
+  components: [1, 2, 3]
+  initial_detuning_gamma: -8.0
+  final_detuning_gamma: -1.0
+  duration_s: 0.001
+  component_4_behavior: explicit_off_during_chirp
+frequency_components:
+  - {id: 1, role: lower_F1, detuning_gamma: -8.0, polarization: sigma_plus, saturation: 1.45, relative_saturation: 0.25}
+  - {id: 2, role: F0, detuning_gamma: -8.0, polarization: sigma_minus, saturation: 1.45, relative_saturation: 0.25}
+  - {id: 3, role: upper_F1_F2_mean, detuning_gamma: -8.0, polarization: sigma_minus, saturation: 2.89, relative_saturation: 0.50}
+  - {id: 4, role: upper_F1_F2_mean_confinement, enabled: false, detuning_gamma: 2.0, polarization: sigma_plus, saturation: 0.0, relative_saturation: 0.0}
+apparatus_bounds:
+  max_chirp_rate_gamma_per_s: 10000.0
+  detuning_range_gamma: [-10.0, 3.0]
+  saturation_range: [0.0, 3.0]
+  frequency_update_granularity_s: null
+  intensity_update_granularity_s: null

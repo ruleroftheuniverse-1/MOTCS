@@ -1,0 +1,453 @@
+{
+  "component_order": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "force_ready": false,
+  "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLICY_INTERFACE_ONLY",
+  "records": [
+    {
+      "apparatus_bounds": null,
+      "component_order": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "detuning_unit": "Gamma",
+      "disclaimer": "PROVISIONAL NOT_RODRIGUEZ_REPLICATION POLICY_INTERFACE_ONLY; control-schedule plumbing only; no dynamics or physical conclusions.",
+      "force_ready": false,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLICY_INTERFACE_ONLY",
+      "policy_config_path": "configs\\rodriguez_static_3.yaml",
+      "policy_name": "rodriguez_static_3",
+      "policy_type": "static",
+      "replication_valid": false,
+      "sample": {
+        "component_order": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "components": [
+          {
+            "component_id": 1,
+            "detuning_gamma": -1.0,
+            "enabled": true,
+            "relative_saturation": 0.25,
+            "role": "lower_F1",
+            "saturation": 1.45
+          },
+          {
+            "component_id": 2,
+            "detuning_gamma": -1.0,
+            "enabled": true,
+            "relative_saturation": 0.25,
+            "role": "F0",
+            "saturation": 1.45
+          },
+          {
+            "component_id": 3,
+            "detuning_gamma": -1.0,
+            "enabled": true,
+            "relative_saturation": 0.5,
+            "role": "upper_F1_F2_mean",
+            "saturation": 2.89
+          },
+          {
+            "component_id": 4,
+            "detuning_gamma": 2.0,
+            "enabled": false,
+            "relative_saturation": 0.0,
+            "role": "upper_F1_F2_mean_confinement",
+            "saturation": 0.0
+          }
+        ],
+        "detuning_unit": "Gamma",
+        "saturation_unit": "saturation_parameter",
+        "time_s": 0.0
+      },
+      "saturation_unit": "saturation_parameter",
+      "time_unit": "s"
+    },
+    {
+      "apparatus_bounds": null,
+      "component_order": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "detuning_unit": "Gamma",
+      "disclaimer": "PROVISIONAL NOT_RODRIGUEZ_REPLICATION POLICY_INTERFACE_ONLY; control-schedule plumbing only; no dynamics or physical conclusions.",
+      "force_ready": false,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLICY_INTERFACE_ONLY",
+      "policy_config_path": "configs\\rodriguez_static_3_plus_1.yaml",
+      "policy_name": "rodriguez_static_3_plus_1",
+      "policy_type": "static",
+      "replication_valid": false,
+      "sample": {
+        "component_order": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "components": [
+          {
+            "component_id": 1,
+            "detuning_gamma": -1.0,
+            "enabled": true,
+            "relative_saturation": 0.25,
+            "role": "lower_F1",
+            "saturation": 1.45
+          },
+          {
+            "component_id": 2,
+            "detuning_gamma": -1.0,
+            "enabled": true,
+            "relative_saturation": 0.25,
+            "role": "F0",
+            "saturation": 1.45
+          },
+          {
+            "component_id": 3,
+            "detuning_gamma": -1.0,
+            "enabled": true,
+            "relative_saturation": 0.375,
+            "role": "upper_F1_F2_mean",
+            "saturation": 2.17
+          },
+          {
+            "component_id": 4,
+            "detuning_gamma": 2.0,
+            "enabled": true,
+            "relative_saturation": 0.125,
+            "role": "upper_F1_F2_mean_confinement",
+            "saturation": 0.72
+          }
+        ],
+        "detuning_unit": "Gamma",
+        "saturation_unit": "saturation_parameter",
+        "time_s": 0.0
+      },
+      "saturation_unit": "saturation_parameter",
+      "time_unit": "s"
+    },
+    {
+      "apparatus_bounds": {
+        "detuning_range_gamma": [
+          -10.0,
+          3.0
+        ],
+        "frequency_update_granularity_s": null,
+        "intensity_update_granularity_s": null,
+        "max_chirp_rate_gamma_per_s": 10000.0,
+        "saturation_range": [
+          0.0,
+          3.0
+        ]
+      },
+      "component_order": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "detuning_unit": "Gamma",
+      "disclaimer": "PROVISIONAL NOT_RODRIGUEZ_REPLICATION POLICY_INTERFACE_ONLY; control-schedule plumbing only; no dynamics or physical conclusions.",
+      "force_ready": false,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLICY_INTERFACE_ONLY",
+      "policy_config_path": "configs\\rodriguez_baseline_linear_chirp.yaml",
+      "policy_name": "rodriguez_baseline_linear_chirp",
+      "policy_type": "linear_chirp",
+      "replication_valid": false,
+      "sample": {
+        "component_order": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "components": [
+          {
+            "component_id": 1,
+            "detuning_gamma": -8.0,
+            "enabled": true,
+            "relative_saturation": 0.25,
+            "role": "lower_F1",
+            "saturation": 1.45
+          },
+          {
+            "component_id": 2,
+            "detuning_gamma": -8.0,
+            "enabled": true,
+            "relative_saturation": 0.25,
+            "role": "F0",
+            "saturation": 1.45
+          },
+          {
+            "component_id": 3,
+            "detuning_gamma": -8.0,
+            "enabled": true,
+            "relative_saturation": 0.5,
+            "role": "upper_F1_F2_mean",
+            "saturation": 2.89
+          },
+          {
+            "component_id": 4,
+            "detuning_gamma": 2.0,
+            "enabled": false,
+            "relative_saturation": 0.0,
+            "role": "upper_F1_F2_mean_confinement",
+            "saturation": 0.0
+          }
+        ],
+        "detuning_unit": "Gamma",
+        "saturation_unit": "saturation_parameter",
+        "time_s": 0.0
+      },
+      "saturation_unit": "saturation_parameter",
+      "time_unit": "s"
+    },
+    {
+      "apparatus_bounds": {
+        "detuning_range_gamma": [
+          -10.0,
+          3.0
+        ],
+        "frequency_update_granularity_s": null,
+        "intensity_update_granularity_s": null,
+        "max_chirp_rate_gamma_per_s": 10000.0,
+        "saturation_range": [
+          0.0,
+          3.0
+        ]
+      },
+      "component_order": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "detuning_unit": "Gamma",
+      "disclaimer": "PROVISIONAL NOT_RODRIGUEZ_REPLICATION POLICY_INTERFACE_ONLY; control-schedule plumbing only; no dynamics or physical conclusions.",
+      "force_ready": false,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLICY_INTERFACE_ONLY",
+      "policy_config_path": "configs\\rodriguez_baseline_linear_chirp.yaml",
+      "policy_name": "rodriguez_baseline_linear_chirp",
+      "policy_type": "linear_chirp",
+      "replication_valid": false,
+      "sample": {
+        "component_order": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "components": [
+          {
+            "component_id": 1,
+            "detuning_gamma": -4.5,
+            "enabled": true,
+            "relative_saturation": 0.25,
+            "role": "lower_F1",
+            "saturation": 1.45
+          },
+          {
+            "component_id": 2,
+            "detuning_gamma": -4.5,
+            "enabled": true,
+            "relative_saturation": 0.25,
+            "role": "F0",
+            "saturation": 1.45
+          },
+          {
+            "component_id": 3,
+            "detuning_gamma": -4.5,
+            "enabled": true,
+            "relative_saturation": 0.5,
+            "role": "upper_F1_F2_mean",
+            "saturation": 2.89
+          },
+          {
+            "component_id": 4,
+            "detuning_gamma": 2.0,
+            "enabled": false,
+            "relative_saturation": 0.0,
+            "role": "upper_F1_F2_mean_confinement",
+            "saturation": 0.0
+          }
+        ],
+        "detuning_unit": "Gamma",
+        "saturation_unit": "saturation_parameter",
+        "time_s": 0.0005
+      },
+      "saturation_unit": "saturation_parameter",
+      "time_unit": "s"
+    },
+    {
+      "apparatus_bounds": {
+        "detuning_range_gamma": [
+          -10.0,
+          3.0
+        ],
+        "frequency_update_granularity_s": null,
+        "intensity_update_granularity_s": null,
+        "max_chirp_rate_gamma_per_s": 10000.0,
+        "saturation_range": [
+          0.0,
+          3.0
+        ]
+      },
+      "component_order": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "detuning_unit": "Gamma",
+      "disclaimer": "PROVISIONAL NOT_RODRIGUEZ_REPLICATION POLICY_INTERFACE_ONLY; control-schedule plumbing only; no dynamics or physical conclusions.",
+      "force_ready": false,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLICY_INTERFACE_ONLY",
+      "policy_config_path": "configs\\rodriguez_baseline_linear_chirp.yaml",
+      "policy_name": "rodriguez_baseline_linear_chirp",
+      "policy_type": "linear_chirp",
+      "replication_valid": false,
+      "sample": {
+        "component_order": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "components": [
+          {
+            "component_id": 1,
+            "detuning_gamma": -1.0,
+            "enabled": true,
+            "relative_saturation": 0.25,
+            "role": "lower_F1",
+            "saturation": 1.45
+          },
+          {
+            "component_id": 2,
+            "detuning_gamma": -1.0,
+            "enabled": true,
+            "relative_saturation": 0.25,
+            "role": "F0",
+            "saturation": 1.45
+          },
+          {
+            "component_id": 3,
+            "detuning_gamma": -1.0,
+            "enabled": true,
+            "relative_saturation": 0.5,
+            "role": "upper_F1_F2_mean",
+            "saturation": 2.89
+          },
+          {
+            "component_id": 4,
+            "detuning_gamma": 2.0,
+            "enabled": false,
+            "relative_saturation": 0.0,
+            "role": "upper_F1_F2_mean_confinement",
+            "saturation": 0.0
+          }
+        ],
+        "detuning_unit": "Gamma",
+        "saturation_unit": "saturation_parameter",
+        "time_s": 0.001
+      },
+      "saturation_unit": "saturation_parameter",
+      "time_unit": "s"
+    },
+    {
+      "apparatus_bounds": {
+        "detuning_range_gamma": [
+          -10.0,
+          3.0
+        ],
+        "frequency_update_granularity_s": null,
+        "intensity_update_granularity_s": null,
+        "max_chirp_rate_gamma_per_s": 10000.0,
+        "saturation_range": [
+          0.0,
+          3.0
+        ]
+      },
+      "component_order": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "detuning_unit": "Gamma",
+      "disclaimer": "PROVISIONAL NOT_RODRIGUEZ_REPLICATION POLICY_INTERFACE_ONLY; control-schedule plumbing only; no dynamics or physical conclusions.",
+      "force_ready": false,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLICY_INTERFACE_ONLY",
+      "policy_config_path": "configs\\rodriguez_baseline_linear_chirp.yaml",
+      "policy_name": "rodriguez_baseline_linear_chirp",
+      "policy_type": "linear_chirp",
+      "replication_valid": false,
+      "sample": {
+        "component_order": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "components": [
+          {
+            "component_id": 1,
+            "detuning_gamma": -1.0,
+            "enabled": true,
+            "relative_saturation": 0.25,
+            "role": "lower_F1",
+            "saturation": 1.45
+          },
+          {
+            "component_id": 2,
+            "detuning_gamma": -1.0,
+            "enabled": true,
+            "relative_saturation": 0.25,
+            "role": "F0",
+            "saturation": 1.45
+          },
+          {
+            "component_id": 3,
+            "detuning_gamma": -1.0,
+            "enabled": true,
+            "relative_saturation": 0.5,
+            "role": "upper_F1_F2_mean",
+            "saturation": 2.89
+          },
+          {
+            "component_id": 4,
+            "detuning_gamma": 2.0,
+            "enabled": false,
+            "relative_saturation": 0.0,
+            "role": "upper_F1_F2_mean_confinement",
+            "saturation": 0.0
+          }
+        ],
+        "detuning_unit": "Gamma",
+        "saturation_unit": "saturation_parameter",
+        "time_s": 0.0015
+      },
+      "saturation_unit": "saturation_parameter",
+      "time_unit": "s"
+    }
+  ],
+  "replication_valid": false,
+  "run_type": "policy_interface_inspection",
+  "warnings": [
+    "PROVISIONAL",
+    "NOT_RODRIGUEZ_REPLICATION",
+    "POLICY_INTERFACE_ONLY",
+    "Track E exact MgF force readiness remains blocked.",
+    "No trajectories, capture velocities, Gaussian beams, optimizers, or exact force maps are run."
+  ]
+}

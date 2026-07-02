@@ -1,7 +1,12 @@
 schema_version: 1
 name: rodriguez_static_3
+policy_type: static
 source: Rodriguez et al., static MgF [3], Fig. 2(b)
 beam_model: infinite_plane_wave
+component_order: [1, 2, 3, 4]
+detuning_unit: Gamma
+saturation_unit: saturation_parameter
+time_unit: s
 magnetic_gradient:
   value: 20.0
   unit: G/cm
@@ -10,4 +15,3 @@ frequency_components:
   - {id: 2, role: F0, detuning_gamma: -1.0, polarization: sigma_minus, saturation: 1.45, relative_saturation: 0.25}
   - {id: 3, role: upper_F1_F2_mean, detuning_gamma: -1.0, polarization: sigma_minus, saturation: 2.89, relative_saturation: 0.50}
   - {id: 4, role: upper_F1_F2_mean_confinement, enabled: false, detuning_gamma: 2.0, polarization: sigma_plus, saturation: 0.0, relative_saturation: 0.0}
-
