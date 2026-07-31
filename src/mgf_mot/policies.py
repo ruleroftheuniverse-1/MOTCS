@@ -15,7 +15,7 @@ import math
 import yaml
 
 ComponentId = Literal[1, 2, 3, 4]
-PolicyType = Literal["static", "linear_chirp"]
+PolicyType = Literal["static", "linear_chirp", "chirp_to_trap_handoff"]
 
 COMPONENT_ORDER: tuple[ComponentId, ComponentId, ComponentId, ComponentId] = (1, 2, 3, 4)
 DETUNING_UNIT = "Gamma"
@@ -48,6 +48,12 @@ class ComponentState:
     enabled: bool
     role: str = ""
     relative_saturation: float | None = None
+    off_reason: str | None = None
+
+    @property
+    def active(self) -> bool:
+        """Whether this component carries optical power in the policy state."""
+        return self.enabled and self.saturation > 0.0
 
 
 @dataclass(frozen=True)
@@ -59,6 +65,8 @@ class PolicySample:
     detuning_unit: str
     saturation_unit: str
     components: tuple[ComponentState, ComponentState, ComponentState, ComponentState]
+    segment: str = ""
+    handoff_occurred: bool = False
 
 
 class LaserSchedulePolicy(Protocol):
@@ -68,6 +76,7 @@ class LaserSchedulePolicy(Protocol):
     detuning_unit: str
     saturation_unit: str
     time_unit: str
+    event_times_s: tuple[float, ...]
 
     def sample(self, t: float) -> PolicySample:
         """Return per-component detuning and saturation state at time ``t``."""
@@ -116,6 +125,7 @@ def _component_state_from_mapping(data: dict[str, Any]) -> ComponentState:
         enabled=bool(data.get("enabled", True)),
         role=str(data.get("role", "")),
         relative_saturation=relative,
+        off_reason=(None if data.get("off_reason") is None else str(data["off_reason"])),
     )
 
 
@@ -196,7 +206,13 @@ class StaticPolicy:
             detuning_unit=self.detuning_unit,
             saturation_unit=self.saturation_unit,
             components=self.components,
+            segment="static",
+            handoff_occurred=False,
         )
+
+    @property
+    def event_times_s(self) -> tuple[float, ...]:
+        return ()
 
     @classmethod
     def from_config(cls, config: dict[str, Any]) -> "StaticPolicy":
@@ -272,6 +288,7 @@ class LinearChirpPolicy:
                 enabled=component.enabled,
                 role=component.role,
                 relative_saturation=component.relative_saturation,
+                off_reason=component.off_reason,
             )
             for component in self.components
         )
@@ -281,7 +298,13 @@ class LinearChirpPolicy:
             detuning_unit=self.detuning_unit,
             saturation_unit=self.saturation_unit,
             components=_validate_components(components),
+            segment="linear_chirp",
+            handoff_occurred=False,
         )
+
+    @property
+    def event_times_s(self) -> tuple[float, ...]:
+        return ()
 
     @classmethod
     def from_config(cls, config: dict[str, Any]) -> "LinearChirpPolicy":
@@ -308,19 +331,162 @@ class LinearChirpPolicy:
         )
 
 
+@dataclass(frozen=True)
+class ChirpToTrapHandoffPolicy:
+    """Instantaneous Rodriguez-style switch from chirped [3] to static [3+1]."""
+
+    name: str
+    chirp_policy: LinearChirpPolicy
+    trap_policy: StaticPolicy
+    handoff_time_s: float
+    source: str = ""
+    policy_type: PolicyType = "chirp_to_trap_handoff"
+    component_order: tuple[ComponentId, ComponentId, ComponentId, ComponentId] = COMPONENT_ORDER
+    detuning_unit: str = DETUNING_UNIT
+    saturation_unit: str = SATURATION_UNIT
+    time_unit: str = TIME_UNIT
+    apparatus_bounds: ApparatusBounds | None = None
+
+    def __post_init__(self) -> None:
+        _validate_units(self.detuning_unit, self.saturation_unit, self.time_unit)
+        _validate_component_order(self.component_order)
+        handoff_time_s = _finite(self.handoff_time_s, "handoff_time_s")
+        if handoff_time_s <= 0.0:
+            raise PolicyValidationError("handoff_time_s must be positive")
+        if self.chirp_policy.duration_s != handoff_time_s:
+            raise PolicyValidationError(
+                "chirp duration_s must exactly equal handoff_time_s"
+            )
+        if self.chirp_policy.component_order != self.component_order:
+            raise PolicyValidationError("chirp component order does not match handoff policy")
+        if self.trap_policy.component_order != self.component_order:
+            raise PolicyValidationError("trap component order does not match handoff policy")
+        pre = self.chirp_policy.components
+        post = self.trap_policy.components
+        if tuple(component.saturation for component in pre) != (1.45, 1.45, 2.89, 0.0):
+            raise PolicyValidationError(
+                "Rodriguez pre-handoff saturation vector must be (1.45, 1.45, 2.89, 0.0)"
+            )
+        if pre[3].enabled or pre[3].active:
+            raise PolicyValidationError("component 4 must be explicitly off before handoff")
+        if pre[3].off_reason != "parked_off_until_3_plus_1_handoff":
+            raise PolicyValidationError(
+                "component 4 pre-handoff off_reason must be parked_off_until_3_plus_1_handoff"
+            )
+        if tuple(component.detuning_gamma for component in post) != (-1.0, -1.0, -1.0, 2.0):
+            raise PolicyValidationError(
+                "Rodriguez post-handoff detunings must be (-1, -1, -1, +2) Gamma"
+            )
+        if tuple(component.saturation for component in post) != (1.45, 1.45, 2.17, 0.72):
+            raise PolicyValidationError(
+                "Rodriguez post-handoff saturation vector must be (1.45, 1.45, 2.17, 0.72)"
+            )
+        if not post[3].active:
+            raise PolicyValidationError("component 4 must be active after handoff")
+
+    @property
+    def duration_s(self) -> float:
+        """Compatibility alias for the chirp duration and handoff time."""
+        return self.handoff_time_s
+
+    @property
+    def event_times_s(self) -> tuple[float, ...]:
+        """Known policy discontinuities that integration must land on exactly."""
+        return (self.handoff_time_s,)
+
+    def sample(self, t: float) -> PolicySample:
+        time_s = _finite(t, "sample time")
+        if time_s < self.handoff_time_s:
+            child = self.chirp_policy.sample(time_s)
+            segment = "chirp_3"
+            handoff_occurred = False
+        else:
+            child = self.trap_policy.sample(time_s)
+            segment = "trap_3_plus_1"
+            handoff_occurred = True
+        return PolicySample(
+            time_s=time_s,
+            component_order=self.component_order,
+            detuning_unit=self.detuning_unit,
+            saturation_unit=self.saturation_unit,
+            components=child.components,
+            segment=segment,
+            handoff_occurred=handoff_occurred,
+        )
+
+    @classmethod
+    def from_config(cls, config: dict[str, Any]) -> "ChirpToTrapHandoffPolicy":
+        detuning_unit = config.get("detuning_unit", DETUNING_UNIT)
+        saturation_unit = config.get("saturation_unit", SATURATION_UNIT)
+        time_unit = config.get("time_unit", TIME_UNIT)
+        _validate_units(detuning_unit, saturation_unit, time_unit)
+        component_order = tuple(config.get("component_order", COMPONENT_ORDER))
+        _validate_component_order(component_order)
+        handoff = config["handoff"]
+        handoff_time_s = _finite(handoff["time_s"], "handoff_time_s")
+        if handoff.get("boundary_convention") != "t_lt_tau_pre_t_ge_tau_post":
+            raise PolicyValidationError(
+                "handoff boundary_convention must be t_lt_tau_pre_t_ge_tau_post"
+            )
+
+        shared = {
+            "source": str(config.get("source", "")),
+            "component_order": list(component_order),
+            "detuning_unit": detuning_unit,
+            "saturation_unit": saturation_unit,
+            "time_unit": time_unit,
+            "apparatus_bounds": config.get("apparatus_bounds"),
+        }
+        chirp_policy = LinearChirpPolicy.from_config(
+            {
+                **shared,
+                "name": f"{config['name']}_pre_handoff",
+                "policy_type": "linear_chirp",
+                "chirp": config["chirp"],
+                "frequency_components": config["frequency_components"],
+            }
+        )
+        trap_policy = StaticPolicy.from_config(
+            {
+                **shared,
+                "name": f"{config['name']}_post_handoff",
+                "policy_type": "static",
+                "frequency_components": handoff["frequency_components"],
+            }
+        )
+        return cls(
+            name=str(config["name"]),
+            source=str(config.get("source", "")),
+            chirp_policy=chirp_policy,
+            trap_policy=trap_policy,
+            handoff_time_s=handoff_time_s,
+            component_order=component_order,  # type: ignore[arg-type]
+            detuning_unit=detuning_unit,
+            saturation_unit=saturation_unit,
+            time_unit=time_unit,
+            apparatus_bounds=_bounds_from_mapping(config.get("apparatus_bounds")),
+        )
+
+
 def load_policy_config(path: str | Path) -> dict[str, Any]:
     with Path(path).open("r", encoding="utf-8") as handle:
         return yaml.safe_load(handle)
 
 
-def policy_from_config(config: dict[str, Any]) -> StaticPolicy | LinearChirpPolicy:
+def policy_from_config(
+    config: dict[str, Any],
+) -> StaticPolicy | LinearChirpPolicy | ChirpToTrapHandoffPolicy:
     policy_type = config.get("policy_type", "static")
     if policy_type == "static":
         return StaticPolicy.from_config(config)
     if policy_type == "linear_chirp":
         return LinearChirpPolicy.from_config(config)
+    if policy_type == "chirp_to_trap_handoff":
+        return ChirpToTrapHandoffPolicy.from_config(config)
     raise PolicyValidationError(f"unsupported policy_type {policy_type!r}")
 
 
-def load_policy(path: str | Path) -> StaticPolicy | LinearChirpPolicy:
+def load_policy(
+    path: str | Path,
+) -> StaticPolicy | LinearChirpPolicy | ChirpToTrapHandoffPolicy:
     return policy_from_config(load_policy_config(path))

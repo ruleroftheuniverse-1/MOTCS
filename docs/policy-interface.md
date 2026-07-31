@@ -19,6 +19,20 @@ The component order is always explicit:
 No component may be silently missing. Component `(4)` being off must be an
 explicit state, not a default inferred by absence.
 
+Each component state separates frequency from optical activity:
+
+- `detuning_gamma`: where that component is tuned or parked;
+- `saturation`: optical intensity scale;
+- `enabled`: whether the schedule enables that component;
+- `active`: true only when the component is enabled and has positive
+  saturation;
+- `off_reason`: why an inactive component is off.
+
+A component can therefore have a detuning value while still being optically off.
+For the Rodriguez baseline linear policy, component `(4)` is parked at
+`+2 Gamma` with zero saturation and `active = false` until a separate `[3+1]`
+handoff policy activates it.
+
 ## Units
 
 The policy interface currently uses:
@@ -51,7 +65,8 @@ policy object, not as a dynamics run:
 - components `(1, 2, 3)` reach `-1 Gamma` at `tau = 1 ms`;
 - after `tau`, components `(1, 2, 3)` remain at `-1 Gamma`;
 - component `(4)` is explicitly off during the baseline chirp unless a later
-  reviewed handoff policy turns it on.
+  reviewed handoff policy turns it on. Its `+2 Gamma` detuning is a parked
+  frequency, not active optical power.
 
 The config is:
 
@@ -59,6 +74,15 @@ The config is:
 
 The policy tests assert the exact endpoint values at `t=0` and `t=tau`, plus
 the hold value for `t>tau`.
+
+### `ChirpToTrapHandoffPolicy`
+
+The Rodriguez-style instantaneous handoff is represented separately by
+`ChirpToTrapHandoffPolicy` and
+`configs/rodriguez_chirp_to_3_plus_1_handoff.yaml`. It exposes `tau` through
+`event_times_s`, uses the chirped `[3]` state for `t < tau`, and selects the
+static `[3+1]` state for `t >= tau`. See
+`docs/chirp-to-trap-handoff.md` for its event-boundary contract.
 
 ## Apparatus-realism bounds
 
@@ -104,4 +128,3 @@ track split:
 
 This policy interface alone does not constitute a Rodriguez replication and
 does not support physical conclusions.
-

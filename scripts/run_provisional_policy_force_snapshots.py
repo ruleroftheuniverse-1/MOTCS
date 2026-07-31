@@ -95,6 +95,7 @@ def run(output_dir: Path = DEFAULT_OUTPUT_DIR, *, save_plots: bool = True) -> li
             component_detunings_gamma=np.asarray(snapshot.metadata.component_detunings_gamma),
             component_saturations=np.asarray(snapshot.metadata.component_saturations),
             component_enabled=np.asarray(snapshot.metadata.component_enabled),
+            component_active=np.asarray(snapshot.metadata.component_active),
         )
 
         if save_plots:
@@ -134,7 +135,8 @@ def run(output_dir: Path = DEFAULT_OUTPUT_DIR, *, save_plots: bool = True) -> li
         )
         print(
             f"snapshot t={time_s:g}s detunings="
-            f"{snapshot.metadata.component_detunings_gamma} shape={snapshot.grid.forces.shape}"
+            f"{snapshot.metadata.component_detunings_gamma} active="
+            f"{snapshot.metadata.component_active} shape={snapshot.grid.forces.shape}"
         )
         records.append(
             {
@@ -145,6 +147,9 @@ def run(output_dir: Path = DEFAULT_OUTPUT_DIR, *, save_plots: bool = True) -> li
                 "forces_shape": snapshot.grid.forces.shape,
                 "forces_finite": bool(np.isfinite(snapshot.grid.forces).all()),
                 "component_detunings_gamma": snapshot.metadata.component_detunings_gamma,
+                "component_saturations": snapshot.metadata.component_saturations,
+                "component_active": snapshot.metadata.component_active,
+                "component_states": snapshot.metadata.component_states,
             }
         )
 
@@ -170,10 +175,20 @@ def run(output_dir: Path = DEFAULT_OUTPUT_DIR, *, save_plots: bool = True) -> li
         f"- policy: `{policy.name}`",
         f"- tau: `{policy.duration_s}` s",
         "",
+        "Component detuning is reported separately from optical activity. A component may have a parked detuning while off.",
+        "",
         "## Snapshots",
         "",
     ]
     for record in records:
+        component_lines = [
+            (
+                f"  - c{state.component_id}: detuning `{state.detuning_gamma}` Gamma, "
+                f"saturation `{state.saturation}`, active `{state.active}`, "
+                f"off_reason `{state.off_reason}`"
+            )
+            for state in record["component_states"]
+        ]
         report_lines.extend(
             [
                 f"### {POLICY_FORCE_SNAPSHOT_LABEL} t={record['time_s']:.6g}s",
@@ -184,6 +199,10 @@ def run(output_dir: Path = DEFAULT_OUTPUT_DIR, *, save_plots: bool = True) -> li
                 f"- force grid shape: `{tuple(record['forces_shape'])}`",
                 f"- finite: `{record['forces_finite']}`",
                 f"- detunings Gamma: `{record['component_detunings_gamma']}`",
+                f"- saturations: `{record['component_saturations']}`",
+                f"- active: `{record['component_active']}`",
+                "- component table:",
+                *component_lines,
                 "",
             ]
         )

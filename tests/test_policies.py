@@ -71,8 +71,10 @@ def test_linear_chirp_policy_endpoints_and_hold() -> None:
         assert after_end[component_id].detuning_gamma == -1.0
 
     assert at_start[4].enabled is False
+    assert at_start[4].active is False
     assert at_start[4].saturation == 0.0
     assert at_start[4].detuning_gamma == 2.0
+    assert at_start[4].off_reason == "parked_off_until_3_plus_1_handoff"
     assert policy.component_4_behavior == "explicit_off_during_chirp"
 
 

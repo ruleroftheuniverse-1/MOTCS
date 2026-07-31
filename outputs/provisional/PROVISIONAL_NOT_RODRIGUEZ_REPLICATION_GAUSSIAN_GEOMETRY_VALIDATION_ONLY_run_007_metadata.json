@@ -1,0 +1,357 @@
+{
+  "analytic_beam_checks": [
+    {
+      "all_samples_finite": true,
+      "all_samples_in_unit_interval": true,
+      "beam_name": "+x_prime",
+      "center_envelope": 1.0,
+      "expected_one_radius_envelope": 0.1353352832366127,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY",
+      "longitudinal_displacement_envelope": 1.0,
+      "right_handed_u_cross_v_equals_k": true,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY analytic beam +x_prime",
+      "u_radius_envelope": 0.1353352832366128,
+      "v_radius_envelope": 0.1353352832366127
+    },
+    {
+      "all_samples_finite": true,
+      "all_samples_in_unit_interval": true,
+      "beam_name": "-x_prime",
+      "center_envelope": 1.0,
+      "expected_one_radius_envelope": 0.1353352832366127,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY",
+      "longitudinal_displacement_envelope": 1.0,
+      "right_handed_u_cross_v_equals_k": true,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY analytic beam -x_prime",
+      "u_radius_envelope": 0.1353352832366128,
+      "v_radius_envelope": 0.1353352832366127
+    },
+    {
+      "all_samples_finite": true,
+      "all_samples_in_unit_interval": true,
+      "beam_name": "+y_prime",
+      "center_envelope": 1.0,
+      "expected_one_radius_envelope": 0.1353352832366127,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY",
+      "longitudinal_displacement_envelope": 1.0,
+      "right_handed_u_cross_v_equals_k": true,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY analytic beam +y_prime",
+      "u_radius_envelope": 0.1353352832366128,
+      "v_radius_envelope": 0.1353352832366127
+    },
+    {
+      "all_samples_finite": true,
+      "all_samples_in_unit_interval": true,
+      "beam_name": "-y_prime",
+      "center_envelope": 1.0,
+      "expected_one_radius_envelope": 0.1353352832366127,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY",
+      "longitudinal_displacement_envelope": 1.0,
+      "right_handed_u_cross_v_equals_k": true,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY analytic beam -y_prime",
+      "u_radius_envelope": 0.1353352832366128,
+      "v_radius_envelope": 0.1353352832366127
+    },
+    {
+      "all_samples_finite": true,
+      "all_samples_in_unit_interval": true,
+      "beam_name": "+z",
+      "center_envelope": 1.0,
+      "expected_one_radius_envelope": 0.1353352832366127,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY",
+      "longitudinal_displacement_envelope": 1.0,
+      "right_handed_u_cross_v_equals_k": true,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY analytic beam +z",
+      "u_radius_envelope": 0.1353352832366127,
+      "v_radius_envelope": 0.1353352832366127
+    },
+    {
+      "all_samples_finite": true,
+      "all_samples_in_unit_interval": true,
+      "beam_name": "-z",
+      "center_envelope": 1.0,
+      "expected_one_radius_envelope": 0.1353352832366127,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY",
+      "longitudinal_displacement_envelope": 1.0,
+      "right_handed_u_cross_v_equals_k": true,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY analytic beam -z",
+      "u_radius_envelope": 0.1353352832366127,
+      "v_radius_envelope": 0.1353352832366127
+    }
+  ],
+  "arrays_finite": true,
+  "arrays_path": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY_run_007_arrays.npz",
+  "backend_provenance": {
+    "backend_mode": "collapsed_pylcp_astate",
+    "collapsed_terms": [
+      "excited_b_F_plus_2c_over_3 -> pylcp Astate b+c/3 with c=0",
+      "excited_p_plus_2q -> pylcp Astate p with q=0"
+    ],
+    "force_ready": false,
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY",
+    "omitted_terms": [
+      "ground_fluorine_nuclear_g_factor",
+      "excited_hyperfine_d operator",
+      "excited_backend_gL",
+      "excited_backend_gl",
+      "excited_backend_glprime",
+      "excited_backend_gr",
+      "excited_backend_greprime",
+      "excited_backend_gN"
+    ],
+    "replication_valid": false,
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY backend provenance",
+    "track": "provisional",
+    "warnings": [
+      "PROVISIONAL backend: engineering/plumbing artifact only.",
+      "NOT_RODRIGUEZ_REPLICATION: exact excited-state d operator and Zeeman mappings are unresolved.",
+      "No approximate force output from this backend is force-ready by default."
+    ]
+  },
+  "counterpropagating_pair_checks": [
+    {
+      "identical_envelopes": true,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY",
+      "max_envelope_difference": 0.0,
+      "pair_name": "x_prime",
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY pair x_prime"
+    },
+    {
+      "identical_envelopes": true,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY",
+      "max_envelope_difference": 0.0,
+      "pair_name": "y_prime",
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY pair y_prime"
+    },
+    {
+      "identical_envelopes": true,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY",
+      "max_envelope_difference": 0.0,
+      "pair_name": "z",
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY pair z"
+    }
+  ],
+  "disclaimer": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY: geometry and force plumbing only; no threshold search, source distribution, stochastic diffusion, optimization, exact force, or physical conclusion.",
+  "force_ready": false,
+  "force_snapshots": [
+    {
+      "beam_mode": "plane_wave",
+      "forces": [
+        0.28950000000000004,
+        0.14475000000000002,
+        -0.0,
+        -0.14475000000000002,
+        -0.28950000000000004
+      ],
+      "grid_shape": [
+        5,
+        1
+      ],
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY",
+      "replication_valid": false,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY plane-wave snapshot"
+    },
+    {
+      "beam_mode": "elliptical_gaussian",
+      "forces": [
+        5.499941874268481e-05,
+        0.013351986111617361,
+        -0.0,
+        -0.013351986111617361,
+        -5.499941874268481e-05
+      ],
+      "grid_shape": [
+        5,
+        1
+      ],
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY",
+      "replication_valid": false,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY Gaussian snapshot"
+    }
+  ],
+  "gaussian_config_path": "configs\\rodriguez_gaussian_baseline.yaml",
+  "geometry_config": {
+    "equal_peak_intensity": true,
+    "longitudinal_model": "none",
+    "power_allocation_status": "unresolved_no_conversion",
+    "radius_convention": "1/e^2_intensity_radius",
+    "reported_peak_saturation_vectors": {
+      "three_frequency": [
+        1.45,
+        1.45,
+        2.89,
+        0.0
+      ],
+      "three_plus_one": [
+        1.45,
+        1.45,
+        2.17,
+        0.72
+      ]
+    },
+    "source": "Rodriguez et al., stated elliptical Gaussian beam geometry; Track P validation only",
+    "total_power_w": 1.0,
+    "wxy_m": 0.0175,
+    "wz_m": 0.01
+  },
+  "geometry_provenance": {
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY",
+    "longitudinal_model": "none",
+    "power_allocation_status": "unresolved_no_conversion",
+    "radius_convention": "1/e^2_intensity_radius",
+    "replication_valid": false,
+    "source": "Rodriguez et al., stated elliptical Gaussian beam geometry; Track P validation only",
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY geometry provenance",
+    "total_power_w": 1.0,
+    "track": "provisional",
+    "warnings": [
+      "PROVISIONAL Gaussian geometry for engineering validation only.",
+      "NOT_RODRIGUEZ_REPLICATION: exact MgF force readiness remains blocked.",
+      "Reported peak saturation vectors are used directly.",
+      "Total 1 W power is metadata only; no per-beam or per-component allocation is inferred."
+    ]
+  },
+  "lab_frame_diagnostics": [
+    {
+      "envelopes": {
+        "+x_prime": 1.0,
+        "+y_prime": 1.0,
+        "+z": 1.0,
+        "-x_prime": 1.0,
+        "-y_prime": 1.0,
+        "-z": 1.0
+      },
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY",
+      "point_name": "origin",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY lab point origin"
+    },
+    {
+      "envelopes": {
+        "+x_prime": 0.00028493048887656935,
+        "+y_prime": 0.00028493048887656935,
+        "+z": 8.118538349144053e-08,
+        "-x_prime": 0.00028493048887656935,
+        "-y_prime": 0.00028493048887656935,
+        "-z": 8.118538349144053e-08
+      },
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY",
+      "point_name": "x_minus_50_mm",
+      "position_m": [
+        -0.05,
+        0.0,
+        0.0
+      ],
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY lab point x_minus_50_mm"
+    },
+    {
+      "envelopes": {
+        "+x_prime": 0.12992260830505953,
+        "+y_prime": 0.12992260830505953,
+        "+z": 0.01687988414878991,
+        "-x_prime": 0.12992260830505953,
+        "-y_prime": 0.12992260830505953,
+        "-z": 0.01687988414878991
+      },
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY",
+      "point_name": "x_minus_25_mm",
+      "position_m": [
+        -0.025,
+        0.0,
+        0.0
+      ],
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY lab point x_minus_25_mm"
+    },
+    {
+      "envelopes": {
+        "+x_prime": 0.12992260830505953,
+        "+y_prime": 0.12992260830505953,
+        "+z": 0.01687988414878991,
+        "-x_prime": 0.12992260830505953,
+        "-y_prime": 0.12992260830505953,
+        "-z": 0.01687988414878991
+      },
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY",
+      "point_name": "x_plus_25_mm",
+      "position_m": [
+        0.025,
+        0.0,
+        0.0
+      ],
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY lab point x_plus_25_mm"
+    },
+    {
+      "envelopes": {
+        "+x_prime": 0.00028493048887656935,
+        "+y_prime": 0.00028493048887656935,
+        "+z": 8.118538349144053e-08,
+        "-x_prime": 0.00028493048887656935,
+        "-y_prime": 0.00028493048887656935,
+        "-z": 8.118538349144053e-08
+      },
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY",
+      "point_name": "x_plus_50_mm",
+      "position_m": [
+        0.05,
+        0.0,
+        0.0
+      ],
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY lab point x_plus_50_mm"
+    },
+    {
+      "envelopes": {
+        "+x_prime": 0.7214222903547562,
+        "+y_prime": 0.7214222903547562,
+        "+z": 0.1353352832366127,
+        "-x_prime": 0.7214222903547562,
+        "-y_prime": 0.7214222903547562,
+        "-z": 0.1353352832366127
+      },
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY",
+      "point_name": "y_plus_10_mm",
+      "position_m": [
+        0.0,
+        0.01,
+        0.0
+      ],
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY lab point y_plus_10_mm"
+    },
+    {
+      "envelopes": {
+        "+x_prime": 0.1353352832366127,
+        "+y_prime": 0.1353352832366127,
+        "+z": 1.0,
+        "-x_prime": 0.1353352832366127,
+        "-y_prime": 0.1353352832366127,
+        "-z": 1.0
+      },
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY",
+      "point_name": "z_plus_10_mm",
+      "position_m": [
+        0.0,
+        0.0,
+        0.01
+      ],
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY lab point z_plus_10_mm"
+    }
+  ],
+  "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY",
+  "peak_saturation_vector_used_directly": [
+    1.45,
+    1.45,
+    2.17,
+    0.72
+  ],
+  "plane_wave_behavior_retained": true,
+  "plot_error": null,
+  "plot_path": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY_run_007_force_comparison.png",
+  "policy_config_path": "configs\\rodriguez_static_3_plus_1.yaml",
+  "replication_valid": false,
+  "run_type": "gaussian_geometry_validation_only",
+  "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY Run 007 metadata",
+  "total_power_conversion_performed": false
+}

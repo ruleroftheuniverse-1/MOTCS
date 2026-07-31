@@ -71,6 +71,13 @@ def test_policy_snapshot_metadata_and_shapes(chirp_policy, provisional_backend) 
     assert not snapshot.metadata.replication_valid
     assert not snapshot.metadata.force_ready
     assert snapshot.metadata.component_detunings_gamma == (-8.0, -8.0, -8.0, 2.0)
+    assert snapshot.metadata.component_saturations == (1.45, 1.45, 2.89, 0.0)
+    assert snapshot.metadata.component_active == (True, True, True, False)
+    assert snapshot.metadata.component_enabled == (True, True, True, False)
+    assert snapshot.metadata.component_off_reasons[3] == "parked_off_until_3_plus_1_handoff"
+    assert snapshot.metadata.component_states[3].detuning_gamma == 2.0
+    assert snapshot.metadata.component_states[3].saturation == 0.0
+    assert snapshot.metadata.component_states[3].active is False
     assert snapshot.grid.forces.shape == (5, 3)
     assert np.isfinite(snapshot.grid.forces).all()
     assert snapshot.grid.metadata.replication_valid is False
@@ -98,10 +105,20 @@ def test_policy_snapshot_run_outputs_and_endpoint_metadata(tmp_path) -> None:
         assert metadata["backend_provenance"]["track"] == "provisional"
         assert metadata["backend_provenance"]["replication_valid"] is False
         assert metadata["snapshot_metadata"]["component_detunings_gamma"] == list(expected)
+        assert metadata["snapshot_metadata"]["component_saturations"][3] == 0.0
+        assert metadata["snapshot_metadata"]["component_active"][3] is False
+        assert metadata["snapshot_metadata"]["component_enabled"][3] is False
+        assert metadata["snapshot_metadata"]["component_off_reasons"][3] == "parked_off_until_3_plus_1_handoff"
+        component4 = metadata["snapshot_metadata"]["component_states"][3]
+        assert component4["detuning_gamma"] == 2.0
+        assert component4["saturation"] == 0.0
+        assert component4["active"] is False
         assert metadata["forces_shape"] == [5, 3]
         assert metadata["forces_finite"] is True
         arrays = np.load(record["arrays_path"])
         assert arrays["forces"].shape == (5, 3)
+        assert arrays["component_saturations"][3] == 0.0
+        assert arrays["component_active"][3] == np.False_
         assert np.isfinite(arrays["forces"]).all()
 
     report = tmp_path / f"{POLICY_FORCE_SNAPSHOT_LABEL}_run_003.md"
@@ -113,6 +130,8 @@ def test_policy_snapshot_run_outputs_and_endpoint_metadata(tmp_path) -> None:
     assert "No capture velocity was computed" in text
     assert "Exact MgF force readiness remains blocked" in text
     assert "No physical conclusions" in text
+    assert "component table" in text
+    assert "c4: detuning `2.0` Gamma, saturation `0.0`, active `False`" in text
 
 
 def test_policy_snapshot_no_forbidden_public_runtime_names() -> None:

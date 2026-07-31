@@ -60,8 +60,23 @@ It may not claim:
 - Rodriguez replication validity;
 - force readiness by default;
 - quantitative comparison to Rodriguez force magnitudes;
-- capture behavior, chirp performance, Gaussian-beam physics, trajectories, or
-  optimized parameters.
+- capture behavior, chirp performance, Gaussian-beam physics, physically
+  meaningful trajectories, or optimized parameters.
+
+Track P may exercise a visibly labeled trajectory scaffold solely to validate
+the policy-to-pointwise-force-to-integrator interface. That scaffold may not
+define capture/loss criteria, source distributions, loading, calibrated
+force-to-acceleration physics, or physical trajectory conclusions.
+
+Track P may also apply explicitly engineering-defined outcome labels to an
+ordered trajectory list. `BOUNDED_FINAL_STATE` records satisfaction of a
+configured final dwell window only; it is not a physical capture claim and may
+not be used to report a capture velocity or threshold curve.
+
+Track P may validate source-stated finite beam geometry and explicitly apply
+its envelopes to the normalized diagnostic force. This permits coordinate and
+plumbing checks only; it does not establish Gaussian-beam molecular-force
+physics or authorize capture-style conclusions.
 
 Required status metadata for Track P:
 
@@ -100,4 +115,3 @@ requires new source-backed physics:
    effective replacement;
 4. rerun backend validation;
 5. only then enable exact-track force-map construction.
-

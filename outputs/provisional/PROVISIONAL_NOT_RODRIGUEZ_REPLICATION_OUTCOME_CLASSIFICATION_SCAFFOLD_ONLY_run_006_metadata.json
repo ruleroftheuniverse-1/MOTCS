@@ -1,0 +1,489 @@
+{
+  "analytic_examples": [
+    {
+      "case": "damped_bounded",
+      "criteria": {
+        "final_dwell_window_s": 1.0,
+        "hard_escape_position": 2.0,
+        "hard_speed": 6.0,
+        "max_position": 0.05,
+        "max_speed": 0.05,
+        "min_dwell_samples": 50,
+        "position_measure": "radius",
+        "position_unit": "normalized_position",
+        "required_dwell_fraction": 1.0,
+        "speed_unit": "normalized_position_per_s"
+      },
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_OUTCOME_CLASSIFICATION_SCAFFOLD_ONLY",
+      "outcome": {
+        "dwell_end_s": 5.0,
+        "dwell_in_bounds_count": 101,
+        "dwell_in_bounds_fraction": 1.0,
+        "dwell_sample_count": 101,
+        "dwell_start_s": 4.0,
+        "label": "BOUNDED_FINAL_STATE",
+        "max_position_dwell": 0.0009337920501385795,
+        "max_position_overall": 1.0,
+        "max_speed_dwell": 0.006125574316894485,
+        "max_speed_overall": 0.8812770916586181,
+        "numerical_reason": "101/101 dwell samples satisfied radius<=0.05 and speed<=0.05"
+      },
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_OUTCOME_CLASSIFICATION_SCAFFOLD_ONLY analytic damped_bounded",
+      "uses_provisional_backend": false
+    },
+    {
+      "case": "fast_escaped",
+      "criteria": {
+        "final_dwell_window_s": 1.0,
+        "hard_escape_position": 2.0,
+        "hard_speed": 6.0,
+        "max_position": 0.05,
+        "max_speed": 0.05,
+        "min_dwell_samples": 50,
+        "position_measure": "radius",
+        "position_unit": "normalized_position",
+        "required_dwell_fraction": 1.0,
+        "speed_unit": "normalized_position_per_s"
+      },
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_OUTCOME_CLASSIFICATION_SCAFFOLD_ONLY",
+      "outcome": {
+        "dwell_end_s": 1.0,
+        "dwell_in_bounds_count": 0,
+        "dwell_in_bounds_fraction": null,
+        "dwell_sample_count": 0,
+        "dwell_start_s": null,
+        "label": "ESCAPED",
+        "max_position_dwell": null,
+        "max_position_overall": 4.999999999999988,
+        "max_speed_dwell": null,
+        "max_speed_overall": 5.0,
+        "numerical_reason": "maximum radius 5 exceeded hard escape bound 2"
+      },
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_OUTCOME_CLASSIFICATION_SCAFFOLD_ONLY analytic fast_escaped",
+      "uses_provisional_backend": false
+    },
+    {
+      "case": "short_unresolved",
+      "criteria": {
+        "final_dwell_window_s": 1.0,
+        "hard_escape_position": 2.0,
+        "hard_speed": 6.0,
+        "max_position": 0.05,
+        "max_speed": 0.05,
+        "min_dwell_samples": 50,
+        "position_measure": "radius",
+        "position_unit": "normalized_position",
+        "required_dwell_fraction": 1.0,
+        "speed_unit": "normalized_position_per_s"
+      },
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_OUTCOME_CLASSIFICATION_SCAFFOLD_ONLY",
+      "outcome": {
+        "dwell_end_s": 0.5,
+        "dwell_in_bounds_count": 0,
+        "dwell_in_bounds_fraction": null,
+        "dwell_sample_count": 0,
+        "dwell_start_s": null,
+        "label": "UNRESOLVED",
+        "max_position_dwell": null,
+        "max_position_overall": 0.0,
+        "max_speed_dwell": null,
+        "max_speed_overall": 0.0,
+        "numerical_reason": "trajectory duration 0.5 s is shorter than required dwell window 1 s"
+      },
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_OUTCOME_CLASSIFICATION_SCAFFOLD_ONLY analytic short_unresolved",
+      "uses_provisional_backend": false
+    },
+    {
+      "case": "nonfinite_invalid",
+      "criteria": {
+        "final_dwell_window_s": 1.0,
+        "hard_escape_position": 2.0,
+        "hard_speed": 6.0,
+        "max_position": 0.05,
+        "max_speed": 0.05,
+        "min_dwell_samples": 50,
+        "position_measure": "radius",
+        "position_unit": "normalized_position",
+        "required_dwell_fraction": 1.0,
+        "speed_unit": "normalized_position_per_s"
+      },
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_OUTCOME_CLASSIFICATION_SCAFFOLD_ONLY",
+      "outcome": {
+        "dwell_end_s": null,
+        "dwell_in_bounds_count": 0,
+        "dwell_in_bounds_fraction": null,
+        "dwell_sample_count": 0,
+        "dwell_start_s": null,
+        "label": "INVALID",
+        "max_position_dwell": null,
+        "max_position_overall": null,
+        "max_speed_dwell": null,
+        "max_speed_overall": null,
+        "numerical_reason": "trajectory contains NaN or nonfinite values"
+      },
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_OUTCOME_CLASSIFICATION_SCAFFOLD_ONLY analytic nonfinite_invalid",
+      "uses_provisional_backend": false
+    },
+    {
+      "case": "center_crossing_not_bounded",
+      "criteria": {
+        "final_dwell_window_s": 1.0,
+        "hard_escape_position": 2.0,
+        "hard_speed": 6.0,
+        "max_position": 0.05,
+        "max_speed": 0.05,
+        "min_dwell_samples": 50,
+        "position_measure": "radius",
+        "position_unit": "normalized_position",
+        "required_dwell_fraction": 1.0,
+        "speed_unit": "normalized_position_per_s"
+      },
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_OUTCOME_CLASSIFICATION_SCAFFOLD_ONLY",
+      "outcome": {
+        "dwell_end_s": 3.141592653589793,
+        "dwell_in_bounds_count": 0,
+        "dwell_in_bounds_fraction": 0.0,
+        "dwell_sample_count": 101,
+        "dwell_start_s": 2.141592653589793,
+        "label": "UNRESOLVED",
+        "max_position_dwell": 0.99999999999782,
+        "max_position_overall": 1.0,
+        "max_speed_dwell": 0.8368987908953148,
+        "max_speed_overall": 0.9999996829306411,
+        "numerical_reason": "only 0/101 dwell samples satisfied the engineering bounds; required fraction is 1"
+      },
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_OUTCOME_CLASSIFICATION_SCAFFOLD_ONLY analytic center_crossing_not_bounded",
+      "uses_provisional_backend": false
+    }
+  ],
+  "arrays_finite": true,
+  "arrays_path": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_OUTCOME_CLASSIFICATION_SCAFFOLD_ONLY_run_006_arrays.npz",
+  "backend_provenance": {
+    "backend_mode": "collapsed_pylcp_astate",
+    "collapsed_terms": [
+      "excited_b_F_plus_2c_over_3 -> pylcp Astate b+c/3 with c=0",
+      "excited_p_plus_2q -> pylcp Astate p with q=0"
+    ],
+    "force_ready": false,
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_OUTCOME_CLASSIFICATION_SCAFFOLD_ONLY",
+    "omitted_terms": [
+      "ground_fluorine_nuclear_g_factor",
+      "excited_hyperfine_d operator",
+      "excited_backend_gL",
+      "excited_backend_gl",
+      "excited_backend_glprime",
+      "excited_backend_gr",
+      "excited_backend_greprime",
+      "excited_backend_gN"
+    ],
+    "replication_valid": false,
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_OUTCOME_CLASSIFICATION_SCAFFOLD_ONLY backend provenance",
+    "track": "provisional",
+    "warnings": [
+      "PROVISIONAL backend: engineering/plumbing artifact only.",
+      "NOT_RODRIGUEZ_REPLICATION: exact excited-state d operator and Zeeman mappings are unresolved.",
+      "No approximate force output from this backend is force-ready by default."
+    ]
+  },
+  "beam_model": "infinite_plane_wave",
+  "criteria": {
+    "final_dwell_window_s": 0.0002,
+    "hard_escape_position": 0.5,
+    "hard_speed": 0.5,
+    "max_position": 0.1,
+    "max_speed": 0.1,
+    "min_dwell_samples": 2,
+    "position_measure": "radius",
+    "position_unit": "normalized_position",
+    "required_dwell_fraction": 1.0,
+    "speed_unit": "normalized_position_per_s"
+  },
+  "criteria_status": "provisional_engineering_defined",
+  "disclaimer": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_OUTCOME_CLASSIFICATION_SCAFFOLD_ONLY: engineering-defined outcomes only; no velocity-threshold search, source distribution, Gaussian beam, optimization, exact force, or physical conclusion.",
+  "ensemble_metadata": {
+    "backend_mode": "collapsed_pylcp_astate",
+    "collapsed_terms": [
+      "excited_b_F_plus_2c_over_3 -> pylcp Astate b+c/3 with c=0",
+      "excited_p_plus_2q -> pylcp Astate p with q=0"
+    ],
+    "force_ready": false,
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_OUTCOME_CLASSIFICATION_SCAFFOLD_ONLY",
+    "omitted_terms": [
+      "ground_fluorine_nuclear_g_factor",
+      "excited_hyperfine_d operator",
+      "excited_backend_gL",
+      "excited_backend_gl",
+      "excited_backend_glprime",
+      "excited_backend_gr",
+      "excited_backend_greprime",
+      "excited_backend_gN"
+    ],
+    "policy_name": "rodriguez_chirp_to_3_plus_1_handoff",
+    "replication_valid": false,
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_OUTCOME_CLASSIFICATION_SCAFFOLD_ONLY ordered ensemble",
+    "track": "provisional",
+    "warnings": [
+      "PROVISIONAL backend: engineering/plumbing artifact only.",
+      "NOT_RODRIGUEZ_REPLICATION: exact excited-state d operator and Zeeman mappings are unresolved.",
+      "No approximate force output from this backend is force-ready by default.",
+      "OUTCOME_CLASSIFICATION_SCAFFOLD_ONLY: engineering labels only.",
+      "BOUNDED_FINAL_STATE is not equivalent to physical MOT capture.",
+      "No threshold search or physical inference is performed."
+    ]
+  },
+  "event_time_exact_in_all_members": true,
+  "force_ready": false,
+  "initial_state_order_preserved": true,
+  "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_OUTCOME_CLASSIFICATION_SCAFFOLD_ONLY",
+  "members": [
+    {
+      "component_4_active_at_and_after_handoff": true,
+      "component_4_active_before_handoff": false,
+      "event_times_s": [
+        0.001
+      ],
+      "index": 0,
+      "initial_state": {
+        "position": [
+          0.0,
+          0.0,
+          0.05
+        ],
+        "velocity": [
+          0.0,
+          0.0,
+          -0.05
+        ]
+      },
+      "integration_status": "completed",
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_OUTCOME_CLASSIFICATION_SCAFFOLD_ONLY",
+      "outcome": {
+        "dwell_end_s": 0.0014,
+        "dwell_in_bounds_count": 2,
+        "dwell_in_bounds_fraction": 1.0,
+        "dwell_sample_count": 2,
+        "dwell_start_s": 0.0012,
+        "label": "BOUNDED_FINAL_STATE",
+        "max_position_dwell": 0.049934763949158266,
+        "max_position_overall": 0.05,
+        "max_speed_dwell": 0.05039096079985786,
+        "max_speed_overall": 0.05039096079985786,
+        "numerical_reason": "2/2 dwell samples satisfied radius<=0.1 and speed<=0.1"
+      },
+      "position_shape": [
+        7,
+        3
+      ],
+      "provenance": {
+        "backend_mode": "collapsed_pylcp_astate",
+        "collapsed_terms": [
+          "excited_b_F_plus_2c_over_3 -> pylcp Astate b+c/3 with c=0",
+          "excited_p_plus_2q -> pylcp Astate p with q=0"
+        ],
+        "force_ready": false,
+        "initial_state": {
+          "position": [
+            0.0,
+            0.0,
+            0.05
+          ],
+          "velocity": [
+            0.0,
+            0.0,
+            -0.05
+          ]
+        },
+        "integration_status": "completed",
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_OUTCOME_CLASSIFICATION_SCAFFOLD_ONLY",
+        "numerical_reason": "2/2 dwell samples satisfied radius<=0.1 and speed<=0.1",
+        "omitted_terms": [
+          "ground_fluorine_nuclear_g_factor",
+          "excited_hyperfine_d operator",
+          "excited_backend_gL",
+          "excited_backend_gl",
+          "excited_backend_glprime",
+          "excited_backend_gr",
+          "excited_backend_greprime",
+          "excited_backend_gN"
+        ],
+        "outcome_label": "BOUNDED_FINAL_STATE",
+        "policy_name": "rodriguez_chirp_to_3_plus_1_handoff",
+        "replication_valid": false,
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_OUTCOME_CLASSIFICATION_SCAFFOLD_ONLY ensemble member 0",
+        "track": "provisional"
+      },
+      "time_shape": [
+        7
+      ],
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_OUTCOME_CLASSIFICATION_SCAFFOLD_ONLY ensemble member 0"
+    },
+    {
+      "component_4_active_at_and_after_handoff": true,
+      "component_4_active_before_handoff": false,
+      "event_times_s": [
+        0.001
+      ],
+      "index": 1,
+      "initial_state": {
+        "position": [
+          0.0,
+          0.0,
+          0.05
+        ],
+        "velocity": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "integration_status": "completed",
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_OUTCOME_CLASSIFICATION_SCAFFOLD_ONLY",
+      "outcome": {
+        "dwell_end_s": 0.0014,
+        "dwell_in_bounds_count": 2,
+        "dwell_in_bounds_fraction": 1.0,
+        "dwell_sample_count": 2,
+        "dwell_start_s": 0.0012,
+        "label": "BOUNDED_FINAL_STATE",
+        "max_position_dwell": 0.049999755393899135,
+        "max_position_overall": 0.05,
+        "max_speed_dwell": 0.0004052424968188763,
+        "max_speed_overall": 0.0004052424968188763,
+        "numerical_reason": "2/2 dwell samples satisfied radius<=0.1 and speed<=0.1"
+      },
+      "position_shape": [
+        7,
+        3
+      ],
+      "provenance": {
+        "backend_mode": "collapsed_pylcp_astate",
+        "collapsed_terms": [
+          "excited_b_F_plus_2c_over_3 -> pylcp Astate b+c/3 with c=0",
+          "excited_p_plus_2q -> pylcp Astate p with q=0"
+        ],
+        "force_ready": false,
+        "initial_state": {
+          "position": [
+            0.0,
+            0.0,
+            0.05
+          ],
+          "velocity": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "integration_status": "completed",
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_OUTCOME_CLASSIFICATION_SCAFFOLD_ONLY",
+        "numerical_reason": "2/2 dwell samples satisfied radius<=0.1 and speed<=0.1",
+        "omitted_terms": [
+          "ground_fluorine_nuclear_g_factor",
+          "excited_hyperfine_d operator",
+          "excited_backend_gL",
+          "excited_backend_gl",
+          "excited_backend_glprime",
+          "excited_backend_gr",
+          "excited_backend_greprime",
+          "excited_backend_gN"
+        ],
+        "outcome_label": "BOUNDED_FINAL_STATE",
+        "policy_name": "rodriguez_chirp_to_3_plus_1_handoff",
+        "replication_valid": false,
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_OUTCOME_CLASSIFICATION_SCAFFOLD_ONLY ensemble member 1",
+        "track": "provisional"
+      },
+      "time_shape": [
+        7
+      ],
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_OUTCOME_CLASSIFICATION_SCAFFOLD_ONLY ensemble member 1"
+    },
+    {
+      "component_4_active_at_and_after_handoff": true,
+      "component_4_active_before_handoff": false,
+      "event_times_s": [
+        0.001
+      ],
+      "index": 2,
+      "initial_state": {
+        "position": [
+          0.0,
+          0.0,
+          0.05
+        ],
+        "velocity": [
+          0.0,
+          0.0,
+          0.05
+        ]
+      },
+      "integration_status": "completed",
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_OUTCOME_CLASSIFICATION_SCAFFOLD_ONLY",
+      "outcome": {
+        "dwell_end_s": 0.0014,
+        "dwell_in_bounds_count": 2,
+        "dwell_in_bounds_fraction": 1.0,
+        "dwell_sample_count": 2,
+        "dwell_start_s": 0.0012,
+        "label": "BOUNDED_FINAL_STATE",
+        "max_position_dwell": 0.05006970638528123,
+        "max_position_overall": 0.05006970638528123,
+        "max_speed_dwell": 0.04961045663990133,
+        "max_speed_overall": 0.05,
+        "numerical_reason": "2/2 dwell samples satisfied radius<=0.1 and speed<=0.1"
+      },
+      "position_shape": [
+        7,
+        3
+      ],
+      "provenance": {
+        "backend_mode": "collapsed_pylcp_astate",
+        "collapsed_terms": [
+          "excited_b_F_plus_2c_over_3 -> pylcp Astate b+c/3 with c=0",
+          "excited_p_plus_2q -> pylcp Astate p with q=0"
+        ],
+        "force_ready": false,
+        "initial_state": {
+          "position": [
+            0.0,
+            0.0,
+            0.05
+          ],
+          "velocity": [
+            0.0,
+            0.0,
+            0.05
+          ]
+        },
+        "integration_status": "completed",
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_OUTCOME_CLASSIFICATION_SCAFFOLD_ONLY",
+        "numerical_reason": "2/2 dwell samples satisfied radius<=0.1 and speed<=0.1",
+        "omitted_terms": [
+          "ground_fluorine_nuclear_g_factor",
+          "excited_hyperfine_d operator",
+          "excited_backend_gL",
+          "excited_backend_gl",
+          "excited_backend_glprime",
+          "excited_backend_gr",
+          "excited_backend_greprime",
+          "excited_backend_gN"
+        ],
+        "outcome_label": "BOUNDED_FINAL_STATE",
+        "policy_name": "rodriguez_chirp_to_3_plus_1_handoff",
+        "replication_valid": false,
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_OUTCOME_CLASSIFICATION_SCAFFOLD_ONLY ensemble member 2",
+        "track": "provisional"
+      },
+      "time_shape": [
+        7
+      ],
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_OUTCOME_CLASSIFICATION_SCAFFOLD_ONLY ensemble member 2"
+    }
+  ],
+  "plot_error": null,
+  "plot_path": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_OUTCOME_CLASSIFICATION_SCAFFOLD_ONLY_run_006_z_trajectories.png",
+  "policy_config_path": "configs\\rodriguez_chirp_to_3_plus_1_handoff.yaml",
+  "replication_valid": false,
+  "run_type": "outcome_classification_scaffold_only",
+  "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_OUTCOME_CLASSIFICATION_SCAFFOLD_ONLY Run 006 metadata"
+}

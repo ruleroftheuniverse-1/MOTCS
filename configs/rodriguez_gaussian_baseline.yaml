@@ -1,0 +1,22 @@
+schema_version: 1
+name: rodriguez_gaussian_baseline
+track: provisional
+source: Rodriguez et al., stated elliptical Gaussian beam geometry; Track P validation only
+beam_directions: ["+x_prime", "-x_prime", "+y_prime", "-y_prime", "+z", "-z"]
+lab_molecular_propagation_axis: x
+gaussian_geometry:
+  wxy: {value: 17.5, unit: mm}
+  wz: {value: 10.0, unit: mm}
+  radius_convention: 1/e^2_intensity_radius
+  longitudinal_model: none
+  equal_peak_intensity: true
+total_laser_power:
+  value: 1.0
+  unit: W
+  allocation_status: unresolved_no_conversion
+  note: Metadata only; no per-beam or per-component power allocation is inferred.
+reported_peak_saturation_vectors:
+  three_frequency: [1.45, 1.45, 2.89, 0.0]
+  three_plus_one: [1.45, 1.45, 2.17, 0.72]
+operative_strength_note: Reported peak saturation vectors are used directly.
+power_conversion_note: No guessed redistribution of the reported total power is performed.

@@ -1,0 +1,471 @@
+{
+  "arrays_finite": true,
+  "arrays_path": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_HANDOFF_VALIDATION_ONLY_run_005_arrays.npz",
+  "backend_provenance": {
+    "backend_mode": "collapsed_pylcp_astate",
+    "collapsed_terms": [
+      "excited_b_F_plus_2c_over_3 -> pylcp Astate b+c/3 with c=0",
+      "excited_p_plus_2q -> pylcp Astate p with q=0"
+    ],
+    "force_ready": false,
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_HANDOFF_VALIDATION_ONLY",
+    "omitted_terms": [
+      "ground_fluorine_nuclear_g_factor",
+      "excited_hyperfine_d operator",
+      "excited_backend_gL",
+      "excited_backend_gl",
+      "excited_backend_glprime",
+      "excited_backend_gr",
+      "excited_backend_greprime",
+      "excited_backend_gN"
+    ],
+    "replication_valid": false,
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_HANDOFF_VALIDATION_ONLY backend provenance",
+    "track": "provisional",
+    "warnings": [
+      "PROVISIONAL backend: engineering/plumbing artifact only.",
+      "NOT_RODRIGUEZ_REPLICATION: exact excited-state d operator and Zeeman mappings are unresolved.",
+      "No approximate force output from this backend is force-ready by default."
+    ]
+  },
+  "beam_model": "infinite_plane_wave",
+  "boundary_convention": "t < tau uses chirp/[3]; t >= tau uses final [3+1]",
+  "boundary_epsilon_purpose": "policy-boundary inspection only; it is not an integration or apparatus timescale",
+  "boundary_epsilon_s": 1e-09,
+  "disclaimer": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_HANDOFF_VALIDATION_ONLY: event and trajectory plumbing only; no capture/loss classification, source distribution, Gaussian beam, optimization, exact force map, or physical conclusion.",
+  "force_ready": false,
+  "forces_shape": [
+    3,
+    3
+  ],
+  "initial_state": {
+    "position": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "velocity": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_HANDOFF_VALIDATION_ONLY",
+  "plot_error": null,
+  "plot_path": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_HANDOFF_VALIDATION_ONLY_run_005_z_state.png",
+  "policy_config_path": "configs\\rodriguez_chirp_to_3_plus_1_handoff.yaml",
+  "positions_shape": [
+    3,
+    3
+  ],
+  "replication_valid": false,
+  "run_type": "handoff_validation_only",
+  "snapshots": [
+    {
+      "component_order": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "components": [
+        {
+          "active": true,
+          "component_id": 1,
+          "detuning_gamma": -8.0,
+          "enabled": true,
+          "off_reason": null,
+          "role": "lower_F1",
+          "saturation": 1.45
+        },
+        {
+          "active": true,
+          "component_id": 2,
+          "detuning_gamma": -8.0,
+          "enabled": true,
+          "off_reason": null,
+          "role": "F0",
+          "saturation": 1.45
+        },
+        {
+          "active": true,
+          "component_id": 3,
+          "detuning_gamma": -8.0,
+          "enabled": true,
+          "off_reason": null,
+          "role": "upper_F1_F2_mean",
+          "saturation": 2.89
+        },
+        {
+          "active": false,
+          "component_id": 4,
+          "detuning_gamma": 2.0,
+          "enabled": false,
+          "off_reason": "parked_off_until_3_plus_1_handoff",
+          "role": "upper_F1_F2_mean_confinement",
+          "saturation": 0.0
+        }
+      ],
+      "current_policy_segment": "chirp_3",
+      "detuning_unit": "Gamma",
+      "handoff_occurred": false,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_HANDOFF_VALIDATION_ONLY",
+      "sample_label": "t_0",
+      "saturation_unit": "saturation_parameter",
+      "time_s": 0.0,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_HANDOFF_VALIDATION_ONLY t_0"
+    },
+    {
+      "component_order": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "components": [
+        {
+          "active": true,
+          "component_id": 1,
+          "detuning_gamma": -4.5,
+          "enabled": true,
+          "off_reason": null,
+          "role": "lower_F1",
+          "saturation": 1.45
+        },
+        {
+          "active": true,
+          "component_id": 2,
+          "detuning_gamma": -4.5,
+          "enabled": true,
+          "off_reason": null,
+          "role": "F0",
+          "saturation": 1.45
+        },
+        {
+          "active": true,
+          "component_id": 3,
+          "detuning_gamma": -4.5,
+          "enabled": true,
+          "off_reason": null,
+          "role": "upper_F1_F2_mean",
+          "saturation": 2.89
+        },
+        {
+          "active": false,
+          "component_id": 4,
+          "detuning_gamma": 2.0,
+          "enabled": false,
+          "off_reason": "parked_off_until_3_plus_1_handoff",
+          "role": "upper_F1_F2_mean_confinement",
+          "saturation": 0.0
+        }
+      ],
+      "current_policy_segment": "chirp_3",
+      "detuning_unit": "Gamma",
+      "handoff_occurred": false,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_HANDOFF_VALIDATION_ONLY",
+      "sample_label": "t_tau_over_2",
+      "saturation_unit": "saturation_parameter",
+      "time_s": 0.0005,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_HANDOFF_VALIDATION_ONLY t_tau_over_2"
+    },
+    {
+      "component_order": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "components": [
+        {
+          "active": true,
+          "component_id": 1,
+          "detuning_gamma": -1.0000069999999992,
+          "enabled": true,
+          "off_reason": null,
+          "role": "lower_F1",
+          "saturation": 1.45
+        },
+        {
+          "active": true,
+          "component_id": 2,
+          "detuning_gamma": -1.0000069999999992,
+          "enabled": true,
+          "off_reason": null,
+          "role": "F0",
+          "saturation": 1.45
+        },
+        {
+          "active": true,
+          "component_id": 3,
+          "detuning_gamma": -1.0000069999999992,
+          "enabled": true,
+          "off_reason": null,
+          "role": "upper_F1_F2_mean",
+          "saturation": 2.89
+        },
+        {
+          "active": false,
+          "component_id": 4,
+          "detuning_gamma": 2.0,
+          "enabled": false,
+          "off_reason": "parked_off_until_3_plus_1_handoff",
+          "role": "upper_F1_F2_mean_confinement",
+          "saturation": 0.0
+        }
+      ],
+      "current_policy_segment": "chirp_3",
+      "detuning_unit": "Gamma",
+      "handoff_occurred": false,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_HANDOFF_VALIDATION_ONLY",
+      "sample_label": "t_tau_minus_epsilon",
+      "saturation_unit": "saturation_parameter",
+      "time_s": 0.0009999990000000001,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_HANDOFF_VALIDATION_ONLY t_tau_minus_epsilon"
+    },
+    {
+      "component_order": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "components": [
+        {
+          "active": true,
+          "component_id": 1,
+          "detuning_gamma": -1.0,
+          "enabled": true,
+          "off_reason": null,
+          "role": "lower_F1",
+          "saturation": 1.45
+        },
+        {
+          "active": true,
+          "component_id": 2,
+          "detuning_gamma": -1.0,
+          "enabled": true,
+          "off_reason": null,
+          "role": "F0",
+          "saturation": 1.45
+        },
+        {
+          "active": true,
+          "component_id": 3,
+          "detuning_gamma": -1.0,
+          "enabled": true,
+          "off_reason": null,
+          "role": "upper_F1_F2_mean",
+          "saturation": 2.17
+        },
+        {
+          "active": true,
+          "component_id": 4,
+          "detuning_gamma": 2.0,
+          "enabled": true,
+          "off_reason": null,
+          "role": "upper_F1_F2_mean_confinement",
+          "saturation": 0.72
+        }
+      ],
+      "current_policy_segment": "trap_3_plus_1",
+      "detuning_unit": "Gamma",
+      "handoff_occurred": true,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_HANDOFF_VALIDATION_ONLY",
+      "sample_label": "t_tau",
+      "saturation_unit": "saturation_parameter",
+      "time_s": 0.001,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_HANDOFF_VALIDATION_ONLY t_tau"
+    },
+    {
+      "component_order": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "components": [
+        {
+          "active": true,
+          "component_id": 1,
+          "detuning_gamma": -1.0,
+          "enabled": true,
+          "off_reason": null,
+          "role": "lower_F1",
+          "saturation": 1.45
+        },
+        {
+          "active": true,
+          "component_id": 2,
+          "detuning_gamma": -1.0,
+          "enabled": true,
+          "off_reason": null,
+          "role": "F0",
+          "saturation": 1.45
+        },
+        {
+          "active": true,
+          "component_id": 3,
+          "detuning_gamma": -1.0,
+          "enabled": true,
+          "off_reason": null,
+          "role": "upper_F1_F2_mean",
+          "saturation": 2.17
+        },
+        {
+          "active": true,
+          "component_id": 4,
+          "detuning_gamma": 2.0,
+          "enabled": true,
+          "off_reason": null,
+          "role": "upper_F1_F2_mean_confinement",
+          "saturation": 0.72
+        }
+      ],
+      "current_policy_segment": "trap_3_plus_1",
+      "detuning_unit": "Gamma",
+      "handoff_occurred": true,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_HANDOFF_VALIDATION_ONLY",
+      "sample_label": "t_tau_plus_epsilon",
+      "saturation_unit": "saturation_parameter",
+      "time_s": 0.001000001,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_HANDOFF_VALIDATION_ONLY t_tau_plus_epsilon"
+    },
+    {
+      "component_order": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "components": [
+        {
+          "active": true,
+          "component_id": 1,
+          "detuning_gamma": -1.0,
+          "enabled": true,
+          "off_reason": null,
+          "role": "lower_F1",
+          "saturation": 1.45
+        },
+        {
+          "active": true,
+          "component_id": 2,
+          "detuning_gamma": -1.0,
+          "enabled": true,
+          "off_reason": null,
+          "role": "F0",
+          "saturation": 1.45
+        },
+        {
+          "active": true,
+          "component_id": 3,
+          "detuning_gamma": -1.0,
+          "enabled": true,
+          "off_reason": null,
+          "role": "upper_F1_F2_mean",
+          "saturation": 2.17
+        },
+        {
+          "active": true,
+          "component_id": 4,
+          "detuning_gamma": 2.0,
+          "enabled": true,
+          "off_reason": null,
+          "role": "upper_F1_F2_mean_confinement",
+          "saturation": 0.72
+        }
+      ],
+      "current_policy_segment": "trap_3_plus_1",
+      "detuning_unit": "Gamma",
+      "handoff_occurred": true,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_HANDOFF_VALIDATION_ONLY",
+      "sample_label": "t_2tau",
+      "saturation_unit": "saturation_parameter",
+      "time_s": 0.002,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_HANDOFF_VALIDATION_ONLY t_2tau"
+    }
+  ],
+  "times_shape": [
+    3
+  ],
+  "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_HANDOFF_VALIDATION_ONLY Run 005 metadata",
+  "trajectory_checks": {
+    "component_3_saturation_at_tau": 2.17,
+    "component_3_saturation_before_tau": 2.89,
+    "component_4_active_after_tau": true,
+    "component_4_active_at_tau": true,
+    "component_4_inactive_before_tau": true,
+    "encountered_event_times_s": [
+      0.001
+    ],
+    "event_index": 1,
+    "known_event_times_s": [
+      0.001
+    ],
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_HANDOFF_VALIDATION_ONLY",
+    "next_step_starts_at_tau_with_post_handoff_state": true,
+    "requested_time_step_s": 0.0005,
+    "step_ends_exactly_at_tau": true,
+    "tau_exact_in_time_array": true,
+    "tau_s": 0.001,
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_HANDOFF_VALIDATION_ONLY deterministic event checks"
+  },
+  "trajectory_config": {
+    "force_unit": "normalized_hbar_k_Gamma",
+    "normalized_force_to_acceleration": 1.0,
+    "position_unit": "normalized_position",
+    "t_end_s": 0.0013,
+    "t_start_s": 0.0007,
+    "time_step_s": 0.0005,
+    "velocity_unit": "normalized_position_per_s"
+  },
+  "trajectory_metadata": {
+    "backend_mode": "collapsed_pylcp_astate",
+    "base_scaffold_label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_TRAJECTORY_SCAFFOLD_ONLY",
+    "collapsed_terms": [
+      "excited_b_F_plus_2c_over_3 -> pylcp Astate b+c/3 with c=0",
+      "excited_p_plus_2q -> pylcp Astate p with q=0"
+    ],
+    "encountered_event_times_s": [
+      0.001
+    ],
+    "event_boundary_convention": "pre-event step k4 uses event left limit; next step starts exactly at event and uses the t>=event policy state",
+    "filename_stem": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_TRAJECTORY_SCAFFOLD_ONLY_rodriguez_chirp_to_3_plus_1_handoff",
+    "force_ready": false,
+    "force_unit": "normalized_hbar_k_Gamma",
+    "known_event_times_s": [
+      0.001
+    ],
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_HANDOFF_VALIDATION_ONLY",
+    "omitted_terms": [
+      "ground_fluorine_nuclear_g_factor",
+      "excited_hyperfine_d operator",
+      "excited_backend_gL",
+      "excited_backend_gl",
+      "excited_backend_glprime",
+      "excited_backend_gr",
+      "excited_backend_greprime",
+      "excited_backend_gN"
+    ],
+    "policy_name": "rodriguez_chirp_to_3_plus_1_handoff",
+    "position_unit": "normalized_position",
+    "replication_valid": false,
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_HANDOFF_VALIDATION_ONLY trajectory metadata",
+    "track": "provisional",
+    "velocity_unit": "normalized_position_per_s",
+    "warnings": [
+      "PROVISIONAL backend: engineering/plumbing artifact only.",
+      "NOT_RODRIGUEZ_REPLICATION: exact excited-state d operator and Zeeman mappings are unresolved.",
+      "No approximate force output from this backend is force-ready by default.",
+      "TRAJECTORY_SCAFFOLD_ONLY: validates policy-to-force-to-integrator plumbing.",
+      "Normalized force-to-acceleration scaling is not calibrated to MgF.",
+      "No capture, loss, loading, source distribution, or physical inference is defined.",
+      "Known policy discontinuities split RK4 steps; pre-event steps use the left-hand endpoint limit."
+    ]
+  },
+  "velocities_shape": [
+    3,
+    3
+  ]
+}

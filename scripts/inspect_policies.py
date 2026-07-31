@@ -51,10 +51,11 @@ def _sample_times(policy: object) -> tuple[float, ...]:
 def _row(policy_name: str, sample: PolicySample) -> str:
     parts = [f"{policy_name:34s}", f"t={sample.time_s:9.6g}s"]
     for component in sample.components:
-        enabled = "on" if component.enabled else "off"
+        active = "active" if component.active else "off"
+        reason = "" if component.active else f" reason={component.off_reason or 'zero_or_disabled'}"
         parts.append(
             f"c{component.component_id}: detuning={component.detuning_gamma:6.3g} Gamma "
-            f"s={component.saturation:5.3g} {enabled}"
+            f"s={component.saturation:5.3g} {active}{reason}"
         )
     return " | ".join(parts)
 

@@ -92,6 +92,7 @@
         "component_id": 1,
         "detuning_gamma": -1.0,
         "enabled": true,
+        "off_reason": null,
         "relative_saturation": 0.25,
         "role": "lower_F1",
         "saturation": 1.45
@@ -100,6 +101,7 @@
         "component_id": 2,
         "detuning_gamma": -1.0,
         "enabled": true,
+        "off_reason": null,
         "relative_saturation": 0.25,
         "role": "F0",
         "saturation": 1.45
@@ -108,6 +110,7 @@
         "component_id": 3,
         "detuning_gamma": -1.0,
         "enabled": true,
+        "off_reason": null,
         "relative_saturation": 0.5,
         "role": "upper_F1_F2_mean",
         "saturation": 2.89
@@ -116,6 +119,7 @@
         "component_id": 4,
         "detuning_gamma": 2.0,
         "enabled": false,
+        "off_reason": "parked_off_until_3_plus_1_handoff",
         "relative_saturation": 0.0,
         "role": "upper_F1_F2_mean_confinement",
         "saturation": 0.0
@@ -132,6 +136,12 @@
   "run_type": "policy_force_snapshot_only",
   "snapshot_metadata": {
     "backend_mode": "collapsed_pylcp_astate",
+    "component_active": [
+      true,
+      true,
+      true,
+      false
+    ],
     "component_detunings_gamma": [
       -1.0,
       -1.0,
@@ -144,11 +154,55 @@
       true,
       false
     ],
+    "component_off_reasons": [
+      null,
+      null,
+      null,
+      "parked_off_until_3_plus_1_handoff"
+    ],
     "component_saturations": [
       1.45,
       1.45,
       2.89,
       0.0
+    ],
+    "component_states": [
+      {
+        "active": true,
+        "component_id": 1,
+        "detuning_gamma": -1.0,
+        "enabled": true,
+        "off_reason": null,
+        "role": "lower_F1",
+        "saturation": 1.45
+      },
+      {
+        "active": true,
+        "component_id": 2,
+        "detuning_gamma": -1.0,
+        "enabled": true,
+        "off_reason": null,
+        "role": "F0",
+        "saturation": 1.45
+      },
+      {
+        "active": true,
+        "component_id": 3,
+        "detuning_gamma": -1.0,
+        "enabled": true,
+        "off_reason": null,
+        "role": "upper_F1_F2_mean",
+        "saturation": 2.89
+      },
+      {
+        "active": false,
+        "component_id": 4,
+        "detuning_gamma": 2.0,
+        "enabled": false,
+        "off_reason": "parked_off_until_3_plus_1_handoff",
+        "role": "upper_F1_F2_mean_confinement",
+        "saturation": 0.0
+      }
     ],
     "filename_stem": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLICY_FORCE_SNAPSHOT_ONLY_rodriguez_baseline_linear_chirp_t_0p002s",
     "force_ready": false,

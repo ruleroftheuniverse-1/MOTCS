@@ -11,10 +11,12 @@ from typing import Literal
 import numpy as np
 from numpy.typing import NDArray
 
+from .gaussian_beams import GaussianBeamSet
 from .mgf_backend import ApproximateMgFHamiltonian, MgFBackendCapabilityError
 from .tracks import BackendProvenance, ProjectTrack
 
 Axis = Literal["x", "y", "z"]
+BeamMode = Literal["plane_wave", "elliptical_gaussian"]
 FloatArray = NDArray[np.float64]
 
 PROVISIONAL_LABEL = "PROVISIONAL"
@@ -32,6 +34,29 @@ class ProvisionalForceMapConfig:
     flipped_polarization: bool = False
     flipped_gradient: bool = False
     units: str = "hbar*k*Gamma"
+    beam_mode: BeamMode = "plane_wave"
+    gaussian_beam_set: GaussianBeamSet | None = None
+    position_unit: str = "normalized_position"
+
+    def __post_init__(self) -> None:
+        if self.beam_mode == "plane_wave":
+            if self.gaussian_beam_set is not None:
+                raise ValueError(
+                    "gaussian_beam_set requires beam_mode='elliptical_gaussian'"
+                )
+        elif self.beam_mode == "elliptical_gaussian":
+            if self.gaussian_beam_set is None:
+                raise ValueError(
+                    "elliptical_gaussian mode requires an explicit GaussianBeamSet"
+                )
+            if self.position_unit != "m":
+                raise ValueError(
+                    "elliptical_gaussian force positions must use position_unit='m'"
+                )
+        else:
+            raise ValueError(f"unsupported beam_mode {self.beam_mode!r}")
+        if not self.position_unit:
+            raise ValueError("position_unit must be explicit")
 
 
 @dataclass(frozen=True)
@@ -48,6 +73,8 @@ class ForceMapMetadata:
     warnings: tuple[str, ...]
     omitted_terms: tuple[str, ...]
     collapsed_terms: tuple[str, ...]
+    beam_mode: BeamMode
+    position_unit: str
 
 
 @dataclass(frozen=True)
@@ -106,9 +133,12 @@ def _metadata(
         + (
             "Diagnostic normalized force law for plumbing only.",
             f"Output units are normalized {config.units}; not calibrated to MgF.",
+            f"Beam mode is explicitly {config.beam_mode}.",
         ),
         omitted_terms=provenance.omitted_terms,
         collapsed_terms=provenance.collapsed_terms,
+        beam_mode=config.beam_mode,
+        position_unit=config.position_unit,
     )
 
 
@@ -135,6 +165,10 @@ def force_at(
         restoring_sign * (-config.normalized_spring * r)
         - config.normalized_damping * v
     )
+    if config.beam_mode == "elliptical_gaussian":
+        if config.gaussian_beam_set is None:  # guarded by config validation
+            raise RuntimeError("Gaussian beam set missing after config validation")
+        force = force * config.gaussian_beam_set.mean_envelope(r)
     return np.asarray(force, dtype=float), metadata
 
 

@@ -18,6 +18,8 @@ No Gaussian beams, optimizers, exact force maps, or Rodriguez replication claims
 - policy: `rodriguez_baseline_linear_chirp`
 - tau: `0.001` s
 
+Component detuning is reported separately from optical activity. A component may have a parked detuning while off.
+
 ## Snapshots
 
 ### PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLICY_FORCE_SNAPSHOT_ONLY t=0s
@@ -28,6 +30,13 @@ No Gaussian beams, optimizers, exact force maps, or Rodriguez replication claims
 - force grid shape: `(5, 3)`
 - finite: `True`
 - detunings Gamma: `(-8.0, -8.0, -8.0, 2.0)`
+- saturations: `(1.45, 1.45, 2.89, 0.0)`
+- active: `(True, True, True, False)`
+- component table:
+  - c1: detuning `-8.0` Gamma, saturation `1.45`, active `True`, off_reason `None`
+  - c2: detuning `-8.0` Gamma, saturation `1.45`, active `True`, off_reason `None`
+  - c3: detuning `-8.0` Gamma, saturation `2.89`, active `True`, off_reason `None`
+  - c4: detuning `2.0` Gamma, saturation `0.0`, active `False`, off_reason `parked_off_until_3_plus_1_handoff`
 
 ### PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLICY_FORCE_SNAPSHOT_ONLY t=0.0005s
 
@@ -37,6 +46,13 @@ No Gaussian beams, optimizers, exact force maps, or Rodriguez replication claims
 - force grid shape: `(5, 3)`
 - finite: `True`
 - detunings Gamma: `(-4.5, -4.5, -4.5, 2.0)`
+- saturations: `(1.45, 1.45, 2.89, 0.0)`
+- active: `(True, True, True, False)`
+- component table:
+  - c1: detuning `-4.5` Gamma, saturation `1.45`, active `True`, off_reason `None`
+  - c2: detuning `-4.5` Gamma, saturation `1.45`, active `True`, off_reason `None`
+  - c3: detuning `-4.5` Gamma, saturation `2.89`, active `True`, off_reason `None`
+  - c4: detuning `2.0` Gamma, saturation `0.0`, active `False`, off_reason `parked_off_until_3_plus_1_handoff`
 
 ### PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLICY_FORCE_SNAPSHOT_ONLY t=0.001s
 
@@ -46,6 +62,13 @@ No Gaussian beams, optimizers, exact force maps, or Rodriguez replication claims
 - force grid shape: `(5, 3)`
 - finite: `True`
 - detunings Gamma: `(-1.0, -1.0, -1.0, 2.0)`
+- saturations: `(1.45, 1.45, 2.89, 0.0)`
+- active: `(True, True, True, False)`
+- component table:
+  - c1: detuning `-1.0` Gamma, saturation `1.45`, active `True`, off_reason `None`
+  - c2: detuning `-1.0` Gamma, saturation `1.45`, active `True`, off_reason `None`
+  - c3: detuning `-1.0` Gamma, saturation `2.89`, active `True`, off_reason `None`
+  - c4: detuning `2.0` Gamma, saturation `0.0`, active `False`, off_reason `parked_off_until_3_plus_1_handoff`
 
 ### PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLICY_FORCE_SNAPSHOT_ONLY t=0.002s
 
@@ -55,3 +78,10 @@ No Gaussian beams, optimizers, exact force maps, or Rodriguez replication claims
 - force grid shape: `(5, 3)`
 - finite: `True`
 - detunings Gamma: `(-1.0, -1.0, -1.0, 2.0)`
+- saturations: `(1.45, 1.45, 2.89, 0.0)`
+- active: `(True, True, True, False)`
+- component table:
+  - c1: detuning `-1.0` Gamma, saturation `1.45`, active `True`, off_reason `None`
+  - c2: detuning `-1.0` Gamma, saturation `1.45`, active `True`, off_reason `None`
+  - c3: detuning `-1.0` Gamma, saturation `2.89`, active `True`, off_reason `None`
+  - c4: detuning `2.0` Gamma, saturation `0.0`, active `False`, off_reason `parked_off_until_3_plus_1_handoff`

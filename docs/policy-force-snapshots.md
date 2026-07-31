@@ -26,6 +26,19 @@ It requires:
 - metadata with `replication_valid = False`;
 - warning labels preserved in titles, filenames, JSON metadata, and reports.
 
+Snapshot metadata includes a per-component table with:
+
+- detuning;
+- saturation;
+- `enabled`;
+- `active`;
+- `off_reason`.
+
+This distinction is intentional. During the baseline linear policy, component
+`(4)` has a parked detuning of `+2 Gamma`, but it is explicitly off:
+`saturation = 0`, `enabled = false`, and `active = false`. A detuning value
+alone must never be interpreted as active optical power.
+
 ## What the bridge does not do
 
 It does not advance time. It does not call a differential-equation solver. It
@@ -71,4 +84,3 @@ Track E exact MgF force readiness remains blocked by unresolved excited-state
 Hamiltonian and Zeeman mappings. Track P outputs are engineering/plumbing
 artifacts only. No physical conclusions should be drawn from provisional force
 magnitudes or topology.
-

@@ -1,0 +1,133 @@
+{
+  "analytic_integrator_checks": {
+    "constant_force_check": {
+      "max_position_error": 5.551115123125783e-17,
+      "max_velocity_error": 1.1102230246251565e-16,
+      "model_label": "ANALYTIC_INTEGRATOR_TEST_HOOK_ONLY",
+      "uses_mgf_backend": false
+    },
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_TRAJECTORY_SCAFFOLD_ONLY",
+    "linear_damping_check": {
+      "final_speed": 0.6703200463991531,
+      "initial_speed": 1.0,
+      "model_label": "ANALYTIC_INTEGRATOR_TEST_HOOK_ONLY",
+      "uses_mgf_backend": false
+    },
+    "zero_force_check": {
+      "max_position_error": 8.881784197001252e-16,
+      "max_velocity_error": 0.0,
+      "model_label": "ANALYTIC_INTEGRATOR_TEST_HOOK_ONLY",
+      "uses_mgf_backend": false
+    }
+  },
+  "arrays_finite": true,
+  "arrays_path": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_TRAJECTORY_SCAFFOLD_ONLY_run_004_arrays.npz",
+  "backend_provenance": {
+    "backend_mode": "collapsed_pylcp_astate",
+    "collapsed_terms": [
+      "excited_b_F_plus_2c_over_3 -> pylcp Astate b+c/3 with c=0",
+      "excited_p_plus_2q -> pylcp Astate p with q=0"
+    ],
+    "force_ready": false,
+    "omitted_terms": [
+      "ground_fluorine_nuclear_g_factor",
+      "excited_hyperfine_d operator",
+      "excited_backend_gL",
+      "excited_backend_gl",
+      "excited_backend_glprime",
+      "excited_backend_gr",
+      "excited_backend_greprime",
+      "excited_backend_gN"
+    ],
+    "replication_valid": false,
+    "track": "provisional",
+    "warnings": [
+      "PROVISIONAL backend: engineering/plumbing artifact only.",
+      "NOT_RODRIGUEZ_REPLICATION: exact excited-state d operator and Zeeman mappings are unresolved.",
+      "No approximate force output from this backend is force-ready by default."
+    ]
+  },
+  "beam_model": "infinite_plane_wave",
+  "component_4_active_any": false,
+  "component_4_saturation_max": 0.0,
+  "disclaimer": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_TRAJECTORY_SCAFFOLD_ONLY: trajectory plumbing only; no capture, loading, source distribution, Gaussian beam, or physical claim.",
+  "force_ready": false,
+  "forces_shape": [
+    11,
+    3
+  ],
+  "initial_state": {
+    "position": [
+      0.0,
+      0.0,
+      0.05
+    ],
+    "velocity": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_TRAJECTORY_SCAFFOLD_ONLY",
+  "plot_error": null,
+  "plot_path": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_TRAJECTORY_SCAFFOLD_ONLY_run_004_z_state.png",
+  "policy_config_path": "configs\\rodriguez_baseline_linear_chirp.yaml",
+  "positions_shape": [
+    11,
+    3
+  ],
+  "replication_valid": false,
+  "run_type": "trajectory_scaffold_only",
+  "times_shape": [
+    11
+  ],
+  "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_TRAJECTORY_SCAFFOLD_ONLY Run 004 metadata",
+  "trajectory_config": {
+    "force_unit": "normalized_hbar_k_Gamma",
+    "normalized_force_to_acceleration": 1.0,
+    "position_unit": "normalized_position",
+    "t_end_s": 0.0002,
+    "t_start_s": 0.0,
+    "time_step_s": 2e-05,
+    "velocity_unit": "normalized_position_per_s"
+  },
+  "trajectory_metadata": {
+    "backend_mode": "collapsed_pylcp_astate",
+    "collapsed_terms": [
+      "excited_b_F_plus_2c_over_3 -> pylcp Astate b+c/3 with c=0",
+      "excited_p_plus_2q -> pylcp Astate p with q=0"
+    ],
+    "filename_stem": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_TRAJECTORY_SCAFFOLD_ONLY_rodriguez_baseline_linear_chirp",
+    "force_ready": false,
+    "force_unit": "normalized_hbar_k_Gamma",
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_TRAJECTORY_SCAFFOLD_ONLY",
+    "omitted_terms": [
+      "ground_fluorine_nuclear_g_factor",
+      "excited_hyperfine_d operator",
+      "excited_backend_gL",
+      "excited_backend_gl",
+      "excited_backend_glprime",
+      "excited_backend_gr",
+      "excited_backend_greprime",
+      "excited_backend_gN"
+    ],
+    "policy_name": "rodriguez_baseline_linear_chirp",
+    "position_unit": "normalized_position",
+    "replication_valid": false,
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_TRAJECTORY_SCAFFOLD_ONLY rodriguez_baseline_linear_chirp",
+    "track": "provisional",
+    "velocity_unit": "normalized_position_per_s",
+    "warnings": [
+      "PROVISIONAL backend: engineering/plumbing artifact only.",
+      "NOT_RODRIGUEZ_REPLICATION: exact excited-state d operator and Zeeman mappings are unresolved.",
+      "No approximate force output from this backend is force-ready by default.",
+      "TRAJECTORY_SCAFFOLD_ONLY: validates policy-to-force-to-integrator plumbing.",
+      "Normalized force-to-acceleration scaling is not calibrated to MgF.",
+      "No capture, loss, loading, source distribution, or physical inference is defined."
+    ]
+  },
+  "velocities_shape": [
+    11,
+    3
+  ]
+}
