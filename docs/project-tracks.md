@@ -78,6 +78,10 @@ its envelopes to the normalized diagnostic force. This permits coordinate and
 plumbing checks only; it does not establish Gaussian-beam molecular-force
 physics or authorize capture-style conclusions.
 
+Track P may execute a fixed, named list of apparatus trajectories as an
+end-to-end integration check. The list must remain explicit and ordered; it may
+not be refined, interpolated, or summarized as a maximum successful velocity.
+
 Required status metadata for Track P:
 
 | Field | Required value |

@@ -37,6 +37,8 @@ class ProvisionalForceMapConfig:
     beam_mode: BeamMode = "plane_wave"
     gaussian_beam_set: GaussianBeamSet | None = None
     position_unit: str = "normalized_position"
+    magnetic_gradient_t_m: float | None = None
+    normalized_gradient_scale: float = 1.0
 
     def __post_init__(self) -> None:
         if self.beam_mode == "plane_wave":
@@ -57,6 +59,16 @@ class ProvisionalForceMapConfig:
             raise ValueError(f"unsupported beam_mode {self.beam_mode!r}")
         if not self.position_unit:
             raise ValueError("position_unit must be explicit")
+        if self.magnetic_gradient_t_m is not None and (
+            not np.isfinite(self.magnetic_gradient_t_m)
+            or self.magnetic_gradient_t_m == 0.0
+        ):
+            raise ValueError("magnetic_gradient_t_m must be finite and nonzero")
+        if (
+            not np.isfinite(self.normalized_gradient_scale)
+            or self.normalized_gradient_scale <= 0.0
+        ):
+            raise ValueError("normalized_gradient_scale must be finite and positive")
 
 
 @dataclass(frozen=True)
@@ -134,6 +146,14 @@ def _metadata(
             "Diagnostic normalized force law for plumbing only.",
             f"Output units are normalized {config.units}; not calibrated to MgF.",
             f"Beam mode is explicitly {config.beam_mode}.",
+            (
+                "Physical magnetic gradient is not source-configured in this force call."
+                if config.magnetic_gradient_t_m is None
+                else (
+                    f"Source magnetic gradient {config.magnetic_gradient_t_m} T/m "
+                    f"is represented by normalized scale {config.normalized_gradient_scale}."
+                )
+            ),
         ),
         omitted_terms=provenance.omitted_terms,
         collapsed_terms=provenance.collapsed_terms,

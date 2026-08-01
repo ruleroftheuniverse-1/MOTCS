@@ -16,6 +16,11 @@ from .mgf_backend import (
     build_mgf_hamiltonian_from_sources,
     build_mgf_validation_model_from_sources,
 )
+from .named_protocol import (
+    NamedInitialVelocity,
+    RodriguezTrajectoryProtocol,
+    load_rodriguez_named_trajectory_protocol,
+)
 from .outcomes import (
     OUTCOME_CLASSIFICATION_SCAFFOLD_LABEL,
     OutcomeCriteria,
@@ -73,6 +78,9 @@ __all__ = [
     "analyze_mgf_exact_backend_feasibility",
     "build_mgf_hamiltonian_from_sources",
     "build_mgf_validation_model_from_sources",
+    "NamedInitialVelocity",
+    "RodriguezTrajectoryProtocol",
+    "load_rodriguez_named_trajectory_protocol",
     "OUTCOME_CLASSIFICATION_SCAFFOLD_LABEL",
     "OutcomeCriteria",
     "OutcomeLabel",

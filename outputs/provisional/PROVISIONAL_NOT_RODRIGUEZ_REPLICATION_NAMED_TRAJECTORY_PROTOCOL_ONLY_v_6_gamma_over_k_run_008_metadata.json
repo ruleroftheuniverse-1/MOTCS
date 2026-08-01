@@ -1,0 +1,205 @@
+{
+  "arrays_path": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_6_gamma_over_k_run_008_arrays.npz",
+  "backend_provenance": {
+    "backend_mode": "collapsed_pylcp_astate",
+    "collapsed_terms": [
+      "excited_b_F_plus_2c_over_3 -> pylcp Astate b+c/3 with c=0",
+      "excited_p_plus_2q -> pylcp Astate p with q=0"
+    ],
+    "force_ready": false,
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY",
+    "omitted_terms": [
+      "ground_fluorine_nuclear_g_factor",
+      "excited_hyperfine_d operator",
+      "excited_backend_gL",
+      "excited_backend_gl",
+      "excited_backend_glprime",
+      "excited_backend_gr",
+      "excited_backend_greprime",
+      "excited_backend_gN"
+    ],
+    "replication_valid": false,
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY backend provenance v_6_gamma_over_k",
+    "track": "provisional",
+    "warnings": [
+      "PROVISIONAL backend: engineering/plumbing artifact only.",
+      "NOT_RODRIGUEZ_REPLICATION: exact excited-state d operator and Zeeman mappings are unresolved.",
+      "No approximate force output from this backend is force-ready by default."
+    ]
+  },
+  "beam_mode": "elliptical_gaussian",
+  "diagnostics": {
+    "approached_origin": true,
+    "case_name": "v_6_gamma_over_k",
+    "center_crossing_without_bounded_final_state": true,
+    "component_4_active_at_and_after_tau": true,
+    "component_4_inactive_before_tau": true,
+    "crossed_x_zero": true,
+    "exact_handoff_event": {
+      "encountered_event_times_s": [
+        0.001
+      ],
+      "known_event_times_s": [
+        0.001
+      ],
+      "landed_exactly": true,
+      "tau_s": 0.001
+    },
+    "final_dwell_statistics": {
+      "dwell_end_s": 0.02,
+      "dwell_in_bounds_count": 0,
+      "dwell_in_bounds_fraction": 0.0,
+      "dwell_sample_count": 21,
+      "dwell_start_s": 0.018000000000000002,
+      "max_position_dwell": 0.8534942494090819,
+      "max_speed_dwell": 45.1744021797435
+    },
+    "final_position_m": [
+      0.8534942494090819,
+      0.0,
+      0.0
+    ],
+    "final_velocity_m_s": [
+      45.1744021797435,
+      0.0,
+      0.0
+    ],
+    "initial_velocity_gamma_over_k": 6.0,
+    "initial_velocity_m_s": 45.18,
+    "inside_position_bounds": [
+      {
+        "bound_m": 0.01,
+        "first_time_s": 0.0009000000000000002,
+        "last_time_s": 0.0013000000000000002,
+        "sample_count": 5
+      },
+      {
+        "bound_m": 0.02,
+        "first_time_s": 0.0007000000000000001,
+        "last_time_s": 0.0015000000000000002,
+        "sample_count": 9
+      },
+      {
+        "bound_m": 0.05,
+        "first_time_s": 0.0,
+        "last_time_s": 0.0022,
+        "sample_count": 23
+      }
+    ],
+    "integration_status": "completed",
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY",
+    "maximum_vx_m_s": 45.18,
+    "minimum_abs_vx_near_origin_m_s": 45.17564035273104,
+    "minimum_distance_from_origin_m": 0.00030254106685610217,
+    "minimum_vx_m_s": 45.1744021797435,
+    "numerical_reason": "only 0/21 dwell samples satisfied the engineering bounds; required fraction is 1",
+    "outcome_label": "UNRESOLVED",
+    "remained_within_provisional_final_bounds": false,
+    "slowed_near_origin": true,
+    "time_of_closest_approach_s": 0.0011,
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY diagnostics v_6_gamma_over_k",
+    "trajectory_arrays_finite": true
+  },
+  "disclaimer": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY: one named case only; not a boundary search or physical capture claim.",
+  "force_ready": false,
+  "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY",
+  "member_provenance": {
+    "backend_mode": "collapsed_pylcp_astate",
+    "collapsed_terms": [
+      "excited_b_F_plus_2c_over_3 -> pylcp Astate b+c/3 with c=0",
+      "excited_p_plus_2q -> pylcp Astate p with q=0"
+    ],
+    "force_ready": false,
+    "initial_state": {
+      "position": [
+        -0.05,
+        0.0,
+        0.0
+      ],
+      "velocity": [
+        45.18,
+        0.0,
+        0.0
+      ]
+    },
+    "integration_status": "completed",
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_OUTCOME_CLASSIFICATION_SCAFFOLD_ONLY",
+    "numerical_reason": "only 0/21 dwell samples satisfied the engineering bounds; required fraction is 1",
+    "omitted_terms": [
+      "ground_fluorine_nuclear_g_factor",
+      "excited_hyperfine_d operator",
+      "excited_backend_gL",
+      "excited_backend_gl",
+      "excited_backend_glprime",
+      "excited_backend_gr",
+      "excited_backend_greprime",
+      "excited_backend_gN"
+    ],
+    "outcome_label": "UNRESOLVED",
+    "policy_name": "rodriguez_chirp_to_3_plus_1_handoff",
+    "replication_valid": false,
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_OUTCOME_CLASSIFICATION_SCAFFOLD_ONLY ensemble member 2",
+    "track": "provisional"
+  },
+  "outcome": {
+    "dwell_end_s": 0.02,
+    "dwell_in_bounds_count": 0,
+    "dwell_in_bounds_fraction": 0.0,
+    "dwell_sample_count": 21,
+    "dwell_start_s": 0.018000000000000002,
+    "label": "UNRESOLVED",
+    "max_position_dwell": 0.8534942494090819,
+    "max_position_overall": 0.8534942494090819,
+    "max_speed_dwell": 45.1744021797435,
+    "max_speed_overall": 45.18,
+    "numerical_reason": "only 0/21 dwell samples satisfied the engineering bounds; required fraction is 1"
+  },
+  "plot_error": null,
+  "plot_path": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_6_gamma_over_k_run_008.png",
+  "protocol_name": "rodriguez_named_finite_beam_trajectory_protocol",
+  "replication_valid": false,
+  "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY v_6_gamma_over_k metadata",
+  "trajectory_metadata": {
+    "backend_mode": "collapsed_pylcp_astate",
+    "collapsed_terms": [
+      "excited_b_F_plus_2c_over_3 -> pylcp Astate b+c/3 with c=0",
+      "excited_p_plus_2q -> pylcp Astate p with q=0"
+    ],
+    "encountered_event_times_s": [
+      0.001
+    ],
+    "event_boundary_convention": "pre-event step k4 uses event left limit; next step starts exactly at event and uses the t>=event policy state",
+    "filename_stem": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_TRAJECTORY_SCAFFOLD_ONLY_rodriguez_chirp_to_3_plus_1_handoff",
+    "force_ready": false,
+    "force_unit": "normalized_hbar_k_Gamma",
+    "known_event_times_s": [
+      0.001
+    ],
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_TRAJECTORY_SCAFFOLD_ONLY",
+    "omitted_terms": [
+      "ground_fluorine_nuclear_g_factor",
+      "excited_hyperfine_d operator",
+      "excited_backend_gL",
+      "excited_backend_gl",
+      "excited_backend_glprime",
+      "excited_backend_gr",
+      "excited_backend_greprime",
+      "excited_backend_gN"
+    ],
+    "policy_name": "rodriguez_chirp_to_3_plus_1_handoff",
+    "position_unit": "m",
+    "replication_valid": false,
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_TRAJECTORY_SCAFFOLD_ONLY rodriguez_chirp_to_3_plus_1_handoff",
+    "track": "provisional",
+    "velocity_unit": "m/s",
+    "warnings": [
+      "PROVISIONAL backend: engineering/plumbing artifact only.",
+      "NOT_RODRIGUEZ_REPLICATION: exact excited-state d operator and Zeeman mappings are unresolved.",
+      "No approximate force output from this backend is force-ready by default.",
+      "TRAJECTORY_SCAFFOLD_ONLY: validates policy-to-force-to-integrator plumbing.",
+      "Normalized force-to-acceleration scaling is not calibrated to MgF.",
+      "No capture, loss, loading, source distribution, or physical inference is defined.",
+      "Known policy discontinuities split RK4 steps; pre-event steps use the left-hand endpoint limit."
+    ]
+  }
+}

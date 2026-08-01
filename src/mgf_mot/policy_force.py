@@ -117,7 +117,9 @@ def force_config_for_policy_sample(
     )
     return replace(
         force_config,
-        normalized_spring=float(active_saturation),
+        normalized_spring=float(
+            active_saturation * force_config.normalized_gradient_scale
+        ),
     )
 
 

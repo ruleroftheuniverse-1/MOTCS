@@ -1,0 +1,60 @@
+schema_version: 1
+name: rodriguez_named_finite_beam_trajectory_protocol
+track: provisional
+replication_valid: false
+force_ready: false
+artifact_labels:
+  - PROVISIONAL
+  - NOT_RODRIGUEZ_REPLICATION
+  - NAMED_TRAJECTORY_PROTOCOL_ONLY
+coordinate_convention:
+  motion_axis: lab_x
+  positive_velocity_direction: toward_MOT_center_from_negative_x
+  transverse_coordinates: [lab_y, lab_z]
+initial_state:
+  position: {value: [-50.0, 0.0, 0.0], unit: mm}
+  transverse_velocity: {value: [0.0, 0.0], unit: m/s}
+  gamma_over_k_velocity_unit: {value: 7.53, unit: m/s}
+  named_velocities:
+    - {name: v_2_gamma_over_k, gamma_over_k: 2.0, velocity_m_s: 15.06}
+    - {name: v_4_gamma_over_k, gamma_over_k: 4.0, velocity_m_s: 30.12}
+    - {name: v_6_gamma_over_k, gamma_over_k: 6.0, velocity_m_s: 45.18}
+    - {name: v_7p5_gamma_over_k, gamma_over_k: 7.5, velocity_m_s: 56.475}
+    - {name: v_9_gamma_over_k, gamma_over_k: 9.0, velocity_m_s: 67.77}
+simulation:
+  duration: {value: 0.020, unit: s}
+  time_step: {value: 0.0001, unit: s}
+magnetic_gradient: {value: 2.0, unit: mT/cm}
+gaussian_beam_config: configs/rodriguez_gaussian_baseline.yaml
+handoff_policy_config: configs/rodriguez_chirp_to_3_plus_1_handoff.yaml
+component_order: [1, 2, 3, 4]
+operative_peak_saturations:
+  pre_handoff: [1.45, 1.45, 2.89, 0.00]
+  post_handoff: [1.45, 1.45, 2.17, 0.72]
+total_laser_power:
+  value: 1.0
+  unit: W
+  allocation_status: unresolved_no_conversion
+  note: Source metadata only; no per-beam or per-component conversion.
+provisional_force_adapter:
+  normalized_force_to_acceleration: 1.0
+  normalized_gradient_reference_t_m: 0.2
+  note: Engineering scale only; not a calibrated MgF force-to-acceleration conversion.
+diagnostic_position_bounds_m: [0.01, 0.02, 0.05]
+provisional_outcome_criteria:
+  position_measure: radius
+  max_position: 0.01
+  max_speed: 1.0
+  final_dwell_window_s: 0.002
+  min_dwell_samples: 10
+  required_dwell_fraction: 1.0
+  hard_escape_position: 2.0
+  hard_speed: 100.0
+  position_unit: m
+  speed_unit: m/s
+  time_unit: s
+warnings:
+  - PROVISIONAL named-trajectory engineering protocol only.
+  - NOT_RODRIGUEZ_REPLICATION because the exact excited-state Hamiltonian remains unresolved.
+  - NAMED_TRAJECTORY_PROTOCOL_ONLY; no boundary or maximum-velocity search is permitted.
+  - Outcomes are engineering labels and not physical capture claims.

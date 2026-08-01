@@ -1,0 +1,870 @@
+{
+  "analysis_mode": "saved_force_samples_and_pointwise_static_calls_only",
+  "beam_frequency_decomposition": {
+    "aggregate_pre_post_comparison": [
+      {
+        "difference": 0.0,
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY",
+        "point": "inbound_x_minus_25_mm",
+        "post_handoff_Fx": -0.542312016212272,
+        "pre_handoff_Fx": -0.542312016212272,
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY aggregate pre-post comparison inbound_x_minus_25_mm",
+        "vx_m_s": 30.12,
+        "x_m": -0.025
+      },
+      {
+        "difference": 0.0,
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY",
+        "point": "near_origin_positive_velocity",
+        "post_handoff_Fx": -2.9931537335996534,
+        "pre_handoff_Fx": -2.9931537335996534,
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY aggregate pre-post comparison near_origin_positive_velocity",
+        "vx_m_s": 15.06,
+        "x_m": -0.001
+      },
+      {
+        "difference": 0.0,
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY",
+        "point": "origin_zero_velocity",
+        "post_handoff_Fx": -0.0,
+        "pre_handoff_Fx": -0.0,
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY aggregate pre-post comparison origin_zero_velocity",
+        "vx_m_s": 0.0,
+        "x_m": 0.0
+      },
+      {
+        "difference": 0.0,
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY",
+        "point": "outbound_x_plus_25_mm",
+        "post_handoff_Fx": -0.5690159884355067,
+        "pre_handoff_Fx": -0.5690159884355067,
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY aggregate pre-post comparison outbound_x_plus_25_mm",
+        "vx_m_s": 30.12,
+        "x_m": 0.025
+      }
+    ],
+    "component_4_conclusion": "the [3] and [3+1] saturation sums are both 5.79, so component 4 only redistributes aggregate saturation and changes neither magnitude nor topology in this toy law",
+    "decomposition_available": false,
+    "diagnosis": "PROVISIONAL_BACKEND_TOPOLOGY_SUSPECT",
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY",
+    "reason": "the provisional force law aggregates active saturation into one spring coefficient, ignores detuning and backend transition matrices, and has no beam- or component-resolved force terms",
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY beam and frequency decomposition limitation"
+  },
+  "force_scale_domain": {
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY",
+    "position_m": [
+      -0.05,
+      0.05
+    ],
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY force-scale sampling domain",
+    "velocity_m_s": [
+      -7.53,
+      7.53
+    ]
+  },
+  "force_scales": [
+    {
+      "detunings_gamma": [
+        -1.0,
+        -1.0,
+        -1.0,
+        2.0
+      ],
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY",
+      "maximum_absolute_normalized_force": 1.7955000000000003,
+      "name": "plane_wave_[3]",
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY plane_wave_[3] force scale",
+      "versus_0p015": "much larger",
+      "versus_0p03": "much larger"
+    },
+    {
+      "detunings_gamma": [
+        -1.0,
+        -1.0,
+        -1.0,
+        2.0
+      ],
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY",
+      "maximum_absolute_normalized_force": 1.7955000000000003,
+      "name": "plane_wave_[3+1]",
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY plane_wave_[3+1] force scale",
+      "versus_0p015": "much larger",
+      "versus_0p03": "much larger"
+    },
+    {
+      "detunings_gamma": [
+        -1.0,
+        -1.0,
+        -1.0,
+        2.0
+      ],
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY",
+      "maximum_absolute_normalized_force": 1.5060000000000002,
+      "name": "gaussian_[3]",
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY gaussian_[3] force scale",
+      "versus_0p015": "much larger",
+      "versus_0p03": "much larger"
+    },
+    {
+      "detunings_gamma": [
+        -1.0,
+        -1.0,
+        -1.0,
+        2.0
+      ],
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY",
+      "maximum_absolute_normalized_force": 1.5060000000000002,
+      "name": "gaussian_[3+1]",
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY gaussian_[3+1] force scale",
+      "versus_0p015": "much larger",
+      "versus_0p03": "much larger"
+    },
+    {
+      "detunings_gamma": [
+        -8.0,
+        -8.0,
+        -8.0,
+        2.0
+      ],
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY",
+      "maximum_absolute_normalized_force": 1.5060000000000002,
+      "name": "gaussian_chirp_-8Gamma",
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY gaussian_chirp_-8Gamma force scale",
+      "versus_0p015": "much larger",
+      "versus_0p03": "much larger"
+    },
+    {
+      "detunings_gamma": [
+        -4.5,
+        -4.5,
+        -4.5,
+        2.0
+      ],
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY",
+      "maximum_absolute_normalized_force": 1.5060000000000002,
+      "name": "gaussian_chirp_-4.5Gamma",
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY gaussian_chirp_-4.5Gamma force scale",
+      "versus_0p015": "much larger",
+      "versus_0p03": "much larger"
+    },
+    {
+      "detunings_gamma": [
+        -1.0,
+        -1.0,
+        -1.0,
+        2.0
+      ],
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY",
+      "maximum_absolute_normalized_force": 1.5060000000000002,
+      "name": "gaussian_chirp_-1Gamma",
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY gaussian_chirp_-1Gamma force scale",
+      "versus_0p015": "much larger",
+      "versus_0p03": "much larger"
+    }
+  ],
+  "gaussian_application_audit": {
+    "all_beams_multiplied_by_weakest_envelope": false,
+    "all_force_components_multiplied_by_single_mean_envelope": true,
+    "counterpropagating_pair_envelopes_equal": true,
+    "diagnosis": "GAUSSIAN_APPLICATION_SUSPECT",
+    "implementation_summary": "force_at forms one aggregate spring/damping vector, then multiplies it by GaussianBeamSet.mean_envelope(position)",
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY",
+    "mean_envelope_applied_after_force_summation": true,
+    "per_beam_envelopes_applied_before_force_summation": false,
+    "per_beam_envelopes_available": true,
+    "position_units_m": true,
+    "representative_points": [
+      {
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY",
+        "per_beam": {
+          "+x_prime": 0.00028493048887656935,
+          "+y_prime": 0.00028493048887656935,
+          "+z": 8.118538349144053e-08,
+          "-x_prime": 0.00028493048887656935,
+          "-y_prime": 0.00028493048887656935,
+          "-z": 8.118538349144053e-08
+        },
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY Gaussian envelopes x=-50 mm",
+        "x_mm": -50.0
+      },
+      {
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY",
+        "per_beam": {
+          "+x_prime": 0.12992260830505953,
+          "+y_prime": 0.12992260830505953,
+          "+z": 0.01687988414878991,
+          "-x_prime": 0.12992260830505953,
+          "-y_prime": 0.12992260830505953,
+          "-z": 0.01687988414878991
+        },
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY Gaussian envelopes x=-25 mm",
+        "x_mm": -25.0
+      },
+      {
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY",
+        "per_beam": {
+          "+x_prime": 1.0,
+          "+y_prime": 1.0,
+          "+z": 1.0,
+          "-x_prime": 1.0,
+          "-y_prime": 1.0,
+          "-z": 1.0
+        },
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY Gaussian envelopes x=0 mm",
+        "x_mm": 0.0
+      },
+      {
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY",
+        "per_beam": {
+          "+x_prime": 0.12992260830505953,
+          "+y_prime": 0.12992260830505953,
+          "+z": 0.01687988414878991,
+          "-x_prime": 0.12992260830505953,
+          "-y_prime": 0.12992260830505953,
+          "-z": 0.01687988414878991
+        },
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY Gaussian envelopes x=25 mm",
+        "x_mm": 25.0
+      },
+      {
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY",
+        "per_beam": {
+          "+x_prime": 0.00028493048887656935,
+          "+y_prime": 0.00028493048887656935,
+          "+z": 8.118538349144053e-08,
+          "-x_prime": 0.00028493048887656935,
+          "-y_prime": 0.00028493048887656935,
+          "-z": 8.118538349144053e-08
+        },
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY Gaussian envelopes x=50 mm",
+        "x_mm": 50.0
+      }
+    ],
+    "saturation_squared": false,
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY Gaussian application implementation audit"
+  },
+  "immutability_audit": {
+    "all_source_hashes_unchanged": true,
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY",
+    "official_outcome_labels_after": [
+      "UNRESOLVED",
+      "UNRESOLVED",
+      "UNRESOLVED",
+      "UNRESOLVED",
+      "UNRESOLVED"
+    ],
+    "official_outcome_labels_before": [
+      "UNRESOLVED",
+      "UNRESOLVED",
+      "UNRESOLVED",
+      "UNRESOLVED",
+      "UNRESOLVED"
+    ],
+    "official_outcome_labels_unchanged": true,
+    "source_hashes_after": {
+      "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_run_008_metadata.json": "65c0cf3fdae376ed3664aa8626c226a59b7e1a6987ff48dfa4e432f01aa8a20e",
+      "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_2_gamma_over_k_run_008_arrays.npz": "b514331969c2d9123f89dbae01c633e5d8a3df50f88abc0e6c4111dab04ee176",
+      "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_2_gamma_over_k_run_008_metadata.json": "15fb6e113f13f08abdc5685d27da6372602d3e3ce7ee3a77eeb88688f2aef59e",
+      "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_4_gamma_over_k_run_008_arrays.npz": "89cfb2519af9c7a4183f415ae5dda0679b25fbec0511729a33eae734fd582e78",
+      "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_4_gamma_over_k_run_008_metadata.json": "79bc6f1dc9cc2d5f74fe87a92bd4c2e7d7ee54276b92cbf1135951a90ae6a73c",
+      "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_6_gamma_over_k_run_008_arrays.npz": "e4f21ea54dd8816eb116e3496a470a5205944f8101e5c6e2e9b06869030f12ac",
+      "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_6_gamma_over_k_run_008_metadata.json": "5c683d4cccaeafe41f95097afb5efcb223b4278f1ed5cebf5866e09454b0be7b",
+      "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_7p5_gamma_over_k_run_008_arrays.npz": "ebc0cd58c405bbf02943595a1dbcb5c23de9747907abc88369f0d1af6690160b",
+      "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_7p5_gamma_over_k_run_008_metadata.json": "e22ec8b56d0854917c6e81874f76cd4eb35e35905d7e0dd7d10aa634db255b00",
+      "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_9_gamma_over_k_run_008_arrays.npz": "f25865a8b296b7caaffdeaeaf1e5803e6e1578020d4d2043ac8fcc2813245779",
+      "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_9_gamma_over_k_run_008_metadata.json": "c5cc05533b3700957de66336fc1e862139e48715405dbfb57e4cc8e66838b870"
+    },
+    "source_hashes_before": {
+      "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_run_008_metadata.json": "65c0cf3fdae376ed3664aa8626c226a59b7e1a6987ff48dfa4e432f01aa8a20e",
+      "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_2_gamma_over_k_run_008_arrays.npz": "b514331969c2d9123f89dbae01c633e5d8a3df50f88abc0e6c4111dab04ee176",
+      "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_2_gamma_over_k_run_008_metadata.json": "15fb6e113f13f08abdc5685d27da6372602d3e3ce7ee3a77eeb88688f2aef59e",
+      "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_4_gamma_over_k_run_008_arrays.npz": "89cfb2519af9c7a4183f415ae5dda0679b25fbec0511729a33eae734fd582e78",
+      "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_4_gamma_over_k_run_008_metadata.json": "79bc6f1dc9cc2d5f74fe87a92bd4c2e7d7ee54276b92cbf1135951a90ae6a73c",
+      "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_6_gamma_over_k_run_008_arrays.npz": "e4f21ea54dd8816eb116e3496a470a5205944f8101e5c6e2e9b06869030f12ac",
+      "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_6_gamma_over_k_run_008_metadata.json": "5c683d4cccaeafe41f95097afb5efcb223b4278f1ed5cebf5866e09454b0be7b",
+      "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_7p5_gamma_over_k_run_008_arrays.npz": "ebc0cd58c405bbf02943595a1dbcb5c23de9747907abc88369f0d1af6690160b",
+      "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_7p5_gamma_over_k_run_008_metadata.json": "e22ec8b56d0854917c6e81874f76cd4eb35e35905d7e0dd7d10aa634db255b00",
+      "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_9_gamma_over_k_run_008_arrays.npz": "f25865a8b296b7caaffdeaeaf1e5803e6e1578020d4d2043ac8fcc2813245779",
+      "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_9_gamma_over_k_run_008_metadata.json": "c5cc05533b3700957de66336fc1e862139e48715405dbfb57e4cc8e66838b870"
+    },
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY saved Run 008 immutability audit",
+    "trajectory_integrations_performed": 0
+  },
+  "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY",
+  "local_force_audits": [
+    {
+      "beam_mode": "plane_wave",
+      "dFdv_normalized_per_m_s": -0.2,
+      "dFdx_normalized_per_m": -5.789999999999999,
+      "damping_status": "damping",
+      "force_at_v_zero": [
+        0.000579,
+        -0.0,
+        -0.000579
+      ],
+      "force_at_x_zero": [
+        0.002,
+        -0.0,
+        -0.002
+      ],
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY",
+      "numerical_asymmetry_v": 0.0,
+      "numerical_asymmetry_x": 0.0,
+      "position_probe_m": [
+        -0.0001,
+        0.0,
+        0.0001
+      ],
+      "restoring_status": "restoring",
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY plane_wave post-handoff local-force audit",
+      "velocity_probe_m_s": [
+        -0.01,
+        0.0,
+        0.01
+      ]
+    },
+    {
+      "beam_mode": "elliptical_gaussian",
+      "dFdv_normalized_per_m_s": -0.2,
+      "dFdx_normalized_per_m": -5.789747924540662,
+      "damping_status": "damping",
+      "force_at_v_zero": [
+        0.0005789747924540662,
+        -0.0,
+        -0.0005789747924540662
+      ],
+      "force_at_x_zero": [
+        0.002,
+        -0.0,
+        -0.002
+      ],
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY",
+      "numerical_asymmetry_v": 0.0,
+      "numerical_asymmetry_x": 0.0,
+      "position_probe_m": [
+        -0.0001,
+        0.0,
+        0.0001
+      ],
+      "restoring_status": "restoring",
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY elliptical_gaussian post-handoff local-force audit",
+      "velocity_probe_m_s": [
+        -0.01,
+        0.0,
+        0.01
+      ]
+    }
+  ],
+  "overall_engineering_diagnoses": [
+    "UNIT_CONVERSION_SUSPECT",
+    "GAUSSIAN_APPLICATION_SUSPECT",
+    "PROVISIONAL_BACKEND_TOPOLOGY_SUSPECT"
+  ],
+  "primary_suspect": "provisional force adapter: missing SI acceleration conversion, aggregate mean-envelope application, and a toy law that does not consult backend force topology or detuning",
+  "replication_valid": false,
+  "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY metadata",
+  "trajectory_force_budgets": [
+    {
+      "actual_saved_delta_v_m_s": [
+        -0.00559783937675995,
+        0.0,
+        0.0
+      ],
+      "actual_saved_momentum_change_kg_m_s": [
+        -3.9954964526203766e-28,
+        0.0,
+        0.0
+      ],
+      "appreciably_illuminated_physical_impulse_n_s": [
+        -1.3554574958769982e-21,
+        0.0,
+        0.0
+      ],
+      "case_name": "v_2_gamma_over_k",
+      "center_crossing_times_s": [
+        0.0033201626359715334
+      ],
+      "closest_approach_s": 0.0032999999999999982,
+      "component_4_active_after_handoff": true,
+      "component_4_inactive_before_handoff": true,
+      "current_adapter_reconstruction_error_m_s": [
+        2.1248682032654065e-09,
+        0.0,
+        0.0
+      ],
+      "current_adapter_reconstruction_max_abs_error_m_s": 2.1248682032654065e-09,
+      "current_run008_adapter_delta_v_from_force_integral_m_s": [
+        -0.005597837251891747,
+        0.0,
+        0.0
+      ],
+      "current_run008_delta_v_to_stopping_delta_v_ratio": 0.0003717024818565704,
+      "engineering_diagnoses": [
+        "UNIT_CONVERSION_SUSPECT",
+        "GAUSSIAN_APPLICATION_SUSPECT",
+        "PROVISIONAL_BACKEND_TOPOLOGY_SUSPECT"
+      ],
+      "final_momentum_kg_m_s": [
+        1.0745183343203721e-24,
+        0.0,
+        0.0
+      ],
+      "final_velocity_m_s": 15.05440216062324,
+      "first_appreciable_illumination_s": 0.00030000000000000003,
+      "handoff_time_s": 0.001,
+      "initial_momentum_kg_m_s": [
+        1.0749178839656342e-24,
+        0.0,
+        0.0
+      ],
+      "initial_velocity_gamma_over_k": 2.0,
+      "initial_velocity_m_s": 15.06,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY",
+      "last_appreciable_illumination_s": 0.0063000000000000035,
+      "normalized_force_time_integral": [
+        -0.005597837251891747,
+        0.0,
+        0.0
+      ],
+      "official_classifier_reason": "only 0/21 dwell samples satisfied the engineering bounds; required fraction is 1",
+      "official_outcome_label": "UNRESOLVED",
+      "physical_delivered_to_stopping_impulse_ratio": 1261.1592971169407,
+      "physical_delta_v_if_conversion_applied_once_m_s": [
+        -18993.059014581126,
+        0.0,
+        0.0
+      ],
+      "physical_impulse_if_hbar_k_gamma_applied_once_n_s": [
+        -1.3556426830005285e-21,
+        0.0,
+        0.0
+      ],
+      "plot_path": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY_v_2_gamma_over_k.png",
+      "post_handoff_physical_impulse_n_s": [
+        -1.3534299520147389e-21,
+        0.0,
+        0.0
+      ],
+      "pre_handoff_physical_impulse_n_s": [
+        -2.2127309857895804e-24,
+        0.0,
+        0.0
+      ],
+      "ratio_warning": "diagnostic impulse ratio only; it is not capture efficiency",
+      "replication_valid": false,
+      "source_arrays": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_2_gamma_over_k_run_008_arrays.npz",
+      "source_metadata": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_2_gamma_over_k_run_008_metadata.json",
+      "stopping_impulse_required_magnitude_n_s": 1.0749178839656342e-24,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY v_2_gamma_over_k force budget"
+    },
+    {
+      "actual_saved_delta_v_m_s": [
+        -0.005597824033351628,
+        0.0,
+        0.0
+      ],
+      "actual_saved_momentum_change_kg_m_s": [
+        -3.9954855011548078e-28,
+        0.0,
+        0.0
+      ],
+      "appreciably_illuminated_physical_impulse_n_s": [
+        -1.3554893774840225e-21,
+        0.0,
+        0.0
+      ],
+      "case_name": "v_4_gamma_over_k",
+      "center_crossing_times_s": [
+        0.0016600545315840639
+      ],
+      "closest_approach_s": 0.0017000000000000003,
+      "component_4_active_after_handoff": true,
+      "component_4_inactive_before_handoff": true,
+      "current_adapter_reconstruction_error_m_s": [
+        8.812674375836826e-09,
+        0.0,
+        0.0
+      ],
+      "current_adapter_reconstruction_max_abs_error_m_s": 8.812674375836826e-09,
+      "current_run008_adapter_delta_v_from_force_integral_m_s": [
+        -0.005597815220677252,
+        0.0,
+        0.0
+      ],
+      "current_run008_delta_v_to_stopping_delta_v_ratio": 0.00018585073151897836,
+      "engineering_diagnoses": [
+        "UNIT_CONVERSION_SUSPECT",
+        "GAUSSIAN_APPLICATION_SUSPECT",
+        "PROVISIONAL_BACKEND_TOPOLOGY_SUSPECT"
+      ],
+      "final_momentum_kg_m_s": [
+        2.149436219381153e-24,
+        0.0,
+        0.0
+      ],
+      "final_velocity_m_s": 30.11440217596665,
+      "first_appreciable_illumination_s": 0.0002,
+      "handoff_time_s": 0.001,
+      "initial_momentum_kg_m_s": [
+        2.1498357679312684e-24,
+        0.0,
+        0.0
+      ],
+      "initial_velocity_gamma_over_k": 4.0,
+      "initial_velocity_m_s": 30.12,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY",
+      "last_appreciable_illumination_s": 0.0030999999999999986,
+      "normalized_force_time_integral": [
+        -0.005597815220677252,
+        0.0,
+        0.0
+      ],
+      "official_classifier_reason": "only 0/21 dwell samples satisfied the engineering bounds; required fraction is 1",
+      "official_outcome_label": "UNRESOLVED",
+      "physical_delivered_to_stopping_impulse_ratio": 630.5771668079539,
+      "physical_delta_v_if_conversion_applied_once_m_s": [
+        -18992.98426425557,
+        0.0,
+        0.0
+      ],
+      "physical_impulse_if_hbar_k_gamma_applied_once_n_s": [
+        -1.355637347644501e-21,
+        0.0,
+        0.0
+      ],
+      "plot_path": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY_v_4_gamma_over_k.png",
+      "post_handoff_physical_impulse_n_s": [
+        -1.2977166686531326e-21,
+        0.0,
+        0.0
+      ],
+      "pre_handoff_physical_impulse_n_s": [
+        -5.792067899136827e-23,
+        0.0,
+        0.0
+      ],
+      "ratio_warning": "diagnostic impulse ratio only; it is not capture efficiency",
+      "replication_valid": false,
+      "source_arrays": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_4_gamma_over_k_run_008_arrays.npz",
+      "source_metadata": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_4_gamma_over_k_run_008_metadata.json",
+      "stopping_impulse_required_magnitude_n_s": 2.1498357679312684e-24,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY v_4_gamma_over_k force budget"
+    },
+    {
+      "actual_saved_delta_v_m_s": [
+        -0.0055978202564972435,
+        0.0,
+        0.0
+      ],
+      "actual_saved_momentum_change_kg_m_s": [
+        -3.99548280540096e-28,
+        0.0,
+        0.0
+      ],
+      "appreciably_illuminated_physical_impulse_n_s": [
+        -1.3553600322183866e-21,
+        0.0,
+        0.0
+      ],
+      "case_name": "v_6_gamma_over_k",
+      "center_crossing_times_s": [
+        0.001106696819160063
+      ],
+      "closest_approach_s": 0.0011,
+      "component_4_active_after_handoff": true,
+      "component_4_inactive_before_handoff": true,
+      "current_adapter_reconstruction_error_m_s": [
+        1.9739993210345086e-08,
+        0.0,
+        0.0
+      ],
+      "current_adapter_reconstruction_max_abs_error_m_s": 1.9739993210345086e-08,
+      "current_run008_adapter_delta_v_from_force_integral_m_s": [
+        -0.005597800516504033,
+        0.0,
+        0.0
+      ],
+      "current_run008_delta_v_to_stopping_delta_v_ratio": 0.00012390040408360434,
+      "engineering_diagnoses": [
+        "UNIT_CONVERSION_SUSPECT",
+        "GAUSSIAN_APPLICATION_SUSPECT",
+        "PROVISIONAL_BACKEND_TOPOLOGY_SUSPECT"
+      ],
+      "final_momentum_kg_m_s": [
+        3.2243541036163623e-24,
+        0.0,
+        0.0
+      ],
+      "final_velocity_m_s": 45.1744021797435,
+      "first_appreciable_illumination_s": 0.0001,
+      "handoff_time_s": 0.001,
+      "initial_momentum_kg_m_s": [
+        3.2247536518969024e-24,
+        0.0,
+        0.0
+      ],
+      "initial_velocity_gamma_over_k": 6.0,
+      "initial_velocity_m_s": 45.18,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY",
+      "last_appreciable_illumination_s": 0.0021000000000000003,
+      "normalized_force_time_integral": [
+        -0.005597800516504033,
+        0.0,
+        0.0
+      ],
+      "official_classifier_reason": "only 0/21 dwell samples satisfied the engineering bounds; required fraction is 1",
+      "official_outcome_label": "UNRESOLVED",
+      "physical_delivered_to_stopping_impulse_ratio": 420.38367361783634,
+      "physical_delta_v_if_conversion_applied_once_m_s": [
+        -18992.934374053846,
+        0.0,
+        0.0
+      ],
+      "physical_impulse_if_hbar_k_gamma_applied_once_n_s": [
+        -1.3556337866969532e-21,
+        0.0,
+        0.0
+      ],
+      "plot_path": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY_v_6_gamma_over_k.png",
+      "post_handoff_physical_impulse_n_s": [
+        -9.041526230767401e-22,
+        0.0,
+        0.0
+      ],
+      "pre_handoff_physical_impulse_n_s": [
+        -4.514811636202127e-22,
+        0.0,
+        0.0
+      ],
+      "ratio_warning": "diagnostic impulse ratio only; it is not capture efficiency",
+      "replication_valid": false,
+      "source_arrays": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_6_gamma_over_k_run_008_arrays.npz",
+      "source_metadata": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_6_gamma_over_k_run_008_metadata.json",
+      "stopping_impulse_required_magnitude_n_s": 3.2247536518969024e-24,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY v_6_gamma_over_k force budget"
+    },
+    {
+      "actual_saved_delta_v_m_s": [
+        -0.00559781879555743,
+        0.0,
+        0.0
+      ],
+      "actual_saved_momentum_change_kg_m_s": [
+        -3.9954817626382884e-28,
+        0.0,
+        0.0
+      ],
+      "appreciably_illuminated_physical_impulse_n_s": [
+        -1.3553321529844186e-21,
+        0.0,
+        0.0
+      ],
+      "case_name": "v_7p5_gamma_over_k",
+      "center_crossing_times_s": [
+        0.0008853555628760331
+      ],
+      "closest_approach_s": 0.0009000000000000002,
+      "component_4_active_after_handoff": true,
+      "component_4_inactive_before_handoff": true,
+      "current_adapter_reconstruction_error_m_s": [
+        3.041901327095059e-08,
+        0.0,
+        0.0
+      ],
+      "current_adapter_reconstruction_max_abs_error_m_s": 3.041901327095059e-08,
+      "current_run008_adapter_delta_v_from_force_integral_m_s": [
+        -0.005597788376544159,
+        0.0,
+        0.0
+      ],
+      "current_run008_delta_v_to_stopping_delta_v_ratio": 9.912029739809526e-05,
+      "engineering_diagnoses": [
+        "UNIT_CONVERSION_SUSPECT",
+        "GAUSSIAN_APPLICATION_SUSPECT",
+        "PROVISIONAL_BACKEND_TOPOLOGY_SUSPECT"
+      ],
+      "final_momentum_kg_m_s": [
+        4.030542516694864e-24,
+        0.0,
+        0.0
+      ],
+      "final_velocity_m_s": 56.469402181204444,
+      "first_appreciable_illumination_s": 0.0001,
+      "handoff_time_s": 0.001,
+      "initial_momentum_kg_m_s": [
+        4.030942064871128e-24,
+        0.0,
+        0.0
+      ],
+      "initial_velocity_gamma_over_k": 7.5,
+      "initial_velocity_m_s": 56.475,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY",
+      "last_appreciable_illumination_s": 0.0016000000000000003,
+      "normalized_force_time_integral": [
+        -0.005597788376544159,
+        0.0,
+        0.0
+      ],
+      "official_classifier_reason": "only 0/21 dwell samples satisfied the engineering bounds; required fraction is 1",
+      "official_outcome_label": "UNRESOLVED",
+      "physical_delivered_to_stopping_impulse_ratio": 336.3062095448161,
+      "physical_delta_v_if_conversion_applied_once_m_s": [
+        -18992.89318404349,
+        0.0,
+        0.0
+      ],
+      "physical_impulse_if_hbar_k_gamma_applied_once_n_s": [
+        -1.3556308467315634e-21,
+        0.0,
+        0.0
+      ],
+      "plot_path": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY_v_7p5_gamma_over_k.png",
+      "post_handoff_physical_impulse_n_s": [
+        -3.9087955247274674e-22,
+        0.0,
+        0.0
+      ],
+      "pre_handoff_physical_impulse_n_s": [
+        -9.647512942588167e-22,
+        0.0,
+        0.0
+      ],
+      "ratio_warning": "diagnostic impulse ratio only; it is not capture efficiency",
+      "replication_valid": false,
+      "source_arrays": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_7p5_gamma_over_k_run_008_arrays.npz",
+      "source_metadata": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_7p5_gamma_over_k_run_008_metadata.json",
+      "stopping_impulse_required_magnitude_n_s": 4.030942064871128e-24,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY v_7p5_gamma_over_k force budget"
+    },
+    {
+      "actual_saved_delta_v_m_s": [
+        -0.005597817669993788,
+        0.0,
+        0.0
+      ],
+      "actual_saved_momentum_change_kg_m_s": [
+        -3.995480959268715e-28,
+        0.0,
+        0.0
+      ],
+      "appreciably_illuminated_physical_impulse_n_s": [
+        -1.3554316676060651e-21,
+        0.0,
+        0.0
+      ],
+      "case_name": "v_9_gamma_over_k",
+      "center_crossing_times_s": [
+        0.0007377953370147633
+      ],
+      "closest_approach_s": 0.0007000000000000001,
+      "component_4_active_after_handoff": true,
+      "component_4_inactive_before_handoff": true,
+      "current_adapter_reconstruction_error_m_s": [
+        4.293635720922784e-08,
+        0.0,
+        0.0
+      ],
+      "current_adapter_reconstruction_max_abs_error_m_s": 4.293635720922784e-08,
+      "current_run008_adapter_delta_v_from_force_integral_m_s": [
+        -0.005597774733636578,
+        0.0,
+        0.0
+      ],
+      "current_run008_delta_v_to_stopping_delta_v_ratio": 8.260023122316346e-05,
+      "engineering_diagnoses": [
+        "UNIT_CONVERSION_SUSPECT",
+        "GAUSSIAN_APPLICATION_SUSPECT",
+        "PROVISIONAL_BACKEND_TOPOLOGY_SUSPECT"
+      ],
+      "final_momentum_kg_m_s": [
+        4.836730929749427e-24,
+        0.0,
+        0.0
+      ],
+      "final_velocity_m_s": 67.76440218233,
+      "first_appreciable_illumination_s": 0.0001,
+      "handoff_time_s": 0.001,
+      "initial_momentum_kg_m_s": [
+        4.8371304778453536e-24,
+        0.0,
+        0.0
+      ],
+      "initial_velocity_gamma_over_k": 9.0,
+      "initial_velocity_m_s": 67.77,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY",
+      "last_appreciable_illumination_s": 0.0014000000000000002,
+      "normalized_force_time_integral": [
+        -0.005597774733636578,
+        0.0,
+        0.0
+      ],
+      "official_classifier_reason": "only 0/21 dwell samples satisfied the engineering bounds; required fraction is 1",
+      "official_outcome_label": "UNRESOLVED",
+      "physical_delivered_to_stopping_impulse_ratio": 280.2544915838825,
+      "physical_delta_v_if_conversion_applied_once_m_s": [
+        -18992.846894639715,
+        0.0,
+        0.0
+      ],
+      "physical_impulse_if_hbar_k_gamma_applied_once_n_s": [
+        -1.3556275427934522e-21,
+        0.0,
+        0.0
+      ],
+      "plot_path": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY_v_9_gamma_over_k.png",
+      "post_handoff_physical_impulse_n_s": [
+        -9.090896366785509e-23,
+        0.0,
+        0.0
+      ],
+      "pre_handoff_physical_impulse_n_s": [
+        -1.2647185791255971e-21,
+        0.0,
+        0.0
+      ],
+      "ratio_warning": "diagnostic impulse ratio only; it is not capture efficiency",
+      "replication_valid": false,
+      "source_arrays": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_9_gamma_over_k_run_008_arrays.npz",
+      "source_metadata": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_9_gamma_over_k_run_008_metadata.json",
+      "stopping_impulse_required_magnitude_n_s": 4.8371304778453536e-24,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY v_9_gamma_over_k force budget"
+    }
+  ],
+  "unit_audit": {
+    "acceleration_examples_m_s2": {
+      "0.01": 33929.280470171885,
+      "0.015": 50893.920705257835,
+      "0.03": 101787.84141051567,
+      "1": 3392928.0470171887
+    },
+    "acceleration_per_normalized_force_m_s2": 3392928.0470171887,
+    "audited_conversion_application_count": 1,
+    "conversion_count": 1,
+    "diagnosis": "UNIT_CONVERSION_SUSPECT",
+    "hbar_k_gamma_n": 2.421725788012861e-19,
+    "integrator_position_unit": "m",
+    "integrator_time_unit": "s",
+    "integrator_velocity_unit": "m/s",
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY",
+    "linewidth_rad_s": 131318572.92005336,
+    "linewidth_source": "E. B. Norrgard et al., Phys. Rev. A 108, 032809 (2023), doi:10.1103/PhysRevA.108.032809; Rodriguez page 2 citing Norrgard; Gamma=2*pi*20.9(2) MHz",
+    "mass": {
+      "isotopologue": "24Mg19F",
+      "note": "Sum of neutral-atom isotope masses; molecular binding mass is neglected. This is sufficient for the Track P unit audit and is not spectroscopy input.",
+      "source": [
+        "NIST Atomic Weights and Isotopic Compositions for Magnesium, 24Mg; https://physics.nist.gov/cgi-bin/Compositions/stand_alone.pl?ele=Mg",
+        "NIST Atomic Weights and Isotopic Compositions for Fluorine, 19F; https://physics.nist.gov/cgi-bin/Compositions/stand_alone.pl?ele=F",
+        "NIST 2022 CODATA recommended values, atomic mass constant and Planck constant; https://physics.nist.gov/cuu/pdf/wallet_2022.pdf"
+      ],
+      "status": "derived_approximate",
+      "value_kg": 7.137568950635021e-26
+    },
+    "run008_adapter_to_physical_acceleration_ratio": 2.947306828033462e-07,
+    "run008_normalized_force_to_acceleration": 1.0,
+    "run008_physical_conversion_application_count": 0,
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY unit and acceleration chain",
+    "wave_number_rad_m": 17487295.594710786,
+    "wavelength_m": 3.5930000000000005e-07,
+    "wavelength_source": "K. J. Rodriguez et al., Phys. Rev. A 108, 033105 (2023), doi:10.1103/PhysRevA.108.033105; Cooling-transition description"
+  }
+}

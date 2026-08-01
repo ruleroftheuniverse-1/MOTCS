@@ -307,6 +307,10 @@ def integrate_policy_trajectory(
     explicit plumbing scale, not an MgF mass or physical unit conversion.
     """
     _require_provisional_trajectory_backend(backend, force_config)
+    if force_config.position_unit != trajectory_config.position_unit:
+        raise ValueError(
+            "force and trajectory position units must match exactly"
+        )
 
     def acceleration_model(
         time_s: float, position: FloatArray, velocity: FloatArray

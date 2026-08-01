@@ -1,0 +1,728 @@
+{
+  "analysis_mode": "saved_artifacts_only_no_integration",
+  "cases": [
+    {
+      "appreciable_envelope_threshold": 0.001,
+      "appreciably_illuminated_at_endpoint": false,
+      "both_bounds": {
+        "first_entry_s": null,
+        "first_exit_s": null,
+        "last_entry_s": null,
+        "last_exit_s": null,
+        "sample_count": 0,
+        "sampled_occupancy_duration_s": 0.0
+      },
+      "case_name": "v_2_gamma_over_k",
+      "contributing_diagnostic_categories": [
+        "LEFT_BOUNDED_REGION",
+        "FORCE_OR_ACCELERATION_NEAR_ZERO"
+      ],
+      "diagnostic_category": "CENTER_CROSSING_WITHOUT_SETTLING",
+      "dwell_window": {
+        "available_samples": 21,
+        "both_count": 0,
+        "both_fraction": 0.0,
+        "end_s": 0.02,
+        "minimum_required_samples": 10,
+        "position_count": 0,
+        "position_fraction": 0.0,
+        "start_s": 0.018000000000000002,
+        "velocity_count": 0,
+        "velocity_fraction": 0.0
+      },
+      "endpoint_force_near_zero": true,
+      "endpoint_force_threshold_definition": "norm(F_end) <= max(1e-12, 1e-3 * max trajectory force norm)",
+      "final_gaussian_envelopes": {
+        "+x_prime": 3.8195351901018855e-90,
+        "+y_prime": 3.8195351901018855e-90,
+        "+z": 1.4588849068425817e-179,
+        "-x_prime": 3.8195351901018855e-90,
+        "-y_prime": 3.8195351901018855e-90,
+        "-z": 1.4588849068425817e-179
+      },
+      "final_motion": {
+        "approaching_or_receding": "receding",
+        "behavior_summary": "passing through / leaving",
+        "position_magnitude_trend": "increasing",
+        "speed_trend": "effectively constant"
+      },
+      "final_normalized_force": [
+        -1.1368944192608873e-89,
+        -0.0,
+        -0.0
+      ],
+      "final_position_m": [
+        0.2511067247205286,
+        0.0,
+        0.0
+      ],
+      "final_provisional_integrator_acceleration_m_s2": [
+        -1.1368944192608873e-89,
+        -0.0,
+        -0.0
+      ],
+      "final_velocity_m_s": [
+        15.05440216062324,
+        0.0,
+        0.0
+      ],
+      "force_scaling_warning": "engineering scaling only; not calibrated to MgF",
+      "handoff_audit": {
+        "component_4_active_after": true,
+        "component_4_inactive_before": true,
+        "component_4_saturation_zero_before": true,
+        "handoff_flag_after": true,
+        "landed_exactly": true,
+        "post_saturations": [
+          1.45,
+          1.45,
+          2.17,
+          0.72
+        ],
+        "pre_saturations": [
+          1.45,
+          1.45,
+          2.89,
+          0.0
+        ],
+        "tau_s": 0.001
+      },
+      "initial_velocity_gamma_over_k": 2.0,
+      "initial_velocity_m_s": 15.06,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008A_DIAGNOSTIC_AUDIT_ONLY",
+      "minimum_absolute_distance_m": 0.0003035920432917466,
+      "official_classifier_reason": "only 0/21 dwell samples satisfied the engineering bounds; required fraction is 1",
+      "official_outcome_label": "UNRESOLVED",
+      "plot_path": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008A_DIAGNOSTIC_AUDIT_ONLY_v_2_gamma_over_k.png",
+      "position_bound": {
+        "first_entry_s": 0.0026999999999999993,
+        "first_exit_s": 0.0038999999999999972,
+        "last_entry_s": 0.0026999999999999993,
+        "last_exit_s": 0.0038999999999999972,
+        "sample_count": 13,
+        "sampled_occupancy_duration_s": 0.001299999999999998,
+        "unit": "m",
+        "value": 0.01
+      },
+      "replication_valid": false,
+      "source_arrays": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_2_gamma_over_k_run_008_arrays.npz",
+      "source_metadata": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_2_gamma_over_k_run_008_metadata.json",
+      "tail_trends": {
+        "d_abs_v_dt_m_s2": 0.0,
+        "d_abs_x_dt_m_s": 15.054402160623125,
+        "dv_dt_m_s2": 0.0,
+        "dx_dt_m_s": 15.054402160623125,
+        "tail_interval_s": [
+          0.015,
+          0.02
+        ],
+        "tail_sample_count": 51
+      },
+      "time_of_closest_approach_s": 0.0032999999999999982,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008A_DIAGNOSTIC_AUDIT_ONLY v_2_gamma_over_k diagnostic metadata",
+      "velocity_bound": {
+        "first_entry_s": null,
+        "first_exit_s": null,
+        "last_entry_s": null,
+        "last_exit_s": null,
+        "sample_count": 0,
+        "sampled_occupancy_duration_s": 0.0,
+        "unit": "m/s",
+        "value": 1.0
+      },
+      "x_zero_crossed": true,
+      "x_zero_crossing_count": 1,
+      "x_zero_crossing_times_s": [
+        0.0033201626359715334
+      ]
+    },
+    {
+      "appreciable_envelope_threshold": 0.001,
+      "appreciably_illuminated_at_endpoint": false,
+      "both_bounds": {
+        "first_entry_s": null,
+        "first_exit_s": null,
+        "last_entry_s": null,
+        "last_exit_s": null,
+        "sample_count": 0,
+        "sampled_occupancy_duration_s": 0.0
+      },
+      "case_name": "v_4_gamma_over_k",
+      "contributing_diagnostic_categories": [
+        "LEFT_BOUNDED_REGION",
+        "FORCE_OR_ACCELERATION_NEAR_ZERO"
+      ],
+      "diagnostic_category": "CENTER_CROSSING_WITHOUT_SETTLING",
+      "dwell_window": {
+        "available_samples": 21,
+        "both_count": 0,
+        "both_fraction": 0.0,
+        "end_s": 0.02,
+        "minimum_required_samples": 10,
+        "position_count": 0,
+        "position_fraction": 0.0,
+        "start_s": 0.018000000000000002,
+        "velocity_count": 0,
+        "velocity_fraction": 0.0
+      },
+      "endpoint_force_near_zero": true,
+      "endpoint_force_threshold_definition": "norm(F_end) <= max(1e-12, 1e-3 * max trajectory force norm)",
+      "final_gaussian_envelopes": {
+        "+x_prime": 0.0,
+        "+y_prime": 0.0,
+        "+z": 0.0,
+        "-x_prime": 0.0,
+        "-y_prime": 0.0,
+        "-z": 0.0
+      },
+      "final_motion": {
+        "approaching_or_receding": "receding",
+        "behavior_summary": "passing through / leaving",
+        "position_magnitude_trend": "increasing",
+        "speed_trend": "effectively constant"
+      },
+      "final_normalized_force": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "final_position_m": [
+        0.55229736024634,
+        0.0,
+        0.0
+      ],
+      "final_provisional_integrator_acceleration_m_s2": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "final_velocity_m_s": [
+        30.11440217596665,
+        0.0,
+        0.0
+      ],
+      "force_scaling_warning": "engineering scaling only; not calibrated to MgF",
+      "handoff_audit": {
+        "component_4_active_after": true,
+        "component_4_inactive_before": true,
+        "component_4_saturation_zero_before": true,
+        "handoff_flag_after": true,
+        "landed_exactly": true,
+        "post_saturations": [
+          1.45,
+          1.45,
+          2.17,
+          0.72
+        ],
+        "pre_saturations": [
+          1.45,
+          1.45,
+          2.89,
+          0.0
+        ],
+        "tau_s": 0.001
+      },
+      "initial_velocity_gamma_over_k": 4.0,
+      "initial_velocity_m_s": 30.12,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008A_DIAGNOSTIC_AUDIT_ONLY",
+      "minimum_absolute_distance_m": 0.0012030490944730842,
+      "official_classifier_reason": "only 0/21 dwell samples satisfied the engineering bounds; required fraction is 1",
+      "official_outcome_label": "UNRESOLVED",
+      "plot_path": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008A_DIAGNOSTIC_AUDIT_ONLY_v_4_gamma_over_k.png",
+      "position_bound": {
+        "first_entry_s": 0.0014000000000000002,
+        "first_exit_s": 0.0019000000000000004,
+        "last_entry_s": 0.0014000000000000002,
+        "last_exit_s": 0.0019000000000000004,
+        "sample_count": 6,
+        "sampled_occupancy_duration_s": 0.0006000000000000003,
+        "unit": "m",
+        "value": 0.01
+      },
+      "replication_valid": false,
+      "source_arrays": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_4_gamma_over_k_run_008_arrays.npz",
+      "source_metadata": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_4_gamma_over_k_run_008_metadata.json",
+      "tail_trends": {
+        "d_abs_v_dt_m_s2": 5.602205987416447e-28,
+        "d_abs_x_dt_m_s": 30.114402175966756,
+        "dv_dt_m_s2": 5.602205987416447e-28,
+        "dx_dt_m_s": 30.114402175966756,
+        "tail_interval_s": [
+          0.015,
+          0.02
+        ],
+        "tail_sample_count": 51
+      },
+      "time_of_closest_approach_s": 0.0017000000000000003,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008A_DIAGNOSTIC_AUDIT_ONLY v_4_gamma_over_k diagnostic metadata",
+      "velocity_bound": {
+        "first_entry_s": null,
+        "first_exit_s": null,
+        "last_entry_s": null,
+        "last_exit_s": null,
+        "sample_count": 0,
+        "sampled_occupancy_duration_s": 0.0,
+        "unit": "m/s",
+        "value": 1.0
+      },
+      "x_zero_crossed": true,
+      "x_zero_crossing_count": 1,
+      "x_zero_crossing_times_s": [
+        0.0016600545315840639
+      ]
+    },
+    {
+      "appreciable_envelope_threshold": 0.001,
+      "appreciably_illuminated_at_endpoint": false,
+      "both_bounds": {
+        "first_entry_s": null,
+        "first_exit_s": null,
+        "last_entry_s": null,
+        "last_exit_s": null,
+        "sample_count": 0,
+        "sampled_occupancy_duration_s": 0.0
+      },
+      "case_name": "v_6_gamma_over_k",
+      "contributing_diagnostic_categories": [
+        "LEFT_BOUNDED_REGION",
+        "FORCE_OR_ACCELERATION_NEAR_ZERO"
+      ],
+      "diagnostic_category": "CENTER_CROSSING_WITHOUT_SETTLING",
+      "dwell_window": {
+        "available_samples": 21,
+        "both_count": 0,
+        "both_fraction": 0.0,
+        "end_s": 0.02,
+        "minimum_required_samples": 10,
+        "position_count": 0,
+        "position_fraction": 0.0,
+        "start_s": 0.018000000000000002,
+        "velocity_count": 0,
+        "velocity_fraction": 0.0
+      },
+      "endpoint_force_near_zero": true,
+      "endpoint_force_threshold_definition": "norm(F_end) <= max(1e-12, 1e-3 * max trajectory force norm)",
+      "final_gaussian_envelopes": {
+        "+x_prime": 0.0,
+        "+y_prime": 0.0,
+        "+z": 0.0,
+        "-x_prime": 0.0,
+        "-y_prime": 0.0,
+        "-z": 0.0
+      },
+      "final_motion": {
+        "approaching_or_receding": "receding",
+        "behavior_summary": "passing through / leaving",
+        "position_magnitude_trend": "increasing",
+        "speed_trend": "effectively constant"
+      },
+      "final_normalized_force": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "final_position_m": [
+        0.8534942494090819,
+        0.0,
+        0.0
+      ],
+      "final_provisional_integrator_acceleration_m_s2": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "final_velocity_m_s": [
+        45.1744021797435,
+        0.0,
+        0.0
+      ],
+      "force_scaling_warning": "engineering scaling only; not calibrated to MgF",
+      "handoff_audit": {
+        "component_4_active_after": true,
+        "component_4_inactive_before": true,
+        "component_4_saturation_zero_before": true,
+        "handoff_flag_after": true,
+        "landed_exactly": true,
+        "post_saturations": [
+          1.45,
+          1.45,
+          2.17,
+          0.72
+        ],
+        "pre_saturations": [
+          1.45,
+          1.45,
+          2.89,
+          0.0
+        ],
+        "tau_s": 0.001
+      },
+      "initial_velocity_gamma_over_k": 6.0,
+      "initial_velocity_m_s": 45.18,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008A_DIAGNOSTIC_AUDIT_ONLY",
+      "minimum_absolute_distance_m": 0.00030254106685610217,
+      "official_classifier_reason": "only 0/21 dwell samples satisfied the engineering bounds; required fraction is 1",
+      "official_outcome_label": "UNRESOLVED",
+      "plot_path": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008A_DIAGNOSTIC_AUDIT_ONLY_v_6_gamma_over_k.png",
+      "position_bound": {
+        "first_entry_s": 0.0009000000000000002,
+        "first_exit_s": 0.0013000000000000002,
+        "last_entry_s": 0.0009000000000000002,
+        "last_exit_s": 0.0013000000000000002,
+        "sample_count": 5,
+        "sampled_occupancy_duration_s": 0.0005,
+        "unit": "m",
+        "value": 0.01
+      },
+      "replication_valid": false,
+      "source_arrays": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_6_gamma_over_k_run_008_arrays.npz",
+      "source_metadata": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_6_gamma_over_k_run_008_metadata.json",
+      "tail_trends": {
+        "d_abs_v_dt_m_s2": 0.0,
+        "d_abs_x_dt_m_s": 45.17440217974316,
+        "dv_dt_m_s2": 0.0,
+        "dx_dt_m_s": 45.17440217974316,
+        "tail_interval_s": [
+          0.015,
+          0.02
+        ],
+        "tail_sample_count": 51
+      },
+      "time_of_closest_approach_s": 0.0011,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008A_DIAGNOSTIC_AUDIT_ONLY v_6_gamma_over_k diagnostic metadata",
+      "velocity_bound": {
+        "first_entry_s": null,
+        "first_exit_s": null,
+        "last_entry_s": null,
+        "last_exit_s": null,
+        "sample_count": 0,
+        "sampled_occupancy_duration_s": 0.0,
+        "unit": "m/s",
+        "value": 1.0
+      },
+      "x_zero_crossed": true,
+      "x_zero_crossing_count": 1,
+      "x_zero_crossing_times_s": [
+        0.001106696819160063
+      ]
+    },
+    {
+      "appreciable_envelope_threshold": 0.001,
+      "appreciably_illuminated_at_endpoint": false,
+      "both_bounds": {
+        "first_entry_s": null,
+        "first_exit_s": null,
+        "last_entry_s": null,
+        "last_exit_s": null,
+        "sample_count": 0,
+        "sampled_occupancy_duration_s": 0.0
+      },
+      "case_name": "v_7p5_gamma_over_k",
+      "contributing_diagnostic_categories": [
+        "LEFT_BOUNDED_REGION",
+        "FORCE_OR_ACCELERATION_NEAR_ZERO"
+      ],
+      "diagnostic_category": "CENTER_CROSSING_WITHOUT_SETTLING",
+      "dwell_window": {
+        "available_samples": 21,
+        "both_count": 0,
+        "both_fraction": 0.0,
+        "end_s": 0.02,
+        "minimum_required_samples": 10,
+        "position_count": 0,
+        "position_fraction": 0.0,
+        "start_s": 0.018000000000000002,
+        "velocity_count": 0,
+        "velocity_fraction": 0.0
+      },
+      "endpoint_force_near_zero": true,
+      "endpoint_force_threshold_definition": "norm(F_end) <= max(1e-12, 1e-3 * max trajectory force norm)",
+      "final_gaussian_envelopes": {
+        "+x_prime": 0.0,
+        "+y_prime": 0.0,
+        "+z": 0.0,
+        "-x_prime": 0.0,
+        "-y_prime": 0.0,
+        "-z": 0.0
+      },
+      "final_motion": {
+        "approaching_or_receding": "receding",
+        "behavior_summary": "passing through / leaving",
+        "position_magnitude_trend": "increasing",
+        "speed_trend": "effectively constant"
+      },
+      "final_normalized_force": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "final_position_m": [
+        1.079393006567809,
+        0.0,
+        0.0
+      ],
+      "final_provisional_integrator_acceleration_m_s2": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "final_velocity_m_s": [
+        56.469402181204444,
+        0.0,
+        0.0
+      ],
+      "force_scaling_warning": "engineering scaling only; not calibrated to MgF",
+      "handoff_audit": {
+        "component_4_active_after": true,
+        "component_4_inactive_before": true,
+        "component_4_saturation_zero_before": true,
+        "handoff_flag_after": true,
+        "landed_exactly": true,
+        "post_saturations": [
+          1.45,
+          1.45,
+          2.17,
+          0.72
+        ],
+        "pre_saturations": [
+          1.45,
+          1.45,
+          2.89,
+          0.0
+        ],
+        "tau_s": 0.001
+      },
+      "initial_velocity_gamma_over_k": 7.5,
+      "initial_velocity_m_s": 56.475,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008A_DIAGNOSTIC_AUDIT_ONLY",
+      "minimum_absolute_distance_m": 0.0008270095326908108,
+      "official_classifier_reason": "only 0/21 dwell samples satisfied the engineering bounds; required fraction is 1",
+      "official_outcome_label": "UNRESOLVED",
+      "plot_path": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008A_DIAGNOSTIC_AUDIT_ONLY_v_7p5_gamma_over_k.png",
+      "position_bound": {
+        "first_entry_s": 0.0008000000000000001,
+        "first_exit_s": 0.001,
+        "last_entry_s": 0.0008000000000000001,
+        "last_exit_s": 0.001,
+        "sample_count": 3,
+        "sampled_occupancy_duration_s": 0.0002999999999999999,
+        "unit": "m",
+        "value": 0.01
+      },
+      "replication_valid": false,
+      "source_arrays": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_7p5_gamma_over_k_run_008_arrays.npz",
+      "source_metadata": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_7p5_gamma_over_k_run_008_metadata.json",
+      "tail_trends": {
+        "d_abs_v_dt_m_s2": -2.2408823949665788e-27,
+        "d_abs_x_dt_m_s": 56.469402181204586,
+        "dv_dt_m_s2": -2.2408823949665788e-27,
+        "dx_dt_m_s": 56.469402181204586,
+        "tail_interval_s": [
+          0.015,
+          0.02
+        ],
+        "tail_sample_count": 51
+      },
+      "time_of_closest_approach_s": 0.0009000000000000002,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008A_DIAGNOSTIC_AUDIT_ONLY v_7p5_gamma_over_k diagnostic metadata",
+      "velocity_bound": {
+        "first_entry_s": null,
+        "first_exit_s": null,
+        "last_entry_s": null,
+        "last_exit_s": null,
+        "sample_count": 0,
+        "sampled_occupancy_duration_s": 0.0,
+        "unit": "m/s",
+        "value": 1.0
+      },
+      "x_zero_crossed": true,
+      "x_zero_crossing_count": 1,
+      "x_zero_crossing_times_s": [
+        0.0008853555628760331
+      ]
+    },
+    {
+      "appreciable_envelope_threshold": 0.001,
+      "appreciably_illuminated_at_endpoint": false,
+      "both_bounds": {
+        "first_entry_s": null,
+        "first_exit_s": null,
+        "last_entry_s": null,
+        "last_exit_s": null,
+        "sample_count": 0,
+        "sampled_occupancy_duration_s": 0.0
+      },
+      "case_name": "v_9_gamma_over_k",
+      "contributing_diagnostic_categories": [
+        "LEFT_BOUNDED_REGION",
+        "FORCE_OR_ACCELERATION_NEAR_ZERO"
+      ],
+      "diagnostic_category": "CENTER_CROSSING_WITHOUT_SETTLING",
+      "dwell_window": {
+        "available_samples": 21,
+        "both_count": 0,
+        "both_fraction": 0.0,
+        "end_s": 0.02,
+        "minimum_required_samples": 10,
+        "position_count": 0,
+        "position_fraction": 0.0,
+        "start_s": 0.018000000000000002,
+        "velocity_count": 0,
+        "velocity_fraction": 0.0
+      },
+      "endpoint_force_near_zero": true,
+      "endpoint_force_threshold_definition": "norm(F_end) <= max(1e-12, 1e-3 * max trajectory force norm)",
+      "final_gaussian_envelopes": {
+        "+x_prime": 0.0,
+        "+y_prime": 0.0,
+        "+z": 0.0,
+        "-x_prime": 0.0,
+        "-y_prime": 0.0,
+        "-z": 0.0
+      },
+      "final_motion": {
+        "approaching_or_receding": "receding",
+        "behavior_summary": "passing through / leaving",
+        "position_magnitude_trend": "increasing",
+        "speed_trend": "effectively constant"
+      },
+      "final_normalized_force": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "final_position_m": [
+        1.305292178484379,
+        0.0,
+        0.0
+      ],
+      "final_provisional_integrator_acceleration_m_s2": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "final_velocity_m_s": [
+        67.76440218233,
+        0.0,
+        0.0
+      ],
+      "force_scaling_warning": "engineering scaling only; not calibrated to MgF",
+      "handoff_audit": {
+        "component_4_active_after": true,
+        "component_4_inactive_before": true,
+        "component_4_saturation_zero_before": true,
+        "handoff_flag_after": true,
+        "landed_exactly": true,
+        "post_saturations": [
+          1.45,
+          1.45,
+          2.17,
+          0.72
+        ],
+        "pre_saturations": [
+          1.45,
+          1.45,
+          2.89,
+          0.0
+        ],
+        "tau_s": 0.001
+      },
+      "initial_velocity_gamma_over_k": 9.0,
+      "initial_velocity_m_s": 67.77,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008A_DIAGNOSTIC_AUDIT_ONLY",
+      "minimum_absolute_distance_m": 0.0025612784704577623,
+      "official_classifier_reason": "only 0/21 dwell samples satisfied the engineering bounds; required fraction is 1",
+      "official_outcome_label": "UNRESOLVED",
+      "plot_path": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008A_DIAGNOSTIC_AUDIT_ONLY_v_9_gamma_over_k.png",
+      "position_bound": {
+        "first_entry_s": 0.0006000000000000001,
+        "first_exit_s": 0.0008000000000000001,
+        "last_entry_s": 0.0006000000000000001,
+        "last_exit_s": 0.0008000000000000001,
+        "sample_count": 3,
+        "sampled_occupancy_duration_s": 0.00030000000000000014,
+        "unit": "m",
+        "value": 0.01
+      },
+      "replication_valid": false,
+      "source_arrays": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_9_gamma_over_k_run_008_arrays.npz",
+      "source_metadata": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_9_gamma_over_k_run_008_metadata.json",
+      "tail_trends": {
+        "d_abs_v_dt_m_s2": -2.2408823949665788e-27,
+        "d_abs_x_dt_m_s": 67.76440218232914,
+        "dv_dt_m_s2": -2.2408823949665788e-27,
+        "dx_dt_m_s": 67.76440218232914,
+        "tail_interval_s": [
+          0.015,
+          0.02
+        ],
+        "tail_sample_count": 51
+      },
+      "time_of_closest_approach_s": 0.0007000000000000001,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008A_DIAGNOSTIC_AUDIT_ONLY v_9_gamma_over_k diagnostic metadata",
+      "velocity_bound": {
+        "first_entry_s": null,
+        "first_exit_s": null,
+        "last_entry_s": null,
+        "last_exit_s": null,
+        "sample_count": 0,
+        "sampled_occupancy_duration_s": 0.0,
+        "unit": "m/s",
+        "value": 1.0
+      },
+      "x_zero_crossed": true,
+      "x_zero_crossing_count": 1,
+      "x_zero_crossing_times_s": [
+        0.0007377953370147633
+      ]
+    }
+  ],
+  "consistency_audit": {
+    "component_4_switch_correct_all_cases": true,
+    "gaussian_mode_active": true,
+    "handoff_exact_all_cases": true,
+    "initial_position_is_minus_50_mm": true,
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008A_DIAGNOSTIC_AUDIT_ONLY",
+    "post_saturations_exact_all_cases": true,
+    "pre_saturations_exact_all_cases": true,
+    "replication_valid": false,
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008A_DIAGNOSTIC_AUDIT_ONLY Run 008 consistency audit",
+    "track": "provisional",
+    "velocity_order_exact": true,
+    "velocity_order_gamma_over_k": [
+      2.0,
+      4.0,
+      6.0,
+      7.5,
+      9.0
+    ]
+  },
+  "criteria_audit": {
+    "can_in_principle_satisfy_duration": true,
+    "can_in_principle_satisfy_sample_minimum": true,
+    "criteria_modified": false,
+    "current_criteria_equal_saved_run_008_criteria": true,
+    "dwell_window_s": 0.002,
+    "escape_position_m": 2.0,
+    "escape_speed_m_s": 100.0,
+    "expected_inclusive_dwell_samples": 21,
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008A_DIAGNOSTIC_AUDIT_ONLY",
+    "minimum_dwell_samples": 10,
+    "nominal_output_cadence_s": 9.99999999999994e-05,
+    "position_bound_m": 0.01,
+    "required_dwell_fraction": 1.0,
+    "simulation_duration_s": 0.02,
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008A_DIAGNOSTIC_AUDIT_ONLY unchanged classifier criteria",
+    "velocity_bound_m_s": 1.0
+  },
+  "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008A_DIAGNOSTIC_AUDIT_ONLY",
+  "replication_valid": false,
+  "source_run_metadata": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_run_008_metadata.json",
+  "tail_interval_s": 0.005,
+  "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008A_DIAGNOSTIC_AUDIT_ONLY Run 008A metadata",
+  "warnings": [
+    "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008A_DIAGNOSTIC_AUDIT_ONLY: diagnostic audit only.",
+    "Official outcome labels and classifier criteria are unchanged.",
+    "No capture boundary, maximum velocity, or physical conclusion is reported."
+  ]
+}
