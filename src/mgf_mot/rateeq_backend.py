@@ -27,6 +27,12 @@ from .excited_zeeman import (
     ExcitedZeemanOperator,
     build_excited_zeeman_operator,
 )
+from .excited_hyperfine import (
+    ExcitedHyperfineModel,
+    ExcitedHyperfineOperator,
+    SourceAlignedSplittingCase,
+    build_excited_hyperfine_operator,
+)
 from .gaussian_beams import GaussianBeamSet
 from .geometry import MOT_BEAM_DIRECTIONS, quadrupole_field
 from .mgf_backend import (
@@ -70,6 +76,10 @@ class RateEquationBackendConfig:
     excited_zeeman_model: ExcitedZeemanModel = (
         ExcitedZeemanModel.PYLCP_COLLAPSED_DEFAULT
     )
+    excited_hyperfine_model: ExcitedHyperfineModel = (
+        ExcitedHyperfineModel.PYLCP_COLLAPSED_ASTATE
+    )
+    excited_hyperfine_splitting_case: SourceAlignedSplittingCase | None = None
 
     def __post_init__(self) -> None:
         if not self.explicit_provisional_opt_in:
@@ -109,6 +119,12 @@ class RateEquationBackendStatus:
     excited_zeeman_model_application_location: str
     excited_zeeman_override_applied: bool
     excited_zeeman_source: str
+    excited_hyperfine_model: str
+    excited_hyperfine_splitting_case: str | None
+    excited_hyperfine_splitting_mhz: float
+    excited_hyperfine_model_application_count: int
+    excited_hyperfine_model_application_location: str
+    excited_hyperfine_source: str
     force_model: str
     physics_valid: bool
     physics_scope: str
@@ -210,7 +226,9 @@ def _normalized_hamiltonian(
     source: ApproximateMgFHamiltonian,
     ground_zeeman_convention: GroundZeemanConvention,
     excited_zeeman_model: ExcitedZeemanModel,
-) -> tuple[pylcp.hamiltonian, ExcitedZeemanOperator]:
+    excited_hyperfine_model: ExcitedHyperfineModel,
+    excited_hyperfine_splitting_case: SourceAlignedSplittingCase | None,
+) -> tuple[pylcp.hamiltonian, ExcitedZeemanOperator, ExcitedHyperfineOperator]:
     """Apply the official CaF-example MHz/Gamma normalization convention."""
 
     linewidth_mhz = LINEWIDTH_MHZ.require()
@@ -225,9 +243,16 @@ def _normalized_hamiltonian(
         basis=source.validation_model.excited_basis,
         pylcp_collapsed_tensor_mhz_per_gauss=excited_muq,
     )
+    hyperfine_operator = build_excited_hyperfine_operator(
+        excited_hyperfine_model,
+        basis=source.validation_model.excited_basis,
+        pylcp_collapsed_h0_mhz=excited_h0,
+        splitting_case=excited_hyperfine_splitting_case,
+    )
     hamiltonian = pylcp.hamiltonian(
         np.asarray(np.real_if_close(ground_h0), dtype=float) / linewidth_mhz,
-        np.asarray(np.real_if_close(excited_h0), dtype=float) / linewidth_mhz,
+        np.asarray(np.real_if_close(hyperfine_operator.matrix_mhz), dtype=float)
+        / linewidth_mhz,
         np.asarray(np.real_if_close(translated_ground_muq), dtype=float)
         / linewidth_mhz,
         np.asarray(
@@ -239,7 +264,7 @@ def _normalized_hamiltonian(
         gamma=1.0,
         k=1.0,
     )
-    return hamiltonian, excited_operator
+    return hamiltonian, excited_operator, hyperfine_operator
 
 
 class ProvisionalPylcpRateEquationBackend:
@@ -253,8 +278,16 @@ class ProvisionalPylcpRateEquationBackend:
         if not isinstance(source, ApproximateMgFHamiltonian):
             raise MgFBackendCapabilityError("collapsed approximation did not return its provenance wrapper")
         self.source_backend = source
-        self.hamiltonian, self.excited_zeeman_operator = _normalized_hamiltonian(
-            source, config.ground_zeeman_convention, config.excited_zeeman_model
+        (
+            self.hamiltonian,
+            self.excited_zeeman_operator,
+            self.excited_hyperfine_operator,
+        ) = _normalized_hamiltonian(
+            source,
+            config.ground_zeeman_convention,
+            config.excited_zeeman_model,
+            config.excited_hyperfine_model,
+            config.excited_hyperfine_splitting_case,
         )
         self.force_units = build_mgf_force_unit_audit()
         self.status = RateEquationBackendStatus(
@@ -288,6 +321,22 @@ class ProvisionalPylcpRateEquationBackend:
                 self.excited_zeeman_operator.override_applied
             ),
             excited_zeeman_source=self.excited_zeeman_operator.source,
+            excited_hyperfine_model=config.excited_hyperfine_model.value,
+            excited_hyperfine_splitting_case=(
+                None
+                if config.excited_hyperfine_splitting_case is None
+                else config.excited_hyperfine_splitting_case.value
+            ),
+            excited_hyperfine_splitting_mhz=(
+                self.excited_hyperfine_operator.splitting_mhz
+            ),
+            excited_hyperfine_model_application_count=(
+                self.excited_hyperfine_operator.model_application_count
+            ),
+            excited_hyperfine_model_application_location=(
+                self.excited_hyperfine_operator.application_location
+            ),
+            excited_hyperfine_source=self.excited_hyperfine_operator.source,
             force_model="pylcp_rate_equation_combined_equilibrium_populations",
             physics_valid=True,
             physics_scope="static provisional rate-equation validation only",
@@ -302,7 +351,8 @@ class ProvisionalPylcpRateEquationBackend:
                 "Component carrier offsets use the upper collapsed excited level and explicit addressed-role ground energies.",
                 "Ground Xstate mu_q is translated once at the pylcp Hamiltonian boundary according to the named convention mode.",
                 "The excited Zeeman tensor is selected by one explicit named model at the Hamiltonian boundary.",
-            ) + self.excited_zeeman_operator.warnings,
+                "The excited field-free Hamiltonian is selected by one explicit named hyperfine model at the Hamiltonian boundary.",
+            ) + self.excited_zeeman_operator.warnings + self.excited_hyperfine_operator.warnings,
             omitted_terms=source.provenance.omitted_terms,
             collapsed_terms=source.provenance.collapsed_terms,
             supersedes_run_outputs=(

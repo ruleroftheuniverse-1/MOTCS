@@ -12,6 +12,15 @@ from .excited_zeeman import (
     build_excited_zeeman_operator,
     validate_excited_zeeman_operator,
 )
+from .excited_hyperfine import (
+    ExcitedHyperfineModel,
+    ExcitedHyperfineModelError,
+    SourceAlignedSplittingCase,
+    build_excited_f_projectors,
+    build_excited_hyperfine_operator,
+    validate_excited_f_projectors,
+    validate_excited_hyperfine_operator,
+)
 from .gaussian_beams import (
     EllipticalGaussianBeam,
     GaussianBeamSet,
@@ -93,6 +102,13 @@ __all__ = [
     "ExcitedZeemanModel",
     "build_excited_zeeman_operator",
     "validate_excited_zeeman_operator",
+    "ExcitedHyperfineModel",
+    "ExcitedHyperfineModelError",
+    "SourceAlignedSplittingCase",
+    "build_excited_f_projectors",
+    "build_excited_hyperfine_operator",
+    "validate_excited_f_projectors",
+    "validate_excited_hyperfine_operator",
     "EllipticalGaussianBeam",
     "GaussianBeamSet",
     "GaussianEnvelopeConfig",

@@ -170,6 +170,21 @@ EXCITED_HYPERFINE_D_MHZ = _constant(
     "Table III and effective-Hamiltonian appendix", "exact",
     "Independent fitted term; pylcp 1.0.2 Astate has no independently adjustable d operator."
 )
+EXCITED_HYPERFINE_D_UNCERTAINTY_MHZ = _constant(
+    "excited_hyperfine_d_uncertainty", 7.0, "MHz", DOPPELBAUER,
+    "Table III, correlation-adjusted standard deviation", "exact",
+    "Uncertainty on the independently fitted d=135 MHz parameter."
+)
+EXCITED_POSITIVE_PARITY_HFS_UPPER_BOUND_MHZ = _constant(
+    "excited_positive_parity_hfs_upper_bound", 1.0, "MHz", DOPPELBAUER,
+    "Conclusion, page 10: J'=1/2, P'=+1 splitting is less than 1 MHz", "approximate",
+    "A conservative interval boundary, not an equality or measured central value."
+)
+EXCITED_NEGATIVE_PARITY_HFS_MHZ = _constant(
+    "excited_negative_parity_hfs", 179.0, "MHz", DOPPELBAUER,
+    "Section IV C, page 5", "approximate",
+    "Applies to the opposite-parity J'=1/2, P'=-1 level, not the cooling state."
+)
 EXCITED_BACKEND_B_MHZ = _constant(
     "excited_backend_b", None, "MHz", DOPPELBAUER,
     "Table III reports only b_F+2c/3", "unknown",
@@ -301,6 +316,9 @@ ALL_SPECTROSCOPY_CONSTANTS = {
         EXCITED_HYPERFINE_A_MHZ,
         EXCITED_BF_PLUS_2C_OVER_3_MHZ,
         EXCITED_HYPERFINE_D_MHZ,
+        EXCITED_HYPERFINE_D_UNCERTAINTY_MHZ,
+        EXCITED_POSITIVE_PARITY_HFS_UPPER_BOUND_MHZ,
+        EXCITED_NEGATIVE_PARITY_HFS_MHZ,
         EXCITED_BACKEND_B_MHZ,
         EXCITED_BACKEND_C_MHZ,
         EXCITED_BACKEND_P_MHZ,
