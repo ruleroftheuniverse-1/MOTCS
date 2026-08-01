@@ -1,0 +1,283 @@
+{
+  "arrays": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_corrected_static_arrays.npz",
+  "arrays_sha256": "1ed327500c2b7ccabf7394178e6725929e8e57c97a2414d55d16792681caf889",
+  "capture_authorized": false,
+  "case_records": [
+    {
+      "beam_mode": "plane_wave",
+      "convention_provenance": {
+        "downstream_zeeman_sign_correction_count": 0,
+        "excited_state_zeeman_unresolved": true,
+        "field_convention_unchanged": true,
+        "ground_magnetic_moment_correction_applied": true,
+        "ground_magnetic_moment_correction_count": 1,
+        "ground_magnetic_moment_correction_location": "Hamiltonian boundary",
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY",
+        "polarization_mapping_unchanged": true,
+        "provisional_effective_excited_g": 0.3337199,
+        "rodriguez_representative_excited_g": 0.001,
+        "source_yaml_unchanged": true,
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY convention provenance"
+      },
+      "force_at_origin": -1.734723475976807e-18,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY",
+      "maximum_location": {
+        "vx_m_s": -9.412500000000001,
+        "x_m": 0.0
+      },
+      "maximum_normalized_force": 0.03652662272621478,
+      "minimum_location": {
+        "vx_m_s": 9.4125,
+        "x_m": 0.0
+      },
+      "minimum_normalized_force": -0.03652662272621485,
+      "name": "plane_wave_3",
+      "newly_generated_after_run_009b": true,
+      "plot": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_plane_wave_3.png",
+      "reused_pre_correction_force_array": false,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY plane_wave_3 corrected static surface"
+    },
+    {
+      "beam_mode": "plane_wave",
+      "convention_provenance": {
+        "downstream_zeeman_sign_correction_count": 0,
+        "excited_state_zeeman_unresolved": true,
+        "field_convention_unchanged": true,
+        "ground_magnetic_moment_correction_applied": true,
+        "ground_magnetic_moment_correction_count": 1,
+        "ground_magnetic_moment_correction_location": "Hamiltonian boundary",
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY",
+        "polarization_mapping_unchanged": true,
+        "provisional_effective_excited_g": 0.3337199,
+        "rodriguez_representative_excited_g": 0.001,
+        "source_yaml_unchanged": true,
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY convention provenance"
+      },
+      "force_at_origin": -1.734723475976807e-18,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY",
+      "maximum_location": {
+        "vx_m_s": -9.412500000000001,
+        "x_m": 0.0
+      },
+      "maximum_normalized_force": 0.03365466202569616,
+      "minimum_location": {
+        "vx_m_s": 9.4125,
+        "x_m": 0.0
+      },
+      "minimum_normalized_force": -0.03365466202569625,
+      "name": "plane_wave_3_plus_1",
+      "newly_generated_after_run_009b": true,
+      "plot": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_plane_wave_3_plus_1.png",
+      "reused_pre_correction_force_array": false,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY plane_wave_3_plus_1 corrected static surface"
+    },
+    {
+      "beam_mode": "elliptical_gaussian",
+      "convention_provenance": {
+        "downstream_zeeman_sign_correction_count": 0,
+        "excited_state_zeeman_unresolved": true,
+        "field_convention_unchanged": true,
+        "ground_magnetic_moment_correction_applied": true,
+        "ground_magnetic_moment_correction_count": 1,
+        "ground_magnetic_moment_correction_location": "Hamiltonian boundary",
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY",
+        "polarization_mapping_unchanged": true,
+        "provisional_effective_excited_g": 0.3337199,
+        "rodriguez_representative_excited_g": 0.001,
+        "source_yaml_unchanged": true,
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY convention provenance"
+      },
+      "force_at_origin": -1.734723475976807e-18,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY",
+      "maximum_location": {
+        "vx_m_s": -9.412500000000001,
+        "x_m": 0.0
+      },
+      "maximum_normalized_force": 0.03652662272621478,
+      "minimum_location": {
+        "vx_m_s": 9.4125,
+        "x_m": 0.0
+      },
+      "minimum_normalized_force": -0.03652662272621485,
+      "name": "gaussian_3",
+      "newly_generated_after_run_009b": true,
+      "plot": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_gaussian_3.png",
+      "reused_pre_correction_force_array": false,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY gaussian_3 corrected static surface"
+    },
+    {
+      "beam_mode": "elliptical_gaussian",
+      "convention_provenance": {
+        "downstream_zeeman_sign_correction_count": 0,
+        "excited_state_zeeman_unresolved": true,
+        "field_convention_unchanged": true,
+        "ground_magnetic_moment_correction_applied": true,
+        "ground_magnetic_moment_correction_count": 1,
+        "ground_magnetic_moment_correction_location": "Hamiltonian boundary",
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY",
+        "polarization_mapping_unchanged": true,
+        "provisional_effective_excited_g": 0.3337199,
+        "rodriguez_representative_excited_g": 0.001,
+        "source_yaml_unchanged": true,
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY convention provenance"
+      },
+      "force_at_origin": -1.734723475976807e-18,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY",
+      "maximum_location": {
+        "vx_m_s": -9.412500000000001,
+        "x_m": 0.0
+      },
+      "maximum_normalized_force": 0.03365466202569616,
+      "minimum_location": {
+        "vx_m_s": 9.4125,
+        "x_m": 0.0
+      },
+      "minimum_normalized_force": -0.03365466202569625,
+      "name": "gaussian_3_plus_1",
+      "newly_generated_after_run_009b": true,
+      "plot": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_gaussian_3_plus_1.png",
+      "reused_pre_correction_force_array": false,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY gaussian_3_plus_1 corrected static surface"
+    },
+    {
+      "beam_mode": "elliptical_gaussian",
+      "convention_provenance": {
+        "downstream_zeeman_sign_correction_count": 0,
+        "excited_state_zeeman_unresolved": true,
+        "field_convention_unchanged": true,
+        "ground_magnetic_moment_correction_applied": true,
+        "ground_magnetic_moment_correction_count": 1,
+        "ground_magnetic_moment_correction_location": "Hamiltonian boundary",
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY",
+        "polarization_mapping_unchanged": true,
+        "provisional_effective_excited_g": 0.3337199,
+        "rodriguez_representative_excited_g": 0.001,
+        "source_yaml_unchanged": true,
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY convention provenance"
+      },
+      "force_at_origin": -4.336808689942018e-19,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY",
+      "maximum_location": {
+        "vx_m_s": -15.06,
+        "x_m": 0.0
+      },
+      "maximum_normalized_force": 0.0021395249980096518,
+      "minimum_location": {
+        "vx_m_s": 15.06,
+        "x_m": 0.0
+      },
+      "minimum_normalized_force": -0.002139524998009625,
+      "name": "gaussian_chirp_minus_8_gamma",
+      "newly_generated_after_run_009b": true,
+      "plot": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_gaussian_chirp_minus_8_gamma.png",
+      "reused_pre_correction_force_array": false,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY gaussian_chirp_minus_8_gamma corrected static surface"
+    },
+    {
+      "beam_mode": "elliptical_gaussian",
+      "convention_provenance": {
+        "downstream_zeeman_sign_correction_count": 0,
+        "excited_state_zeeman_unresolved": true,
+        "field_convention_unchanged": true,
+        "ground_magnetic_moment_correction_applied": true,
+        "ground_magnetic_moment_correction_count": 1,
+        "ground_magnetic_moment_correction_location": "Hamiltonian boundary",
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY",
+        "polarization_mapping_unchanged": true,
+        "provisional_effective_excited_g": 0.3337199,
+        "rodriguez_representative_excited_g": 0.001,
+        "source_yaml_unchanged": true,
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY convention provenance"
+      },
+      "force_at_origin": -1.3010426069826053e-18,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY",
+      "maximum_location": {
+        "vx_m_s": -15.06,
+        "x_m": 0.009999999999999998
+      },
+      "maximum_normalized_force": 0.0017926941236028303,
+      "minimum_location": {
+        "vx_m_s": 15.06,
+        "x_m": -0.01
+      },
+      "minimum_normalized_force": -0.001792694123602839,
+      "name": "gaussian_chirp_minus_4p5_gamma",
+      "newly_generated_after_run_009b": true,
+      "plot": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_gaussian_chirp_minus_4p5_gamma.png",
+      "reused_pre_correction_force_array": false,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY gaussian_chirp_minus_4p5_gamma corrected static surface"
+    },
+    {
+      "beam_mode": "elliptical_gaussian",
+      "convention_provenance": {
+        "downstream_zeeman_sign_correction_count": 0,
+        "excited_state_zeeman_unresolved": true,
+        "field_convention_unchanged": true,
+        "ground_magnetic_moment_correction_applied": true,
+        "ground_magnetic_moment_correction_count": 1,
+        "ground_magnetic_moment_correction_location": "Hamiltonian boundary",
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY",
+        "polarization_mapping_unchanged": true,
+        "provisional_effective_excited_g": 0.3337199,
+        "rodriguez_representative_excited_g": 0.001,
+        "source_yaml_unchanged": true,
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY convention provenance"
+      },
+      "force_at_origin": -1.734723475976807e-18,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY",
+      "maximum_location": {
+        "vx_m_s": -9.412500000000001,
+        "x_m": 0.0
+      },
+      "maximum_normalized_force": 0.03652662272621478,
+      "minimum_location": {
+        "vx_m_s": 9.4125,
+        "x_m": 0.0
+      },
+      "minimum_normalized_force": -0.03652662272621485,
+      "name": "gaussian_chirp_minus_1_gamma",
+      "newly_generated_after_run_009b": true,
+      "plot": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_gaussian_chirp_minus_1_gamma.png",
+      "reused_pre_correction_force_array": false,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY gaussian_chirp_minus_1_gamma corrected static surface"
+    }
+  ],
+  "convention_provenance": {
+    "downstream_zeeman_sign_correction_count": 0,
+    "excited_state_zeeman_unresolved": true,
+    "field_convention_unchanged": true,
+    "ground_magnetic_moment_correction_applied": true,
+    "ground_magnetic_moment_correction_count": 1,
+    "ground_magnetic_moment_correction_location": "Hamiltonian boundary",
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY",
+    "polarization_mapping_unchanged": true,
+    "provisional_effective_excited_g": 0.3337199,
+    "rodriguez_representative_excited_g": 0.001,
+    "source_yaml_unchanged": true,
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY convention provenance"
+  },
+  "exact_replication_valid": false,
+  "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY",
+  "solver_health": {
+    "fallback_count": 0,
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY",
+    "maximum_population": 0.36800076853848473,
+    "maximum_population_normalization_error": 3.3306690738754696e-16,
+    "maximum_steady_state_residual": 2.1337098754514727e-16,
+    "minimum_population": 0.00038389388911737804,
+    "nonfinite_count": 0,
+    "nullspace_dimensions_observed": [
+      1
+    ],
+    "number_of_solves": 2023,
+    "passed": true,
+    "thresholds": {
+      "population_nonnegative_tolerance": -1e-10,
+      "population_sum_tolerance": 1e-09,
+      "steady_state_residual_linf_tolerance": 1e-09
+    },
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY all-grid equilibrium health"
+  },
+  "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY regenerated corrected static metadata",
+  "trajectory_authorized": false
+}

@@ -47,6 +47,7 @@ class ComponentState:
     saturation: float
     enabled: bool
     role: str = ""
+    polarization: str = ""
     relative_saturation: float | None = None
     off_reason: str | None = None
 
@@ -124,6 +125,7 @@ def _component_state_from_mapping(data: dict[str, Any]) -> ComponentState:
         saturation=saturation,
         enabled=bool(data.get("enabled", True)),
         role=str(data.get("role", "")),
+        polarization=str(data.get("polarization", "")),
         relative_saturation=relative,
         off_reason=(None if data.get("off_reason") is None else str(data["off_reason"])),
     )
@@ -287,6 +289,7 @@ class LinearChirpPolicy:
                 saturation=component.saturation,
                 enabled=component.enabled,
                 role=component.role,
+                polarization=component.polarization,
                 relative_saturation=component.relative_saturation,
                 off_reason=component.off_reason,
             )

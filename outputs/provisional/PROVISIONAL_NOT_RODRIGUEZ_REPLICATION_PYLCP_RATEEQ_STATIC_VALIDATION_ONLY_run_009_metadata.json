@@ -1,0 +1,798 @@
+{
+  "backend_status": {
+    "approximation_mode": "collapsed_pylcp_astate",
+    "backend_mode": "pylcp_rate_equation",
+    "collapsed_terms": [
+      "excited_b_F_plus_2c_over_3 -> pylcp Astate b+c/3 with c=0",
+      "excited_p_plus_2q -> pylcp Astate p with q=0"
+    ],
+    "force_model": "pylcp_rate_equation_combined_equilibrium_populations",
+    "force_unit": "hbar*k*Gamma",
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY",
+    "omitted_terms": [
+      "ground_fluorine_nuclear_g_factor",
+      "excited_hyperfine_d operator",
+      "excited_backend_gL",
+      "excited_backend_gl",
+      "excited_backend_glprime",
+      "excited_backend_gr",
+      "excited_backend_greprime",
+      "excited_backend_gN"
+    ],
+    "physics_scope": "static provisional rate-equation validation only",
+    "physics_valid": true,
+    "replication_valid": false,
+    "static_force_ready": true,
+    "supersedes_run_outputs": "Run 008B supersedes physical interpretation of force-dependent Runs 001-008",
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY backend status",
+    "track": "provisional",
+    "trajectory_force_ready": false,
+    "warnings": [
+      "PROVISIONAL backend: engineering/plumbing artifact only.",
+      "NOT_RODRIGUEZ_REPLICATION: exact excited-state d operator and Zeeman mappings are unresolved.",
+      "No approximate force output from this backend is force-ready by default.",
+      "PYLCP_RATEEQ_STATIC_VALIDATION_ONLY: no trajectories or capture result.",
+      "Helicity strings are interpreted relative to each beam k-vector using pylcp pol=+1/-1.",
+      "Component carrier offsets use the upper collapsed excited level and explicit addressed-role ground energies."
+    ]
+  },
+  "capture_results_calculated": 0,
+  "case_records": [
+    {
+      "active_laser_count": 18,
+      "arrays_finite": true,
+      "beam_mode": "plane_wave",
+      "combined_population_solve": true,
+      "dFdv_normalized_per_m_s": -0.004025109973719263,
+      "dFdx_normalized_per_m": 0.17209550998288334,
+      "force_at_origin": -1.734723475976807e-18,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY",
+      "maximum_absolute_normalized_force": 0.03652662272621485,
+      "maximum_location": {
+        "vx_m_s": -9.412500000000001,
+        "x_m": 0.0
+      },
+      "maximum_normalized_force": 0.03652662272621478,
+      "minimum_location": {
+        "vx_m_s": 9.4125,
+        "x_m": 0.0
+      },
+      "minimum_normalized_force": -0.03652662272621485,
+      "name": "plane_wave_3",
+      "per_beam_envelope_before_solve": false,
+      "per_component_force_at_origin_vx_1": {
+        "1": [
+          -0.0019613887262371864,
+          0.0,
+          -2.6020852139652106e-18
+        ],
+        "2": [
+          -0.0010276324763186526,
+          0.0,
+          4.336808689942018e-19
+        ],
+        "3": [
+          -0.0010009776148539005,
+          0.0,
+          1.5612511283791264e-17
+        ],
+        "4": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "per_physical_beam_force_at_origin_vx_1": {
+        "+x_prime": [
+          0.009925273241424792,
+          0.009925273241424792,
+          0.0
+        ],
+        "+y_prime": [
+          -0.011920272650129661,
+          0.011920272650129661,
+          0.0
+        ],
+        "+z": [
+          0.0,
+          0.0,
+          0.015244428002629595
+        ],
+        "-x_prime": [
+          -0.011920272650129661,
+          -0.011920272650129661,
+          0.0
+        ],
+        "-y_prime": [
+          0.009925273241424792,
+          -0.009925273241424792,
+          0.0
+        ],
+        "-z": [
+          0.0,
+          0.0,
+          -0.015244428002629581
+        ]
+      },
+      "plot_path": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY_plane_wave_3.png",
+      "policy_name": "rodriguez_static_3",
+      "policy_time_s": 0.0,
+      "population_min_at_contribution_point": 0.01931320811127038,
+      "population_sum_at_contribution_point": 0.9999999999999999,
+      "position_topology": "anti-restoring",
+      "post_sum_envelope_used": false,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY plane_wave_3 topology metadata",
+      "velocity_topology": "damping",
+      "versus_reference_0p015": "comparable order",
+      "versus_reference_0p03": "comparable order"
+    },
+    {
+      "active_laser_count": 24,
+      "arrays_finite": true,
+      "beam_mode": "plane_wave",
+      "combined_population_solve": true,
+      "dFdv_normalized_per_m_s": -0.003691446869708149,
+      "dFdx_normalized_per_m": 0.3071370306648179,
+      "force_at_origin": -1.734723475976807e-18,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY",
+      "maximum_absolute_normalized_force": 0.03365466202569625,
+      "maximum_location": {
+        "vx_m_s": -9.412500000000001,
+        "x_m": 0.0
+      },
+      "maximum_normalized_force": 0.03365466202569616,
+      "minimum_location": {
+        "vx_m_s": 9.4125,
+        "x_m": 0.0
+      },
+      "minimum_normalized_force": -0.03365466202569625,
+      "name": "plane_wave_3_plus_1",
+      "per_beam_envelope_before_solve": false,
+      "per_component_force_at_origin_vx_1": {
+        "1": [
+          -0.001851200297653179,
+          0.0,
+          1.3010426069826053e-17
+        ],
+        "2": [
+          -0.0009501377960720913,
+          0.0,
+          -1.3010426069826053e-18
+        ],
+        "3": [
+          -0.0009315931676130637,
+          0.0,
+          1.734723475976807e-18
+        ],
+        "4": [
+          7.707486488607172e-05,
+          0.0,
+          1.0842021724855044e-19
+        ]
+      },
+      "per_physical_beam_force_at_origin_vx_1": {
+        "+x_prime": [
+          0.009252647680291265,
+          0.009252647680291265,
+          0.0
+        ],
+        "+y_prime": [
+          -0.011080575878517396,
+          0.011080575878517396,
+          0.0
+        ],
+        "+z": [
+          0.0,
+          0.0,
+          0.014192534225005538
+        ],
+        "-x_prime": [
+          -0.011080575878517396,
+          -0.011080575878517396,
+          0.0
+        ],
+        "-y_prime": [
+          0.009252647680291265,
+          -0.009252647680291265,
+          0.0
+        ],
+        "-z": [
+          0.0,
+          0.0,
+          -0.014192534225005524
+        ]
+      },
+      "plot_path": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY_plane_wave_3_plus_1.png",
+      "policy_name": "rodriguez_static_3_plus_1",
+      "policy_time_s": 0.0,
+      "population_min_at_contribution_point": 0.01669407219357643,
+      "population_sum_at_contribution_point": 1.0,
+      "position_topology": "anti-restoring",
+      "post_sum_envelope_used": false,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY plane_wave_3_plus_1 topology metadata",
+      "velocity_topology": "damping",
+      "versus_reference_0p015": "comparable order",
+      "versus_reference_0p03": "comparable order"
+    },
+    {
+      "active_laser_count": 18,
+      "arrays_finite": true,
+      "beam_mode": "elliptical_gaussian",
+      "combined_population_solve": true,
+      "dFdv_normalized_per_m_s": -0.004025109973719263,
+      "dFdx_normalized_per_m": 0.17007181201162133,
+      "force_at_origin": -1.734723475976807e-18,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY",
+      "maximum_absolute_normalized_force": 0.03652662272621485,
+      "maximum_location": {
+        "vx_m_s": -9.412500000000001,
+        "x_m": 0.0
+      },
+      "maximum_normalized_force": 0.03652662272621478,
+      "minimum_location": {
+        "vx_m_s": 9.4125,
+        "x_m": 0.0
+      },
+      "minimum_normalized_force": -0.03652662272621485,
+      "name": "gaussian_3",
+      "per_beam_envelope_before_solve": true,
+      "per_component_force_at_origin_vx_1": {
+        "1": [
+          -0.0019613887262371864,
+          0.0,
+          -2.6020852139652106e-18
+        ],
+        "2": [
+          -0.0010276324763186526,
+          0.0,
+          4.336808689942018e-19
+        ],
+        "3": [
+          -0.0010009776148539005,
+          0.0,
+          1.5612511283791264e-17
+        ],
+        "4": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "per_physical_beam_force_at_origin_vx_1": {
+        "+x_prime": [
+          0.009925273241424792,
+          0.009925273241424792,
+          0.0
+        ],
+        "+y_prime": [
+          -0.011920272650129661,
+          0.011920272650129661,
+          0.0
+        ],
+        "+z": [
+          0.0,
+          0.0,
+          0.015244428002629595
+        ],
+        "-x_prime": [
+          -0.011920272650129661,
+          -0.011920272650129661,
+          0.0
+        ],
+        "-y_prime": [
+          0.009925273241424792,
+          -0.009925273241424792,
+          0.0
+        ],
+        "-z": [
+          0.0,
+          0.0,
+          -0.015244428002629581
+        ]
+      },
+      "plot_path": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY_gaussian_3.png",
+      "policy_name": "rodriguez_static_3",
+      "policy_time_s": 0.0,
+      "population_min_at_contribution_point": 0.01931320811127038,
+      "population_sum_at_contribution_point": 0.9999999999999999,
+      "position_topology": "anti-restoring",
+      "post_sum_envelope_used": false,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY gaussian_3 topology metadata",
+      "velocity_topology": "damping",
+      "versus_reference_0p015": "comparable order",
+      "versus_reference_0p03": "comparable order"
+    },
+    {
+      "active_laser_count": 24,
+      "arrays_finite": true,
+      "beam_mode": "elliptical_gaussian",
+      "combined_population_solve": true,
+      "dFdv_normalized_per_m_s": -0.003691446869708149,
+      "dFdx_normalized_per_m": 0.3036779601334291,
+      "force_at_origin": -1.734723475976807e-18,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY",
+      "maximum_absolute_normalized_force": 0.03365466202569625,
+      "maximum_location": {
+        "vx_m_s": -9.412500000000001,
+        "x_m": 0.0
+      },
+      "maximum_normalized_force": 0.03365466202569616,
+      "minimum_location": {
+        "vx_m_s": 9.4125,
+        "x_m": 0.0
+      },
+      "minimum_normalized_force": -0.03365466202569625,
+      "name": "gaussian_3_plus_1",
+      "per_beam_envelope_before_solve": true,
+      "per_component_force_at_origin_vx_1": {
+        "1": [
+          -0.001851200297653179,
+          0.0,
+          1.3010426069826053e-17
+        ],
+        "2": [
+          -0.0009501377960720913,
+          0.0,
+          -1.3010426069826053e-18
+        ],
+        "3": [
+          -0.0009315931676130637,
+          0.0,
+          1.734723475976807e-18
+        ],
+        "4": [
+          7.707486488607172e-05,
+          0.0,
+          1.0842021724855044e-19
+        ]
+      },
+      "per_physical_beam_force_at_origin_vx_1": {
+        "+x_prime": [
+          0.009252647680291265,
+          0.009252647680291265,
+          0.0
+        ],
+        "+y_prime": [
+          -0.011080575878517396,
+          0.011080575878517396,
+          0.0
+        ],
+        "+z": [
+          0.0,
+          0.0,
+          0.014192534225005538
+        ],
+        "-x_prime": [
+          -0.011080575878517396,
+          -0.011080575878517396,
+          0.0
+        ],
+        "-y_prime": [
+          0.009252647680291265,
+          -0.009252647680291265,
+          0.0
+        ],
+        "-z": [
+          0.0,
+          0.0,
+          -0.014192534225005524
+        ]
+      },
+      "plot_path": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY_gaussian_3_plus_1.png",
+      "policy_name": "rodriguez_static_3_plus_1",
+      "policy_time_s": 0.0,
+      "population_min_at_contribution_point": 0.01669407219357643,
+      "population_sum_at_contribution_point": 1.0,
+      "position_topology": "anti-restoring",
+      "post_sum_envelope_used": false,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY gaussian_3_plus_1 topology metadata",
+      "velocity_topology": "damping",
+      "versus_reference_0p015": "comparable order",
+      "versus_reference_0p03": "comparable order"
+    },
+    {
+      "active_laser_count": 18,
+      "arrays_finite": true,
+      "beam_mode": "elliptical_gaussian",
+      "combined_population_solve": true,
+      "dFdv_normalized_per_m_s": 0.0005782496080661886,
+      "dFdx_normalized_per_m": 0.0005118226609709434,
+      "force_at_origin": -4.336808689942018e-19,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY",
+      "maximum_absolute_normalized_force": 0.0021395249980096518,
+      "maximum_location": {
+        "vx_m_s": -15.06,
+        "x_m": 0.0
+      },
+      "maximum_normalized_force": 0.0021395249980096518,
+      "minimum_location": {
+        "vx_m_s": 15.06,
+        "x_m": 0.0
+      },
+      "minimum_normalized_force": -0.002139524998009625,
+      "name": "gaussian_chirp_minus_8_gamma",
+      "per_beam_envelope_before_solve": true,
+      "per_component_force_at_origin_vx_1": {
+        "1": [
+          -4.500065237767332e-05,
+          0.0,
+          -3.3610267347050637e-18
+        ],
+        "2": [
+          0.0006636076045620741,
+          0.0,
+          -9.75781955236954e-18
+        ],
+        "3": [
+          -9.633805695909452e-06,
+          0.0,
+          9.75781955236954e-19
+        ],
+        "4": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "per_physical_beam_force_at_origin_vx_1": {
+        "+x_prime": [
+          0.002096462297931286,
+          0.002096462297931286,
+          0.0
+        ],
+        "+y_prime": [
+          -0.0017919757246870403,
+          0.0017919757246870403,
+          0.0
+        ],
+        "+z": [
+          0.0,
+          0.0,
+          0.0027332896400159385
+        ],
+        "-x_prime": [
+          -0.0017919757246870403,
+          -0.0017919757246870403,
+          0.0
+        ],
+        "-y_prime": [
+          0.002096462297931286,
+          -0.002096462297931286,
+          0.0
+        ],
+        "-z": [
+          0.0,
+          0.0,
+          -0.0027332896400159507
+        ]
+      },
+      "plot_path": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY_gaussian_chirp_minus_8_gamma.png",
+      "policy_name": "rodriguez_baseline_linear_chirp",
+      "policy_time_s": 0.0,
+      "population_min_at_contribution_point": 0.0024098431807637,
+      "population_sum_at_contribution_point": 1.0000000000000002,
+      "position_topology": "anti-restoring",
+      "post_sum_envelope_used": false,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY gaussian_chirp_minus_8_gamma topology metadata",
+      "velocity_topology": "anti-damping",
+      "versus_reference_0p015": "comparable order",
+      "versus_reference_0p03": "substantially smaller"
+    },
+    {
+      "active_laser_count": 18,
+      "arrays_finite": true,
+      "beam_mode": "elliptical_gaussian",
+      "combined_population_solve": true,
+      "dFdv_normalized_per_m_s": 0.00023062225126896786,
+      "dFdx_normalized_per_m": -0.04435002924567859,
+      "force_at_origin": -1.3010426069826053e-18,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY",
+      "maximum_absolute_normalized_force": 0.0017199040400308154,
+      "maximum_location": {
+        "vx_m_s": 9.4125,
+        "x_m": 0.0
+      },
+      "maximum_normalized_force": 0.0017199040400308154,
+      "minimum_location": {
+        "vx_m_s": -9.412500000000001,
+        "x_m": 0.0
+      },
+      "minimum_normalized_force": -0.0017199040400308063,
+      "name": "gaussian_chirp_minus_4p5_gamma",
+      "per_beam_envelope_before_solve": true,
+      "per_component_force_at_origin_vx_1": {
+        "1": [
+          0.00017990705489949943,
+          0.0,
+          -6.288372600415926e-18
+        ],
+        "2": [
+          0.000266318804257078,
+          0.0,
+          1.3444106938820255e-17
+        ],
+        "3": [
+          -0.0002154315600779032,
+          0.0,
+          6.071532165918825e-18
+        ],
+        "4": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "per_physical_beam_force_at_origin_vx_1": {
+        "+x_prime": [
+          0.00272534290155673,
+          0.00272534290155673,
+          0.0
+        ],
+        "+y_prime": [
+          -0.0026099457520173926,
+          0.0026099457520173926,
+          0.0
+        ],
+        "+z": [
+          0.0,
+          0.0,
+          0.003748229733380257
+        ],
+        "-x_prime": [
+          -0.0026099457520173926,
+          -0.0026099457520173926,
+          0.0
+        ],
+        "-y_prime": [
+          0.00272534290155673,
+          -0.00272534290155673,
+          0.0
+        ],
+        "-z": [
+          0.0,
+          0.0,
+          -0.0037482297333802433
+        ]
+      },
+      "plot_path": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY_gaussian_chirp_minus_4p5_gamma.png",
+      "policy_name": "rodriguez_baseline_linear_chirp",
+      "policy_time_s": 0.0005,
+      "population_min_at_contribution_point": 0.005563144693234215,
+      "population_sum_at_contribution_point": 1.0,
+      "position_topology": "restoring",
+      "post_sum_envelope_used": false,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY gaussian_chirp_minus_4p5_gamma topology metadata",
+      "velocity_topology": "anti-damping",
+      "versus_reference_0p015": "comparable order",
+      "versus_reference_0p03": "substantially smaller"
+    },
+    {
+      "active_laser_count": 18,
+      "arrays_finite": true,
+      "beam_mode": "elliptical_gaussian",
+      "combined_population_solve": true,
+      "dFdv_normalized_per_m_s": -0.004025109973719263,
+      "dFdx_normalized_per_m": 0.17007181201162133,
+      "force_at_origin": -1.734723475976807e-18,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY",
+      "maximum_absolute_normalized_force": 0.03652662272621485,
+      "maximum_location": {
+        "vx_m_s": -9.412500000000001,
+        "x_m": 0.0
+      },
+      "maximum_normalized_force": 0.03652662272621478,
+      "minimum_location": {
+        "vx_m_s": 9.4125,
+        "x_m": 0.0
+      },
+      "minimum_normalized_force": -0.03652662272621485,
+      "name": "gaussian_chirp_minus_1_gamma",
+      "per_beam_envelope_before_solve": true,
+      "per_component_force_at_origin_vx_1": {
+        "1": [
+          -0.0019613887262371864,
+          0.0,
+          -2.6020852139652106e-18
+        ],
+        "2": [
+          -0.0010276324763186526,
+          0.0,
+          4.336808689942018e-19
+        ],
+        "3": [
+          -0.0010009776148539005,
+          0.0,
+          1.5612511283791264e-17
+        ],
+        "4": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "per_physical_beam_force_at_origin_vx_1": {
+        "+x_prime": [
+          0.009925273241424792,
+          0.009925273241424792,
+          0.0
+        ],
+        "+y_prime": [
+          -0.011920272650129661,
+          0.011920272650129661,
+          0.0
+        ],
+        "+z": [
+          0.0,
+          0.0,
+          0.015244428002629595
+        ],
+        "-x_prime": [
+          -0.011920272650129661,
+          -0.011920272650129661,
+          0.0
+        ],
+        "-y_prime": [
+          0.009925273241424792,
+          -0.009925273241424792,
+          0.0
+        ],
+        "-z": [
+          0.0,
+          0.0,
+          -0.015244428002629581
+        ]
+      },
+      "plot_path": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY_gaussian_chirp_minus_1_gamma.png",
+      "policy_name": "rodriguez_baseline_linear_chirp",
+      "policy_time_s": 0.001,
+      "population_min_at_contribution_point": 0.01931320811127038,
+      "population_sum_at_contribution_point": 0.9999999999999999,
+      "position_topology": "anti-restoring",
+      "post_sum_envelope_used": false,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY gaussian_chirp_minus_1_gamma topology metadata",
+      "velocity_topology": "damping",
+      "versus_reference_0p015": "comparable order",
+      "versus_reference_0p03": "comparable order"
+    }
+  ],
+  "comparisons": {
+    "chirp_extrema_locations": {
+      "gaussian_chirp_minus_1_gamma": {
+        "maximum": {
+          "vx_m_s": -9.412500000000001,
+          "x_m": 0.0
+        },
+        "minimum": {
+          "vx_m_s": 9.4125,
+          "x_m": 0.0
+        }
+      },
+      "gaussian_chirp_minus_4p5_gamma": {
+        "maximum": {
+          "vx_m_s": 9.4125,
+          "x_m": 0.0
+        },
+        "minimum": {
+          "vx_m_s": -9.412500000000001,
+          "x_m": 0.0
+        }
+      },
+      "gaussian_chirp_minus_8_gamma": {
+        "maximum": {
+          "vx_m_s": -15.06,
+          "x_m": 0.0
+        },
+        "minimum": {
+          "vx_m_s": 15.06,
+          "x_m": 0.0
+        }
+      }
+    },
+    "chirp_minus_4p5_vs_minus_1_different": true,
+    "chirp_minus_8_vs_minus_4p5_different": true,
+    "chirp_topology_changed": true,
+    "component_4_changes_optical_system": true,
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY",
+    "origin_symmetry_all_cases": true,
+    "plane_gaussian_three_agree_at_origin": true,
+    "plane_gaussian_three_differ_away": true,
+    "three_vs_three_plus_one_different": true,
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY required behavior comparisons"
+  },
+  "contribution_diagnostics": {
+    "available": true,
+    "independent_component_solves_used": false,
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY",
+    "method": "pylcp per-laser forces grouped after one combined equilibrium-population solve",
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY contribution diagnostics"
+  },
+  "force_units": {
+    "accelerations_m_s2": [
+      33929.280470171885,
+      50893.920705257835,
+      101787.84141051567,
+      3392928.0470171887
+    ],
+    "force_unit": "hbar*k*Gamma",
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY",
+    "newtons": [
+      2.4217257880128608e-21,
+      3.6325886820192916e-21,
+      7.265177364038583e-21,
+      2.421725788012861e-19
+    ],
+    "normalized_examples": [
+      0.01,
+      0.015,
+      0.03,
+      1.0
+    ],
+    "normalized_force_conversion_count": 0,
+    "round_trip_normalized": [
+      0.009999999999999998,
+      0.015000000000000001,
+      0.030000000000000002,
+      1.0
+    ],
+    "si_acceleration_conversion_count": 1,
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY explicit force-unit conversions"
+  },
+  "grid_definition": {
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY",
+    "positions_m": [
+      -0.02,
+      -0.0175,
+      -0.015,
+      -0.0125,
+      -0.01,
+      -0.0075,
+      -0.005000000000000001,
+      -0.0024999999999999988,
+      0.0,
+      0.0024999999999999988,
+      0.005000000000000001,
+      0.0075,
+      0.009999999999999998,
+      0.0125,
+      0.015000000000000003,
+      0.017499999999999998,
+      0.02
+    ],
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY static grid definition",
+    "velocities_m_s": [
+      -15.06,
+      -13.1775,
+      -11.295,
+      -9.412500000000001,
+      -7.53,
+      -5.647500000000001,
+      -3.7650000000000006,
+      -1.8825000000000003,
+      0.0,
+      1.8824999999999985,
+      3.764999999999999,
+      5.647499999999999,
+      7.529999999999999,
+      9.4125,
+      11.295,
+      13.1775,
+      15.06
+    ]
+  },
+  "hamiltonian_structure": {
+    "dipole_shape": [
+      3,
+      12,
+      4
+    ],
+    "excited_states": 4,
+    "ground_states": 12,
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY",
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY Hamiltonian structure"
+  },
+  "historical_output_status": "Force-dependent Runs 001-008 remain plumbing artifacts and are physically uninterpretable as established by Run 008B; no historical output was rewritten.",
+  "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY",
+  "replication_valid": false,
+  "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY Run 009 metadata",
+  "trajectory_integrations_performed": 0
+}

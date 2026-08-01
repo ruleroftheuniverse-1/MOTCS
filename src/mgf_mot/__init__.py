@@ -1,7 +1,17 @@
 """Pre-force-map utilities for static MgF MOT replication."""
 
 from .constants import MGF, RODRIGUEZ_STATIC
+from .conventions import (
+    GroundZeemanConvention,
+    PaperHelicityTranslation,
+    paper_helicity_to_pylcp_pol,
+)
 from .geometry import MOT_BEAM_DIRECTIONS, quadrupole_field
+from .excited_zeeman import (
+    ExcitedZeemanModel,
+    build_excited_zeeman_operator,
+    validate_excited_zeeman_operator,
+)
 from .gaussian_beams import (
     EllipticalGaussianBeam,
     GaussianBeamSet,
@@ -47,10 +57,19 @@ from .policy_force import (
 )
 from .provisional_force import (
     ProvisionalForceMapConfig,
+    TOY_HEURISTIC_FORCE_BACKEND,
+    ToyHeuristicForceBackend,
     diagnostic_configs,
     force_at,
     force_grid_1d,
 )
+from .rateeq_backend import (
+    RATEEQ_STATIC_LABEL,
+    ProvisionalForceBackendMode,
+    ProvisionalPylcpRateEquationBackend,
+    RateEquationBackendConfig,
+)
+from .static_acceptance import RUN009A_LABEL, AcceptanceGate, decide_acceptance_gate
 from .tracks import BackendProvenance, ProjectTrack
 from .trajectory import (
     ANALYTIC_TEST_HOOK_LABEL,
@@ -66,8 +85,14 @@ from .trajectory import (
 __all__ = [
     "MGF",
     "RODRIGUEZ_STATIC",
+    "GroundZeemanConvention",
+    "PaperHelicityTranslation",
+    "paper_helicity_to_pylcp_pol",
     "MOT_BEAM_DIRECTIONS",
     "quadrupole_field",
+    "ExcitedZeemanModel",
+    "build_excited_zeeman_operator",
+    "validate_excited_zeeman_operator",
     "EllipticalGaussianBeam",
     "GaussianBeamSet",
     "GaussianEnvelopeConfig",
@@ -102,9 +127,18 @@ __all__ = [
     "force_config_for_policy_sample",
     "force_grid_for_policy_snapshot",
     "ProvisionalForceMapConfig",
+    "TOY_HEURISTIC_FORCE_BACKEND",
+    "ToyHeuristicForceBackend",
     "diagnostic_configs",
     "force_at",
     "force_grid_1d",
+    "RATEEQ_STATIC_LABEL",
+    "ProvisionalForceBackendMode",
+    "ProvisionalPylcpRateEquationBackend",
+    "RateEquationBackendConfig",
+    "RUN009A_LABEL",
+    "AcceptanceGate",
+    "decide_acceptance_gate",
     "ANALYTIC_TEST_HOOK_LABEL",
     "TRAJECTORY_SCAFFOLD_LABEL",
     "AnalyticIntegratorResult",

@@ -108,6 +108,59 @@ Every provisional plot/table/spec must include both labels:
 - `PROVISIONAL`
 - `NOT_RODRIGUEZ_REPLICATION`
 
+### Run 009 static rate-equation backend
+
+Run 009 adds a separate, explicit-opt-in `pylcp 1.0.2` rate-equation backend
+for static Track P validation. It constructs all active physical
+beam/component entries in one optical system and obtains one shared equilibrium
+population solution before summing radiative-force contributions. Gaussian
+saturation is evaluated separately for every beam/component before that solve.
+
+This backend is physics-bearing only inside its narrow, provisional static
+scope. It is not Rodriguez-replication-valid, is not connected to trajectory
+integration, and does not remove the exact Track E blockers. Its required label
+is
+`PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY`.
+
+The earlier spring/damping force law is now explicitly represented by
+`ToyHeuristicForceBackend`. It remains available solely to preserve Runs
+001--008 as historical interface-plumbing artifacts. It is not the default
+provisional physics backend, has `physics_valid = false`, and cannot support
+physical interpretation. Run 008B supersedes any physical interpretation of
+those earlier outputs; Run 009 does not retroactively recalculate them.
+
+Run 009A applies the static acceptance gate documented in
+`docs/run-009a-static-acceptance-audit.md`. Its current decision is `NO-GO`:
+the lab-x geometry and equilibrium solves are healthy, but the nominal force is
+anti-restoring and component (4) strengthens that wrong sign. The real-backend
+reversal matrix confirms a convention/topology mismatch. Consequently the
+Run 009 rate-equation backend remains disconnected from every trajectory path.
+
+Run 009B identified a centralized ground Zeeman convention error. Under the
+project convention `dE/dB=g_F mu_B m_F`, raw Xstate tensors gave all identified
+ground g signs opposite Rodriguez Fig. 1. The named
+`PROJECT_ENERGY_SLOPE_CORRECTED` translation negates that ground tensor once at
+the pylcp Hamiltonian boundary and passes the compact static `[3]`, `[3+1]`,
+component-(4), polarization, dipole-order, and chirp-direction checks.
+
+This does not reopen trajectories. Corrected full static artifacts and Run
+009A must be regenerated first. Moreover, the collapsed excited tensor remains
+far from the representative Rodriguez `g=0.001` treatment, and exact Track E
+remains blocked.
+
+Run 009A-R1 performs that historical-preserving regeneration using the named
+corrected ground-Zeeman convention. Its static gate applies only to further
+provisional static study. Regardless of the gate, trajectory and capture
+authorization remain false because the excited-state magnetic tensor is still
+unresolved.
+
+Run 009C adds explicit excited-Zeeman choices. Its validated
+`RODRIGUEZ_EFFECTIVE_G_0P001` direct-sum operator is the preferred Track P
+static choice after sensitivity comparison, but must always be selected
+explicitly. This is a representative paper-aligned approximation, not exact
+excited spectroscopy, and it does not lift any trajectory, capture, or Track E
+lock.
+
 ## Promotion rules
 
 No Track P result may be promoted into Track E by changing labels. Promotion

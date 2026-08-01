@@ -1,0 +1,2538 @@
+{
+  "candidate_mappings": {
+    "mapping_a_current": {
+      "cases": {
+        "component_4_ablated": {
+          "active_laser_count": 18,
+          "dFdv_normalized_per_m_s": -0.003643236195093144,
+          "dFdx_normalized_per_m": 0.13807814733660106,
+          "force_x_hbar_k_gamma": [
+            -3.451953683414333e-05,
+            -3.469446951953614e-18,
+            3.4519536834157205e-05,
+            0.000910809048773286,
+            -0.000910809048773286
+          ],
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+          "points_x_m_vx_m_s": [
+            [
+              -0.00025,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.00025,
+              0.0
+            ],
+            [
+              0.0,
+              -0.25
+            ],
+            [
+              0.0,
+              0.25
+            ]
+          ],
+          "spatial_behavior": "anti-restoring",
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY local force mapping_a_current_component_4_ablated",
+          "velocity_behavior": "damping"
+        },
+        "component_4_alone": {
+          "active_laser_count": 6,
+          "dFdv_normalized_per_m_s": 1.4544989173858182e-05,
+          "dFdx_normalized_per_m": -0.0007382135676648198,
+          "force_x_hbar_k_gamma": [
+            1.8455339192182925e-07,
+            0.0,
+            -1.8455339191058065e-07,
+            -3.6362472934646267e-06,
+            3.636247293464464e-06
+          ],
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+          "points_x_m_vx_m_s": [
+            [
+              -0.00025,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.00025,
+              0.0
+            ],
+            [
+              0.0,
+              -0.25
+            ],
+            [
+              0.0,
+              0.25
+            ]
+          ],
+          "spatial_behavior": "restoring",
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY local force mapping_a_current_component_4_alone",
+          "velocity_behavior": "anti-damping"
+        },
+        "three": {
+          "active_laser_count": 18,
+          "dFdv_normalized_per_m_s": -0.003976682146088529,
+          "dFdx_normalized_per_m": 0.15948231624091092,
+          "force_x_hbar_k_gamma": [
+            -3.987057906024681e-05,
+            -1.734723475976807e-18,
+            3.987057906020865e-05,
+            0.0009941705365221314,
+            -0.000994170536522133
+          ],
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+          "points_x_m_vx_m_s": [
+            [
+              -0.00025,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.00025,
+              0.0
+            ],
+            [
+              0.0,
+              -0.25
+            ],
+            [
+              0.0,
+              0.25
+            ]
+          ],
+          "spatial_behavior": "anti-restoring",
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY local force mapping_a_current_three",
+          "velocity_behavior": "damping"
+        },
+        "three_plus_one": {
+          "active_laser_count": 24,
+          "dFdv_normalized_per_m_s": -0.003642374870998791,
+          "dFdx_normalized_per_m": 0.29995439503960675,
+          "force_x_hbar_k_gamma": [
+            -7.498859875990224e-05,
+            -1.734723475976807e-18,
+            7.498859875990115e-05,
+            0.0009105937177496949,
+            -0.0009105937177497007
+          ],
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+          "points_x_m_vx_m_s": [
+            [
+              -0.00025,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.00025,
+              0.0
+            ],
+            [
+              0.0,
+              -0.25
+            ],
+            [
+              0.0,
+              0.25
+            ]
+          ],
+          "spatial_behavior": "anti-restoring",
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY local force mapping_a_current_three_plus_one",
+          "velocity_behavior": "damping"
+        }
+      },
+      "force_behavior_passed": false,
+      "ground_zeeman_convention": "raw_xfmolecules",
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+      "paper_helicity_translation": "direct_beam_relative",
+      "represented_error": "historical Run 009 raw translation",
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY mapping_a_current candidate matrix"
+    },
+    "mapping_b_global_helicity_inversion_diagnostic": {
+      "cases": {
+        "component_4_ablated": {
+          "active_laser_count": 18,
+          "dFdv_normalized_per_m_s": -0.003643236195093144,
+          "dFdx_normalized_per_m": -0.13807814733664617,
+          "force_x_hbar_k_gamma": [
+            3.451953683414506e-05,
+            -1.734723475976807e-18,
+            -3.451953683417802e-05,
+            0.000910809048773286,
+            -0.000910809048773286
+          ],
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+          "points_x_m_vx_m_s": [
+            [
+              -0.00025,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.00025,
+              0.0
+            ],
+            [
+              0.0,
+              -0.25
+            ],
+            [
+              0.0,
+              0.25
+            ]
+          ],
+          "spatial_behavior": "restoring",
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY local force mapping_b_global_helicity_inversion_diagnostic_component_4_ablated",
+          "velocity_behavior": "damping"
+        },
+        "component_4_alone": {
+          "active_laser_count": 6,
+          "dFdv_normalized_per_m_s": 1.4544989173858182e-05,
+          "dFdx_normalized_per_m": 0.0007382135676450331,
+          "force_x_hbar_k_gamma": [
+            -1.8455339190019942e-07,
+            0.0,
+            1.8455339192231714e-07,
+            -3.6362472934646267e-06,
+            3.636247293464464e-06
+          ],
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+          "points_x_m_vx_m_s": [
+            [
+              -0.00025,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.00025,
+              0.0
+            ],
+            [
+              0.0,
+              -0.25
+            ],
+            [
+              0.0,
+              0.25
+            ]
+          ],
+          "spatial_behavior": "anti-restoring",
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY local force mapping_b_global_helicity_inversion_diagnostic_component_4_alone",
+          "velocity_behavior": "anti-damping"
+        },
+        "three": {
+          "active_laser_count": 18,
+          "dFdv_normalized_per_m_s": -0.003976682146088522,
+          "dFdx_normalized_per_m": -0.15948231624082765,
+          "force_x_hbar_k_gamma": [
+            3.9870579060189565e-05,
+            -3.469446951953614e-18,
+            -3.987057906022426e-05,
+            0.0009941705365221279,
+            -0.000994170536522133
+          ],
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+          "points_x_m_vx_m_s": [
+            [
+              -0.00025,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.00025,
+              0.0
+            ],
+            [
+              0.0,
+              -0.25
+            ],
+            [
+              0.0,
+              0.25
+            ]
+          ],
+          "spatial_behavior": "restoring",
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY local force mapping_b_global_helicity_inversion_diagnostic_three",
+          "velocity_behavior": "damping"
+        },
+        "three_plus_one": {
+          "active_laser_count": 24,
+          "dFdv_normalized_per_m_s": -0.0036423748709987856,
+          "dFdx_normalized_per_m": -0.29995439503958105,
+          "force_x_hbar_k_gamma": [
+            7.498859875989096e-05,
+            -2.6020852139652106e-18,
+            -7.498859875989958e-05,
+            0.0009105937177496953,
+            -0.0009105937177496976
+          ],
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+          "points_x_m_vx_m_s": [
+            [
+              -0.00025,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.00025,
+              0.0
+            ],
+            [
+              0.0,
+              -0.25
+            ],
+            [
+              0.0,
+              0.25
+            ]
+          ],
+          "spatial_behavior": "restoring",
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY local force mapping_b_global_helicity_inversion_diagnostic_three_plus_one",
+          "velocity_behavior": "damping"
+        }
+      },
+      "force_behavior_passed": true,
+      "ground_zeeman_convention": "raw_xfmolecules",
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+      "paper_helicity_translation": "global_inversion_diagnostic",
+      "represented_error": "candidate global beam-relative helicity interpretation error",
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY mapping_b_global_helicity_inversion_diagnostic candidate matrix"
+    },
+    "mapping_d_corrected_ground_zeeman": {
+      "cases": {
+        "component_4_ablated": {
+          "active_laser_count": 18,
+          "dFdv_normalized_per_m_s": -0.003643236195093144,
+          "dFdx_normalized_per_m": -0.017633741938711395,
+          "force_x_hbar_k_gamma": [
+            4.408435484675247e-06,
+            -3.469446951953614e-18,
+            -4.408435484680451e-06,
+            0.000910809048773286,
+            -0.000910809048773286
+          ],
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+          "points_x_m_vx_m_s": [
+            [
+              -0.00025,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.00025,
+              0.0
+            ],
+            [
+              0.0,
+              -0.25
+            ],
+            [
+              0.0,
+              0.25
+            ]
+          ],
+          "spatial_behavior": "restoring",
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY local force mapping_d_corrected_ground_zeeman_component_4_ablated",
+          "velocity_behavior": "damping"
+        },
+        "component_4_alone": {
+          "active_laser_count": 6,
+          "dFdv_normalized_per_m_s": 1.4544989173858182e-05,
+          "dFdx_normalized_per_m": -0.0013079245190140585,
+          "force_x_hbar_k_gamma": [
+            3.26981129753867e-07,
+            0.0,
+            -3.2698112975316227e-07,
+            -3.6362472934646267e-06,
+            3.636247293464464e-06
+          ],
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+          "points_x_m_vx_m_s": [
+            [
+              -0.00025,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.00025,
+              0.0
+            ],
+            [
+              0.0,
+              -0.25
+            ],
+            [
+              0.0,
+              0.25
+            ]
+          ],
+          "spatial_behavior": "restoring",
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY local force mapping_d_corrected_ground_zeeman_component_4_alone",
+          "velocity_behavior": "anti-damping"
+        },
+        "three": {
+          "active_laser_count": 18,
+          "dFdv_normalized_per_m_s": -0.003976682146088529,
+          "dFdx_normalized_per_m": -0.008940880477138063,
+          "force_x_hbar_k_gamma": [
+            2.2352201192767096e-06,
+            -1.734723475976807e-18,
+            -2.235220119292322e-06,
+            0.0009941705365221314,
+            -0.000994170536522133
+          ],
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+          "points_x_m_vx_m_s": [
+            [
+              -0.00025,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.00025,
+              0.0
+            ],
+            [
+              0.0,
+              -0.25
+            ],
+            [
+              0.0,
+              0.25
+            ]
+          ],
+          "spatial_behavior": "restoring",
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY local force mapping_d_corrected_ground_zeeman_three",
+          "velocity_behavior": "damping"
+        },
+        "three_plus_one": {
+          "active_laser_count": 24,
+          "dFdv_normalized_per_m_s": -0.003642374870998791,
+          "dFdx_normalized_per_m": -0.15276662722442336,
+          "force_x_hbar_k_gamma": [
+            3.819165680610823e-05,
+            -1.734723475976807e-18,
+            -3.8191656806103457e-05,
+            0.0009105937177496949,
+            -0.0009105937177497007
+          ],
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+          "points_x_m_vx_m_s": [
+            [
+              -0.00025,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.00025,
+              0.0
+            ],
+            [
+              0.0,
+              -0.25
+            ],
+            [
+              0.0,
+              0.25
+            ]
+          ],
+          "spatial_behavior": "restoring",
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY local force mapping_d_corrected_ground_zeeman_three_plus_one",
+          "velocity_behavior": "damping"
+        }
+      },
+      "force_behavior_passed": true,
+      "ground_zeeman_convention": "project_energy_slope_corrected",
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+      "paper_helicity_translation": "direct_beam_relative",
+      "represented_error": "demonstrated Xstate ground magnetic-tensor sign mismatch",
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY mapping_d_corrected_ground_zeeman candidate matrix"
+    }
+  },
+  "capture_results_calculated": 0,
+  "chirp_direction_audit": {
+    "features": [
+      {
+        "detuning_gamma": -8.0,
+        "feature_velocity_m_s": 84.0,
+        "force_normalized": -0.0606774097874421,
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY"
+      },
+      {
+        "detuning_gamma": -4.5,
+        "feature_velocity_m_s": 48.0,
+        "force_normalized": -0.05173620921834981,
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY"
+      },
+      {
+        "detuning_gamma": -1.0,
+        "feature_velocity_m_s": 10.0,
+        "force_normalized": -0.03669781086632309,
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY"
+      }
+    ],
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+    "moves_to_lower_positive_velocity": true,
+    "passed": true,
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY corrected-mapping chirp direction"
+  },
+  "dipole_audit": {
+    "construction_source": "XFmolecules.dipoleXandAstates loop np.arange(-1,2)",
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+    "nonzero_forbidden_transition_count": 0,
+    "passed": true,
+    "q_index_reversal_candidate_justified": false,
+    "rateeq_contraction": "d_q[-1]*epsilon[+1] + d_q[0]*epsilon[0] + d_q[+1]*epsilon[-1]",
+    "selected_allowed_transitions": [
+      {
+        "delta_m": 1.0,
+        "excited_index": 0,
+        "excited_mF": -0.0,
+        "ground_index": 0,
+        "ground_mF": -1.0,
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "light_q_used_by_pylcp_contraction": 1,
+        "matrix_element": -0.09110528497391664,
+        "q_tensor": -1
+      },
+      {
+        "delta_m": 0.0,
+        "excited_index": 1,
+        "excited_mF": -1.0,
+        "ground_index": 0,
+        "ground_mF": -1.0,
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "light_q_used_by_pylcp_contraction": 0,
+        "matrix_element": 0.4486860908317123,
+        "q_tensor": 0
+      },
+      {
+        "delta_m": -1.0,
+        "excited_index": 1,
+        "excited_mF": -1.0,
+        "ground_index": 1,
+        "ground_mF": 0.0,
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "light_q_used_by_pylcp_contraction": -1,
+        "matrix_element": 0.4486860908317123,
+        "q_tensor": 1
+      }
+    ],
+    "selection_rule_light_component": "Delta m = q_light",
+    "selection_rule_tensor_component": "Delta m = -q_tensor",
+    "tensor_first_axis_order": [
+      -1,
+      0,
+      1
+    ],
+    "tensor_shape": [
+      3,
+      12,
+      4
+    ],
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY dipole spherical-index audit",
+    "violations": []
+  },
+  "exact_track_blocked": true,
+  "excluded_candidate_mappings": {
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+    "mapping_c_q_index_reversal": "not constructed: dipole tensor order and contraction are verified",
+    "mapping_e_rotated_frame_handedness": "not constructed: all actual polarization vectors are normalized, transverse, and handedness-consistent",
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY excluded candidate mappings"
+  },
+  "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+  "mapping_change_gate": {
+    "accepted_mapping": "project_energy_slope_corrected",
+    "checks": {
+      "centralized_translation": true,
+      "chirp_direction_coherent": true,
+      "component_4_intended_direction": true,
+      "dipole_q_order_verified": true,
+      "documented_convention_justification": true,
+      "ground_zeeman_slopes_expected": true,
+      "polarization_vectors_and_counterpropagation_verified": true,
+      "three_plus_one_strengthens_confinement": true,
+      "three_restoring_and_damping": true,
+      "transition_resonance_direction_causal": true
+    },
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+    "passed": true,
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY mapping-change gate"
+  },
+  "polarization_audit": {
+    "all_vectors_normalized": true,
+    "all_vectors_transverse": true,
+    "counterpropagating_relations": {
+      "x_prime_pylcp_pol_+1": {
+        "fixed_lab_z_q_intensities_backward": [
+          0.25,
+          0.5000000000000001,
+          0.25
+        ],
+        "fixed_lab_z_q_intensities_forward": [
+          0.25,
+          0.5000000000000001,
+          0.25
+        ],
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "phase_invariant_conjugate_fidelity": 1.0,
+        "q_intensities_reverse_under_k_reversal": true,
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY counterpropagating relation x_prime_pylcp_pol_+1"
+      },
+      "x_prime_pylcp_pol_-1": {
+        "fixed_lab_z_q_intensities_backward": [
+          0.25,
+          0.5000000000000001,
+          0.25
+        ],
+        "fixed_lab_z_q_intensities_forward": [
+          0.25,
+          0.5000000000000001,
+          0.25
+        ],
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "phase_invariant_conjugate_fidelity": 1.0,
+        "q_intensities_reverse_under_k_reversal": true,
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY counterpropagating relation x_prime_pylcp_pol_-1"
+      },
+      "y_prime_pylcp_pol_+1": {
+        "fixed_lab_z_q_intensities_backward": [
+          0.25,
+          0.5000000000000001,
+          0.25
+        ],
+        "fixed_lab_z_q_intensities_forward": [
+          0.25,
+          0.5000000000000001,
+          0.25
+        ],
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "phase_invariant_conjugate_fidelity": 1.0,
+        "q_intensities_reverse_under_k_reversal": true,
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY counterpropagating relation y_prime_pylcp_pol_+1"
+      },
+      "y_prime_pylcp_pol_-1": {
+        "fixed_lab_z_q_intensities_backward": [
+          0.25,
+          0.5000000000000001,
+          0.25
+        ],
+        "fixed_lab_z_q_intensities_forward": [
+          0.25,
+          0.5000000000000001,
+          0.25
+        ],
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "phase_invariant_conjugate_fidelity": 1.0,
+        "q_intensities_reverse_under_k_reversal": true,
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY counterpropagating relation y_prime_pylcp_pol_-1"
+      },
+      "z_pylcp_pol_+1": {
+        "fixed_lab_z_q_intensities_backward": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "fixed_lab_z_q_intensities_forward": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "phase_invariant_conjugate_fidelity": 0.9999999999999998,
+        "q_intensities_reverse_under_k_reversal": true,
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY counterpropagating relation z_pylcp_pol_+1"
+      },
+      "z_pylcp_pol_-1": {
+        "fixed_lab_z_q_intensities_backward": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fixed_lab_z_q_intensities_forward": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "phase_invariant_conjugate_fidelity": 0.9999999999999998,
+        "q_intensities_reverse_under_k_reversal": true,
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY counterpropagating relation z_pylcp_pol_-1"
+      }
+    },
+    "equal_scalar_pol_on_opposite_k_reverses_fixed_axis_q": true,
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+    "passed": true,
+    "pylcp_stored_spherical_order": [
+      -1,
+      0,
+      1
+    ],
+    "records": {
+      "+x_prime_pylcp_pol_+1": {
+        "beam_name": "+x_prime",
+        "cartesian_polarization": [
+          {
+            "imag": -0.4999999999999999,
+            "real": 0.0
+          },
+          {
+            "imag": 0.4999999999999999,
+            "real": 0.0
+          },
+          {
+            "imag": 0.0,
+            "real": 0.7071067811865476
+          }
+        ],
+        "epsilon_dot_k": {
+          "imag": 0.0,
+          "real": 0.0
+        },
+        "imag_epsilon_star_cross_epsilon_dot_k": -0.9999999999999998,
+        "k_vector": [
+          0.7071067811865475,
+          0.7071067811865475,
+          0.0
+        ],
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "normalization": 0.9999999999999999,
+        "pylcp_scalar_pol": 1,
+        "spherical_relative_to_lab_axes": {
+          "lab_x": [
+            {
+              "imag": 0.0,
+              "real": -0.14644660940672627
+            },
+            {
+              "imag": -0.4999999999999999,
+              "real": 0.0
+            },
+            {
+              "imag": 0.0,
+              "real": 0.8535533905932737
+            }
+          ],
+          "lab_y": [
+            {
+              "imag": 0.0,
+              "real": -0.14644660940672627
+            },
+            {
+              "imag": 0.49999999999999983,
+              "real": 0.0
+            },
+            {
+              "imag": 0.0,
+              "real": 0.8535533905932737
+            }
+          ],
+          "lab_z": [
+            {
+              "imag": -0.35355339059327373,
+              "real": 0.35355339059327373
+            },
+            {
+              "imag": 0.0,
+              "real": 0.7071067811865476
+            },
+            {
+              "imag": 0.35355339059327373,
+              "real": 0.35355339059327373
+            }
+          ]
+        },
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY polarization +x_prime_pylcp_pol_+1"
+      },
+      "+x_prime_pylcp_pol_-1": {
+        "beam_name": "+x_prime",
+        "cartesian_polarization": [
+          {
+            "imag": -0.4999999999999999,
+            "real": 0.0
+          },
+          {
+            "imag": 0.4999999999999999,
+            "real": 0.0
+          },
+          {
+            "imag": 0.0,
+            "real": -0.7071067811865476
+          }
+        ],
+        "epsilon_dot_k": {
+          "imag": 0.0,
+          "real": 0.0
+        },
+        "imag_epsilon_star_cross_epsilon_dot_k": 0.9999999999999998,
+        "k_vector": [
+          0.7071067811865475,
+          0.7071067811865475,
+          0.0
+        ],
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "normalization": 0.9999999999999999,
+        "pylcp_scalar_pol": -1,
+        "spherical_relative_to_lab_axes": {
+          "lab_x": [
+            {
+              "imag": 0.0,
+              "real": 0.8535533905932737
+            },
+            {
+              "imag": -0.4999999999999999,
+              "real": 0.0
+            },
+            {
+              "imag": 0.0,
+              "real": -0.14644660940672627
+            }
+          ],
+          "lab_y": [
+            {
+              "imag": 0.0,
+              "real": 0.8535533905932737
+            },
+            {
+              "imag": 0.49999999999999983,
+              "real": 0.0
+            },
+            {
+              "imag": 0.0,
+              "real": -0.14644660940672627
+            }
+          ],
+          "lab_z": [
+            {
+              "imag": -0.35355339059327373,
+              "real": 0.35355339059327373
+            },
+            {
+              "imag": 0.0,
+              "real": -0.7071067811865476
+            },
+            {
+              "imag": 0.35355339059327373,
+              "real": 0.35355339059327373
+            }
+          ]
+        },
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY polarization +x_prime_pylcp_pol_-1"
+      },
+      "+y_prime_pylcp_pol_+1": {
+        "beam_name": "+y_prime",
+        "cartesian_polarization": [
+          {
+            "imag": -0.5,
+            "real": 0.0
+          },
+          {
+            "imag": -0.4999999999999999,
+            "real": -0.0
+          },
+          {
+            "imag": 0.0,
+            "real": 0.7071067811865476
+          }
+        ],
+        "epsilon_dot_k": {
+          "imag": 5.551115123125783e-17,
+          "real": 0.0
+        },
+        "imag_epsilon_star_cross_epsilon_dot_k": -0.9999999999999999,
+        "k_vector": [
+          -0.7071067811865475,
+          0.7071067811865475,
+          0.0
+        ],
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "normalization": 1.0,
+        "pylcp_scalar_pol": 1,
+        "spherical_relative_to_lab_axes": {
+          "lab_x": [
+            {
+              "imag": 0.0,
+              "real": -0.8535533905932737
+            },
+            {
+              "imag": -0.5,
+              "real": 0.0
+            },
+            {
+              "imag": 0.0,
+              "real": 0.14644660940672627
+            }
+          ],
+          "lab_y": [
+            {
+              "imag": 0.0,
+              "real": -0.14644660940672624
+            },
+            {
+              "imag": -0.49999999999999994,
+              "real": 0.0
+            },
+            {
+              "imag": 0.0,
+              "real": 0.8535533905932737
+            }
+          ],
+          "lab_z": [
+            {
+              "imag": -0.3535533905932738,
+              "real": -0.35355339059327373
+            },
+            {
+              "imag": 0.0,
+              "real": 0.7071067811865476
+            },
+            {
+              "imag": 0.3535533905932738,
+              "real": -0.35355339059327373
+            }
+          ]
+        },
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY polarization +y_prime_pylcp_pol_+1"
+      },
+      "+y_prime_pylcp_pol_-1": {
+        "beam_name": "+y_prime",
+        "cartesian_polarization": [
+          {
+            "imag": -0.5,
+            "real": 0.0
+          },
+          {
+            "imag": -0.4999999999999999,
+            "real": -0.0
+          },
+          {
+            "imag": 0.0,
+            "real": -0.7071067811865476
+          }
+        ],
+        "epsilon_dot_k": {
+          "imag": 5.551115123125783e-17,
+          "real": 0.0
+        },
+        "imag_epsilon_star_cross_epsilon_dot_k": 0.9999999999999999,
+        "k_vector": [
+          -0.7071067811865475,
+          0.7071067811865475,
+          0.0
+        ],
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "normalization": 1.0,
+        "pylcp_scalar_pol": -1,
+        "spherical_relative_to_lab_axes": {
+          "lab_x": [
+            {
+              "imag": 0.0,
+              "real": 0.14644660940672627
+            },
+            {
+              "imag": -0.5,
+              "real": 0.0
+            },
+            {
+              "imag": 0.0,
+              "real": -0.8535533905932737
+            }
+          ],
+          "lab_y": [
+            {
+              "imag": 0.0,
+              "real": 0.8535533905932737
+            },
+            {
+              "imag": -0.49999999999999994,
+              "real": 0.0
+            },
+            {
+              "imag": 0.0,
+              "real": -0.14644660940672624
+            }
+          ],
+          "lab_z": [
+            {
+              "imag": -0.3535533905932738,
+              "real": -0.35355339059327373
+            },
+            {
+              "imag": 0.0,
+              "real": -0.7071067811865476
+            },
+            {
+              "imag": 0.3535533905932738,
+              "real": -0.35355339059327373
+            }
+          ]
+        },
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY polarization +y_prime_pylcp_pol_-1"
+      },
+      "+z_pylcp_pol_+1": {
+        "beam_name": "+z",
+        "cartesian_polarization": [
+          {
+            "imag": 0.0,
+            "real": -0.7071067811865475
+          },
+          {
+            "imag": 0.7071067811865475,
+            "real": 0.0
+          },
+          {
+            "imag": 0.0,
+            "real": 0.0
+          }
+        ],
+        "epsilon_dot_k": {
+          "imag": 0.0,
+          "real": 0.0
+        },
+        "imag_epsilon_star_cross_epsilon_dot_k": -0.9999999999999998,
+        "k_vector": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "normalization": 0.9999999999999999,
+        "pylcp_scalar_pol": 1,
+        "spherical_relative_to_lab_axes": {
+          "lab_x": [
+            {
+              "imag": 0.0,
+              "real": 0.5
+            },
+            {
+              "imag": 0.0,
+              "real": -0.7071067811865475
+            },
+            {
+              "imag": 0.0,
+              "real": 0.5
+            }
+          ],
+          "lab_y": [
+            {
+              "imag": -0.5,
+              "real": 3.061616997868383e-17
+            },
+            {
+              "imag": 0.7071067811865475,
+              "real": -4.329780281177466e-17
+            },
+            {
+              "imag": -0.5,
+              "real": 3.061616997868383e-17
+            }
+          ],
+          "lab_z": [
+            {
+              "imag": 0.0,
+              "real": 0.0
+            },
+            {
+              "imag": 0.0,
+              "real": 0.0
+            },
+            {
+              "imag": 0.0,
+              "real": 1.0
+            }
+          ]
+        },
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY polarization +z_pylcp_pol_+1"
+      },
+      "+z_pylcp_pol_-1": {
+        "beam_name": "+z",
+        "cartesian_polarization": [
+          {
+            "imag": 0.0,
+            "real": 0.7071067811865475
+          },
+          {
+            "imag": 0.7071067811865475,
+            "real": 0.0
+          },
+          {
+            "imag": 0.0,
+            "real": 0.0
+          }
+        ],
+        "epsilon_dot_k": {
+          "imag": 0.0,
+          "real": 0.0
+        },
+        "imag_epsilon_star_cross_epsilon_dot_k": 0.9999999999999998,
+        "k_vector": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "normalization": 0.9999999999999999,
+        "pylcp_scalar_pol": -1,
+        "spherical_relative_to_lab_axes": {
+          "lab_x": [
+            {
+              "imag": 0.0,
+              "real": 0.5
+            },
+            {
+              "imag": 0.0,
+              "real": 0.7071067811865475
+            },
+            {
+              "imag": 0.0,
+              "real": 0.5
+            }
+          ],
+          "lab_y": [
+            {
+              "imag": 0.5,
+              "real": 3.061616997868383e-17
+            },
+            {
+              "imag": 0.7071067811865475,
+              "real": 4.329780281177466e-17
+            },
+            {
+              "imag": 0.5,
+              "real": 3.061616997868383e-17
+            }
+          ],
+          "lab_z": [
+            {
+              "imag": 0.0,
+              "real": 1.0
+            },
+            {
+              "imag": 0.0,
+              "real": 0.0
+            },
+            {
+              "imag": 0.0,
+              "real": 0.0
+            }
+          ]
+        },
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY polarization +z_pylcp_pol_-1"
+      },
+      "-x_prime_pylcp_pol_+1": {
+        "beam_name": "-x_prime",
+        "cartesian_polarization": [
+          {
+            "imag": 0.5,
+            "real": 0.0
+          },
+          {
+            "imag": -0.4999999999999999,
+            "real": -0.0
+          },
+          {
+            "imag": 0.0,
+            "real": 0.7071067811865476
+          }
+        ],
+        "epsilon_dot_k": {
+          "imag": -5.551115123125783e-17,
+          "real": 0.0
+        },
+        "imag_epsilon_star_cross_epsilon_dot_k": -0.9999999999999999,
+        "k_vector": [
+          -0.7071067811865475,
+          -0.7071067811865475,
+          -0.0
+        ],
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "normalization": 1.0,
+        "pylcp_scalar_pol": 1,
+        "spherical_relative_to_lab_axes": {
+          "lab_x": [
+            {
+              "imag": 0.0,
+              "real": -0.8535533905932737
+            },
+            {
+              "imag": 0.5,
+              "real": 0.0
+            },
+            {
+              "imag": 0.0,
+              "real": 0.14644660940672627
+            }
+          ],
+          "lab_y": [
+            {
+              "imag": 0.0,
+              "real": -0.8535533905932737
+            },
+            {
+              "imag": -0.49999999999999983,
+              "real": 0.0
+            },
+            {
+              "imag": 0.0,
+              "real": 0.14644660940672624
+            }
+          ],
+          "lab_z": [
+            {
+              "imag": 0.3535533905932738,
+              "real": -0.35355339059327373
+            },
+            {
+              "imag": 0.0,
+              "real": 0.7071067811865476
+            },
+            {
+              "imag": -0.3535533905932738,
+              "real": -0.35355339059327373
+            }
+          ]
+        },
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY polarization -x_prime_pylcp_pol_+1"
+      },
+      "-x_prime_pylcp_pol_-1": {
+        "beam_name": "-x_prime",
+        "cartesian_polarization": [
+          {
+            "imag": 0.5,
+            "real": 0.0
+          },
+          {
+            "imag": -0.4999999999999999,
+            "real": -0.0
+          },
+          {
+            "imag": 0.0,
+            "real": -0.7071067811865476
+          }
+        ],
+        "epsilon_dot_k": {
+          "imag": -5.551115123125783e-17,
+          "real": 0.0
+        },
+        "imag_epsilon_star_cross_epsilon_dot_k": 0.9999999999999999,
+        "k_vector": [
+          -0.7071067811865475,
+          -0.7071067811865475,
+          -0.0
+        ],
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "normalization": 1.0,
+        "pylcp_scalar_pol": -1,
+        "spherical_relative_to_lab_axes": {
+          "lab_x": [
+            {
+              "imag": 0.0,
+              "real": 0.14644660940672627
+            },
+            {
+              "imag": 0.5,
+              "real": 0.0
+            },
+            {
+              "imag": 0.0,
+              "real": -0.8535533905932737
+            }
+          ],
+          "lab_y": [
+            {
+              "imag": 0.0,
+              "real": 0.14644660940672624
+            },
+            {
+              "imag": -0.49999999999999983,
+              "real": 0.0
+            },
+            {
+              "imag": 0.0,
+              "real": -0.8535533905932737
+            }
+          ],
+          "lab_z": [
+            {
+              "imag": 0.3535533905932738,
+              "real": -0.35355339059327373
+            },
+            {
+              "imag": 0.0,
+              "real": -0.7071067811865476
+            },
+            {
+              "imag": -0.3535533905932738,
+              "real": -0.35355339059327373
+            }
+          ]
+        },
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY polarization -x_prime_pylcp_pol_-1"
+      },
+      "-y_prime_pylcp_pol_+1": {
+        "beam_name": "-y_prime",
+        "cartesian_polarization": [
+          {
+            "imag": 0.4999999999999999,
+            "real": 0.0
+          },
+          {
+            "imag": 0.4999999999999999,
+            "real": 0.0
+          },
+          {
+            "imag": 0.0,
+            "real": 0.7071067811865476
+          }
+        ],
+        "epsilon_dot_k": {
+          "imag": 0.0,
+          "real": 0.0
+        },
+        "imag_epsilon_star_cross_epsilon_dot_k": -0.9999999999999998,
+        "k_vector": [
+          0.7071067811865475,
+          -0.7071067811865475,
+          -0.0
+        ],
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "normalization": 0.9999999999999999,
+        "pylcp_scalar_pol": 1,
+        "spherical_relative_to_lab_axes": {
+          "lab_x": [
+            {
+              "imag": 0.0,
+              "real": -0.14644660940672627
+            },
+            {
+              "imag": 0.4999999999999999,
+              "real": 0.0
+            },
+            {
+              "imag": 0.0,
+              "real": 0.8535533905932737
+            }
+          ],
+          "lab_y": [
+            {
+              "imag": 0.0,
+              "real": -0.8535533905932737
+            },
+            {
+              "imag": 0.49999999999999994,
+              "real": 0.0
+            },
+            {
+              "imag": 0.0,
+              "real": 0.14644660940672627
+            }
+          ],
+          "lab_z": [
+            {
+              "imag": 0.35355339059327373,
+              "real": 0.35355339059327373
+            },
+            {
+              "imag": 0.0,
+              "real": 0.7071067811865476
+            },
+            {
+              "imag": -0.35355339059327373,
+              "real": 0.35355339059327373
+            }
+          ]
+        },
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY polarization -y_prime_pylcp_pol_+1"
+      },
+      "-y_prime_pylcp_pol_-1": {
+        "beam_name": "-y_prime",
+        "cartesian_polarization": [
+          {
+            "imag": 0.4999999999999999,
+            "real": 0.0
+          },
+          {
+            "imag": 0.4999999999999999,
+            "real": 0.0
+          },
+          {
+            "imag": 0.0,
+            "real": -0.7071067811865476
+          }
+        ],
+        "epsilon_dot_k": {
+          "imag": 0.0,
+          "real": 0.0
+        },
+        "imag_epsilon_star_cross_epsilon_dot_k": 0.9999999999999998,
+        "k_vector": [
+          0.7071067811865475,
+          -0.7071067811865475,
+          -0.0
+        ],
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "normalization": 0.9999999999999999,
+        "pylcp_scalar_pol": -1,
+        "spherical_relative_to_lab_axes": {
+          "lab_x": [
+            {
+              "imag": 0.0,
+              "real": 0.8535533905932737
+            },
+            {
+              "imag": 0.4999999999999999,
+              "real": 0.0
+            },
+            {
+              "imag": 0.0,
+              "real": -0.14644660940672627
+            }
+          ],
+          "lab_y": [
+            {
+              "imag": 0.0,
+              "real": 0.14644660940672627
+            },
+            {
+              "imag": 0.49999999999999994,
+              "real": 0.0
+            },
+            {
+              "imag": 0.0,
+              "real": -0.8535533905932737
+            }
+          ],
+          "lab_z": [
+            {
+              "imag": 0.35355339059327373,
+              "real": 0.35355339059327373
+            },
+            {
+              "imag": 0.0,
+              "real": -0.7071067811865476
+            },
+            {
+              "imag": -0.35355339059327373,
+              "real": 0.35355339059327373
+            }
+          ]
+        },
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY polarization -y_prime_pylcp_pol_-1"
+      },
+      "-z_pylcp_pol_+1": {
+        "beam_name": "-z",
+        "cartesian_polarization": [
+          {
+            "imag": 0.0,
+            "real": 0.7071067811865475
+          },
+          {
+            "imag": 0.7071067811865475,
+            "real": 0.0
+          },
+          {
+            "imag": 0.0,
+            "real": 0.0
+          }
+        ],
+        "epsilon_dot_k": {
+          "imag": 0.0,
+          "real": 0.0
+        },
+        "imag_epsilon_star_cross_epsilon_dot_k": -0.9999999999999998,
+        "k_vector": [
+          -0.0,
+          -0.0,
+          -1.0
+        ],
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "normalization": 0.9999999999999999,
+        "pylcp_scalar_pol": 1,
+        "spherical_relative_to_lab_axes": {
+          "lab_x": [
+            {
+              "imag": 0.0,
+              "real": 0.5
+            },
+            {
+              "imag": 0.0,
+              "real": 0.7071067811865475
+            },
+            {
+              "imag": 0.0,
+              "real": 0.5
+            }
+          ],
+          "lab_y": [
+            {
+              "imag": 0.5,
+              "real": 3.061616997868383e-17
+            },
+            {
+              "imag": 0.7071067811865475,
+              "real": 4.329780281177466e-17
+            },
+            {
+              "imag": 0.5,
+              "real": 3.061616997868383e-17
+            }
+          ],
+          "lab_z": [
+            {
+              "imag": 0.0,
+              "real": 1.0
+            },
+            {
+              "imag": 0.0,
+              "real": 0.0
+            },
+            {
+              "imag": 0.0,
+              "real": 0.0
+            }
+          ]
+        },
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY polarization -z_pylcp_pol_+1"
+      },
+      "-z_pylcp_pol_-1": {
+        "beam_name": "-z",
+        "cartesian_polarization": [
+          {
+            "imag": 0.0,
+            "real": -0.7071067811865475
+          },
+          {
+            "imag": 0.7071067811865475,
+            "real": 0.0
+          },
+          {
+            "imag": 0.0,
+            "real": 0.0
+          }
+        ],
+        "epsilon_dot_k": {
+          "imag": 0.0,
+          "real": 0.0
+        },
+        "imag_epsilon_star_cross_epsilon_dot_k": 0.9999999999999998,
+        "k_vector": [
+          -0.0,
+          -0.0,
+          -1.0
+        ],
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "normalization": 0.9999999999999999,
+        "pylcp_scalar_pol": -1,
+        "spherical_relative_to_lab_axes": {
+          "lab_x": [
+            {
+              "imag": 0.0,
+              "real": 0.5
+            },
+            {
+              "imag": 0.0,
+              "real": -0.7071067811865475
+            },
+            {
+              "imag": 0.0,
+              "real": 0.5
+            }
+          ],
+          "lab_y": [
+            {
+              "imag": -0.5,
+              "real": 3.061616997868383e-17
+            },
+            {
+              "imag": 0.7071067811865475,
+              "real": -4.329780281177466e-17
+            },
+            {
+              "imag": -0.5,
+              "real": 3.061616997868383e-17
+            }
+          ],
+          "lab_z": [
+            {
+              "imag": 0.0,
+              "real": 0.0
+            },
+            {
+              "imag": 0.0,
+              "real": 0.0
+            },
+            {
+              "imag": 0.0,
+              "real": 1.0
+            }
+          ]
+        },
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY polarization -z_pylcp_pol_-1"
+      }
+    },
+    "rotated_frame_handedness_consistent": true,
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY actual pylcp polarization audit"
+  },
+  "remaining_limitations": {
+    "exact_hamiltonian": "independent d term and exact excited Zeeman mapping remain blocked",
+    "excited_zeeman": "partial collapsed Astate tensor implies effective |g| about 0.334, not Rodriguez representative g=0.001; Run 009B does not replace it",
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY remaining limitations"
+  },
+  "replication_valid": false,
+  "resonance_direction_audit": {
+    "corrected_mapping_closer_group_matches_expected_for_all_representatives": true,
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+    "method": "controlled one-component optical systems; not an independent decomposition of a combined [3+1] solve",
+    "passed": true,
+    "records": [
+      {
+        "addressed_role": "lower_F1",
+        "component_id": 1,
+        "expected_restoring_beam_kx_sign": 1,
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "local_Bx_tesla": 2.5e-05,
+        "mappings": {
+          "mapping_a_raw": {
+            "causal_interpretation": "equal-intensity group with larger summed transition pumping is the operational closer-to-resonance proxy; the separately reported population-weighted group forces determine the net force and can oppose that proxy in a type-II multilevel system",
+            "closer_beam_kx_sign": -1,
+            "closer_to_resonance_proxy": "negative_kx",
+            "group_pumping_rates": {
+              "negative_kx": 0.12491785324597371,
+              "positive_kx": 0.12344977459244992,
+              "zero_kx": 0.1241830519479087
+            },
+            "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+            "matches_restoring_direction": false,
+            "population_weighted_group_force_x": {
+              "negative_kx": -0.00035412122363881997,
+              "positive_kx": 0.00035389679259779943,
+              "zero_kx": 0.0
+            },
+            "resulting_force_x_normalized": -2.2443104102053395e-07,
+            "strongest_selected_transition": {
+              "beam_kx": -0.7071067811865475,
+              "beam_name": "-x_prime",
+              "excited_state_index": 1,
+              "ground_state_index": 1,
+              "ground_zeeman_shift_gamma": -3.0176273622117833e-05,
+              "identified_ground_manifold": "lower_F1",
+              "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+              "pumping_rate": 0.021542099436890123,
+              "source_zero_field_mF_label": 0.0,
+              "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY strongest selected transition",
+              "transition_resonance_error_gamma": -0.9944430645278928
+            }
+          },
+          "mapping_d_corrected": {
+            "causal_interpretation": "equal-intensity group with larger summed transition pumping is the operational closer-to-resonance proxy; the separately reported population-weighted group forces determine the net force and can oppose that proxy in a type-II multilevel system",
+            "closer_beam_kx_sign": 1,
+            "closer_to_resonance_proxy": "positive_kx",
+            "group_pumping_rates": {
+              "negative_kx": 0.1241301168700443,
+              "positive_kx": 0.12423736609442262,
+              "zero_kx": 0.12418671313536123
+            },
+            "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+            "matches_restoring_direction": true,
+            "population_weighted_group_force_x": {
+              "negative_kx": -0.00035413058052497946,
+              "positive_kx": 0.00035388255247109976,
+              "zero_kx": 0.0
+            },
+            "resulting_force_x_normalized": -2.4802805387969624e-07,
+            "strongest_selected_transition": {
+              "beam_kx": 0.7071067811865475,
+              "beam_name": "+x_prime",
+              "excited_state_index": 2,
+              "ground_state_index": 2,
+              "ground_zeeman_shift_gamma": 0.0034611011663567837,
+              "identified_ground_manifold": "lower_F1",
+              "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+              "pumping_rate": 0.02141560814303932,
+              "source_zero_field_mF_label": 1.0,
+              "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY strongest selected transition",
+              "transition_resonance_error_gamma": -0.996550689330947
+            }
+          }
+        },
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY component 1 resonance direction x=-0.00025",
+        "x_m": -0.00025
+      },
+      {
+        "addressed_role": "lower_F1",
+        "component_id": 1,
+        "expected_restoring_beam_kx_sign": -1,
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "local_Bx_tesla": -2.5e-05,
+        "mappings": {
+          "mapping_a_raw": {
+            "causal_interpretation": "equal-intensity group with larger summed transition pumping is the operational closer-to-resonance proxy; the separately reported population-weighted group forces determine the net force and can oppose that proxy in a type-II multilevel system",
+            "closer_beam_kx_sign": 1,
+            "closer_to_resonance_proxy": "positive_kx",
+            "group_pumping_rates": {
+              "negative_kx": 0.12344977459244995,
+              "positive_kx": 0.1249178532459737,
+              "zero_kx": 0.1241830519479087
+            },
+            "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+            "matches_restoring_direction": false,
+            "population_weighted_group_force_x": {
+              "negative_kx": -0.0003538967925977858,
+              "positive_kx": 0.00035412122363880647,
+              "zero_kx": 0.0
+            },
+            "resulting_force_x_normalized": 2.2443104102061527e-07,
+            "strongest_selected_transition": {
+              "beam_kx": 0.7071067811865475,
+              "beam_name": "+x_prime",
+              "excited_state_index": 1,
+              "ground_state_index": 1,
+              "ground_zeeman_shift_gamma": -3.0176273622117833e-05,
+              "identified_ground_manifold": "lower_F1",
+              "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+              "pumping_rate": 0.021542099436890123,
+              "source_zero_field_mF_label": 0.0,
+              "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY strongest selected transition",
+              "transition_resonance_error_gamma": -0.9944430645278928
+            }
+          },
+          "mapping_d_corrected": {
+            "causal_interpretation": "equal-intensity group with larger summed transition pumping is the operational closer-to-resonance proxy; the separately reported population-weighted group forces determine the net force and can oppose that proxy in a type-II multilevel system",
+            "closer_beam_kx_sign": -1,
+            "closer_to_resonance_proxy": "negative_kx",
+            "group_pumping_rates": {
+              "negative_kx": 0.12423736609442264,
+              "positive_kx": 0.1241301168700443,
+              "zero_kx": 0.12418671313536123
+            },
+            "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+            "matches_restoring_direction": true,
+            "population_weighted_group_force_x": {
+              "negative_kx": -0.0003538825524710925,
+              "positive_kx": 0.00035413058052497295,
+              "zero_kx": 0.0
+            },
+            "resulting_force_x_normalized": 2.480280538804281e-07,
+            "strongest_selected_transition": {
+              "beam_kx": -0.7071067811865475,
+              "beam_name": "-x_prime",
+              "excited_state_index": 2,
+              "ground_state_index": 2,
+              "ground_zeeman_shift_gamma": 0.0034611011663567837,
+              "identified_ground_manifold": "lower_F1",
+              "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+              "pumping_rate": 0.02141560814303932,
+              "source_zero_field_mF_label": 1.0,
+              "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY strongest selected transition",
+              "transition_resonance_error_gamma": -0.996550689330947
+            }
+          }
+        },
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY component 1 resonance direction x=0.00025",
+        "x_m": 0.00025
+      },
+      {
+        "addressed_role": "upper_F1_F2_mean",
+        "component_id": 3,
+        "expected_restoring_beam_kx_sign": 1,
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "local_Bx_tesla": 2.5e-05,
+        "mappings": {
+          "mapping_a_raw": {
+            "causal_interpretation": "equal-intensity group with larger summed transition pumping is the operational closer-to-resonance proxy; the separately reported population-weighted group forces determine the net force and can oppose that proxy in a type-II multilevel system",
+            "closer_beam_kx_sign": -1,
+            "closer_to_resonance_proxy": "negative_kx",
+            "group_pumping_rates": {
+              "negative_kx": 0.291302193214436,
+              "positive_kx": 0.28421687154253517,
+              "zero_kx": 0.28772751341397385
+            },
+            "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+            "matches_restoring_direction": false,
+            "population_weighted_group_force_x": {
+              "negative_kx": -0.0009677516367627938,
+              "positive_kx": 0.000969276691542424,
+              "zero_kx": 0.0
+            },
+            "resulting_force_x_normalized": 1.5250547796301014e-06,
+            "strongest_selected_transition": {
+              "beam_kx": -0.7071067811865475,
+              "beam_name": "-x_prime",
+              "excited_state_index": 1,
+              "ground_state_index": 11,
+              "ground_zeeman_shift_gamma": 0.016761333854985683,
+              "identified_ground_manifold": "F2",
+              "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+              "pumping_rate": 0.04009755644520157,
+              "source_zero_field_mF_label": 2.0,
+              "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY strongest selected transition",
+              "transition_resonance_error_gamma": -0.755919028799124
+            }
+          },
+          "mapping_d_corrected": {
+            "causal_interpretation": "equal-intensity group with larger summed transition pumping is the operational closer-to-resonance proxy; the separately reported population-weighted group forces determine the net force and can oppose that proxy in a type-II multilevel system",
+            "closer_beam_kx_sign": 1,
+            "closer_to_resonance_proxy": "positive_kx",
+            "group_pumping_rates": {
+              "negative_kx": 0.2852880615503912,
+              "positive_kx": 0.2900789239643833,
+              "zero_kx": 0.2876679655284502
+            },
+            "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+            "matches_restoring_direction": true,
+            "population_weighted_group_force_x": {
+              "negative_kx": -0.0009684246717145714,
+              "positive_kx": 0.0009686866110809935,
+              "zero_kx": 0.0
+            },
+            "resulting_force_x_normalized": 2.6193936642209415e-07,
+            "strongest_selected_transition": {
+              "beam_kx": 0.7071067811865475,
+              "beam_name": "+x_prime",
+              "excited_state_index": 3,
+              "ground_state_index": 11,
+              "ground_zeeman_shift_gamma": 0.016761333854987903,
+              "identified_ground_manifold": "F2",
+              "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+              "pumping_rate": 0.039283656928283124,
+              "source_zero_field_mF_label": 2.0,
+              "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY strongest selected transition",
+              "transition_resonance_error_gamma": -0.7670932522905836
+            }
+          }
+        },
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY component 3 resonance direction x=-0.00025",
+        "x_m": -0.00025
+      },
+      {
+        "addressed_role": "upper_F1_F2_mean",
+        "component_id": 3,
+        "expected_restoring_beam_kx_sign": -1,
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "local_Bx_tesla": -2.5e-05,
+        "mappings": {
+          "mapping_a_raw": {
+            "causal_interpretation": "equal-intensity group with larger summed transition pumping is the operational closer-to-resonance proxy; the separately reported population-weighted group forces determine the net force and can oppose that proxy in a type-II multilevel system",
+            "closer_beam_kx_sign": 1,
+            "closer_to_resonance_proxy": "positive_kx",
+            "group_pumping_rates": {
+              "negative_kx": 0.28421687154253517,
+              "positive_kx": 0.29130219321443596,
+              "zero_kx": 0.28772751341397385
+            },
+            "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+            "matches_restoring_direction": false,
+            "population_weighted_group_force_x": {
+              "negative_kx": -0.0009692766915423865,
+              "positive_kx": 0.0009677516367627642,
+              "zero_kx": 0.0
+            },
+            "resulting_force_x_normalized": -1.5250547796221868e-06,
+            "strongest_selected_transition": {
+              "beam_kx": 0.7071067811865475,
+              "beam_name": "+x_prime",
+              "excited_state_index": 1,
+              "ground_state_index": 11,
+              "ground_zeeman_shift_gamma": 0.016761333854985683,
+              "identified_ground_manifold": "F2",
+              "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+              "pumping_rate": 0.04009755644520157,
+              "source_zero_field_mF_label": 2.0,
+              "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY strongest selected transition",
+              "transition_resonance_error_gamma": -0.755919028799124
+            }
+          },
+          "mapping_d_corrected": {
+            "causal_interpretation": "equal-intensity group with larger summed transition pumping is the operational closer-to-resonance proxy; the separately reported population-weighted group forces determine the net force and can oppose that proxy in a type-II multilevel system",
+            "closer_beam_kx_sign": -1,
+            "closer_to_resonance_proxy": "negative_kx",
+            "group_pumping_rates": {
+              "negative_kx": 0.2900789239643834,
+              "positive_kx": 0.2852880615503912,
+              "zero_kx": 0.2876679655284502
+            },
+            "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+            "matches_restoring_direction": true,
+            "population_weighted_group_force_x": {
+              "negative_kx": -0.0009686866110809903,
+              "positive_kx": 0.000968424671714562,
+              "zero_kx": 0.0
+            },
+            "resulting_force_x_normalized": -2.619393664283283e-07,
+            "strongest_selected_transition": {
+              "beam_kx": -0.7071067811865475,
+              "beam_name": "-x_prime",
+              "excited_state_index": 3,
+              "ground_state_index": 11,
+              "ground_zeeman_shift_gamma": 0.016761333854987903,
+              "identified_ground_manifold": "F2",
+              "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+              "pumping_rate": 0.039283656928283124,
+              "source_zero_field_mF_label": 2.0,
+              "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY strongest selected transition",
+              "transition_resonance_error_gamma": -0.7670932522905836
+            }
+          }
+        },
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY component 3 resonance direction x=0.00025",
+        "x_m": 0.00025
+      },
+      {
+        "addressed_role": "upper_F1_F2_mean_confinement",
+        "component_id": 4,
+        "expected_restoring_beam_kx_sign": 1,
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "local_Bx_tesla": 2.5e-05,
+        "mappings": {
+          "mapping_a_raw": {
+            "causal_interpretation": "equal-intensity group with larger summed transition pumping is the operational closer-to-resonance proxy; the separately reported population-weighted group forces determine the net force and can oppose that proxy in a type-II multilevel system",
+            "closer_beam_kx_sign": -1,
+            "closer_to_resonance_proxy": "negative_kx",
+            "group_pumping_rates": {
+              "negative_kx": 0.021246713109379374,
+              "positive_kx": 0.02094931414480621,
+              "zero_kx": 0.02109776765660077
+            },
+            "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+            "matches_restoring_direction": false,
+            "population_weighted_group_force_x": {
+              "negative_kx": -0.0004528235237301979,
+              "positive_kx": 0.00045300807712211975,
+              "zero_kx": 0.0
+            },
+            "resulting_force_x_normalized": 1.8455339192182925e-07,
+            "strongest_selected_transition": {
+              "beam_kx": -0.7071067811865475,
+              "beam_name": "-x_prime",
+              "excited_state_index": 3,
+              "ground_state_index": 7,
+              "ground_zeeman_shift_gamma": -0.016761333854987903,
+              "identified_ground_manifold": "F2",
+              "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+              "pumping_rate": 0.002148157024940998,
+              "source_zero_field_mF_label": -2.0,
+              "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY strongest selected transition",
+              "transition_resonance_error_gamma": 2.1993840799994406
+            }
+          },
+          "mapping_d_corrected": {
+            "causal_interpretation": "equal-intensity group with larger summed transition pumping is the operational closer-to-resonance proxy; the separately reported population-weighted group forces determine the net force and can oppose that proxy in a type-II multilevel system",
+            "closer_beam_kx_sign": 1,
+            "closer_to_resonance_proxy": "positive_kx",
+            "group_pumping_rates": {
+              "negative_kx": 0.020939031865332042,
+              "positive_kx": 0.021257160776203335,
+              "zero_kx": 0.021097364539462357
+            },
+            "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+            "matches_restoring_direction": true,
+            "population_weighted_group_force_x": {
+              "negative_kx": -0.00045274240850500094,
+              "positive_kx": 0.0004530693896347548,
+              "zero_kx": 0.0
+            },
+            "resulting_force_x_normalized": 3.26981129753867e-07,
+            "strongest_selected_transition": {
+              "beam_kx": 0.7071067811865475,
+              "beam_name": "+x_prime",
+              "excited_state_index": 1,
+              "ground_state_index": 7,
+              "ground_zeeman_shift_gamma": -0.016761333854989235,
+              "identified_ground_manifold": "F2",
+              "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+              "pumping_rate": 0.0021275486736035487,
+              "source_zero_field_mF_label": -2.0,
+              "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY strongest selected transition",
+              "transition_resonance_error_gamma": 2.210558303490901
+            }
+          }
+        },
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY component 4 resonance direction x=-0.00025",
+        "x_m": -0.00025
+      },
+      {
+        "addressed_role": "upper_F1_F2_mean_confinement",
+        "component_id": 4,
+        "expected_restoring_beam_kx_sign": -1,
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "local_Bx_tesla": -2.5e-05,
+        "mappings": {
+          "mapping_a_raw": {
+            "causal_interpretation": "equal-intensity group with larger summed transition pumping is the operational closer-to-resonance proxy; the separately reported population-weighted group forces determine the net force and can oppose that proxy in a type-II multilevel system",
+            "closer_beam_kx_sign": 1,
+            "closer_to_resonance_proxy": "positive_kx",
+            "group_pumping_rates": {
+              "negative_kx": 0.02094931414480621,
+              "positive_kx": 0.021246713109379367,
+              "zero_kx": 0.02109776765660077
+            },
+            "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+            "matches_restoring_direction": false,
+            "population_weighted_group_force_x": {
+              "negative_kx": -0.0004530080771221284,
+              "positive_kx": 0.0004528235237302178,
+              "zero_kx": 0.0
+            },
+            "resulting_force_x_normalized": -1.8455339191058065e-07,
+            "strongest_selected_transition": {
+              "beam_kx": 0.7071067811865475,
+              "beam_name": "+x_prime",
+              "excited_state_index": 3,
+              "ground_state_index": 7,
+              "ground_zeeman_shift_gamma": -0.016761333854987903,
+              "identified_ground_manifold": "F2",
+              "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+              "pumping_rate": 0.002148157024940998,
+              "source_zero_field_mF_label": -2.0,
+              "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY strongest selected transition",
+              "transition_resonance_error_gamma": 2.1993840799994406
+            }
+          },
+          "mapping_d_corrected": {
+            "causal_interpretation": "equal-intensity group with larger summed transition pumping is the operational closer-to-resonance proxy; the separately reported population-weighted group forces determine the net force and can oppose that proxy in a type-II multilevel system",
+            "closer_beam_kx_sign": -1,
+            "closer_to_resonance_proxy": "negative_kx",
+            "group_pumping_rates": {
+              "negative_kx": 0.02125716077620334,
+              "positive_kx": 0.02093903186533204,
+              "zero_kx": 0.021097364539462357
+            },
+            "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+            "matches_restoring_direction": true,
+            "population_weighted_group_force_x": {
+              "negative_kx": -0.00045306938963475394,
+              "positive_kx": 0.0004527424085050008,
+              "zero_kx": 0.0
+            },
+            "resulting_force_x_normalized": -3.2698112975316227e-07,
+            "strongest_selected_transition": {
+              "beam_kx": -0.7071067811865475,
+              "beam_name": "-x_prime",
+              "excited_state_index": 1,
+              "ground_state_index": 7,
+              "ground_zeeman_shift_gamma": -0.016761333854989235,
+              "identified_ground_manifold": "F2",
+              "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+              "pumping_rate": 0.0021275486736035487,
+              "source_zero_field_mF_label": -2.0,
+              "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY strongest selected transition",
+              "transition_resonance_error_gamma": 2.210558303490901
+            }
+          }
+        },
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY component 4 resonance direction x=0.00025",
+        "x_m": 0.00025
+      }
+    ],
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY transition-resonance directional audit"
+  },
+  "result": "CONVENTION_ERROR_IDENTIFIED",
+  "run009a_rerun": "required on newly generated corrected static artifacts; historical Run 009/009A files remain unchanged",
+  "source_label_audit": {
+    "expected_paper_labels": {
+      "1": "sigma_plus",
+      "2": "sigma_minus",
+      "3": "sigma_minus",
+      "4": "sigma_plus"
+    },
+    "files": {
+      "rodriguez_static_3.yaml": {
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "paper_labels": {
+          "1": "sigma_plus",
+          "2": "sigma_minus",
+          "3": "sigma_minus",
+          "4": "sigma_plus"
+        }
+      },
+      "rodriguez_static_3_plus_1.yaml": {
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "paper_labels": {
+          "1": "sigma_plus",
+          "2": "sigma_minus",
+          "3": "sigma_minus",
+          "4": "sigma_plus"
+        }
+      }
+    },
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY frozen source-label audit",
+    "unchanged": true
+  },
+  "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY Run 009B metadata",
+  "track": "provisional",
+  "trajectories_authorized": false,
+  "trajectory_integrations_performed": 0,
+  "zeeman_audit": {
+    "corrected_ground_manifolds": [
+      {
+        "F": 1,
+        "convention": "project_energy_slope_corrected",
+        "epsilon_gauss": 0.0001,
+        "expected_signs_pass": true,
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "manifold": "lower_F1",
+        "sublevels": [
+          {
+            "dE_dBx_mhz_per_gauss": 0.2913408323697153,
+            "effective_g": -0.20815642630957948,
+            "energy_minus_epsilon_mhz": -2.913408323697153e-05,
+            "energy_plus_epsilon_mhz": 2.913408323697153e-05,
+            "energy_zero_mhz": 0.0,
+            "expected_dE_dBx_mhz_per_gauss": 0.2799248983420001,
+            "expected_g": -0.2,
+            "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+            "m_x": -1.0,
+            "sign_matches_expected": true
+          },
+          {
+            "dE_dBx_mhz_per_gauss": -1.8214596497756474e-17,
+            "effective_g": null,
+            "energy_minus_epsilon_mhz": 1.8214596497756477e-21,
+            "energy_plus_epsilon_mhz": -1.8214596497756477e-21,
+            "energy_zero_mhz": 0.0,
+            "expected_dE_dBx_mhz_per_gauss": 0.0,
+            "expected_g": -0.2,
+            "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+            "m_x": -0.0,
+            "sign_matches_expected": true
+          },
+          {
+            "dE_dBx_mhz_per_gauss": -0.2913408323697153,
+            "effective_g": -0.20815642630957948,
+            "energy_minus_epsilon_mhz": 2.913408323697153e-05,
+            "energy_plus_epsilon_mhz": -2.913408323697153e-05,
+            "energy_zero_mhz": 0.0,
+            "expected_dE_dBx_mhz_per_gauss": -0.2799248983420001,
+            "expected_g": -0.2,
+            "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+            "m_x": 1.0,
+            "sign_matches_expected": true
+          }
+        ],
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY project_energy_slope_corrected lower_F1 Zeeman slopes"
+      },
+      {
+        "F": 0,
+        "convention": "project_energy_slope_corrected",
+        "epsilon_gauss": 0.0001,
+        "expected_signs_pass": true,
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "manifold": "F0",
+        "sublevels": [
+          {
+            "dE_dBx_mhz_per_gauss": 0.0,
+            "effective_g": null,
+            "energy_minus_epsilon_mhz": 0.0,
+            "energy_plus_epsilon_mhz": 0.0,
+            "energy_zero_mhz": 0.0,
+            "expected_g": null,
+            "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+            "m_x": 0.0,
+            "sign_matches_expected": true
+          }
+        ],
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY project_energy_slope_corrected F0 Zeeman slopes"
+      },
+      {
+        "F": 1,
+        "convention": "project_energy_slope_corrected",
+        "epsilon_gauss": 0.0001,
+        "expected_signs_pass": true,
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "manifold": "upper_F1",
+        "sublevels": [
+          {
+            "dE_dBx_mhz_per_gauss": -0.9919645478662176,
+            "effective_g": 0.7087362029899023,
+            "energy_minus_epsilon_mhz": 9.919645478662176e-05,
+            "energy_plus_epsilon_mhz": -9.919645478662176e-05,
+            "energy_zero_mhz": 0.0,
+            "expected_dE_dBx_mhz_per_gauss": -0.9797371441970001,
+            "expected_g": 0.7,
+            "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+            "m_x": -1.0,
+            "sign_matches_expected": true
+          },
+          {
+            "dE_dBx_mhz_per_gauss": -9.8879238130678e-17,
+            "effective_g": null,
+            "energy_minus_epsilon_mhz": 9.887923813067801e-21,
+            "energy_plus_epsilon_mhz": -9.887923813067801e-21,
+            "energy_zero_mhz": 0.0,
+            "expected_dE_dBx_mhz_per_gauss": -0.0,
+            "expected_g": 0.7,
+            "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+            "m_x": -0.0,
+            "sign_matches_expected": true
+          },
+          {
+            "dE_dBx_mhz_per_gauss": 0.9919645478662177,
+            "effective_g": 0.7087362029899024,
+            "energy_minus_epsilon_mhz": -9.919645478662178e-05,
+            "energy_plus_epsilon_mhz": 9.919645478662178e-05,
+            "energy_zero_mhz": 0.0,
+            "expected_dE_dBx_mhz_per_gauss": 0.9797371441970001,
+            "expected_g": 0.7,
+            "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+            "m_x": 1.0,
+            "sign_matches_expected": true
+          }
+        ],
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY project_energy_slope_corrected upper_F1 Zeeman slopes"
+      },
+      {
+        "F": 2,
+        "convention": "project_energy_slope_corrected",
+        "epsilon_gauss": 0.0001,
+        "expected_signs_pass": true,
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "manifold": "F2",
+        "sublevels": [
+          {
+            "dE_dBx_mhz_per_gauss": -1.4012476522059023,
+            "effective_g": 0.5005798557061255,
+            "energy_minus_epsilon_mhz": 0.00014012476522059025,
+            "energy_plus_epsilon_mhz": -0.00014012476522059025,
+            "energy_zero_mhz": 0.0,
+            "expected_dE_dBx_mhz_per_gauss": -1.3996244917100003,
+            "expected_g": 0.5,
+            "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+            "m_x": -2.0,
+            "sign_matches_expected": true
+          },
+          {
+            "dE_dBx_mhz_per_gauss": -0.7006237979423138,
+            "effective_g": 0.5005798355859878,
+            "energy_minus_epsilon_mhz": 7.006237979423138e-05,
+            "energy_plus_epsilon_mhz": -7.006237979423138e-05,
+            "energy_zero_mhz": 0.0,
+            "expected_dE_dBx_mhz_per_gauss": -0.6998122458550001,
+            "expected_g": 0.5,
+            "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+            "m_x": -1.0,
+            "sign_matches_expected": true
+          },
+          {
+            "dE_dBx_mhz_per_gauss": -1.1370960100560212e-16,
+            "effective_g": null,
+            "energy_minus_epsilon_mhz": 1.1370960100560212e-20,
+            "energy_plus_epsilon_mhz": -1.1370960100560212e-20,
+            "energy_zero_mhz": 0.0,
+            "expected_dE_dBx_mhz_per_gauss": 0.0,
+            "expected_g": 0.5,
+            "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+            "m_x": 0.0,
+            "sign_matches_expected": true
+          },
+          {
+            "dE_dBx_mhz_per_gauss": 0.7006237979423137,
+            "effective_g": 0.5005798355859878,
+            "energy_minus_epsilon_mhz": -7.006237979423136e-05,
+            "energy_plus_epsilon_mhz": 7.006237979423136e-05,
+            "energy_zero_mhz": 0.0,
+            "expected_dE_dBx_mhz_per_gauss": 0.6998122458550001,
+            "expected_g": 0.5,
+            "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+            "m_x": 1.0,
+            "sign_matches_expected": true
+          },
+          {
+            "dE_dBx_mhz_per_gauss": 1.4012476522059023,
+            "effective_g": 0.5005798557061255,
+            "energy_minus_epsilon_mhz": -0.00014012476522059025,
+            "energy_plus_epsilon_mhz": 0.00014012476522059025,
+            "energy_zero_mhz": 0.0,
+            "expected_dE_dBx_mhz_per_gauss": 1.3996244917100003,
+            "expected_g": 0.5,
+            "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+            "m_x": 2.0,
+            "sign_matches_expected": true
+          }
+        ],
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY project_energy_slope_corrected F2 Zeeman slopes"
+      }
+    ],
+    "corrected_ground_signs_match": true,
+    "energy_convention": "H = H0 - mu.B and project comparison dE/dB = g_F*mu_B*m_F",
+    "excited_provisional_effective_g_magnitude": 0.3337199,
+    "excited_provisional_sublevels": [
+      {
+        "F": 0.0,
+        "dE_dBz_mhz_per_gauss": -0.0,
+        "effective_g": null,
+        "energy_mhz": -41.50000198335131,
+        "index": 0,
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "mF": -0.0
+      },
+      {
+        "F": 1.0,
+        "dE_dBz_mhz_per_gauss": -0.46708254194309445,
+        "effective_g": 0.3337198975222514,
+        "energy_mhz": 13.833333994450435,
+        "index": 1,
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "mF": -1.0
+      },
+      {
+        "F": 1.0,
+        "dE_dBz_mhz_per_gauss": -0.0,
+        "effective_g": null,
+        "energy_mhz": 13.833333994450435,
+        "index": 2,
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "mF": 0.0
+      },
+      {
+        "F": 1.0,
+        "dE_dBz_mhz_per_gauss": 0.46708254194309445,
+        "effective_g": 0.3337198975222514,
+        "energy_mhz": 13.833333994450435,
+        "index": 3,
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "mF": 1.0
+      }
+    ],
+    "excited_treatment_matches_rodriguez_magnitude": false,
+    "field_samples_gauss": [
+      -0.0001,
+      0.0,
+      0.0001
+    ],
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+    "mapping_d_justified": true,
+    "raw_ground_manifolds": [
+      {
+        "F": 1,
+        "convention": "raw_xfmolecules",
+        "epsilon_gauss": 0.0001,
+        "expected_signs_pass": false,
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "manifold": "lower_F1",
+        "sublevels": [
+          {
+            "dE_dBx_mhz_per_gauss": -0.2913408323697153,
+            "effective_g": 0.20815642630957948,
+            "energy_minus_epsilon_mhz": 2.913408323697153e-05,
+            "energy_plus_epsilon_mhz": -2.913408323697153e-05,
+            "energy_zero_mhz": 0.0,
+            "expected_dE_dBx_mhz_per_gauss": 0.2799248983420001,
+            "expected_g": -0.2,
+            "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+            "m_x": -1.0,
+            "sign_matches_expected": false
+          },
+          {
+            "dE_dBx_mhz_per_gauss": -1.8214596497756474e-17,
+            "effective_g": null,
+            "energy_minus_epsilon_mhz": 1.8214596497756477e-21,
+            "energy_plus_epsilon_mhz": -1.8214596497756477e-21,
+            "energy_zero_mhz": 0.0,
+            "expected_dE_dBx_mhz_per_gauss": -0.0,
+            "expected_g": -0.2,
+            "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+            "m_x": 0.0,
+            "sign_matches_expected": true
+          },
+          {
+            "dE_dBx_mhz_per_gauss": 0.2913408323697153,
+            "effective_g": 0.20815642630957948,
+            "energy_minus_epsilon_mhz": -2.913408323697153e-05,
+            "energy_plus_epsilon_mhz": 2.913408323697153e-05,
+            "energy_zero_mhz": 0.0,
+            "expected_dE_dBx_mhz_per_gauss": -0.2799248983420001,
+            "expected_g": -0.2,
+            "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+            "m_x": 1.0,
+            "sign_matches_expected": false
+          }
+        ],
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY raw_xfmolecules lower_F1 Zeeman slopes"
+      },
+      {
+        "F": 0,
+        "convention": "raw_xfmolecules",
+        "epsilon_gauss": 0.0001,
+        "expected_signs_pass": true,
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "manifold": "F0",
+        "sublevels": [
+          {
+            "dE_dBx_mhz_per_gauss": 0.0,
+            "effective_g": null,
+            "energy_minus_epsilon_mhz": 0.0,
+            "energy_plus_epsilon_mhz": 0.0,
+            "energy_zero_mhz": 0.0,
+            "expected_g": null,
+            "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+            "m_x": 0.0,
+            "sign_matches_expected": true
+          }
+        ],
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY raw_xfmolecules F0 Zeeman slopes"
+      },
+      {
+        "F": 1,
+        "convention": "raw_xfmolecules",
+        "epsilon_gauss": 0.0001,
+        "expected_signs_pass": false,
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "manifold": "upper_F1",
+        "sublevels": [
+          {
+            "dE_dBx_mhz_per_gauss": 0.9919645478662177,
+            "effective_g": -0.7087362029899024,
+            "energy_minus_epsilon_mhz": -9.919645478662178e-05,
+            "energy_plus_epsilon_mhz": 9.919645478662178e-05,
+            "energy_zero_mhz": 0.0,
+            "expected_dE_dBx_mhz_per_gauss": -0.9797371441970001,
+            "expected_g": 0.7,
+            "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+            "m_x": -1.0,
+            "sign_matches_expected": false
+          },
+          {
+            "dE_dBx_mhz_per_gauss": -9.8879238130678e-17,
+            "effective_g": null,
+            "energy_minus_epsilon_mhz": 9.887923813067801e-21,
+            "energy_plus_epsilon_mhz": -9.887923813067801e-21,
+            "energy_zero_mhz": 0.0,
+            "expected_dE_dBx_mhz_per_gauss": 0.0,
+            "expected_g": 0.7,
+            "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+            "m_x": 0.0,
+            "sign_matches_expected": true
+          },
+          {
+            "dE_dBx_mhz_per_gauss": -0.9919645478662176,
+            "effective_g": -0.7087362029899023,
+            "energy_minus_epsilon_mhz": 9.919645478662176e-05,
+            "energy_plus_epsilon_mhz": -9.919645478662176e-05,
+            "energy_zero_mhz": 0.0,
+            "expected_dE_dBx_mhz_per_gauss": 0.9797371441970001,
+            "expected_g": 0.7,
+            "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+            "m_x": 1.0,
+            "sign_matches_expected": false
+          }
+        ],
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY raw_xfmolecules upper_F1 Zeeman slopes"
+      },
+      {
+        "F": 2,
+        "convention": "raw_xfmolecules",
+        "epsilon_gauss": 0.0001,
+        "expected_signs_pass": false,
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+        "manifold": "F2",
+        "sublevels": [
+          {
+            "dE_dBx_mhz_per_gauss": 1.4012476522059023,
+            "effective_g": -0.5005798557061255,
+            "energy_minus_epsilon_mhz": -0.00014012476522059025,
+            "energy_plus_epsilon_mhz": 0.00014012476522059025,
+            "energy_zero_mhz": 0.0,
+            "expected_dE_dBx_mhz_per_gauss": -1.3996244917100003,
+            "expected_g": 0.5,
+            "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+            "m_x": -2.0,
+            "sign_matches_expected": false
+          },
+          {
+            "dE_dBx_mhz_per_gauss": 0.7006237979423137,
+            "effective_g": -0.5005798355859878,
+            "energy_minus_epsilon_mhz": -7.006237979423136e-05,
+            "energy_plus_epsilon_mhz": 7.006237979423136e-05,
+            "energy_zero_mhz": 0.0,
+            "expected_dE_dBx_mhz_per_gauss": -0.6998122458550001,
+            "expected_g": 0.5,
+            "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+            "m_x": -1.0,
+            "sign_matches_expected": false
+          },
+          {
+            "dE_dBx_mhz_per_gauss": -1.1370960100560212e-16,
+            "effective_g": null,
+            "energy_minus_epsilon_mhz": 1.1370960100560212e-20,
+            "energy_plus_epsilon_mhz": -1.1370960100560212e-20,
+            "energy_zero_mhz": 0.0,
+            "expected_dE_dBx_mhz_per_gauss": -0.0,
+            "expected_g": 0.5,
+            "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+            "m_x": -0.0,
+            "sign_matches_expected": true
+          },
+          {
+            "dE_dBx_mhz_per_gauss": -0.7006237979423138,
+            "effective_g": -0.5005798355859878,
+            "energy_minus_epsilon_mhz": 7.006237979423138e-05,
+            "energy_plus_epsilon_mhz": -7.006237979423138e-05,
+            "energy_zero_mhz": 0.0,
+            "expected_dE_dBx_mhz_per_gauss": 0.6998122458550001,
+            "expected_g": 0.5,
+            "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+            "m_x": 1.0,
+            "sign_matches_expected": false
+          },
+          {
+            "dE_dBx_mhz_per_gauss": -1.4012476522059023,
+            "effective_g": -0.5005798557061255,
+            "energy_minus_epsilon_mhz": 0.00014012476522059025,
+            "energy_plus_epsilon_mhz": -0.00014012476522059025,
+            "energy_zero_mhz": 0.0,
+            "expected_dE_dBx_mhz_per_gauss": 1.3996244917100003,
+            "expected_g": 0.5,
+            "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY",
+            "m_x": 2.0,
+            "sign_matches_expected": false
+          }
+        ],
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY raw_xfmolecules F2 Zeeman slopes"
+      }
+    ],
+    "raw_ground_signs_globally_reversed": true,
+    "rodriguez_representative_excited_g": 0.001,
+    "specific_error": "raw XFmolecules.Xstate tensor was passed as pylcp magnetic moment, giving ground dE/dB signs opposite the source-tagged MgF g factors",
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY independent Zeeman-operator audit"
+  }
+}

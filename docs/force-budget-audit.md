@@ -69,3 +69,16 @@ change. The resulting diagnoses are:
 These are nonphysical engineering diagnoses. They are not capture efficiencies,
 MgF force predictions, or comparisons claiming agreement or disagreement with
 Rodriguez. Exact Track E remains blocked.
+
+## Relationship to Run 009
+
+Run 009 responds to this audit by adding a separate, explicit-opt-in static
+`pylcp` rate-equation backend. It does not revise or reintegrate Run 008
+trajectories. The new backend applies each Gaussian beam/component saturation
+before a single combined equilibrium-population solve and exposes force
+contributions from that same solve.
+
+Runs 001--008 remain historical plumbing artifacts whose physical
+interpretation is superseded by this audit. Run 009 is also provisional and
+not Rodriguez-replication-valid; it is restricted to labeled static
+validation, while exact Track E remains blocked.

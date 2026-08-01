@@ -129,6 +129,19 @@ def normalized_force_to_acceleration_m_s2(
     return normalized_force_to_newtons(normalized_force, audit) / audit.mass.value_kg
 
 
+def acceleration_m_s2_to_normalized_force(
+    acceleration_m_s2: ArrayLike, audit: MgFForceUnitAudit
+) -> FloatArray:
+    """Invert the single-conversion acceleration relation for testing."""
+
+    values = np.asarray(acceleration_m_s2, dtype=float)
+    if not np.isfinite(values).all():
+        raise ValueError("acceleration must be finite")
+    return np.asarray(
+        values / audit.acceleration_per_normalized_force_m_s2, dtype=float
+    )
+
+
 def trapezoid_impulse(
     times_s: ArrayLike, forces_n: ArrayLike
 ) -> FloatArray:

@@ -25,6 +25,25 @@ FULL_WARNING_LABEL = f"{PROVISIONAL_LABEL}_{NOT_REPLICATION_LABEL}"
 
 
 @dataclass(frozen=True)
+class ToyHeuristicForceBackend:
+    """Identity card for the historical spring/damping plumbing law."""
+
+    force_model: str = "toy_heuristic_spring_damping"
+    physics_valid: bool = False
+    physics_scope: str = "analytic_and_interface_plumbing_only"
+    supersedes_run_outputs: str = (
+        "Run 008B supersedes physical interpretation of force-dependent Runs 001-008"
+    )
+    warnings: tuple[str, ...] = (
+        "PLUMBING_ONLY: not a physical force backend.",
+        "The toy law ignores detuning, components, populations, and Hamiltonian topology.",
+    )
+
+
+TOY_HEURISTIC_FORCE_BACKEND = ToyHeuristicForceBackend()
+
+
+@dataclass(frozen=True)
 class ProvisionalForceMapConfig:
     """Explicit opt-in configuration for provisional normalized force plumbing."""
 
@@ -87,6 +106,10 @@ class ForceMapMetadata:
     collapsed_terms: tuple[str, ...]
     beam_mode: BeamMode
     position_unit: str
+    force_model: str = TOY_HEURISTIC_FORCE_BACKEND.force_model
+    physics_valid: bool = TOY_HEURISTIC_FORCE_BACKEND.physics_valid
+    physics_scope: str = TOY_HEURISTIC_FORCE_BACKEND.physics_scope
+    supersedes_run_outputs: str = TOY_HEURISTIC_FORCE_BACKEND.supersedes_run_outputs
 
 
 @dataclass(frozen=True)
