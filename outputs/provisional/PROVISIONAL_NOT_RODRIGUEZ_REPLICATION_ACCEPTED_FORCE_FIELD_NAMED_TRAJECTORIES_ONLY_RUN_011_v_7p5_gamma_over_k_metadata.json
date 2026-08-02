@@ -1,0 +1,276 @@
+{
+  "array_file": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k.npz",
+  "array_sha256": "6267a91b621793218ed2385e8ab2991e9e459616ffc048e46ca3ffab6466be17",
+  "diagnostics": {
+    "center_crossing_count": 1,
+    "center_crossing_times_s": [
+      0.0009193771259449687
+    ],
+    "domain_exit": {
+      "attempted_value": 0.06120576524542151,
+      "detuning_gamma": null,
+      "field_selection": "post_handoff_trap_3_plus_1",
+      "lower_boundary": -0.06,
+      "message": "position_m=0.06120576524542151 outside [-0.06,0.06]; no clamping/extrapolation; termination localized to exact boundary",
+      "policy_segment": "trap_3_plus_1",
+      "position_m": 0.06,
+      "time_s": 0.001978983939304212,
+      "upper_boundary": 0.06,
+      "velocity_m_s": 57.37351448585727,
+      "violated_coordinate": "position_m"
+    },
+    "final_dwell_window": {
+      "end_s": 0.001978983939304212,
+      "in_bounds_count": 0,
+      "in_bounds_fraction": null,
+      "max_position_m": null,
+      "max_speed_m_s": null,
+      "sample_count": 0,
+      "start_s": null
+    },
+    "final_or_termination_time_s": 0.001978983939304212,
+    "final_position_m": 0.06,
+    "final_velocity_m_s": 57.37351448585727,
+    "force_field_domain_status": "domain_exit_recorded",
+    "impulse_after_handoff_n_s": 2.513554962564767e-25,
+    "impulse_before_handoff_n_s": -1.8722340529696965e-25,
+    "initial_velocity_gamma_over_k": 7.5,
+    "initial_velocity_m_s": 56.475,
+    "integration_termination_status": "FORCE_FIELD_DOMAIN_EXIT",
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+    "maximum_velocity_m_s": 57.37351448585727,
+    "minimum_absolute_distance_m": 0.0,
+    "minimum_velocity_m_s": 50.31510587757795,
+    "name": "v_7p5_gamma_over_k",
+    "numerical_reason": "trajectory duration 0.00197898394 s is shorter than required dwell window 0.002 s",
+    "official_provisional_outcome": "UNRESOLVED",
+    "qualitative_motion": "FORCE_FIELD_DOMAIN_EXIT",
+    "time_inside_both_bounds_s": 0.0,
+    "time_inside_position_bound_s": 0.00039999999999999996,
+    "time_inside_velocity_bound_s": 0.0,
+    "time_of_closest_approach_s": 0.0009193771259449687,
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_7p5_gamma_over_k diagnostics",
+    "total_impulse_n_s": 6.413209095950708e-26,
+    "unit_consistency": {
+      "delta_v_m_s": 0.8985144858572696,
+      "force_conversion_count": 1,
+      "integrated_acceleration_m_s": 0.8985144858572793,
+      "integrated_force_impulse_n_s": 6.413209095950708e-26,
+      "momentum_change_kg_m_s": 6.413209095950637e-26,
+      "passed": true,
+      "relative_difference_delta_v": 1.0873461441614693e-14,
+      "relative_difference_momentum": 1.1097799628485748e-14
+    }
+  },
+  "domain_exit": {
+    "attempted_value": 0.06120576524542151,
+    "detuning_gamma": null,
+    "field_selection": "post_handoff_trap_3_plus_1",
+    "lower_boundary": -0.06,
+    "message": "position_m=0.06120576524542151 outside [-0.06,0.06]; no clamping/extrapolation; termination localized to exact boundary",
+    "policy_segment": "trap_3_plus_1",
+    "position_m": 0.06,
+    "time_s": 0.001978983939304212,
+    "upper_boundary": 0.06,
+    "velocity_m_s": 57.37351448585727,
+    "violated_coordinate": "position_m"
+  },
+  "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+  "outcome": {
+    "dwell_end_s": 0.001978983939304212,
+    "dwell_in_bounds_count": 0,
+    "dwell_in_bounds_fraction": null,
+    "dwell_sample_count": 0,
+    "dwell_start_s": null,
+    "label": "UNRESOLVED",
+    "max_position_dwell": null,
+    "max_position_overall": 0.06,
+    "max_speed_dwell": null,
+    "max_speed_overall": 57.37351448585727,
+    "numerical_reason": "trajectory duration 0.00197898394 s is shorter than required dwell window 0.002 s"
+  },
+  "pathwise_interpolation": {
+    "direct_validation_did_not_alter_trajectory": true,
+    "force_range_normalized": 0.15358029203725615,
+    "gate": "PATHWISE_INTERPOLATION_PASS",
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+    "maximum_error_over_range": 0.015284588624987164,
+    "normalized_rms_error_over_range": 0.006396500547167605,
+    "records": [
+      {
+        "absolute_error": 2.946352667550489e-09,
+        "detuning_gamma": -8.0,
+        "direct_normalized_force": -1.1036658325236864e-06,
+        "error_over_force_range": 1.91844450122269e-08,
+        "interpolated_normalized_force": -1.106612185191237e-06,
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+        "population_health": {
+          "fallback": false,
+          "minimum_population": 6.67653066336469e-07,
+          "normalization_error": 2.220446049250313e-16,
+          "passed": true,
+          "residual_linf": 8.443679698440015e-17
+        },
+        "position_m": -0.05,
+        "relative_error": null,
+        "sample_index": 0,
+        "segment": "chirp_3",
+        "time_s": 0.0,
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_7p5_gamma_over_k path state 0",
+        "velocity_m_s": 56.475
+      },
+      {
+        "absolute_error": 5.60735464973507e-05,
+        "detuning_gamma": -5.8999999999999995,
+        "direct_normalized_force": -0.000295895071813193,
+        "error_over_force_range": 0.0003651089977335643,
+        "interpolated_normalized_force": -0.0003519686183105437,
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+        "population_health": {
+          "fallback": false,
+          "minimum_population": 0.000203281324465195,
+          "normalization_error": 0.0,
+          "passed": true,
+          "residual_linf": 2.5925984449559625e-17
+        },
+        "position_m": -0.03306086538413835,
+        "relative_error": null,
+        "sample_index": 3,
+        "segment": "chirp_3",
+        "time_s": 0.00030000000000000003,
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_7p5_gamma_over_k path state 3",
+        "velocity_m_s": 56.4117928803887
+      },
+      {
+        "absolute_error": 0.002347411584694852,
+        "detuning_gamma": -1.6999999999999993,
+        "direct_normalized_force": 0.0045810310135773,
+        "error_over_force_range": 0.015284588624987164,
+        "interpolated_normalized_force": 0.006928442598272152,
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+        "population_health": {
+          "fallback": false,
+          "minimum_population": 0.010574018299440586,
+          "normalization_error": 0.0,
+          "passed": true,
+          "residual_linf": 5.0306980803327406e-17
+        },
+        "position_m": -0.001014406762789865,
+        "relative_error": null,
+        "sample_index": 9,
+        "segment": "chirp_3",
+        "time_s": 0.0009000000000000002,
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_7p5_gamma_over_k path state 9",
+        "velocity_m_s": 50.932194923380074
+      },
+      {
+        "absolute_error": 0.0005261721705844807,
+        "detuning_gamma": -1.0,
+        "direct_normalized_force": 0.008699377526566417,
+        "error_over_force_range": 0.0034260396539475234,
+        "interpolated_normalized_force": 0.008173205355981936,
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+        "population_health": {
+          "fallback": false,
+          "minimum_population": 0.015106090145507836,
+          "normalization_error": 0.0,
+          "passed": true,
+          "residual_linf": 7.632783294297951e-17
+        },
+        "position_m": 0.00422066662049102,
+        "relative_error": 0.06048388737902689,
+        "sample_index": 10,
+        "segment": "trap_3_plus_1",
+        "time_s": 0.001,
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_7p5_gamma_over_k path state 10",
+        "velocity_m_s": 53.85193034432524
+      },
+      {
+        "absolute_error": 6.169596474828068e-06,
+        "detuning_gamma": -1.0,
+        "direct_normalized_force": 7.889795014277362e-05,
+        "error_over_force_range": 4.017179804119282e-05,
+        "interpolated_normalized_force": 8.506754661760169e-05,
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+        "population_health": {
+          "fallback": false,
+          "minimum_population": 0.00021383849242806812,
+          "normalization_error": 0.0,
+          "passed": true,
+          "residual_linf": 4.4181238528784306e-17
+        },
+        "position_m": 0.03252021986625589,
+        "relative_error": null,
+        "sample_index": 15,
+        "segment": "trap_3_plus_1",
+        "time_s": 0.0015000000000000002,
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_7p5_gamma_over_k path state 15",
+        "velocity_m_s": 57.35402888525987
+      },
+      {
+        "absolute_error": 8.824777552808256e-10,
+        "detuning_gamma": -1.0,
+        "direct_normalized_force": 1.644866553593738e-12,
+        "error_over_force_range": 5.7460351427561455e-09,
+        "interpolated_normalized_force": 8.841226218344193e-10,
+        "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+        "population_health": {
+          "fallback": false,
+          "minimum_population": 3.9392149152760795e-08,
+          "normalization_error": 0.0,
+          "passed": true,
+          "residual_linf": 3.7810957676932767e-17
+        },
+        "position_m": 0.06,
+        "relative_error": null,
+        "sample_index": 20,
+        "segment": "trap_3_plus_1",
+        "time_s": 0.001978983939304212,
+        "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_7p5_gamma_over_k path state 20",
+        "velocity_m_s": 57.37351448585727
+      }
+    ],
+    "relative_error_floor": 0.0076790146018628075,
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_7p5_gamma_over_k pathwise validation"
+  },
+  "replication_valid": false,
+  "termination_status": "FORCE_FIELD_DOMAIN_EXIT",
+  "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_7p5_gamma_over_k metadata",
+  "trajectory_metadata": {
+    "accepted_backend_selection": {
+      "exact_track_blocked": true,
+      "excited_hyperfine_model": "source_aligned_effective_fprime_splitting",
+      "excited_zeeman_model": "rodriguez_effective_g_0p001",
+      "ground_zeeman_convention": "project_energy_slope_corrected",
+      "replication_valid": false,
+      "splitting_case": "mid_range_0p5_mhz",
+      "splitting_interval_mhz": [
+        0.0,
+        1.0
+      ],
+      "splitting_note": "0.5 MHz is the reproducible midpoint of the source-supported <1 MHz interval, not a measured value",
+      "track": "provisional",
+      "unresolved_terms": [
+        "independent Doppelbauer d operator in the retained/effective basis",
+        "d-dependent J'=1/2 to J'=3/2 mixing",
+        "exact positive-parity excited-state spectroscopy"
+      ]
+    },
+    "duration_s": 0.02,
+    "force_conversion_count": 1,
+    "handoff_boundary_convention": "t < tau pre; t >= tau post; event-aware RK4; no smoothing",
+    "handoff_time_s": 0.001,
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+    "post_cache_key": "e0fbe7f34339ec0a0f413419d6e9f06e0509066ee4132a46693367ec81a65c02",
+    "pre_cache_key": "832da871362d9ced72708662b700005154365ba437a88d669337bf84faa80885",
+    "replication_valid": false,
+    "timestep_s": 0.0001,
+    "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 accepted interpolated trajectory",
+    "track": "provisional",
+    "warnings": [
+      "PROVISIONAL accepted-force-field named trajectory only.",
+      "NOT_RODRIGUEZ_REPLICATION; exact Track E remains blocked.",
+      "BOUNDED_FINAL_STATE is an engineering outcome and is not CAPTURED."
+    ]
+  }
+}

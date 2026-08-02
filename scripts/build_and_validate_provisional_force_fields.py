@@ -19,6 +19,8 @@ if str(REPO_ROOT / "src") not in sys.path:
 
 from mgf_mot.accepted_backend import (
     AcceptedProvisionalBackendSelection,
+    accepted_force_field_source_hashes,
+    build_accepted_force_field_provenance,
     build_accepted_provisional_rateeq_backend,
 )
 from mgf_mot.force_field import (
@@ -66,20 +68,7 @@ def _linspace(spec: dict[str, Any]) -> np.ndarray:
 
 
 def _source_hashes() -> tuple[tuple[str, str], ...]:
-    paths = (
-        CONFIG_PATH,
-        REPO_ROOT / "configs" / "rodriguez_baseline_linear_chirp.yaml",
-        REPO_ROOT / "configs" / "rodriguez_static_3_plus_1.yaml",
-        REPO_ROOT / "configs" / "rodriguez_gaussian_baseline.yaml",
-        REPO_ROOT / "src" / "mgf_mot" / "accepted_backend.py",
-        REPO_ROOT / "src" / "mgf_mot" / "excited_hyperfine.py",
-        REPO_ROOT / "src" / "mgf_mot" / "force_field.py",
-        REPO_ROOT / "src" / "mgf_mot" / "gaussian_beams.py",
-        REPO_ROOT / "src" / "mgf_mot" / "mgf_backend.py",
-        REPO_ROOT / "src" / "mgf_mot" / "rateeq_backend.py",
-        REPO_ROOT / "src" / "mgf_mot" / "spectroscopy.py",
-    )
-    return tuple((str(path.relative_to(REPO_ROOT)), _hash(path)) for path in paths)
+    return accepted_force_field_source_hashes(REPO_ROOT)
 
 
 def _systems(backend):
@@ -129,32 +118,12 @@ def _systems(backend):
 
 
 def _provenance(backend, selection, kind, source_hashes):
-    pre = kind == "pre_handoff_chirp_3"
-    return ForceFieldProvenance(
-        label=RUN010_LABEL,
-        field_kind=kind,
-        track="provisional",
-        backend_mode=backend.status.backend_mode,
-        ground_zeeman_convention=backend.status.ground_zeeman_convention,
-        excited_zeeman_model=backend.status.excited_zeeman_model,
-        excited_hyperfine_model=backend.status.excited_hyperfine_model,
-        splitting_case=selection.splitting_case.value,
-        splitting_mhz=selection.splitting_case.splitting_mhz,
-        splitting_interval_mhz=selection.splitting_interval_mhz,
-        splitting_note=selection.splitting_note,
-        replication_valid=False,
-        exact_track_blocked=True,
-        unresolved_terms=selection.unresolved_terms,
-        normalized_force_unit="hbar*k*Gamma",
-        canonical_values_are_si_acceleration=False,
-        field_gradient_t_m=0.2,
-        beam_mode="elliptical_gaussian",
-        component_order=(1, 2, 3, 4),
-        saturation_vector=(1.45, 1.45, 2.89, 0.0) if pre else (1.45, 1.45, 2.17, 0.72),
-        detuning_specification="common -8 to -1 Gamma for active components (1,2,3); component 4 parked/off" if pre else "(-1,-1,-1,+2) Gamma; component 4 active",
-        source_hashes=source_hashes,
-        interpolation_method="trilinear" if pre else "bilinear",
+    provenance = build_accepted_force_field_provenance(
+        repo_root=REPO_ROOT, backend=backend, selection=selection, field_kind=kind
     )
+    if provenance.source_hashes != source_hashes:
+        raise RuntimeError("shared accepted force-field provenance hash mismatch")
+    return provenance
 
 
 class _Health:

@@ -1,0 +1,37 @@
+schema_version: 1
+name: PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011
+track: provisional
+replication_valid: false
+protocol_config: configs/rodriguez_named_trajectory_protocol.yaml
+handoff_policy_config: configs/rodriguez_chirp_to_3_plus_1_handoff.yaml
+force_field_cache_directory: outputs/provisional/force_fields
+midpoint_acknowledgment: >-
+  0.5 MHz is the reproducible midpoint of the source-supported 0-1 MHz
+  interval and is not a measured spectroscopy value.
+integration:
+  baseline_time_step_s: 0.0001
+  refined_time_step_s: 0.00005
+  duration_s: 0.020
+  handoff_time_s: 0.001
+convergence:
+  named_velocities_gamma_over_k: [2.0, 7.5, 9.0]
+  final_position_difference_max_m: 0.0005
+  final_velocity_difference_max_m_s: 0.2
+  closest_approach_difference_max_m: 0.0005
+  center_crossing_time_difference_max_s: 0.0001
+  cumulative_impulse_relative_difference_max: 0.02
+  cumulative_impulse_absolute_floor_n_s: 1.0e-28
+pathwise_interpolation:
+  relative_error_floor_fraction_of_force_range: 0.05
+  pass_rms_error_over_force_range_max: 0.03
+  pass_maximum_error_over_force_range_max: 0.08
+  warning_rms_error_over_force_range_max: 0.05
+  warning_maximum_error_over_force_range_max: 0.12
+unit_consistency:
+  velocity_change_vs_integrated_acceleration_relative_max: 0.02
+  momentum_change_vs_integrated_force_relative_max: 0.02
+  absolute_floor: 1.0e-15
+historical_artifacts:
+  preserve_globs:
+    - outputs/provisional/*NAMED_TRAJECTORY_PROTOCOL_ONLY*run_008*
+    - outputs/provisional/*NAMED_TRAJECTORY_PROTOCOL_ONLY*RUN_008*

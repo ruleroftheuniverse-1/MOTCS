@@ -1,0 +1,793 @@
+{
+  "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+  "overall_gate": "PATHWISE_INTERPOLATION_PASS",
+  "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 pathwise validation",
+  "trajectories": {
+    "v_2_gamma_over_k": {
+      "direct_validation_did_not_alter_trajectory": true,
+      "force_range_normalized": 0.15358029203725615,
+      "gate": "PATHWISE_INTERPOLATION_PASS",
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+      "maximum_error_over_range": 0.0021206255195027703,
+      "normalized_rms_error_over_range": 0.0013190739023036093,
+      "records": [
+        {
+          "absolute_error": 3.667204994034749e-10,
+          "detuning_gamma": -8.0,
+          "direct_normalized_force": -7.358172843493937e-08,
+          "error_over_force_range": 2.3878096241314237e-09,
+          "interpolated_normalized_force": -7.32150079355359e-08,
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+          "population_health": {
+            "fallback": false,
+            "minimum_population": 4.4447680640922324e-07,
+            "normalization_error": 0.0,
+            "passed": true,
+            "residual_linf": 4.531926038064496e-17
+          },
+          "position_m": -0.05,
+          "relative_error": null,
+          "sample_index": 0,
+          "segment": "chirp_3",
+          "time_s": 0.0,
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_2_gamma_over_k path state 0",
+          "velocity_m_s": 15.06
+        },
+        {
+          "absolute_error": 3.617593231000182e-05,
+          "detuning_gamma": -1.6999999999999993,
+          "direct_normalized_force": -0.0002022915748496653,
+          "error_over_force_range": 0.000235550615447626,
+          "interpolated_normalized_force": -0.00023846750715966712,
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+          "population_health": {
+            "fallback": false,
+            "minimum_population": 0.00018962767437732709,
+            "normalization_error": 0.0,
+            "passed": true,
+            "residual_linf": 1.583363982258384e-17
+          },
+          "position_m": -0.03645271215100285,
+          "relative_error": null,
+          "sample_index": 9,
+          "segment": "chirp_3",
+          "time_s": 0.0009000000000000002,
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_2_gamma_over_k path state 9",
+          "velocity_m_s": 14.987940137625786
+        },
+        {
+          "absolute_error": 4.9480279963303754e-05,
+          "detuning_gamma": -1.0,
+          "direct_normalized_force": -0.0003618094283934213,
+          "error_over_force_range": 0.0003221785771269443,
+          "interpolated_normalized_force": -0.00031232914843011756,
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+          "population_health": {
+            "fallback": false,
+            "minimum_population": 0.000383316843928667,
+            "normalization_error": 0.0,
+            "passed": true,
+            "residual_linf": 2.13316777436523e-17
+          },
+          "position_m": -0.03495920551428185,
+          "relative_error": null,
+          "sample_index": 10,
+          "segment": "trap_3_plus_1",
+          "time_s": 0.001,
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_2_gamma_over_k path state 10",
+          "velocity_m_s": 14.869447649479843
+        },
+        {
+          "absolute_error": 0.0003256862865868935,
+          "detuning_gamma": -1.0,
+          "direct_normalized_force": 0.00030755865399528185,
+          "error_over_force_range": 0.0021206255195027703,
+          "interpolated_normalized_force": -1.8127632591611632e-05,
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+          "population_health": {
+            "fallback": false,
+            "minimum_population": 0.021469841316026892,
+            "normalization_error": 0.0,
+            "passed": true,
+            "residual_linf": 3.9898639947466563e-17
+          },
+          "position_m": -0.004322381329715202,
+          "relative_error": null,
+          "sample_index": 150,
+          "segment": "trap_3_plus_1",
+          "time_s": 0.014999999999999965,
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_2_gamma_over_k path state 150",
+          "velocity_m_s": 0.4498073705713437
+        },
+        {
+          "absolute_error": 0.0003088241178524744,
+          "detuning_gamma": -1.0,
+          "direct_normalized_force": 0.0003009302894037523,
+          "error_over_force_range": 0.002010831687815508,
+          "interpolated_normalized_force": -7.893828448722086e-06,
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+          "population_health": {
+            "fallback": false,
+            "minimum_population": 0.02223759142208658,
+            "normalization_error": 1.1102230246251565e-16,
+            "passed": true,
+            "residual_linf": 6.418476861114186e-17
+          },
+          "position_m": -0.002652145326549395,
+          "relative_error": null,
+          "sample_index": 201,
+          "segment": "trap_3_plus_1",
+          "time_s": 0.02,
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_2_gamma_over_k path state 201",
+          "velocity_m_s": 0.24627673624049903
+        }
+      ],
+      "relative_error_floor": 0.0076790146018628075,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_2_gamma_over_k pathwise validation"
+    },
+    "v_4_gamma_over_k": {
+      "direct_validation_did_not_alter_trajectory": true,
+      "force_range_normalized": 0.15358029203725615,
+      "gate": "PATHWISE_INTERPOLATION_PASS",
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+      "maximum_error_over_range": 0.002392597081002025,
+      "normalized_rms_error_over_range": 0.0013974768084421523,
+      "records": [
+        {
+          "absolute_error": 4.277592505957273e-09,
+          "detuning_gamma": -8.0,
+          "direct_normalized_force": -2.00854858798245e-07,
+          "error_over_force_range": 2.785248321392433e-08,
+          "interpolated_normalized_force": -2.0513245130420228e-07,
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+          "population_health": {
+            "fallback": false,
+            "minimum_population": 4.6151539752265866e-07,
+            "normalization_error": 1.1102230246251565e-16,
+            "passed": true,
+            "residual_linf": 8.024833817423584e-17
+          },
+          "position_m": -0.05,
+          "relative_error": null,
+          "sample_index": 0,
+          "segment": "chirp_3",
+          "time_s": 0.0,
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_4_gamma_over_k path state 0",
+          "velocity_m_s": 30.12
+        },
+        {
+          "absolute_error": 4.162430718116601e-06,
+          "detuning_gamma": -4.5,
+          "direct_normalized_force": -6.341612198355258e-05,
+          "error_over_force_range": 2.7102635780291792e-05,
+          "interpolated_normalized_force": -6.757855270166918e-05,
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+          "population_health": {
+            "fallback": false,
+            "minimum_population": 8.95179702337916e-05,
+            "normalization_error": 0.0,
+            "passed": true,
+            "residual_linf": 5.445405411308446e-17
+          },
+          "position_m": -0.03494209681884357,
+          "relative_error": null,
+          "sample_index": 5,
+          "segment": "chirp_3",
+          "time_s": 0.0005,
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_4_gamma_over_k path state 5",
+          "velocity_m_s": 30.09828809615922
+        },
+        {
+          "absolute_error": 0.00036745575842777765,
+          "detuning_gamma": -1.6999999999999993,
+          "direct_normalized_force": -0.003217114346416367,
+          "error_over_force_range": 0.002392597081002025,
+          "interpolated_normalized_force": -0.0035845701048441447,
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+          "population_health": {
+            "fallback": false,
+            "minimum_population": 0.0026382818582934373,
+            "normalization_error": 0.0,
+            "passed": true,
+            "residual_linf": 4.2934406030425976e-17
+          },
+          "position_m": -0.0231208479698645,
+          "relative_error": null,
+          "sample_index": 9,
+          "segment": "chirp_3",
+          "time_s": 0.0009000000000000002,
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_4_gamma_over_k path state 9",
+          "velocity_m_s": 28.123490289238475
+        },
+        {
+          "absolute_error": 0.0001452974119971139,
+          "detuning_gamma": -1.0,
+          "direct_normalized_force": -0.002239209593699367,
+          "error_over_force_range": 0.0009460680798931353,
+          "interpolated_normalized_force": -0.0023845070056964807,
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+          "population_health": {
+            "fallback": false,
+            "minimum_population": 0.0035893065092743007,
+            "normalization_error": 1.1102230246251565e-16,
+            "passed": true,
+            "residual_linf": 8.651933336434325e-17
+          },
+          "position_m": -0.02037143962076098,
+          "relative_error": null,
+          "sample_index": 10,
+          "segment": "trap_3_plus_1",
+          "time_s": 0.001,
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_4_gamma_over_k path state 10",
+          "velocity_m_s": 26.876540307141372
+        },
+        {
+          "absolute_error": 0.00028002840185614903,
+          "detuning_gamma": -1.0,
+          "direct_normalized_force": 0.0002739458246881516,
+          "error_over_force_range": 0.0018233355213845965,
+          "interpolated_normalized_force": -6.082577167997451e-06,
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+          "population_health": {
+            "fallback": false,
+            "minimum_population": 0.022380748774897808,
+            "normalization_error": 0.0,
+            "passed": true,
+            "residual_linf": 6.938893903907228e-17
+          },
+          "position_m": -0.002219368024789983,
+          "relative_error": null,
+          "sample_index": 150,
+          "segment": "trap_3_plus_1",
+          "time_s": 0.014999999999999965,
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_4_gamma_over_k path state 150",
+          "velocity_m_s": 0.2005109155044515
+        },
+        {
+          "absolute_error": 0.00020448660783983926,
+          "detuning_gamma": -1.0,
+          "direct_normalized_force": 0.00020109753237435935,
+          "error_over_force_range": 0.0013314638559889836,
+          "interpolated_normalized_force": -3.3890754654799116e-06,
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+          "population_health": {
+            "fallback": false,
+            "minimum_population": 0.02258015236089495,
+            "normalization_error": 1.1102230246251565e-16,
+            "passed": true,
+            "residual_linf": 8.847089727481716e-17
+          },
+          "position_m": -0.0014292503682993654,
+          "relative_error": null,
+          "sample_index": 201,
+          "segment": "trap_3_plus_1",
+          "time_s": 0.02,
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_4_gamma_over_k path state 201",
+          "velocity_m_s": 0.12305372732435226
+        }
+      ],
+      "relative_error_floor": 0.0076790146018628075,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_4_gamma_over_k pathwise validation"
+    },
+    "v_6_gamma_over_k": {
+      "direct_validation_did_not_alter_trajectory": true,
+      "force_range_normalized": 0.15358029203725615,
+      "gate": "PATHWISE_INTERPOLATION_PASS",
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+      "maximum_error_over_range": 0.0017071255603378938,
+      "normalized_rms_error_over_range": 0.000925200864881421,
+      "records": [
+        {
+          "absolute_error": 8.677675967594143e-09,
+          "detuning_gamma": -8.0,
+          "direct_normalized_force": -6.54280055392885e-07,
+          "error_over_force_range": 5.6502535921009166e-08,
+          "interpolated_normalized_force": -6.456023794252909e-07,
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+          "population_health": {
+            "fallback": false,
+            "minimum_population": 5.600769927049664e-07,
+            "normalization_error": 0.0,
+            "passed": true,
+            "residual_linf": 7.610429565424318e-17
+          },
+          "position_m": -0.05,
+          "relative_error": null,
+          "sample_index": 0,
+          "segment": "chirp_3",
+          "time_s": 0.0,
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_6_gamma_over_k path state 0",
+          "velocity_m_s": 45.18
+        },
+        {
+          "absolute_error": 6.460416159165293e-05,
+          "detuning_gamma": -5.199999999999999,
+          "direct_normalized_force": -0.0003528091885369452,
+          "error_over_force_range": 0.00042065398323361036,
+          "interpolated_normalized_force": -0.00041741335012859815,
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+          "population_health": {
+            "fallback": false,
+            "minimum_population": 0.00031027065337302113,
+            "normalization_error": 2.220446049250313e-16,
+            "passed": true,
+            "residual_linf": 5.754403030466815e-17
+          },
+          "position_m": -0.031933423039026104,
+          "relative_error": null,
+          "sample_index": 4,
+          "segment": "chirp_3",
+          "time_s": 0.0004,
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_6_gamma_over_k path state 4",
+          "velocity_m_s": 45.09543384096585
+        },
+        {
+          "absolute_error": 2.977809484795875e-05,
+          "detuning_gamma": -3.0999999999999996,
+          "direct_normalized_force": -0.008728901738288957,
+          "error_over_force_range": 0.00019389268279770594,
+          "interpolated_normalized_force": -0.008758679833136915,
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+          "population_health": {
+            "fallback": false,
+            "minimum_population": 0.0068215137694312145,
+            "normalization_error": 0.0,
+            "passed": true,
+            "residual_linf": 6.071532165918825e-17
+          },
+          "position_m": -0.018841134486469957,
+          "relative_error": 0.0034114365977266537,
+          "sample_index": 7,
+          "segment": "chirp_3",
+          "time_s": 0.0007000000000000001,
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_6_gamma_over_k path state 7",
+          "velocity_m_s": 40.415646500358754
+        },
+        {
+          "absolute_error": 0.0002621808421009583,
+          "detuning_gamma": -1.6999999999999993,
+          "direct_normalized_force": -8.636768688782999e-05,
+          "error_over_force_range": 0.0017071255603378938,
+          "interpolated_normalized_force": -0.0003485485289887883,
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+          "population_health": {
+            "fallback": false,
+            "minimum_population": 0.007087085871314759,
+            "normalization_error": 0.0,
+            "passed": true,
+            "residual_linf": 3.7730235602495554e-17
+          },
+          "position_m": -0.01117866814892473,
+          "relative_error": null,
+          "sample_index": 9,
+          "segment": "chirp_3",
+          "time_s": 0.0009000000000000002,
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_6_gamma_over_k path state 9",
+          "velocity_m_s": 37.38850361726423
+        },
+        {
+          "absolute_error": 0.00018278739041108975,
+          "detuning_gamma": -1.0,
+          "direct_normalized_force": -0.0013846163730341695,
+          "error_over_force_range": 0.0011901747808029197,
+          "interpolated_normalized_force": -0.0012018289826230797,
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+          "population_health": {
+            "fallback": false,
+            "minimum_population": 0.011234367804226047,
+            "normalization_error": 1.1102230246251565e-16,
+            "passed": true,
+            "residual_linf": 4.683753385137379e-17
+          },
+          "position_m": -0.007443862991006772,
+          "relative_error": null,
+          "sample_index": 10,
+          "segment": "trap_3_plus_1",
+          "time_s": 0.001,
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_6_gamma_over_k path state 10",
+          "velocity_m_s": 37.289225849464046
+        },
+        {
+          "absolute_error": 0.0002286604767460941,
+          "detuning_gamma": -1.0,
+          "direct_normalized_force": 0.0015861861783981876,
+          "error_over_force_range": 0.0014888660108200906,
+          "interpolated_normalized_force": 0.0018148466551442817,
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+          "population_health": {
+            "fallback": false,
+            "minimum_population": 0.013726669184237181,
+            "normalization_error": 0.0,
+            "passed": true,
+            "residual_linf": 6.158268339717665e-17
+          },
+          "position_m": -1.785455026650975e-05,
+          "relative_error": null,
+          "sample_index": 12,
+          "segment": "trap_3_plus_1",
+          "time_s": 0.0012000000000000001,
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_6_gamma_over_k path state 12",
+          "velocity_m_s": 37.326451609130686
+        },
+        {
+          "absolute_error": 4.5015871153445525e-05,
+          "detuning_gamma": -1.0,
+          "direct_normalized_force": 0.00040385193922608676,
+          "error_over_force_range": 0.00029310968586077036,
+          "interpolated_normalized_force": 0.0004488678103795323,
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+          "population_health": {
+            "fallback": false,
+            "minimum_population": 0.0005371826984910079,
+            "normalization_error": 2.220446049250313e-16,
+            "passed": true,
+            "residual_linf": 4.285309086748956e-17
+          },
+          "position_m": 0.029294987559791073,
+          "relative_error": null,
+          "sample_index": 19,
+          "segment": "trap_3_plus_1",
+          "time_s": 0.0019000000000000004,
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_6_gamma_over_k path state 19",
+          "velocity_m_s": 45.104446367827485
+        },
+        {
+          "absolute_error": 8.998138589955747e-10,
+          "detuning_gamma": -1.0,
+          "direct_normalized_force": 4.104177147776566e-09,
+          "error_over_force_range": 5.858914884582288e-09,
+          "interpolated_normalized_force": 3.2043632887809912e-09,
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+          "population_health": {
+            "fallback": false,
+            "minimum_population": 4.0431791285655645e-08,
+            "normalization_error": 0.0,
+            "passed": true,
+            "residual_linf": 9.141239123772513e-18
+          },
+          "position_m": 0.06,
+          "relative_error": null,
+          "sample_index": 26,
+          "segment": "trap_3_plus_1",
+          "time_s": 0.0025788683078065014,
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_6_gamma_over_k path state 26",
+          "velocity_m_s": 45.246990208288096
+        }
+      ],
+      "relative_error_floor": 0.0076790146018628075,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_6_gamma_over_k pathwise validation"
+    },
+    "v_7p5_gamma_over_k": {
+      "direct_validation_did_not_alter_trajectory": true,
+      "force_range_normalized": 0.15358029203725615,
+      "gate": "PATHWISE_INTERPOLATION_PASS",
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+      "maximum_error_over_range": 0.015284588624987164,
+      "normalized_rms_error_over_range": 0.006396500547167605,
+      "records": [
+        {
+          "absolute_error": 2.946352667550489e-09,
+          "detuning_gamma": -8.0,
+          "direct_normalized_force": -1.1036658325236864e-06,
+          "error_over_force_range": 1.91844450122269e-08,
+          "interpolated_normalized_force": -1.106612185191237e-06,
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+          "population_health": {
+            "fallback": false,
+            "minimum_population": 6.67653066336469e-07,
+            "normalization_error": 2.220446049250313e-16,
+            "passed": true,
+            "residual_linf": 8.443679698440015e-17
+          },
+          "position_m": -0.05,
+          "relative_error": null,
+          "sample_index": 0,
+          "segment": "chirp_3",
+          "time_s": 0.0,
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_7p5_gamma_over_k path state 0",
+          "velocity_m_s": 56.475
+        },
+        {
+          "absolute_error": 5.60735464973507e-05,
+          "detuning_gamma": -5.8999999999999995,
+          "direct_normalized_force": -0.000295895071813193,
+          "error_over_force_range": 0.0003651089977335643,
+          "interpolated_normalized_force": -0.0003519686183105437,
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+          "population_health": {
+            "fallback": false,
+            "minimum_population": 0.000203281324465195,
+            "normalization_error": 0.0,
+            "passed": true,
+            "residual_linf": 2.5925984449559625e-17
+          },
+          "position_m": -0.03306086538413835,
+          "relative_error": null,
+          "sample_index": 3,
+          "segment": "chirp_3",
+          "time_s": 0.00030000000000000003,
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_7p5_gamma_over_k path state 3",
+          "velocity_m_s": 56.4117928803887
+        },
+        {
+          "absolute_error": 0.002347411584694852,
+          "detuning_gamma": -1.6999999999999993,
+          "direct_normalized_force": 0.0045810310135773,
+          "error_over_force_range": 0.015284588624987164,
+          "interpolated_normalized_force": 0.006928442598272152,
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+          "population_health": {
+            "fallback": false,
+            "minimum_population": 0.010574018299440586,
+            "normalization_error": 0.0,
+            "passed": true,
+            "residual_linf": 5.0306980803327406e-17
+          },
+          "position_m": -0.001014406762789865,
+          "relative_error": null,
+          "sample_index": 9,
+          "segment": "chirp_3",
+          "time_s": 0.0009000000000000002,
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_7p5_gamma_over_k path state 9",
+          "velocity_m_s": 50.932194923380074
+        },
+        {
+          "absolute_error": 0.0005261721705844807,
+          "detuning_gamma": -1.0,
+          "direct_normalized_force": 0.008699377526566417,
+          "error_over_force_range": 0.0034260396539475234,
+          "interpolated_normalized_force": 0.008173205355981936,
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+          "population_health": {
+            "fallback": false,
+            "minimum_population": 0.015106090145507836,
+            "normalization_error": 0.0,
+            "passed": true,
+            "residual_linf": 7.632783294297951e-17
+          },
+          "position_m": 0.00422066662049102,
+          "relative_error": 0.06048388737902689,
+          "sample_index": 10,
+          "segment": "trap_3_plus_1",
+          "time_s": 0.001,
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_7p5_gamma_over_k path state 10",
+          "velocity_m_s": 53.85193034432524
+        },
+        {
+          "absolute_error": 6.169596474828068e-06,
+          "detuning_gamma": -1.0,
+          "direct_normalized_force": 7.889795014277362e-05,
+          "error_over_force_range": 4.017179804119282e-05,
+          "interpolated_normalized_force": 8.506754661760169e-05,
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+          "population_health": {
+            "fallback": false,
+            "minimum_population": 0.00021383849242806812,
+            "normalization_error": 0.0,
+            "passed": true,
+            "residual_linf": 4.4181238528784306e-17
+          },
+          "position_m": 0.03252021986625589,
+          "relative_error": null,
+          "sample_index": 15,
+          "segment": "trap_3_plus_1",
+          "time_s": 0.0015000000000000002,
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_7p5_gamma_over_k path state 15",
+          "velocity_m_s": 57.35402888525987
+        },
+        {
+          "absolute_error": 8.824777552808256e-10,
+          "detuning_gamma": -1.0,
+          "direct_normalized_force": 1.644866553593738e-12,
+          "error_over_force_range": 5.7460351427561455e-09,
+          "interpolated_normalized_force": 8.841226218344193e-10,
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+          "population_health": {
+            "fallback": false,
+            "minimum_population": 3.9392149152760795e-08,
+            "normalization_error": 0.0,
+            "passed": true,
+            "residual_linf": 3.7810957676932767e-17
+          },
+          "position_m": 0.06,
+          "relative_error": null,
+          "sample_index": 20,
+          "segment": "trap_3_plus_1",
+          "time_s": 0.001978983939304212,
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_7p5_gamma_over_k path state 20",
+          "velocity_m_s": 57.37351448585727
+        }
+      ],
+      "relative_error_floor": 0.0076790146018628075,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_7p5_gamma_over_k pathwise validation"
+    },
+    "v_9_gamma_over_k": {
+      "direct_validation_did_not_alter_trajectory": true,
+      "force_range_normalized": 0.15358029203725615,
+      "gate": "PATHWISE_INTERPOLATION_PASS",
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+      "maximum_error_over_range": 0.0019459817402700658,
+      "normalized_rms_error_over_range": 0.0009688492544532262,
+      "records": [
+        {
+          "absolute_error": 8.216068188698434e-09,
+          "detuning_gamma": -8.0,
+          "direct_normalized_force": -1.7781182873186529e-06,
+          "error_over_force_range": 5.349689129843135e-08,
+          "interpolated_normalized_force": -1.7863343555073513e-06,
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+          "population_health": {
+            "fallback": false,
+            "minimum_population": 8.797344516748647e-07,
+            "normalization_error": 0.0,
+            "passed": true,
+            "residual_linf": 4.277802257253915e-17
+          },
+          "position_m": -0.05,
+          "relative_error": null,
+          "sample_index": 0,
+          "segment": "chirp_3",
+          "time_s": 0.0,
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_9_gamma_over_k path state 0",
+          "velocity_m_s": 67.77
+        },
+        {
+          "absolute_error": 1.9553986691272477e-05,
+          "detuning_gamma": -5.8999999999999995,
+          "direct_normalized_force": -0.000802173705394343,
+          "error_over_force_range": 0.000127320937028359,
+          "interpolated_normalized_force": -0.0008217276920856154,
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+          "population_health": {
+            "fallback": false,
+            "minimum_population": 0.0004826644461656233,
+            "normalization_error": 0.0,
+            "passed": true,
+            "residual_linf": 9.16786110460692e-18
+          },
+          "position_m": -0.029679417204518065,
+          "relative_error": null,
+          "sample_index": 3,
+          "segment": "chirp_3",
+          "time_s": 0.00030000000000000003,
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_9_gamma_over_k path state 3",
+          "velocity_m_s": 67.57810212320966
+        },
+        {
+          "absolute_error": 0.00029886444396984464,
+          "detuning_gamma": -3.0999999999999996,
+          "direct_normalized_force": -0.0025083349143358033,
+          "error_over_force_range": 0.0019459817402700658,
+          "interpolated_normalized_force": -0.002807199358305648,
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+          "population_health": {
+            "fallback": false,
+            "minimum_population": 0.003924175880860241,
+            "normalization_error": 0.0,
+            "passed": true,
+            "residual_linf": 2.862293735361732e-17
+          },
+          "position_m": -0.0030637775222079715,
+          "relative_error": null,
+          "sample_index": 7,
+          "segment": "chirp_3",
+          "time_s": 0.0007000000000000001,
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_9_gamma_over_k path state 7",
+          "velocity_m_s": 65.2710158040473
+        },
+        {
+          "absolute_error": 0.00027766280211343917,
+          "detuning_gamma": -2.3999999999999986,
+          "direct_normalized_force": -0.0027067442014013098,
+          "error_over_force_range": 0.001807932505077426,
+          "interpolated_normalized_force": -0.002984407003514749,
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+          "population_health": {
+            "fallback": false,
+            "minimum_population": 0.004116908091715322,
+            "normalization_error": 0.0,
+            "passed": true,
+            "residual_linf": 4.0332320816460765e-17
+          },
+          "position_m": 0.00340752028317571,
+          "relative_error": null,
+          "sample_index": 8,
+          "segment": "chirp_3",
+          "time_s": 0.0008000000000000001,
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_9_gamma_over_k path state 8",
+          "velocity_m_s": 64.14549054828811
+        },
+        {
+          "absolute_error": 9.05521183104897e-05,
+          "detuning_gamma": -1.6999999999999993,
+          "direct_normalized_force": -0.0023568774223420063,
+          "error_over_force_range": 0.0005896076710709938,
+          "interpolated_normalized_force": -0.002447429540652496,
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+          "population_health": {
+            "fallback": false,
+            "minimum_population": 0.003824687504018642,
+            "normalization_error": 0.0,
+            "passed": true,
+            "residual_linf": 2.3418766925686896e-17
+          },
+          "position_m": 0.009775757970147562,
+          "relative_error": null,
+          "sample_index": 9,
+          "segment": "chirp_3",
+          "time_s": 0.0009000000000000002,
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_9_gamma_over_k path state 9",
+          "velocity_m_s": 63.249454785089654
+        },
+        {
+          "absolute_error": 4.608045475029991e-05,
+          "detuning_gamma": -1.0,
+          "direct_normalized_force": -0.0014224740200734437,
+          "error_over_force_range": 0.0003000414580480256,
+          "interpolated_normalized_force": -0.0014685544748237436,
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+          "population_health": {
+            "fallback": false,
+            "minimum_population": 0.0037857447812308814,
+            "normalization_error": 0.0,
+            "passed": true,
+            "residual_linf": 3.469446951953614e-17
+          },
+          "position_m": 0.01606294247887256,
+          "relative_error": null,
+          "sample_index": 10,
+          "segment": "trap_3_plus_1",
+          "time_s": 0.001,
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_9_gamma_over_k path state 10",
+          "velocity_m_s": 62.54084368555607
+        },
+        {
+          "absolute_error": 5.630399897296923e-07,
+          "detuning_gamma": -1.0,
+          "direct_normalized_force": 2.3498712171771243e-05,
+          "error_over_force_range": 3.6660953190081684e-06,
+          "interpolated_normalized_force": 2.293567218204155e-05,
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+          "population_health": {
+            "fallback": false,
+            "minimum_population": 0.00010656075905199922,
+            "normalization_error": 1.1102230246251565e-16,
+            "passed": true,
+            "residual_linf": 4.336808689942018e-17
+          },
+          "position_m": 0.034752894274337386,
+          "relative_error": null,
+          "sample_index": 13,
+          "segment": "trap_3_plus_1",
+          "time_s": 0.0013000000000000002,
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_9_gamma_over_k path state 13",
+          "velocity_m_s": 62.26466854208378
+        },
+        {
+          "absolute_error": 1.187646473125319e-10,
+          "detuning_gamma": -1.0,
+          "direct_normalized_force": 6.850697016884372e-09,
+          "error_over_force_range": 7.733065599570645e-10,
+          "interpolated_normalized_force": 6.969461664196904e-09,
+          "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011",
+          "population_health": {
+            "fallback": false,
+            "minimum_population": 4.560223503154573e-08,
+            "normalization_error": 0.0,
+            "passed": true,
+            "residual_linf": 4.806722716744002e-17
+          },
+          "position_m": 0.06,
+          "relative_error": null,
+          "sample_index": 18,
+          "segment": "trap_3_plus_1",
+          "time_s": 0.0017054476681651557,
+          "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_9_gamma_over_k path state 18",
+          "velocity_m_s": 62.2706135457367
+        }
+      ],
+      "relative_error_floor": 0.0076790146018628075,
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011 v_9_gamma_over_k pathwise validation"
+    }
+  }
+}

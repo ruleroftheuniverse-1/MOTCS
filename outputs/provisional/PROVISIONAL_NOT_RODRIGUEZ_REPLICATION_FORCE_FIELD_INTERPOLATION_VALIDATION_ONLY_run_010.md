@@ -10,7 +10,7 @@ The path requires the corrected ground tensor, `g'=+0.001`, `SOURCE_ALIGNED_EFFE
 
 Pre-handoff shape: `(25, 33, 15)` (12375 equilibrium solves), trilinear in `(x,v,Delta)`. Post-handoff shape: `(25, 33)` (825 solves), bilinear in `(x,v)`. Canonical stored values are `F_x/(hbar k Gamma)`, not acceleration.
 The initial `(25,33,8)` baseline failed the predeclared important-extremum threshold at `-4.5 Gamma`; the detuning axis was refined from `1 Gamma` to `0.5 Gamma` spacing without changing thresholds.
-Domain: x=`[-0.06, 0.06] m`, v=`[-100.0, 100.0] m/s`, detuning=`[-8.0, -1.0] Gamma`. Build elapsed: `0.000 s`; cache reused: `True`.
+Domain: x=`[-0.06, 0.06] m`, v=`[-100.0, 100.0] m/s`, detuning=`[-8.0, -1.0] Gamma`. Build elapsed: `47.506 s`; cache reused: `False`.
 
 ## PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY Interpolation validation
 

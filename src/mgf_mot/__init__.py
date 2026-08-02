@@ -3,7 +3,17 @@
 from .constants import MGF, RODRIGUEZ_STATIC
 from .accepted_backend import (
     AcceptedProvisionalBackendSelection,
+    accepted_force_field_source_hashes,
+    build_accepted_force_field_provenance,
     build_accepted_provisional_rateeq_backend,
+)
+from .accepted_trajectory import (
+    RUN011_LABEL,
+    AcceptedTrajectoryResult,
+    ForceFieldDomainExitRecord,
+    IntegrationTerminationStatus,
+    InterpolatedRateEquationTrajectoryForce,
+    integrate_accepted_force_field_trajectory,
 )
 from .conventions import (
     GroundZeemanConvention,
@@ -112,7 +122,15 @@ __all__ = [
     "MGF",
     "RODRIGUEZ_STATIC",
     "AcceptedProvisionalBackendSelection",
+    "accepted_force_field_source_hashes",
+    "build_accepted_force_field_provenance",
     "build_accepted_provisional_rateeq_backend",
+    "RUN011_LABEL",
+    "AcceptedTrajectoryResult",
+    "ForceFieldDomainExitRecord",
+    "IntegrationTerminationStatus",
+    "InterpolatedRateEquationTrajectoryForce",
+    "integrate_accepted_force_field_trajectory",
     "GroundZeemanConvention",
     "PaperHelicityTranslation",
     "paper_helicity_to_pylcp_pol",

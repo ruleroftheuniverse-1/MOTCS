@@ -26,9 +26,16 @@
     ]
   },
   "actual_build_health": {
-    "note": "provenance-matched cache reused",
+    "fallback_count": 0,
+    "maximum_residual_linf": 2.9125841990225877e-16,
+    "maximum_sum_error": 4.440892098500626e-16,
+    "minimum_population": 3.2220534028427723e-09,
+    "nonfinite_count": 0,
+    "nullspace_dimensions": [
+      1
+    ],
     "passed": true,
-    "solves": 0
+    "solves": 13200
   },
   "backend_status": {
     "approximation_mode": "collapsed_pylcp_astate",
@@ -91,11 +98,11 @@
     ]
   },
   "cache_directory": "outputs\\provisional\\force_fields",
-  "cache_reused": true,
+  "cache_reused": false,
   "capture_authorized": false,
   "capture_calculations_performed": 0,
   "domain_justification": "Covers x0=-50 mm with 10 mm margins, passage through and beyond the center, inbound/outbound speeds beyond the named 2-9 Gamma/k range, and the exact Rodriguez baseline chirp interval. Queries outside fail rather than extrapolate.",
-  "elapsed_build_time_s": 0.0,
+  "elapsed_build_time_s": 47.50641999999061,
   "estimated_build_solve_count": 13200,
   "exact_replication_valid": false,
   "exact_track_blocked": true,
@@ -114,12 +121,12 @@
   },
   "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY",
   "plot": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_run_010_validation.png",
-  "post_cache_key": "63e14ddc2508a87780df34315570016bf8b3a04b3ee7fc065d7cda3d153e958e",
+  "post_cache_key": "e0fbe7f34339ec0a0f413419d6e9f06e0509066ee4132a46693367ec81a65c02",
   "post_shape": [
     25,
     33
   ],
-  "pre_cache_key": "abbefb2ed5968471b573faedb6db0f92dc9ee78ba02fd3d71e93a6b6827d7578",
+  "pre_cache_key": "832da871362d9ced72708662b700005154365ba437a88d669337bf84faa80885",
   "pre_shape": [
     25,
     33,
@@ -135,7 +142,7 @@
     "configs\\rodriguez_baseline_linear_chirp.yaml": "c428695e839de3172ac17e1d30c424a31733bc32dc1d0e7e72b2fa56c9b524b4",
     "configs\\rodriguez_gaussian_baseline.yaml": "8498253a5f58d3d7187ac26aa5f52f8d14ccbff19ea741eaccd9b0cfdb1d89a3",
     "configs\\rodriguez_static_3_plus_1.yaml": "06ed7c00d1df87d2fb929ec6511dc8158e0248a1fb0c7109ba2c6caca81a6f80",
-    "src\\mgf_mot\\accepted_backend.py": "5d2070d96c218b522585fbd0721252004bcc1f08cf7b488bb02d50fe5301c0df",
+    "src\\mgf_mot\\accepted_backend.py": "ffd79a25ec8f1a3821513ffd131f62284a12dba3e8e797967e8491c761468fd0",
     "src\\mgf_mot\\excited_hyperfine.py": "909f90e0a4875735df3abd590162bd72f69b5eebbdd0f5e6f15eed31a074afd5",
     "src\\mgf_mot\\force_field.py": "25b5f55a305c1c1380bb14a0dc543a346a5058a470442d6148901f2ecd4aeb29",
     "src\\mgf_mot\\gaussian_beams.py": "ca8900129792d2d1e33a8b3b1d824df54c238dac7eafee166d3799eb80d35a64",

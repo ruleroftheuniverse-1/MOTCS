@@ -1,7 +1,7 @@
 {
-  "cache_key": "abbefb2ed5968471b573faedb6db0f92dc9ee78ba02fd3d71e93a6b6827d7578",
+  "cache_key": "832da871362d9ced72708662b700005154365ba437a88d669337bf84faa80885",
   "canonical_values_are_si_acceleration": false,
-  "created_utc": "2026-08-02T00:00:26.628714+00:00",
+  "created_utc": "2026-08-02T07:02:21.178286+00:00",
   "equilibrium_solve_count": 12375,
   "force_array_name": "normalized_force_x",
   "force_unit": "hbar*k*Gamma",
@@ -55,7 +55,7 @@
       ],
       [
         "src\\mgf_mot\\accepted_backend.py",
-        "5d2070d96c218b522585fbd0721252004bcc1f08cf7b488bb02d50fe5301c0df"
+        "ffd79a25ec8f1a3821513ffd131f62284a12dba3e8e797967e8491c761468fd0"
       ],
       [
         "src\\mgf_mot\\excited_hyperfine.py",
