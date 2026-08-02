@@ -1,0 +1,4623 @@
+{
+  "component_4": {
+    "accepted_level_specific_result": {
+      "component4_alone": "upper-F1 and F2 terms nearly cancel; upper-F1 is restoring and F2 is anti-restoring",
+      "full_three_plus_one": "upper-F1 and F2 resolved component-4 terms are both restoring; upper-F1 has the larger magnitude",
+      "paper_hierarchy_reproduced": false
+    },
+    "interpretation": "The accepted [3+1] local slope is restoring and stronger than either [3] or the same [3+1] saturation vector with component (4) disabled. However, its shared-solution level decomposition does not reproduce the paper's stated F2-trapping/upper-F1-anti-trapping hierarchy. Component (4) alone is numerically meaningful only because weak off-resonant coupling removes an exact dark nullspace; it gives near cancellation with the opposite level-specific signs. This implicates level-specific molecular matrix content, while population redistribution also changes the forces from components (1)-(3).",
+    "paper_level_specific_expectation": {
+      "F2": "component (4) polarization is trapping",
+      "upper_F1": "component (4) polarization is anti-trapping"
+    },
+    "population_redistribution": [
+      {
+        "full_minus_component4_disabled_population_by_level": {
+          "F0": 0.0018115768426220508,
+          "F2": 0.002415185374892437,
+          "Fprime0": 0.0009187244486602505,
+          "Fprime1": 0.003058014739092438,
+          "lower_F1": 0.01164136696450535,
+          "upper_F1": -0.01984486836977256
+        },
+        "total_force_change_when_component4_enabled": 0.0013556123655414792,
+        "x_normalized": -0.5
+      },
+      {
+        "full_minus_component4_disabled_population_by_level": {
+          "F0": 0.0018115768426218287,
+          "F2": 0.0024151853748922147,
+          "Fprime0": 0.0009187244486603408,
+          "Fprime1": 0.0030580147390922713,
+          "lower_F1": 0.011641366964504574,
+          "upper_F1": -0.01984486836977134
+        },
+        "total_force_change_when_component4_enabled": -0.0013556123655414625,
+        "x_normalized": 0.5
+      }
+    ],
+    "small_signal_slopes": {
+      "component4_alone": 1.2967464813528826e-10,
+      "three": -0.0012031255429442488,
+      "three_plus_one": -0.003843680689598239,
+      "three_plus_one_component4_disabled": -0.0011324559585152976
+    },
+    "variants": {
+      "component4_alone": {
+        "active_components": [
+          4
+        ],
+        "rows": [
+          {
+            "accepted_normalized_force": [
+              -6.483732051688201e-11,
+              0.0,
+              -7.047314121155779e-19
+            ],
+            "component4_force_by_ground_level": {
+              "F2": -2.8932731959302428e-05,
+              "other_ground_levels": -2.8079425263743464e-06,
+              "upper_F1": 3.1740609648359374e-05
+            },
+            "force_absolute_difference": 3.144186300207963e-18,
+            "force_relative_difference": 4.849346449147749e-08,
+            "ground_population_by_level": {
+              "F0": 0.05227716301690588,
+              "F2": 0.0875836096842494,
+              "Fprime0": 0.0005648770132000711,
+              "Fprime1": 0.0017304565358398395,
+              "lower_F1": 0.8236454999301712,
+              "upper_F1": 0.034198393819633584
+            },
+            "one_shared_equilibrium_population_solution": true,
+            "per_laser_total_pumping_rate_absolute_difference": 0.0,
+            "per_physical_beam_force_x": {
+              "+x_prime": 0.00027050833302162165,
+              "+y_prime": -0.00027050836544028034,
+              "+z": 0.0,
+              "-x_prime": -0.00027050836544028034,
+              "-y_prime": 0.00027050833302162165,
+              "-z": 0.0
+            },
+            "population_absolute_difference": 2.142730437526552e-14,
+            "reference_excited_fraction": 0.0022953335490399104,
+            "reference_normalized_force": [
+              -6.483731737269571e-11,
+              0.0,
+              -6.505213034913027e-19
+            ],
+            "reference_total_scattering_rate_gamma": 0.0022953333308007437,
+            "state_indexed_rate_comparison_note": "At exactly B=0, rotations inside degenerate manifolds are gauge-dependent; per-laser totals, populations, and force are the invariant comparisons.",
+            "state_indexed_summed_pumping_matrix_difference": 4.336808689942018e-19,
+            "state_matrix_residual_linf": 5.34376145763793e-17,
+            "x_normalized": -0.5
+          },
+          {
+            "accepted_normalized_force": [
+              6.483732035425169e-11,
+              5.421010862427522e-20,
+              -7.047314121155779e-19
+            ],
+            "component4_force_by_ground_level": {
+              "F2": 2.8932731959298416e-05,
+              "other_ground_levels": 2.80794252637375e-06,
+              "upper_F1": -3.174060964834132e-05
+            },
+            "force_absolute_difference": 1.0408340855860843e-17,
+            "force_relative_difference": 1.6053008975375273e-07,
+            "ground_population_by_level": {
+              "F0": 0.05227716301690751,
+              "F2": 0.08758360968425391,
+              "Fprime0": 0.0005648770132000364,
+              "Fprime1": 0.0017304565358398937,
+              "lower_F1": 0.8236454999301677,
+              "upper_F1": 0.0341983938196309
+            },
+            "one_shared_equilibrium_population_solution": true,
+            "per_laser_total_pumping_rate_absolute_difference": 0.0,
+            "per_physical_beam_force_x": {
+              "+x_prime": 0.00027050836544028034,
+              "+y_prime": -0.000270508333021615,
+              "+z": 0.0,
+              "-x_prime": -0.000270508333021615,
+              "-y_prime": 0.0002705083654402804,
+              "-z": 0.0
+            },
+            "population_absolute_difference": 1.9872992140790302e-14,
+            "reference_excited_fraction": 0.00229533354903993,
+            "reference_normalized_force": [
+              6.483733076259254e-11,
+              -5.421010862427522e-20,
+              -7.047314121155779e-19
+            ],
+            "reference_total_scattering_rate_gamma": 0.002295333330800763,
+            "state_indexed_rate_comparison_note": "At exactly B=0, rotations inside degenerate manifolds are gauge-dependent; per-laser totals, populations, and force are the invariant comparisons.",
+            "state_indexed_summed_pumping_matrix_difference": 4.336808689942018e-19,
+            "state_matrix_residual_linf": 7.830650190776556e-17,
+            "x_normalized": 0.5
+          }
+        ]
+      },
+      "three": {
+        "active_components": [
+          1,
+          2,
+          3
+        ],
+        "rows": [
+          {
+            "accepted_normalized_force": [
+              0.0006015627714721118,
+              1.734723475976807e-18,
+              -3.642919299551295e-17
+            ],
+            "component4_force_by_ground_level": {
+              "F2": 0.0,
+              "other_ground_levels": 0.0,
+              "upper_F1": 0.0
+            },
+            "force_absolute_difference": 3.469446951953614e-18,
+            "force_relative_difference": 5.767389733017174e-15,
+            "ground_population_by_level": {
+              "F0": 0.09765527851595779,
+              "F2": 0.2577133587573438,
+              "Fprime0": 0.024303001570812055,
+              "Fprime1": 0.07129163241441047,
+              "lower_F1": 0.30812108853395914,
+              "upper_F1": 0.24091564020751668
+            },
+            "one_shared_equilibrium_population_solution": true,
+            "per_laser_total_pumping_rate_absolute_difference": 2.7755575615628914e-17,
+            "per_physical_beam_force_x": {
+              "+x_prime": 0.011416338294647218,
+              "+y_prime": -0.01111555690891116,
+              "+z": 0.0,
+              "-x_prime": -0.01111555690891116,
+              "-y_prime": 0.011416338294647218,
+              "-z": 0.0
+            },
+            "population_absolute_difference": 1.8041124150158794e-16,
+            "reference_excited_fraction": 0.09559463398522253,
+            "reference_normalized_force": [
+              0.0006015627714721153,
+              0.0,
+              -3.642919299551295e-17
+            ],
+            "reference_total_scattering_rate_gamma": 0.09559462487172314,
+            "state_indexed_rate_comparison_note": "At exactly B=0, rotations inside degenerate manifolds are gauge-dependent; per-laser totals, populations, and force are the invariant comparisons.",
+            "state_indexed_summed_pumping_matrix_difference": 2.7755575615628914e-17,
+            "state_matrix_residual_linf": 4.683753385137379e-17,
+            "x_normalized": -0.5
+          },
+          {
+            "accepted_normalized_force": [
+              -0.0006015627714721448,
+              1.734723475976807e-18,
+              -3.469446951953614e-17
+            ],
+            "component4_force_by_ground_level": {
+              "F2": 0.0,
+              "other_ground_levels": 0.0,
+              "upper_F1": 0.0
+            },
+            "force_absolute_difference": 1.1275702593849246e-17,
+            "force_relative_difference": 1.8744016632304788e-14,
+            "ground_population_by_level": {
+              "F0": 0.09765527851595793,
+              "F2": 0.2577133587573439,
+              "Fprime0": 0.024303001570812086,
+              "Fprime1": 0.07129163241441046,
+              "lower_F1": 0.30812108853395903,
+              "upper_F1": 0.24091564020751668
+            },
+            "one_shared_equilibrium_population_solution": true,
+            "per_laser_total_pumping_rate_absolute_difference": 2.7755575615628914e-17,
+            "per_physical_beam_force_x": {
+              "+x_prime": 0.01111555690891116,
+              "+y_prime": -0.011416338294647228,
+              "+z": 0.0,
+              "-x_prime": -0.011416338294647225,
+              "-y_prime": 0.01111555690891116,
+              "-z": 0.0
+            },
+            "population_absolute_difference": 1.942890293094024e-16,
+            "reference_excited_fraction": 0.09559463398522254,
+            "reference_normalized_force": [
+              -0.0006015627714721335,
+              8.673617379884035e-19,
+              -3.642919299551295e-17
+            ],
+            "reference_total_scattering_rate_gamma": 0.09559462487172316,
+            "state_indexed_rate_comparison_note": "At exactly B=0, rotations inside degenerate manifolds are gauge-dependent; per-laser totals, populations, and force are the invariant comparisons.",
+            "state_indexed_summed_pumping_matrix_difference": 2.7755575615628914e-17,
+            "state_matrix_residual_linf": 6.591949208711867e-17,
+            "x_normalized": 0.5
+          }
+        ]
+      },
+      "three_plus_one": {
+        "active_components": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "rows": [
+          {
+            "accepted_normalized_force": [
+              0.0019218403447991159,
+              0.0,
+              -3.2959746043559335e-17
+            ],
+            "component4_force_by_ground_level": {
+              "F2": 0.00010099087172279458,
+              "other_ground_levels": -1.3369871330454701e-05,
+              "upper_F1": 0.0005867918035335545
+            },
+            "force_absolute_difference": 4.336808689942018e-18,
+            "force_relative_difference": 2.2565915538604904e-15,
+            "ground_population_by_level": {
+              "F0": 0.09142349164593604,
+              "F2": 0.27753730762858947,
+              "Fprime0": 0.02305992435118835,
+              "Fprime1": 0.06791115444775697,
+              "lower_F1": 0.2928088955448617,
+              "upper_F1": 0.24725922638166747
+            },
+            "one_shared_equilibrium_population_solution": true,
+            "per_laser_total_pumping_rate_absolute_difference": 6.938893903907228e-18,
+            "per_physical_beam_force_x": {
+              "+x_prime": 0.011201656983692888,
+              "+y_prime": -0.01024073681129333,
+              "+z": 0.0,
+              "-x_prime": -0.01024073681129333,
+              "-y_prime": 0.011201656983692888,
+              "-z": 0.0
+            },
+            "population_absolute_difference": 3.885780586188048e-16,
+            "reference_excited_fraction": 0.09097107879894532,
+            "reference_normalized_force": [
+              0.0019218403447991202,
+              -2.168404344971009e-19,
+              -3.0357660829594124e-17
+            ],
+            "reference_total_scattering_rate_gamma": 0.09097107012836289,
+            "state_indexed_rate_comparison_note": "At exactly B=0, rotations inside degenerate manifolds are gauge-dependent; per-laser totals, populations, and force are the invariant comparisons.",
+            "state_indexed_summed_pumping_matrix_difference": 2.7755575615628914e-17,
+            "state_matrix_residual_linf": 8.847089727481716e-17,
+            "x_normalized": -0.5
+          },
+          {
+            "accepted_normalized_force": [
+              -0.001921840344799132,
+              6.938893903907228e-18,
+              -3.122502256758253e-17
+            ],
+            "component4_force_by_ground_level": {
+              "F2": -0.00010099087172279449,
+              "other_ground_levels": 1.3369871330454701e-05,
+              "upper_F1": -0.0005867918035335569
+            },
+            "force_absolute_difference": 1.2793585635328952e-17,
+            "force_relative_difference": 6.656945083888391e-15,
+            "ground_population_by_level": {
+              "F0": 0.09142349164593602,
+              "F2": 0.27753730762858947,
+              "Fprime0": 0.02305992435118834,
+              "Fprime1": 0.0679111544477569,
+              "lower_F1": 0.29280889554486167,
+              "upper_F1": 0.24725922638166753
+            },
+            "one_shared_equilibrium_population_solution": true,
+            "per_laser_total_pumping_rate_absolute_difference": 6.938893903907228e-18,
+            "per_physical_beam_force_x": {
+              "+x_prime": 0.010240736811293333,
+              "+y_prime": -0.011201656983692894,
+              "+z": 0.0,
+              "-x_prime": -0.011201656983692894,
+              "-y_prime": 0.010240736811293335,
+              "-z": 0.0
+            },
+            "population_absolute_difference": 2.636779683484747e-16,
+            "reference_excited_fraction": 0.09097107879894525,
+            "reference_normalized_force": [
+              -0.0019218403447991191,
+              1.734723475976807e-18,
+              -3.3393426912553537e-17
+            ],
+            "reference_total_scattering_rate_gamma": 0.09097107012836282,
+            "state_indexed_rate_comparison_note": "At exactly B=0, rotations inside degenerate manifolds are gauge-dependent; per-laser totals, populations, and force are the invariant comparisons.",
+            "state_indexed_summed_pumping_matrix_difference": 2.7755575615628914e-17,
+            "state_matrix_residual_linf": 8.326672684688674e-17,
+            "x_normalized": 0.5
+          }
+        ]
+      },
+      "three_plus_one_component4_disabled": {
+        "active_components": [
+          1,
+          2,
+          3
+        ],
+        "rows": [
+          {
+            "accepted_normalized_force": [
+              0.0005662279792576445,
+              8.673617379884035e-19,
+              -3.122502256758253e-17
+            ],
+            "component4_force_by_ground_level": {
+              "F2": 0.0,
+              "other_ground_levels": 0.0,
+              "upper_F1": 0.0
+            },
+            "force_absolute_difference": 3.469446951953614e-18,
+            "force_relative_difference": 6.127296917581231e-15,
+            "ground_population_by_level": {
+              "F0": 0.08961191480331399,
+              "F2": 0.27512212225369703,
+              "Fprime0": 0.0221411999025281,
+              "Fprime1": 0.06485313970866453,
+              "lower_F1": 0.2811675285803564,
+              "upper_F1": 0.26710409475144004
+            },
+            "one_shared_equilibrium_population_solution": true,
+            "per_laser_total_pumping_rate_absolute_difference": 6.938893903907228e-18,
+            "per_physical_beam_force_x": {
+              "+x_prime": 0.01039398961759891,
+              "+y_prime": -0.010110875627970091,
+              "+z": 0.0,
+              "-x_prime": -0.010110875627970091,
+              "-y_prime": 0.01039398961759891,
+              "-z": 0.0
+            },
+            "population_absolute_difference": 3.3306690738754696e-16,
+            "reference_excited_fraction": 0.08699433961119263,
+            "reference_normalized_force": [
+              0.000566227979257641,
+              0.0,
+              -3.382710778154774e-17
+            ],
+            "reference_total_scattering_rate_gamma": 0.08699433131682646,
+            "state_indexed_rate_comparison_note": "At exactly B=0, rotations inside degenerate manifolds are gauge-dependent; per-laser totals, populations, and force are the invariant comparisons.",
+            "state_indexed_summed_pumping_matrix_difference": 5.551115123125783e-17,
+            "state_matrix_residual_linf": 3.642919299551295e-17,
+            "x_normalized": -0.5
+          },
+          {
+            "accepted_normalized_force": [
+              -0.0005662279792576583,
+              8.673617379884035e-19,
+              -3.2959746043559335e-17
+            ],
+            "component4_force_by_ground_level": {
+              "F2": 0.0,
+              "other_ground_levels": 0.0,
+              "upper_F1": 0.0
+            },
+            "force_absolute_difference": 1.734723475976807e-18,
+            "force_relative_difference": 3.0636484587905404e-15,
+            "ground_population_by_level": {
+              "F0": 0.0896119148033142,
+              "F2": 0.27512212225369725,
+              "Fprime0": 0.022141199902528,
+              "Fprime1": 0.06485313970866463,
+              "lower_F1": 0.2811675285803571,
+              "upper_F1": 0.26710409475143887
+            },
+            "one_shared_equilibrium_population_solution": true,
+            "per_laser_total_pumping_rate_absolute_difference": 6.938893903907228e-18,
+            "per_physical_beam_force_x": {
+              "+x_prime": 0.010110875627970084,
+              "+y_prime": -0.010393989617598912,
+              "+z": 0.0,
+              "-x_prime": -0.01039398961759891,
+              "-y_prime": 0.010110875627970084,
+              "-z": 0.0
+            },
+            "population_absolute_difference": 4.440892098500626e-16,
+            "reference_excited_fraction": 0.08699433961119263,
+            "reference_normalized_force": [
+              -0.0005662279792576566,
+              1.734723475976807e-18,
+              -3.122502256758253e-17
+            ],
+            "reference_total_scattering_rate_gamma": 0.08699433131682645,
+            "state_indexed_rate_comparison_note": "At exactly B=0, rotations inside degenerate manifolds are gauge-dependent; per-laser totals, populations, and force are the invariant comparisons.",
+            "state_indexed_summed_pumping_matrix_difference": 1.3877787807814457e-17,
+            "state_matrix_residual_linf": 4.5102810375396984e-17,
+            "x_normalized": 0.5
+          }
+        ]
+      }
+    }
+  },
+  "dark_state_width_sequence": [
+    {
+      "excited_fraction": 0.13501003537127637,
+      "excited_zeeman_shift_gamma_sorted": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "force": -0.06708613315717474,
+      "ground_zeeman_shift_gamma_sorted": [
+        0.0,
+        0.0,
+        -8.881784197001252e-16,
+        4.440892098500626e-16,
+        8.881784197001252e-16,
+        0.0,
+        -4.440892098500626e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "most_populated_ground_states": [
+        {
+          "population": 0.09637123189129536,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 2,
+            "level": "lower_F1",
+            "mF": 1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.08590850115566377,
+          "state": {
+            "F": 0.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 1.0,
+            "index": 3,
+            "level": "F0",
+            "mF": -0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 109.73157641206407
+          }
+        },
+        {
+          "population": 0.08448022431139936,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 1,
+            "level": "lower_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.08448022431139926,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        }
+      ],
+      "scattering_fractions": {
+        "copropagating_in_plane": 0.057826964584643,
+        "counterpropagating_in_plane": 0.7605460486366489,
+        "plus_minus_z": 0.181626986778709
+      },
+      "scattering_rate_gamma": 0.13501002251281194,
+      "weakest_coupled_ground_states": [
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 7,
+            "level": "F2",
+            "mF": -2.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.18227642650678416
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 11,
+            "level": "F2",
+            "mF": 2.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.18227642650678416
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 8,
+            "level": "F2",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.2016706105999481
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 10,
+            "level": "F2",
+            "mF": 1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.2016706105999481
+        }
+      ],
+      "x_normalized": 0.0
+    },
+    {
+      "excited_fraction": 0.10000326689366891,
+      "excited_zeeman_shift_gamma_sorted": [
+        0.0,
+        -0.0007513773587074736,
+        0.0,
+        0.0007513773587074736
+      ],
+      "force": -0.03519100761620071,
+      "ground_zeeman_shift_gamma_sorted": [
+        -0.20290519428997555,
+        -0.06038140945734227,
+        0.10727110272106266,
+        -0.058190187233085666,
+        -0.6444740948210876,
+        -0.30878361221153217,
+        -0.10359668303943081,
+        -0.2150456500303446,
+        -0.048229609972548104,
+        0.22216827972984188,
+        0.5599183951925677,
+        0.7522486634118519
+      ],
+      "most_populated_ground_states": [
+        {
+          "population": 0.17428913384338574,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 4,
+            "level": "upper_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 230.05865548732874
+          }
+        },
+        {
+          "population": 0.14982458767819268,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 5,
+            "level": "upper_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 230.05865548732874
+          }
+        },
+        {
+          "population": 0.1049585145884305,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.0660063204378445,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 6,
+            "level": "upper_F1",
+            "mF": 1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 230.05865548732874
+          }
+        }
+      ],
+      "scattering_fractions": {
+        "copropagating_in_plane": 0.11914318511610948,
+        "counterpropagating_in_plane": 0.6168029771175417,
+        "plus_minus_z": 0.2640538377663487
+      },
+      "scattering_rate_gamma": 0.10000325733420454,
+      "weakest_coupled_ground_states": [
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 5,
+            "level": "upper_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 230.05865548732874
+          },
+          "total_pumping_rate_gamma": 0.03466803705331039
+        },
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 4,
+            "level": "upper_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 230.05865548732874
+          },
+          "total_pumping_rate_gamma": 0.06580411768908923
+        },
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          },
+          "total_pumping_rate_gamma": 0.13068052578603273
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 7,
+            "level": "F2",
+            "mF": -2.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.1817348431073665
+        }
+      ],
+      "x_normalized": 1.5
+    },
+    {
+      "excited_fraction": 0.08197038977596782,
+      "excited_zeeman_shift_gamma_sorted": [
+        0.0,
+        -0.0015027547174149471,
+        0.0,
+        0.0015027547174149471
+      ],
+      "force": -0.023751601886891707,
+      "ground_zeeman_shift_gamma_sorted": [
+        -0.4919541643449339,
+        -0.2369648286033197,
+        0.11332901207328128,
+        -0.23250108357119226,
+        -1.370134547017052,
+        -1.061032275623384,
+        -0.18766600043547443,
+        -0.2476917493169517,
+        0.28058936554075586,
+        0.6571319126099948,
+        1.2723970318645885,
+        1.5044973268237043
+      ],
+      "most_populated_ground_states": [
+        {
+          "population": 0.17727550826179925,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 5,
+            "level": "upper_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 230.05865548732874
+          }
+        },
+        {
+          "population": 0.17388194747234986,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 4,
+            "level": "upper_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 230.05865548732874
+          }
+        },
+        {
+          "population": 0.12187172122540682,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.0697729401229188,
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 11,
+            "level": "F2",
+            "mF": 2.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          }
+        }
+      ],
+      "scattering_fractions": {
+        "copropagating_in_plane": 0.1454839725719001,
+        "counterpropagating_in_plane": 0.5552641481696634,
+        "plus_minus_z": 0.2992518792584365
+      },
+      "scattering_rate_gamma": 0.0819703819676727,
+      "weakest_coupled_ground_states": [
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 5,
+            "level": "upper_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 230.05865548732874
+          },
+          "total_pumping_rate_gamma": 0.02249361565824764
+        },
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 4,
+            "level": "upper_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 230.05865548732874
+          },
+          "total_pumping_rate_gamma": 0.047546099608901334
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 11,
+            "level": "F2",
+            "mF": 2.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.07544039392835696
+        },
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          },
+          "total_pumping_rate_gamma": 0.09052688381380215
+        }
+      ],
+      "x_normalized": 3.0
+    },
+    {
+      "excited_fraction": 0.06966393673851363,
+      "excited_zeeman_shift_gamma_sorted": [
+        0.0,
+        -0.0022541320761224216,
+        0.0,
+        0.0022541320761224216
+      ],
+      "force": -0.016108108970928178,
+      "ground_zeeman_shift_gamma_sorted": [
+        -0.855655896470175,
+        -0.5176510389936748,
+        0.017837047519594584,
+        -0.5190625843595211,
+        -2.1115239386472755,
+        -1.813280939035236,
+        -0.14378426050860904,
+        -0.16305903526341092,
+        0.6583449469904283,
+        1.1804978838618028,
+        2.010591824670533,
+        2.2567459902355558
+      ],
+      "most_populated_ground_states": [
+        {
+          "population": 0.1590019492536363,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.15489341603929363,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 5,
+            "level": "upper_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 230.05865548732874
+          }
+        },
+        {
+          "population": 0.12224952652990848,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 4,
+            "level": "upper_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 230.05865548732874
+          }
+        },
+        {
+          "population": 0.11478286990407884,
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 11,
+            "level": "F2",
+            "mF": 2.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          }
+        }
+      ],
+      "scattering_fractions": {
+        "copropagating_in_plane": 0.19312031031299995,
+        "counterpropagating_in_plane": 0.5201231958417321,
+        "plus_minus_z": 0.2867564938452672
+      },
+      "scattering_rate_gamma": 0.0696639301333283,
+      "weakest_coupled_ground_states": [
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 5,
+            "level": "upper_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 230.05865548732874
+          },
+          "total_pumping_rate_gamma": 0.022553332693329077
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 11,
+            "level": "F2",
+            "mF": 2.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.03289234326286279
+        },
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 4,
+            "level": "upper_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 230.05865548732874
+          },
+          "total_pumping_rate_gamma": 0.05457532203868568
+        },
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          },
+          "total_pumping_rate_gamma": 0.05756765902689513
+        }
+      ],
+      "x_normalized": 4.5
+    },
+    {
+      "excited_fraction": 0.05787686989825584,
+      "excited_zeeman_shift_gamma_sorted": [
+        0.0,
+        -0.003005509434829895,
+        0.0,
+        0.003005509434829896
+      ],
+      "force": -0.009656350243580504,
+      "ground_zeeman_shift_gamma_sorted": [
+        -1.2822541054606216,
+        -0.886419251760822,
+        -0.17421298664513163,
+        -0.9064228362602806,
+        -2.8579603502436637,
+        -2.565529602447088,
+        0.03343016437183444,
+        0.02317876836733035,
+        1.091949144779909,
+        1.7594119236492562,
+        2.7558344780018635,
+        3.0089946536474073
+      ],
+      "most_populated_ground_states": [
+        {
+          "population": 0.19860816498778172,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.17815987776040815,
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 11,
+            "level": "F2",
+            "mF": 2.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          }
+        },
+        {
+          "population": 0.12203587387913252,
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 10,
+            "level": "F2",
+            "mF": 1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          }
+        },
+        {
+          "population": 0.08618172264413257,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 5,
+            "level": "upper_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 230.05865548732874
+          }
+        }
+      ],
+      "scattering_fractions": {
+        "copropagating_in_plane": 0.25205020629035985,
+        "counterpropagating_in_plane": 0.4880018531666996,
+        "plus_minus_z": 0.25994794054294057
+      },
+      "scattering_rate_gamma": 0.057876864426605834,
+      "weakest_coupled_ground_states": [
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 11,
+            "level": "F2",
+            "mF": 2.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.016598756563825534
+        },
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 5,
+            "level": "upper_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 230.05865548732874
+          },
+          "total_pumping_rate_gamma": 0.036541630653901674
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 10,
+            "level": "F2",
+            "mF": 1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.03678235805283195
+        },
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          },
+          "total_pumping_rate_gamma": 0.03818033231034846
+        }
+      ],
+      "x_normalized": 6.0
+    }
+  ],
+  "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY",
+  "records": [
+    {
+      "equilibrium_populations": [
+        0.10285846957076666,
+        0.10285846957076691,
+        0.10285846957076693,
+        0.09788596511608373,
+        0.07927672052623441,
+        0.07927672052623437,
+        0.07927672052623443,
+        0.05184377343293407,
+        0.051843773432934094,
+        0.051843773432934115,
+        0.05184377343293422,
+        0.0518437734329343,
+        0.024535546084949136,
+        0.023984683781097506,
+        0.02398468378109753,
+        0.023984683781097572
+      ],
+      "excited_zeeman_shift_gamma_sorted": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_population_by_level": {
+        "F0": 0.09788596511608373,
+        "F2": 0.2592188671646708,
+        "Fprime0": 0.024535546084949136,
+        "Fprime1": 0.07195405134329261,
+        "lower_F1": 0.3085754087123005,
+        "upper_F1": 0.23783016157870318
+      },
+      "ground_zeeman_shift_gamma_sorted": [
+        0.0,
+        0.0,
+        -8.881784197001252e-16,
+        4.440892098500626e-16,
+        8.881784197001252e-16,
+        0.0,
+        -4.440892098500626e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "longitudinal_force_by_frequency_component": {
+        "1": -1.734723475976807e-18,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "longitudinal_force_by_physical_beam": {
+        "+x_prime": 0.01137140703418539,
+        "+y_prime": -0.01137140703418539,
+        "+z": 0.0,
+        "-x_prime": -0.01137140703418539,
+        "-y_prime": 0.01137140703418539,
+        "-z": 0.0
+      },
+      "most_populated_ground_states": [
+        {
+          "population": 0.10285846957076693,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 2,
+            "level": "lower_F1",
+            "mF": 1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.10285846957076691,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 1,
+            "level": "lower_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.10285846957076666,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.09788596511608373,
+          "state": {
+            "F": 0.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 1.0,
+            "index": 3,
+            "level": "F0",
+            "mF": -0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 109.73157641206407
+          }
+        }
+      ],
+      "name": "mgf_3_origin",
+      "normalized_force_x": -8.673617379884035e-19,
+      "one_shared_population_solution": true,
+      "population_by_approximate_mF": {
+        "-0.0": 0.09788596511608373,
+        "-1.0": 0.23397896352993516,
+        "-2.0": 0.05184377343293407,
+        "0.0": 0.2339789635299354,
+        "1.0": 0.23397896352993558,
+        "2.0": 0.0518437734329343,
+        "excited_-0.0": 0.024535546084949136,
+        "excited_-1.0": 0.023984683781097506,
+        "excited_0.0": 0.02398468378109753,
+        "excited_1.0": 0.023984683781097572
+      },
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scattering_rate_by_frequency_component_gamma": {
+        "1": 0.02951904615207645,
+        "2": 0.01658555479152819,
+        "3": 0.05038498728564868,
+        "4": 0.0
+      },
+      "scattering_rate_by_physical_beam_gamma": {
+        "+x_prime": 0.016081598051009793,
+        "+y_prime": 0.016081598051009796,
+        "+z": 0.01608159801260708,
+        "-x_prime": 0.016081598051009796,
+        "-y_prime": 0.016081598051009793,
+        "-z": 0.016081598012607064
+      },
+      "scattering_rate_by_spherical_polarization_gamma": {
+        "-1": 0.03216319606361689,
+        "0": 0.03216319610201959,
+        "1": 0.03216319606361685
+      },
+      "total_excited_fraction": 0.09648959742824174,
+      "total_scattering_rate_gamma": 0.09648958822925333,
+      "v_normalized": 0.0,
+      "velocity_m_s": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "weakest_coupled_ground_states": [
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 2,
+            "level": "lower_F1",
+            "mF": 1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          },
+          "total_pumping_rate_gamma": 0.12503833759642882
+        },
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          },
+          "total_pumping_rate_gamma": 0.12503833759642885
+        },
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 1,
+            "level": "lower_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          },
+          "total_pumping_rate_gamma": 0.12503833759642885
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 10,
+            "level": "F2",
+            "mF": 1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.14348804565883527
+        }
+      ],
+      "x_normalized": 0.0
+    },
+    {
+      "equilibrium_populations": [
+        0.10898911340525635,
+        0.10272145040498279,
+        0.09641052472371997,
+        0.09765527851595779,
+        0.09350555239631075,
+        0.07980502610855164,
+        0.06760506170265429,
+        0.06544788315849183,
+        0.05673827271371204,
+        0.049891865179501255,
+        0.04469280787041122,
+        0.04094252983522749,
+        0.024303001570812055,
+        0.023770275174393205,
+        0.023765467607415974,
+        0.023755889632601297
+      ],
+      "excited_zeeman_shift_gamma_sorted": [
+        0.0,
+        -0.00025045911956915815,
+        0.0,
+        0.00025045911956915815
+      ],
+      "ground_population_by_level": {
+        "F0": 0.09765527851595779,
+        "F2": 0.2577133587573438,
+        "Fprime0": 0.024303001570812055,
+        "Fprime1": 0.07129163241441047,
+        "lower_F1": 0.30812108853395914,
+        "upper_F1": 0.24091564020751668
+      },
+      "ground_zeeman_shift_gamma_sorted": [
+        -0.05741483494796462,
+        -0.006748519944235198,
+        0.046756006266590155,
+        -0.006463027290374512,
+        -0.19426362214594528,
+        -0.01743578608782359,
+        0.15847579610439722,
+        -0.2507495544706173,
+        -0.10324193149743621,
+        0.03064733332243108,
+        0.1496885862203423,
+        0.2507495544706173
+      ],
+      "longitudinal_force_by_frequency_component": {
+        "1": 0.00029958259056754154,
+        "2": 0.00018956490451870053,
+        "3": 0.00011241527638587365,
+        "4": 0.0
+      },
+      "longitudinal_force_by_physical_beam": {
+        "+x_prime": 0.011416338294647218,
+        "+y_prime": -0.01111555690891116,
+        "+z": 0.0,
+        "-x_prime": -0.01111555690891116,
+        "-y_prime": 0.011416338294647218,
+        "-z": 0.0
+      },
+      "most_populated_ground_states": [
+        {
+          "population": 0.10898911340525635,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.10272145040498279,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 1,
+            "level": "lower_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.09765527851595779,
+          "state": {
+            "F": 0.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 1.0,
+            "index": 3,
+            "level": "F0",
+            "mF": -0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 109.73157641206407
+          }
+        },
+        {
+          "population": 0.09641052472371997,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 2,
+            "level": "lower_F1",
+            "mF": 1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        }
+      ],
+      "name": "mgf_3_minus_delta_x",
+      "normalized_force_x": 0.0006015627714721153,
+      "one_shared_population_solution": true,
+      "population_by_approximate_mF": {
+        "-0.0": 0.09765527851595779,
+        "-1.0": 0.2592329385152792,
+        "-2.0": 0.06544788315849183,
+        "0.0": 0.23241834169303568,
+        "1.0": 0.20870839429678548,
+        "2.0": 0.04094252983522749,
+        "excited_-0.0": 0.024303001570812055,
+        "excited_-1.0": 0.023770275174393205,
+        "excited_0.0": 0.023765467607415974,
+        "excited_1.0": 0.023755889632601297
+      },
+      "position_m": [
+        -0.00374,
+        0.0,
+        0.0
+      ],
+      "scattering_rate_by_frequency_component_gamma": {
+        "1": 0.02924617472649845,
+        "2": 0.016471007346233132,
+        "3": 0.049877442798991534,
+        "4": 0.0
+      },
+      "scattering_rate_by_physical_beam_gamma": {
+        "+x_prime": 0.016145140448929427,
+        "+y_prime": 0.01571977133391212,
+        "+z": 0.01593240065301999,
+        "-x_prime": 0.01571977133391212,
+        "-y_prime": 0.016145140448929427,
+        "-z": 0.01593240065302003
+      },
+      "scattering_rate_by_spherical_polarization_gamma": {
+        "-1": 0.03186608295880969,
+        "0": 0.03186485654444078,
+        "1": 0.03186368536847265
+      },
+      "total_excited_fraction": 0.09559463398522253,
+      "total_scattering_rate_gamma": 0.09559462487172314,
+      "v_normalized": 0.0,
+      "velocity_m_s": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "weakest_coupled_ground_states": [
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 7,
+            "level": "F2",
+            "mF": -2.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.095056118913946
+        },
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          },
+          "total_pumping_rate_gamma": 0.11649069806245829
+        },
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 1,
+            "level": "lower_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          },
+          "total_pumping_rate_gamma": 0.12371705407035051
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 8,
+            "level": "F2",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.12833784247627933
+        }
+      ],
+      "x_normalized": -0.5
+    },
+    {
+      "equilibrium_populations": [
+        0.10898911340525642,
+        0.10272145040498262,
+        0.09641052472371998,
+        0.09765527851595793,
+        0.0935055523963107,
+        0.07980502610855168,
+        0.06760506170265432,
+        0.06544788315849186,
+        0.056738272713711936,
+        0.04989186517950125,
+        0.04469280787041129,
+        0.04094252983522756,
+        0.024303001570812086,
+        0.02377027517439316,
+        0.023765467607415974,
+        0.02375588963260132
+      ],
+      "excited_zeeman_shift_gamma_sorted": [
+        0.0,
+        -0.00025045911956915815,
+        0.0,
+        0.00025045911956915815
+      ],
+      "ground_population_by_level": {
+        "F0": 0.09765527851595793,
+        "F2": 0.2577133587573439,
+        "Fprime0": 0.024303001570812086,
+        "Fprime1": 0.07129163241441046,
+        "lower_F1": 0.30812108853395903,
+        "upper_F1": 0.24091564020751668
+      },
+      "ground_zeeman_shift_gamma_sorted": [
+        -0.05741483494796462,
+        -0.006748519944235198,
+        0.046756006266590155,
+        -0.006463027290374512,
+        -0.19426362214594528,
+        -0.01743578608782359,
+        0.15847579610439722,
+        -0.2507495544706173,
+        -0.10324193149743621,
+        0.03064733332243108,
+        0.1496885862203423,
+        0.2507495544706173
+      ],
+      "longitudinal_force_by_frequency_component": {
+        "1": -0.00029958259056753764,
+        "2": -0.0001895649045187053,
+        "3": -0.000112415276385891,
+        "4": 0.0
+      },
+      "longitudinal_force_by_physical_beam": {
+        "+x_prime": 0.01111555690891116,
+        "+y_prime": -0.011416338294647228,
+        "+z": 0.0,
+        "-x_prime": -0.011416338294647225,
+        "-y_prime": 0.01111555690891116,
+        "-z": 0.0
+      },
+      "most_populated_ground_states": [
+        {
+          "population": 0.10898911340525642,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.10272145040498262,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 1,
+            "level": "lower_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.09765527851595793,
+          "state": {
+            "F": 0.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 1.0,
+            "index": 3,
+            "level": "F0",
+            "mF": -0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 109.73157641206407
+          }
+        },
+        {
+          "population": 0.09641052472371998,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 2,
+            "level": "lower_F1",
+            "mF": 1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        }
+      ],
+      "name": "mgf_3_plus_delta_x",
+      "normalized_force_x": -0.0006015627714721335,
+      "one_shared_population_solution": true,
+      "population_by_approximate_mF": {
+        "-0.0": 0.09765527851595793,
+        "-1.0": 0.25923293851527907,
+        "-2.0": 0.06544788315849186,
+        "0.0": 0.23241834169303557,
+        "1.0": 0.20870839429678562,
+        "2.0": 0.04094252983522756,
+        "excited_-0.0": 0.024303001570812086,
+        "excited_-1.0": 0.02377027517439316,
+        "excited_0.0": 0.023765467607415974,
+        "excited_1.0": 0.02375588963260132
+      },
+      "position_m": [
+        0.00374,
+        0.0,
+        0.0
+      ],
+      "scattering_rate_by_frequency_component_gamma": {
+        "1": 0.02924617472649845,
+        "2": 0.01647100734623316,
+        "3": 0.04987744279899155,
+        "4": 0.0
+      },
+      "scattering_rate_by_physical_beam_gamma": {
+        "+x_prime": 0.01571977133391212,
+        "+y_prime": 0.01614514044892944,
+        "+z": 0.01593240065302,
+        "-x_prime": 0.016145140448929438,
+        "-y_prime": 0.01571977133391212,
+        "-z": 0.015932400653020033
+      },
+      "scattering_rate_by_spherical_polarization_gamma": {
+        "-1": 0.03186608295880971,
+        "0": 0.031864856544440795,
+        "1": 0.03186368536847265
+      },
+      "total_excited_fraction": 0.09559463398522254,
+      "total_scattering_rate_gamma": 0.09559462487172316,
+      "v_normalized": 0.0,
+      "velocity_m_s": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "weakest_coupled_ground_states": [
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 7,
+            "level": "F2",
+            "mF": -2.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.09505611891394602
+        },
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          },
+          "total_pumping_rate_gamma": 0.1164906980624583
+        },
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 1,
+            "level": "lower_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          },
+          "total_pumping_rate_gamma": 0.12371705407035054
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 8,
+            "level": "F2",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.12833784247627933
+        }
+      ],
+      "x_normalized": 0.5
+    },
+    {
+      "equilibrium_populations": [
+        0.09909815826319916,
+        0.09909815826319882,
+        0.10327393123275908,
+        0.09627768252805127,
+        0.0805445188579967,
+        0.08054451885799657,
+        0.07781106694688636,
+        0.05294389737610872,
+        0.0510913163582959,
+        0.050492272365121264,
+        0.05109131635829585,
+        0.0529438973761087,
+        0.026656991301195018,
+        0.02616607608803258,
+        0.02580012173872142,
+        0.026166076088032574
+      ],
+      "excited_zeeman_shift_gamma_sorted": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_population_by_level": {
+        "F0": 0.09627768252805127,
+        "F2": 0.25856269983393043,
+        "Fprime0": 0.026656991301195018,
+        "Fprime1": 0.07813227391478658,
+        "lower_F1": 0.30147024775915704,
+        "upper_F1": 0.23890010466287961
+      },
+      "ground_zeeman_shift_gamma_sorted": [
+        0.0,
+        0.0,
+        -8.881784197001252e-16,
+        4.440892098500626e-16,
+        8.881784197001252e-16,
+        0.0,
+        -4.440892098500626e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "longitudinal_force_by_frequency_component": {
+        "1": 0.00788763221844297,
+        "2": 0.00403900660999448,
+        "3": 0.01358622237905412,
+        "4": 0.0
+      },
+      "longitudinal_force_by_physical_beam": {
+        "+x_prime": 0.019459868746144776,
+        "+y_prime": -0.006703438142398991,
+        "+z": 0.0,
+        "-x_prime": -0.006703438142398991,
+        "-y_prime": 0.019459868746144776,
+        "-z": 0.0
+      },
+      "most_populated_ground_states": [
+        {
+          "population": 0.10327393123275908,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 2,
+            "level": "lower_F1",
+            "mF": 1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.09909815826319916,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.09909815826319882,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 1,
+            "level": "lower_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.09627768252805127,
+          "state": {
+            "F": 0.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 1.0,
+            "index": 3,
+            "level": "F0",
+            "mF": -0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 109.73157641206407
+          }
+        }
+      ],
+      "name": "mgf_3_minus_delta_v",
+      "normalized_force_x": 0.02551286120749157,
+      "one_shared_population_solution": true,
+      "population_by_approximate_mF": {
+        "-0.0": 0.09627768252805127,
+        "-1.0": 0.23073399347949175,
+        "-2.0": 0.05294389737610872,
+        "0.0": 0.23013494948631666,
+        "1.0": 0.2321763145379413,
+        "2.0": 0.0529438973761087,
+        "excited_-0.0": 0.026656991301195018,
+        "excited_-1.0": 0.02616607608803258,
+        "excited_0.0": 0.02580012173872142,
+        "excited_1.0": 0.026166076088032574
+      },
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scattering_rate_by_frequency_component_gamma": {
+        "1": 0.032081021890971534,
+        "2": 0.01793668407621984,
+        "3": 0.05477154925663224,
+        "4": 0.0
+      },
+      "scattering_rate_by_physical_beam_gamma": {
+        "+x_prime": 0.02752041030279826,
+        "+y_prime": 0.00948009313550976,
+        "+z": 0.015394124173603793,
+        "-x_prime": 0.00948009313550976,
+        "-y_prime": 0.02752041030279826,
+        "-z": 0.015394124173603776
+      },
+      "scattering_rate_by_spherical_polarization_gamma": {
+        "-1": 0.03389437589275779,
+        "0": 0.037000503438308026,
+        "1": 0.033894375892757796
+      },
+      "total_excited_fraction": 0.1047892652159816,
+      "total_scattering_rate_gamma": 0.1047892552238236,
+      "v_normalized": -0.5,
+      "velocity_m_s": [
+        -3.765,
+        0.0,
+        0.0
+      ],
+      "weakest_coupled_ground_states": [
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 2,
+            "level": "lower_F1",
+            "mF": 1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          },
+          "total_pumping_rate_gamma": 0.13952286958535617
+        },
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 1,
+            "level": "lower_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          },
+          "total_pumping_rate_gamma": 0.14615717780454804
+        },
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          },
+          "total_pumping_rate_gamma": 0.14615717780454807
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 7,
+            "level": "F2",
+            "mF": -2.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.16285909441282692
+        }
+      ],
+      "x_normalized": 0.0
+    },
+    {
+      "equilibrium_populations": [
+        0.09909815826319886,
+        0.09909815826319872,
+        0.10327393123275912,
+        0.0962776825280511,
+        0.08054451885799682,
+        0.08054451885799715,
+        0.07781106694688664,
+        0.05294389737610863,
+        0.051091316358295696,
+        0.0504922723651211,
+        0.051091316358295794,
+        0.05294389737610874,
+        0.02665699130119514,
+        0.026166076088032487,
+        0.025800121738721447,
+        0.026166076088032546
+      ],
+      "excited_zeeman_shift_gamma_sorted": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_population_by_level": {
+        "F0": 0.0962776825280511,
+        "F2": 0.25856269983392993,
+        "Fprime0": 0.02665699130119514,
+        "Fprime1": 0.07813227391478648,
+        "lower_F1": 0.3014702477591567,
+        "upper_F1": 0.2389001046628806
+      },
+      "ground_zeeman_shift_gamma_sorted": [
+        0.0,
+        0.0,
+        -8.881784197001252e-16,
+        4.440892098500626e-16,
+        8.881784197001252e-16,
+        0.0,
+        -4.440892098500626e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "longitudinal_force_by_frequency_component": {
+        "1": -0.007887632218442964,
+        "2": -0.004039006609994471,
+        "3": -0.013586222379054129,
+        "4": 0.0
+      },
+      "longitudinal_force_by_physical_beam": {
+        "+x_prime": 0.006703438142398992,
+        "+y_prime": -0.019459868746144776,
+        "+z": 0.0,
+        "-x_prime": -0.019459868746144776,
+        "-y_prime": 0.006703438142398992,
+        "-z": 0.0
+      },
+      "most_populated_ground_states": [
+        {
+          "population": 0.10327393123275912,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 2,
+            "level": "lower_F1",
+            "mF": 1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.09909815826319886,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.09909815826319872,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 1,
+            "level": "lower_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.0962776825280511,
+          "state": {
+            "F": 0.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 1.0,
+            "index": 3,
+            "level": "F0",
+            "mF": -0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 109.73157641206407
+          }
+        }
+      ],
+      "name": "mgf_3_plus_delta_v",
+      "normalized_force_x": -0.02551286120749157,
+      "one_shared_population_solution": true,
+      "population_by_approximate_mF": {
+        "-0.0": 0.0962776825280511,
+        "-1.0": 0.2307339934794914,
+        "-2.0": 0.05294389737610863,
+        "0.0": 0.23013494948631696,
+        "1.0": 0.23217631453794152,
+        "2.0": 0.05294389737610874,
+        "excited_-0.0": 0.02665699130119514,
+        "excited_-1.0": 0.026166076088032487,
+        "excited_0.0": 0.025800121738721447,
+        "excited_1.0": 0.026166076088032546
+      },
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scattering_rate_by_frequency_component_gamma": {
+        "1": 0.032081021890971506,
+        "2": 0.017936684076219817,
+        "3": 0.054771549256632315,
+        "4": 0.0
+      },
+      "scattering_rate_by_physical_beam_gamma": {
+        "+x_prime": 0.009480093135509762,
+        "+y_prime": 0.027520410302798257,
+        "+z": 0.015394124173603788,
+        "-x_prime": 0.027520410302798257,
+        "-y_prime": 0.009480093135509762,
+        "-z": 0.015394124173603804
+      },
+      "scattering_rate_by_spherical_polarization_gamma": {
+        "-1": 0.03389437589275779,
+        "0": 0.03700050343830803,
+        "1": 0.033894375892757816
+      },
+      "total_excited_fraction": 0.10478926521598163,
+      "total_scattering_rate_gamma": 0.10478925522382362,
+      "v_normalized": 0.5,
+      "velocity_m_s": [
+        3.765,
+        0.0,
+        0.0
+      ],
+      "weakest_coupled_ground_states": [
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 2,
+            "level": "lower_F1",
+            "mF": 1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          },
+          "total_pumping_rate_gamma": 0.1395228695853562
+        },
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 1,
+            "level": "lower_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          },
+          "total_pumping_rate_gamma": 0.14615717780454804
+        },
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          },
+          "total_pumping_rate_gamma": 0.14615717780454807
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 7,
+            "level": "F2",
+            "mF": -2.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.16285909441282692
+        }
+      ],
+      "x_normalized": 0.0
+    },
+    {
+      "equilibrium_populations": [
+        0.08397827319017291,
+        0.09171676568551866,
+        0.09562258667314809,
+        0.08445375960276189,
+        0.06358350799155356,
+        0.04991230732943068,
+        0.08650890761795876,
+        0.05773617319145232,
+        0.06494179927983147,
+        0.06258142389745179,
+        0.06339418931264777,
+        0.06582038523113598,
+        0.031105786550491614,
+        0.03308840775328639,
+        0.0332558395876686,
+        0.03229988710548948
+      ],
+      "excited_zeeman_shift_gamma_sorted": [
+        0.0,
+        -1.734723475976807e-18,
+        0.0,
+        1.734723475976807e-18
+      ],
+      "ground_population_by_level": {
+        "F0": 0.08445375960276189,
+        "F2": 0.31447397091251933,
+        "Fprime0": 0.031105786550491614,
+        "Fprime1": 0.09864413444644446,
+        "lower_F1": 0.27131762554883965,
+        "upper_F1": 0.200004722938943
+      },
+      "ground_zeeman_shift_gamma_sorted": [
+        0.0,
+        1.7763568394002505e-15,
+        1.7763568394002505e-15,
+        3.9968028886505635e-15,
+        -1.3322676295501878e-15,
+        4.440892098500626e-16,
+        4.440892098500626e-16,
+        -3.1086244689504383e-15,
+        -1.7763568394002505e-15,
+        -1.3322676295501878e-15,
+        1.7763568394002505e-15,
+        2.6645352591003757e-15
+      ],
+      "longitudinal_force_by_frequency_component": {
+        "1": -0.01976879574269143,
+        "2": -0.010741808420924894,
+        "3": -0.03126682737077493,
+        "4": 0.0
+      },
+      "longitudinal_force_by_physical_beam": {
+        "+x_prime": 0.0030024230946708408,
+        "+y_prime": -0.03389113886186647,
+        "+z": 0.0,
+        "-x_prime": -0.03389113886186647,
+        "-y_prime": 0.0030024230946708408,
+        "-z": 0.0
+      },
+      "most_populated_ground_states": [
+        {
+          "population": 0.09562258667314809,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 2,
+            "level": "lower_F1",
+            "mF": 1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.09171676568551866,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 1,
+            "level": "lower_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.08650890761795876,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 6,
+            "level": "upper_F1",
+            "mF": 1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 230.05865548732874
+          }
+        },
+        {
+          "population": 0.08445375960276189,
+          "state": {
+            "F": 0.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 1.0,
+            "index": 3,
+            "level": "F0",
+            "mF": -0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 109.73157641206407
+          }
+        }
+      ],
+      "name": "mgf_3_model_negative_extremum",
+      "normalized_force_x": -0.06177743153439127,
+      "one_shared_population_solution": true,
+      "population_by_approximate_mF": {
+        "-0.0": 0.08445375960276189,
+        "-1.0": 0.21250358046155793,
+        "-2.0": 0.05773617319145232,
+        "0.0": 0.20421049691240112,
+        "1.0": 0.24552568360375465,
+        "2.0": 0.06582038523113598,
+        "excited_-0.0": 0.031105786550491614,
+        "excited_-1.0": 0.03308840775328639,
+        "excited_0.0": 0.0332558395876686,
+        "excited_1.0": 0.03229988710548948
+      },
+      "position_m": [
+        -2.6574298317427746e-17,
+        0.0,
+        0.0
+      ],
+      "scattering_rate_by_frequency_component_gamma": {
+        "1": 0.040444594295004785,
+        "2": 0.022508129974771043,
+        "3": 0.06679090672164009,
+        "4": 0.0
+      },
+      "scattering_rate_by_physical_beam_gamma": {
+        "+x_prime": 0.004246067460465703,
+        "+y_prime": 0.04792930822272143,
+        "+z": 0.013090136152257216,
+        "-x_prime": 0.04792930822272143,
+        "-y_prime": 0.004246067460465703,
+        "-z": 0.012302743472784452
+      },
+      "scattering_rate_by_spherical_polarization_gamma": {
+        "-1": 0.0392599928744857,
+        "0": 0.05217537568318714,
+        "1": 0.03830826243374309
+      },
+      "total_excited_fraction": 0.12974992099693608,
+      "total_scattering_rate_gamma": 0.12974363099141578,
+      "v_normalized": 1.4936247723132894,
+      "velocity_m_s": [
+        11.24699453551907,
+        0.0,
+        0.0
+      ],
+      "weakest_coupled_ground_states": [
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 11,
+            "level": "F2",
+            "mF": 2.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.16509850421784464
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 10,
+            "level": "F2",
+            "mF": 1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.17312861056006523
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 8,
+            "level": "F2",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.17312861056006534
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 9,
+            "level": "F2",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.1879488869975913
+        }
+      ],
+      "x_normalized": -3.552713678800501e-15
+    },
+    {
+      "equilibrium_populations": [
+        0.08442241378019257,
+        0.0977413291584689,
+        0.07712386107479145,
+        0.08544915873469944,
+        0.0681704984823271,
+        0.07667583212082153,
+        0.05514253346249719,
+        0.06647639612778558,
+        0.06711022560234924,
+        0.06275299730656025,
+        0.06590806309481856,
+        0.05891717777785634,
+        0.03409111090695647,
+        0.03419323969724352,
+        0.03224443515823501,
+        0.033580727514396745
+      ],
+      "excited_zeeman_shift_gamma_sorted": [
+        0.0,
+        -1.734723475976807e-18,
+        0.0,
+        1.734723475976807e-18
+      ],
+      "ground_population_by_level": {
+        "F0": 0.08544915873469944,
+        "F2": 0.32116485990936994,
+        "Fprime0": 0.03409111090695647,
+        "Fprime1": 0.10001840236987528,
+        "lower_F1": 0.2592876040134529,
+        "upper_F1": 0.1999888640656458
+      },
+      "ground_zeeman_shift_gamma_sorted": [
+        0.0,
+        1.7763568394002505e-15,
+        1.7763568394002505e-15,
+        3.9968028886505635e-15,
+        -1.3322676295501878e-15,
+        4.440892098500626e-16,
+        4.440892098500626e-16,
+        -3.1086244689504383e-15,
+        -1.7763568394002505e-15,
+        -1.3322676295501878e-15,
+        1.7763568394002505e-15,
+        2.6645352591003757e-15
+      ],
+      "longitudinal_force_by_frequency_component": {
+        "1": 0.021179791717879357,
+        "2": 0.01092021861832076,
+        "3": 0.03466164281709435,
+        "4": 0.0
+      },
+      "longitudinal_force_by_physical_beam": {
+        "+x_prime": 0.036150563964806634,
+        "+y_prime": -0.0027697373881593983,
+        "+z": 0.0,
+        "-x_prime": -0.0027697373881593983,
+        "-y_prime": 0.036150563964806634,
+        "-z": 0.0
+      },
+      "most_populated_ground_states": [
+        {
+          "population": 0.0977413291584689,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 1,
+            "level": "lower_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.08544915873469944,
+          "state": {
+            "F": 0.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 1.0,
+            "index": 3,
+            "level": "F0",
+            "mF": -0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 109.73157641206407
+          }
+        },
+        {
+          "population": 0.08442241378019257,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.07712386107479145,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 2,
+            "level": "lower_F1",
+            "mF": 1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        }
+      ],
+      "name": "mgf_3_model_positive_extremum",
+      "normalized_force_x": 0.06676165315329448,
+      "one_shared_population_solution": true,
+      "population_by_approximate_mF": {
+        "-0.0": 0.08544915873469944,
+        "-1.0": 0.2197031378648689,
+        "-2.0": 0.06647639612778558,
+        "0.0": 0.2371701585858507,
+        "1.0": 0.1981744576321072,
+        "2.0": 0.05891717777785634,
+        "excited_-0.0": 0.03409111090695647,
+        "excited_-1.0": 0.03419323969724352,
+        "excited_0.0": 0.03224443515823501,
+        "excited_1.0": 0.033580727514396745
+      },
+      "position_m": [
+        -2.6574298317427746e-17,
+        0.0,
+        0.0
+      ],
+      "scattering_rate_by_frequency_component_gamma": {
+        "1": 0.04124274201957698,
+        "2": 0.022655746036402274,
+        "3": 0.07027252773544752,
+        "4": 0.0
+      },
+      "scattering_rate_by_physical_beam_gamma": {
+        "+x_prime": 0.05112461784646563,
+        "+y_prime": 0.003917000178546855,
+        "+z": 0.011715351480315796,
+        "-x_prime": 0.003917000178546855,
+        "-y_prime": 0.05112461784646563,
+        "-z": 0.012372428261086008
+      },
+      "scattering_rate_by_spherical_polarization_gamma": {
+        "-1": 0.03880486136092016,
+        "0": 0.055041618025012506,
+        "1": 0.040324536405494146
+      },
+      "total_excited_fraction": 0.13410951327683174,
+      "total_scattering_rate_gamma": 0.13417101579142682,
+      "v_normalized": -1.4936247723133107,
+      "velocity_m_s": [
+        -11.24699453551923,
+        0.0,
+        0.0
+      ],
+      "weakest_coupled_ground_states": [
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 7,
+            "level": "F2",
+            "mF": -2.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.16211180111691656
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 10,
+            "level": "F2",
+            "mF": 1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.17312861056006276
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 8,
+            "level": "F2",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.17312861056006285
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 9,
+            "level": "F2",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.18794888699758758
+        }
+      ],
+      "x_normalized": -3.552713678800501e-15
+    },
+    {
+      "equilibrium_populations": [
+        0.16271025042278656,
+        0.11982647515802025,
+        0.0621386451045904,
+        0.09940590972817241,
+        0.11299620698065567,
+        0.11920325177276048,
+        0.04370080631535036,
+        0.028894802314885,
+        0.017877293079237216,
+        0.02841359782624229,
+        0.06944101332705435,
+        0.08382961860824013,
+        0.012875981596751459,
+        0.012867765752061264,
+        0.01294170046592423,
+        0.012876681547267888
+      ],
+      "excited_zeeman_shift_gamma_sorted": [
+        0.0,
+        -0.0027550503152607374,
+        0.0,
+        0.002755050315260738
+      ],
+      "ground_population_by_level": {
+        "F0": 0.09940590972817241,
+        "F2": 0.228456325155659,
+        "Fprime0": 0.012875981596751459,
+        "Fprime1": 0.03868614776525338,
+        "lower_F1": 0.34467537068539716,
+        "upper_F1": 0.27590026506876647
+      },
+      "ground_zeeman_shift_gamma_sorted": [
+        -1.1337636229947012,
+        -0.7547457959822452,
+        -0.09996509902988837,
+        -0.7671122906574355,
+        -2.6088206672215017,
+        -2.31478004797647,
+        -0.03962944789544043,
+        -0.04945925489328129,
+        0.9415531888138635,
+        1.5614875345351389,
+        2.5069904041251934,
+        2.7582450991767895
+      ],
+      "longitudinal_force_by_frequency_component": {
+        "1": -0.0012009416074865672,
+        "2": 0.0005682081126435565,
+        "3": -0.0017676637542385588,
+        "4": 0.0
+      },
+      "longitudinal_force_by_physical_beam": {
+        "+x_prime": 0.005476679341641071,
+        "+y_prime": -0.006676877966181858,
+        "+z": 0.0,
+        "-x_prime": -0.006676877966181857,
+        "-y_prime": 0.005476679341641073,
+        "-z": 0.0
+      },
+      "most_populated_ground_states": [
+        {
+          "population": 0.16271025042278656,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.11982647515802025,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 1,
+            "level": "lower_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.11920325177276048,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 5,
+            "level": "upper_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 230.05865548732874
+          }
+        },
+        {
+          "population": 0.11299620698065567,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 4,
+            "level": "upper_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 230.05865548732874
+          }
+        }
+      ],
+      "name": "mgf_3_dark_region",
+      "normalized_force_x": -0.00240039724908157,
+      "one_shared_population_solution": true,
+      "population_by_approximate_mF": {
+        "-0.0": 0.09940590972817241,
+        "-1.0": 0.2935837504826795,
+        "-2.0": 0.028894802314885,
+        "0.0": 0.26744332475702304,
+        "1.0": 0.1752804647469951,
+        "2.0": 0.08382961860824013,
+        "excited_-0.0": 0.012875981596751459,
+        "excited_-1.0": 0.012867765752061264,
+        "excited_0.0": 0.01294170046592423,
+        "excited_1.0": 0.012876681547267888
+      },
+      "position_m": [
+        0.041139999999999996,
+        0.0,
+        0.0
+      ],
+      "scattering_rate_by_frequency_component_gamma": {
+        "1": 0.01607780249437201,
+        "2": 0.011045812951004482,
+        "3": 0.024438509008556812,
+        "4": 0.0
+      },
+      "scattering_rate_by_physical_beam_gamma": {
+        "+x_prime": 0.007745194201717358,
+        "+y_prime": 0.009442531374084472,
+        "+z": 0.008593336651164823,
+        "-x_prime": 0.00944253137408447,
+        "-y_prime": 0.007745194201717359,
+        "-z": 0.008593336651164823
+      },
+      "scattering_rate_by_spherical_polarization_gamma": {
+        "-1": 0.017186719524487998,
+        "0": 0.017187199439065735,
+        "1": 0.01718820549037956
+      },
+      "total_excited_fraction": 0.05156212936200484,
+      "total_scattering_rate_gamma": 0.051562124453933315,
+      "v_normalized": 0.0,
+      "velocity_m_s": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "weakest_coupled_ground_states": [
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 5,
+            "level": "upper_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 230.05865548732874
+          },
+          "total_pumping_rate_gamma": 0.020168499110299352
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 11,
+            "level": "F2",
+            "mF": 2.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.03024699483404803
+        },
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          },
+          "total_pumping_rate_gamma": 0.040168825419012205
+        },
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 4,
+            "level": "upper_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 230.05865548732874
+          },
+          "total_pumping_rate_gamma": 0.04555082716379203
+        }
+      ],
+      "x_normalized": 5.5
+    },
+    {
+      "equilibrium_populations": [
+        0.09725215990150762,
+        0.09725215990150754,
+        0.09725215990150746,
+        0.09118525513705031,
+        0.08206894738119505,
+        0.08206894738119502,
+        0.08206894738119502,
+        0.055901848083958504,
+        0.05590184808395849,
+        0.055901848083958504,
+        0.05590184808395856,
+        0.05590184808395861,
+        0.023148459028575697,
+        0.02273124118882456,
+        0.022731241188824577,
+        0.02273124118882457
+      ],
+      "excited_zeeman_shift_gamma_sorted": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_population_by_level": {
+        "F0": 0.09118525513705031,
+        "F2": 0.2795092404197927,
+        "Fprime0": 0.023148459028575697,
+        "Fprime1": 0.0681937235664737,
+        "lower_F1": 0.2917564797045226,
+        "upper_F1": 0.2462068421435851
+      },
+      "ground_zeeman_shift_gamma_sorted": [
+        0.0,
+        0.0,
+        -8.881784197001252e-16,
+        4.440892098500626e-16,
+        8.881784197001252e-16,
+        0.0,
+        -4.440892098500626e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "longitudinal_force_by_frequency_component": {
+        "1": -1.734723475976807e-18,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0
+      },
+      "longitudinal_force_by_physical_beam": {
+        "+x_prime": 0.010764778436147177,
+        "+y_prime": -0.010764778436147177,
+        "+z": 0.0,
+        "-x_prime": -0.010764778436147177,
+        "-y_prime": 0.010764778436147177,
+        "-z": 0.0
+      },
+      "most_populated_ground_states": [
+        {
+          "population": 0.09725215990150762,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.09725215990150754,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 1,
+            "level": "lower_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.09725215990150746,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 2,
+            "level": "lower_F1",
+            "mF": 1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.09118525513705031,
+          "state": {
+            "F": 0.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 1.0,
+            "index": 3,
+            "level": "F0",
+            "mF": -0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 109.73157641206407
+          }
+        }
+      ],
+      "name": "mgf_3_plus_1_origin",
+      "normalized_force_x": -3.469446951953614e-18,
+      "one_shared_population_solution": true,
+      "population_by_approximate_mF": {
+        "-0.0": 0.09118525513705031,
+        "-1.0": 0.23522295536666116,
+        "-2.0": 0.055901848083958504,
+        "0.0": 0.23522295536666107,
+        "1.0": 0.23522295536666105,
+        "2.0": 0.05590184808395861,
+        "excited_-0.0": 0.023148459028575697,
+        "excited_-1.0": 0.02273124118882456,
+        "excited_0.0": 0.022731241188824577,
+        "excited_1.0": 0.02273124118882457
+      },
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scattering_rate_by_frequency_component_gamma": {
+        "1": 0.027924282173899962,
+        "2": 0.015624385564802251,
+        "3": 0.04225896743507926,
+        "4": 0.005534538715471604
+      },
+      "scattering_rate_by_physical_beam_gamma": {
+        "+x_prime": 0.015223695660340774,
+        "+y_prime": 0.015223695660340774,
+        "+z": 0.01522369562394499,
+        "-x_prime": 0.015223695660340774,
+        "-y_prime": 0.015223695660340774,
+        "-z": 0.01522369562394498
+      },
+      "scattering_rate_by_spherical_polarization_gamma": {
+        "-1": 0.030447391284285762,
+        "0": 0.030447391320681555,
+        "1": 0.03044739128428576
+      },
+      "total_excited_fraction": 0.0913421825950494,
+      "total_scattering_rate_gamma": 0.0913421738892531,
+      "v_normalized": 0.0,
+      "velocity_m_s": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "weakest_coupled_ground_states": [
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 10,
+            "level": "F2",
+            "mF": 1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.11421374628069775
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 8,
+            "level": "F2",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.11421374628069775
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 7,
+            "level": "F2",
+            "mF": -2.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.11421374892527301
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 11,
+            "level": "F2",
+            "mF": 2.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.11421374892527301
+        }
+      ],
+      "x_normalized": 0.0
+    },
+    {
+      "equilibrium_populations": [
+        0.103550636598319,
+        0.09761481686353637,
+        0.09164344208300634,
+        0.09142349164593604,
+        0.09234013462223374,
+        0.08276828659089382,
+        0.07215080516853992,
+        0.07018755042448185,
+        0.06142759961011907,
+        0.054017932829619975,
+        0.04812917239112295,
+        0.043775052373245624,
+        0.02305992435118835,
+        0.022644122480543327,
+        0.022639734428710197,
+        0.02262729753850344
+      ],
+      "excited_zeeman_shift_gamma_sorted": [
+        0.0,
+        -0.00025045911956915815,
+        0.0,
+        0.00025045911956915815
+      ],
+      "ground_population_by_level": {
+        "F0": 0.09142349164593604,
+        "F2": 0.27753730762858947,
+        "Fprime0": 0.02305992435118835,
+        "Fprime1": 0.06791115444775697,
+        "lower_F1": 0.2928088955448617,
+        "upper_F1": 0.24725922638166747
+      },
+      "ground_zeeman_shift_gamma_sorted": [
+        -0.05741483494796462,
+        -0.006748519944235198,
+        0.046756006266590155,
+        -0.006463027290374512,
+        -0.19426362214594528,
+        -0.01743578608782359,
+        0.15847579610439722,
+        -0.2507495544706173,
+        -0.10324193149743621,
+        0.03064733332243108,
+        0.1496885862203423,
+        0.2507495544706173
+      ],
+      "longitudinal_force_by_frequency_component": {
+        "1": 0.00028510528994786684,
+        "2": 0.00017578149491055337,
+        "3": 0.0007865407560148068,
+        "4": 0.0006744128039258943
+      },
+      "longitudinal_force_by_physical_beam": {
+        "+x_prime": 0.011201656983692888,
+        "+y_prime": -0.01024073681129333,
+        "+z": 0.0,
+        "-x_prime": -0.01024073681129333,
+        "-y_prime": 0.011201656983692888,
+        "-z": 0.0
+      },
+      "most_populated_ground_states": [
+        {
+          "population": 0.103550636598319,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.09761481686353637,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 1,
+            "level": "lower_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.09234013462223374,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 4,
+            "level": "upper_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 230.05865548732874
+          }
+        },
+        {
+          "population": 0.09164344208300634,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 2,
+            "level": "lower_F1",
+            "mF": 1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        }
+      ],
+      "name": "mgf_3_plus_1_minus_delta_x",
+      "normalized_force_x": 0.0019218403447991202,
+      "one_shared_population_solution": true,
+      "population_by_approximate_mF": {
+        "-0.0": 0.09142349164593604,
+        "-1.0": 0.2573183708306718,
+        "-2.0": 0.07018755042448185,
+        "0.0": 0.23440103628405018,
+        "1.0": 0.2119234196426692,
+        "2.0": 0.043775052373245624,
+        "excited_-0.0": 0.02305992435118835,
+        "excited_-1.0": 0.022644122480543327,
+        "excited_0.0": 0.022639734428710197,
+        "excited_1.0": 0.02262729753850344
+      },
+      "position_m": [
+        -0.00374,
+        0.0,
+        0.0
+      ],
+      "scattering_rate_by_frequency_component_gamma": {
+        "1": 0.02780118098863211,
+        "2": 0.015570081246764648,
+        "3": 0.0418424782071419,
+        "4": 0.005757329685824088
+      },
+      "scattering_rate_by_physical_beam_gamma": {
+        "+x_prime": 0.01584153522738978,
+        "+y_prime": 0.014482588887224432,
+        "+z": 0.015161410949567146,
+        "-x_prime": 0.014482588887224432,
+        "-y_prime": 0.01584153522738978,
+        "-z": 0.015161410949567175
+      },
+      "scattering_rate_by_spherical_polarization_gamma": {
+        "-1": 0.030325200639270033,
+        "0": 0.03032347300687426,
+        "1": 0.030322396482218433
+      },
+      "total_excited_fraction": 0.09097107879894532,
+      "total_scattering_rate_gamma": 0.09097107012836289,
+      "v_normalized": 0.0,
+      "velocity_m_s": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "weakest_coupled_ground_states": [
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 7,
+            "level": "F2",
+            "mF": -2.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.07938046853793111
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 8,
+            "level": "F2",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.10385957105955332
+        },
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          },
+          "total_pumping_rate_gamma": 0.11686267292576769
+        },
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 1,
+            "level": "lower_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          },
+          "total_pumping_rate_gamma": 0.12408837337461905
+        }
+      ],
+      "x_normalized": -0.5
+    },
+    {
+      "equilibrium_populations": [
+        0.103550636598319,
+        0.0976148168635364,
+        0.09164344208300627,
+        0.09142349164593602,
+        0.0923401346222339,
+        0.08276828659089375,
+        0.07215080516853987,
+        0.07018755042448181,
+        0.061427599610119066,
+        0.05401793282961998,
+        0.048129172391123,
+        0.04377505237324562,
+        0.02305992435118834,
+        0.02264412248054331,
+        0.022639734428710114,
+        0.022627297538503486
+      ],
+      "excited_zeeman_shift_gamma_sorted": [
+        0.0,
+        -0.00025045911956915815,
+        0.0,
+        0.00025045911956915815
+      ],
+      "ground_population_by_level": {
+        "F0": 0.09142349164593602,
+        "F2": 0.27753730762858947,
+        "Fprime0": 0.02305992435118834,
+        "Fprime1": 0.0679111544477569,
+        "lower_F1": 0.29280889554486167,
+        "upper_F1": 0.24725922638166753
+      },
+      "ground_zeeman_shift_gamma_sorted": [
+        -0.05741483494796462,
+        -0.006748519944235198,
+        0.046756006266590155,
+        -0.006463027290374512,
+        -0.19426362214594528,
+        -0.01743578608782359,
+        0.15847579610439722,
+        -0.2507495544706173,
+        -0.10324193149743621,
+        0.03064733332243108,
+        0.1496885862203423,
+        0.2507495544706173
+      ],
+      "longitudinal_force_by_frequency_component": {
+        "1": -0.00028510528994786554,
+        "2": -0.00017578149491055488,
+        "3": -0.0007865407560148016,
+        "4": -0.0006744128039258964
+      },
+      "longitudinal_force_by_physical_beam": {
+        "+x_prime": 0.010240736811293333,
+        "+y_prime": -0.011201656983692894,
+        "+z": 0.0,
+        "-x_prime": -0.011201656983692894,
+        "-y_prime": 0.010240736811293335,
+        "-z": 0.0
+      },
+      "most_populated_ground_states": [
+        {
+          "population": 0.103550636598319,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.0976148168635364,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 1,
+            "level": "lower_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.0923401346222339,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 4,
+            "level": "upper_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 230.05865548732874
+          }
+        },
+        {
+          "population": 0.09164344208300627,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 2,
+            "level": "lower_F1",
+            "mF": 1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        }
+      ],
+      "name": "mgf_3_plus_1_plus_delta_x",
+      "normalized_force_x": -0.0019218403447991191,
+      "one_shared_population_solution": true,
+      "population_by_approximate_mF": {
+        "-0.0": 0.09142349164593602,
+        "-1.0": 0.257318370830672,
+        "-2.0": 0.07018755042448181,
+        "0.0": 0.23440103628405012,
+        "1.0": 0.21192341964266914,
+        "2.0": 0.04377505237324562,
+        "excited_-0.0": 0.02305992435118834,
+        "excited_-1.0": 0.02264412248054331,
+        "excited_0.0": 0.022639734428710114,
+        "excited_1.0": 0.022627297538503486
+      },
+      "position_m": [
+        0.00374,
+        0.0,
+        0.0
+      ],
+      "scattering_rate_by_frequency_component_gamma": {
+        "1": 0.02780118098863211,
+        "2": 0.01557008124676465,
+        "3": 0.04184247820714192,
+        "4": 0.005757329685824092
+      },
+      "scattering_rate_by_physical_beam_gamma": {
+        "+x_prime": 0.014482588887224436,
+        "+y_prime": 0.015841535227389788,
+        "+z": 0.015161410949567147,
+        "-x_prime": 0.015841535227389784,
+        "-y_prime": 0.014482588887224439,
+        "-z": 0.01516141094956718
+      },
+      "scattering_rate_by_spherical_polarization_gamma": {
+        "-1": 0.03032520063927005,
+        "0": 0.030323473006874272,
+        "1": 0.030322396482218454
+      },
+      "total_excited_fraction": 0.09097107879894525,
+      "total_scattering_rate_gamma": 0.09097107012836282,
+      "v_normalized": 0.0,
+      "velocity_m_s": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "weakest_coupled_ground_states": [
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 7,
+            "level": "F2",
+            "mF": -2.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.07938046853793111
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 8,
+            "level": "F2",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.10385957105955332
+        },
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          },
+          "total_pumping_rate_gamma": 0.1168626729257677
+        },
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 1,
+            "level": "lower_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          },
+          "total_pumping_rate_gamma": 0.12408837337461905
+        }
+      ],
+      "x_normalized": 0.5
+    },
+    {
+      "equilibrium_populations": [
+        0.0937892231915492,
+        0.09378922319154878,
+        0.09774943716289079,
+        0.08995548791199805,
+        0.08360319347428824,
+        0.08360319347428807,
+        0.08083434682099355,
+        0.05689120005808813,
+        0.054768813836584336,
+        0.054086177237316846,
+        0.054768813836584315,
+        0.05689120005808806,
+        0.02517236803620893,
+        0.024818143674519913,
+        0.024461034360533016,
+        0.024818143674519892
+      ],
+      "excited_zeeman_shift_gamma_sorted": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_population_by_level": {
+        "F0": 0.08995548791199805,
+        "F2": 0.2774062050266617,
+        "Fprime0": 0.02517236803620893,
+        "Fprime1": 0.07409732170957281,
+        "lower_F1": 0.28532788354598876,
+        "upper_F1": 0.24804073376956987
+      },
+      "ground_zeeman_shift_gamma_sorted": [
+        0.0,
+        0.0,
+        -8.881784197001252e-16,
+        4.440892098500626e-16,
+        8.881784197001252e-16,
+        0.0,
+        -4.440892098500626e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "longitudinal_force_by_frequency_component": {
+        "1": 0.007459613832662989,
+        "2": 0.0037373100354754973,
+        "3": 0.011585431062488476,
+        "4": -0.0007756748845729991
+      },
+      "longitudinal_force_by_physical_beam": {
+        "+x_prime": 0.017874116901918535,
+        "+y_prime": -0.006870776878891552,
+        "+z": 0.0,
+        "-x_prime": -0.006870776878891552,
+        "-y_prime": 0.017874116901918535,
+        "-z": 0.0
+      },
+      "most_populated_ground_states": [
+        {
+          "population": 0.09774943716289079,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 2,
+            "level": "lower_F1",
+            "mF": 1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.0937892231915492,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.09378922319154878,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 1,
+            "level": "lower_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.08995548791199805,
+          "state": {
+            "F": 0.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 1.0,
+            "index": 3,
+            "level": "F0",
+            "mF": -0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 109.73157641206407
+          }
+        }
+      ],
+      "name": "mgf_3_plus_1_minus_delta_v",
+      "normalized_force_x": 0.022006680046053967,
+      "one_shared_population_solution": true,
+      "population_by_approximate_mF": {
+        "-0.0": 0.08995548791199805,
+        "-1.0": 0.23216123050242177,
+        "-2.0": 0.05689120005808813,
+        "0.0": 0.2314785939031537,
+        "1.0": 0.2333525978204687,
+        "2.0": 0.05689120005808806,
+        "excited_-0.0": 0.02517236803620893,
+        "excited_-1.0": 0.024818143674519913,
+        "excited_0.0": 0.024461034360533016,
+        "excited_1.0": 0.024818143674519892
+      },
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scattering_rate_by_frequency_component_gamma": {
+        "1": 0.030378767234328773,
+        "2": 0.016923694233597544,
+        "3": 0.04632042442138056,
+        "4": 0.005646794393118564
+      },
+      "scattering_rate_by_physical_beam_gamma": {
+        "+x_prime": 0.02527781853813536,
+        "+y_prime": 0.009716745846167918,
+        "+z": 0.014640275756909453,
+        "-x_prime": 0.009716745846167918,
+        "-y_prime": 0.02527781853813536,
+        "-z": 0.014640275756909434
+      },
+      "scattering_rate_by_spherical_polarization_gamma": {
+        "-1": 0.03213755794906108,
+        "0": 0.034994564384303276,
+        "1": 0.032137557949061084
+      },
+      "total_excited_fraction": 0.09926968974578174,
+      "total_scattering_rate_gamma": 0.09926968028242529,
+      "v_normalized": -0.5,
+      "velocity_m_s": [
+        -3.765,
+        0.0,
+        0.0
+      ],
+      "weakest_coupled_ground_states": [
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 11,
+            "level": "F2",
+            "mF": 2.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.1289667041037053
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 7,
+            "level": "F2",
+            "mF": -2.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.12896670410370534
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 8,
+            "level": "F2",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.13634317853594777
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 10,
+            "level": "F2",
+            "mF": 1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.13634317853594777
+        }
+      ],
+      "x_normalized": 0.0
+    },
+    {
+      "equilibrium_populations": [
+        0.09378922319154903,
+        0.09378922319154898,
+        0.0977494371628906,
+        0.08995548791199802,
+        0.08360319347428823,
+        0.08360319347428813,
+        0.08083434682099352,
+        0.05689120005808812,
+        0.05476881383658435,
+        0.0540861772373169,
+        0.05476881383658435,
+        0.05689120005808807,
+        0.02517236803620891,
+        0.024818143674519896,
+        0.024461034360533034,
+        0.024818143674519934
+      ],
+      "excited_zeeman_shift_gamma_sorted": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ground_population_by_level": {
+        "F0": 0.08995548791199802,
+        "F2": 0.2774062050266618,
+        "Fprime0": 0.02517236803620891,
+        "Fprime1": 0.07409732170957287,
+        "lower_F1": 0.2853278835459886,
+        "upper_F1": 0.2480407337695699
+      },
+      "ground_zeeman_shift_gamma_sorted": [
+        0.0,
+        0.0,
+        -8.881784197001252e-16,
+        4.440892098500626e-16,
+        8.881784197001252e-16,
+        0.0,
+        -4.440892098500626e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "longitudinal_force_by_frequency_component": {
+        "1": -0.007459613832662985,
+        "2": -0.0037373100354754943,
+        "3": -0.011585431062488476,
+        "4": 0.0007756748845729993
+      },
+      "longitudinal_force_by_physical_beam": {
+        "+x_prime": 0.006870776878891548,
+        "+y_prime": -0.01787411690191853,
+        "+z": 0.0,
+        "-x_prime": -0.01787411690191853,
+        "-y_prime": 0.006870776878891548,
+        "-z": 0.0
+      },
+      "most_populated_ground_states": [
+        {
+          "population": 0.0977494371628906,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 2,
+            "level": "lower_F1",
+            "mF": 1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.09378922319154903,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.09378922319154898,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 1,
+            "level": "lower_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.08995548791199802,
+          "state": {
+            "F": 0.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 1.0,
+            "index": 3,
+            "level": "F0",
+            "mF": -0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 109.73157641206407
+          }
+        }
+      ],
+      "name": "mgf_3_plus_1_plus_delta_v",
+      "normalized_force_x": -0.022006680046053953,
+      "one_shared_population_solution": true,
+      "population_by_approximate_mF": {
+        "-0.0": 0.08995548791199802,
+        "-1.0": 0.23216123050242163,
+        "-2.0": 0.05689120005808812,
+        "0.0": 0.231478593903154,
+        "1.0": 0.2333525978204685,
+        "2.0": 0.05689120005808807,
+        "excited_-0.0": 0.02517236803620891,
+        "excited_-1.0": 0.024818143674519896,
+        "excited_0.0": 0.024461034360533034,
+        "excited_1.0": 0.024818143674519934
+      },
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scattering_rate_by_frequency_component_gamma": {
+        "1": 0.03037876723432874,
+        "2": 0.016923694233597533,
+        "3": 0.04632042442138057,
+        "4": 0.005646794393118563
+      },
+      "scattering_rate_by_physical_beam_gamma": {
+        "+x_prime": 0.009716745846167912,
+        "+y_prime": 0.025277818538135353,
+        "+z": 0.014640275756909436,
+        "-x_prime": 0.025277818538135353,
+        "-y_prime": 0.009716745846167912,
+        "-z": 0.014640275756909432
+      },
+      "scattering_rate_by_spherical_polarization_gamma": {
+        "-1": 0.03213755794906108,
+        "0": 0.034994564384303276,
+        "1": 0.03213755794906106
+      },
+      "total_excited_fraction": 0.09926968974578176,
+      "total_scattering_rate_gamma": 0.0992696802824253,
+      "v_normalized": 0.5,
+      "velocity_m_s": [
+        3.765,
+        0.0,
+        0.0
+      ],
+      "weakest_coupled_ground_states": [
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 11,
+            "level": "F2",
+            "mF": 2.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.12896670410370534
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 7,
+            "level": "F2",
+            "mF": -2.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.12896670410370537
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 8,
+            "level": "F2",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.13634317853594777
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 10,
+            "level": "F2",
+            "mF": 1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.13634317853594777
+        }
+      ],
+      "x_normalized": 0.0
+    },
+    {
+      "equilibrium_populations": [
+        0.07902156675558265,
+        0.07950854173704026,
+        0.09094542611075476,
+        0.07957073862268792,
+        0.06464197265549143,
+        0.06546311968883511,
+        0.0869168992284275,
+        0.07018367607853256,
+        0.06602586318953316,
+        0.06154822560533646,
+        0.06518994694673297,
+        0.06826267048723007,
+        0.028873236015007166,
+        0.03191292259252305,
+        0.03089576402360852,
+        0.031039430262676363
+      ],
+      "excited_zeeman_shift_gamma_sorted": [
+        0.0,
+        -3.469446951953614e-18,
+        0.0,
+        3.469446951953614e-18
+      ],
+      "ground_population_by_level": {
+        "F0": 0.07957073862268792,
+        "F2": 0.3312103823073652,
+        "Fprime0": 0.028873236015007166,
+        "Fprime1": 0.09384811687880792,
+        "lower_F1": 0.24947553460337768,
+        "upper_F1": 0.21702199157275404
+      },
+      "ground_zeeman_shift_gamma_sorted": [
+        -7.105427357601002e-15,
+        8.881784197001252e-16,
+        8.881784197001252e-16,
+        -4.440892098500626e-16,
+        -1.7763568394002505e-15,
+        8.881784197001252e-16,
+        1.3322676295501878e-15,
+        -3.552713678800501e-15,
+        -1.3322676295501878e-15,
+        1.3322676295501878e-15,
+        3.1086244689504383e-15,
+        3.552713678800501e-15
+      ],
+      "longitudinal_force_by_frequency_component": {
+        "1": -0.019376402018845464,
+        "2": -0.009926484362731846,
+        "3": -0.025573238333624997,
+        "4": 0.0020884199965334562
+      },
+      "longitudinal_force_by_physical_beam": {
+        "+x_prime": 0.0042389698667140594,
+        "+y_prime": -0.030632822226048486,
+        "+z": 0.0,
+        "-x_prime": -0.030632822226048486,
+        "-y_prime": 0.0042389698667140594,
+        "-z": 0.0
+      },
+      "most_populated_ground_states": [
+        {
+          "population": 0.09094542611075476,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 2,
+            "level": "lower_F1",
+            "mF": 1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.0869168992284275,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 6,
+            "level": "upper_F1",
+            "mF": 1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 230.05865548732874
+          }
+        },
+        {
+          "population": 0.07957073862268792,
+          "state": {
+            "F": 0.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 1.0,
+            "index": 3,
+            "level": "F0",
+            "mF": -0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 109.73157641206407
+          }
+        },
+        {
+          "population": 0.07950854173704026,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 1,
+            "level": "lower_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        }
+      ],
+      "name": "mgf_3_plus_1_model_negative_extremum",
+      "normalized_force_x": -0.052787704718668844,
+      "one_shared_population_solution": true,
+      "population_by_approximate_mF": {
+        "-0.0": 0.07957073862268792,
+        "-1.0": 0.20968940260060723,
+        "-2.0": 0.07018367607853256,
+        "0.0": 0.20651988703121182,
+        "1.0": 0.24305227228591525,
+        "2.0": 0.06826267048723007,
+        "excited_-0.0": 0.028873236015007166,
+        "excited_-1.0": 0.03191292259252305,
+        "excited_0.0": 0.03089576402360852,
+        "excited_1.0": 0.031039430262676363
+      },
+      "position_m": [
+        5.314859663485549e-17,
+        0.0,
+        0.0
+      ],
+      "scattering_rate_by_frequency_component_gamma": {
+        "1": 0.03851534797038593,
+        "2": 0.021430400813684213,
+        "3": 0.05648117539506858,
+        "4": 0.006300502130771259
+      },
+      "scattering_rate_by_physical_beam_gamma": {
+        "+x_prime": 0.005994808675997894,
+        "+y_prime": 0.04332135264584175,
+        "+z": 0.012344591832228042,
+        "-x_prime": 0.04332135264584175,
+        "-y_prime": 0.005994808675997894,
+        "-z": 0.011750511834002638
+      },
+      "scattering_rate_by_spherical_polarization_gamma": {
+        "-1": 0.037085528839020686,
+        "0": 0.049316161321839656,
+        "1": 0.03632573614904964
+      },
+      "total_excited_fraction": 0.1227213528938151,
+      "total_scattering_rate_gamma": 0.12272742630991011,
+      "v_normalized": 1.4936247723132894,
+      "velocity_m_s": [
+        11.24699453551907,
+        0.0,
+        0.0
+      ],
+      "weakest_coupled_ground_states": [
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 11,
+            "level": "F2",
+            "mF": 2.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.13897869212447844
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 7,
+            "level": "F2",
+            "mF": -2.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.13897869212447864
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 10,
+            "level": "F2",
+            "mF": 1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.15084199642591334
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 8,
+            "level": "F2",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.15136116021937232
+        }
+      ],
+      "x_normalized": 7.105427357601002e-15
+    },
+    {
+      "equilibrium_populations": [
+        0.08045049556578596,
+        0.08064236427804203,
+        0.09092876875597371,
+        0.0815286544096423,
+        0.07285903710915233,
+        0.058364177126409185,
+        0.059351150556755564,
+        0.07116959033048621,
+        0.06678214239084372,
+        0.06896831942073212,
+        0.06704216759349217,
+        0.0719380498485868,
+        0.0337430265177523,
+        0.03236122349329426,
+        0.031160186131553563,
+        0.03271064647149774
+      ],
+      "excited_zeeman_shift_gamma_sorted": [
+        0.0,
+        -3.469446951953614e-18,
+        0.0,
+        3.469446951953614e-18
+      ],
+      "ground_population_by_level": {
+        "F0": 0.0815286544096423,
+        "F2": 0.34590026958414105,
+        "Fprime0": 0.0337430265177523,
+        "Fprime1": 0.09623205609634557,
+        "lower_F1": 0.2520216285998017,
+        "upper_F1": 0.1905743647923171
+      },
+      "ground_zeeman_shift_gamma_sorted": [
+        -7.105427357601002e-15,
+        8.881784197001252e-16,
+        8.881784197001252e-16,
+        -4.440892098500626e-16,
+        -1.7763568394002505e-15,
+        8.881784197001252e-16,
+        1.3322676295501878e-15,
+        -3.552713678800501e-15,
+        -1.3322676295501878e-15,
+        1.3322676295501878e-15,
+        3.1086244689504383e-15,
+        3.552713678800501e-15
+      ],
+      "longitudinal_force_by_frequency_component": {
+        "1": 0.0201988924110883,
+        "2": 0.010484134544876773,
+        "3": 0.03240900724341365,
+        "4": -0.00295704578514554
+      },
+      "longitudinal_force_by_physical_beam": {
+        "+x_prime": 0.03401251616135384,
+        "+y_prime": -0.00394502195423725,
+        "+z": 0.0,
+        "-x_prime": -0.00394502195423725,
+        "-y_prime": 0.03401251616135384,
+        "-z": 0.0
+      },
+      "most_populated_ground_states": [
+        {
+          "population": 0.09092876875597371,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 2,
+            "level": "lower_F1",
+            "mF": 1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.0815286544096423,
+          "state": {
+            "F": 0.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 1.0,
+            "index": 3,
+            "level": "F0",
+            "mF": -0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 109.73157641206407
+          }
+        },
+        {
+          "population": 0.08064236427804203,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 1,
+            "level": "lower_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.08045049556578596,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        }
+      ],
+      "name": "mgf_3_plus_1_model_positive_extremum",
+      "normalized_force_x": 0.06013498841423318,
+      "one_shared_population_solution": true,
+      "population_by_approximate_mF": {
+        "-0.0": 0.0815286544096423,
+        "-1.0": 0.22009167506578203,
+        "-2.0": 0.07116959033048621,
+        "0.0": 0.20797486082518332,
+        "1.0": 0.21732208690622146,
+        "2.0": 0.0719380498485868,
+        "excited_-0.0": 0.0337430265177523,
+        "excited_-1.0": 0.03236122349329426,
+        "excited_0.0": 0.031160186131553563,
+        "excited_1.0": 0.03271064647149774
+      },
+      "position_m": [
+        5.314859663485549e-17,
+        0.0,
+        0.0
+      ],
+      "scattering_rate_by_frequency_component_gamma": {
+        "1": 0.03958104472206938,
+        "2": 0.021520287487516013,
+        "3": 0.062185204389043694,
+        "4": 0.0066969690507184924
+      },
+      "scattering_rate_by_physical_beam_gamma": {
+        "+x_prime": 0.048100961645820686,
+        "+y_prime": 0.005579103551541931,
+        "+z": 0.010889355188211184,
+        "-x_prime": 0.005579103551541931,
+        "-y_prime": 0.048100961645820686,
+        "-z": 0.011734020066411164
+      },
+      "scattering_rate_by_spherical_polarization_gamma": {
+        "-1": 0.03756452808637258,
+        "0": 0.05368006519736263,
+        "1": 0.03873891236561239
+      },
+      "total_excited_fraction": 0.12997508261409785,
+      "total_scattering_rate_gamma": 0.12998350564934757,
+      "v_normalized": -1.4936247723133107,
+      "velocity_m_s": [
+        -11.24699453551923,
+        0.0,
+        0.0
+      ],
+      "weakest_coupled_ground_states": [
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 11,
+            "level": "F2",
+            "mF": 2.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.13897869212447672
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 7,
+            "level": "F2",
+            "mF": -2.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.13897869212447686
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 9,
+            "level": "F2",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.140920095676912
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 8,
+            "level": "F2",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.15136116021936968
+        }
+      ],
+      "x_normalized": 7.105427357601002e-15
+    },
+    {
+      "equilibrium_populations": [
+        0.1784146427511035,
+        0.13174495147272336,
+        0.06836741768413912,
+        0.10670593223253967,
+        0.05969812804894092,
+        0.046285112773108754,
+        0.0524132785694562,
+        0.03634716307440768,
+        0.021524375486219702,
+        0.03654619991867307,
+        0.09284150670257837,
+        0.11214783966816673,
+        0.014245426420744438,
+        0.014218226084261931,
+        0.014263458644453532,
+        0.014236340468482883
+      ],
+      "excited_zeeman_shift_gamma_sorted": [
+        0.0,
+        -0.0027550503152607374,
+        0.0,
+        0.002755050315260738
+      ],
+      "ground_population_by_level": {
+        "F0": 0.10670593223253967,
+        "F2": 0.2994070848500456,
+        "Fprime0": 0.014245426420744438,
+        "Fprime1": 0.04271802519719835,
+        "lower_F1": 0.378527011907966,
+        "upper_F1": 0.15839651939150587
+      },
+      "ground_zeeman_shift_gamma_sorted": [
+        -1.1337636229947012,
+        -0.7547457959822452,
+        -0.09996509902988837,
+        -0.7671122906574355,
+        -2.6088206672215017,
+        -2.31478004797647,
+        -0.03962944789544043,
+        -0.04945925489328129,
+        0.9415531888138635,
+        1.5614875345351389,
+        2.5069904041251934,
+        2.7582450991767895
+      ],
+      "longitudinal_force_by_frequency_component": {
+        "1": -0.0012079818120425306,
+        "2": -0.0006067064701471427,
+        "3": -0.0029266077117957277,
+        "4": -0.002328351433985448
+      },
+      "longitudinal_force_by_physical_beam": {
+        "+x_prime": 0.0049461904829777355,
+        "+y_prime": -0.008481014196963161,
+        "+z": 0.0,
+        "-x_prime": -0.00848101419696316,
+        "-y_prime": 0.0049461904829777355,
+        "-z": 0.0
+      },
+      "most_populated_ground_states": [
+        {
+          "population": 0.1784146427511035,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.13174495147272336,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 1,
+            "level": "lower_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.11214783966816673,
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 11,
+            "level": "F2",
+            "mF": 2.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          }
+        },
+        {
+          "population": 0.10670593223253967,
+          "state": {
+            "F": 0.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 1.0,
+            "index": 3,
+            "level": "F0",
+            "mF": -0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 109.73157641206407
+          }
+        }
+      ],
+      "name": "mgf_3_plus_1_dark_region",
+      "normalized_force_x": -0.007069647427970849,
+      "one_shared_population_solution": true,
+      "population_by_approximate_mF": {
+        "-0.0": 0.10670593223253967,
+        "-1.0": 0.2596371462862641,
+        "-2.0": 0.03634716307440768,
+        "0.0": 0.2145762641645052,
+        "1.0": 0.21362220295617368,
+        "2.0": 0.11214783966816673,
+        "excited_-0.0": 0.014245426420744438,
+        "excited_-1.0": 0.014218226084261931,
+        "excited_0.0": 0.014263458644453532,
+        "excited_1.0": 0.014236340468482883
+      },
+      "position_m": [
+        0.041139999999999996,
+        0.0,
+        0.0
+      ],
+      "scattering_rate_by_frequency_component_gamma": {
+        "1": 0.017400388150813337,
+        "2": 0.009560644781165889,
+        "3": 0.023068719825270603,
+        "4": 0.006933693437661717
+      },
+      "scattering_rate_by_physical_beam_gamma": {
+        "+x_prime": 0.006994969663107843,
+        "+y_prime": 0.011993965300024069,
+        "+z": 0.009492788134323861,
+        "-x_prime": 0.011993965300024065,
+        "-y_prime": 0.006994969663107844,
+        "-z": 0.009492788134323865
+      },
+      "scattering_rate_by_spherical_polarization_gamma": {
+        "-1": 0.018986585757468307,
+        "0": 0.018987255615889816,
+        "1": 0.01898960482155342
+      },
+      "total_excited_fraction": 0.056963451617942785,
+      "total_scattering_rate_gamma": 0.05696344619491147,
+      "v_normalized": 0.0,
+      "velocity_m_s": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "weakest_coupled_ground_states": [
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 11,
+            "level": "F2",
+            "mF": 2.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.024233342463996072
+        },
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          },
+          "total_pumping_rate_gamma": 0.04047926656256774
+        },
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 1,
+            "level": "lower_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          },
+          "total_pumping_rate_gamma": 0.04862863877482923
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 10,
+            "level": "F2",
+            "mF": 1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.054990967237370104
+        }
+      ],
+      "x_normalized": 5.5
+    }
+  ]
+}

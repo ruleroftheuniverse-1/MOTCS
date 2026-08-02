@@ -1,0 +1,2430 @@
+{
+  "accepted_caches_rebuilt": 0,
+  "accepted_physics_objects_modified": false,
+  "candidate_diagnosis": {
+    "demonstrated_causes": [],
+    "likely_contributors": [
+      "DIPOLE_TENSOR_DIFFERENCE",
+      "EXCITED_HYPERFINE_EIGENVECTOR_DIFFERENCE",
+      "GROUND_ZEEMAN_MATRIX_DIFFERENCE",
+      "DARK_STATE_POPULATION_DIFFERENCE",
+      "UNPUBLISHED_PAPER_MODEL_MATRIX_DIFFERENCE"
+    ],
+    "ranked_candidates": [
+      {
+        "candidate": "UNPUBLISHED_PAPER_MODEL_MATRIX_DIFFERENCE",
+        "evidence": "local equations and official pylcp implementation agree; paper matrices are unavailable",
+        "rank": 1
+      },
+      {
+        "candidate": "DIPOLE_TENSOR_DIFFERENCE",
+        "evidence": "accepted component-4 level-resolved signs do not reproduce the paper-stated F2 versus upper-F1 hierarchy",
+        "rank": 2
+      },
+      {
+        "candidate": "EXCITED_HYPERFINE_EIGENVECTOR_DIFFERENCE",
+        "evidence": "accepted diagonal splitting cannot reproduce d-driven eigenvector/J mixing that would rotate dipoles",
+        "rank": 3
+      },
+      {
+        "candidate": "GROUND_ZEEMAN_MATRIX_DIFFERENCE",
+        "evidence": "level-specific component-4 trapping signs depend on ground magnetic slopes; the local convention is locked but the paper matrix is unpublished",
+        "rank": 4
+      },
+      {
+        "candidate": "DARK_STATE_POPULATION_DIFFERENCE",
+        "evidence": "population redistribution and weak-coupling states visibly control the accepted net force; likely downstream of molecular matrices",
+        "rank": 5
+      },
+      {
+        "candidate": "EXCITED_ZEEMAN_MATRIX_DIFFERENCE",
+        "evidence": "exact mapping unresolved, but Run 009C static sensitivity was limited",
+        "rank": 6
+      },
+      {
+        "candidate": "GROUND_HAMILTONIAN_MATRIX_DIFFERENCE",
+        "evidence": "source-supported spacings and sum rules pass; paper matrix still unpublished",
+        "rank": 7
+      },
+      {
+        "candidate": "SPONTANEOUS_BRANCHING_DIFFERENCE",
+        "evidence": "local branching is normalized and derived from the same dipole tensor; paper tensor unavailable",
+        "rank": 8
+      }
+    ],
+    "ruled_out_candidates": [
+      "FIGURE_SIGN_CALIBRATION_ERROR",
+      "RATE_EQUATION_WRAPPER_MISMATCH",
+      "PYLCP_VERSION_DIFFERENCE",
+      "BASIS_TRANSFORMATION_MISMATCH"
+    ],
+    "unresolved_blockers": [
+      "paper-specific Hamiltonian, dipole, branching, and basis matrices were not published",
+      "independent Doppelbauer d operator and Jprime mixing are unavailable",
+      "exact excited Zeeman mapping remains unresolved"
+    ]
+  },
+  "capture_authorized": false,
+  "capture_velocity_authorized": false,
+  "component_4_diagnosis": {
+    "accepted_level_specific_result": {
+      "component4_alone": "upper-F1 and F2 terms nearly cancel; upper-F1 is restoring and F2 is anti-restoring",
+      "full_three_plus_one": "upper-F1 and F2 resolved component-4 terms are both restoring; upper-F1 has the larger magnitude",
+      "paper_hierarchy_reproduced": false
+    },
+    "interpretation": "The accepted [3+1] local slope is restoring and stronger than either [3] or the same [3+1] saturation vector with component (4) disabled. However, its shared-solution level decomposition does not reproduce the paper's stated F2-trapping/upper-F1-anti-trapping hierarchy. Component (4) alone is numerically meaningful only because weak off-resonant coupling removes an exact dark nullspace; it gives near cancellation with the opposite level-specific signs. This implicates level-specific molecular matrix content, while population redistribution also changes the forces from components (1)-(3).",
+    "paper_level_specific_expectation": {
+      "F2": "component (4) polarization is trapping",
+      "upper_F1": "component (4) polarization is anti-trapping"
+    },
+    "population_redistribution": [
+      {
+        "full_minus_component4_disabled_population_by_level": {
+          "F0": 0.0018115768426220508,
+          "F2": 0.002415185374892437,
+          "Fprime0": 0.0009187244486602505,
+          "Fprime1": 0.003058014739092438,
+          "lower_F1": 0.01164136696450535,
+          "upper_F1": -0.01984486836977256
+        },
+        "total_force_change_when_component4_enabled": 0.0013556123655414792,
+        "x_normalized": -0.5
+      },
+      {
+        "full_minus_component4_disabled_population_by_level": {
+          "F0": 0.0018115768426218287,
+          "F2": 0.0024151853748922147,
+          "Fprime0": 0.0009187244486603408,
+          "Fprime1": 0.0030580147390922713,
+          "lower_F1": 0.011641366964504574,
+          "upper_F1": -0.01984486836977134
+        },
+        "total_force_change_when_component4_enabled": -0.0013556123655414625,
+        "x_normalized": 0.5
+      }
+    ],
+    "small_signal_slopes": {
+      "component4_alone": 1.2967464813528826e-10,
+      "three": -0.0012031255429442488,
+      "three_plus_one": -0.003843680689598239,
+      "three_plus_one_component4_disabled": -0.0011324559585152976
+    },
+    "variants": {
+      "component4_alone": {
+        "active_components": [
+          4
+        ],
+        "rows": [
+          {
+            "accepted_normalized_force": [
+              -6.483732051688201e-11,
+              0.0,
+              -7.047314121155779e-19
+            ],
+            "component4_force_by_ground_level": {
+              "F2": -2.8932731959302428e-05,
+              "other_ground_levels": -2.8079425263743464e-06,
+              "upper_F1": 3.1740609648359374e-05
+            },
+            "force_absolute_difference": 3.144186300207963e-18,
+            "force_relative_difference": 4.849346449147749e-08,
+            "ground_population_by_level": {
+              "F0": 0.05227716301690588,
+              "F2": 0.0875836096842494,
+              "Fprime0": 0.0005648770132000711,
+              "Fprime1": 0.0017304565358398395,
+              "lower_F1": 0.8236454999301712,
+              "upper_F1": 0.034198393819633584
+            },
+            "one_shared_equilibrium_population_solution": true,
+            "per_laser_total_pumping_rate_absolute_difference": 0.0,
+            "per_physical_beam_force_x": {
+              "+x_prime": 0.00027050833302162165,
+              "+y_prime": -0.00027050836544028034,
+              "+z": 0.0,
+              "-x_prime": -0.00027050836544028034,
+              "-y_prime": 0.00027050833302162165,
+              "-z": 0.0
+            },
+            "population_absolute_difference": 2.142730437526552e-14,
+            "reference_excited_fraction": 0.0022953335490399104,
+            "reference_normalized_force": [
+              -6.483731737269571e-11,
+              0.0,
+              -6.505213034913027e-19
+            ],
+            "reference_total_scattering_rate_gamma": 0.0022953333308007437,
+            "state_indexed_rate_comparison_note": "At exactly B=0, rotations inside degenerate manifolds are gauge-dependent; per-laser totals, populations, and force are the invariant comparisons.",
+            "state_indexed_summed_pumping_matrix_difference": 4.336808689942018e-19,
+            "state_matrix_residual_linf": 5.34376145763793e-17,
+            "x_normalized": -0.5
+          },
+          {
+            "accepted_normalized_force": [
+              6.483732035425169e-11,
+              5.421010862427522e-20,
+              -7.047314121155779e-19
+            ],
+            "component4_force_by_ground_level": {
+              "F2": 2.8932731959298416e-05,
+              "other_ground_levels": 2.80794252637375e-06,
+              "upper_F1": -3.174060964834132e-05
+            },
+            "force_absolute_difference": 1.0408340855860843e-17,
+            "force_relative_difference": 1.6053008975375273e-07,
+            "ground_population_by_level": {
+              "F0": 0.05227716301690751,
+              "F2": 0.08758360968425391,
+              "Fprime0": 0.0005648770132000364,
+              "Fprime1": 0.0017304565358398937,
+              "lower_F1": 0.8236454999301677,
+              "upper_F1": 0.0341983938196309
+            },
+            "one_shared_equilibrium_population_solution": true,
+            "per_laser_total_pumping_rate_absolute_difference": 0.0,
+            "per_physical_beam_force_x": {
+              "+x_prime": 0.00027050836544028034,
+              "+y_prime": -0.000270508333021615,
+              "+z": 0.0,
+              "-x_prime": -0.000270508333021615,
+              "-y_prime": 0.0002705083654402804,
+              "-z": 0.0
+            },
+            "population_absolute_difference": 1.9872992140790302e-14,
+            "reference_excited_fraction": 0.00229533354903993,
+            "reference_normalized_force": [
+              6.483733076259254e-11,
+              -5.421010862427522e-20,
+              -7.047314121155779e-19
+            ],
+            "reference_total_scattering_rate_gamma": 0.002295333330800763,
+            "state_indexed_rate_comparison_note": "At exactly B=0, rotations inside degenerate manifolds are gauge-dependent; per-laser totals, populations, and force are the invariant comparisons.",
+            "state_indexed_summed_pumping_matrix_difference": 4.336808689942018e-19,
+            "state_matrix_residual_linf": 7.830650190776556e-17,
+            "x_normalized": 0.5
+          }
+        ]
+      },
+      "three": {
+        "active_components": [
+          1,
+          2,
+          3
+        ],
+        "rows": [
+          {
+            "accepted_normalized_force": [
+              0.0006015627714721118,
+              1.734723475976807e-18,
+              -3.642919299551295e-17
+            ],
+            "component4_force_by_ground_level": {
+              "F2": 0.0,
+              "other_ground_levels": 0.0,
+              "upper_F1": 0.0
+            },
+            "force_absolute_difference": 3.469446951953614e-18,
+            "force_relative_difference": 5.767389733017174e-15,
+            "ground_population_by_level": {
+              "F0": 0.09765527851595779,
+              "F2": 0.2577133587573438,
+              "Fprime0": 0.024303001570812055,
+              "Fprime1": 0.07129163241441047,
+              "lower_F1": 0.30812108853395914,
+              "upper_F1": 0.24091564020751668
+            },
+            "one_shared_equilibrium_population_solution": true,
+            "per_laser_total_pumping_rate_absolute_difference": 2.7755575615628914e-17,
+            "per_physical_beam_force_x": {
+              "+x_prime": 0.011416338294647218,
+              "+y_prime": -0.01111555690891116,
+              "+z": 0.0,
+              "-x_prime": -0.01111555690891116,
+              "-y_prime": 0.011416338294647218,
+              "-z": 0.0
+            },
+            "population_absolute_difference": 1.8041124150158794e-16,
+            "reference_excited_fraction": 0.09559463398522253,
+            "reference_normalized_force": [
+              0.0006015627714721153,
+              0.0,
+              -3.642919299551295e-17
+            ],
+            "reference_total_scattering_rate_gamma": 0.09559462487172314,
+            "state_indexed_rate_comparison_note": "At exactly B=0, rotations inside degenerate manifolds are gauge-dependent; per-laser totals, populations, and force are the invariant comparisons.",
+            "state_indexed_summed_pumping_matrix_difference": 2.7755575615628914e-17,
+            "state_matrix_residual_linf": 4.683753385137379e-17,
+            "x_normalized": -0.5
+          },
+          {
+            "accepted_normalized_force": [
+              -0.0006015627714721448,
+              1.734723475976807e-18,
+              -3.469446951953614e-17
+            ],
+            "component4_force_by_ground_level": {
+              "F2": 0.0,
+              "other_ground_levels": 0.0,
+              "upper_F1": 0.0
+            },
+            "force_absolute_difference": 1.1275702593849246e-17,
+            "force_relative_difference": 1.8744016632304788e-14,
+            "ground_population_by_level": {
+              "F0": 0.09765527851595793,
+              "F2": 0.2577133587573439,
+              "Fprime0": 0.024303001570812086,
+              "Fprime1": 0.07129163241441046,
+              "lower_F1": 0.30812108853395903,
+              "upper_F1": 0.24091564020751668
+            },
+            "one_shared_equilibrium_population_solution": true,
+            "per_laser_total_pumping_rate_absolute_difference": 2.7755575615628914e-17,
+            "per_physical_beam_force_x": {
+              "+x_prime": 0.01111555690891116,
+              "+y_prime": -0.011416338294647228,
+              "+z": 0.0,
+              "-x_prime": -0.011416338294647225,
+              "-y_prime": 0.01111555690891116,
+              "-z": 0.0
+            },
+            "population_absolute_difference": 1.942890293094024e-16,
+            "reference_excited_fraction": 0.09559463398522254,
+            "reference_normalized_force": [
+              -0.0006015627714721335,
+              8.673617379884035e-19,
+              -3.642919299551295e-17
+            ],
+            "reference_total_scattering_rate_gamma": 0.09559462487172316,
+            "state_indexed_rate_comparison_note": "At exactly B=0, rotations inside degenerate manifolds are gauge-dependent; per-laser totals, populations, and force are the invariant comparisons.",
+            "state_indexed_summed_pumping_matrix_difference": 2.7755575615628914e-17,
+            "state_matrix_residual_linf": 6.591949208711867e-17,
+            "x_normalized": 0.5
+          }
+        ]
+      },
+      "three_plus_one": {
+        "active_components": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "rows": [
+          {
+            "accepted_normalized_force": [
+              0.0019218403447991159,
+              0.0,
+              -3.2959746043559335e-17
+            ],
+            "component4_force_by_ground_level": {
+              "F2": 0.00010099087172279458,
+              "other_ground_levels": -1.3369871330454701e-05,
+              "upper_F1": 0.0005867918035335545
+            },
+            "force_absolute_difference": 4.336808689942018e-18,
+            "force_relative_difference": 2.2565915538604904e-15,
+            "ground_population_by_level": {
+              "F0": 0.09142349164593604,
+              "F2": 0.27753730762858947,
+              "Fprime0": 0.02305992435118835,
+              "Fprime1": 0.06791115444775697,
+              "lower_F1": 0.2928088955448617,
+              "upper_F1": 0.24725922638166747
+            },
+            "one_shared_equilibrium_population_solution": true,
+            "per_laser_total_pumping_rate_absolute_difference": 6.938893903907228e-18,
+            "per_physical_beam_force_x": {
+              "+x_prime": 0.011201656983692888,
+              "+y_prime": -0.01024073681129333,
+              "+z": 0.0,
+              "-x_prime": -0.01024073681129333,
+              "-y_prime": 0.011201656983692888,
+              "-z": 0.0
+            },
+            "population_absolute_difference": 3.885780586188048e-16,
+            "reference_excited_fraction": 0.09097107879894532,
+            "reference_normalized_force": [
+              0.0019218403447991202,
+              -2.168404344971009e-19,
+              -3.0357660829594124e-17
+            ],
+            "reference_total_scattering_rate_gamma": 0.09097107012836289,
+            "state_indexed_rate_comparison_note": "At exactly B=0, rotations inside degenerate manifolds are gauge-dependent; per-laser totals, populations, and force are the invariant comparisons.",
+            "state_indexed_summed_pumping_matrix_difference": 2.7755575615628914e-17,
+            "state_matrix_residual_linf": 8.847089727481716e-17,
+            "x_normalized": -0.5
+          },
+          {
+            "accepted_normalized_force": [
+              -0.001921840344799132,
+              6.938893903907228e-18,
+              -3.122502256758253e-17
+            ],
+            "component4_force_by_ground_level": {
+              "F2": -0.00010099087172279449,
+              "other_ground_levels": 1.3369871330454701e-05,
+              "upper_F1": -0.0005867918035335569
+            },
+            "force_absolute_difference": 1.2793585635328952e-17,
+            "force_relative_difference": 6.656945083888391e-15,
+            "ground_population_by_level": {
+              "F0": 0.09142349164593602,
+              "F2": 0.27753730762858947,
+              "Fprime0": 0.02305992435118834,
+              "Fprime1": 0.0679111544477569,
+              "lower_F1": 0.29280889554486167,
+              "upper_F1": 0.24725922638166753
+            },
+            "one_shared_equilibrium_population_solution": true,
+            "per_laser_total_pumping_rate_absolute_difference": 6.938893903907228e-18,
+            "per_physical_beam_force_x": {
+              "+x_prime": 0.010240736811293333,
+              "+y_prime": -0.011201656983692894,
+              "+z": 0.0,
+              "-x_prime": -0.011201656983692894,
+              "-y_prime": 0.010240736811293335,
+              "-z": 0.0
+            },
+            "population_absolute_difference": 2.636779683484747e-16,
+            "reference_excited_fraction": 0.09097107879894525,
+            "reference_normalized_force": [
+              -0.0019218403447991191,
+              1.734723475976807e-18,
+              -3.3393426912553537e-17
+            ],
+            "reference_total_scattering_rate_gamma": 0.09097107012836282,
+            "state_indexed_rate_comparison_note": "At exactly B=0, rotations inside degenerate manifolds are gauge-dependent; per-laser totals, populations, and force are the invariant comparisons.",
+            "state_indexed_summed_pumping_matrix_difference": 2.7755575615628914e-17,
+            "state_matrix_residual_linf": 8.326672684688674e-17,
+            "x_normalized": 0.5
+          }
+        ]
+      },
+      "three_plus_one_component4_disabled": {
+        "active_components": [
+          1,
+          2,
+          3
+        ],
+        "rows": [
+          {
+            "accepted_normalized_force": [
+              0.0005662279792576445,
+              8.673617379884035e-19,
+              -3.122502256758253e-17
+            ],
+            "component4_force_by_ground_level": {
+              "F2": 0.0,
+              "other_ground_levels": 0.0,
+              "upper_F1": 0.0
+            },
+            "force_absolute_difference": 3.469446951953614e-18,
+            "force_relative_difference": 6.127296917581231e-15,
+            "ground_population_by_level": {
+              "F0": 0.08961191480331399,
+              "F2": 0.27512212225369703,
+              "Fprime0": 0.0221411999025281,
+              "Fprime1": 0.06485313970866453,
+              "lower_F1": 0.2811675285803564,
+              "upper_F1": 0.26710409475144004
+            },
+            "one_shared_equilibrium_population_solution": true,
+            "per_laser_total_pumping_rate_absolute_difference": 6.938893903907228e-18,
+            "per_physical_beam_force_x": {
+              "+x_prime": 0.01039398961759891,
+              "+y_prime": -0.010110875627970091,
+              "+z": 0.0,
+              "-x_prime": -0.010110875627970091,
+              "-y_prime": 0.01039398961759891,
+              "-z": 0.0
+            },
+            "population_absolute_difference": 3.3306690738754696e-16,
+            "reference_excited_fraction": 0.08699433961119263,
+            "reference_normalized_force": [
+              0.000566227979257641,
+              0.0,
+              -3.382710778154774e-17
+            ],
+            "reference_total_scattering_rate_gamma": 0.08699433131682646,
+            "state_indexed_rate_comparison_note": "At exactly B=0, rotations inside degenerate manifolds are gauge-dependent; per-laser totals, populations, and force are the invariant comparisons.",
+            "state_indexed_summed_pumping_matrix_difference": 5.551115123125783e-17,
+            "state_matrix_residual_linf": 3.642919299551295e-17,
+            "x_normalized": -0.5
+          },
+          {
+            "accepted_normalized_force": [
+              -0.0005662279792576583,
+              8.673617379884035e-19,
+              -3.2959746043559335e-17
+            ],
+            "component4_force_by_ground_level": {
+              "F2": 0.0,
+              "other_ground_levels": 0.0,
+              "upper_F1": 0.0
+            },
+            "force_absolute_difference": 1.734723475976807e-18,
+            "force_relative_difference": 3.0636484587905404e-15,
+            "ground_population_by_level": {
+              "F0": 0.0896119148033142,
+              "F2": 0.27512212225369725,
+              "Fprime0": 0.022141199902528,
+              "Fprime1": 0.06485313970866463,
+              "lower_F1": 0.2811675285803571,
+              "upper_F1": 0.26710409475143887
+            },
+            "one_shared_equilibrium_population_solution": true,
+            "per_laser_total_pumping_rate_absolute_difference": 6.938893903907228e-18,
+            "per_physical_beam_force_x": {
+              "+x_prime": 0.010110875627970084,
+              "+y_prime": -0.010393989617598912,
+              "+z": 0.0,
+              "-x_prime": -0.01039398961759891,
+              "-y_prime": 0.010110875627970084,
+              "-z": 0.0
+            },
+            "population_absolute_difference": 4.440892098500626e-16,
+            "reference_excited_fraction": 0.08699433961119263,
+            "reference_normalized_force": [
+              -0.0005662279792576566,
+              1.734723475976807e-18,
+              -3.122502256758253e-17
+            ],
+            "reference_total_scattering_rate_gamma": 0.08699433131682645,
+            "state_indexed_rate_comparison_note": "At exactly B=0, rotations inside degenerate manifolds are gauge-dependent; per-laser totals, populations, and force are the invariant comparisons.",
+            "state_indexed_summed_pumping_matrix_difference": 1.3877787807814457e-17,
+            "state_matrix_residual_linf": 4.5102810375396984e-17,
+            "x_normalized": 0.5
+          }
+        ]
+      }
+    }
+  },
+  "dark_state_and_force_width_diagnosis": [
+    {
+      "excited_fraction": 0.13501003537127637,
+      "excited_zeeman_shift_gamma_sorted": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "force": -0.06708613315717474,
+      "ground_zeeman_shift_gamma_sorted": [
+        0.0,
+        0.0,
+        -8.881784197001252e-16,
+        4.440892098500626e-16,
+        8.881784197001252e-16,
+        0.0,
+        -4.440892098500626e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "most_populated_ground_states": [
+        {
+          "population": 0.09637123189129536,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 2,
+            "level": "lower_F1",
+            "mF": 1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.08590850115566377,
+          "state": {
+            "F": 0.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 1.0,
+            "index": 3,
+            "level": "F0",
+            "mF": -0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 109.73157641206407
+          }
+        },
+        {
+          "population": 0.08448022431139936,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 1,
+            "level": "lower_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.08448022431139926,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        }
+      ],
+      "scattering_fractions": {
+        "copropagating_in_plane": 0.057826964584643,
+        "counterpropagating_in_plane": 0.7605460486366489,
+        "plus_minus_z": 0.181626986778709
+      },
+      "scattering_rate_gamma": 0.13501002251281194,
+      "weakest_coupled_ground_states": [
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 7,
+            "level": "F2",
+            "mF": -2.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.18227642650678416
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 11,
+            "level": "F2",
+            "mF": 2.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.18227642650678416
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 8,
+            "level": "F2",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.2016706105999481
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 10,
+            "level": "F2",
+            "mF": 1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.2016706105999481
+        }
+      ],
+      "x_normalized": 0.0
+    },
+    {
+      "excited_fraction": 0.10000326689366891,
+      "excited_zeeman_shift_gamma_sorted": [
+        0.0,
+        -0.0007513773587074736,
+        0.0,
+        0.0007513773587074736
+      ],
+      "force": -0.03519100761620071,
+      "ground_zeeman_shift_gamma_sorted": [
+        -0.20290519428997555,
+        -0.06038140945734227,
+        0.10727110272106266,
+        -0.058190187233085666,
+        -0.6444740948210876,
+        -0.30878361221153217,
+        -0.10359668303943081,
+        -0.2150456500303446,
+        -0.048229609972548104,
+        0.22216827972984188,
+        0.5599183951925677,
+        0.7522486634118519
+      ],
+      "most_populated_ground_states": [
+        {
+          "population": 0.17428913384338574,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 4,
+            "level": "upper_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 230.05865548732874
+          }
+        },
+        {
+          "population": 0.14982458767819268,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 5,
+            "level": "upper_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 230.05865548732874
+          }
+        },
+        {
+          "population": 0.1049585145884305,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.0660063204378445,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 6,
+            "level": "upper_F1",
+            "mF": 1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 230.05865548732874
+          }
+        }
+      ],
+      "scattering_fractions": {
+        "copropagating_in_plane": 0.11914318511610948,
+        "counterpropagating_in_plane": 0.6168029771175417,
+        "plus_minus_z": 0.2640538377663487
+      },
+      "scattering_rate_gamma": 0.10000325733420454,
+      "weakest_coupled_ground_states": [
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 5,
+            "level": "upper_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 230.05865548732874
+          },
+          "total_pumping_rate_gamma": 0.03466803705331039
+        },
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 4,
+            "level": "upper_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 230.05865548732874
+          },
+          "total_pumping_rate_gamma": 0.06580411768908923
+        },
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          },
+          "total_pumping_rate_gamma": 0.13068052578603273
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 7,
+            "level": "F2",
+            "mF": -2.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.1817348431073665
+        }
+      ],
+      "x_normalized": 1.5
+    },
+    {
+      "excited_fraction": 0.08197038977596782,
+      "excited_zeeman_shift_gamma_sorted": [
+        0.0,
+        -0.0015027547174149471,
+        0.0,
+        0.0015027547174149471
+      ],
+      "force": -0.023751601886891707,
+      "ground_zeeman_shift_gamma_sorted": [
+        -0.4919541643449339,
+        -0.2369648286033197,
+        0.11332901207328128,
+        -0.23250108357119226,
+        -1.370134547017052,
+        -1.061032275623384,
+        -0.18766600043547443,
+        -0.2476917493169517,
+        0.28058936554075586,
+        0.6571319126099948,
+        1.2723970318645885,
+        1.5044973268237043
+      ],
+      "most_populated_ground_states": [
+        {
+          "population": 0.17727550826179925,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 5,
+            "level": "upper_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 230.05865548732874
+          }
+        },
+        {
+          "population": 0.17388194747234986,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 4,
+            "level": "upper_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 230.05865548732874
+          }
+        },
+        {
+          "population": 0.12187172122540682,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.0697729401229188,
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 11,
+            "level": "F2",
+            "mF": 2.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          }
+        }
+      ],
+      "scattering_fractions": {
+        "copropagating_in_plane": 0.1454839725719001,
+        "counterpropagating_in_plane": 0.5552641481696634,
+        "plus_minus_z": 0.2992518792584365
+      },
+      "scattering_rate_gamma": 0.0819703819676727,
+      "weakest_coupled_ground_states": [
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 5,
+            "level": "upper_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 230.05865548732874
+          },
+          "total_pumping_rate_gamma": 0.02249361565824764
+        },
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 4,
+            "level": "upper_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 230.05865548732874
+          },
+          "total_pumping_rate_gamma": 0.047546099608901334
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 11,
+            "level": "F2",
+            "mF": 2.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.07544039392835696
+        },
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          },
+          "total_pumping_rate_gamma": 0.09052688381380215
+        }
+      ],
+      "x_normalized": 3.0
+    },
+    {
+      "excited_fraction": 0.06966393673851363,
+      "excited_zeeman_shift_gamma_sorted": [
+        0.0,
+        -0.0022541320761224216,
+        0.0,
+        0.0022541320761224216
+      ],
+      "force": -0.016108108970928178,
+      "ground_zeeman_shift_gamma_sorted": [
+        -0.855655896470175,
+        -0.5176510389936748,
+        0.017837047519594584,
+        -0.5190625843595211,
+        -2.1115239386472755,
+        -1.813280939035236,
+        -0.14378426050860904,
+        -0.16305903526341092,
+        0.6583449469904283,
+        1.1804978838618028,
+        2.010591824670533,
+        2.2567459902355558
+      ],
+      "most_populated_ground_states": [
+        {
+          "population": 0.1590019492536363,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.15489341603929363,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 5,
+            "level": "upper_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 230.05865548732874
+          }
+        },
+        {
+          "population": 0.12224952652990848,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 4,
+            "level": "upper_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 230.05865548732874
+          }
+        },
+        {
+          "population": 0.11478286990407884,
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 11,
+            "level": "F2",
+            "mF": 2.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          }
+        }
+      ],
+      "scattering_fractions": {
+        "copropagating_in_plane": 0.19312031031299995,
+        "counterpropagating_in_plane": 0.5201231958417321,
+        "plus_minus_z": 0.2867564938452672
+      },
+      "scattering_rate_gamma": 0.0696639301333283,
+      "weakest_coupled_ground_states": [
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 5,
+            "level": "upper_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 230.05865548732874
+          },
+          "total_pumping_rate_gamma": 0.022553332693329077
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 11,
+            "level": "F2",
+            "mF": 2.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.03289234326286279
+        },
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 4,
+            "level": "upper_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 230.05865548732874
+          },
+          "total_pumping_rate_gamma": 0.05457532203868568
+        },
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          },
+          "total_pumping_rate_gamma": 0.05756765902689513
+        }
+      ],
+      "x_normalized": 4.5
+    },
+    {
+      "excited_fraction": 0.05787686989825584,
+      "excited_zeeman_shift_gamma_sorted": [
+        0.0,
+        -0.003005509434829895,
+        0.0,
+        0.003005509434829896
+      ],
+      "force": -0.009656350243580504,
+      "ground_zeeman_shift_gamma_sorted": [
+        -1.2822541054606216,
+        -0.886419251760822,
+        -0.17421298664513163,
+        -0.9064228362602806,
+        -2.8579603502436637,
+        -2.565529602447088,
+        0.03343016437183444,
+        0.02317876836733035,
+        1.091949144779909,
+        1.7594119236492562,
+        2.7558344780018635,
+        3.0089946536474073
+      ],
+      "most_populated_ground_states": [
+        {
+          "population": 0.19860816498778172,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          }
+        },
+        {
+          "population": 0.17815987776040815,
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 11,
+            "level": "F2",
+            "mF": 2.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          }
+        },
+        {
+          "population": 0.12203587387913252,
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 10,
+            "level": "F2",
+            "mF": 1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          }
+        },
+        {
+          "population": 0.08618172264413257,
+          "state": {
+            "F": 1.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 5,
+            "level": "upper_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 230.05865548732874
+          }
+        }
+      ],
+      "scattering_fractions": {
+        "copropagating_in_plane": 0.25205020629035985,
+        "counterpropagating_in_plane": 0.4880018531666996,
+        "plus_minus_z": 0.25994794054294057
+      },
+      "scattering_rate_gamma": 0.057876864426605834,
+      "weakest_coupled_ground_states": [
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 11,
+            "level": "F2",
+            "mF": 2.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.016598756563825534
+        },
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 0.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 5,
+            "level": "upper_F1",
+            "mF": 0.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 230.05865548732874
+          },
+          "total_pumping_rate_gamma": 0.036541630653901674
+        },
+        {
+          "state": {
+            "F": 2.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 1.0,
+            "index": 10,
+            "level": "F2",
+            "mF": 1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 239.3270750574154
+          },
+          "total_pumping_rate_gamma": 0.03678235805283195
+        },
+        {
+          "state": {
+            "F": 1.0,
+            "dominant_J": 1.5,
+            "dominant_weight": 0.5114561322529674,
+            "index": 0,
+            "level": "lower_F1",
+            "mF": -1.0,
+            "manifold": "ground",
+            "relative_energy_mhz": 0.0
+          },
+          "total_pumping_rate_gamma": 0.03818033231034846
+        }
+      ],
+      "x_normalized": 6.0
+    }
+  ],
+  "dark_state_cause_assessment": {
+    "accepted_model_diagnosis": [
+      "total scattering and excited fraction decrease with Zeeman displacement",
+      "population accumulates in weakly coupled stretched/upper-manifold ground states",
+      "counterpropagating dominance falls while copropagating cancellation grows"
+    ],
+    "counter_minus_co_fraction_x0": 0.7027190840520059,
+    "counter_minus_co_fraction_x6": 0.23595164687633974,
+    "force_drop_factor_x0_to_x6": 0.1439395861579447,
+    "not_distinguishable_from_paper_without_paper_matrices": [
+      "weaker transition strengths",
+      "different ground or excited Zeeman shifts",
+      "different excited eigenvectors",
+      "different branching"
+    ],
+    "scattering_drop_factor_x0_to_x6": 0.42868568828742726
+  },
+  "deterministic_point_diagnostics": {
+    "mgf_3": [
+      {
+        "accepted_normalized_force": [
+          -1.734723475976807e-18,
+          1.734723475976807e-18,
+          -2.7755575615628914e-17
+        ],
+        "force_absolute_difference": 4.336808689942018e-17,
+        "force_relative_difference": 0.04336808689942018,
+        "name": "origin",
+        "one_shared_equilibrium_population_solution": true,
+        "per_laser_total_pumping_rate_absolute_difference": 2.7755575615628914e-17,
+        "population_absolute_difference": 1.1171619185290638e-15,
+        "reference_excited_fraction": 0.09648959742824174,
+        "reference_normalized_force": [
+          -8.673617379884035e-19,
+          8.673617379884035e-19,
+          1.5612511283791264e-17
+        ],
+        "reference_total_scattering_rate_gamma": 0.09648958822925333,
+        "state_indexed_rate_comparison_note": "At exactly B=0, rotations inside degenerate manifolds are gauge-dependent; per-laser totals, populations, and force are the invariant comparisons.",
+        "state_indexed_summed_pumping_matrix_difference": 0.02113018847729712,
+        "state_matrix_residual_linf": 1.9081958235744878e-17,
+        "v_normalized": 0.0,
+        "x_normalized": 0.0
+      },
+      {
+        "accepted_normalized_force": [
+          0.0006015627714721118,
+          1.734723475976807e-18,
+          -3.642919299551295e-17
+        ],
+        "force_absolute_difference": 3.469446951953614e-18,
+        "force_relative_difference": 5.767389733017174e-15,
+        "name": "minus_delta_x",
+        "one_shared_equilibrium_population_solution": true,
+        "per_laser_total_pumping_rate_absolute_difference": 2.7755575615628914e-17,
+        "population_absolute_difference": 1.8041124150158794e-16,
+        "reference_excited_fraction": 0.09559463398522253,
+        "reference_normalized_force": [
+          0.0006015627714721153,
+          0.0,
+          -3.642919299551295e-17
+        ],
+        "reference_total_scattering_rate_gamma": 0.09559462487172314,
+        "state_indexed_rate_comparison_note": "At exactly B=0, rotations inside degenerate manifolds are gauge-dependent; per-laser totals, populations, and force are the invariant comparisons.",
+        "state_indexed_summed_pumping_matrix_difference": 2.7755575615628914e-17,
+        "state_matrix_residual_linf": 4.683753385137379e-17,
+        "v_normalized": 0.0,
+        "x_normalized": -0.5
+      },
+      {
+        "accepted_normalized_force": [
+          -0.0006015627714721448,
+          1.734723475976807e-18,
+          -3.469446951953614e-17
+        ],
+        "force_absolute_difference": 1.1275702593849246e-17,
+        "force_relative_difference": 1.8744016632304788e-14,
+        "name": "plus_delta_x",
+        "one_shared_equilibrium_population_solution": true,
+        "per_laser_total_pumping_rate_absolute_difference": 2.7755575615628914e-17,
+        "population_absolute_difference": 1.942890293094024e-16,
+        "reference_excited_fraction": 0.09559463398522254,
+        "reference_normalized_force": [
+          -0.0006015627714721335,
+          8.673617379884035e-19,
+          -3.642919299551295e-17
+        ],
+        "reference_total_scattering_rate_gamma": 0.09559462487172316,
+        "state_indexed_rate_comparison_note": "At exactly B=0, rotations inside degenerate manifolds are gauge-dependent; per-laser totals, populations, and force are the invariant comparisons.",
+        "state_indexed_summed_pumping_matrix_difference": 2.7755575615628914e-17,
+        "state_matrix_residual_linf": 6.591949208711867e-17,
+        "v_normalized": 0.0,
+        "x_normalized": 0.5
+      },
+      {
+        "accepted_normalized_force": [
+          0.025512861207491563,
+          4.336808689942018e-19,
+          2.42861286636753e-17
+        ],
+        "force_absolute_difference": 6.938893903907228e-18,
+        "force_relative_difference": 2.7197631216171476e-16,
+        "name": "minus_delta_v",
+        "one_shared_equilibrium_population_solution": true,
+        "per_laser_total_pumping_rate_absolute_difference": 5.551115123125783e-17,
+        "population_absolute_difference": 5.412337245047638e-16,
+        "reference_excited_fraction": 0.1047892652159816,
+        "reference_normalized_force": [
+          0.02551286120749157,
+          0.0,
+          1.734723475976807e-17
+        ],
+        "reference_total_scattering_rate_gamma": 0.1047892552238236,
+        "state_indexed_rate_comparison_note": "At exactly B=0, rotations inside degenerate manifolds are gauge-dependent; per-laser totals, populations, and force are the invariant comparisons.",
+        "state_indexed_summed_pumping_matrix_difference": 0.024941173204978392,
+        "state_matrix_residual_linf": 4.5102810375396984e-17,
+        "v_normalized": -0.5,
+        "x_normalized": 0.0
+      },
+      {
+        "accepted_normalized_force": [
+          -0.02551286120749157,
+          0.0,
+          -5.204170427930421e-18
+        ],
+        "force_absolute_difference": 1.0408340855860843e-17,
+        "force_relative_difference": 4.0796446824257204e-16,
+        "name": "plus_delta_v",
+        "one_shared_equilibrium_population_solution": true,
+        "per_laser_total_pumping_rate_absolute_difference": 2.7755575615628914e-17,
+        "population_absolute_difference": 6.245004513516506e-16,
+        "reference_excited_fraction": 0.10478926521598163,
+        "reference_normalized_force": [
+          -0.02551286120749157,
+          8.673617379884035e-19,
+          -1.5612511283791264e-17
+        ],
+        "reference_total_scattering_rate_gamma": 0.10478925522382362,
+        "state_indexed_rate_comparison_note": "At exactly B=0, rotations inside degenerate manifolds are gauge-dependent; per-laser totals, populations, and force are the invariant comparisons.",
+        "state_indexed_summed_pumping_matrix_difference": 0.024941173204978396,
+        "state_matrix_residual_linf": 8.326672684688674e-17,
+        "v_normalized": 0.5,
+        "x_normalized": 0.0
+      },
+      {
+        "accepted_normalized_force": [
+          -0.06177743153439129,
+          1.734723475976807e-18,
+          0.0007873926794727554
+        ],
+        "force_absolute_difference": 2.0816681711721685e-17,
+        "force_relative_difference": 3.369625637500502e-16,
+        "name": "model_negative_extremum",
+        "one_shared_equilibrium_population_solution": true,
+        "per_laser_total_pumping_rate_absolute_difference": 6.938893903907228e-18,
+        "population_absolute_difference": 4.163336342344337e-16,
+        "reference_excited_fraction": 0.12974992099693608,
+        "reference_normalized_force": [
+          -0.06177743153439127,
+          4.336808689942018e-19,
+          0.0007873926794727633
+        ],
+        "reference_total_scattering_rate_gamma": 0.12974363099141578,
+        "state_indexed_rate_comparison_note": "At exactly B=0, rotations inside degenerate manifolds are gauge-dependent; per-laser totals, populations, and force are the invariant comparisons.",
+        "state_indexed_summed_pumping_matrix_difference": 2.7755575615628914e-17,
+        "state_matrix_residual_linf": 1.1796119636642288e-16,
+        "v_normalized": 1.4936247723132894,
+        "x_normalized": -3.552713678800501e-15
+      },
+      {
+        "accepted_normalized_force": [
+          0.06676165315329444,
+          8.673617379884035e-19,
+          -0.0006570767807702214
+        ],
+        "force_absolute_difference": 4.163336342344337e-17,
+        "force_relative_difference": 6.236119307568243e-16,
+        "name": "model_positive_extremum",
+        "one_shared_equilibrium_population_solution": true,
+        "per_laser_total_pumping_rate_absolute_difference": 5.551115123125783e-17,
+        "population_absolute_difference": 1.8041124150158794e-16,
+        "reference_excited_fraction": 0.13410951327683174,
+        "reference_normalized_force": [
+          0.06676165315329448,
+          3.469446951953614e-18,
+          -0.0006570767807702101
+        ],
+        "reference_total_scattering_rate_gamma": 0.13417101579142682,
+        "state_indexed_rate_comparison_note": "At exactly B=0, rotations inside degenerate manifolds are gauge-dependent; per-laser totals, populations, and force are the invariant comparisons.",
+        "state_indexed_summed_pumping_matrix_difference": 2.7755575615628914e-17,
+        "state_matrix_residual_linf": 3.8163916471489756e-17,
+        "v_normalized": -1.4936247723133107,
+        "x_normalized": -3.552713678800501e-15
+      },
+      {
+        "accepted_normalized_force": [
+          -0.0024003972490815647,
+          2.168404344971009e-18,
+          -1.734723475976807e-18
+        ],
+        "force_absolute_difference": 5.204170427930421e-18,
+        "force_relative_difference": 2.1680454891046182e-15,
+        "name": "dark_region",
+        "one_shared_equilibrium_population_solution": true,
+        "per_laser_total_pumping_rate_absolute_difference": 2.7755575615628914e-17,
+        "population_absolute_difference": 3.885780586188048e-16,
+        "reference_excited_fraction": 0.05156212936200484,
+        "reference_normalized_force": [
+          -0.00240039724908157,
+          -1.734723475976807e-18,
+          -8.673617379884035e-19
+        ],
+        "reference_total_scattering_rate_gamma": 0.051562124453933315,
+        "state_indexed_rate_comparison_note": "At exactly B=0, rotations inside degenerate manifolds are gauge-dependent; per-laser totals, populations, and force are the invariant comparisons.",
+        "state_indexed_summed_pumping_matrix_difference": 2.7755575615628914e-17,
+        "state_matrix_residual_linf": 6.158268339717665e-17,
+        "v_normalized": 0.0,
+        "x_normalized": 5.5
+      }
+    ],
+    "mgf_3_plus_1": [
+      {
+        "accepted_normalized_force": [
+          -8.673617379884035e-19,
+          0.0,
+          2.42861286636753e-17
+        ],
+        "force_absolute_difference": 1.3552527156068805e-17,
+        "force_relative_difference": 0.013552527156068804,
+        "name": "origin",
+        "one_shared_equilibrium_population_solution": true,
+        "per_laser_total_pumping_rate_absolute_difference": 2.7755575615628914e-17,
+        "population_absolute_difference": 1.3808398868775384e-15,
+        "reference_excited_fraction": 0.0913421825950494,
+        "reference_normalized_force": [
+          -3.469446951953614e-18,
+          0.0,
+          1.0733601507606494e-17
+        ],
+        "reference_total_scattering_rate_gamma": 0.0913421738892531,
+        "state_indexed_rate_comparison_note": "At exactly B=0, rotations inside degenerate manifolds are gauge-dependent; per-laser totals, populations, and force are the invariant comparisons.",
+        "state_indexed_summed_pumping_matrix_difference": 0.01866982322345797,
+        "state_matrix_residual_linf": 3.2959746043559335e-17,
+        "v_normalized": 0.0,
+        "x_normalized": 0.0
+      },
+      {
+        "accepted_normalized_force": [
+          0.0019218403447991159,
+          0.0,
+          -3.2959746043559335e-17
+        ],
+        "force_absolute_difference": 4.336808689942018e-18,
+        "force_relative_difference": 2.2565915538604904e-15,
+        "name": "minus_delta_x",
+        "one_shared_equilibrium_population_solution": true,
+        "per_laser_total_pumping_rate_absolute_difference": 6.938893903907228e-18,
+        "population_absolute_difference": 3.885780586188048e-16,
+        "reference_excited_fraction": 0.09097107879894532,
+        "reference_normalized_force": [
+          0.0019218403447991202,
+          -2.168404344971009e-19,
+          -3.0357660829594124e-17
+        ],
+        "reference_total_scattering_rate_gamma": 0.09097107012836289,
+        "state_indexed_rate_comparison_note": "At exactly B=0, rotations inside degenerate manifolds are gauge-dependent; per-laser totals, populations, and force are the invariant comparisons.",
+        "state_indexed_summed_pumping_matrix_difference": 2.7755575615628914e-17,
+        "state_matrix_residual_linf": 8.847089727481716e-17,
+        "v_normalized": 0.0,
+        "x_normalized": -0.5
+      },
+      {
+        "accepted_normalized_force": [
+          -0.001921840344799132,
+          6.938893903907228e-18,
+          -3.122502256758253e-17
+        ],
+        "force_absolute_difference": 1.2793585635328952e-17,
+        "force_relative_difference": 6.656945083888391e-15,
+        "name": "plus_delta_x",
+        "one_shared_equilibrium_population_solution": true,
+        "per_laser_total_pumping_rate_absolute_difference": 6.938893903907228e-18,
+        "population_absolute_difference": 2.636779683484747e-16,
+        "reference_excited_fraction": 0.09097107879894525,
+        "reference_normalized_force": [
+          -0.0019218403447991191,
+          1.734723475976807e-18,
+          -3.3393426912553537e-17
+        ],
+        "reference_total_scattering_rate_gamma": 0.09097107012836282,
+        "state_indexed_rate_comparison_note": "At exactly B=0, rotations inside degenerate manifolds are gauge-dependent; per-laser totals, populations, and force are the invariant comparisons.",
+        "state_indexed_summed_pumping_matrix_difference": 2.7755575615628914e-17,
+        "state_matrix_residual_linf": 8.326672684688674e-17,
+        "v_normalized": 0.0,
+        "x_normalized": 0.5
+      },
+      {
+        "accepted_normalized_force": [
+          0.022006680046053953,
+          0.0,
+          0.0
+        ],
+        "force_absolute_difference": 1.973247953923618e-17,
+        "force_relative_difference": 8.966586281048075e-16,
+        "name": "minus_delta_v",
+        "one_shared_equilibrium_population_solution": true,
+        "per_laser_total_pumping_rate_absolute_difference": 2.7755575615628914e-17,
+        "population_absolute_difference": 2.7755575615628914e-16,
+        "reference_excited_fraction": 0.09926968974578174,
+        "reference_normalized_force": [
+          0.022006680046053967,
+          1.951563910473908e-18,
+          1.973247953923618e-17
+        ],
+        "reference_total_scattering_rate_gamma": 0.09926968028242529,
+        "state_indexed_rate_comparison_note": "At exactly B=0, rotations inside degenerate manifolds are gauge-dependent; per-laser totals, populations, and force are the invariant comparisons.",
+        "state_indexed_summed_pumping_matrix_difference": 0.02180379125203276,
+        "state_matrix_residual_linf": 6.591949208711867e-17,
+        "v_normalized": -0.5,
+        "x_normalized": 0.0
+      },
+      {
+        "accepted_normalized_force": [
+          -0.022006680046053956,
+          0.0,
+          -3.469446951953614e-18
+        ],
+        "force_absolute_difference": 5.204170427930421e-18,
+        "force_relative_difference": 2.3648139642324593e-16,
+        "name": "plus_delta_v",
+        "one_shared_equilibrium_population_solution": true,
+        "per_laser_total_pumping_rate_absolute_difference": 2.7755575615628914e-17,
+        "population_absolute_difference": 1.6653345369377348e-16,
+        "reference_excited_fraction": 0.09926968974578176,
+        "reference_normalized_force": [
+          -0.022006680046053953,
+          0.0,
+          1.734723475976807e-18
+        ],
+        "reference_total_scattering_rate_gamma": 0.0992696802824253,
+        "state_indexed_rate_comparison_note": "At exactly B=0, rotations inside degenerate manifolds are gauge-dependent; per-laser totals, populations, and force are the invariant comparisons.",
+        "state_indexed_summed_pumping_matrix_difference": 0.02180379125203276,
+        "state_matrix_residual_linf": 6.245004513516506e-17,
+        "v_normalized": 0.5,
+        "x_normalized": 0.0
+      },
+      {
+        "accepted_normalized_force": [
+          -0.05278770471866884,
+          0.0,
+          0.0005940799982253955
+        ],
+        "force_absolute_difference": 8.456776945386935e-18,
+        "force_relative_difference": 1.6020353585095584e-16,
+        "name": "model_negative_extremum",
+        "one_shared_equilibrium_population_solution": true,
+        "per_laser_total_pumping_rate_absolute_difference": 6.938893903907228e-18,
+        "population_absolute_difference": 2.914335439641036e-16,
+        "reference_excited_fraction": 0.1227213528938151,
+        "reference_normalized_force": [
+          -0.052787704718668844,
+          1.3010426069826053e-18,
+          0.000594079998225404
+        ],
+        "reference_total_scattering_rate_gamma": 0.12272742630991011,
+        "state_indexed_rate_comparison_note": "At exactly B=0, rotations inside degenerate manifolds are gauge-dependent; per-laser totals, populations, and force are the invariant comparisons.",
+        "state_indexed_summed_pumping_matrix_difference": 5.551115123125783e-17,
+        "state_matrix_residual_linf": 5.204170427930421e-17,
+        "v_normalized": 1.4936247723132894,
+        "x_normalized": 7.105427357601002e-15
+      },
+      {
+        "accepted_normalized_force": [
+          0.060134988414233204,
+          0.0,
+          -0.0008446648781999799
+        ],
+        "force_absolute_difference": 2.0816681711721685e-17,
+        "force_relative_difference": 3.4616588878887414e-16,
+        "name": "model_positive_extremum",
+        "one_shared_equilibrium_population_solution": true,
+        "per_laser_total_pumping_rate_absolute_difference": 1.3877787807814457e-17,
+        "population_absolute_difference": 3.469446951953614e-16,
+        "reference_excited_fraction": 0.12997508261409785,
+        "reference_normalized_force": [
+          0.06013498841423318,
+          -7.48099499014998e-18,
+          -0.0008446648781999804
+        ],
+        "reference_total_scattering_rate_gamma": 0.12998350564934757,
+        "state_indexed_rate_comparison_note": "At exactly B=0, rotations inside degenerate manifolds are gauge-dependent; per-laser totals, populations, and force are the invariant comparisons.",
+        "state_indexed_summed_pumping_matrix_difference": 5.551115123125783e-17,
+        "state_matrix_residual_linf": 8.326672684688674e-17,
+        "v_normalized": -1.4936247723133107,
+        "x_normalized": 7.105427357601002e-15
+      },
+      {
+        "accepted_normalized_force": [
+          -0.0070696474279708455,
+          0.0,
+          -3.469446951953614e-18
+        ],
+        "force_absolute_difference": 3.469446951953614e-18,
+        "force_relative_difference": 4.907524720719243e-16,
+        "name": "dark_region",
+        "one_shared_equilibrium_population_solution": true,
+        "per_laser_total_pumping_rate_absolute_difference": 3.469446951953614e-18,
+        "population_absolute_difference": 8.881784197001252e-16,
+        "reference_excited_fraction": 0.056963451617942785,
+        "reference_normalized_force": [
+          -0.007069647427970849,
+          1.1926223897340549e-18,
+          -2.927345865710862e-18
+        ],
+        "reference_total_scattering_rate_gamma": 0.05696344619491147,
+        "state_indexed_rate_comparison_note": "At exactly B=0, rotations inside degenerate manifolds are gauge-dependent; per-laser totals, populations, and force are the invariant comparisons.",
+        "state_indexed_summed_pumping_matrix_difference": 6.938893903907228e-18,
+        "state_matrix_residual_linf": 6.505213034913027e-17,
+        "v_normalized": 0.0,
+        "x_normalized": 5.5
+      }
+    ]
+  },
+  "exact_replication_valid": false,
+  "exact_track_blocked": true,
+  "figure_2_sign_calibration": {
+    "colorbar_ordering": "top_positive_bottom_negative",
+    "conclusion": "Axes and colorbar signs are independently validated. Figure 2(c)'s rendered v=0 local slope remains positive under all sampled delta-x windows; it is not caused by a global extraction inversion. The path/text statements concern overall confinement and do not justify reversing the calibrated force sign.",
+    "correction_applied_to_run_011b": false,
+    "cross_checks": {
+      "low_velocity_trajectories": "reach the origin in the [3+1] calculation; this is a path-level statement, not a proof of the v=0 local slope",
+      "paper_component_4_text": "adds confinement overall but also states slight acceleration at large negative x",
+      "white_trajectory_overlays": "consistent with axes but obscure local pixels; not used as color anchors"
+    },
+    "image_coordinate_direction": {
+      "x": "right_increases_pixel_x",
+      "y": "down_increases_pixel_y"
+    },
+    "independent_config": "configs\\rodriguez_figure2_sign_calibration_run_011c.yaml",
+    "independent_of_run_011b_metadata": true,
+    "panels": {
+      "mgf_3": {
+        "antisymmetry_correlation": 0.4282824942136423,
+        "antisymmetry_rms_force": 0.021026544707615863,
+        "colorbar_numerical_values": [
+          0.06,
+          0.0,
+          -0.06
+        ],
+        "force_calibration_per_pixel": -0.00022727272727272725,
+        "median_apparent_dF_dx": -0.0011079545454545457,
+        "small_displacement_samples": [
+          {
+            "F_x_minus_delta_x": 0.0013636363636363585,
+            "F_x_plus_delta_x": 0.0,
+            "apparent_dF_dx": -0.0013636363636363585,
+            "delta_x": 0.5
+          },
+          {
+            "F_x_minus_delta_x": 0.0013636363636363585,
+            "F_x_plus_delta_x": -0.0006818181818181862,
+            "apparent_dF_dx": -0.0010227272727272724,
+            "delta_x": 1.0
+          },
+          {
+            "F_x_minus_delta_x": 0.0013636363636363585,
+            "F_x_plus_delta_x": -0.0015909090909091012,
+            "apparent_dF_dx": -0.0009848484848484866,
+            "delta_x": 1.5
+          },
+          {
+            "F_x_minus_delta_x": 0.0022727272727272735,
+            "F_x_plus_delta_x": -0.0025000000000000022,
+            "apparent_dF_dx": -0.001193181818181819,
+            "delta_x": 2.0
+          }
+        ],
+        "v_calibration_data_per_pixel": -0.07285966441201322,
+        "x_calibration_data_per_pixel": 0.03856739554979915
+      },
+      "mgf_3_plus_1": {
+        "antisymmetry_correlation": 0.7924322033644531,
+        "antisymmetry_rms_force": 0.012405251413017612,
+        "colorbar_numerical_values": [
+          0.05,
+          0.0,
+          -0.05
+        ],
+        "force_calibration_per_pixel": -0.00018214916103003308,
+        "median_apparent_dF_dx": 0.0021174839969741338,
+        "small_displacement_samples": [
+          {
+            "F_x_minus_delta_x": -0.0012750441272102314,
+            "F_x_plus_delta_x": 0.002550088254420463,
+            "apparent_dF_dx": 0.0038251323816306942,
+            "delta_x": 0.5
+          },
+          {
+            "F_x_minus_delta_x": -0.002550088254420463,
+            "F_x_plus_delta_x": -0.0006375220636051157,
+            "apparent_dF_dx": 0.0009562830954076736,
+            "delta_x": 1.0
+          },
+          {
+            "F_x_minus_delta_x": -0.0038251323816306942,
+            "F_x_plus_delta_x": 0.0016393424492702965,
+            "apparent_dF_dx": 0.0018214916103003302,
+            "delta_x": 1.5
+          },
+          {
+            "F_x_minus_delta_x": -0.007103817280171287,
+            "F_x_plus_delta_x": 0.002550088254420463,
+            "apparent_dF_dx": 0.0024134763836479375,
+            "delta_x": 2.0
+          }
+        ],
+        "v_calibration_data_per_pixel": -0.07285966441201322,
+        "x_calibration_data_per_pixel": 0.038567395549799134
+      }
+    },
+    "physical_coordinate_direction": {
+      "v": "up_is_positive_v",
+      "x": "right_is_positive_x"
+    },
+    "signed_color_mapping": "yellow/green positive; blue/purple negative; teal near zero",
+    "status": "FIGURE_SIGN_CALIBRATION_VALIDATED"
+  },
+  "gate": "MOLECULAR_MODEL_DISCREPANCY_NARROWED",
+  "gate_basis": "local wrapper and released pylcp implementation are reproduced independently; unresolved excited eigenvector/dipole and unpublished matrix differences remain strongly implicated but cannot be conclusively separated",
+  "generated_files": [
+    "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY.md",
+    "molecular_model_audit\\run_011c\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_metadata.json",
+    "molecular_model_audit\\run_011c\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_accepted_molecular_matrices.npz",
+    "molecular_model_audit\\run_011c\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_accepted_molecular_matrices_metadata.json",
+    "molecular_model_audit\\run_011c\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_transition_ledger.csv",
+    "molecular_model_audit\\run_011c\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_state_resolved_diagnostics.json"
+  ],
+  "independent_rate_equation_comparison": {
+    "combined_population_solve_per_point": true,
+    "conclusion": "independent paper-equation evaluator reproduces the accepted pylcp force and equilibrium solution for identical supplied matrices",
+    "independent_evaluator_calls_pylcp_rateeq": false,
+    "maximum_force_absolute_difference": 4.336808689942018e-17,
+    "maximum_per_laser_total_pumping_rate_absolute_difference": 5.551115123125783e-17,
+    "maximum_population_absolute_difference": 1.3808398868775384e-15,
+    "zero_field_degenerate_basis_gauge_documented": true
+  },
+  "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY",
+  "matrix_export": {
+    "approximate_assignments": "F,mF labels are dominant zero-field assignments and become approximate after field mixing",
+    "excited_basis": [
+      {
+        "F": 0.0,
+        "index": 0,
+        "level": "Fprime0",
+        "mF": -0.0,
+        "manifold": "excited",
+        "relative_energy_gamma": 0.0
+      },
+      {
+        "F": 1.0,
+        "index": 1,
+        "level": "Fprime1",
+        "mF": -1.0,
+        "manifold": "excited",
+        "relative_energy_gamma": 0.023923444976076555
+      },
+      {
+        "F": 1.0,
+        "index": 2,
+        "level": "Fprime1",
+        "mF": 0.0,
+        "manifold": "excited",
+        "relative_energy_gamma": 0.023923444976076555
+      },
+      {
+        "F": 1.0,
+        "index": 3,
+        "level": "Fprime1",
+        "mF": 1.0,
+        "manifold": "excited",
+        "relative_energy_gamma": 0.023923444976076555
+      }
+    ],
+    "excited_weak_field_slopes": {
+      "x": [
+        {
+          "degeneracy": 1,
+          "slopes_gamma_per_gauss": [
+            0.0
+          ],
+          "zero_field_energy_gamma": -0.017942583732057503
+        },
+        {
+          "degeneracy": 3,
+          "slopes_gamma_per_gauss": [
+            -6.696767902918661e-05,
+            4.446922973085077e-21,
+            6.696767902918658e-05
+          ],
+          "zero_field_energy_gamma": 0.005980861244019054
+        }
+      ],
+      "y": [
+        {
+          "degeneracy": 1,
+          "slopes_gamma_per_gauss": [
+            0.0
+          ],
+          "zero_field_energy_gamma": -0.017942583732057503
+        },
+        {
+          "degeneracy": 3,
+          "slopes_gamma_per_gauss": [
+            -6.696767902918661e-05,
+            4.446922973085077e-21,
+            6.696767902918658e-05
+          ],
+          "zero_field_energy_gamma": 0.005980861244019054
+        }
+      ],
+      "z": [
+        {
+          "degeneracy": 1,
+          "slopes_gamma_per_gauss": [
+            0.0
+          ],
+          "zero_field_energy_gamma": -0.017942583732057503
+        },
+        {
+          "degeneracy": 3,
+          "slopes_gamma_per_gauss": [
+            -6.696767902918662e-05,
+            0.0,
+            6.696767902918662e-05
+          ],
+          "zero_field_energy_gamma": 0.005980861244019054
+        }
+      ]
+    },
+    "ground_basis": [
+      {
+        "F": 1.0,
+        "dominant_J": 1.5,
+        "dominant_weight": 0.5114561322529674,
+        "index": 0,
+        "level": "lower_F1",
+        "mF": -1.0,
+        "manifold": "ground",
+        "relative_energy_mhz": 0.0
+      },
+      {
+        "F": 1.0,
+        "dominant_J": 1.5,
+        "dominant_weight": 0.5114561322529674,
+        "index": 1,
+        "level": "lower_F1",
+        "mF": 0.0,
+        "manifold": "ground",
+        "relative_energy_mhz": 0.0
+      },
+      {
+        "F": 1.0,
+        "dominant_J": 1.5,
+        "dominant_weight": 0.5114561322529674,
+        "index": 2,
+        "level": "lower_F1",
+        "mF": 1.0,
+        "manifold": "ground",
+        "relative_energy_mhz": 0.0
+      },
+      {
+        "F": 0.0,
+        "dominant_J": 0.5,
+        "dominant_weight": 1.0,
+        "index": 3,
+        "level": "F0",
+        "mF": -0.0,
+        "manifold": "ground",
+        "relative_energy_mhz": 109.73157641206407
+      },
+      {
+        "F": 1.0,
+        "dominant_J": 0.5,
+        "dominant_weight": 0.5114561322529674,
+        "index": 4,
+        "level": "upper_F1",
+        "mF": -1.0,
+        "manifold": "ground",
+        "relative_energy_mhz": 230.05865548732874
+      },
+      {
+        "F": 1.0,
+        "dominant_J": 0.5,
+        "dominant_weight": 0.5114561322529674,
+        "index": 5,
+        "level": "upper_F1",
+        "mF": 0.0,
+        "manifold": "ground",
+        "relative_energy_mhz": 230.05865548732874
+      },
+      {
+        "F": 1.0,
+        "dominant_J": 0.5,
+        "dominant_weight": 0.5114561322529674,
+        "index": 6,
+        "level": "upper_F1",
+        "mF": 1.0,
+        "manifold": "ground",
+        "relative_energy_mhz": 230.05865548732874
+      },
+      {
+        "F": 2.0,
+        "dominant_J": 1.5,
+        "dominant_weight": 1.0,
+        "index": 7,
+        "level": "F2",
+        "mF": -2.0,
+        "manifold": "ground",
+        "relative_energy_mhz": 239.3270750574154
+      },
+      {
+        "F": 2.0,
+        "dominant_J": 1.5,
+        "dominant_weight": 1.0,
+        "index": 8,
+        "level": "F2",
+        "mF": -1.0,
+        "manifold": "ground",
+        "relative_energy_mhz": 239.3270750574154
+      },
+      {
+        "F": 2.0,
+        "dominant_J": 1.5,
+        "dominant_weight": 1.0,
+        "index": 9,
+        "level": "F2",
+        "mF": 0.0,
+        "manifold": "ground",
+        "relative_energy_mhz": 239.3270750574154
+      },
+      {
+        "F": 2.0,
+        "dominant_J": 1.5,
+        "dominant_weight": 1.0,
+        "index": 10,
+        "level": "F2",
+        "mF": 1.0,
+        "manifold": "ground",
+        "relative_energy_mhz": 239.3270750574154
+      },
+      {
+        "F": 2.0,
+        "dominant_J": 1.5,
+        "dominant_weight": 1.0,
+        "index": 11,
+        "level": "F2",
+        "mF": 2.0,
+        "manifold": "ground",
+        "relative_energy_mhz": 239.3270750574154
+      }
+    ],
+    "ground_weak_field_slopes": {
+      "x": [
+        {
+          "degeneracy": 3,
+          "slopes_gamma_per_gauss": [
+            -0.013939752744962454,
+            -4.580754178751256e-18,
+            0.013939752744962449
+          ],
+          "zero_field_energy_gamma": -7.9606974724882065
+        },
+        {
+          "degeneracy": 1,
+          "slopes_gamma_per_gauss": [
+            0.0
+          ],
+          "zero_field_energy_gamma": -2.710382811623897
+        },
+        {
+          "degeneracy": 3,
+          "slopes_gamma_per_gauss": [
+            -0.047462418558192235,
+            9.920449878242366e-18,
+            0.04746241855819222
+          ],
+          "zero_field_energy_gamma": 3.0468936991543174
+        },
+        {
+          "degeneracy": 5,
+          "slopes_gamma_per_gauss": [
+            -0.06704534221080871,
+            -0.03352266975800544,
+            -5.726114234169845e-18,
+            0.03352266975800544,
+            0.06704534221080871
+          ],
+          "zero_field_energy_gamma": 3.490358750354638
+        }
+      ],
+      "y": [
+        {
+          "degeneracy": 3,
+          "slopes_gamma_per_gauss": [
+            -0.01393975274496245,
+            5.664956351236761e-18,
+            0.013939752744962453
+          ],
+          "zero_field_energy_gamma": -7.9606974724882065
+        },
+        {
+          "degeneracy": 1,
+          "slopes_gamma_per_gauss": [
+            0.0
+          ],
+          "zero_field_energy_gamma": -2.710382811623897
+        },
+        {
+          "degeneracy": 3,
+          "slopes_gamma_per_gauss": [
+            -0.047462418558192235,
+            9.920449878242366e-18,
+            0.04746241855819222
+          ],
+          "zero_field_energy_gamma": 3.0468936991543174
+        },
+        {
+          "degeneracy": 5,
+          "slopes_gamma_per_gauss": [
+            -0.06704534221080871,
+            -0.03352266975800544,
+            -5.726114234169845e-18,
+            0.03352266975800544,
+            0.06704534221080871
+          ],
+          "zero_field_energy_gamma": 3.490358750354638
+        }
+      ],
+      "z": [
+        {
+          "degeneracy": 3,
+          "slopes_gamma_per_gauss": [
+            -0.013939752744962458,
+            0.0,
+            0.013939752744962458
+          ],
+          "zero_field_energy_gamma": -7.9606974724882065
+        },
+        {
+          "degeneracy": 1,
+          "slopes_gamma_per_gauss": [
+            0.0
+          ],
+          "zero_field_energy_gamma": -2.710382811623897
+        },
+        {
+          "degeneracy": 3,
+          "slopes_gamma_per_gauss": [
+            -0.047462418558192235,
+            0.0,
+            0.047462418558192235
+          ],
+          "zero_field_energy_gamma": 3.0468936991543174
+        },
+        {
+          "degeneracy": 5,
+          "slopes_gamma_per_gauss": [
+            -0.06704533541995115,
+            -0.03352266770997558,
+            0.0,
+            0.03352266770997558,
+            0.06704533541995115
+          ],
+          "zero_field_energy_gamma": 3.490358750354638
+        }
+      ]
+    },
+    "identities_and_sum_rules": {
+      "basis_rephasing_strength_max_error": 5.551115123125783e-17,
+      "basis_rotation_application": {
+        "dipole": "bare X-to-A tensor left-multiplied by the same ground transform transpose",
+        "dynamic_field_rotation": "both manifold Hamiltonians diagonalized and both dipole indices rotated in pylcp and independent evaluator",
+        "excited_h0_magnetic_dipole": "common effective Astate F,mF basis; identity zero-field transform",
+        "ground_h0": "pylcp Xstate eigenbasis",
+        "ground_magnetic_tensor": "same pylcp Xstate eigenbasis, then one accepted sign translation"
+      },
+      "branching_column_sums": [
+        1.0,
+        0.9999999999999999,
+        0.9999999999999999,
+        0.9999999999999998
+      ],
+      "dipole_shape": [
+        3,
+        12,
+        4
+      ],
+      "excited_h0_hermiticity_max_error": 0.0,
+      "excited_magnetic_spherical_hermiticity_max_error": 0.0,
+      "excited_transform_unitarity_max_error": 0.0,
+      "ground_h0_hermiticity_max_error": 1.2886255743077447e-16,
+      "ground_magnetic_spherical_hermiticity_max_error": 0.0,
+      "ground_transform_unitarity_max_error": 2.220446049250313e-16,
+      "incompatible_basis_object_found": false,
+      "polarization_complete_strength_by_ground": [
+        0.41093858916186576,
+        0.41093858916186576,
+        0.41093858916186576,
+        0.6666665876518427,
+        0.4223947014842255,
+        0.4223947014842255,
+        0.4223947014842255,
+        0.166666630130269,
+        0.16666662627116752,
+        0.16666664679845228,
+        0.16666662627116752,
+        0.166666630130269
+      ],
+      "total_decay_strength_by_excited": [
+        0.999999881248747,
+        0.999999910512718,
+        0.9999999169172589,
+        0.999999910512718
+      ]
+    },
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY",
+    "matrix_file": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_accepted_molecular_matrices.npz",
+    "matrix_file_sha256": "6b406a64174bef7e62e4ed40e066851d2a26b24165b2d6eca3b42d95dd790689",
+    "metadata_file": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_accepted_molecular_matrices_metadata.json",
+    "spherical_order": [
+      -1,
+      0,
+      1
+    ],
+    "units": {
+      "dipole_q": "dimensionless reduced-dipole normalization",
+      "excited_h0_gamma": "Gamma",
+      "excited_magnetic_moment_gamma_per_gauss": "Gamma/G",
+      "ground_h0_gamma": "Gamma",
+      "ground_magnetic_moment_gamma_per_gauss": "Gamma/G",
+      "spontaneous_branching": "probability"
+    }
+  },
+  "missing_d_operator_invented": false,
+  "optimizer_authorized": false,
+  "paper_quantitative_statements": {
+    "copropagating_scattering_fraction": {
+      "accepted": 0.057826964584643,
+      "classification": "MATCHES_WITHIN_DIGITIZATION_OR_TEXT_PRECISION",
+      "paper": 0.1
+    },
+    "force_magnitude": {
+      "accepted": 0.06708613315717474,
+      "classification": "WEAKLY_DIFFERENT",
+      "paper": 0.05,
+      "unit": "hbar*k*Gamma"
+    },
+    "maximum_scattering_rate": {
+      "accepted": 0.13501002251281194,
+      "classification": "MATCHES_WITHIN_DIGITIZATION_OR_TEXT_PRECISION",
+      "paper": 0.125,
+      "unit": "Gamma"
+    },
+    "paper_values_are_rough_not_fit_targets": true,
+    "plus_minus_z_scattering_fraction": {
+      "accepted": 0.181626986778709,
+      "classification": "MATCHES_WITHIN_DIGITIZATION_OR_TEXT_PRECISION",
+      "paper": 0.3
+    },
+    "point": {
+      "v_normalized": 1.4142135623730951,
+      "x_normalized": 0.0
+    }
+  },
+  "protected_artifacts_unchanged": true,
+  "protected_hashes_after": {
+    "configs\\provisional_force_field_run_010.yaml": "23935fe573a27928c2f855c1562e8a786092ea7379a40646907911fff3b94eb1",
+    "configs\\provisional_named_trajectory_run_011.yaml": "ff2f904d73ee139cb36af24ab45d90c801f44ea6dc12198bfcd2a5278418c2f5",
+    "configs\\rodriguez_baseline_linear_chirp.yaml": "c428695e839de3172ac17e1d30c424a31733bc32dc1d0e7e72b2fa56c9b524b4",
+    "configs\\rodriguez_chirp_to_3_plus_1_handoff.yaml": "f9930c08e5605faa5ea4fe63fc0bff846bc59e785ea6b6a20a152f4458cfc750",
+    "configs\\rodriguez_figure2_sign_calibration_run_011c.yaml": "93c3a319c42fcd5e7c3f7dfb188155fbaad489d7cd8060e3993d18b9c9eb16a9",
+    "configs\\rodriguez_figure_digitization_run_011b.yaml": "62eca00215ebe5770edf08d05ab34a6c62f5dbc2db8106699395dd0ccc51986b",
+    "configs\\rodriguez_gaussian_baseline.yaml": "8498253a5f58d3d7187ac26aa5f52f8d14ccbff19ea741eaccd9b0cfdb1d89a3",
+    "configs\\rodriguez_named_trajectory_protocol.yaml": "580db303fe2774ddda093258773da9e262c446deab50ced08a4164ff1338104a",
+    "configs\\rodriguez_static_3.yaml": "22b9d4f6ff2e1634aaaad7808289c4a4b39c6b63e65763c881c23901c58e4077",
+    "configs\\rodriguez_static_3_plus_1.yaml": "06ed7c00d1df87d2fb929ec6511dc8158e0248a1fb0c7109ba2c6caca81a6f80",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_combined_comparison.png": "fd593020f78105828a626a54b8fa4305ce4f970bd8377e02db8f02e134d73436",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_metadata.json": "2b87c82f6370137b8dd416ac4977a7be70e3b3d84532cf75d87f59e77269fde0",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_pathwise_interpolation_validation.json": "2150d552dcfa1ddb1c56f824940fd5df7a479fb15f435bec5f45c540d4ced8c2",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k.npz": "db20381ae2028815dcc0f453a945333c697a1a66d9d18184b1d7392186b713ee",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k_diagnostics.png": "5c81a20e537b8d032c626572c842bb4ef2ddcb72d3fe6331d7dbb0cadf911b80",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k_metadata.json": "3009a9f6bbe54e433271d243690e61aba7ece2b723179a5ec35cc9945e84c65b",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k.npz": "753b714ee01ef0c8f784b3f0ea9fd022d7321c3f8fcce466d2a05676fba0ac7c",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k_diagnostics.png": "219196d3dc4cc009b1347c60f77f8a5e24d8294c3ee1f60568f5c62921305bef",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k_metadata.json": "62f6d3dfc8c4b6b5151ae07597223074ade23a29f49259054ff9a96e51d2c8c4",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k.npz": "fd5969786282cb3816c07028424d322ae6c6f7fa3bb244e0b38dca9716ee245c",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k_diagnostics.png": "ef010c4c71a833aabbc08ee9103d1426ce7297a9991035d1c85afe2e54e48694",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k_metadata.json": "ac7aa8b88440783a48f62b1695f4d38848284f0ac9740478cb040a3b91430826",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k.npz": "6267a91b621793218ed2385e8ab2991e9e459616ffc048e46ca3ffab6466be17",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k_diagnostics.png": "7b95f421180a2eec1d2790af2ae4def03d6a99c6b5d5e15e25b7d72f9a659362",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k_metadata.json": "5a3975703be82e1df8c47c92159982f2aea1d4d9b0e4e5ca2fdb4945a805ebd9",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k.npz": "3eb6b6a4933e58683ad93945f362a8585f95a33cf578ca560751c94041bb94ec",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k_diagnostics.png": "63432075d78a715c630ff4407fb65486eef783bad9d688507d24bee23ddb00b2",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k_metadata.json": "a28ea7672197a6ffa54ea03d8819747e78184ad54f85972089b603b40303dd55",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_EXCITED_HYPERFINE_D_TERM_SENSITIVITY_ONLY_run_009D.md": "e284fa089f7a628020ff9b89622d8db983d65ee12e7e5a94ef946258aec91f71",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_EXCITED_HYPERFINE_D_TERM_SENSITIVITY_ONLY_run_009D_arrays.npz": "13edff9ae682b8c93868cfe6d2cb0d349a2a3ceb52e26af05cba7609973575e6",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_EXCITED_HYPERFINE_D_TERM_SENSITIVITY_ONLY_run_009D_comparison.png": "f2c8f65585f8e245e6872bea5dbb58b3ed9a20010885e1f044df5c0f272a0049",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_EXCITED_HYPERFINE_D_TERM_SENSITIVITY_ONLY_run_009D_metadata.json": "b145b699199f4089728c490d90f66ff27168ea98faaab782b77a4a7d35e97048",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_run_010.md": "f9b9c7a5f4cd8669d7eba5faeae5cbb8958c8b1fbb73fc767f57bdd629af4199",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_run_010_metadata.json": "3071720c63fe36a1b0de0bb3246deabbb030690e77d56cef7dad73e21f5efa81",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_run_010_validation.png": "bef7b2cd9705922781a2c1fd2cc70c457499233dec9373d2c3f63862f366b3dc",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY.md": "191aed932273bb94b56eb923cfc135be54d5a20461abb5b078326dec2e108d93",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_corrected_static_arrays.npz": "1ed327500c2b7ccabf7394178e6725929e8e57c97a2414d55d16792681caf889",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_corrected_static_metadata.json": "960ee60553385a6a500c80cf06302c2920fce3b5fddfd6582fccde58288c94ff",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_diagnostics.png": "036ada1d3add0fd7e18eabb22372003e2c4cb23d273c01a62d5abaa5c5b4961f",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_gaussian_3.png": "9fbc7107c7a70e8d296befecb90e80a3ecd31b9b292d857e2b1c99416955120e",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_gaussian_3_plus_1.png": "d6c12a33431f112cf0e0be0d768744935a8790002a5ee1c6e75a42d03a9a9d46",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_gaussian_chirp_minus_1_gamma.png": "8ee94a9f2e42dd87ea702f762743a52e2145169bd48cb7eb1cc1854e6a8fed5b",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_gaussian_chirp_minus_4p5_gamma.png": "aef0b5dce66346caac36c91a05e1cb383bad4a7d9c805824c966444a6e8fffe8",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_gaussian_chirp_minus_8_gamma.png": "997adca92d22262ac7c75beec414a9c810c9ce7b896ded5418a41966d71c7d86",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_metadata.json": "962c5084de5a6851f5d103e317ec75fd04fda9b793071e5c7ca42e891aeabd59",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_plane_wave_3.png": "9ebd43c3e349fdf7d3fa3fa6b4a29158e67e868f2c8b7e69edbd971ff8c8aa1f",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_plane_wave_3_plus_1.png": "f972010ba5bf323abbb7163eebe79c2179370d33e591210b08d7cf1cd618005e",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY.md": "938d8a20a6a53861c2bdcb880be6ec6f188a865c23c01fcb5dc34c088e760b93",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY_diagnostics.png": "01d908cf4c604716c095e4637529ed0adc3bac85a4b135de9318d39f04a724c3",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY_metadata.json": "93ad81dfcefeaa948e534f2836ffe1c3f674d180dc980cf2e2121d308365d7dd",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY.md": "9b524b770ec1af4a0cf248b04bbc33ea793854536628c6d2fb65dc871176d9f3",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_comparison.png": "6673ebc29e1779c7a5ea2209bc8cf8246b873347560add7ada10ffe40d5b55d0",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_comparison_metadata.json": "e8b0398bce33411dc5b08d22420ccca5fc950a6f060adb82345622930f2edffa",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_post_handoff_trap_3_plus_1_run_010.npz": "b8ff2e8ddecd955e4909a9050667e765e1e92997201c36d2a1ede5c118ab09a3",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_post_handoff_trap_3_plus_1_run_010_metadata.json": "eb0814492e8a3166e58a54f444655cb365e87a40a01bec4e2b494e4697182814",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_pre_handoff_chirp_3_run_010.npz": "da385440e60a6387d8fcf9e864baec2cffa4d4c04904cabd089bc54ce1865004",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_pre_handoff_chirp_3_run_010_metadata.json": "4622064509b2e290c9f0cf052111f6031add462e97c0aa7c22653a471abc3ad4",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_accepted_plane_wave_model_samples.npz": "205a8abceb2e0c338f780a824d831ae41cb575076029a219a467938655d2b16a",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_digitization_metadata.json": "8a2b17db247d255aba346ec3e9340b53e14750fe5530f3f335c3bca585b3e783",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_2_mgf_3_digitized.npz": "aa347d2058f5ee3d99d5d2a6f3c717a089ad85587e83ad328e2ae98cdbe910e2",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_2_mgf_3_panel.png": "71ac93cb7b4f40921dd27940d372791e17b85f8b6e17a247f1c56357eefd8c5a",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_2_mgf_3_plus_1_digitized.npz": "356245f086d1c3ecb863e7f5f2059d3880a8676aa3a2b9609542db5fdb17b432",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_2_mgf_3_plus_1_panel.png": "2387853ee674339b9cea8190b154f5b685405b2ef1f642e91afb5b5822dd54f9",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_2_gamma_digitized.npz": "de2c6245439036275b702eb6966b5882908dfdfa7e8a94e8be37c7c58c059978",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_2_gamma_panel.png": "510f9bb712be0316895b7f9c40041a55316b8ea42663e8dd42e933b1cd3b66af",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_4_gamma_digitized.npz": "a8c878146854b5d94cc5509701d7101ac3a5c2a8b7db5022964b6916140fc749",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_4_gamma_panel.png": "6af01b95ea37d76a0e13dfd7d3048c2ce3e5e292423a4251e874d46ca0b79f78",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_6_gamma_digitized.npz": "56e53ceba5c1bbab65b0d86a64ae83c52f37a54581840417c0d5216784eb3d92",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_6_gamma_panel.png": "cf8b23558113cf26a73c6f3f76e7bbbf0c16473cc781dc7802627fcb1bd85c72",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_8_gamma_digitized.npz": "4432283be9c9c0bb5664d72f695d6ca3fe55737b7beb591cd71fdcfee94d247a",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_8_gamma_panel.png": "877ccdeafd72932144ca5a14df74b3fa8e1753e51c07ecff9d5572c6d6f2c628",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_4a_panel.png": "14c46d4c472c863b3270018a3dc12cf5cc29f47f3ecc932c861c51a66a686f16",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_4a_thick_trajectory_digitized.npz": "be2d9b54dfa14eae500350fe3b9f6b18e48f614fc0198597eae773a2acb2a43f",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_page_4_300dpi.png": "ce1fea103db642e340a93c7fc6e40534506c553b2173aec58ba9a399f7154bbb",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_page_5_300dpi.png": "420c3929b4893140c6f4cf0b8ae3f75b562fd072443db8ad129b8c56bdd04e20",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_page_6_300dpi.png": "77cb2a9b9571bfb62576defab37e246dec7a5e73239585b889e5df1139501b3a",
+    "src\\mgf_mot\\spectroscopy.py": "3b2a339bed6ef1dcf78d27dfbd9980a93f47268061e02e1a0d09e2c2f83ae065"
+  },
+  "protected_hashes_before": {
+    "configs\\provisional_force_field_run_010.yaml": "23935fe573a27928c2f855c1562e8a786092ea7379a40646907911fff3b94eb1",
+    "configs\\provisional_named_trajectory_run_011.yaml": "ff2f904d73ee139cb36af24ab45d90c801f44ea6dc12198bfcd2a5278418c2f5",
+    "configs\\rodriguez_baseline_linear_chirp.yaml": "c428695e839de3172ac17e1d30c424a31733bc32dc1d0e7e72b2fa56c9b524b4",
+    "configs\\rodriguez_chirp_to_3_plus_1_handoff.yaml": "f9930c08e5605faa5ea4fe63fc0bff846bc59e785ea6b6a20a152f4458cfc750",
+    "configs\\rodriguez_figure2_sign_calibration_run_011c.yaml": "93c3a319c42fcd5e7c3f7dfb188155fbaad489d7cd8060e3993d18b9c9eb16a9",
+    "configs\\rodriguez_figure_digitization_run_011b.yaml": "62eca00215ebe5770edf08d05ab34a6c62f5dbc2db8106699395dd0ccc51986b",
+    "configs\\rodriguez_gaussian_baseline.yaml": "8498253a5f58d3d7187ac26aa5f52f8d14ccbff19ea741eaccd9b0cfdb1d89a3",
+    "configs\\rodriguez_named_trajectory_protocol.yaml": "580db303fe2774ddda093258773da9e262c446deab50ced08a4164ff1338104a",
+    "configs\\rodriguez_static_3.yaml": "22b9d4f6ff2e1634aaaad7808289c4a4b39c6b63e65763c881c23901c58e4077",
+    "configs\\rodriguez_static_3_plus_1.yaml": "06ed7c00d1df87d2fb929ec6511dc8158e0248a1fb0c7109ba2c6caca81a6f80",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_combined_comparison.png": "fd593020f78105828a626a54b8fa4305ce4f970bd8377e02db8f02e134d73436",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_metadata.json": "2b87c82f6370137b8dd416ac4977a7be70e3b3d84532cf75d87f59e77269fde0",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_pathwise_interpolation_validation.json": "2150d552dcfa1ddb1c56f824940fd5df7a479fb15f435bec5f45c540d4ced8c2",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k.npz": "db20381ae2028815dcc0f453a945333c697a1a66d9d18184b1d7392186b713ee",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k_diagnostics.png": "5c81a20e537b8d032c626572c842bb4ef2ddcb72d3fe6331d7dbb0cadf911b80",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k_metadata.json": "3009a9f6bbe54e433271d243690e61aba7ece2b723179a5ec35cc9945e84c65b",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k.npz": "753b714ee01ef0c8f784b3f0ea9fd022d7321c3f8fcce466d2a05676fba0ac7c",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k_diagnostics.png": "219196d3dc4cc009b1347c60f77f8a5e24d8294c3ee1f60568f5c62921305bef",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k_metadata.json": "62f6d3dfc8c4b6b5151ae07597223074ade23a29f49259054ff9a96e51d2c8c4",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k.npz": "fd5969786282cb3816c07028424d322ae6c6f7fa3bb244e0b38dca9716ee245c",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k_diagnostics.png": "ef010c4c71a833aabbc08ee9103d1426ce7297a9991035d1c85afe2e54e48694",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k_metadata.json": "ac7aa8b88440783a48f62b1695f4d38848284f0ac9740478cb040a3b91430826",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k.npz": "6267a91b621793218ed2385e8ab2991e9e459616ffc048e46ca3ffab6466be17",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k_diagnostics.png": "7b95f421180a2eec1d2790af2ae4def03d6a99c6b5d5e15e25b7d72f9a659362",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k_metadata.json": "5a3975703be82e1df8c47c92159982f2aea1d4d9b0e4e5ca2fdb4945a805ebd9",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k.npz": "3eb6b6a4933e58683ad93945f362a8585f95a33cf578ca560751c94041bb94ec",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k_diagnostics.png": "63432075d78a715c630ff4407fb65486eef783bad9d688507d24bee23ddb00b2",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k_metadata.json": "a28ea7672197a6ffa54ea03d8819747e78184ad54f85972089b603b40303dd55",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_EXCITED_HYPERFINE_D_TERM_SENSITIVITY_ONLY_run_009D.md": "e284fa089f7a628020ff9b89622d8db983d65ee12e7e5a94ef946258aec91f71",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_EXCITED_HYPERFINE_D_TERM_SENSITIVITY_ONLY_run_009D_arrays.npz": "13edff9ae682b8c93868cfe6d2cb0d349a2a3ceb52e26af05cba7609973575e6",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_EXCITED_HYPERFINE_D_TERM_SENSITIVITY_ONLY_run_009D_comparison.png": "f2c8f65585f8e245e6872bea5dbb58b3ed9a20010885e1f044df5c0f272a0049",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_EXCITED_HYPERFINE_D_TERM_SENSITIVITY_ONLY_run_009D_metadata.json": "b145b699199f4089728c490d90f66ff27168ea98faaab782b77a4a7d35e97048",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_run_010.md": "f9b9c7a5f4cd8669d7eba5faeae5cbb8958c8b1fbb73fc767f57bdd629af4199",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_run_010_metadata.json": "3071720c63fe36a1b0de0bb3246deabbb030690e77d56cef7dad73e21f5efa81",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_run_010_validation.png": "bef7b2cd9705922781a2c1fd2cc70c457499233dec9373d2c3f63862f366b3dc",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY.md": "191aed932273bb94b56eb923cfc135be54d5a20461abb5b078326dec2e108d93",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_corrected_static_arrays.npz": "1ed327500c2b7ccabf7394178e6725929e8e57c97a2414d55d16792681caf889",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_corrected_static_metadata.json": "960ee60553385a6a500c80cf06302c2920fce3b5fddfd6582fccde58288c94ff",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_diagnostics.png": "036ada1d3add0fd7e18eabb22372003e2c4cb23d273c01a62d5abaa5c5b4961f",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_gaussian_3.png": "9fbc7107c7a70e8d296befecb90e80a3ecd31b9b292d857e2b1c99416955120e",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_gaussian_3_plus_1.png": "d6c12a33431f112cf0e0be0d768744935a8790002a5ee1c6e75a42d03a9a9d46",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_gaussian_chirp_minus_1_gamma.png": "8ee94a9f2e42dd87ea702f762743a52e2145169bd48cb7eb1cc1854e6a8fed5b",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_gaussian_chirp_minus_4p5_gamma.png": "aef0b5dce66346caac36c91a05e1cb383bad4a7d9c805824c966444a6e8fffe8",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_gaussian_chirp_minus_8_gamma.png": "997adca92d22262ac7c75beec414a9c810c9ce7b896ded5418a41966d71c7d86",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_metadata.json": "962c5084de5a6851f5d103e317ec75fd04fda9b793071e5c7ca42e891aeabd59",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_plane_wave_3.png": "9ebd43c3e349fdf7d3fa3fa6b4a29158e67e868f2c8b7e69edbd971ff8c8aa1f",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_plane_wave_3_plus_1.png": "f972010ba5bf323abbb7163eebe79c2179370d33e591210b08d7cf1cd618005e",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY.md": "938d8a20a6a53861c2bdcb880be6ec6f188a865c23c01fcb5dc34c088e760b93",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY_diagnostics.png": "01d908cf4c604716c095e4637529ed0adc3bac85a4b135de9318d39f04a724c3",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY_metadata.json": "93ad81dfcefeaa948e534f2836ffe1c3f674d180dc980cf2e2121d308365d7dd",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY.md": "9b524b770ec1af4a0cf248b04bbc33ea793854536628c6d2fb65dc871176d9f3",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_comparison.png": "6673ebc29e1779c7a5ea2209bc8cf8246b873347560add7ada10ffe40d5b55d0",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_comparison_metadata.json": "e8b0398bce33411dc5b08d22420ccca5fc950a6f060adb82345622930f2edffa",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_post_handoff_trap_3_plus_1_run_010.npz": "b8ff2e8ddecd955e4909a9050667e765e1e92997201c36d2a1ede5c118ab09a3",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_post_handoff_trap_3_plus_1_run_010_metadata.json": "eb0814492e8a3166e58a54f444655cb365e87a40a01bec4e2b494e4697182814",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_pre_handoff_chirp_3_run_010.npz": "da385440e60a6387d8fcf9e864baec2cffa4d4c04904cabd089bc54ce1865004",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_pre_handoff_chirp_3_run_010_metadata.json": "4622064509b2e290c9f0cf052111f6031add462e97c0aa7c22653a471abc3ad4",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_accepted_plane_wave_model_samples.npz": "205a8abceb2e0c338f780a824d831ae41cb575076029a219a467938655d2b16a",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_digitization_metadata.json": "8a2b17db247d255aba346ec3e9340b53e14750fe5530f3f335c3bca585b3e783",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_2_mgf_3_digitized.npz": "aa347d2058f5ee3d99d5d2a6f3c717a089ad85587e83ad328e2ae98cdbe910e2",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_2_mgf_3_panel.png": "71ac93cb7b4f40921dd27940d372791e17b85f8b6e17a247f1c56357eefd8c5a",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_2_mgf_3_plus_1_digitized.npz": "356245f086d1c3ecb863e7f5f2059d3880a8676aa3a2b9609542db5fdb17b432",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_2_mgf_3_plus_1_panel.png": "2387853ee674339b9cea8190b154f5b685405b2ef1f642e91afb5b5822dd54f9",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_2_gamma_digitized.npz": "de2c6245439036275b702eb6966b5882908dfdfa7e8a94e8be37c7c58c059978",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_2_gamma_panel.png": "510f9bb712be0316895b7f9c40041a55316b8ea42663e8dd42e933b1cd3b66af",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_4_gamma_digitized.npz": "a8c878146854b5d94cc5509701d7101ac3a5c2a8b7db5022964b6916140fc749",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_4_gamma_panel.png": "6af01b95ea37d76a0e13dfd7d3048c2ce3e5e292423a4251e874d46ca0b79f78",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_6_gamma_digitized.npz": "56e53ceba5c1bbab65b0d86a64ae83c52f37a54581840417c0d5216784eb3d92",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_6_gamma_panel.png": "cf8b23558113cf26a73c6f3f76e7bbbf0c16473cc781dc7802627fcb1bd85c72",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_8_gamma_digitized.npz": "4432283be9c9c0bb5664d72f695d6ca3fe55737b7beb591cd71fdcfee94d247a",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_8_gamma_panel.png": "877ccdeafd72932144ca5a14df74b3fa8e1753e51c07ecff9d5572c6d6f2c628",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_4a_panel.png": "14c46d4c472c863b3270018a3dc12cf5cc29f47f3ecc932c861c51a66a686f16",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_4a_thick_trajectory_digitized.npz": "be2d9b54dfa14eae500350fe3b9f6b18e48f614fc0198597eae773a2acb2a43f",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_page_4_300dpi.png": "ce1fea103db642e340a93c7fc6e40534506c553b2173aec58ba9a399f7154bbb",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_page_5_300dpi.png": "420c3929b4893140c6f4cf0b8ae3f75b562fd072443db8ad129b8c56bdd04e20",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_page_6_300dpi.png": "77cb2a9b9571bfb62576defab37e246dec7a5e73239585b889e5df1139501b3a",
+    "src\\mgf_mot\\spectroscopy.py": "3b2a339bed6ef1dcf78d27dfbd9980a93f47268061e02e1a0d09e2c2f83ae065"
+  },
+  "pylcp_version_history": {
+    "changes_after_v1_0_2_through_official_master_53885b54_in_audited_files": [],
+    "conclusion": "No official implementation-history evidence supports a pylcp version cause; the exact paper checkout or private matrices are unavailable.",
+    "current_project_version": "1.0.2",
+    "exact_paper_checkout_published": false,
+    "installed_core_files_equal_official_v1_0_2": {
+      "pylcp/fields.py": true,
+      "pylcp/hamiltonian.py": true,
+      "pylcp/hamiltonians/XFmolecules.py": true,
+      "pylcp/rateeq.py": true
+    },
+    "installed_file_sha256": {
+      "pylcp/fields.py": "5d24b7563a024e45f596cf52b9adc03d328d68b5ff38117e8080cfb3f1e51483",
+      "pylcp/hamiltonian.py": "c4ad419c3f5330b4d51c2489abf3391e31166837a6e6e891f3548e3f8e7d1eee",
+      "pylcp/hamiltonians/XFmolecules.py": "f7ffe19d260ead5c793cb760641e526beedf8a7ab57dcfd79ce3c6a92987db9e",
+      "pylcp/rateeq.py": "5f2a8be6d61d47b01a9014cb62bb250ba53d1a86045890574aa3776a42aabfa5"
+    },
+    "latest_official_commit_before_paper_date": "a7cb104f38fa98840ec198d13ec20c432e8ee3ff",
+    "official_repository": "https://github.com/JQIamo/pylcp",
+    "official_v1_0_2_git_blob_ids": {
+      "pylcp/fields.py": "164135d5ea75c1666232f3019b69daf7c125953b",
+      "pylcp/hamiltonian.py": "c88a06627aafea83122fdcaf287beb0ebd91c131",
+      "pylcp/hamiltonians/XFmolecules.py": "e67d55ddf08df000f64da8b9dfed0588b453a6d9",
+      "pylcp/rateeq.py": "37d3552ef23431c190d452047ebf0738e1e4962f"
+    },
+    "official_v1_0_2_tag": "https://github.com/JQIamo/pylcp/tree/v1.0.2",
+    "paper_date": "2023-09-20",
+    "v1_0_2_commit": "a7cb104f38fa98840ec198d13ec20c432e8ee3ff",
+    "v1_0_2_commit_date": "2022-06-23T16:49:02-04:00"
+  },
+  "replication_valid": false,
+  "splitting_vs_eigenvector_physics": {
+    "does_not_test": [
+      "excited hyperfine eigenvector changes",
+      "transition-dipole changes",
+      "coupling through omitted Jprime=3/2 states",
+      "independent Doppelbauer d operator"
+    ],
+    "independent_d_operator_implemented_in_run_011c": false,
+    "plausible_run_011b_sources": [
+      "excited_hyperfine_eigenvector_difference",
+      "dipole_tensor_difference",
+      "unpublished_paper_model_matrix_difference"
+    ],
+    "run_009d_result": "0-1 MHz diagonal Fprime splitting changes did not materially alter accepted static topology"
+  },
+  "state_resolved_diagnostics_file": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_state_resolved_diagnostics.json",
+  "track": "provisional",
+  "trajectories_integrated": 0,
+  "transition_ledger": {
+    "file": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_transition_ledger.csv",
+    "file_sha256": "712f79f5e99107c8e81513c840399c497438e20adca3b30cc9a916f216ca1f02",
+    "row_count": 30,
+    "summaries": {
+      "excited_level": {
+        "Fprime0": {
+          "summed_squared_strength": 0.999999881248747,
+          "transition_count": 6
+        },
+        "Fprime1": {
+          "summed_squared_strength": 2.999999737942695,
+          "transition_count": 24
+        }
+      },
+      "ground_level": {
+        "F0": {
+          "summed_squared_strength": 0.6666665876518427,
+          "transition_count": 3
+        },
+        "F2": {
+          "summed_squared_strength": 0.8333331596013254,
+          "transition_count": 9
+        },
+        "lower_F1": {
+          "summed_squared_strength": 1.2328157674855973,
+          "transition_count": 9
+        },
+        "upper_F1": {
+          "summed_squared_strength": 1.2671841044526766,
+          "transition_count": 9
+        }
+      },
+      "q": {
+        "-1": {
+          "summed_squared_strength": 1.3333332042623005,
+          "transition_count": 10
+        },
+        "0": {
+          "summed_squared_strength": 1.3333332106668414,
+          "transition_count": 10
+        },
+        "1": {
+          "summed_squared_strength": 1.3333332042623005,
+          "transition_count": 10
+        }
+      }
+    }
+  }
+}

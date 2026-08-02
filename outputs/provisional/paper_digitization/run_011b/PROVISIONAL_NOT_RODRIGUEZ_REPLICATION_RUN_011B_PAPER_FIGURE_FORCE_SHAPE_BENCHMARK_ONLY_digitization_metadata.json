@@ -1,0 +1,624 @@
+{
+  "all_manual_crops_and_anchors_are_config_backed": true,
+  "capture_calculations": 0,
+  "configuration_file": "configs\\rodriguez_figure_digitization_run_011b.yaml",
+  "configuration_sha256": "62eca00215ebe5770edf08d05ab34a6c62f5dbc2db8106699395dd0ccc51986b",
+  "figure_4a_trajectory": {
+    "axes_bounds": [
+      373,
+      223,
+      1228,
+      736
+    ],
+    "crop": [
+      330,
+      185,
+      1270,
+      805
+    ],
+    "data_file": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_4a_thick_trajectory_digitized.npz",
+    "data_sha256": "be2d9b54dfa14eae500350fe3b9f6b18e48f614fc0198597eae773a2acb2a43f",
+    "extraction": {
+      "color": "thick_black",
+      "dark_threshold_rgb_mean": 70,
+      "extraction_x_range_px": [
+        376,
+        821
+      ],
+      "extraction_y_range_px": [
+        245,
+        733
+      ],
+      "line_thickness_uncertainty": "half_detected_vertical_span",
+      "minimum_dark_pixels_per_column": 2
+    },
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY",
+    "maximum_line_half_thickness_uncertainty_m_s": 1.1538461538461546,
+    "median_line_half_thickness_uncertainty_m_s": 0.3626188621469478,
+    "page": 6,
+    "panel_image": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_4a_panel.png",
+    "sample_count": 6239,
+    "velocity_range_m_s": [
+      0.25641025641019155,
+      59.48717948717947
+    ],
+    "x_anchors": [
+      [
+        458,
+        -40.0
+      ],
+      [
+        800,
+        0.0
+      ],
+      [
+        1144,
+        40.0
+      ]
+    ],
+    "x_range_mm": [
+      -49.52366920906199,
+      2.37122748960185
+    ],
+    "y_anchors": [
+      [
+        267,
+        60.0
+      ],
+      [
+        423,
+        40.0
+      ],
+      [
+        579,
+        20.0
+      ],
+      [
+        735,
+        0.0
+      ]
+    ]
+  },
+  "force_fields_rebuilt": 0,
+  "force_panels": {
+    "figure_2_mgf_3": {
+      "axes_bounds": [
+        1052,
+        232,
+        1415,
+        781
+      ],
+      "colorbar": {
+        "sample_x": 1450,
+        "sample_y_bounds": [
+          233,
+          779
+        ],
+        "value_anchors": [
+          [
+            240,
+            0.06
+          ],
+          [
+            768,
+            -0.06
+          ]
+        ]
+      },
+      "crop": [
+        1000,
+        190,
+        1505,
+        820
+      ],
+      "data_file": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_2_mgf_3_digitized.npz",
+      "data_sha256": "aa347d2058f5ee3d99d5d2a6f3c717a089ad85587e83ad328e2ae98cdbe910e2",
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY",
+      "maximum_accepted_palette_distance_rgb": 44.98888751680797,
+      "median_palette_distance_rgb": 1.0,
+      "name": "figure_2_mgf_3",
+      "page": 4,
+      "panel_image": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_2_mgf_3_panel.png",
+      "shape": [
+        546,
+        360
+      ],
+      "valid_fraction": 0.9555809930809931,
+      "x_anchors": [
+        [
+          1052,
+          -7.0
+        ],
+        [
+          1415,
+          7.0
+        ]
+      ],
+      "x_scale_applied": 1.0,
+      "y_anchors": [
+        [
+          232,
+          20.0
+        ],
+        [
+          781,
+          -20.0
+        ]
+      ]
+    },
+    "figure_2_mgf_3_plus_1": {
+      "axes_bounds": [
+        1691,
+        232,
+        2054,
+        781
+      ],
+      "colorbar": {
+        "sample_x": 2094,
+        "sample_y_bounds": [
+          233,
+          779
+        ],
+        "value_anchors": [
+          [
+            232,
+            0.05
+          ],
+          [
+            781,
+            -0.05
+          ]
+        ]
+      },
+      "crop": [
+        1640,
+        190,
+        2145,
+        820
+      ],
+      "data_file": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_2_mgf_3_plus_1_digitized.npz",
+      "data_sha256": "356245f086d1c3ecb863e7f5f2059d3880a8676aa3a2b9609542db5fdb17b432",
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY",
+      "maximum_accepted_palette_distance_rgb": 44.96665431183423,
+      "median_palette_distance_rgb": 1.4142135623730951,
+      "name": "figure_2_mgf_3_plus_1",
+      "page": 4,
+      "panel_image": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_2_mgf_3_plus_1_panel.png",
+      "shape": [
+        546,
+        360
+      ],
+      "valid_fraction": 0.9506766381766382,
+      "x_anchors": [
+        [
+          1691,
+          -7.0
+        ],
+        [
+          2054,
+          7.0
+        ]
+      ],
+      "x_scale_applied": 1.0,
+      "y_anchors": [
+        [
+          232,
+          20.0
+        ],
+        [
+          781,
+          -20.0
+        ]
+      ]
+    },
+    "figure_3_minus_2_gamma": {
+      "axes_bounds": [
+        1707,
+        230,
+        2054,
+        648
+      ],
+      "colorbar": {
+        "sample_x": 2094,
+        "sample_y_bounds": [
+          231,
+          647
+        ],
+        "value_anchors": [
+          [
+            230,
+            0.06
+          ],
+          [
+            648,
+            -0.06
+          ]
+        ]
+      },
+      "crop": [
+        1670,
+        190,
+        2090,
+        690
+      ],
+      "data_file": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_2_gamma_digitized.npz",
+      "data_sha256": "de2c6245439036275b702eb6966b5882908dfdfa7e8a94e8be37c7c58c059978",
+      "detuning_gamma": -2.0,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY",
+      "maximum_accepted_palette_distance_rgb": 44.57577817604534,
+      "median_palette_distance_rgb": 1.0,
+      "name": "figure_3_minus_2_gamma",
+      "page": 5,
+      "panel_image": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_2_gamma_panel.png",
+      "shape": [
+        415,
+        344
+      ],
+      "valid_fraction": 0.9849467637993836,
+      "x_anchors": [
+        [
+          1707,
+          -50.0
+        ],
+        [
+          2054,
+          50.0
+        ]
+      ],
+      "x_scale_applied": 1.0,
+      "y_anchors": [
+        [
+          230,
+          150.0
+        ],
+        [
+          648,
+          -150.0
+        ]
+      ]
+    },
+    "figure_3_minus_4_gamma": {
+      "axes_bounds": [
+        1279,
+        230,
+        1625,
+        648
+      ],
+      "colorbar": {
+        "sample_x": 2094,
+        "sample_y_bounds": [
+          231,
+          647
+        ],
+        "value_anchors": [
+          [
+            230,
+            0.06
+          ],
+          [
+            648,
+            -0.06
+          ]
+        ]
+      },
+      "crop": [
+        1240,
+        190,
+        1670,
+        690
+      ],
+      "data_file": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_4_gamma_digitized.npz",
+      "data_sha256": "a8c878146854b5d94cc5509701d7101ac3a5c2a8b7db5022964b6916140fc749",
+      "detuning_gamma": -4.0,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY",
+      "maximum_accepted_palette_distance_rgb": 44.57577817604534,
+      "median_palette_distance_rgb": 1.0,
+      "name": "figure_3_minus_4_gamma",
+      "page": 5,
+      "panel_image": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_4_gamma_panel.png",
+      "shape": [
+        415,
+        343
+      ],
+      "valid_fraction": 0.9912887702413151,
+      "x_anchors": [
+        [
+          1279,
+          -50.0
+        ],
+        [
+          1625,
+          50.0
+        ]
+      ],
+      "x_scale_applied": 1.0,
+      "y_anchors": [
+        [
+          230,
+          150.0
+        ],
+        [
+          648,
+          -150.0
+        ]
+      ]
+    },
+    "figure_3_minus_6_gamma": {
+      "axes_bounds": [
+        850,
+        230,
+        1197,
+        648
+      ],
+      "colorbar": {
+        "sample_x": 2094,
+        "sample_y_bounds": [
+          231,
+          647
+        ],
+        "value_anchors": [
+          [
+            230,
+            0.06
+          ],
+          [
+            648,
+            -0.06
+          ]
+        ]
+      },
+      "crop": [
+        810,
+        190,
+        1240,
+        690
+      ],
+      "data_file": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_6_gamma_digitized.npz",
+      "data_sha256": "56e53ceba5c1bbab65b0d86a64ae83c52f37a54581840417c0d5216784eb3d92",
+      "detuning_gamma": -6.0,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY",
+      "maximum_accepted_palette_distance_rgb": 44.57577817604534,
+      "median_palette_distance_rgb": 1.0,
+      "name": "figure_3_minus_6_gamma",
+      "page": 5,
+      "panel_image": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_6_gamma_panel.png",
+      "shape": [
+        415,
+        344
+      ],
+      "valid_fraction": 0.9846105351639115,
+      "x_anchors": [
+        [
+          850,
+          -50.0
+        ],
+        [
+          1197,
+          50.0
+        ]
+      ],
+      "x_scale_applied": 1.0,
+      "y_anchors": [
+        [
+          230,
+          150.0
+        ],
+        [
+          648,
+          -150.0
+        ]
+      ]
+    },
+    "figure_3_minus_8_gamma": {
+      "axes_bounds": [
+        422,
+        230,
+        768,
+        648
+      ],
+      "colorbar": {
+        "sample_x": 2094,
+        "sample_y_bounds": [
+          231,
+          647
+        ],
+        "value_anchors": [
+          [
+            230,
+            0.06
+          ],
+          [
+            648,
+            -0.06
+          ]
+        ]
+      },
+      "crop": [
+        380,
+        190,
+        810,
+        690
+      ],
+      "data_file": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_8_gamma_digitized.npz",
+      "data_sha256": "4432283be9c9c0bb5664d72f695d6ca3fe55737b7beb591cd71fdcfee94d247a",
+      "detuning_gamma": -8.0,
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY",
+      "maximum_accepted_palette_distance_rgb": 44.57577817604534,
+      "median_palette_distance_rgb": 1.0,
+      "name": "figure_3_minus_8_gamma",
+      "page": 5,
+      "panel_image": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_8_gamma_panel.png",
+      "shape": [
+        415,
+        343
+      ],
+      "valid_fraction": 0.9908953598651165,
+      "x_anchors": [
+        [
+          422,
+          -50.0
+        ],
+        [
+          768,
+          50.0
+        ]
+      ],
+      "x_scale_applied": 1.0,
+      "y_anchors": [
+        [
+          230,
+          150.0
+        ],
+        [
+          648,
+          -150.0
+        ]
+      ]
+    }
+  },
+  "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY",
+  "optimizer_runs": 0,
+  "physics_inputs_modified": false,
+  "protected_artifacts_unchanged": true,
+  "protected_hashes_after": {
+    "configs\\provisional_force_field_run_010.yaml": "23935fe573a27928c2f855c1562e8a786092ea7379a40646907911fff3b94eb1",
+    "configs\\provisional_named_trajectory_run_011.yaml": "ff2f904d73ee139cb36af24ab45d90c801f44ea6dc12198bfcd2a5278418c2f5",
+    "configs\\rodriguez_baseline_linear_chirp.yaml": "c428695e839de3172ac17e1d30c424a31733bc32dc1d0e7e72b2fa56c9b524b4",
+    "configs\\rodriguez_chirp_to_3_plus_1_handoff.yaml": "f9930c08e5605faa5ea4fe63fc0bff846bc59e785ea6b6a20a152f4458cfc750",
+    "configs\\rodriguez_gaussian_baseline.yaml": "8498253a5f58d3d7187ac26aa5f52f8d14ccbff19ea741eaccd9b0cfdb1d89a3",
+    "configs\\rodriguez_static_3.yaml": "22b9d4f6ff2e1634aaaad7808289c4a4b39c6b63e65763c881c23901c58e4077",
+    "configs\\rodriguez_static_3_plus_1.yaml": "06ed7c00d1df87d2fb929ec6511dc8158e0248a1fb0c7109ba2c6caca81a6f80",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_metadata.json": "2b87c82f6370137b8dd416ac4977a7be70e3b3d84532cf75d87f59e77269fde0",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k.npz": "db20381ae2028815dcc0f453a945333c697a1a66d9d18184b1d7392186b713ee",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k_diagnostics.png": "5c81a20e537b8d032c626572c842bb4ef2ddcb72d3fe6331d7dbb0cadf911b80",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k_metadata.json": "3009a9f6bbe54e433271d243690e61aba7ece2b723179a5ec35cc9945e84c65b",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k.npz": "753b714ee01ef0c8f784b3f0ea9fd022d7321c3f8fcce466d2a05676fba0ac7c",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k_diagnostics.png": "219196d3dc4cc009b1347c60f77f8a5e24d8294c3ee1f60568f5c62921305bef",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k_metadata.json": "62f6d3dfc8c4b6b5151ae07597223074ade23a29f49259054ff9a96e51d2c8c4",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k.npz": "fd5969786282cb3816c07028424d322ae6c6f7fa3bb244e0b38dca9716ee245c",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k_diagnostics.png": "ef010c4c71a833aabbc08ee9103d1426ce7297a9991035d1c85afe2e54e48694",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k_metadata.json": "ac7aa8b88440783a48f62b1695f4d38848284f0ac9740478cb040a3b91430826",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k.npz": "6267a91b621793218ed2385e8ab2991e9e459616ffc048e46ca3ffab6466be17",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k_diagnostics.png": "7b95f421180a2eec1d2790af2ae4def03d6a99c6b5d5e15e25b7d72f9a659362",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k_metadata.json": "5a3975703be82e1df8c47c92159982f2aea1d4d9b0e4e5ca2fdb4945a805ebd9",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k.npz": "3eb6b6a4933e58683ad93945f362a8585f95a33cf578ca560751c94041bb94ec",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k_diagnostics.png": "63432075d78a715c630ff4407fb65486eef783bad9d688507d24bee23ddb00b2",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k_metadata.json": "a28ea7672197a6ffa54ea03d8819747e78184ad54f85972089b603b40303dd55",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY.md": "938d8a20a6a53861c2bdcb880be6ec6f188a865c23c01fcb5dc34c088e760b93",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY_diagnostics.png": "01d908cf4c604716c095e4637529ed0adc3bac85a4b135de9318d39f04a724c3",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY_metadata.json": "93ad81dfcefeaa948e534f2836ffe1c3f674d180dc980cf2e2121d308365d7dd",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_post_handoff_trap_3_plus_1_run_010.npz": "b8ff2e8ddecd955e4909a9050667e765e1e92997201c36d2a1ede5c118ab09a3",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_post_handoff_trap_3_plus_1_run_010_metadata.json": "eb0814492e8a3166e58a54f444655cb365e87a40a01bec4e2b494e4697182814",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_pre_handoff_chirp_3_run_010.npz": "da385440e60a6387d8fcf9e864baec2cffa4d4c04904cabd089bc54ce1865004",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_pre_handoff_chirp_3_run_010_metadata.json": "4622064509b2e290c9f0cf052111f6031add462e97c0aa7c22653a471abc3ad4",
+    "src\\mgf_mot\\spectroscopy.py": "3b2a339bed6ef1dcf78d27dfbd9980a93f47268061e02e1a0d09e2c2f83ae065"
+  },
+  "protected_hashes_before": {
+    "configs\\provisional_force_field_run_010.yaml": "23935fe573a27928c2f855c1562e8a786092ea7379a40646907911fff3b94eb1",
+    "configs\\provisional_named_trajectory_run_011.yaml": "ff2f904d73ee139cb36af24ab45d90c801f44ea6dc12198bfcd2a5278418c2f5",
+    "configs\\rodriguez_baseline_linear_chirp.yaml": "c428695e839de3172ac17e1d30c424a31733bc32dc1d0e7e72b2fa56c9b524b4",
+    "configs\\rodriguez_chirp_to_3_plus_1_handoff.yaml": "f9930c08e5605faa5ea4fe63fc0bff846bc59e785ea6b6a20a152f4458cfc750",
+    "configs\\rodriguez_gaussian_baseline.yaml": "8498253a5f58d3d7187ac26aa5f52f8d14ccbff19ea741eaccd9b0cfdb1d89a3",
+    "configs\\rodriguez_static_3.yaml": "22b9d4f6ff2e1634aaaad7808289c4a4b39c6b63e65763c881c23901c58e4077",
+    "configs\\rodriguez_static_3_plus_1.yaml": "06ed7c00d1df87d2fb929ec6511dc8158e0248a1fb0c7109ba2c6caca81a6f80",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_metadata.json": "2b87c82f6370137b8dd416ac4977a7be70e3b3d84532cf75d87f59e77269fde0",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k.npz": "db20381ae2028815dcc0f453a945333c697a1a66d9d18184b1d7392186b713ee",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k_diagnostics.png": "5c81a20e537b8d032c626572c842bb4ef2ddcb72d3fe6331d7dbb0cadf911b80",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k_metadata.json": "3009a9f6bbe54e433271d243690e61aba7ece2b723179a5ec35cc9945e84c65b",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k.npz": "753b714ee01ef0c8f784b3f0ea9fd022d7321c3f8fcce466d2a05676fba0ac7c",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k_diagnostics.png": "219196d3dc4cc009b1347c60f77f8a5e24d8294c3ee1f60568f5c62921305bef",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k_metadata.json": "62f6d3dfc8c4b6b5151ae07597223074ade23a29f49259054ff9a96e51d2c8c4",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k.npz": "fd5969786282cb3816c07028424d322ae6c6f7fa3bb244e0b38dca9716ee245c",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k_diagnostics.png": "ef010c4c71a833aabbc08ee9103d1426ce7297a9991035d1c85afe2e54e48694",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k_metadata.json": "ac7aa8b88440783a48f62b1695f4d38848284f0ac9740478cb040a3b91430826",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k.npz": "6267a91b621793218ed2385e8ab2991e9e459616ffc048e46ca3ffab6466be17",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k_diagnostics.png": "7b95f421180a2eec1d2790af2ae4def03d6a99c6b5d5e15e25b7d72f9a659362",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k_metadata.json": "5a3975703be82e1df8c47c92159982f2aea1d4d9b0e4e5ca2fdb4945a805ebd9",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k.npz": "3eb6b6a4933e58683ad93945f362a8585f95a33cf578ca560751c94041bb94ec",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k_diagnostics.png": "63432075d78a715c630ff4407fb65486eef783bad9d688507d24bee23ddb00b2",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k_metadata.json": "a28ea7672197a6ffa54ea03d8819747e78184ad54f85972089b603b40303dd55",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY.md": "938d8a20a6a53861c2bdcb880be6ec6f188a865c23c01fcb5dc34c088e760b93",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY_diagnostics.png": "01d908cf4c604716c095e4637529ed0adc3bac85a4b135de9318d39f04a724c3",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY_metadata.json": "93ad81dfcefeaa948e534f2836ffe1c3f674d180dc980cf2e2121d308365d7dd",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_post_handoff_trap_3_plus_1_run_010.npz": "b8ff2e8ddecd955e4909a9050667e765e1e92997201c36d2a1ede5c118ab09a3",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_post_handoff_trap_3_plus_1_run_010_metadata.json": "eb0814492e8a3166e58a54f444655cb365e87a40a01bec4e2b494e4697182814",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_pre_handoff_chirp_3_run_010.npz": "da385440e60a6387d8fcf9e864baec2cffa4d4c04904cabd089bc54ce1865004",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_pre_handoff_chirp_3_run_010_metadata.json": "4622064509b2e290c9f0cf052111f6031add462e97c0aa7c22653a471abc3ad4",
+    "src\\mgf_mot\\spectroscopy.py": "3b2a339bed6ef1dcf78d27dfbd9980a93f47268061e02e1a0d09e2c2f83ae065"
+  },
+  "replication_valid": false,
+  "source_provenance": {
+    "doi": "10.1103/PhysRevA.108.033105",
+    "manuscript_date": "2023-09-20",
+    "paper_title": "Simulations of a frequency-chirped magneto-optical trap of MgF",
+    "publication": "Physical Review A 108, 033105 (2023)",
+    "python": "3.14.4",
+    "rendered_pixel_size": [
+      2550,
+      3301
+    ],
+    "rendering_antialias": true,
+    "rendering_dpi": 300,
+    "rendering_software": "pdfplumber 0.11.10; Pillow 12.2.0",
+    "source_path": "MOT sim papers\\Chirped_MOT_Theory.pdf.pdf",
+    "source_pdf_committed_by_run_011b": false,
+    "source_sha256": "994e2e8c269aa280ebc6234f99ed20854bc0db2efb372665977ba86f1b31d4a7"
+  },
+  "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY digitization metadata",
+  "track": "provisional",
+  "trajectories_integrated": 0,
+  "uncertainty": {
+    "figure_2_force": {
+      "colorbar_boundary_plus_minus_1px_force": 0.00022727272727272722,
+      "colorbar_boundary_plus_minus_2px_force": 0.00045454545454545444
+    },
+    "figure_2_x": {
+      "anchor_plus_minus_1px_data": 0.038781163434903045,
+      "anchor_plus_minus_2px_data": 0.07799442896935933,
+      "source_raster_half_pixel_data": 0.019283746556473847
+    },
+    "figure_2_y": {
+      "anchor_plus_minus_1px_data": 0.07312614259597806,
+      "anchor_plus_minus_2px_data": 0.14678899082568808,
+      "source_raster_half_pixel_data": 0.03642987249544626
+    },
+    "figure_3_force": {
+      "colorbar_boundary_plus_minus_1px_force": 0.00028708133971291856,
+      "colorbar_boundary_plus_minus_2px_force": 0.0005741626794258371
+    },
+    "figure_3_x_mm": {
+      "anchor_plus_minus_1px_data": 0.29069767441860467,
+      "anchor_plus_minus_2px_data": 0.5847953216374269,
+      "source_raster_half_pixel_data": 0.14450867052023128
+    },
+    "figure_3_y_m_s": {
+      "anchor_plus_minus_1px_data": 0.7211538461538461,
+      "anchor_plus_minus_2px_data": 1.4492753623188406,
+      "source_raster_half_pixel_data": 0.3588516746411483
+    },
+    "figure_4_line": {
+      "maximum_half_thickness_m_s": 1.1538461538461546,
+      "median_half_thickness_m_s": 0.3626188621469478
+    },
+    "figure_4_x_mm": {
+      "anchor_plus_minus_1px_data": 0.11695906432748537,
+      "anchor_plus_minus_2px_data": 0.23460410557184752,
+      "source_raster_half_pixel_data": 0.05830887269512791
+    },
+    "figure_4_y_m_s": {
+      "anchor_plus_minus_1px_data": 0.12875536480686695,
+      "anchor_plus_minus_2px_data": 0.25862068965517243,
+      "source_raster_half_pixel_data": 0.06410256410256415
+    },
+    "separate_contributions": {
+      "antialiasing": "nearest rendered colorbar color plus recorded RGB residual",
+      "axis_anchor_placement": "explicit +/-1 and +/-2 pixel perturbation bounds",
+      "colorbar_calibration": "explicit +/-1 and +/-2 pixel colorbar-boundary perturbations",
+      "compression_or_publication_artifacts": "PDF contains rasterized force surfaces and vector text/axes.",
+      "line_thickness": "half the detected thick-black vertical pixel span",
+      "overlapping_trajectory_curves": "Thick black Fig. 4(a) line overlaps thinner colored paths; only black-dominant pixels are retained.",
+      "panel_cropping": "one rendered pixel; axes anchors make data calibration crop-independent",
+      "source_raster_resolution": "reported as half a rendered pixel on each calibrated axis"
+    }
+  }
+}

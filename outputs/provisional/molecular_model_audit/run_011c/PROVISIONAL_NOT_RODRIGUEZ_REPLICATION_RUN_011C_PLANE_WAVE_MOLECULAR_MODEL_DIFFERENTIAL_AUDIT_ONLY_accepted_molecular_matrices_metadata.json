@@ -1,0 +1,395 @@
+{
+  "approximate_assignments": "F,mF labels are dominant zero-field assignments and become approximate after field mixing",
+  "excited_basis": [
+    {
+      "F": 0.0,
+      "index": 0,
+      "level": "Fprime0",
+      "mF": -0.0,
+      "manifold": "excited",
+      "relative_energy_gamma": 0.0
+    },
+    {
+      "F": 1.0,
+      "index": 1,
+      "level": "Fprime1",
+      "mF": -1.0,
+      "manifold": "excited",
+      "relative_energy_gamma": 0.023923444976076555
+    },
+    {
+      "F": 1.0,
+      "index": 2,
+      "level": "Fprime1",
+      "mF": 0.0,
+      "manifold": "excited",
+      "relative_energy_gamma": 0.023923444976076555
+    },
+    {
+      "F": 1.0,
+      "index": 3,
+      "level": "Fprime1",
+      "mF": 1.0,
+      "manifold": "excited",
+      "relative_energy_gamma": 0.023923444976076555
+    }
+  ],
+  "excited_weak_field_slopes": {
+    "x": [
+      {
+        "degeneracy": 1,
+        "slopes_gamma_per_gauss": [
+          0.0
+        ],
+        "zero_field_energy_gamma": -0.017942583732057503
+      },
+      {
+        "degeneracy": 3,
+        "slopes_gamma_per_gauss": [
+          -6.696767902918661e-05,
+          4.446922973085077e-21,
+          6.696767902918658e-05
+        ],
+        "zero_field_energy_gamma": 0.005980861244019054
+      }
+    ],
+    "y": [
+      {
+        "degeneracy": 1,
+        "slopes_gamma_per_gauss": [
+          0.0
+        ],
+        "zero_field_energy_gamma": -0.017942583732057503
+      },
+      {
+        "degeneracy": 3,
+        "slopes_gamma_per_gauss": [
+          -6.696767902918661e-05,
+          4.446922973085077e-21,
+          6.696767902918658e-05
+        ],
+        "zero_field_energy_gamma": 0.005980861244019054
+      }
+    ],
+    "z": [
+      {
+        "degeneracy": 1,
+        "slopes_gamma_per_gauss": [
+          0.0
+        ],
+        "zero_field_energy_gamma": -0.017942583732057503
+      },
+      {
+        "degeneracy": 3,
+        "slopes_gamma_per_gauss": [
+          -6.696767902918662e-05,
+          0.0,
+          6.696767902918662e-05
+        ],
+        "zero_field_energy_gamma": 0.005980861244019054
+      }
+    ]
+  },
+  "ground_basis": [
+    {
+      "F": 1.0,
+      "dominant_J": 1.5,
+      "dominant_weight": 0.5114561322529674,
+      "index": 0,
+      "level": "lower_F1",
+      "mF": -1.0,
+      "manifold": "ground",
+      "relative_energy_mhz": 0.0
+    },
+    {
+      "F": 1.0,
+      "dominant_J": 1.5,
+      "dominant_weight": 0.5114561322529674,
+      "index": 1,
+      "level": "lower_F1",
+      "mF": 0.0,
+      "manifold": "ground",
+      "relative_energy_mhz": 0.0
+    },
+    {
+      "F": 1.0,
+      "dominant_J": 1.5,
+      "dominant_weight": 0.5114561322529674,
+      "index": 2,
+      "level": "lower_F1",
+      "mF": 1.0,
+      "manifold": "ground",
+      "relative_energy_mhz": 0.0
+    },
+    {
+      "F": 0.0,
+      "dominant_J": 0.5,
+      "dominant_weight": 1.0,
+      "index": 3,
+      "level": "F0",
+      "mF": -0.0,
+      "manifold": "ground",
+      "relative_energy_mhz": 109.73157641206407
+    },
+    {
+      "F": 1.0,
+      "dominant_J": 0.5,
+      "dominant_weight": 0.5114561322529674,
+      "index": 4,
+      "level": "upper_F1",
+      "mF": -1.0,
+      "manifold": "ground",
+      "relative_energy_mhz": 230.05865548732874
+    },
+    {
+      "F": 1.0,
+      "dominant_J": 0.5,
+      "dominant_weight": 0.5114561322529674,
+      "index": 5,
+      "level": "upper_F1",
+      "mF": 0.0,
+      "manifold": "ground",
+      "relative_energy_mhz": 230.05865548732874
+    },
+    {
+      "F": 1.0,
+      "dominant_J": 0.5,
+      "dominant_weight": 0.5114561322529674,
+      "index": 6,
+      "level": "upper_F1",
+      "mF": 1.0,
+      "manifold": "ground",
+      "relative_energy_mhz": 230.05865548732874
+    },
+    {
+      "F": 2.0,
+      "dominant_J": 1.5,
+      "dominant_weight": 1.0,
+      "index": 7,
+      "level": "F2",
+      "mF": -2.0,
+      "manifold": "ground",
+      "relative_energy_mhz": 239.3270750574154
+    },
+    {
+      "F": 2.0,
+      "dominant_J": 1.5,
+      "dominant_weight": 1.0,
+      "index": 8,
+      "level": "F2",
+      "mF": -1.0,
+      "manifold": "ground",
+      "relative_energy_mhz": 239.3270750574154
+    },
+    {
+      "F": 2.0,
+      "dominant_J": 1.5,
+      "dominant_weight": 1.0,
+      "index": 9,
+      "level": "F2",
+      "mF": 0.0,
+      "manifold": "ground",
+      "relative_energy_mhz": 239.3270750574154
+    },
+    {
+      "F": 2.0,
+      "dominant_J": 1.5,
+      "dominant_weight": 1.0,
+      "index": 10,
+      "level": "F2",
+      "mF": 1.0,
+      "manifold": "ground",
+      "relative_energy_mhz": 239.3270750574154
+    },
+    {
+      "F": 2.0,
+      "dominant_J": 1.5,
+      "dominant_weight": 1.0,
+      "index": 11,
+      "level": "F2",
+      "mF": 2.0,
+      "manifold": "ground",
+      "relative_energy_mhz": 239.3270750574154
+    }
+  ],
+  "ground_weak_field_slopes": {
+    "x": [
+      {
+        "degeneracy": 3,
+        "slopes_gamma_per_gauss": [
+          -0.013939752744962454,
+          -4.580754178751256e-18,
+          0.013939752744962449
+        ],
+        "zero_field_energy_gamma": -7.9606974724882065
+      },
+      {
+        "degeneracy": 1,
+        "slopes_gamma_per_gauss": [
+          0.0
+        ],
+        "zero_field_energy_gamma": -2.710382811623897
+      },
+      {
+        "degeneracy": 3,
+        "slopes_gamma_per_gauss": [
+          -0.047462418558192235,
+          9.920449878242366e-18,
+          0.04746241855819222
+        ],
+        "zero_field_energy_gamma": 3.0468936991543174
+      },
+      {
+        "degeneracy": 5,
+        "slopes_gamma_per_gauss": [
+          -0.06704534221080871,
+          -0.03352266975800544,
+          -5.726114234169845e-18,
+          0.03352266975800544,
+          0.06704534221080871
+        ],
+        "zero_field_energy_gamma": 3.490358750354638
+      }
+    ],
+    "y": [
+      {
+        "degeneracy": 3,
+        "slopes_gamma_per_gauss": [
+          -0.01393975274496245,
+          5.664956351236761e-18,
+          0.013939752744962453
+        ],
+        "zero_field_energy_gamma": -7.9606974724882065
+      },
+      {
+        "degeneracy": 1,
+        "slopes_gamma_per_gauss": [
+          0.0
+        ],
+        "zero_field_energy_gamma": -2.710382811623897
+      },
+      {
+        "degeneracy": 3,
+        "slopes_gamma_per_gauss": [
+          -0.047462418558192235,
+          9.920449878242366e-18,
+          0.04746241855819222
+        ],
+        "zero_field_energy_gamma": 3.0468936991543174
+      },
+      {
+        "degeneracy": 5,
+        "slopes_gamma_per_gauss": [
+          -0.06704534221080871,
+          -0.03352266975800544,
+          -5.726114234169845e-18,
+          0.03352266975800544,
+          0.06704534221080871
+        ],
+        "zero_field_energy_gamma": 3.490358750354638
+      }
+    ],
+    "z": [
+      {
+        "degeneracy": 3,
+        "slopes_gamma_per_gauss": [
+          -0.013939752744962458,
+          0.0,
+          0.013939752744962458
+        ],
+        "zero_field_energy_gamma": -7.9606974724882065
+      },
+      {
+        "degeneracy": 1,
+        "slopes_gamma_per_gauss": [
+          0.0
+        ],
+        "zero_field_energy_gamma": -2.710382811623897
+      },
+      {
+        "degeneracy": 3,
+        "slopes_gamma_per_gauss": [
+          -0.047462418558192235,
+          0.0,
+          0.047462418558192235
+        ],
+        "zero_field_energy_gamma": 3.0468936991543174
+      },
+      {
+        "degeneracy": 5,
+        "slopes_gamma_per_gauss": [
+          -0.06704533541995115,
+          -0.03352266770997558,
+          0.0,
+          0.03352266770997558,
+          0.06704533541995115
+        ],
+        "zero_field_energy_gamma": 3.490358750354638
+      }
+    ]
+  },
+  "identities_and_sum_rules": {
+    "basis_rephasing_strength_max_error": 5.551115123125783e-17,
+    "basis_rotation_application": {
+      "dipole": "bare X-to-A tensor left-multiplied by the same ground transform transpose",
+      "dynamic_field_rotation": "both manifold Hamiltonians diagonalized and both dipole indices rotated in pylcp and independent evaluator",
+      "excited_h0_magnetic_dipole": "common effective Astate F,mF basis; identity zero-field transform",
+      "ground_h0": "pylcp Xstate eigenbasis",
+      "ground_magnetic_tensor": "same pylcp Xstate eigenbasis, then one accepted sign translation"
+    },
+    "branching_column_sums": [
+      1.0,
+      0.9999999999999999,
+      0.9999999999999999,
+      0.9999999999999998
+    ],
+    "dipole_shape": [
+      3,
+      12,
+      4
+    ],
+    "excited_h0_hermiticity_max_error": 0.0,
+    "excited_magnetic_spherical_hermiticity_max_error": 0.0,
+    "excited_transform_unitarity_max_error": 0.0,
+    "ground_h0_hermiticity_max_error": 1.2886255743077447e-16,
+    "ground_magnetic_spherical_hermiticity_max_error": 0.0,
+    "ground_transform_unitarity_max_error": 2.220446049250313e-16,
+    "incompatible_basis_object_found": false,
+    "polarization_complete_strength_by_ground": [
+      0.41093858916186576,
+      0.41093858916186576,
+      0.41093858916186576,
+      0.6666665876518427,
+      0.4223947014842255,
+      0.4223947014842255,
+      0.4223947014842255,
+      0.166666630130269,
+      0.16666662627116752,
+      0.16666664679845228,
+      0.16666662627116752,
+      0.166666630130269
+    ],
+    "total_decay_strength_by_excited": [
+      0.999999881248747,
+      0.999999910512718,
+      0.9999999169172589,
+      0.999999910512718
+    ]
+  },
+  "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY",
+  "matrix_file": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_accepted_molecular_matrices.npz",
+  "matrix_file_sha256": "6b406a64174bef7e62e4ed40e066851d2a26b24165b2d6eca3b42d95dd790689",
+  "spherical_order": [
+    -1,
+    0,
+    1
+  ],
+  "units": {
+    "dipole_q": "dimensionless reduced-dipole normalization",
+    "excited_h0_gamma": "Gamma",
+    "excited_magnetic_moment_gamma_per_gauss": "Gamma/G",
+    "ground_h0_gamma": "Gamma",
+    "ground_magnetic_moment_gamma_per_gauss": "Gamma/G",
+    "spontaneous_branching": "probability"
+  }
+}

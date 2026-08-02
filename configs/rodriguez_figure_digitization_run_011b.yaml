@@ -1,0 +1,125 @@
+schema_version: 1
+name: PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY
+track: provisional
+replication_valid: false
+source:
+  title: Simulations of a frequency-chirped magneto-optical trap of MgF
+  authors: K. J. Rodriguez, N. H. Pilgram, D. S. Barker, S. P. Eckel, and E. B. Norrgard
+  publication: Physical Review A 108, 033105 (2023)
+  doi: 10.1103/PhysRevA.108.033105
+  manuscript_date: 2023-09-20
+  local_pdf: MOT sim papers/Chirped_MOT_Theory.pdf.pdf
+  expected_sha256: 994e2e8c269aa280ebc6234f99ed20854bc0db2efb372665977ba86f1b31d4a7
+rendering:
+  dpi: 300
+  antialias: true
+  page_size_points: [612, 792]
+  expected_pixel_size: [2550, 3301]
+  software: pdfplumber_Pillow
+coordinate_convention:
+  pixel_origin: upper_left
+  crop_bounds: [left_inclusive, top_inclusive, right_exclusive, bottom_exclusive]
+  anchors: [pixel, data_value]
+figure_2:
+  page: 4
+  panels:
+    mgf_3:
+      crop: [1000, 190, 1505, 820]
+      axes_bounds: [1052, 232, 1415, 781]
+      x_anchors: [[1052, -7.0], [1415, 7.0]]
+      y_anchors: [[232, 20.0], [781, -20.0]]
+      colorbar:
+        sample_x: 1450
+        sample_y_bounds: [233, 779]
+        value_anchors: [[240, 0.06], [768, -0.06]]
+      force_unit: hbar*k*Gamma
+      x_unit: hbar*Gamma/(mu_B*Bprime)
+      y_unit: Gamma/k
+      static_config: configs/rodriguez_static_3.yaml
+    mgf_3_plus_1:
+      crop: [1640, 190, 2145, 820]
+      axes_bounds: [1691, 232, 2054, 781]
+      x_anchors: [[1691, -7.0], [2054, 7.0]]
+      y_anchors: [[232, 20.0], [781, -20.0]]
+      colorbar:
+        sample_x: 2094
+        sample_y_bounds: [233, 779]
+        value_anchors: [[232, 0.05], [781, -0.05]]
+      force_unit: hbar*k*Gamma
+      x_unit: hbar*Gamma/(mu_B*Bprime)
+      y_unit: Gamma/k
+      static_config: configs/rodriguez_static_3_plus_1.yaml
+figure_3:
+  page: 5
+  common_y_anchors: [[230, 150.0], [648, -150.0]]
+  common_colorbar:
+    sample_x: 2094
+    sample_y_bounds: [231, 647]
+    value_anchors: [[230, 0.06], [648, -0.06]]
+  force_unit: hbar*k*Gamma
+  x_unit: mm
+  y_unit: m/s
+  panels:
+    minus_8_gamma:
+      detuning_gamma: -8.0
+      crop: [380, 190, 810, 690]
+      axes_bounds: [422, 230, 768, 648]
+      x_anchors: [[422, -50.0], [768, 50.0]]
+    minus_6_gamma:
+      detuning_gamma: -6.0
+      crop: [810, 190, 1240, 690]
+      axes_bounds: [850, 230, 1197, 648]
+      x_anchors: [[850, -50.0], [1197, 50.0]]
+    minus_4_gamma:
+      detuning_gamma: -4.0
+      crop: [1240, 190, 1670, 690]
+      axes_bounds: [1279, 230, 1625, 648]
+      x_anchors: [[1279, -50.0], [1625, 50.0]]
+    minus_2_gamma:
+      detuning_gamma: -2.0
+      crop: [1670, 190, 2090, 690]
+      axes_bounds: [1707, 230, 2054, 648]
+      x_anchors: [[1707, -50.0], [2054, 50.0]]
+figure_4a:
+  page: 6
+  crop: [330, 185, 1270, 805]
+  axes_bounds: [373, 223, 1228, 736]
+  x_anchors: [[458, -40.0], [800, 0.0], [1144, 40.0]]
+  y_anchors: [[267, 60.0], [423, 40.0], [579, 20.0], [735, 0.0]]
+  x_unit: mm
+  y_unit: m/s
+  trajectory:
+    color: thick_black
+    extraction_x_range_px: [376, 821]
+    extraction_y_range_px: [245, 733]
+    dark_threshold_rgb_mean: 70
+    minimum_dark_pixels_per_column: 2
+    line_thickness_uncertainty: half_detected_vertical_span
+uncertainty:
+  axis_anchor_displacements_px: [1, 2]
+  crop_boundary_displacement_px: 1
+  colorbar_boundary_displacements_px: [1, 2]
+  antialiasing_palette_distance_threshold_rgb: 45.0
+  publication_compression_note: PDF contains rasterized force surfaces and vector text/axes.
+  overlapping_trajectory_note: Thick black Fig. 4(a) line overlaps thinner colored paths; only black-dominant pixels are retained.
+comparison:
+  width_levels_peak_fraction: [0.5, 0.36787944117144233, 0.1353352832366127]
+  fixed_force_contours: [-0.03, -0.02, -0.01, 0.01, 0.02, 0.03]
+  diagnostic_force_scale_fit_only: true
+  diagnostic_axis_offset_search_px: 2
+  forbidden_fits: [beam_waist, magnetic_gradient, detuning, Hamiltonian_parameters]
+protected:
+  globs:
+    - outputs/provisional/force_fields/*run_010*
+    - outputs/provisional/*RUN_011_v_*
+    - outputs/provisional/*RUN_011_metadata.json
+    - outputs/provisional/*RUN_011A*
+  explicit_files:
+    - configs/provisional_force_field_run_010.yaml
+    - configs/provisional_named_trajectory_run_011.yaml
+    - configs/rodriguez_baseline_linear_chirp.yaml
+    - configs/rodriguez_chirp_to_3_plus_1_handoff.yaml
+    - configs/rodriguez_gaussian_baseline.yaml
+    - configs/rodriguez_static_3.yaml
+    - configs/rodriguez_static_3_plus_1.yaml
+    - src/mgf_mot/spectroscopy.py

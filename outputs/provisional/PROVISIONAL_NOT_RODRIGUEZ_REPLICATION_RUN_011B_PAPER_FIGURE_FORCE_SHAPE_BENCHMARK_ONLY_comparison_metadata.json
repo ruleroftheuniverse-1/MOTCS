@@ -1,0 +1,2476 @@
+{
+  "accepted_force_fields_rebuilt": 0,
+  "capture_authorized": false,
+  "capture_velocity_authorized": false,
+  "diagnostic_global_force_scale_only": true,
+  "difference_localization": {
+    "classification_basis": "differences exceed +/-2 pixel axis/colorbar bounds and persist before Gaussian application",
+    "confirmed": [
+      "PLANE_WAVE_HAMILTONIAN_SHAPE_DISCREPANCY",
+      "FORCE_MAGNITUDE_DISCREPANCY",
+      "SPATIAL_WIDTH_DISCREPANCY",
+      "POSITIVE_FORCE_REGION_DISCREPANCY",
+      "MULTIPLE_DIFFERENCES"
+    ],
+    "gaussian_nrms": [
+      0.02753421279588143,
+      0.02520840869208074,
+      0.026351459552031584,
+      0.027685600462332857
+    ],
+    "likely": [
+      "VELOCITY_WIDTH_DISCREPANCY"
+    ],
+    "plane_wave_nrms": [
+      0.06577061477492026,
+      0.08845583604081884
+    ],
+    "unmeasurable": [
+      "trajectory time and impulse from Figure 4(a)",
+      "force values hidden by white Figure 2 trajectory overlays",
+      "sub-colorbar-step force detail in saturated Figure 3 extrema"
+    ],
+    "within_uncertainty": [
+      "small axis offsets of at most two rendered pixels"
+    ]
+  },
+  "digitization_metadata": "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_digitization_metadata.json",
+  "digitization_uncertainty": {
+    "figure_2_force": {
+      "colorbar_boundary_plus_minus_1px_force": 0.00022727272727272722,
+      "colorbar_boundary_plus_minus_2px_force": 0.00045454545454545444
+    },
+    "figure_2_x": {
+      "anchor_plus_minus_1px_data": 0.038781163434903045,
+      "anchor_plus_minus_2px_data": 0.07799442896935933,
+      "source_raster_half_pixel_data": 0.019283746556473847
+    },
+    "figure_2_y": {
+      "anchor_plus_minus_1px_data": 0.07312614259597806,
+      "anchor_plus_minus_2px_data": 0.14678899082568808,
+      "source_raster_half_pixel_data": 0.03642987249544626
+    },
+    "figure_3_force": {
+      "colorbar_boundary_plus_minus_1px_force": 0.00028708133971291856,
+      "colorbar_boundary_plus_minus_2px_force": 0.0005741626794258371
+    },
+    "figure_3_x_mm": {
+      "anchor_plus_minus_1px_data": 0.29069767441860467,
+      "anchor_plus_minus_2px_data": 0.5847953216374269,
+      "source_raster_half_pixel_data": 0.14450867052023128
+    },
+    "figure_3_y_m_s": {
+      "anchor_plus_minus_1px_data": 0.7211538461538461,
+      "anchor_plus_minus_2px_data": 1.4492753623188406,
+      "source_raster_half_pixel_data": 0.3588516746411483
+    },
+    "figure_4_line": {
+      "maximum_half_thickness_m_s": 1.1538461538461546,
+      "median_half_thickness_m_s": 0.3626188621469478
+    },
+    "figure_4_x_mm": {
+      "anchor_plus_minus_1px_data": 0.11695906432748537,
+      "anchor_plus_minus_2px_data": 0.23460410557184752,
+      "source_raster_half_pixel_data": 0.05830887269512791
+    },
+    "figure_4_y_m_s": {
+      "anchor_plus_minus_1px_data": 0.12875536480686695,
+      "anchor_plus_minus_2px_data": 0.25862068965517243,
+      "source_raster_half_pixel_data": 0.06410256410256415
+    },
+    "separate_contributions": {
+      "antialiasing": "nearest rendered colorbar color plus recorded RGB residual",
+      "axis_anchor_placement": "explicit +/-1 and +/-2 pixel perturbation bounds",
+      "colorbar_calibration": "explicit +/-1 and +/-2 pixel colorbar-boundary perturbations",
+      "compression_or_publication_artifacts": "PDF contains rasterized force surfaces and vector text/axes.",
+      "line_thickness": "half the detected thick-black vertical pixel span",
+      "overlapping_trajectory_curves": "Thick black Fig. 4(a) line overlaps thinner colored paths; only black-dominant pixels are retained.",
+      "panel_cropping": "one rendered pixel; axes anchors make data calibration crop-independent",
+      "source_raster_resolution": "reported as half a rendered pixel on each calibrated axis"
+    }
+  },
+  "discrepancy_begins_in": "plane-wave Hamiltonian/transition force structure; multiple locations",
+  "exact_replication_valid": false,
+  "exact_track_blocked": true,
+  "figure_2": {
+    "mgf_3": {
+      "model_force_asymmetry_abs_negative_over_positive": 0.9999999999999851,
+      "model_local_slopes": {
+        "dF_dv_at_x0": -0.05193167222353203,
+        "dF_dx_at_v0": -0.0011018982804605986
+      },
+      "model_negative_extremum": {
+        "force": -0.06531780584689184,
+        "pixel_count_at_quantized_extremum": 2,
+        "position": -3.552713678800501e-15,
+        "velocity": 1.4936247723132894
+      },
+      "model_positive_extremum": {
+        "force": 0.06531780584689281,
+        "pixel_count_at_quantized_extremum": 2,
+        "position": -3.552713678800501e-15,
+        "velocity": -1.4936247723133107
+      },
+      "model_support_and_zero_contours": {
+        "fixed_abs_force_threshold": 0.01,
+        "spatial_extent": [
+          -6.922865013774114,
+          6.922865013774107
+        ],
+        "suppressed_force_fraction_abs_below_0p005": 0.5471204721204721,
+        "velocity_extent": [
+          -17.814207650273232,
+          17.81420765027321
+        ],
+        "zero_force_crossing_position_at_v_zero": -1.1622340340523616,
+        "zero_force_crossing_velocity_at_x_zero": -0.0004358749755834432
+      },
+      "model_widths": {
+        "fixed_negative_force_contours": {
+          "-0.01": {
+            "left": 5.678855238952147,
+            "mean": 5.859668653954609,
+            "right": 6.040482068957071,
+            "threshold": -0.01
+          },
+          "-0.02": {
+            "left": 4.3956685607840695,
+            "mean": 4.11512039558377,
+            "right": 3.834572230383471,
+            "threshold": -0.02
+          },
+          "-0.03": {
+            "left": 3.244013375966663,
+            "mean": 2.7024381961711406,
+            "right": 2.1608630163756186,
+            "threshold": -0.03
+          }
+        },
+        "negative_extremum": {
+          "force": -0.06531780584689184,
+          "pixel_count_at_quantized_extremum": 2,
+          "position": -3.552713678800501e-15,
+          "velocity": 1.4936247723132894
+        },
+        "paper_motivated_velocity": 1.4936247723132894,
+        "spatial_at_paper_motivated_velocity": {
+          "half_maximum": {
+            "left": 2.9708469685216534,
+            "mean": 2.4003101668733766,
+            "right": 1.8297733652250998,
+            "threshold": -0.03265890292344592
+          },
+          "one_over_e": {
+            "left": 3.9198461262825894,
+            "mean": 3.5066372819314546,
+            "right": 3.0934284375803203,
+            "threshold": -0.024029077913499338
+          },
+          "one_over_e2": {
+            "left": 5.858666504387242,
+            "mean": 6.091120086452624,
+            "right": 6.323573668518006,
+            "threshold": -0.008839803754683184
+          }
+        },
+        "spatial_through_actual_extremum": {
+          "half_maximum": {
+            "left": 2.9708469685216534,
+            "mean": 2.4003101668733766,
+            "right": 1.8297733652250998,
+            "threshold": -0.03265890292344592
+          },
+          "one_over_e": {
+            "left": 3.9198461262825894,
+            "mean": 3.5066372819314546,
+            "right": 3.0934284375803203,
+            "threshold": -0.024029077913499338
+          },
+          "one_over_e2": {
+            "left": 5.858666504387242,
+            "mean": 6.091120086452624,
+            "right": 6.323573668518006,
+            "threshold": -0.008839803754683184
+          }
+        },
+        "velocity_at_x_zero": {
+          "half_maximum": {
+            "left": 0.9246784910859724,
+            "mean": 0.8909497265593656,
+            "right": 0.8572209620327588,
+            "threshold": -0.032591661031972786
+          },
+          "one_over_e": {
+            "left": 1.227854918076305,
+            "mean": 1.1206000184292453,
+            "right": 1.0133451187821856,
+            "threshold": -0.023979604094582444
+          },
+          "one_over_e2": {
+            "left": 2.116366459875229,
+            "mean": 1.7167020084074058,
+            "right": 1.3170375569395825,
+            "threshold": -0.00882160335382742
+          }
+        },
+        "velocity_through_actual_extremum": {
+          "half_maximum": {
+            "left": 0.9256795112595864,
+            "mean": 0.8911242468929335,
+            "right": 0.8565689825262806,
+            "threshold": -0.03265890292344592
+          },
+          "one_over_e": {
+            "left": 1.2306620994472888,
+            "mean": 1.121516595618941,
+            "right": 1.0123710917905933,
+            "threshold": -0.024029077913499338
+          },
+          "one_over_e2": {
+            "left": 2.1277891692376882,
+            "mean": 1.7219210944716807,
+            "right": 1.3160530197056732,
+            "threshold": -0.008839803754683184
+          }
+        }
+      },
+      "negative_extremum_displacement_model_minus_paper": {
+        "position": -0.01928374655647147,
+        "velocity": -0.1821493624772259
+      },
+      "paper_digitization_zero_bias_removed": 0.00045454545454547135,
+      "paper_force_asymmetry_abs_negative_over_positive": 1.0275229357798163,
+      "paper_local_slopes": {
+        "dF_dv_at_x0": -0.03513885467980297,
+        "dF_dx_at_v0": -0.0012260342598577835
+      },
+      "paper_negative_extremum": {
+        "force": -0.05090909090909089,
+        "pixel_count_at_quantized_extremum": 6,
+        "position": 0.019283746556467918,
+        "velocity": 1.6757741347905153
+      },
+      "paper_positive_extremum": {
+        "force": 0.04954545454545453,
+        "pixel_count_at_quantized_extremum": 6,
+        "position": 0.019283746556467918,
+        "velocity": -1.5300546448087537
+      },
+      "paper_support_and_zero_contours": {
+        "fixed_abs_force_threshold": 0.01,
+        "spatial_extent": [
+          -6.922865013774114,
+          6.922865013774107
+        ],
+        "suppressed_force_fraction_abs_below_0p005": 0.8115519967630132,
+        "velocity_extent": [
+          -19.85428051001822,
+          19.854280510018203
+        ],
+        "zero_force_crossing_position_at_v_zero": 2.6418732782369148,
+        "zero_force_crossing_velocity_at_x_zero": 0.07025761124120421
+      },
+      "paper_widths": {
+        "fixed_negative_force_contours": {
+          "-0.01": {
+            "left": 2.2754820936639106,
+            "mean": 4.589531680440775,
+            "right": 6.903581267217639,
+            "threshold": -0.01
+          },
+          "-0.02": {
+            "left": 2.2754820936639106,
+            "mean": 3.3135904499540887,
+            "right": 4.351698806244267,
+            "threshold": -0.02
+          },
+          "-0.03": {
+            "left": 2.272515363424453,
+            "mean": 2.3961291234018534,
+            "right": 2.5197428833792537,
+            "threshold": -0.03
+          }
+        },
+        "negative_extremum": {
+          "force": -0.05090909090909089,
+          "pixel_count_at_quantized_extremum": 6,
+          "position": 0.019283746556467918,
+          "velocity": 1.6757741347905153
+        },
+        "paper_motivated_velocity": 1.6757741347905153,
+        "spatial_at_paper_motivated_velocity": {
+          "half_maximum": {
+            "left": 2.2576817122271646,
+            "mean": 2.2633679451861286,
+            "right": 2.2690541781450926,
+            "threshold": -0.031136363636363636
+          },
+          "one_over_e": {
+            "left": 2.2754820936639106,
+            "mean": 2.9781858026629084,
+            "right": 3.6808895116619067,
+            "threshold": -0.022908856109312543
+          },
+          "one_over_e2": {
+            "left": 2.2754820936639106,
+            "mean": 4.589531680440775,
+            "right": 6.903581267217639,
+            "threshold": -0.008427697183370882
+          }
+        },
+        "spatial_through_actual_extremum": {
+          "half_maximum": {
+            "left": 2.2754820936639106,
+            "mean": 2.7344352617079917,
+            "right": 3.1933884297520723,
+            "threshold": -0.025454545454545445
+          },
+          "one_over_e": {
+            "left": 2.2754820936639106,
+            "mean": 3.4309449235499634,
+            "right": 4.586407753436016,
+            "threshold": -0.018728407914182513
+          },
+          "one_over_e2": {
+            "left": 2.2754820936639106,
+            "mean": 4.589531680440775,
+            "right": 6.903581267217639,
+            "threshold": -0.006889796237500281
+          }
+        },
+        "velocity_at_x_zero": {
+          "half_maximum": {
+            "left": 0.7862780813600487,
+            "mean": 0.8561509685253743,
+            "right": 0.9260238556907,
+            "threshold": -0.025454545454545445
+          },
+          "one_over_e": {
+            "left": 1.1866803514462556,
+            "mean": 1.1268044348050892,
+            "right": 1.066928518163923,
+            "threshold": -0.018728407914182513
+          },
+          "one_over_e2": {
+            "left": 2.1191702782786757,
+            "mean": 1.7695850135230637,
+            "right": 1.4199997487674518,
+            "threshold": -0.006889796237500281
+          }
+        },
+        "velocity_through_actual_extremum": {
+          "half_maximum": {
+            "left": 0.7862780813600487,
+            "mean": 0.8561509685253743,
+            "right": 0.9260238556907,
+            "threshold": -0.025454545454545445
+          },
+          "one_over_e": {
+            "left": 1.1866803514462556,
+            "mean": 1.1268044348050892,
+            "right": 1.066928518163923,
+            "threshold": -0.018728407914182513
+          },
+          "one_over_e2": {
+            "left": 2.1191702782786757,
+            "mean": 1.7695850135230637,
+            "right": 1.4199997487674518,
+            "threshold": -0.006889796237500281
+          }
+        }
+      },
+      "positive_extremum_displacement_model_minus_paper": {
+        "position": -0.01928374655647147,
+        "velocity": 0.03642987249544305
+      },
+      "surface_metrics": {
+        "after_diagnostic_scale_only": {
+          "maximum_absolute_difference": 0.06966599794697467,
+          "maximum_difference_over_paper_range": 0.5645126905463879,
+          "normalized_rms_difference": 0.06157924383532312,
+          "signed_mean_difference": 0.00037801597245382395,
+          "spatial_cross_correlation": 0.6947415026912241
+        },
+        "contour_overlap": [
+          {
+            "intersection_over_union": 0.3856162763189023,
+            "threshold": -0.03
+          },
+          {
+            "intersection_over_union": 0.5784275503573749,
+            "threshold": -0.02
+          },
+          {
+            "intersection_over_union": 0.572972972972973,
+            "threshold": -0.01
+          },
+          {
+            "intersection_over_union": 0.570096515622444,
+            "threshold": 0.01
+          },
+          {
+            "intersection_over_union": 0.6309341500765697,
+            "threshold": 0.02
+          },
+          {
+            "intersection_over_union": 0.4727631950324584,
+            "threshold": 0.03
+          }
+        ],
+        "diagnostic_best_small_axis_offset_pixels": {
+          "dx": -1,
+          "dy": -2,
+          "normalized_rms_difference": 0.051496645415192645
+        },
+        "diagnostic_global_force_scale_factor": 0.7200257155054341,
+        "major_force_sign_agreement_fraction": 0.7164252779429418,
+        "no_fitted_correction": {
+          "maximum_absolute_difference": 0.07254079203074437,
+          "maximum_difference_over_paper_range": 0.5878075229010595,
+          "normalized_rms_difference": 0.06577061477492026,
+          "signed_mean_difference": 0.0003689817166062372,
+          "spatial_cross_correlation": 0.6947415026912256
+        },
+        "signed_area_difference_data_units": 0.19474958946205811,
+        "signed_area_difference_pixel_weighted": 69.30546684843293,
+        "valid_pixel_count": 187829
+      },
+      "units": {
+        "force": "hbar*k*Gamma",
+        "x": "hbar*Gamma/(mu_B*Bprime)",
+        "y": "Gamma/k"
+      }
+    },
+    "mgf_3_plus_1": {
+      "model_force_asymmetry_abs_negative_over_positive": 1.000000000000007,
+      "model_local_slopes": {
+        "dF_dv_at_x0": -0.045144627350465684,
+        "dF_dx_at_v0": -0.0037937355983166127
+      },
+      "model_negative_extremum": {
+        "force": -0.05608328425300285,
+        "pixel_count_at_quantized_extremum": 2,
+        "position": 7.105427357601002e-15,
+        "velocity": 1.4936247723132894
+      },
+      "model_positive_extremum": {
+        "force": 0.056083284253002456,
+        "pixel_count_at_quantized_extremum": 2,
+        "position": 7.105427357601002e-15,
+        "velocity": -1.4936247723133107
+      },
+      "model_support_and_zero_contours": {
+        "fixed_abs_force_threshold": 0.01,
+        "spatial_extent": [
+          -6.65289256198345,
+          6.652892561983478
+        ],
+        "suppressed_force_fraction_abs_below_0p005": 0.49237891737891737,
+        "velocity_extent": [
+          -18.105646630236805,
+          18.10564663023678
+        ],
+        "zero_force_crossing_position_at_v_zero": -0.32475545690839747,
+        "zero_force_crossing_velocity_at_x_zero": 0.0016818991550318144
+      },
+      "model_widths": {
+        "fixed_negative_force_contours": {
+          "-0.01": {
+            "left": 5.199894620651294,
+            "mean": 5.944610369655087,
+            "right": 6.6893261186588795,
+            "threshold": -0.01
+          },
+          "-0.02": {
+            "left": 3.4169893388778836,
+            "mean": 4.235066587918609,
+            "right": 5.053143836959333,
+            "threshold": -0.02
+          },
+          "-0.03": {
+            "left": 1.931824227845674,
+            "mean": 2.2949983853406204,
+            "right": 2.6581725428355667,
+            "threshold": -0.03
+          }
+        },
+        "negative_extremum": {
+          "force": -0.05608328425300285,
+          "pixel_count_at_quantized_extremum": 2,
+          "position": 7.105427357601002e-15,
+          "velocity": 1.4936247723132894
+        },
+        "paper_motivated_velocity": 1.4936247723132894,
+        "spatial_at_paper_motivated_velocity": {
+          "half_maximum": {
+            "left": 2.1455140295699455,
+            "mean": 2.739817953292021,
+            "right": 3.334121877014096,
+            "threshold": -0.028041642126501426
+          },
+          "one_over_e": {
+            "left": 3.2804097508749446,
+            "mean": 4.104251332841906,
+            "right": 4.928092914808867,
+            "threshold": -0.020631887270053842
+          },
+          "one_over_e2": {
+            "left": 5.637832228607636,
+            "mean": 6.289990494469102,
+            "right": 6.942148760330568,
+            "threshold": -0.007590047159219602
+          }
+        },
+        "spatial_through_actual_extremum": {
+          "half_maximum": {
+            "left": 2.1455140295699455,
+            "mean": 2.739817953292021,
+            "right": 3.334121877014096,
+            "threshold": -0.028041642126501426
+          },
+          "one_over_e": {
+            "left": 3.2804097508749446,
+            "mean": 4.104251332841906,
+            "right": 4.928092914808867,
+            "threshold": -0.020631887270053842
+          },
+          "one_over_e2": {
+            "left": 5.637832228607636,
+            "mean": 6.289990494469102,
+            "right": 6.942148760330568,
+            "threshold": -0.007590047159219602
+          }
+        },
+        "velocity_at_x_zero": {
+          "half_maximum": {
+            "left": 0.7204853798164983,
+            "mean": 0.7909582024754844,
+            "right": 0.8614310251344706,
+            "threshold": -0.028041642126501426
+          },
+          "one_over_e": {
+            "left": 0.8854437930750065,
+            "mean": 0.9497924120258785,
+            "right": 1.0141410309767505,
+            "threshold": -0.020631887270053842
+          },
+          "one_over_e2": {
+            "left": 1.3585387839131564,
+            "mean": 1.3372421926160278,
+            "right": 1.3159456013188995,
+            "threshold": -0.007590047159219602
+          }
+        },
+        "velocity_through_actual_extremum": {
+          "half_maximum": {
+            "left": 0.7204853798164983,
+            "mean": 0.7909582024754844,
+            "right": 0.8614310251344706,
+            "threshold": -0.028041642126501426
+          },
+          "one_over_e": {
+            "left": 0.8854437930750065,
+            "mean": 0.9497924120258785,
+            "right": 1.0141410309767505,
+            "threshold": -0.020631887270053842
+          },
+          "one_over_e2": {
+            "left": 1.3585387839131564,
+            "mean": 1.3372421926160278,
+            "right": 1.3159456013188995,
+            "threshold": -0.007590047159219602
+          }
+        }
+      },
+      "negative_extremum_displacement_model_minus_paper": {
+        "position": 0.05785123966942507,
+        "velocity": -0.2185792349726725
+      },
+      "paper_digitization_zero_bias_removed": 0.0008196721311475447,
+      "paper_force_asymmetry_abs_negative_over_positive": 1.013392857142857,
+      "paper_local_slopes": {
+        "dF_dv_at_x0": -0.027802348358130138,
+        "dF_dx_at_v0": 0.0030016269114094087
+      },
+      "paper_negative_extremum": {
+        "force": -0.041347905282331496,
+        "pixel_count_at_quantized_extremum": 9,
+        "position": -0.057851239669417964,
+        "velocity": 1.712204007285962
+      },
+      "paper_positive_extremum": {
+        "force": 0.04080145719489981,
+        "pixel_count_at_quantized_extremum": 9,
+        "position": -0.057851239669417964,
+        "velocity": -1.4936247723133107
+      },
+      "paper_support_and_zero_contours": {
+        "fixed_abs_force_threshold": 0.01,
+        "spatial_extent": [
+          -6.922865013774086,
+          6.9228650137741
+        ],
+        "suppressed_force_fraction_abs_below_0p005": 0.8059722259385118,
+        "velocity_extent": [
+          -19.85428051001822,
+          19.854280510018203
+        ],
+        "zero_force_crossing_position_at_v_zero": -0.752066115702462,
+        "zero_force_crossing_velocity_at_x_zero": -3.460837887067406
+      },
+      "paper_widths": {
+        "fixed_negative_force_contours": {
+          "-0.01": {
+            "left": 1.6969696969696884,
+            "mean": 1.0798898071625302,
+            "right": 0.46280991735537214,
+            "threshold": -0.01
+          },
+          "-0.02": {
+            "left": 1.6969696969696884,
+            "mean": 1.0798898071625302,
+            "right": 0.46280991735537214,
+            "threshold": -0.02
+          },
+          "-0.03": {
+            "left": 1.6969696969696884,
+            "mean": 1.0798898071625302,
+            "right": 0.46280991735537214,
+            "threshold": -0.03
+          }
+        },
+        "negative_extremum": {
+          "force": -0.041347905282331496,
+          "pixel_count_at_quantized_extremum": 9,
+          "position": -0.057851239669417964,
+          "velocity": 1.712204007285962
+        },
+        "paper_motivated_velocity": 1.712204007285962,
+        "spatial_at_paper_motivated_velocity": {
+          "half_maximum": {
+            "left": 1.6969696969696884,
+            "mean": 1.0798898071625302,
+            "right": 0.46280991735537214,
+            "threshold": -0.020673952641165748
+          },
+          "one_over_e": {
+            "left": 1.6969696969696884,
+            "mean": 1.0798898071625302,
+            "right": 0.46280991735537214,
+            "threshold": -0.01521104428887384
+          },
+          "one_over_e2": {
+            "left": 1.6969696969696884,
+            "mean": 1.0798898071625302,
+            "right": 0.46280991735537214,
+            "threshold": -0.005595830472624967
+          }
+        },
+        "spatial_through_actual_extremum": {
+          "half_maximum": {
+            "left": 1.6969696969696884,
+            "mean": 1.0798898071625302,
+            "right": 0.46280991735537214,
+            "threshold": -0.020673952641165748
+          },
+          "one_over_e": {
+            "left": 1.6969696969696884,
+            "mean": 1.0798898071625302,
+            "right": 0.46280991735537214,
+            "threshold": -0.01521104428887384
+          },
+          "one_over_e2": {
+            "left": 1.6969696969696884,
+            "mean": 1.0798898071625302,
+            "right": 0.46280991735537214,
+            "threshold": -0.005595830472624967
+          }
+        },
+        "velocity_at_x_zero": {
+          "half_maximum": {
+            "left": 0.642206609419723,
+            "mean": 0.7446005724694247,
+            "right": 0.8469945355191263,
+            "threshold": -0.020673952641165748
+          },
+          "one_over_e": {
+            "left": 0.849000944857484,
+            "mean": 0.9542427987332152,
+            "right": 1.0594846526089463,
+            "threshold": -0.01521104428887384
+          },
+          "one_over_e2": {
+            "left": 1.092896174863391,
+            "mean": 1.2540404380444565,
+            "right": 1.415184701225522,
+            "threshold": -0.005595830472624967
+          }
+        },
+        "velocity_through_actual_extremum": {
+          "half_maximum": {
+            "left": 0.642206609419723,
+            "mean": 0.7446005724694247,
+            "right": 0.8469945355191263,
+            "threshold": -0.020673952641165748
+          },
+          "one_over_e": {
+            "left": 0.849000944857484,
+            "mean": 0.9542427987332152,
+            "right": 1.0594846526089463,
+            "threshold": -0.01521104428887384
+          },
+          "one_over_e2": {
+            "left": 1.1657559198542842,
+            "mean": 1.2904703105399031,
+            "right": 1.415184701225522,
+            "threshold": -0.005595830472624967
+          }
+        }
+      },
+      "positive_extremum_displacement_model_minus_paper": {
+        "position": 0.05785123966942507,
+        "velocity": 0.0
+      },
+      "surface_metrics": {
+        "after_diagnostic_scale_only": {
+          "maximum_absolute_difference": 0.05279292207485747,
+          "maximum_difference_over_paper_range": 0.5337626928010454,
+          "normalized_rms_difference": 0.0707543552124586,
+          "signed_mean_difference": -0.00016323533996952553,
+          "spatial_cross_correlation": 0.48674368757834563
+        },
+        "contour_overlap": [
+          {
+            "intersection_over_union": 0.382183908045977,
+            "threshold": -0.03
+          },
+          {
+            "intersection_over_union": 0.40081763242090296,
+            "threshold": -0.02
+          },
+          {
+            "intersection_over_union": 0.31905298759864714,
+            "threshold": -0.01
+          },
+          {
+            "intersection_over_union": 0.28333499551211727,
+            "threshold": 0.01
+          },
+          {
+            "intersection_over_union": 0.3152861556569075,
+            "threshold": 0.02
+          },
+          {
+            "intersection_over_union": 0.27503681885125186,
+            "threshold": 0.03
+          }
+        ],
+        "diagnostic_best_small_axis_offset_pixels": {
+          "dx": -2,
+          "dy": -2,
+          "normalized_rms_difference": 0.07827693386105421
+        },
+        "diagnostic_global_force_scale_factor": 0.42609965283449813,
+        "major_force_sign_agreement_fraction": 0.4306915501994588,
+        "no_fitted_correction": {
+          "maximum_absolute_difference": 0.05790394396109662,
+          "maximum_difference_over_paper_range": 0.5854376654630213,
+          "normalized_rms_difference": 0.08845583604081884,
+          "signed_mean_difference": -0.00015900302901156166,
+          "spatial_cross_correlation": 0.4867436875783465
+        },
+        "signed_area_difference_data_units": -0.0834915301504795,
+        "signed_area_difference_pixel_weighted": -29.71210101624547,
+        "valid_pixel_count": 186865
+      },
+      "units": {
+        "force": "hbar*k*Gamma",
+        "x": "hbar*Gamma/(mu_B*Bprime)",
+        "y": "Gamma/k"
+      }
+    }
+  },
+  "figure_3": {
+    "minus_2_gamma": {
+      "accepted_cache_plane_used_exactly": true,
+      "detuning_gamma": -2.0,
+      "model_force_asymmetry_abs_negative_over_positive": 1.0000000000000246,
+      "model_negative_extremum": {
+        "force": -0.06477335567365024,
+        "pixel_count_at_quantized_extremum": 2,
+        "position": 3.410605131648481e-13,
+        "velocity": 18.66028708133956
+      },
+      "model_positive_extremum": {
+        "force": 0.06477335567364864,
+        "pixel_count_at_quantized_extremum": 2,
+        "position": 3.410605131648481e-13,
+        "velocity": -18.660287081339845
+      },
+      "model_support_and_zero_contours": {
+        "fixed_abs_force_threshold": 0.01,
+        "spatial_extent": [
+          -20.605187319884408,
+          20.60518731988509
+        ],
+        "suppressed_force_fraction_abs_below_0p005": 0.85031674585313,
+        "velocity_extent": [
+          -32.29665071770347,
+          32.296650717703244
+        ],
+        "zero_force_crossing_position_at_v_zero": 3.2806257710404907e-12,
+        "zero_force_crossing_velocity_at_x_zero": 0.004992728658020917
+      },
+      "model_widths": {
+        "fixed_negative_force_contours": {
+          "-0.01": {
+            "left": 20.066852335418808,
+            "mean": 20.135663548467004,
+            "right": 20.2044747615152,
+            "threshold": -0.01
+          },
+          "-0.02": {
+            "left": 14.937649614793605,
+            "mean": 14.604981508012948,
+            "right": 14.27231340123229,
+            "threshold": -0.02
+          },
+          "-0.03": {
+            "left": 10.592517031942057,
+            "mean": 9.85936956602249,
+            "right": 9.126222100102925,
+            "threshold": -0.03
+          }
+        },
+        "negative_extremum": {
+          "force": -0.06477335567365024,
+          "pixel_count_at_quantized_extremum": 2,
+          "position": 3.410605131648481e-13,
+          "velocity": 18.66028708133956
+        },
+        "paper_motivated_velocity": 21.298056249338813,
+        "spatial_at_paper_motivated_velocity": {
+          "half_maximum": {
+            "left": 9.547236475332918,
+            "mean": 9.294453567980533,
+            "right": 9.04167066062815,
+            "threshold": -0.02979242317166976
+          },
+          "one_over_e": {
+            "left": 13.445191764781534,
+            "mean": 13.405902843822794,
+            "right": 13.366613922864053,
+            "threshold": -0.021920039975074003
+          },
+          "one_over_e2": {
+            "left": 21.44435104913697,
+            "mean": 21.856310457072272,
+            "right": 22.268269865007575,
+            "threshold": -0.0080639320564859
+          }
+        },
+        "spatial_through_actual_extremum": {
+          "half_maximum": {
+            "left": 9.506161447820235,
+            "mean": 8.70169055085497,
+            "right": 7.897219653889704,
+            "threshold": -0.03238667783682512
+          },
+          "one_over_e": {
+            "left": 13.264410001737895,
+            "mean": 12.783354961522793,
+            "right": 12.302299921307691,
+            "threshold": -0.023828785888021523
+          },
+          "one_over_e2": {
+            "left": 21.056346276646632,
+            "mean": 21.17713475718213,
+            "right": 21.297923237717626,
+            "threshold": -0.00876612043627931
+          }
+        },
+        "velocity_at_x_zero": {
+          "half_maximum": {
+            "left": 9.561939635699222,
+            "mean": 7.529517819887265,
+            "right": 5.497096004075308,
+            "threshold": -0.03238667783682512
+          },
+          "one_over_e": {
+            "left": 10.93609520603244,
+            "mean": 9.324090058288412,
+            "right": 7.712084910544384,
+            "threshold": -0.023828785888021523
+          },
+          "one_over_e2": {
+            "left": 14.106791376290822,
+            "mean": 13.573224446056344,
+            "right": 13.039657515821865,
+            "threshold": -0.00876612043627931
+          }
+        },
+        "velocity_through_actual_extremum": {
+          "half_maximum": {
+            "left": 9.561939635699222,
+            "mean": 7.529517819887265,
+            "right": 5.497096004075308,
+            "threshold": -0.03238667783682512
+          },
+          "one_over_e": {
+            "left": 10.93609520603244,
+            "mean": 9.324090058288412,
+            "right": 7.712084910544384,
+            "threshold": -0.023828785888021523
+          },
+          "one_over_e2": {
+            "left": 14.106791376290822,
+            "mean": 13.573224446056344,
+            "right": 13.039657515821865,
+            "threshold": -0.00876612043627931
+          }
+        }
+      },
+      "negative_extremum_displacement_model_minus_paper": {
+        "position": -0.4322766570604699,
+        "velocity": -3.9473684210526585
+      },
+      "paper_digitization_zero_bias_removed": 0.0011483253588516068,
+      "paper_force_asymmetry_abs_negative_over_positive": 1.0310559006211175,
+      "paper_negative_extremum": {
+        "force": -0.047655502392344465,
+        "pixel_count_at_quantized_extremum": 20,
+        "position": 0.432276657060811,
+        "velocity": 22.60765550239222
+      },
+      "paper_positive_extremum": {
+        "force": 0.0462200956937799,
+        "pixel_count_at_quantized_extremum": 20,
+        "position": 0.432276657060811,
+        "velocity": -21.88995215311016
+      },
+      "paper_support_and_zero_contours": {
+        "fixed_abs_force_threshold": 0.01,
+        "spatial_extent": [
+          -49.42363112391894,
+          49.42363112391956
+        ],
+        "suppressed_force_fraction_abs_below_0p005": 0.8984574464302224,
+        "velocity_extent": [
+          -148.56459330143554,
+          30.86124401913861
+        ],
+        "zero_force_crossing_position_at_v_zero": 4.755043227666079,
+        "zero_force_crossing_velocity_at_x_zero": 1.4354066985644636
+      },
+      "paper_widths": {
+        "fixed_negative_force_contours": {
+          "-0.01": {
+            "left": 25.37223823246872,
+            "mean": 26.783141210374623,
+            "right": 28.194044188280525,
+            "threshold": -0.01
+          },
+          "-0.02": {
+            "left": 16.94284341978859,
+            "mean": 18.816042267050893,
+            "right": 20.689241114313194,
+            "threshold": -0.02
+          },
+          "-0.03": {
+            "left": 11.86959654178668,
+            "mean": 12.551032660902973,
+            "right": 13.232468780019264,
+            "threshold": -0.03
+          }
+        },
+        "negative_extremum": {
+          "force": -0.047655502392344465,
+          "pixel_count_at_quantized_extremum": 20,
+          "position": 0.432276657060811,
+          "velocity": 22.60765550239222
+        },
+        "paper_motivated_velocity": 21.298056249338813,
+        "spatial_at_paper_motivated_velocity": {
+          "half_maximum": {
+            "left": 15.561959654178624,
+            "mean": 17.435158501440924,
+            "right": 19.308357348703225,
+            "threshold": -0.023827751196172232
+          },
+          "one_over_e": {
+            "left": 18.08940162553754,
+            "mean": 20.606876835202875,
+            "right": 23.124352044868207,
+            "threshold": -0.017531479588840014
+          },
+          "one_over_e2": {
+            "left": 28.15759901917698,
+            "mean": 29.470268223254273,
+            "right": 30.782937427331568,
+            "threshold": -0.0064494709140510125
+          }
+        },
+        "spatial_through_actual_extremum": {
+          "half_maximum": {
+            "left": 15.561959654178624,
+            "mean": 17.435158501440924,
+            "right": 19.308357348703225,
+            "threshold": -0.023827751196172232
+          },
+          "one_over_e": {
+            "left": 18.08940162553754,
+            "mean": 20.606876835202875,
+            "right": 23.124352044868207,
+            "threshold": -0.017531479588840014
+          },
+          "one_over_e2": {
+            "left": 28.15759901917698,
+            "mean": 29.470268223254273,
+            "right": 30.782937427331568,
+            "threshold": -0.0064494709140510125
+          }
+        },
+        "velocity_at_x_zero": {
+          "half_maximum": {
+            "left": 5.93418135138289,
+            "mean": 7.4094269238353,
+            "right": 8.88467249628771,
+            "threshold": -0.023827751196172232
+          },
+          "one_over_e": {
+            "left": 6.318100351829987,
+            "mean": 8.612375763813432,
+            "right": 10.90665117579688,
+            "threshold": -0.017531479588840014
+          },
+          "one_over_e2": {
+            "left": 10.906473005690707,
+            "mean": 13.603186950893253,
+            "right": 16.2999008960958,
+            "threshold": -0.0064494709140510125
+          }
+        },
+        "velocity_through_actual_extremum": {
+          "half_maximum": {
+            "left": 5.93418135138289,
+            "mean": 7.4094269238353,
+            "right": 8.88467249628771,
+            "threshold": -0.023827751196172232
+          },
+          "one_over_e": {
+            "left": 6.318100351829987,
+            "mean": 8.612375763813432,
+            "right": 10.90665117579688,
+            "threshold": -0.017531479588840014
+          },
+          "one_over_e2": {
+            "left": 10.906473005690707,
+            "mean": 13.603186950893253,
+            "right": 16.2999008960958,
+            "threshold": -0.0064494709140510125
+          }
+        }
+      },
+      "positive_extremum_displacement_model_minus_paper": {
+        "position": -0.4322766570604699,
+        "velocity": 3.229665071770313
+      },
+      "surface_metrics": {
+        "after_diagnostic_scale_only": {
+          "maximum_absolute_difference": 0.022832977704267537,
+          "maximum_difference_over_paper_range": 0.24322590928603044,
+          "normalized_rms_difference": 0.026702749557767785,
+          "signed_mean_difference": 0.00028395533086802467,
+          "spatial_cross_correlation": 0.9446912260030976
+        },
+        "contour_overlap": [
+          {
+            "intersection_over_union": 0.6647009267059815,
+            "threshold": -0.03
+          },
+          {
+            "intersection_over_union": 0.7230769230769231,
+            "threshold": -0.02
+          },
+          {
+            "intersection_over_union": 0.7483132283786547,
+            "threshold": -0.01
+          },
+          {
+            "intersection_over_union": 0.7833333333333333,
+            "threshold": 0.01
+          },
+          {
+            "intersection_over_union": 0.7492498928418345,
+            "threshold": 0.02
+          },
+          {
+            "intersection_over_union": 0.6818181818181818,
+            "threshold": 0.03
+          }
+        ],
+        "diagnostic_best_small_axis_offset_pixels": {
+          "dx": 1,
+          "dy": 0,
+          "normalized_rms_difference": 0.027626939819205894
+        },
+        "diagnostic_global_force_scale_factor": 0.9126832226756832,
+        "major_force_sign_agreement_fraction": 0.9534816359633878,
+        "no_fitted_correction": {
+          "maximum_absolute_difference": 0.028368171108516915,
+          "maximum_difference_over_paper_range": 0.302188978678901,
+          "normalized_rms_difference": 0.027685600462332857,
+          "signed_mean_difference": 0.00028395533086802467,
+          "spatial_cross_correlation": 0.9446912260030973
+        },
+        "signed_area_difference_data_units": 5.603970415062122,
+        "signed_area_difference_pixel_weighted": 27.09444976076518,
+        "valid_pixel_count": 95418
+      },
+      "units": {
+        "force": "hbar*k*Gamma",
+        "x": "mm",
+        "y": "m/s"
+      }
+    },
+    "minus_4_gamma": {
+      "accepted_cache_plane_used_exactly": true,
+      "detuning_gamma": -4.0,
+      "model_force_asymmetry_abs_negative_over_positive": 1.00000000000002,
+      "model_negative_extremum": {
+        "force": -0.07206678107013618,
+        "pixel_count_at_quantized_extremum": 1,
+        "position": 1.1368683772161603e-13,
+        "velocity": 43.779904306219976
+      },
+      "model_positive_extremum": {
+        "force": 0.07206678107013474,
+        "pixel_count_at_quantized_extremum": 1,
+        "position": 1.1368683772161603e-13,
+        "velocity": -43.7799043062202
+      },
+      "model_support_and_zero_contours": {
+        "fixed_abs_force_threshold": 0.01,
+        "spatial_extent": [
+          -21.387283236994108,
+          21.387283236994335
+        ],
+        "suppressed_force_fraction_abs_below_0p005": 0.8501938409772511,
+        "velocity_extent": [
+          -59.56937799043072,
+          59.569377990430496
+        ],
+        "zero_force_crossing_position_at_v_zero": 2.3691661780757474e-12,
+        "zero_force_crossing_velocity_at_x_zero": -4.107825191113079e-15
+      },
+      "model_widths": {
+        "fixed_negative_force_contours": {
+          "-0.01": {
+            "left": 21.435922193614186,
+            "mean": 20.623459929767463,
+            "right": 19.810997665920745,
+            "threshold": -0.01
+          },
+          "-0.02": {
+            "left": 15.905338399056728,
+            "mean": 15.333204441225867,
+            "right": 14.761070483395008,
+            "threshold": -0.02
+          },
+          "-0.03": {
+            "left": 11.134663316063218,
+            "mean": 11.017563687045874,
+            "right": 10.900464058028529,
+            "threshold": -0.03
+          }
+        },
+        "negative_extremum": {
+          "force": -0.07206678107013618,
+          "pixel_count_at_quantized_extremum": 1,
+          "position": 1.1368683772161603e-13,
+          "velocity": 43.779904306219976
+        },
+        "paper_motivated_velocity": 42.59611249867763,
+        "spatial_at_paper_motivated_velocity": {
+          "half_maximum": {
+            "left": 8.556746786666418,
+            "mean": 8.515090738362115,
+            "right": 8.473434690057815,
+            "threshold": -0.033741805461475455
+          },
+          "one_over_e": {
+            "left": 13.003572177257293,
+            "mean": 12.639048772081345,
+            "right": 12.274525366905397,
+            "threshold": -0.024825833074566223
+          },
+          "one_over_e2": {
+            "left": 21.60237127543529,
+            "mean": 20.802130013400028,
+            "right": 20.001888751364767,
+            "threshold": -0.009132913598086932
+          }
+        },
+        "spatial_through_actual_extremum": {
+          "half_maximum": {
+            "left": 8.14188293699501,
+            "mean": 8.316110825238365,
+            "right": 8.490338713481718,
+            "threshold": -0.03603339053506809
+          },
+          "one_over_e": {
+            "left": 12.774083472271641,
+            "mean": 12.510493886258491,
+            "right": 12.24690430024534,
+            "threshold": -0.026511887147106377
+          },
+          "one_over_e2": {
+            "left": 21.61602149297777,
+            "mean": 20.77680921440957,
+            "right": 19.937596935841373,
+            "threshold": -0.009753178228077839
+          }
+        },
+        "velocity_at_x_zero": {
+          "half_maximum": {
+            "left": 6.20827305184045,
+            "mean": 7.576096191947901,
+            "right": 8.943919332055351,
+            "threshold": -0.03603339053506809
+          },
+          "one_over_e": {
+            "left": 8.994557341828205,
+            "mean": 9.812060100292353,
+            "right": 10.6295628587565,
+            "threshold": -0.026511887147106377
+          },
+          "one_over_e2": {
+            "left": 16.21526410676546,
+            "mean": 15.426376824090264,
+            "right": 14.637489541415068,
+            "threshold": -0.009753178228077839
+          }
+        },
+        "velocity_through_actual_extremum": {
+          "half_maximum": {
+            "left": 6.20827305184045,
+            "mean": 7.576096191947901,
+            "right": 8.943919332055351,
+            "threshold": -0.03603339053506809
+          },
+          "one_over_e": {
+            "left": 8.994557341828205,
+            "mean": 9.812060100292353,
+            "right": 10.6295628587565,
+            "threshold": -0.026511887147106377
+          },
+          "one_over_e2": {
+            "left": 16.21526410676546,
+            "mean": 15.426376824090264,
+            "right": 14.637489541415068,
+            "threshold": -0.009753178228077839
+          }
+        }
+      },
+      "negative_extremum_displacement_model_minus_paper": {
+        "position": -0.43352601156067294,
+        "velocity": 0.717703349282317
+      },
+      "paper_digitization_zero_bias_removed": 0.0011483253588516068,
+      "paper_force_asymmetry_abs_negative_over_positive": 1.0374999999999994,
+      "paper_negative_extremum": {
+        "force": -0.047655502392344465,
+        "pixel_count_at_quantized_extremum": 12,
+        "position": 0.43352601156078663,
+        "velocity": 43.06220095693766
+      },
+      "paper_positive_extremum": {
+        "force": 0.04593301435406698,
+        "pixel_count_at_quantized_extremum": 28,
+        "position": 0.43352601156078663,
+        "velocity": -43.06220095693794
+      },
+      "paper_support_and_zero_contours": {
+        "fixed_abs_force_threshold": 0.01,
+        "spatial_extent": [
+          -49.42196531791899,
+          49.421965317919216
+        ],
+        "suppressed_force_fraction_abs_below_0p005": 0.8843697955423266,
+        "velocity_extent": [
+          -148.56459330143554,
+          58.85167464114818
+        ],
+        "zero_force_crossing_position_at_v_zero": -7.514450867051892,
+        "zero_force_crossing_velocity_at_x_zero": -1.1368683772161603e-13
+      },
+      "paper_widths": {
+        "fixed_negative_force_contours": {
+          "-0.01": {
+            "left": 26.601637764932544,
+            "mean": 25.559971098265898,
+            "right": 24.51830443159925,
+            "threshold": -0.01
+          },
+          "-0.02": {
+            "left": 18.139278832920436,
+            "mean": 17.52821359757776,
+            "right": 16.917148362235086,
+            "threshold": -0.02
+          },
+          "-0.03": {
+            "left": 11.73731535003212,
+            "mean": 11.350955362877325,
+            "right": 10.964595375722531,
+            "threshold": -0.03
+          }
+        },
+        "negative_extremum": {
+          "force": -0.047655502392344465,
+          "pixel_count_at_quantized_extremum": 12,
+          "position": 0.43352601156078663,
+          "velocity": 43.06220095693766
+        },
+        "paper_motivated_velocity": 42.59611249867763,
+        "spatial_at_paper_motivated_velocity": {
+          "half_maximum": {
+            "left": 15.414258188824666,
+            "mean": 15.024522683482232,
+            "right": 14.6347871781398,
+            "threshold": -0.023827751196172232
+          },
+          "one_over_e": {
+            "left": 19.29775249728774,
+            "mean": 18.84762414762126,
+            "right": 18.39749579795478,
+            "threshold": -0.017531479588840014
+          },
+          "one_over_e2": {
+            "left": 29.395048727325005,
+            "mean": 28.81701404524408,
+            "right": 28.238979363163153,
+            "threshold": -0.0064494709140510125
+          }
+        },
+        "spatial_through_actual_extremum": {
+          "half_maximum": {
+            "left": 15.414258188824666,
+            "mean": 15.024522683482232,
+            "right": 14.6347871781398,
+            "threshold": -0.023827751196172232
+          },
+          "one_over_e": {
+            "left": 19.29775249728774,
+            "mean": 18.84762414762126,
+            "right": 18.39749579795478,
+            "threshold": -0.017531479588840014
+          },
+          "one_over_e2": {
+            "left": 29.395048727325005,
+            "mean": 28.81701404524408,
+            "right": 28.238979363163153,
+            "threshold": -0.0064494709140510125
+          }
+        },
+        "velocity_at_x_zero": {
+          "half_maximum": {
+            "left": 6.364339994370965,
+            "mean": 6.058964255558685,
+            "right": 5.7535885167464045,
+            "threshold": -0.03028708133971291
+          },
+          "one_over_e": {
+            "left": 8.540047053169658,
+            "mean": 7.480279960948778,
+            "right": 6.420512868727897,
+            "threshold": -0.02228398911593521
+          },
+          "one_over_e2": {
+            "left": 16.251980040938385,
+            "mean": 15.088705075128463,
+            "right": 13.92543010931854,
+            "threshold": -0.008197821463040749
+          }
+        },
+        "velocity_through_actual_extremum": {
+          "half_maximum": {
+            "left": 8.3916083916084,
+            "mean": 7.341737210158271,
+            "right": 6.291866028708142,
+            "threshold": -0.023827751196172232
+          },
+          "one_over_e": {
+            "left": 11.182177415237454,
+            "mean": 10.111643914779584,
+            "right": 9.041110414321714,
+            "threshold": -0.017531479588840014
+          },
+          "one_over_e2": {
+            "left": 18.124474376750406,
+            "mean": 16.161542129674302,
+            "right": 14.198609882598195,
+            "threshold": -0.0064494709140510125
+          }
+        }
+      },
+      "positive_extremum_displacement_model_minus_paper": {
+        "position": -0.43352601156067294,
+        "velocity": -0.7177033492822602
+      },
+      "surface_metrics": {
+        "after_diagnostic_scale_only": {
+          "maximum_absolute_difference": 0.020659838275984818,
+          "maximum_difference_over_paper_range": 0.22075185069942888,
+          "normalized_rms_difference": 0.025155649771044595,
+          "signed_mean_difference": 0.00034634434551277,
+          "spatial_cross_correlation": 0.9565405176704432
+        },
+        "contour_overlap": [
+          {
+            "intersection_over_union": 0.6491092176607282,
+            "threshold": -0.03
+          },
+          {
+            "intersection_over_union": 0.7378026070763501,
+            "threshold": -0.02
+          },
+          {
+            "intersection_over_union": 0.7408273381294964,
+            "threshold": -0.01
+          },
+          {
+            "intersection_over_union": 0.7853107344632768,
+            "threshold": 0.01
+          },
+          {
+            "intersection_over_union": 0.7564422277639236,
+            "threshold": 0.02
+          },
+          {
+            "intersection_over_union": 0.6978297161936561,
+            "threshold": 0.03
+          }
+        ],
+        "diagnostic_best_small_axis_offset_pixels": {
+          "dx": 1,
+          "dy": -1,
+          "normalized_rms_difference": 0.025807340247022977
+        },
+        "diagnostic_global_force_scale_factor": 0.9122812740678553,
+        "major_force_sign_agreement_fraction": 1.0,
+        "no_fitted_correction": {
+          "maximum_absolute_difference": 0.026842121168714275,
+          "maximum_difference_over_paper_range": 0.2868099859029287,
+          "normalized_rms_difference": 0.026351459552031584,
+          "signed_mean_difference": 0.0003463443455127701,
+          "spatial_cross_correlation": 0.9565405176704418
+        },
+        "signed_area_difference_data_units": 6.875041105291144,
+        "signed_area_difference_pixel_weighted": 33.14411483253556,
+        "valid_pixel_count": 95697
+      },
+      "units": {
+        "force": "hbar*k*Gamma",
+        "x": "mm",
+        "y": "m/s"
+      }
+    },
+    "minus_6_gamma": {
+      "accepted_cache_plane_used_exactly": true,
+      "detuning_gamma": -6.0,
+      "model_force_asymmetry_abs_negative_over_positive": 0.9999999999999704,
+      "model_negative_extremum": {
+        "force": -0.06123983083827518,
+        "pixel_count_at_quantized_extremum": 2,
+        "position": -2.842170943040401e-14,
+        "velocity": 62.44019138755968
+      },
+      "model_positive_extremum": {
+        "force": 0.061239830838277,
+        "pixel_count_at_quantized_extremum": 2,
+        "position": -2.842170943040401e-14,
+        "velocity": -62.440191387559935
+      },
+      "model_support_and_zero_contours": {
+        "fixed_abs_force_threshold": 0.01,
+        "spatial_extent": [
+          -17.723342939481313,
+          17.723342939481256
+        ],
+        "suppressed_force_fraction_abs_below_0p005": 0.8164957906143202,
+        "velocity_extent": [
+          -84.68899521531114,
+          84.68899521531088
+        ],
+        "zero_force_crossing_position_at_v_zero": -2.356642658796204e-12,
+        "zero_force_crossing_velocity_at_x_zero": 0.006793818392255457
+      },
+      "model_widths": {
+        "fixed_negative_force_contours": {
+          "-0.01": {
+            "left": 17.820227621799095,
+            "mean": 17.401382806506792,
+            "right": 16.98253799121449,
+            "threshold": -0.01
+          },
+          "-0.02": {
+            "left": 13.271690652273785,
+            "mean": 12.985007820924604,
+            "right": 12.698324989575422,
+            "threshold": -0.02
+          },
+          "-0.03": {
+            "left": 9.827692454585694,
+            "mean": 9.550471925733934,
+            "right": 9.273251396882172,
+            "threshold": -0.03
+          }
+        },
+        "negative_extremum": {
+          "force": -0.06123983083827518,
+          "pixel_count_at_quantized_extremum": 2,
+          "position": -2.842170943040401e-14,
+          "velocity": 62.44019138755968
+        },
+        "paper_motivated_velocity": 63.89416874801645,
+        "spatial_at_paper_motivated_velocity": {
+          "half_maximum": {
+            "left": 9.72390089310761,
+            "mean": 9.558708626236433,
+            "right": 9.393516359365256,
+            "threshold": -0.02919644179440735
+          },
+          "one_over_e": {
+            "left": 12.553136227728945,
+            "mean": 12.358389295811682,
+            "right": 12.163642363894418,
+            "threshold": -0.021481541383042237
+          },
+          "one_over_e2": {
+            "left": 18.985906953110735,
+            "mean": 18.687638185205508,
+            "right": 18.389369417300276,
+            "threshold": -0.00790261743949479
+          }
+        },
+        "spatial_through_actual_extremum": {
+          "half_maximum": {
+            "left": 9.607486627554119,
+            "mean": 9.339939445023997,
+            "right": 9.072392262493876,
+            "threshold": -0.03061991541913759
+          },
+          "one_over_e": {
+            "left": 12.401200378116044,
+            "mean": 12.108087123033417,
+            "right": 11.814973867950789,
+            "threshold": -0.022528874746218334
+          },
+          "one_over_e2": {
+            "left": 18.76048262749152,
+            "mean": 18.396420974950146,
+            "right": 18.032359322408777,
+            "threshold": -0.00828790985186022
+          }
+        },
+        "velocity_at_x_zero": {
+          "half_maximum": {
+            "left": 10.343569921584859,
+            "mean": 7.580918237512655,
+            "right": 4.818266553440452,
+            "threshold": -0.03060260517864819
+          },
+          "one_over_e": {
+            "left": 12.394917973876986,
+            "mean": 9.302796818724815,
+            "right": 6.210675663572644,
+            "threshold": -0.022516138583022767
+          },
+          "one_over_e2": {
+            "left": 30.046766723019687,
+            "mean": 22.21128331191735,
+            "right": 14.37579990081501,
+            "threshold": -0.008283224479261168
+          }
+        },
+        "velocity_through_actual_extremum": {
+          "half_maximum": {
+            "left": 10.339543088395047,
+            "mean": 7.575152751887153,
+            "right": 4.8107624153792585,
+            "threshold": -0.03061991541913759
+          },
+          "one_over_e": {
+            "left": 12.396486885910946,
+            "mean": 9.297223697782744,
+            "right": 6.197960509654543,
+            "threshold": -0.022528874746218334
+          },
+          "one_over_e2": {
+            "left": 30.144316001045695,
+            "mean": 22.175600720208504,
+            "right": 14.206885439371312,
+            "threshold": -0.00828790985186022
+          }
+        }
+      },
+      "negative_extremum_displacement_model_minus_paper": {
+        "position": -0.43227665706049834,
+        "velocity": -2.5119617224880386
+      },
+      "paper_digitization_zero_bias_removed": 0.0011483253588516068,
+      "paper_force_asymmetry_abs_negative_over_positive": 1.0370370370370365,
+      "paper_negative_extremum": {
+        "force": -0.0482296650717703,
+        "pixel_count_at_quantized_extremum": 20,
+        "position": 0.4322766570604699,
+        "velocity": 64.95215311004772
+      },
+      "paper_positive_extremum": {
+        "force": 0.046507177033492816,
+        "pixel_count_at_quantized_extremum": 20,
+        "position": 0.4322766570604699,
+        "velocity": -64.23444976076567
+      },
+      "paper_support_and_zero_contours": {
+        "fixed_abs_force_threshold": 0.01,
+        "spatial_extent": [
+          -49.423631123919364,
+          49.42363112391928
+        ],
+        "suppressed_force_fraction_abs_below_0p005": 0.8745686987329525,
+        "velocity_extent": [
+          -148.56459330143554,
+          83.25358851674628
+        ],
+        "zero_force_crossing_position_at_v_zero": null,
+        "zero_force_crossing_velocity_at_x_zero": 1.4354066985644636
+      },
+      "paper_widths": {
+        "fixed_negative_force_contours": {
+          "-0.01": {
+            "left": 26.813160422670496,
+            "mean": 23.75720461095102,
+            "right": 20.701248799231546,
+            "threshold": -0.01
+          },
+          "-0.02": {
+            "left": 19.372398334934353,
+            "mean": 16.868977964078827,
+            "right": 14.365557593223302,
+            "threshold": -0.02
+          },
+          "-0.03": {
+            "left": 12.085734870317001,
+            "mean": 11.309438040345828,
+            "right": 10.533141210374653,
+            "threshold": -0.03
+          }
+        },
+        "negative_extremum": {
+          "force": -0.0482296650717703,
+          "pixel_count_at_quantized_extremum": 20,
+          "position": 0.4322766570604699,
+          "velocity": 64.95215311004772
+        },
+        "paper_motivated_velocity": 63.89416874801645,
+        "spatial_at_paper_motivated_velocity": {
+          "half_maximum": {
+            "left": 16.714697406340065,
+            "mean": 14.920094314907,
+            "right": 13.125491223473938,
+            "threshold": -0.02411483253588515
+          },
+          "one_over_e": {
+            "left": 20.614613539058478,
+            "mean": 18.187490149023297,
+            "right": 15.760366758988113,
+            "threshold": -0.01774270223448869
+          },
+          "one_over_e2": {
+            "left": 29.21535410260561,
+            "mean": 26.247872880125755,
+            "right": 23.280391657645897,
+            "threshold": -0.006527175382895001
+          }
+        },
+        "spatial_through_actual_extremum": {
+          "half_maximum": {
+            "left": 16.714697406340065,
+            "mean": 14.920094314907,
+            "right": 13.125491223473938,
+            "threshold": -0.02411483253588515
+          },
+          "one_over_e": {
+            "left": 20.614613539058478,
+            "mean": 18.187490149023297,
+            "right": 15.760366758988113,
+            "threshold": -0.01774270223448869
+          },
+          "one_over_e2": {
+            "left": 29.21535410260561,
+            "mean": 26.247872880125755,
+            "right": 23.280391657645897,
+            "threshold": -0.006527175382895001
+          }
+        },
+        "velocity_at_x_zero": {
+          "half_maximum": {
+            "left": 5.409356725146196,
+            "mean": 6.068912812333863,
+            "right": 6.7284688995215305,
+            "threshold": -0.03028708133971291
+          },
+          "one_over_e": {
+            "left": 8.336194389841893,
+            "mean": 8.532793126987347,
+            "right": 8.7293918641328,
+            "threshold": -0.02228398911593521
+          },
+          "one_over_e2": {
+            "left": 20.38806880826253,
+            "mean": 17.067036540130246,
+            "right": 13.746004271997961,
+            "threshold": -0.008197821463040749
+          }
+        },
+        "velocity_through_actual_extremum": {
+          "half_maximum": {
+            "left": 8.153110047846894,
+            "mean": 7.655103668261553,
+            "right": 7.157097288676212,
+            "threshold": -0.02411483253588515
+          },
+          "one_over_e": {
+            "left": 10.30943937024476,
+            "mean": 9.691434059667806,
+            "right": 9.073428749090851,
+            "threshold": -0.01774270223448869
+          },
+          "one_over_e2": {
+            "left": 23.372668495738466,
+            "mean": 18.689855608879604,
+            "right": 14.007042722020742,
+            "threshold": -0.006527175382895001
+          }
+        }
+      },
+      "positive_extremum_displacement_model_minus_paper": {
+        "position": -0.43227665706049834,
+        "velocity": 1.7942583732057358
+      },
+      "surface_metrics": {
+        "after_diagnostic_scale_only": {
+          "maximum_absolute_difference": 0.01679743661151982,
+          "maximum_difference_over_paper_range": 0.1773062753438204,
+          "normalized_rms_difference": 0.024825751882438952,
+          "signed_mean_difference": 0.0003638385463065977,
+          "spatial_cross_correlation": 0.9559768387971596
+        },
+        "contour_overlap": [
+          {
+            "intersection_over_union": 0.7150170648464164,
+            "threshold": -0.03
+          },
+          {
+            "intersection_over_union": 0.7297408473879062,
+            "threshold": -0.02
+          },
+          {
+            "intersection_over_union": 0.6929902395740906,
+            "threshold": -0.01
+          },
+          {
+            "intersection_over_union": 0.7137504683402023,
+            "threshold": 0.01
+          },
+          {
+            "intersection_over_union": 0.7196937473415568,
+            "threshold": 0.02
+          },
+          {
+            "intersection_over_union": 0.6940559440559441,
+            "threshold": 0.03
+          }
+        ],
+        "diagnostic_best_small_axis_offset_pixels": {
+          "dx": 1,
+          "dy": 0,
+          "normalized_rms_difference": 0.02515119953842446
+        },
+        "diagnostic_global_force_scale_factor": 0.9480821614177681,
+        "major_force_sign_agreement_fraction": 1.0,
+        "no_fitted_correction": {
+          "maximum_absolute_difference": 0.019918196282700328,
+          "maximum_difference_over_paper_range": 0.21024762742850353,
+          "normalized_rms_difference": 0.02520840869208074,
+          "signed_mean_difference": 0.00036383854630659784,
+          "spatial_cross_correlation": 0.9559768387971593
+        },
+        "signed_area_difference_data_units": 7.1804971687910655,
+        "signed_area_difference_pixel_weighted": 34.71674641148295,
+        "valid_pixel_count": 95418
+      },
+      "units": {
+        "force": "hbar*k*Gamma",
+        "x": "mm",
+        "y": "m/s"
+      }
+    },
+    "minus_8_gamma": {
+      "accepted_cache_plane_used_exactly": true,
+      "detuning_gamma": -8.0,
+      "model_force_asymmetry_abs_negative_over_positive": 1.0000000000000198,
+      "model_negative_extremum": {
+        "force": -0.06965703436082986,
+        "pixel_count_at_quantized_extremum": 3,
+        "position": 2.842170943040401e-14,
+        "velocity": 86.84210526315778
+      },
+      "model_positive_extremum": {
+        "force": 0.06965703436082848,
+        "pixel_count_at_quantized_extremum": 3,
+        "position": 2.842170943040401e-14,
+        "velocity": -86.84210526315803
+      },
+      "model_support_and_zero_contours": {
+        "fixed_abs_force_threshold": 0.01,
+        "spatial_extent": [
+          -19.07514450867052,
+          19.075144508670547
+        ],
+        "suppressed_force_fraction_abs_below_0p005": 0.8490025810631472,
+        "velocity_extent": [
+          -99.76076555023934,
+          99.76076555023911
+        ],
+        "zero_force_crossing_position_at_v_zero": 4.889375962521651e-13,
+        "zero_force_crossing_velocity_at_x_zero": -7.549516567451064e-15
+      },
+      "model_widths": {
+        "fixed_negative_force_contours": {
+          "-0.01": {
+            "left": 19.204223558153554,
+            "mean": 18.41598649076888,
+            "right": 17.627749423384206,
+            "threshold": -0.01
+          },
+          "-0.02": {
+            "left": 13.31401621704143,
+            "mean": 13.139774330532244,
+            "right": 12.965532444023056,
+            "threshold": -0.02
+          },
+          "-0.03": {
+            "left": 8.224507442186757,
+            "mean": 8.74169487402532,
+            "right": 9.258882305863882,
+            "threshold": -0.03
+          }
+        },
+        "negative_extremum": {
+          "force": -0.06965703436082986,
+          "pixel_count_at_quantized_extremum": 3,
+          "position": 2.842170943040401e-14,
+          "velocity": 86.84210526315778
+        },
+        "paper_motivated_velocity": 85.19222499735525,
+        "spatial_at_paper_motivated_velocity": {
+          "half_maximum": {
+            "left": 6.435376321775058,
+            "mean": 6.558598837560519,
+            "right": 6.681821353345979,
+            "threshold": -0.034340677826289336
+          },
+          "one_over_e": {
+            "left": 10.908046624531487,
+            "mean": 10.620615329875726,
+            "right": 10.333184035219965,
+            "threshold": -0.025266458736367722
+          },
+          "one_over_e2": {
+            "left": 19.63639588217203,
+            "mean": 18.65580410450449,
+            "right": 17.675212326836952,
+            "threshold": -0.009295010720316266
+          }
+        },
+        "spatial_through_actual_extremum": {
+          "half_maximum": {
+            "left": 5.755752379754897,
+            "mean": 6.549633702948318,
+            "right": 7.34351502614174,
+            "threshold": -0.03482851718041493
+          },
+          "one_over_e": {
+            "left": 10.45795811119289,
+            "mean": 10.685988097883694,
+            "right": 10.9140180845745,
+            "threshold": -0.025625390874322047
+          },
+          "one_over_e2": {
+            "left": 19.56486270313592,
+            "mean": 18.766565869039134,
+            "right": 17.96826903494235,
+            "threshold": -0.009427054474645372
+          }
+        },
+        "velocity_at_x_zero": {
+          "half_maximum": {
+            "left": 6.757600647027871,
+            "mean": 8.88308866487975,
+            "right": 11.00857668273163,
+            "threshold": -0.03482851718041493
+          },
+          "one_over_e": {
+            "left": 9.944210741033316,
+            "mean": 11.778086643274868,
+            "right": 13.61196254551642,
+            "threshold": -0.025625390874322047
+          },
+          "one_over_e2": {
+            "left": 12.918660287081337,
+            "mean": 17.973688209438887,
+            "right": 23.028716131796436,
+            "threshold": -0.009427054474645372
+          }
+        },
+        "velocity_through_actual_extremum": {
+          "half_maximum": {
+            "left": 6.757600647027871,
+            "mean": 8.88308866487975,
+            "right": 11.00857668273163,
+            "threshold": -0.03482851718041493
+          },
+          "one_over_e": {
+            "left": 9.944210741033316,
+            "mean": 11.778086643274868,
+            "right": 13.61196254551642,
+            "threshold": -0.025625390874322047
+          },
+          "one_over_e2": {
+            "left": 12.918660287081337,
+            "mean": 17.973688209438887,
+            "right": 23.028716131796436,
+            "threshold": -0.009427054474645372
+          }
+        }
+      },
+      "negative_extremum_displacement_model_minus_paper": {
+        "position": -0.2890173410404486,
+        "velocity": 1.4354066985646057
+      },
+      "paper_digitization_zero_bias_removed": 0.0011483253588516068,
+      "paper_force_asymmetry_abs_negative_over_positive": 1.0374999999999994,
+      "paper_negative_extremum": {
+        "force": -0.047655502392344465,
+        "pixel_count_at_quantized_extremum": 15,
+        "position": 0.28901734104047705,
+        "velocity": 85.40669856459317
+      },
+      "paper_positive_extremum": {
+        "force": 0.04593301435406698,
+        "pixel_count_at_quantized_extremum": 15,
+        "position": 0.28901734104047705,
+        "velocity": -83.97129186602882
+      },
+      "paper_support_and_zero_contours": {
+        "fixed_abs_force_threshold": 0.01,
+        "spatial_extent": [
+          -49.421965317919074,
+          49.42196531791913
+        ],
+        "suppressed_force_fraction_abs_below_0p005": 0.8587512141170799,
+        "velocity_extent": [
+          -148.56459330143554,
+          103.34928229665059
+        ],
+        "zero_force_crossing_position_at_v_zero": 3.1791907514451054,
+        "zero_force_crossing_velocity_at_x_zero": 1.4354066985644636
+      },
+      "paper_widths": {
+        "fixed_negative_force_contours": {
+          "-0.01": {
+            "left": 21.91714836223507,
+            "mean": 21.802745664739895,
+            "right": 21.68834296724472,
+            "threshold": -0.01
+          },
+          "-0.02": {
+            "left": 15.83574181117534,
+            "mean": 15.11319845857419,
+            "right": 14.39065510597304,
+            "threshold": -0.02
+          },
+          "-0.03": {
+            "left": 11.893063583815026,
+            "mean": 10.709296724470134,
+            "right": 9.525529865125241,
+            "threshold": -0.03
+          }
+        },
+        "negative_extremum": {
+          "force": -0.047655502392344465,
+          "pixel_count_at_quantized_extremum": 15,
+          "position": 0.28901734104047705,
+          "velocity": 85.40669856459317
+        },
+        "paper_motivated_velocity": 85.19222499735525,
+        "spatial_at_paper_motivated_velocity": {
+          "half_maximum": {
+            "left": 14.226075786769432,
+            "mean": 13.64804110468851,
+            "right": 13.070006422607587,
+            "threshold": -0.023827751196172232
+          },
+          "one_over_e": {
+            "left": 16.985613768964058,
+            "mean": 16.407579086883135,
+            "right": 15.829544404802213,
+            "threshold": -0.017531479588840014
+          },
+          "one_over_e2": {
+            "left": 24.51352395168794,
+            "mean": 24.487048933312266,
+            "right": 24.460573914936596,
+            "threshold": -0.0064494709140510125
+          }
+        },
+        "spatial_through_actual_extremum": {
+          "half_maximum": {
+            "left": 14.226075786769432,
+            "mean": 13.64804110468851,
+            "right": 13.070006422607587,
+            "threshold": -0.023827751196172232
+          },
+          "one_over_e": {
+            "left": 16.985613768964058,
+            "mean": 16.407579086883135,
+            "right": 15.829544404802213,
+            "threshold": -0.017531479588840014
+          },
+          "one_over_e2": {
+            "left": 24.51352395168794,
+            "mean": 24.487048933312266,
+            "right": 24.460573914936596,
+            "threshold": -0.0064494709140510125
+          }
+        },
+        "velocity_at_x_zero": {
+          "half_maximum": {
+            "left": 6.385448916408677,
+            "mean": 6.143970127235846,
+            "right": 5.902491338063015,
+            "threshold": -0.03028708133971291
+          },
+          "one_over_e": {
+            "left": 8.567651028142024,
+            "mean": 8.686530739779606,
+            "right": 8.805410451417188,
+            "threshold": -0.02228398911593521
+          },
+          "one_over_e2": {
+            "left": 21.16424716321646,
+            "mean": 20.08769213929302,
+            "right": 19.01113711536958,
+            "threshold": -0.008197821463040749
+          }
+        },
+        "velocity_through_actual_extremum": {
+          "half_maximum": {
+            "left": 8.41921236658078,
+            "mean": 8.515826278984164,
+            "right": 8.612440191387549,
+            "threshold": -0.023827751196172232
+          },
+          "one_over_e": {
+            "left": 11.395947625902352,
+            "mean": 11.124080558589789,
+            "right": 10.852213491277226,
+            "threshold": -0.017531479588840014
+          },
+          "one_over_e2": {
+            "left": 23.473829136275924,
+            "mean": 22.397274112352477,
+            "right": 21.32071908842903,
+            "threshold": -0.0064494709140510125
+          }
+        }
+      },
+      "positive_extremum_displacement_model_minus_paper": {
+        "position": -0.2890173410404486,
+        "velocity": -2.8708133971292114
+      },
+      "surface_metrics": {
+        "after_diagnostic_scale_only": {
+          "maximum_absolute_difference": 0.02483888750019985,
+          "maximum_difference_over_paper_range": 0.2654052907741192,
+          "normalized_rms_difference": 0.024982715306198493,
+          "signed_mean_difference": 0.0003281649572491875,
+          "spatial_cross_correlation": 0.9558633035804699
+        },
+        "contour_overlap": [
+          {
+            "intersection_over_union": 0.6227730441518203,
+            "threshold": -0.03
+          },
+          {
+            "intersection_over_union": 0.7221601489757914,
+            "threshold": -0.02
+          },
+          {
+            "intersection_over_union": 0.7990720913633119,
+            "threshold": -0.01
+          },
+          {
+            "intersection_over_union": 0.8062418725617685,
+            "threshold": 0.01
+          },
+          {
+            "intersection_over_union": 0.7421408674890569,
+            "threshold": 0.02
+          },
+          {
+            "intersection_over_union": 0.6214876033057851,
+            "threshold": 0.03
+          }
+        ],
+        "diagnostic_best_small_axis_offset_pixels": {
+          "dx": 1,
+          "dy": -1,
+          "normalized_rms_difference": 0.02716254952330284
+        },
+        "diagnostic_global_force_scale_factor": 0.8742426469992145,
+        "major_force_sign_agreement_fraction": 1.0,
+        "no_fitted_correction": {
+          "maximum_absolute_difference": 0.03303702651626189,
+          "maximum_difference_over_paper_range": 0.3530029929396083,
+          "normalized_rms_difference": 0.02753421279588143,
+          "signed_mean_difference": 0.000328164957249188,
+          "spatial_cross_correlation": 0.9558633035804707
+        },
+        "signed_area_difference_data_units": 6.5141746924267405,
+        "signed_area_difference_pixel_weighted": 31.404401913875546,
+        "valid_pixel_count": 95697
+      },
+      "units": {
+        "force": "hbar*k*Gamma",
+        "x": "mm",
+        "y": "m/s"
+      }
+    }
+  },
+  "figure_3_exact_detunings_gamma": [
+    -8.0,
+    -6.0,
+    -4.0,
+    -2.0
+  ],
+  "fitted_model_parameters": [],
+  "forbidden_fits": [
+    "beam_waist",
+    "magnetic_gradient",
+    "detuning",
+    "Hamiltonian_parameters"
+  ],
+  "gate": "PAPER_FORCE_SHAPE_DISCREPANCY_CONFIRMED",
+  "generated_files": [
+    "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY.md",
+    "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_comparison_metadata.json",
+    "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_comparison.png",
+    "paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_accepted_plane_wave_model_samples.npz"
+  ],
+  "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY",
+  "optimizer_authorized": false,
+  "paper_text_consistency": {
+    "digitized_spatial_one_over_e2_half_widths_mm": [
+      24.487048933312266,
+      26.247872880125755,
+      28.81701404524408,
+      29.470268223254273
+    ],
+    "digitized_velocity_one_over_e2_half_widths_m_s": [
+      22.397274112352477,
+      18.689855608879604,
+      16.161542129674302,
+      13.603186950893253
+    ],
+    "note": "classification includes rendered-pixel and anchor uncertainty; no paper curve was treated as exact",
+    "paper_text_spatial_mm": 24.748737341529164,
+    "paper_text_velocity_m_s": 7.53,
+    "spatial_classification": "CONSISTENT_WITH_DIGITIZED_FIGURE",
+    "velocity_classification": "ROUGH_UNDERSTATEMENT"
+  },
+  "physics_inputs_modified": false,
+  "plane_wave_and_gaussian_comparisons_separate": true,
+  "protected_artifacts_unchanged": true,
+  "protected_hashes_after": {
+    "configs\\provisional_force_field_run_010.yaml": "23935fe573a27928c2f855c1562e8a786092ea7379a40646907911fff3b94eb1",
+    "configs\\provisional_named_trajectory_run_011.yaml": "ff2f904d73ee139cb36af24ab45d90c801f44ea6dc12198bfcd2a5278418c2f5",
+    "configs\\rodriguez_baseline_linear_chirp.yaml": "c428695e839de3172ac17e1d30c424a31733bc32dc1d0e7e72b2fa56c9b524b4",
+    "configs\\rodriguez_chirp_to_3_plus_1_handoff.yaml": "f9930c08e5605faa5ea4fe63fc0bff846bc59e785ea6b6a20a152f4458cfc750",
+    "configs\\rodriguez_gaussian_baseline.yaml": "8498253a5f58d3d7187ac26aa5f52f8d14ccbff19ea741eaccd9b0cfdb1d89a3",
+    "configs\\rodriguez_static_3.yaml": "22b9d4f6ff2e1634aaaad7808289c4a4b39c6b63e65763c881c23901c58e4077",
+    "configs\\rodriguez_static_3_plus_1.yaml": "06ed7c00d1df87d2fb929ec6511dc8158e0248a1fb0c7109ba2c6caca81a6f80",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_metadata.json": "2b87c82f6370137b8dd416ac4977a7be70e3b3d84532cf75d87f59e77269fde0",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k.npz": "db20381ae2028815dcc0f453a945333c697a1a66d9d18184b1d7392186b713ee",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k_diagnostics.png": "5c81a20e537b8d032c626572c842bb4ef2ddcb72d3fe6331d7dbb0cadf911b80",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k_metadata.json": "3009a9f6bbe54e433271d243690e61aba7ece2b723179a5ec35cc9945e84c65b",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k.npz": "753b714ee01ef0c8f784b3f0ea9fd022d7321c3f8fcce466d2a05676fba0ac7c",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k_diagnostics.png": "219196d3dc4cc009b1347c60f77f8a5e24d8294c3ee1f60568f5c62921305bef",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k_metadata.json": "62f6d3dfc8c4b6b5151ae07597223074ade23a29f49259054ff9a96e51d2c8c4",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k.npz": "fd5969786282cb3816c07028424d322ae6c6f7fa3bb244e0b38dca9716ee245c",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k_diagnostics.png": "ef010c4c71a833aabbc08ee9103d1426ce7297a9991035d1c85afe2e54e48694",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k_metadata.json": "ac7aa8b88440783a48f62b1695f4d38848284f0ac9740478cb040a3b91430826",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k.npz": "6267a91b621793218ed2385e8ab2991e9e459616ffc048e46ca3ffab6466be17",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k_diagnostics.png": "7b95f421180a2eec1d2790af2ae4def03d6a99c6b5d5e15e25b7d72f9a659362",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k_metadata.json": "5a3975703be82e1df8c47c92159982f2aea1d4d9b0e4e5ca2fdb4945a805ebd9",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k.npz": "3eb6b6a4933e58683ad93945f362a8585f95a33cf578ca560751c94041bb94ec",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k_diagnostics.png": "63432075d78a715c630ff4407fb65486eef783bad9d688507d24bee23ddb00b2",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k_metadata.json": "a28ea7672197a6ffa54ea03d8819747e78184ad54f85972089b603b40303dd55",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY.md": "938d8a20a6a53861c2bdcb880be6ec6f188a865c23c01fcb5dc34c088e760b93",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY_diagnostics.png": "01d908cf4c604716c095e4637529ed0adc3bac85a4b135de9318d39f04a724c3",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY_metadata.json": "93ad81dfcefeaa948e534f2836ffe1c3f674d180dc980cf2e2121d308365d7dd",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_post_handoff_trap_3_plus_1_run_010.npz": "b8ff2e8ddecd955e4909a9050667e765e1e92997201c36d2a1ede5c118ab09a3",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_post_handoff_trap_3_plus_1_run_010_metadata.json": "eb0814492e8a3166e58a54f444655cb365e87a40a01bec4e2b494e4697182814",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_pre_handoff_chirp_3_run_010.npz": "da385440e60a6387d8fcf9e864baec2cffa4d4c04904cabd089bc54ce1865004",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_pre_handoff_chirp_3_run_010_metadata.json": "4622064509b2e290c9f0cf052111f6031add462e97c0aa7c22653a471abc3ad4",
+    "src\\mgf_mot\\spectroscopy.py": "3b2a339bed6ef1dcf78d27dfbd9980a93f47268061e02e1a0d09e2c2f83ae065"
+  },
+  "protected_hashes_before": {
+    "configs\\provisional_force_field_run_010.yaml": "23935fe573a27928c2f855c1562e8a786092ea7379a40646907911fff3b94eb1",
+    "configs\\provisional_named_trajectory_run_011.yaml": "ff2f904d73ee139cb36af24ab45d90c801f44ea6dc12198bfcd2a5278418c2f5",
+    "configs\\rodriguez_baseline_linear_chirp.yaml": "c428695e839de3172ac17e1d30c424a31733bc32dc1d0e7e72b2fa56c9b524b4",
+    "configs\\rodriguez_chirp_to_3_plus_1_handoff.yaml": "f9930c08e5605faa5ea4fe63fc0bff846bc59e785ea6b6a20a152f4458cfc750",
+    "configs\\rodriguez_gaussian_baseline.yaml": "8498253a5f58d3d7187ac26aa5f52f8d14ccbff19ea741eaccd9b0cfdb1d89a3",
+    "configs\\rodriguez_static_3.yaml": "22b9d4f6ff2e1634aaaad7808289c4a4b39c6b63e65763c881c23901c58e4077",
+    "configs\\rodriguez_static_3_plus_1.yaml": "06ed7c00d1df87d2fb929ec6511dc8158e0248a1fb0c7109ba2c6caca81a6f80",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_metadata.json": "2b87c82f6370137b8dd416ac4977a7be70e3b3d84532cf75d87f59e77269fde0",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k.npz": "db20381ae2028815dcc0f453a945333c697a1a66d9d18184b1d7392186b713ee",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k_diagnostics.png": "5c81a20e537b8d032c626572c842bb4ef2ddcb72d3fe6331d7dbb0cadf911b80",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k_metadata.json": "3009a9f6bbe54e433271d243690e61aba7ece2b723179a5ec35cc9945e84c65b",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k.npz": "753b714ee01ef0c8f784b3f0ea9fd022d7321c3f8fcce466d2a05676fba0ac7c",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k_diagnostics.png": "219196d3dc4cc009b1347c60f77f8a5e24d8294c3ee1f60568f5c62921305bef",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k_metadata.json": "62f6d3dfc8c4b6b5151ae07597223074ade23a29f49259054ff9a96e51d2c8c4",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k.npz": "fd5969786282cb3816c07028424d322ae6c6f7fa3bb244e0b38dca9716ee245c",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k_diagnostics.png": "ef010c4c71a833aabbc08ee9103d1426ce7297a9991035d1c85afe2e54e48694",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k_metadata.json": "ac7aa8b88440783a48f62b1695f4d38848284f0ac9740478cb040a3b91430826",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k.npz": "6267a91b621793218ed2385e8ab2991e9e459616ffc048e46ca3ffab6466be17",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k_diagnostics.png": "7b95f421180a2eec1d2790af2ae4def03d6a99c6b5d5e15e25b7d72f9a659362",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k_metadata.json": "5a3975703be82e1df8c47c92159982f2aea1d4d9b0e4e5ca2fdb4945a805ebd9",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k.npz": "3eb6b6a4933e58683ad93945f362a8585f95a33cf578ca560751c94041bb94ec",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k_diagnostics.png": "63432075d78a715c630ff4407fb65486eef783bad9d688507d24bee23ddb00b2",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k_metadata.json": "a28ea7672197a6ffa54ea03d8819747e78184ad54f85972089b603b40303dd55",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY.md": "938d8a20a6a53861c2bdcb880be6ec6f188a865c23c01fcb5dc34c088e760b93",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY_diagnostics.png": "01d908cf4c604716c095e4637529ed0adc3bac85a4b135de9318d39f04a724c3",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY_metadata.json": "93ad81dfcefeaa948e534f2836ffe1c3f674d180dc980cf2e2121d308365d7dd",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_post_handoff_trap_3_plus_1_run_010.npz": "b8ff2e8ddecd955e4909a9050667e765e1e92997201c36d2a1ede5c118ab09a3",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_post_handoff_trap_3_plus_1_run_010_metadata.json": "eb0814492e8a3166e58a54f444655cb365e87a40a01bec4e2b494e4697182814",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_pre_handoff_chirp_3_run_010.npz": "da385440e60a6387d8fcf9e864baec2cffa4d4c04904cabd089bc54ce1865004",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_pre_handoff_chirp_3_run_010_metadata.json": "4622064509b2e290c9f0cf052111f6031add462e97c0aa7c22653a471abc3ad4",
+    "src\\mgf_mot\\spectroscopy.py": "3b2a339bed6ef1dcf78d27dfbd9980a93f47268061e02e1a0d09e2c2f83ae065"
+  },
+  "replication_valid": false,
+  "source": {
+    "doi": "10.1103/PhysRevA.108.033105",
+    "manuscript_date": "2023-09-20",
+    "paper_title": "Simulations of a frequency-chirped magneto-optical trap of MgF",
+    "publication": "Physical Review A 108, 033105 (2023)",
+    "python": "3.14.4",
+    "rendered_pixel_size": [
+      2550,
+      3301
+    ],
+    "rendering_antialias": true,
+    "rendering_dpi": 300,
+    "rendering_software": "pdfplumber 0.11.10; Pillow 12.2.0",
+    "source_path": "MOT sim papers\\Chirped_MOT_Theory.pdf.pdf",
+    "source_pdf_committed_by_run_011b": false,
+    "source_sha256": "994e2e8c269aa280ebc6234f99ed20854bc0db2efb372665977ba86f1b31d4a7"
+  },
+  "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY comparison metadata",
+  "track": "provisional",
+  "trajectories_integrated": 0,
+  "trajectory": {
+    "distance_by_run011_sample": [
+      {
+        "nearest_paper_velocity_m_s": 58.58974358974357,
+        "nearest_paper_x_mm": -44.39248841189074,
+        "normalized_phase_space_distance": 0.2810447431029891,
+        "run011_sample_index": 1,
+        "velocity_m_s": 56.473510861648,
+        "x_mm": -44.35255127025764
+      },
+      {
+        "nearest_paper_velocity_m_s": 58.333333333333314,
+        "nearest_paper_x_mm": -37.39542368847539,
+        "normalized_phase_space_distance": 0.25365507155525324,
+        "run011_sample_index": 2,
+        "velocity_m_s": 56.46451597497509,
+        "x_mm": -38.70551325448477
+      },
+      {
+        "nearest_paper_velocity_m_s": 57.69230769230767,
+        "nearest_paper_x_mm": -30.748212201230807,
+        "normalized_phase_space_distance": 0.19358749059063882,
+        "run011_sample_index": 3,
+        "velocity_m_s": 56.4117928803887,
+        "x_mm": -33.060865384138346
+      },
+      {
+        "nearest_paper_velocity_m_s": 56.41025641025639,
+        "nearest_paper_x_mm": -25.96688464023032,
+        "normalized_phase_space_distance": 0.06965265730954248,
+        "run011_sample_index": 4,
+        "velocity_m_s": 56.12601065736308,
+        "x_mm": -27.43030271765257
+      },
+      {
+        "nearest_paper_velocity_m_s": 55.256410256410234,
+        "nearest_paper_x_mm": -21.885263551571356,
+        "normalized_phase_space_distance": 0.0021167963523382803,
+        "run011_sample_index": 5,
+        "velocity_m_s": 55.269504556628455,
+        "x_mm": -21.855088265824907
+      },
+      {
+        "nearest_paper_velocity_m_s": 53.46153846153844,
+        "nearest_paper_x_mm": -18.619966680644197,
+        "normalized_phase_space_distance": 0.0915096180210232,
+        "run011_sample_index": 6,
+        "velocity_m_s": 53.632100544498584,
+        "x_mm": -16.403417832951206
+      },
+      {
+        "nearest_paper_velocity_m_s": 51.282051282051256,
+        "nearest_paper_x_mm": -16.404229518229343,
+        "normalized_phase_space_distance": 0.21648442280372027,
+        "run011_sample_index": 7,
+        "velocity_m_s": 51.6606900058523,
+        "x_mm": -11.140139975703681
+      },
+      {
+        "nearest_paper_velocity_m_s": 49.61538461538459,
+        "nearest_paper_x_mm": -15.004816573546265,
+        "normalized_phase_space_distance": 0.3700085417108556,
+        "run011_sample_index": 8,
+        "velocity_m_s": 50.31510587757795,
+        "x_mm": -6.051068624437695
+      },
+      {
+        "nearest_paper_velocity_m_s": 49.743589743589716,
+        "nearest_paper_x_mm": -15.121434318936522,
+        "normalized_phase_space_distance": 0.585943309373154,
+        "run011_sample_index": 9,
+        "velocity_m_s": 50.932194923380074,
+        "x_mm": -1.014406762789865
+      }
+    ],
+    "first_material_divergence": {
+      "normalized_phase_space_distance": 0.2810447431029891,
+      "run011_sample_index": 1,
+      "velocity_m_s": 56.473510861648,
+      "x_mm": -44.35255127025764
+    },
+    "initial_offset_normalized_shape_diagnostic": {
+      "divergence_relative_to_force_encounter": "COINCIDENT_AT_SAVED_SAMPLE_RESOLUTION",
+      "first_material_divergence": {
+        "nearest_paper_velocity_m_s": 57.05128205128203,
+        "nearest_paper_x_mm": -24.917324931718014,
+        "normalized_phase_space_distance": 0.16056164115840896,
+        "offset_normalized_velocity_m_s": 57.83296609508997,
+        "raw_velocity_m_s": 55.269504556628455,
+        "run011_sample_index": 5,
+        "x_mm": -21.855088265824907
+      },
+      "not_a_backend_parameter_fit": true,
+      "purpose": "separate initial ordinate mismatch from subsequent phase-space path-shape mismatch",
+      "run011a_first_useful_force_encounter": {
+        "maximum_envelope": 0.21020821044067284,
+        "mean_envelope": 0.15486797087267198,
+        "minimum_envelope": 0.04418749173667019,
+        "position_m": -0.02185508826582491,
+        "sample_index": 5,
+        "time_s": 0.0005,
+        "velocity_m_s": 55.269504556628455
+      },
+      "velocity_offset_added_to_saved_run011_m_s": 2.5634615384615174
+    },
+    "interpretation": "The published thick path bends toward lower velocity while still at negative x and reaches the origin at near-zero velocity. The saved Run 011 path remains much faster, crosses near the handoff, and enters the positive-force region. Figure 4 supplies no time axis, so impulse and handoff timing cannot be digitized directly.",
+    "material_distance_threshold": 0.15,
+    "normalized_distance_definition": "Euclidean in x/(25 mm), v/(Gamma/k) to thick-black paper pixels",
+    "paper_final_region": {
+      "maximum_x_mm": 2.37122748960185,
+      "minimum_velocity_m_s": 0.25641025641019155
+    },
+    "paper_initial_region": {
+      "median_velocity_at_x_less_than_minus_47_mm_m_s": 59.03846153846152,
+      "minimum_x_mm": -49.52366920906199
+    },
+    "same_x_velocity_rows": [
+      {
+        "nearest_paper_velocity_m_s": 58.58974358974357,
+        "run011_sample_index": 1,
+        "run011_velocity_m_s": 56.473510861648,
+        "velocity_difference_m_s": -2.116232728095568,
+        "x_mm": -44.35255127025764
+      },
+      {
+        "nearest_paper_velocity_m_s": 58.461538461538446,
+        "run011_sample_index": 2,
+        "run011_velocity_m_s": 56.46451597497509,
+        "velocity_difference_m_s": -1.9970224865633526,
+        "x_mm": -38.70551325448477
+      },
+      {
+        "nearest_paper_velocity_m_s": 57.94871794871793,
+        "run011_sample_index": 3,
+        "run011_velocity_m_s": 56.4117928803887,
+        "velocity_difference_m_s": -1.536925068329225,
+        "x_mm": -33.060865384138346
+      },
+      {
+        "nearest_paper_velocity_m_s": 56.794871794871774,
+        "run011_sample_index": 4,
+        "run011_velocity_m_s": 56.12601065736308,
+        "velocity_difference_m_s": -0.6688611375086921,
+        "x_mm": -27.43030271765257
+      },
+      {
+        "nearest_paper_velocity_m_s": 55.256410256410234,
+        "run011_sample_index": 5,
+        "run011_velocity_m_s": 55.269504556628455,
+        "velocity_difference_m_s": 0.013094300218220667,
+        "x_mm": -21.855088265824907
+      },
+      {
+        "nearest_paper_velocity_m_s": 51.794871794871774,
+        "run011_sample_index": 6,
+        "run011_velocity_m_s": 53.632100544498584,
+        "velocity_difference_m_s": 1.83722874962681,
+        "x_mm": -16.403417832951206
+      },
+      {
+        "nearest_paper_velocity_m_s": 44.35897435897433,
+        "run011_sample_index": 7,
+        "run011_velocity_m_s": 51.6606900058523,
+        "velocity_difference_m_s": 7.301715646877973,
+        "x_mm": -11.140139975703681
+      },
+      {
+        "nearest_paper_velocity_m_s": 34.23076923076919,
+        "run011_sample_index": 8,
+        "run011_velocity_m_s": 50.31510587757795,
+        "velocity_difference_m_s": 16.084336646808758,
+        "x_mm": -6.051068624437695
+      },
+      {
+        "nearest_paper_velocity_m_s": 24.61538461538457,
+        "run011_sample_index": 9,
+        "run011_velocity_m_s": 50.932194923380074,
+        "velocity_difference_m_s": 26.316810307995503,
+        "x_mm": -1.014406762789865
+      }
+    ]
+  }
+}

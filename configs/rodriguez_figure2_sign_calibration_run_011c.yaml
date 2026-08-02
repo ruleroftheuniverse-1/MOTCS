@@ -1,0 +1,28 @@
+schema_version: 1
+name: PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY
+source_panel_image: outputs/provisional/paper_digitization/run_011b/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_page_4_300dpi.png
+source_pdf_sha256: 994e2e8c269aa280ebc6234f99ed20854bc0db2efb372665977ba86f1b31d4a7
+pixel_origin: upper_left
+calibration_is_independent_of_run_011b_metadata: true
+panels:
+  mgf_3:
+    axes_bounds_px: [1052, 232, 1415, 781]
+    x_anchors_px_data: [[1052, -7.0], [1234, 0.0], [1415, 7.0]]
+    v_anchors_px_data: [[232, 20.0], [506, 0.0], [781, -20.0]]
+    colorbar_x_px: 1450
+    colorbar_anchors_px_force: [[240, 0.06], [504, 0.0], [768, -0.06]]
+  mgf_3_plus_1:
+    axes_bounds_px: [1691, 232, 2054, 781]
+    x_anchors_px_data: [[1691, -7.0], [1873, 0.0], [2054, 7.0]]
+    v_anchors_px_data: [[232, 20.0], [506, 0.0], [781, -20.0]]
+    colorbar_x_px: 2094
+    colorbar_anchors_px_force: [[232, 0.05], [506, 0.0], [781, -0.05]]
+small_displacement_samples:
+  delta_x_values: [0.5, 1.0, 1.5, 2.0]
+  velocity_window_abs_gamma_over_k: 0.5
+antisymmetry_force_threshold: 0.005
+interpretation_checks:
+  - white_trajectory_overlays
+  - component_4_adds_spatial_confinement_text
+  - low_velocity_trajectories_reach_origin_text
+  - F_minus_x_minus_v_approximately_minus_F_x_v

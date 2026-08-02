@@ -1,0 +1,2304 @@
+{
+  "audit_only": true,
+  "benchmark_ledger": [
+    {
+      "code": "-0.050",
+      "conversion": "mm*1e-3",
+      "location": "Rodriguez Sec. IV/Fig. 4(a); rodriguez_named_trajectory_protocol.yaml",
+      "paper": "-50",
+      "parameter": "initial position",
+      "status": "exact match",
+      "units": "mm -> m"
+    },
+    {
+      "code": "56.475",
+      "conversion": "7.5*7.53 m/s",
+      "location": "Rodriguez Sec. IV/Fig. 4(a); rodriguez_named_trajectory_protocol.yaml",
+      "paper": "7.5 Gamma/k about 57",
+      "parameter": "initial velocity",
+      "status": "derived match",
+      "units": "Gamma/k -> m/s"
+    },
+    {
+      "code": "+x",
+      "conversion": "none",
+      "location": "Rodriguez Sec. II/IV; protocol coordinate_convention",
+      "paper": "+x from x<0 toward center",
+      "parameter": "velocity direction",
+      "status": "exact match",
+      "units": "direction"
+    },
+    {
+      "code": "0",
+      "conversion": "none",
+      "location": "Rodriguez Eq. (6)/Sec. IV; handoff policy",
+      "paper": "0",
+      "parameter": "chirp start",
+      "status": "exact match",
+      "units": "s"
+    },
+    {
+      "code": "-8 to -1",
+      "conversion": "angular detuning/Gamma",
+      "location": "Rodriguez Fig. 4 caption/Sec. IV; handoff YAML",
+      "paper": "-8 to -1",
+      "parameter": "chirp endpoints",
+      "status": "exact match",
+      "units": "Gamma"
+    },
+    {
+      "code": "0.001",
+      "conversion": "ms*1e-3",
+      "location": "Rodriguez Fig. 4 caption/Sec. IV; handoff policy",
+      "paper": "1",
+      "parameter": "chirp duration",
+      "status": "exact match",
+      "units": "ms -> s"
+    },
+    {
+      "code": "same per beam",
+      "conversion": "none",
+      "location": "Rodriguez Sec. IV; handoff policy",
+      "paper": "(1.45,1.45,2.89,0)",
+      "parameter": "pre saturation",
+      "status": "exact match",
+      "units": "I/I_sat"
+    },
+    {
+      "code": "same per beam",
+      "conversion": "none",
+      "location": "Rodriguez Sec. IV; handoff policy",
+      "paper": "(1.45,1.45,2.17,0.72)",
+      "parameter": "post saturation",
+      "status": "exact match",
+      "units": "I/I_sat"
+    },
+    {
+      "code": "+2 parked/off before tau; active at t>=tau",
+      "conversion": "none",
+      "location": "Rodriguez Fig. 1/Sec. IV; handoff policy",
+      "paper": "+2, on at tau",
+      "parameter": "component 4",
+      "status": "exact match",
+      "units": "Gamma, s"
+    },
+    {
+      "code": "0.2",
+      "conversion": "1 mT/cm=0.1 T/m",
+      "location": "Rodriguez Fig. 4 caption; accepted_backend.py",
+      "paper": "2",
+      "parameter": "field gradient",
+      "status": "exact match",
+      "units": "mT/cm -> T/m"
+    },
+    {
+      "code": "same six unit vectors",
+      "conversion": "x',y' lab projections 1/sqrt(2)",
+      "location": "Rodriguez Sec. II; geometry.py",
+      "paper": "+/-x', +/-y', +/-z; 45",
+      "parameter": "beam axes",
+      "status": "exact match",
+      "units": "degrees/unit vectors"
+    },
+    {
+      "code": "0.0175, 0.010, exp(-2r^2/w^2)",
+      "conversion": "mm*1e-3",
+      "location": "Rodriguez Sec. II/Fig. 4; Gaussian baseline YAML",
+      "paper": "17.5, 10, 1/e^2",
+      "parameter": "Gaussian radii",
+      "status": "exact match",
+      "units": "mm -> m"
+    },
+    {
+      "code": "1 metadata only",
+      "conversion": "no inferred allocation",
+      "location": "Rodriguez Fig. 4 caption/Sec. IV; Gaussian baseline YAML",
+      "paper": "1",
+      "parameter": "total-power statement",
+      "status": "ambiguity",
+      "units": "W"
+    },
+    {
+      "code": "reported peak s per physical beam/component",
+      "conversion": "none",
+      "location": "Rodriguez Eq. (4)/notation after Eq. (5); rateeq_backend.py",
+      "paper": "s_lm=I_lm/I_sat for each beam/component",
+      "parameter": "operative saturation",
+      "status": "exact match",
+      "units": "dimensionless"
+    },
+    {
+      "code": "0.020",
+      "conversion": "none",
+      "location": "Rodriguez Fig. 4(a); Run 011 YAML",
+      "paper": "not stated for Fig. 4(a)",
+      "parameter": "simulation duration",
+      "status": "ambiguity",
+      "units": "s"
+    },
+    {
+      "code": "engineering BOUNDED_FINAL_STATE or UNRESOLVED",
+      "conversion": "none",
+      "location": "Rodriguez Fig. 4(a)/Sec. III wording; Run 011 outcome classifier",
+      "paper": "largest initial velocity captured; curve reaches v=0,x=0",
+      "parameter": "capture terminology",
+      "status": "not comparable",
+      "units": "classification"
+    }
+  ],
+  "cached_topology": {
+    "definition": "grid cells with F <= exp(-2)*F_min at the extremum coordinate",
+    "rows": [
+      {
+        "detuning_gamma": -8.0,
+        "extremum_position_m": 0.0,
+        "extremum_velocity_m_s": 87.5,
+        "minimum_normalized_force": -0.07000546058593682,
+        "one_over_e2_spatial_extent_m": [
+          -0.015,
+          0.015
+        ],
+        "one_over_e2_velocity_extent_m_s": [
+          68.75,
+          100.0
+        ],
+        "paper_scaling_velocity_m_s": 85.19222499735525
+      },
+      {
+        "detuning_gamma": -6.0,
+        "extremum_position_m": 0.0,
+        "extremum_velocity_m_s": 62.5,
+        "minimum_normalized_force": -0.06213749943347987,
+        "one_over_e2_spatial_extent_m": [
+          -0.015,
+          0.015
+        ],
+        "one_over_e2_velocity_extent_m_s": [
+          50.0,
+          100.0
+        ],
+        "paper_scaling_velocity_m_s": 63.89416874801645
+      },
+      {
+        "detuning_gamma": -4.0,
+        "extremum_position_m": 0.0,
+        "extremum_velocity_m_s": 43.75,
+        "minimum_normalized_force": -0.07224230315610108,
+        "one_over_e2_spatial_extent_m": [
+          -0.019999999999999997,
+          0.015
+        ],
+        "one_over_e2_velocity_extent_m_s": [
+          31.25,
+          56.25
+        ],
+        "paper_scaling_velocity_m_s": 42.59611249867763
+      },
+      {
+        "detuning_gamma": -2.0,
+        "extremum_position_m": 0.0,
+        "extremum_velocity_m_s": 18.75,
+        "minimum_normalized_force": -0.06599870924355772,
+        "one_over_e2_spatial_extent_m": [
+          -0.019999999999999997,
+          0.020000000000000004
+        ],
+        "one_over_e2_velocity_extent_m_s": [
+          -43.75,
+          31.25
+        ],
+        "paper_scaling_velocity_m_s": 21.298056249338813
+      },
+      {
+        "detuning_gamma": -1.0,
+        "extremum_position_m": 0.0,
+        "extremum_velocity_m_s": 12.5,
+        "minimum_normalized_force": -0.06335924946917199,
+        "one_over_e2_spatial_extent_m": [
+          -0.019999999999999997,
+          0.020000000000000004
+        ],
+        "one_over_e2_velocity_extent_m_s": [
+          -56.25,
+          75.0
+        ],
+        "paper_scaling_velocity_m_s": 10.649028124669407
+      }
+    ]
+  },
+  "candidate_diagnoses": {
+    "demonstrated_causes": [
+      {
+        "candidate": "GAUSSIAN_FORCE_REGION_TOO_NARROW",
+        "evidence": "cached exp(-2) slowing-force half-width is 15-20 mm rather than the paper's rough 25 mm"
+      },
+      {
+        "candidate": "POST_HANDOFF_ACCELERATION_CANCELS_SLOWING",
+        "evidence": "7.5 Gamma/k has negative impulse before tau and larger positive impulse after tau, ending faster than it entered"
+      }
+    ],
+    "likely_contributors": [
+      {
+        "candidate": "PROVISIONAL_HAMILTONIAN_FORCE_SHAPE_DIFFERENCE",
+        "evidence": "the accepted field is about twice the paper's rough peak scale yet spatially narrower; unresolved exact excited-state physics remains the principal model boundary"
+      }
+    ],
+    "ruled_out": [
+      {
+        "candidate": "CHIRP_TIMING_MISMATCH",
+        "evidence": "start, endpoints, duration, and exact handoff agree"
+      },
+      {
+        "candidate": "VELOCITY_SIGN_OR_PROJECTION_MISMATCH",
+        "evidence": "positive lab-x motion and 45-degree Doppler projections agree; cached boat velocities follow sqrt(2)|Delta|/k"
+      },
+      {
+        "candidate": "DETUNING_REFERENCE_MISMATCH",
+        "evidence": "addressed F'=1 carriers have exact policy detuning; retained F'=0 offset is only 0.023923 Gamma"
+      },
+      {
+        "candidate": "SATURATION_CONVENTION_MISMATCH",
+        "evidence": "paper and code both apply s_lm per physical beam and component"
+      },
+      {
+        "candidate": "RABI_RATE_NORMALIZATION_MISMATCH",
+        "evidence": "paper and pylcp pumping-rate formulas agree term by term and numerically"
+      },
+      {
+        "candidate": "FORCE_FIELD_DOMAIN_ONLY",
+        "evidence": "the 7.5 Gamma/k path has already failed to slow before the +60 mm boundary; the boundary records failure rather than causing it"
+      }
+    ],
+    "unresolved": [
+      {
+        "candidate": "COMPONENT_FREQUENCY_MAPPING_MISMATCH",
+        "evidence": "no mismatch found in the implemented common reference, but the exact Rodriguez code is unavailable for direct comparison"
+      },
+      {
+        "candidate": "PAPER_CAPTURE_CRITERION_AMBIGUITY",
+        "evidence": "Fig. 4 calls the thick trajectory captured but does not state its numerical terminal rule or duration"
+      },
+      {
+        "candidate": "INSUFFICIENT_EVIDENCE",
+        "evidence": "the paper force map was visually inspected but not digitized"
+      }
+    ]
+  },
+  "capture_authorized": false,
+  "capture_velocity_authorized": false,
+  "direct_point_audit": [
+    {
+      "absolute_difference": 2.946352667550489e-09,
+      "cached_normalized_force": -1.106612185191237e-06,
+      "component_active": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "component_detunings_gamma": [
+        -8.0,
+        -8.0,
+        -8.0,
+        2.0
+      ],
+      "component_saturations": [
+        1.45,
+        1.45,
+        2.89,
+        0.0
+      ],
+      "direct_normalized_force": -1.1036658325236864e-06,
+      "force_direction": "slowing",
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY",
+      "point": "initial_state",
+      "policy_segment": "chirp_3",
+      "population_solver_health": {
+        "fallback": false,
+        "passed": true,
+        "population_minimum": 6.67653066336469e-07,
+        "population_sum": 1.0000000000000002,
+        "residual_linf": 8.443679698440015e-17
+      },
+      "position_m": -0.05,
+      "sample_index": 0,
+      "time_s": 0.0,
+      "velocity_m_s": 56.475
+    },
+    {
+      "absolute_difference": 5.60735464973507e-05,
+      "cached_normalized_force": -0.0003519686183105437,
+      "component_active": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "component_detunings_gamma": [
+        -5.8999999999999995,
+        -5.8999999999999995,
+        -5.8999999999999995,
+        2.0
+      ],
+      "component_saturations": [
+        1.45,
+        1.45,
+        2.89,
+        0.0
+      ],
+      "direct_normalized_force": -0.000295895071813193,
+      "force_direction": "slowing",
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY",
+      "point": "first_appreciably_illuminated_state",
+      "policy_segment": "chirp_3",
+      "population_solver_health": {
+        "fallback": false,
+        "passed": true,
+        "population_minimum": 0.000203281324465195,
+        "population_sum": 1.0,
+        "residual_linf": 2.5925984449559625e-17
+      },
+      "position_m": -0.03306086538413835,
+      "sample_index": 3,
+      "time_s": 0.00030000000000000003,
+      "velocity_m_s": 56.4117928803887
+    },
+    {
+      "absolute_difference": 4.7837082664756126e-05,
+      "cached_normalized_force": -0.0016510928161537312,
+      "component_active": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "component_detunings_gamma": [
+        -5.199999999999999,
+        -5.199999999999999,
+        -5.199999999999999,
+        2.0
+      ],
+      "component_saturations": [
+        1.45,
+        1.45,
+        2.89,
+        0.0
+      ],
+      "direct_normalized_force": -0.0016032557334889751,
+      "force_direction": "slowing",
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY",
+      "point": "closest_to_slowing_extremum",
+      "policy_segment": "chirp_3",
+      "population_solver_health": {
+        "fallback": false,
+        "passed": true,
+        "population_minimum": 0.0010283674840145698,
+        "population_sum": 1.0,
+        "residual_linf": 2.5478751053409354e-17
+      },
+      "position_m": -0.02743030271765257,
+      "sample_index": 4,
+      "time_s": 0.0004,
+      "velocity_m_s": 56.12601065736308
+    },
+    {
+      "absolute_difference": 0.0005217474202522474,
+      "cached_normalized_force": -0.005895699739777371,
+      "component_active": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "component_detunings_gamma": [
+        -3.799999999999999,
+        -3.799999999999999,
+        -3.799999999999999,
+        2.0
+      ],
+      "component_saturations": [
+        1.45,
+        1.45,
+        2.89,
+        0.0
+      ],
+      "direct_normalized_force": -0.005373952319525124,
+      "force_direction": "slowing",
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY",
+      "point": "strongest_negative_force",
+      "policy_segment": "chirp_3",
+      "population_solver_health": {
+        "fallback": false,
+        "passed": true,
+        "population_minimum": 0.0037745116055801892,
+        "population_sum": 1.0,
+        "residual_linf": 4.3042826247674526e-17
+      },
+      "position_m": -0.016403417832951205,
+      "sample_index": 6,
+      "time_s": 0.0006000000000000001,
+      "velocity_m_s": 53.632100544498584
+    },
+    {
+      "absolute_difference": 0.002347411584694852,
+      "cached_normalized_force": 0.006928442598272152,
+      "component_active": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "component_detunings_gamma": [
+        -1.6999999999999993,
+        -1.6999999999999993,
+        -1.6999999999999993,
+        2.0
+      ],
+      "component_saturations": [
+        1.45,
+        1.45,
+        2.89,
+        0.0
+      ],
+      "direct_normalized_force": 0.0045810310135773,
+      "force_direction": "accelerating",
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY",
+      "point": "immediately_before_handoff",
+      "policy_segment": "chirp_3",
+      "population_solver_health": {
+        "fallback": false,
+        "passed": true,
+        "population_minimum": 0.010574018299440586,
+        "population_sum": 1.0,
+        "residual_linf": 5.0306980803327406e-17
+      },
+      "position_m": -0.001014406762789865,
+      "sample_index": 9,
+      "time_s": 0.0009000000000000002,
+      "velocity_m_s": 50.932194923380074
+    },
+    {
+      "absolute_difference": 0.0005261721705844807,
+      "cached_normalized_force": 0.008173205355981936,
+      "component_active": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "component_detunings_gamma": [
+        -1.0,
+        -1.0,
+        -1.0,
+        2.0
+      ],
+      "component_saturations": [
+        1.45,
+        1.45,
+        2.17,
+        0.72
+      ],
+      "direct_normalized_force": 0.008699377526566417,
+      "force_direction": "accelerating",
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY",
+      "point": "immediately_after_handoff",
+      "policy_segment": "trap_3_plus_1",
+      "population_solver_health": {
+        "fallback": false,
+        "passed": true,
+        "population_minimum": 0.015106090145507836,
+        "population_sum": 1.0,
+        "residual_linf": 7.632783294297951e-17
+      },
+      "position_m": 0.00422066662049102,
+      "sample_index": 10,
+      "time_s": 0.001,
+      "velocity_m_s": 53.85193034432524
+    },
+    {
+      "absolute_difference": 0.0005261721705844807,
+      "cached_normalized_force": 0.008173205355981936,
+      "component_active": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "component_detunings_gamma": [
+        -1.0,
+        -1.0,
+        -1.0,
+        2.0
+      ],
+      "component_saturations": [
+        1.45,
+        1.45,
+        2.17,
+        0.72
+      ],
+      "direct_normalized_force": 0.008699377526566417,
+      "force_direction": "accelerating",
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY",
+      "point": "center_crossing",
+      "policy_segment": "trap_3_plus_1",
+      "population_solver_health": {
+        "fallback": false,
+        "passed": true,
+        "population_minimum": 0.015106090145507836,
+        "population_sum": 1.0,
+        "residual_linf": 7.632783294297951e-17
+      },
+      "position_m": 0.00422066662049102,
+      "sample_index": 10,
+      "time_s": 0.001,
+      "velocity_m_s": 53.85193034432524
+    },
+    {
+      "absolute_difference": 0.0005261721705844807,
+      "cached_normalized_force": 0.008173205355981936,
+      "component_active": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "component_detunings_gamma": [
+        -1.0,
+        -1.0,
+        -1.0,
+        2.0
+      ],
+      "component_saturations": [
+        1.45,
+        1.45,
+        2.17,
+        0.72
+      ],
+      "direct_normalized_force": 0.008699377526566417,
+      "force_direction": "accelerating",
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY",
+      "point": "strongest_positive_force",
+      "policy_segment": "trap_3_plus_1",
+      "population_solver_health": {
+        "fallback": false,
+        "passed": true,
+        "population_minimum": 0.015106090145507836,
+        "population_sum": 1.0,
+        "residual_linf": 7.632783294297951e-17
+      },
+      "position_m": 0.00422066662049102,
+      "sample_index": 10,
+      "time_s": 0.001,
+      "velocity_m_s": 53.85193034432524
+    },
+    {
+      "absolute_difference": 8.824777552808256e-10,
+      "cached_normalized_force": 8.841226218344193e-10,
+      "component_active": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "component_detunings_gamma": [
+        -1.0,
+        -1.0,
+        -1.0,
+        2.0
+      ],
+      "component_saturations": [
+        1.45,
+        1.45,
+        2.17,
+        0.72
+      ],
+      "direct_normalized_force": 1.644866553593738e-12,
+      "force_direction": "accelerating",
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY",
+      "point": "domain_exit",
+      "policy_segment": "trap_3_plus_1",
+      "population_solver_health": {
+        "fallback": false,
+        "passed": true,
+        "population_minimum": 3.9392149152760795e-08,
+        "population_sum": 1.0,
+        "residual_linf": 3.7810957676932767e-17
+      },
+      "position_m": 0.06,
+      "sample_index": 20,
+      "time_s": 0.001978983939304212,
+      "velocity_m_s": 57.37351448585727
+    }
+  ],
+  "exact_replication_valid": false,
+  "exact_track_blocked": true,
+  "force_field_rebuilds_performed": 0,
+  "fresh_direct_rate_equation_solves": 10,
+  "gate": "BASELINE_DISCREPANCY_NARROWED",
+  "gaussian_envelope_audit": {
+    "appreciable_illumination_threshold_mean_envelope": 0.01,
+    "paper_rough_spatial_half_width_m": 0.024748737341529166,
+    "radius_convention": "1/e^2_intensity_radius",
+    "rows": [
+      {
+        "mean": 0.00018998072104554336,
+        "minus_x_prime": 0.00028493048887656935,
+        "minus_y_prime": 0.00028493048887656935,
+        "minus_z": 8.118538349144053e-08,
+        "plus_x_prime": 0.00028493048887656935,
+        "plus_y_prime": 0.00028493048887656935,
+        "plus_z": 8.118538349144053e-08,
+        "position_mm": -50.0
+      },
+      {
+        "mean": 0.0035983964370882647,
+        "minus_x_prime": 0.005383105741918062,
+        "minus_y_prime": 0.005383105741918062,
+        "minus_z": 2.89778274286711e-05,
+        "plus_x_prime": 0.005383105741918062,
+        "plus_y_prime": 0.005383105741918062,
+        "plus_z": 2.89778274286711e-05,
+        "position_mm": -40.0
+      },
+      {
+        "mean": 0.03622088063342203,
+        "minus_x_prime": 0.0529305019327088,
+        "minus_y_prime": 0.0529305019327088,
+        "minus_z": 0.0028016380348484917,
+        "plus_x_prime": 0.0529305019327088,
+        "plus_y_prime": 0.0529305019327088,
+        "plus_z": 0.0028016380348484917,
+        "position_mm": -30.0
+      },
+      {
+        "mean": 0.09224170025296967,
+        "minus_x_prime": 0.12992260830505953,
+        "minus_y_prime": 0.12992260830505953,
+        "minus_z": 0.01687988414878991,
+        "plus_x_prime": 0.12992260830505953,
+        "plus_y_prime": 0.12992260830505953,
+        "plus_z": 0.01687988414878991,
+        "position_mm": -25.0
+      },
+      {
+        "mean": 0.20503543610310335,
+        "minus_x_prime": 0.2708683284704636,
+        "minus_y_prime": 0.2708683284704636,
+        "minus_z": 0.0733696513683829,
+        "plus_x_prime": 0.2708683284704636,
+        "plus_y_prime": 0.2708683284704636,
+        "plus_z": 0.0733696513683829,
+        "position_mm": -20.0
+      },
+      {
+        "mean": 1.0,
+        "minus_x_prime": 1.0,
+        "minus_y_prime": 1.0,
+        "minus_z": 1.0,
+        "plus_x_prime": 1.0,
+        "plus_y_prime": 1.0,
+        "plus_z": 1.0,
+        "position_mm": 0.0
+      }
+    ]
+  },
+  "generated_files": [
+    "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY.md",
+    "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY_metadata.json",
+    "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY_diagnostics.png"
+  ],
+  "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY",
+  "optical_frequency_audit": {
+    "centroid_reference_finding": "The addressed F'=1 transitions receive exactly the policy detuning. The F'=0 transition is shifted by +0.023923 Gamma because the accepted 0.5 MHz splitting is retained. No material common-reference mismatch was found.",
+    "excited_basis_energies_gamma": [
+      -0.017942583732057503,
+      0.005980861244019054,
+      0.005980861244019054,
+      0.005980861244019054
+    ],
+    "excited_reference": "maximum diagonal excited energy (the three F'=1 basis states)",
+    "ground_role_energies_gamma": {
+      "F0": -2.7103828116238966,
+      "F2": 3.4903587503546385,
+      "lower_F1": -7.9606974724882065,
+      "upper_F1": 3.0468936991543187,
+      "upper_F1_F2_mean": 3.2686262247544784,
+      "upper_F1_F2_mean_confinement": 3.2686262247544784
+    },
+    "internal_frequency_convention": "rotating-frame carrier coordinates in units of Gamma; the 834.3 THz optical common offset is not represented",
+    "samples": {
+      "post_handoff": [
+        {
+          "active": true,
+          "addressed_role": "lower_F1",
+          "component_id": 1,
+          "detuning_from_each_ground_role_to_excited_basis_gamma": {
+            "F0": [
+              4.274238105840387,
+              4.25031466086431,
+              4.25031466086431,
+              4.25031466086431
+            ],
+            "F2": [
+              10.474979667818921,
+              10.451056222842846,
+              10.451056222842846,
+              10.451056222842846
+            ],
+            "lower_F1": [
+              -0.9760765550239228,
+              -1.0,
+              -1.0,
+              -1.0
+            ],
+            "upper_F1": [
+              10.031514616618601,
+              10.007591171642526,
+              10.007591171642526,
+              10.007591171642526
+            ],
+            "upper_F1_F2_mean": [
+              10.253247142218761,
+              10.229323697242686,
+              10.229323697242686,
+              10.229323697242686
+            ]
+          },
+          "detuning_gamma": -1.0,
+          "enabled": true,
+          "peak_saturation": 1.45,
+          "polarization": "sigma_plus",
+          "policy_name": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY_post_handoff",
+          "policy_time_s": 0.001,
+          "pylcp_carrier_detuning_gamma": 6.966678333732226,
+          "pylcp_helicity": 1,
+          "reference_transition_energy_gamma": 7.966678333732226
+        },
+        {
+          "active": true,
+          "addressed_role": "F0",
+          "component_id": 2,
+          "detuning_from_each_ground_role_to_excited_basis_gamma": {
+            "F0": [
+              -0.9760765550239237,
+              -1.0,
+              -1.0,
+              -1.0
+            ],
+            "F2": [
+              5.224665006954611,
+              5.2007415619785355,
+              5.2007415619785355,
+              5.2007415619785355
+            ],
+            "lower_F1": [
+              -6.226391215888233,
+              -6.25031466086431,
+              -6.25031466086431,
+              -6.25031466086431
+            ],
+            "upper_F1": [
+              4.781199955754292,
+              4.757276510778215,
+              4.757276510778215,
+              4.757276510778215
+            ],
+            "upper_F1_F2_mean": [
+              5.002932481354451,
+              4.979009036378375,
+              4.979009036378375,
+              4.979009036378375
+            ]
+          },
+          "detuning_gamma": -1.0,
+          "enabled": true,
+          "peak_saturation": 1.45,
+          "polarization": "sigma_minus",
+          "policy_name": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY_post_handoff",
+          "policy_time_s": 0.001,
+          "pylcp_carrier_detuning_gamma": 1.7163636728679155,
+          "pylcp_helicity": -1,
+          "reference_transition_energy_gamma": 2.7163636728679155
+        },
+        {
+          "active": true,
+          "addressed_role": "upper_F1_F2_mean",
+          "component_id": 3,
+          "detuning_from_each_ground_role_to_excited_basis_gamma": {
+            "F0": [
+              -6.955085591402299,
+              -6.979009036378375,
+              -6.979009036378375,
+              -6.979009036378375
+            ],
+            "F2": [
+              -0.754344029423764,
+              -0.7782674743998403,
+              -0.7782674743998403,
+              -0.7782674743998403
+            ],
+            "lower_F1": [
+              -12.205400252266609,
+              -12.229323697242686,
+              -12.229323697242686,
+              -12.229323697242686
+            ],
+            "upper_F1": [
+              -1.1978090806240838,
+              -1.22173252560016,
+              -1.22173252560016,
+              -1.22173252560016
+            ],
+            "upper_F1_F2_mean": [
+              -0.9760765550239241,
+              -1.0000000000000004,
+              -1.0000000000000004,
+              -1.0000000000000004
+            ]
+          },
+          "detuning_gamma": -1.0,
+          "enabled": true,
+          "peak_saturation": 2.17,
+          "polarization": "sigma_minus",
+          "policy_name": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY_post_handoff",
+          "policy_time_s": 0.001,
+          "pylcp_carrier_detuning_gamma": -4.26264536351046,
+          "pylcp_helicity": -1,
+          "reference_transition_energy_gamma": -3.2626453635104595
+        },
+        {
+          "active": true,
+          "addressed_role": "upper_F1_F2_mean_confinement",
+          "component_id": 4,
+          "detuning_from_each_ground_role_to_excited_basis_gamma": {
+            "F0": [
+              -3.9550855914022987,
+              -3.979009036378375,
+              -3.979009036378375,
+              -3.979009036378375
+            ],
+            "F2": [
+              2.2456559705762364,
+              2.22173252560016,
+              2.22173252560016,
+              2.22173252560016
+            ],
+            "lower_F1": [
+              -9.205400252266609,
+              -9.229323697242686,
+              -9.229323697242686,
+              -9.229323697242686
+            ],
+            "upper_F1": [
+              1.8021909193759167,
+              1.7782674743998403,
+              1.7782674743998403,
+              1.7782674743998403
+            ],
+            "upper_F1_F2_mean": [
+              2.0239234449760763,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          "detuning_gamma": 2.0,
+          "enabled": true,
+          "peak_saturation": 0.72,
+          "polarization": "sigma_plus",
+          "policy_name": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY_post_handoff",
+          "policy_time_s": 0.001,
+          "pylcp_carrier_detuning_gamma": -1.2626453635104595,
+          "pylcp_helicity": 1,
+          "reference_transition_energy_gamma": -3.2626453635104595
+        }
+      ],
+      "pre_handoff": [
+        {
+          "active": true,
+          "addressed_role": "lower_F1",
+          "component_id": 1,
+          "detuning_from_each_ground_role_to_excited_basis_gamma": {
+            "F0": [
+              -2.7257618941596133,
+              -2.7496853391356897,
+              -2.7496853391356897,
+              -2.7496853391356897
+            ],
+            "F2": [
+              3.4749796678189218,
+              3.4510562228428454,
+              3.4510562228428454,
+              3.4510562228428454
+            ],
+            "lower_F1": [
+              -7.976076555023923,
+              -8.0,
+              -8.0,
+              -8.0
+            ],
+            "upper_F1": [
+              3.031514616618602,
+              3.0075911716425257,
+              3.0075911716425257,
+              3.0075911716425257
+            ],
+            "upper_F1_F2_mean": [
+              3.2532471422187617,
+              3.2293236972426853,
+              3.2293236972426853,
+              3.2293236972426853
+            ]
+          },
+          "detuning_gamma": -8.0,
+          "enabled": true,
+          "peak_saturation": 1.45,
+          "polarization": "sigma_plus",
+          "policy_name": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY_pre_handoff",
+          "policy_time_s": 0.0,
+          "pylcp_carrier_detuning_gamma": -0.03332166626777422,
+          "pylcp_helicity": 1,
+          "reference_transition_energy_gamma": 7.966678333732226
+        },
+        {
+          "active": true,
+          "addressed_role": "F0",
+          "component_id": 2,
+          "detuning_from_each_ground_role_to_excited_basis_gamma": {
+            "F0": [
+              -7.976076555023924,
+              -8.0,
+              -8.0,
+              -8.0
+            ],
+            "F2": [
+              -1.7753349930453886,
+              -1.799258438021465,
+              -1.799258438021465,
+              -1.799258438021465
+            ],
+            "lower_F1": [
+              -13.226391215888233,
+              -13.25031466086431,
+              -13.25031466086431,
+              -13.25031466086431
+            ],
+            "upper_F1": [
+              -2.2188000442457083,
+              -2.2427234892217847,
+              -2.2427234892217847,
+              -2.2427234892217847
+            ],
+            "upper_F1_F2_mean": [
+              -1.9970675186455487,
+              -2.020990963621625,
+              -2.020990963621625,
+              -2.020990963621625
+            ]
+          },
+          "detuning_gamma": -8.0,
+          "enabled": true,
+          "peak_saturation": 1.45,
+          "polarization": "sigma_minus",
+          "policy_name": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY_pre_handoff",
+          "policy_time_s": 0.0,
+          "pylcp_carrier_detuning_gamma": -5.2836363271320845,
+          "pylcp_helicity": -1,
+          "reference_transition_energy_gamma": 2.7163636728679155
+        },
+        {
+          "active": true,
+          "addressed_role": "upper_F1_F2_mean",
+          "component_id": 3,
+          "detuning_from_each_ground_role_to_excited_basis_gamma": {
+            "F0": [
+              -13.955085591402298,
+              -13.979009036378375,
+              -13.979009036378375,
+              -13.979009036378375
+            ],
+            "F2": [
+              -7.754344029423764,
+              -7.77826747439984,
+              -7.77826747439984,
+              -7.77826747439984
+            ],
+            "lower_F1": [
+              -19.205400252266607,
+              -19.229323697242684,
+              -19.229323697242684,
+              -19.229323697242684
+            ],
+            "upper_F1": [
+              -8.197809080624083,
+              -8.22173252560016,
+              -8.22173252560016,
+              -8.22173252560016
+            ],
+            "upper_F1_F2_mean": [
+              -7.9760765550239245,
+              -8.0,
+              -8.0,
+              -8.0
+            ]
+          },
+          "detuning_gamma": -8.0,
+          "enabled": true,
+          "peak_saturation": 2.89,
+          "polarization": "sigma_minus",
+          "policy_name": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY_pre_handoff",
+          "policy_time_s": 0.0,
+          "pylcp_carrier_detuning_gamma": -11.26264536351046,
+          "pylcp_helicity": -1,
+          "reference_transition_energy_gamma": -3.2626453635104595
+        },
+        {
+          "active": false,
+          "addressed_role": "upper_F1_F2_mean_confinement",
+          "component_id": 4,
+          "detuning_from_each_ground_role_to_excited_basis_gamma": {
+            "F0": [
+              -3.9550855914022987,
+              -3.979009036378375,
+              -3.979009036378375,
+              -3.979009036378375
+            ],
+            "F2": [
+              2.2456559705762364,
+              2.22173252560016,
+              2.22173252560016,
+              2.22173252560016
+            ],
+            "lower_F1": [
+              -9.205400252266609,
+              -9.229323697242686,
+              -9.229323697242686,
+              -9.229323697242686
+            ],
+            "upper_F1": [
+              1.8021909193759167,
+              1.7782674743998403,
+              1.7782674743998403,
+              1.7782674743998403
+            ],
+            "upper_F1_F2_mean": [
+              2.0239234449760763,
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          "detuning_gamma": 2.0,
+          "enabled": false,
+          "peak_saturation": 0.0,
+          "polarization": "sigma_plus",
+          "policy_name": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY_pre_handoff",
+          "policy_time_s": 0.0,
+          "pylcp_carrier_detuning_gamma": -1.2626453635104595,
+          "pylcp_helicity": 1,
+          "reference_transition_energy_gamma": -3.2626453635104595
+        }
+      ]
+    }
+  },
+  "optimizer_authorized": false,
+  "paper_expectations": [
+    {
+      "classification": "CLOSE",
+      "evidence": "cached extrema track the guide within about one 6.25 m/s velocity cell",
+      "feature": "slowing extrema near sqrt(2)*abs(Delta)/k"
+    },
+    {
+      "classification": "MATERIALLY_DIFFERENT",
+      "evidence": "sampled cached negative extrema reach 0.072",
+      "feature": "useful force scale about 0.03 hbar*k*Gamma"
+    },
+    {
+      "classification": "CLOSE",
+      "evidence": "cached exp(-2) spans are grid-limited but of order 6-13 m/s",
+      "feature": "velocity width about Gamma/k"
+    },
+    {
+      "classification": "MATERIALLY_DIFFERENT",
+      "evidence": "cached exp(-2) negative-force half-extents are mostly 15-20 mm",
+      "feature": "spatial width about sqrt(2)wxy about 25 mm"
+    },
+    {
+      "classification": "MATCHES",
+      "evidence": "accepted detuning slices move monotonically from about 88 to 13 m/s",
+      "feature": "smooth movement during chirp"
+    },
+    {
+      "classification": "MATERIALLY_DIFFERENT",
+      "evidence": "saved path exits x=+60 mm at positive speed",
+      "feature": "nominal capture near 7.5 Gamma/k"
+    }
+  ],
+  "protected_artifacts_unchanged": true,
+  "protected_hashes_after": {
+    "configs\\provisional_force_field_run_010.yaml": "23935fe573a27928c2f855c1562e8a786092ea7379a40646907911fff3b94eb1",
+    "configs\\provisional_named_trajectory_run_011.yaml": "ff2f904d73ee139cb36af24ab45d90c801f44ea6dc12198bfcd2a5278418c2f5",
+    "configs\\rodriguez_baseline_linear_chirp.yaml": "c428695e839de3172ac17e1d30c424a31733bc32dc1d0e7e72b2fa56c9b524b4",
+    "configs\\rodriguez_chirp_to_3_plus_1_handoff.yaml": "f9930c08e5605faa5ea4fe63fc0bff846bc59e785ea6b6a20a152f4458cfc750",
+    "configs\\rodriguez_gaussian_baseline.yaml": "8498253a5f58d3d7187ac26aa5f52f8d14ccbff19ea741eaccd9b0cfdb1d89a3",
+    "configs\\rodriguez_named_trajectory_protocol.yaml": "580db303fe2774ddda093258773da9e262c446deab50ced08a4164ff1338104a",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_combined_comparison.png": "fd593020f78105828a626a54b8fa4305ce4f970bd8377e02db8f02e134d73436",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_metadata.json": "2b87c82f6370137b8dd416ac4977a7be70e3b3d84532cf75d87f59e77269fde0",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_pathwise_interpolation_validation.json": "2150d552dcfa1ddb1c56f824940fd5df7a479fb15f435bec5f45c540d4ced8c2",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k.npz": "db20381ae2028815dcc0f453a945333c697a1a66d9d18184b1d7392186b713ee",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k_diagnostics.png": "5c81a20e537b8d032c626572c842bb4ef2ddcb72d3fe6331d7dbb0cadf911b80",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k_metadata.json": "3009a9f6bbe54e433271d243690e61aba7ece2b723179a5ec35cc9945e84c65b",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k.npz": "753b714ee01ef0c8f784b3f0ea9fd022d7321c3f8fcce466d2a05676fba0ac7c",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k_diagnostics.png": "219196d3dc4cc009b1347c60f77f8a5e24d8294c3ee1f60568f5c62921305bef",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k_metadata.json": "62f6d3dfc8c4b6b5151ae07597223074ade23a29f49259054ff9a96e51d2c8c4",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k.npz": "fd5969786282cb3816c07028424d322ae6c6f7fa3bb244e0b38dca9716ee245c",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k_diagnostics.png": "ef010c4c71a833aabbc08ee9103d1426ce7297a9991035d1c85afe2e54e48694",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k_metadata.json": "ac7aa8b88440783a48f62b1695f4d38848284f0ac9740478cb040a3b91430826",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k.npz": "6267a91b621793218ed2385e8ab2991e9e459616ffc048e46ca3ffab6466be17",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k_diagnostics.png": "7b95f421180a2eec1d2790af2ae4def03d6a99c6b5d5e15e25b7d72f9a659362",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k_metadata.json": "5a3975703be82e1df8c47c92159982f2aea1d4d9b0e4e5ca2fdb4945a805ebd9",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k.npz": "3eb6b6a4933e58683ad93945f362a8585f95a33cf578ca560751c94041bb94ec",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k_diagnostics.png": "63432075d78a715c630ff4407fb65486eef783bad9d688507d24bee23ddb00b2",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k_metadata.json": "a28ea7672197a6ffa54ea03d8819747e78184ad54f85972089b603b40303dd55",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_run_011.md": "a6067ad266844faafecb3679fb8d5cf6106609a815205f8901e9c243ebf84a85",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_post_handoff_trap_3_plus_1_run_010.npz": "b8ff2e8ddecd955e4909a9050667e765e1e92997201c36d2a1ede5c118ab09a3",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_post_handoff_trap_3_plus_1_run_010_metadata.json": "eb0814492e8a3166e58a54f444655cb365e87a40a01bec4e2b494e4697182814",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_pre_handoff_chirp_3_run_010.npz": "da385440e60a6387d8fcf9e864baec2cffa4d4c04904cabd089bc54ce1865004",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_pre_handoff_chirp_3_run_010_metadata.json": "4622064509b2e290c9f0cf052111f6031add462e97c0aa7c22653a471abc3ad4",
+    "src\\mgf_mot\\spectroscopy.py": "3b2a339bed6ef1dcf78d27dfbd9980a93f47268061e02e1a0d09e2c2f83ae065"
+  },
+  "protected_hashes_before": {
+    "configs\\provisional_force_field_run_010.yaml": "23935fe573a27928c2f855c1562e8a786092ea7379a40646907911fff3b94eb1",
+    "configs\\provisional_named_trajectory_run_011.yaml": "ff2f904d73ee139cb36af24ab45d90c801f44ea6dc12198bfcd2a5278418c2f5",
+    "configs\\rodriguez_baseline_linear_chirp.yaml": "c428695e839de3172ac17e1d30c424a31733bc32dc1d0e7e72b2fa56c9b524b4",
+    "configs\\rodriguez_chirp_to_3_plus_1_handoff.yaml": "f9930c08e5605faa5ea4fe63fc0bff846bc59e785ea6b6a20a152f4458cfc750",
+    "configs\\rodriguez_gaussian_baseline.yaml": "8498253a5f58d3d7187ac26aa5f52f8d14ccbff19ea741eaccd9b0cfdb1d89a3",
+    "configs\\rodriguez_named_trajectory_protocol.yaml": "580db303fe2774ddda093258773da9e262c446deab50ced08a4164ff1338104a",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_combined_comparison.png": "fd593020f78105828a626a54b8fa4305ce4f970bd8377e02db8f02e134d73436",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_metadata.json": "2b87c82f6370137b8dd416ac4977a7be70e3b3d84532cf75d87f59e77269fde0",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_pathwise_interpolation_validation.json": "2150d552dcfa1ddb1c56f824940fd5df7a479fb15f435bec5f45c540d4ced8c2",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k.npz": "db20381ae2028815dcc0f453a945333c697a1a66d9d18184b1d7392186b713ee",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k_diagnostics.png": "5c81a20e537b8d032c626572c842bb4ef2ddcb72d3fe6331d7dbb0cadf911b80",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k_metadata.json": "3009a9f6bbe54e433271d243690e61aba7ece2b723179a5ec35cc9945e84c65b",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k.npz": "753b714ee01ef0c8f784b3f0ea9fd022d7321c3f8fcce466d2a05676fba0ac7c",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k_diagnostics.png": "219196d3dc4cc009b1347c60f77f8a5e24d8294c3ee1f60568f5c62921305bef",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k_metadata.json": "62f6d3dfc8c4b6b5151ae07597223074ade23a29f49259054ff9a96e51d2c8c4",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k.npz": "fd5969786282cb3816c07028424d322ae6c6f7fa3bb244e0b38dca9716ee245c",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k_diagnostics.png": "ef010c4c71a833aabbc08ee9103d1426ce7297a9991035d1c85afe2e54e48694",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k_metadata.json": "ac7aa8b88440783a48f62b1695f4d38848284f0ac9740478cb040a3b91430826",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k.npz": "6267a91b621793218ed2385e8ab2991e9e459616ffc048e46ca3ffab6466be17",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k_diagnostics.png": "7b95f421180a2eec1d2790af2ae4def03d6a99c6b5d5e15e25b7d72f9a659362",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k_metadata.json": "5a3975703be82e1df8c47c92159982f2aea1d4d9b0e4e5ca2fdb4945a805ebd9",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k.npz": "3eb6b6a4933e58683ad93945f362a8585f95a33cf578ca560751c94041bb94ec",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k_diagnostics.png": "63432075d78a715c630ff4407fb65486eef783bad9d688507d24bee23ddb00b2",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k_metadata.json": "a28ea7672197a6ffa54ea03d8819747e78184ad54f85972089b603b40303dd55",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_run_011.md": "a6067ad266844faafecb3679fb8d5cf6106609a815205f8901e9c243ebf84a85",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_post_handoff_trap_3_plus_1_run_010.npz": "b8ff2e8ddecd955e4909a9050667e765e1e92997201c36d2a1ede5c118ab09a3",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_post_handoff_trap_3_plus_1_run_010_metadata.json": "eb0814492e8a3166e58a54f444655cb365e87a40a01bec4e2b494e4697182814",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_pre_handoff_chirp_3_run_010.npz": "da385440e60a6387d8fcf9e864baec2cffa4d4c04904cabd089bc54ce1865004",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_pre_handoff_chirp_3_run_010_metadata.json": "4622064509b2e290c9f0cf052111f6031add462e97c0aa7c22653a471abc3ad4",
+    "src\\mgf_mot\\spectroscopy.py": "3b2a339bed6ef1dcf78d27dfbd9980a93f47268061e02e1a0d09e2c2f83ae065"
+  },
+  "rate_convention_audit": {
+    "absolute_difference": 0.0,
+    "dipole_normalization_per_excited_state": [
+      0.999999881248747,
+      0.999999910512718,
+      0.9999999169172589,
+      0.999999910512718
+    ],
+    "effective_polarized_line_strength": 0.10065960405292179,
+    "excited_basis_index": 1,
+    "factor_findings": {
+      "line_strength_applied_once": true,
+      "linewidth": "MATCHES",
+      "rabi_factor_of_two": "MATCHES",
+      "saturation_applied_per_physical_beam_and_component": true,
+      "six_beam_multiplier": "none; six physical beams are summed explicitly",
+      "total_power_metadata_used_in_calculation": false
+    },
+    "ground_basis_index": 0,
+    "linewidth_convention": "Gamma is angular decay rate; normalized pylcp gamma=1; detunings are angular/Gamma",
+    "lorentzian_denominator": 5.0,
+    "paper_definition": "s_lm=I_lm/I_sat; Omega/Gamma=(d.epsilon)*sqrt(2s)/2",
+    "paper_omega_squared_over_gamma_squared": 0.0729782129383683,
+    "paper_rate_over_gamma": 0.01459564258767366,
+    "population_solver_health": {
+      "fallback": false,
+      "population_minimum": 0.022731241188824577,
+      "population_sum": 1.0,
+      "residual_linf": 1.5135462327897642e-16
+    },
+    "pylcp_definition": "R/Gamma=s*|d.epsilon|^2/[2*(1+4 detuning^2)]",
+    "pylcp_rate_over_gamma": 0.01459564258767366,
+    "saturation_per_physical_beam_component": 1.45,
+    "selected_point": "beam center, zero field, zero velocity, t=tau, +x' beam, component 1",
+    "transition_detuning_gamma": -1.0
+  },
+  "replication_valid": false,
+  "thresholds": {
+    "appreciable_illumination_mean_envelope": 0.01,
+    "useful_force_fraction_of_instantaneous_cached_negative_extremum": 0.05
+  },
+  "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY metadata",
+  "track": "provisional",
+  "trajectories": {
+    "v_2_gamma_over_k": {
+      "arrival_classification": "near_slowing_feature_in_velocity_but_spatially_offset",
+      "closest_to_slowing_extremum": {
+        "detuning_gamma": -1.6999999999999993,
+        "extremum_normalized_force": -0.06362844596063714,
+        "extremum_position_m": 0.0,
+        "extremum_velocity_m_s": 18.75,
+        "paper_boat_velocity_m_s": 18.103347811937983,
+        "phase_space_distance": 1.5553390138605043,
+        "sample_index": 9,
+        "time_s": 0.0009000000000000002,
+        "trajectory_normalized_force": -0.00023846750715966712,
+        "trajectory_position_m": -0.03645271215100285,
+        "trajectory_velocity_m_s": 14.987940137625786
+      },
+      "final_or_termination": {
+        "position_m": -0.002652145326549395,
+        "time_s": 0.02,
+        "velocity_m_s": 0.24627673624049903
+      },
+      "first_appreciable_illumination": {
+        "mean_envelope": 0.012438671520468831,
+        "position_m": -0.03495920551428185,
+        "sample_index": 10,
+        "time_s": 0.001,
+        "velocity_m_s": 14.869447649479843
+      },
+      "first_center_crossing": null,
+      "gaussian_timing_events": {
+        "center_crossing": null,
+        "closest_to_slowing_extremum": {
+          "maximum_envelope": 0.013050360720098981,
+          "mean_envelope": 0.008757011118374222,
+          "minimum_envelope": 0.00017031191492470238,
+          "position_m": -0.03645271215100285,
+          "sample_index": 9,
+          "time_s": 0.0009000000000000002,
+          "velocity_m_s": 14.987940137625786
+        },
+        "first_useful_force_encounter": null,
+        "handoff": {
+          "maximum_envelope": 0.018487120469084035,
+          "mean_envelope": 0.012438671520468831,
+          "minimum_envelope": 0.00034177362323842503,
+          "position_m": -0.03495920551428185,
+          "sample_index": 10,
+          "time_s": 0.001,
+          "velocity_m_s": 14.869447649479843
+        },
+        "last_appreciable_illumination": {
+          "maximum_envelope": 0.9772939965428821,
+          "mean_envelope": 0.9698971829215077,
+          "minimum_envelope": 0.9551035556787588,
+          "position_m": -0.002652145326549395,
+          "sample_index": 201,
+          "time_s": 0.02,
+          "velocity_m_s": 0.24627673624049903
+        }
+      },
+      "handoff": {
+        "normalized_force": -0.00031232914843011756,
+        "position_m": -0.03495920551428185,
+        "sample_index": 10,
+        "time_s": 0.001,
+        "velocity_m_s": 14.869447649479843
+      },
+      "impulse_budget": {
+        "cumulative_longitudinal_impulse_n_s": -1.0573397121070955e-24,
+        "final_momentum_kg_m_s": 1.7578171858539166e-26,
+        "impulse_after_tau_n_s": -1.0437389067016632e-24,
+        "impulse_before_tau_n_s": -1.3600805405431949e-26,
+        "impulse_while_appreciably_illuminated_endpoint_trapezoid_n_s": -1.0443001574107246e-24,
+        "initial_momentum_kg_m_s": 1.0749178839656342e-24,
+        "negative_impulse_endpoint_trapezoid_n_s": -1.0565918786041144e-24,
+        "negative_normalized_force_time_s": -4.362970753476996e-06,
+        "negative_to_required_stopping_impulse_ratio": 0.9829512508491247,
+        "net_impulse_endpoint_trapezoid_n_s": -1.0565900960670964e-24,
+        "positive_impulse_endpoint_trapezoid_n_s": 1.782537018072494e-30,
+        "positive_normalized_force_time_s": 7.360606336587551e-12,
+        "required_stopping_impulse_magnitude_n_s": 1.0749178839656342e-24,
+        "signed_decomposition_note": "Negative/positive and illuminated terms are trapezoids over saved endpoint samples; the cumulative longitudinal value is the Run 011 RK4-weighted value."
+      },
+      "initial": {
+        "position_m": -0.05,
+        "time_s": 0.0,
+        "velocity_m_s": 15.06
+      },
+      "last_appreciable_illumination": {
+        "mean_envelope": 0.9698971829215077,
+        "position_m": -0.002652145326549395,
+        "sample_index": 201,
+        "time_s": 0.02,
+        "velocity_m_s": 0.24627673624049903
+      },
+      "name": "v_2_gamma_over_k",
+      "peak_negative_force": {
+        "force_n": -8.171434702773538e-22,
+        "normalized_force": -0.0033742196342875725,
+        "position_m": -0.023408014093220547,
+        "sample_index": 19,
+        "time_s": 0.0019000000000000004,
+        "velocity_m_s": 8.923160585781613
+      },
+      "peak_positive_force": {
+        "force_n": 1.782537018072494e-26,
+        "normalized_force": 7.360606336587549e-08,
+        "position_m": -0.04698800374546493,
+        "sample_index": 2,
+        "time_s": 0.0002,
+        "velocity_m_s": 15.059983089922687
+      },
+      "pre_handoff_slowing_extrema": [
+        {
+          "normalized_force": -0.07000546058593682,
+          "paper_boat_velocity_m_s": 85.19222499735525,
+          "position_m": 0.0,
+          "sample_index": 0,
+          "time_s": 0.0,
+          "velocity_m_s": 87.5
+        },
+        {
+          "normalized_force": -0.06601867027327593,
+          "paper_boat_velocity_m_s": 77.73790531008667,
+          "position_m": 0.0,
+          "sample_index": 1,
+          "time_s": 0.0001,
+          "velocity_m_s": 75.0
+        },
+        {
+          "normalized_force": -0.06958314755564464,
+          "paper_boat_velocity_m_s": 70.28358562281808,
+          "position_m": 0.0,
+          "sample_index": 2,
+          "time_s": 0.0002,
+          "velocity_m_s": 68.75
+        },
+        {
+          "normalized_force": -0.05739332734181955,
+          "paper_boat_velocity_m_s": 62.82926593554949,
+          "position_m": 0.0,
+          "sample_index": 3,
+          "time_s": 0.00030000000000000003,
+          "velocity_m_s": 62.5
+        },
+        {
+          "normalized_force": -0.05283037870837336,
+          "paper_boat_velocity_m_s": 55.37494624828091,
+          "position_m": 0.0,
+          "sample_index": 4,
+          "time_s": 0.0004,
+          "velocity_m_s": 56.25
+        },
+        {
+          "normalized_force": -0.06667538926105177,
+          "paper_boat_velocity_m_s": 47.920626561012334,
+          "position_m": 0.0,
+          "sample_index": 5,
+          "time_s": 0.0005,
+          "velocity_m_s": 50.0
+        },
+        {
+          "normalized_force": -0.05913973552828672,
+          "paper_boat_velocity_m_s": 40.46630687374374,
+          "position_m": 0.0,
+          "sample_index": 6,
+          "time_s": 0.0006000000000000001,
+          "velocity_m_s": 43.75
+        },
+        {
+          "normalized_force": -0.04561636462537329,
+          "paper_boat_velocity_m_s": 33.01198718647516,
+          "position_m": 0.0,
+          "sample_index": 7,
+          "time_s": 0.0007000000000000001,
+          "velocity_m_s": 31.25
+        },
+        {
+          "normalized_force": -0.058731243340464805,
+          "paper_boat_velocity_m_s": 25.557667499206563,
+          "position_m": 0.0,
+          "sample_index": 8,
+          "time_s": 0.0008000000000000001,
+          "velocity_m_s": 25.0
+        },
+        {
+          "normalized_force": -0.06362844596063714,
+          "paper_boat_velocity_m_s": 18.103347811937983,
+          "position_m": 0.0,
+          "sample_index": 9,
+          "time_s": 0.0009000000000000002,
+          "velocity_m_s": 18.75
+        }
+      ],
+      "sample_count": 202,
+      "useful_force_definition": "F <= -0.05*abs(F_min(detuning)) on the cached pre-handoff field",
+      "useful_force_time_s": 0.0
+    },
+    "v_4_gamma_over_k": {
+      "arrival_classification": "near_slowing_feature_in_velocity_but_spatially_offset",
+      "closest_to_slowing_extremum": {
+        "detuning_gamma": -3.0999999999999996,
+        "extremum_normalized_force": -0.04561636462537329,
+        "extremum_position_m": 0.0,
+        "extremum_velocity_m_s": 31.25,
+        "paper_boat_velocity_m_s": 33.01198718647516,
+        "phase_space_distance": 1.1848291698902276,
+        "sample_index": 7,
+        "time_s": 0.0007000000000000001,
+        "trajectory_normalized_force": -0.0012618846658988797,
+        "trajectory_position_m": -0.028939345699283373,
+        "trajectory_velocity_m_s": 29.811464065802692
+      },
+      "final_or_termination": {
+        "position_m": -0.0014292503682993654,
+        "time_s": 0.02,
+        "velocity_m_s": 0.12305372732435226
+      },
+      "first_appreciable_illumination": {
+        "mean_envelope": 0.012487787553885063,
+        "position_m": -0.03494209681884357,
+        "sample_index": 5,
+        "time_s": 0.0005,
+        "velocity_m_s": 30.09828809615922
+      },
+      "first_center_crossing": null,
+      "gaussian_timing_events": {
+        "center_crossing": null,
+        "closest_to_slowing_extremum": {
+          "maximum_envelope": 0.064916900554749,
+          "mean_envelope": 0.04468266836237772,
+          "minimum_envelope": 0.00421420397763517,
+          "position_m": -0.028939345699283373,
+          "sample_index": 7,
+          "time_s": 0.0007000000000000001,
+          "velocity_m_s": 29.811464065802692
+        },
+        "first_useful_force_encounter": {
+          "maximum_envelope": 0.17454957427958645,
+          "mean_envelope": 0.1265222341467859,
+          "minimum_envelope": 0.03046755388118486,
+          "position_m": -0.0231208479698645,
+          "sample_index": 9,
+          "time_s": 0.0009000000000000002,
+          "velocity_m_s": 28.123490289238475
+        },
+        "handoff": {
+          "maximum_envelope": 0.25792472054746535,
+          "mean_envelope": 0.19412486752147287,
+          "minimum_envelope": 0.066525161469488,
+          "position_m": -0.02037143962076098,
+          "sample_index": 10,
+          "time_s": 0.001,
+          "velocity_m_s": 26.876540307141372
+        },
+        "last_appreciable_illumination": {
+          "maximum_envelope": 0.9933519708932915,
+          "mean_envelope": 0.9911506932880566,
+          "minimum_envelope": 0.9867481380775868,
+          "position_m": -0.0014292503682993654,
+          "sample_index": 201,
+          "time_s": 0.02,
+          "velocity_m_s": 0.12305372732435226
+        }
+      },
+      "handoff": {
+        "normalized_force": -0.0023845070056964807,
+        "position_m": -0.02037143962076098,
+        "sample_index": 10,
+        "time_s": 0.001,
+        "velocity_m_s": 26.876540307141372
+      },
+      "impulse_budget": {
+        "cumulative_longitudinal_impulse_n_s": -2.1410527232971685e-24,
+        "final_momentum_kg_m_s": 8.783044634102049e-27,
+        "impulse_after_tau_n_s": -1.909548551333327e-24,
+        "impulse_before_tau_n_s": -2.315041719638395e-25,
+        "impulse_while_appreciably_illuminated_endpoint_trapezoid_n_s": -2.1156456905919374e-24,
+        "initial_momentum_kg_m_s": 2.1498357679312684e-24,
+        "negative_impulse_endpoint_trapezoid_n_s": -2.1173521759570615e-24,
+        "negative_normalized_force_time_s": -8.743154102902987e-06,
+        "negative_to_required_stopping_impulse_ratio": 0.9848901983775882,
+        "net_impulse_endpoint_trapezoid_n_s": -2.1173521759570615e-24,
+        "positive_impulse_endpoint_trapezoid_n_s": 0.0,
+        "positive_normalized_force_time_s": 0.0,
+        "required_stopping_impulse_magnitude_n_s": 2.1498357679312684e-24,
+        "signed_decomposition_note": "Negative/positive and illuminated terms are trapezoids over saved endpoint samples; the cumulative longitudinal value is the Run 011 RK4-weighted value."
+      },
+      "initial": {
+        "position_m": -0.05,
+        "time_s": 0.0,
+        "velocity_m_s": 30.12
+      },
+      "last_appreciable_illumination": {
+        "mean_envelope": 0.9911506932880566,
+        "position_m": -0.0014292503682993654,
+        "sample_index": 201,
+        "time_s": 0.02,
+        "velocity_m_s": 0.12305372732435226
+      },
+      "name": "v_4_gamma_over_k",
+      "peak_negative_force": {
+        "force_n": -5.855470875839762e-21,
+        "normalized_force": -0.024178917798304694,
+        "position_m": -0.009587631944549518,
+        "sample_index": 15,
+        "time_s": 0.0015000000000000002,
+        "velocity_m_s": 9.43815353297877
+      },
+      "peak_positive_force": {
+        "force_n": -4.967745472816791e-26,
+        "normalized_force": -2.0513245130420228e-07,
+        "position_m": -0.05,
+        "sample_index": 0,
+        "time_s": 0.0,
+        "velocity_m_s": 30.12
+      },
+      "pre_handoff_slowing_extrema": [
+        {
+          "normalized_force": -0.07000546058593682,
+          "paper_boat_velocity_m_s": 85.19222499735525,
+          "position_m": 0.0,
+          "sample_index": 0,
+          "time_s": 0.0,
+          "velocity_m_s": 87.5
+        },
+        {
+          "normalized_force": -0.06601867027327593,
+          "paper_boat_velocity_m_s": 77.73790531008667,
+          "position_m": 0.0,
+          "sample_index": 1,
+          "time_s": 0.0001,
+          "velocity_m_s": 75.0
+        },
+        {
+          "normalized_force": -0.06958314755564464,
+          "paper_boat_velocity_m_s": 70.28358562281808,
+          "position_m": 0.0,
+          "sample_index": 2,
+          "time_s": 0.0002,
+          "velocity_m_s": 68.75
+        },
+        {
+          "normalized_force": -0.05739332734181955,
+          "paper_boat_velocity_m_s": 62.82926593554949,
+          "position_m": 0.0,
+          "sample_index": 3,
+          "time_s": 0.00030000000000000003,
+          "velocity_m_s": 62.5
+        },
+        {
+          "normalized_force": -0.05283037870837336,
+          "paper_boat_velocity_m_s": 55.37494624828091,
+          "position_m": 0.0,
+          "sample_index": 4,
+          "time_s": 0.0004,
+          "velocity_m_s": 56.25
+        },
+        {
+          "normalized_force": -0.06667538926105177,
+          "paper_boat_velocity_m_s": 47.920626561012334,
+          "position_m": 0.0,
+          "sample_index": 5,
+          "time_s": 0.0005,
+          "velocity_m_s": 50.0
+        },
+        {
+          "normalized_force": -0.05913973552828672,
+          "paper_boat_velocity_m_s": 40.46630687374374,
+          "position_m": 0.0,
+          "sample_index": 6,
+          "time_s": 0.0006000000000000001,
+          "velocity_m_s": 43.75
+        },
+        {
+          "normalized_force": -0.04561636462537329,
+          "paper_boat_velocity_m_s": 33.01198718647516,
+          "position_m": 0.0,
+          "sample_index": 7,
+          "time_s": 0.0007000000000000001,
+          "velocity_m_s": 31.25
+        },
+        {
+          "normalized_force": -0.058731243340464805,
+          "paper_boat_velocity_m_s": 25.557667499206563,
+          "position_m": 0.0,
+          "sample_index": 8,
+          "time_s": 0.0008000000000000001,
+          "velocity_m_s": 25.0
+        },
+        {
+          "normalized_force": -0.06362844596063714,
+          "paper_boat_velocity_m_s": 18.103347811937983,
+          "position_m": 0.0,
+          "sample_index": 9,
+          "time_s": 0.0009000000000000002,
+          "velocity_m_s": 18.75
+        }
+      ],
+      "sample_count": 202,
+      "useful_force_definition": "F <= -0.05*abs(F_min(detuning)) on the cached pre-handoff field",
+      "useful_force_time_s": 0.0
+    },
+    "v_6_gamma_over_k": {
+      "arrival_classification": "near_slowing_feature_in_velocity_but_spatially_offset",
+      "closest_to_slowing_extremum": {
+        "detuning_gamma": -3.799999999999999,
+        "extremum_normalized_force": -0.05913973552828672,
+        "extremum_position_m": 0.0,
+        "extremum_velocity_m_s": 43.75,
+        "paper_boat_velocity_m_s": 40.46630687374374,
+        "phase_space_distance": 0.9332813958743664,
+        "sample_index": 6,
+        "time_s": 0.0006000000000000001,
+        "trajectory_normalized_force": -0.006983033514412017,
+        "trajectory_position_m": -0.02302713349999693,
+        "trajectory_velocity_m_s": 43.20171923199747
+      },
+      "final_or_termination": {
+        "position_m": 0.06,
+        "time_s": 0.0025788683078065014,
+        "velocity_m_s": 45.246990208288096
+      },
+      "first_appreciable_illumination": {
+        "mean_envelope": 0.02429468762396561,
+        "position_m": -0.031933423039026104,
+        "sample_index": 4,
+        "time_s": 0.0004,
+        "velocity_m_s": 45.09543384096585
+      },
+      "first_center_crossing": {
+        "position_m": 0.003755188515311337,
+        "sample_index": 13,
+        "time_s": 0.0013000000000000002,
+        "velocity_m_s": 38.23842923838396
+      },
+      "gaussian_timing_events": {
+        "center_crossing": {
+          "maximum_envelope": 0.9549984887796638,
+          "mean_envelope": 0.9406730303769231,
+          "minimum_envelope": 0.9120221135714416,
+          "position_m": 0.003755188515311337,
+          "sample_index": 13,
+          "time_s": 0.0013000000000000002,
+          "velocity_m_s": 38.23842923838396
+        },
+        "closest_to_slowing_extremum": {
+          "maximum_envelope": 0.17703197637660267,
+          "mean_envelope": 0.12846809113767044,
+          "minimum_envelope": 0.03134032065980598,
+          "position_m": -0.02302713349999693,
+          "sample_index": 6,
+          "time_s": 0.0006000000000000001,
+          "velocity_m_s": 43.20171923199747
+        },
+        "first_useful_force_encounter": {
+          "maximum_envelope": 0.17703197637660267,
+          "mean_envelope": 0.12846809113767044,
+          "minimum_envelope": 0.03134032065980598,
+          "position_m": -0.02302713349999693,
+          "sample_index": 6,
+          "time_s": 0.0006000000000000001,
+          "velocity_m_s": 43.20171923199747
+        },
+        "handoff": {
+          "maximum_envelope": 0.8344902732185476,
+          "mean_envelope": 0.7884515208444872,
+          "minimum_envelope": 0.6963740160963662,
+          "position_m": -0.007443862991006772,
+          "sample_index": 10,
+          "time_s": 0.001,
+          "velocity_m_s": 37.289225849464046
+        },
+        "last_appreciable_illumination": {
+          "maximum_envelope": 0.023923951671726732,
+          "mean_envelope": 0.01614008626901486,
+          "minimum_envelope": 0.0005723554635911158,
+          "position_m": 0.03381113748030784,
+          "sample_index": 20,
+          "time_s": 0.0020000000000000005,
+          "velocity_m_s": 45.20263021070109
+        }
+      },
+      "handoff": {
+        "normalized_force": -0.0012018289826230797,
+        "position_m": -0.007443862991006772,
+        "sample_index": 10,
+        "time_s": 0.001,
+        "velocity_m_s": 37.289225849464046
+      },
+      "impulse_budget": {
+        "cumulative_longitudinal_impulse_n_s": 4.781472306737651e-27,
+        "final_momentum_kg_m_s": 3.2295351242036393e-24,
+        "impulse_after_tau_n_s": 5.6799091804012555e-25,
+        "impulse_before_tau_n_s": -5.632094457333886e-25,
+        "impulse_while_appreciably_illuminated_endpoint_trapezoid_n_s": -9.433182281645703e-27,
+        "initial_momentum_kg_m_s": 3.2247536518969024e-24,
+        "negative_impulse_endpoint_trapezoid_n_s": -5.934039048164786e-25,
+        "negative_normalized_force_time_s": -2.450334830449133e-06,
+        "negative_to_required_stopping_impulse_ratio": 0.184015267171624,
+        "net_impulse_endpoint_trapezoid_n_s": -1.3202343329196397e-26,
+        "positive_impulse_endpoint_trapezoid_n_s": 5.802015614872822e-25,
+        "positive_normalized_force_time_s": 2.3958185702080036e-06,
+        "required_stopping_impulse_magnitude_n_s": 3.2247536518969024e-24,
+        "signed_decomposition_note": "Negative/positive and illuminated terms are trapezoids over saved endpoint samples; the cumulative longitudinal value is the Run 011 RK4-weighted value."
+      },
+      "initial": {
+        "position_m": -0.05,
+        "time_s": 0.0,
+        "velocity_m_s": 45.18
+      },
+      "last_appreciable_illumination": {
+        "mean_envelope": 0.01614008626901486,
+        "position_m": 0.03381113748030784,
+        "sample_index": 20,
+        "time_s": 0.0020000000000000005,
+        "velocity_m_s": 45.20263021070109
+      },
+      "name": "v_6_gamma_over_k",
+      "peak_negative_force": {
+        "force_n": -2.121112082085585e-21,
+        "normalized_force": -0.008758679833136915,
+        "position_m": -0.018841134486469957,
+        "sample_index": 7,
+        "time_s": 0.0007000000000000001,
+        "velocity_m_s": 40.415646500358754
+      },
+      "peak_positive_force": {
+        "force_n": 1.2897490013926298e-21,
+        "normalized_force": 0.005325743351194724,
+        "position_m": 0.01171504773141992,
+        "sample_index": 15,
+        "time_s": 0.0015000000000000002,
+        "velocity_m_s": 41.57274026101882
+      },
+      "pre_handoff_slowing_extrema": [
+        {
+          "normalized_force": -0.07000546058593682,
+          "paper_boat_velocity_m_s": 85.19222499735525,
+          "position_m": 0.0,
+          "sample_index": 0,
+          "time_s": 0.0,
+          "velocity_m_s": 87.5
+        },
+        {
+          "normalized_force": -0.06601867027327593,
+          "paper_boat_velocity_m_s": 77.73790531008667,
+          "position_m": 0.0,
+          "sample_index": 1,
+          "time_s": 0.0001,
+          "velocity_m_s": 75.0
+        },
+        {
+          "normalized_force": -0.06958314755564464,
+          "paper_boat_velocity_m_s": 70.28358562281808,
+          "position_m": 0.0,
+          "sample_index": 2,
+          "time_s": 0.0002,
+          "velocity_m_s": 68.75
+        },
+        {
+          "normalized_force": -0.05739332734181955,
+          "paper_boat_velocity_m_s": 62.82926593554949,
+          "position_m": 0.0,
+          "sample_index": 3,
+          "time_s": 0.00030000000000000003,
+          "velocity_m_s": 62.5
+        },
+        {
+          "normalized_force": -0.05283037870837336,
+          "paper_boat_velocity_m_s": 55.37494624828091,
+          "position_m": 0.0,
+          "sample_index": 4,
+          "time_s": 0.0004,
+          "velocity_m_s": 56.25
+        },
+        {
+          "normalized_force": -0.06667538926105177,
+          "paper_boat_velocity_m_s": 47.920626561012334,
+          "position_m": 0.0,
+          "sample_index": 5,
+          "time_s": 0.0005,
+          "velocity_m_s": 50.0
+        },
+        {
+          "normalized_force": -0.05913973552828672,
+          "paper_boat_velocity_m_s": 40.46630687374374,
+          "position_m": 0.0,
+          "sample_index": 6,
+          "time_s": 0.0006000000000000001,
+          "velocity_m_s": 43.75
+        },
+        {
+          "normalized_force": -0.04561636462537329,
+          "paper_boat_velocity_m_s": 33.01198718647516,
+          "position_m": 0.0,
+          "sample_index": 7,
+          "time_s": 0.0007000000000000001,
+          "velocity_m_s": 31.25
+        },
+        {
+          "normalized_force": -0.058731243340464805,
+          "paper_boat_velocity_m_s": 25.557667499206563,
+          "position_m": 0.0,
+          "sample_index": 8,
+          "time_s": 0.0008000000000000001,
+          "velocity_m_s": 25.0
+        },
+        {
+          "normalized_force": -0.06362844596063714,
+          "paper_boat_velocity_m_s": 18.103347811937983,
+          "position_m": 0.0,
+          "sample_index": 9,
+          "time_s": 0.0009000000000000002,
+          "velocity_m_s": 18.75
+        }
+      ],
+      "sample_count": 27,
+      "useful_force_definition": "F <= -0.05*abs(F_min(detuning)) on the cached pre-handoff field",
+      "useful_force_time_s": 0.0002000000000000001
+    },
+    "v_7p5_gamma_over_k": {
+      "arrival_classification": "near_slowing_feature_in_velocity_but_spatially_offset",
+      "closest_to_slowing_extremum": {
+        "detuning_gamma": -5.199999999999999,
+        "extremum_normalized_force": -0.05283037870837336,
+        "extremum_position_m": 0.0,
+        "extremum_velocity_m_s": 56.25,
+        "paper_boat_velocity_m_s": 55.37494624828091,
+        "phase_space_distance": 1.1084739093789733,
+        "sample_index": 4,
+        "time_s": 0.0004,
+        "trajectory_normalized_force": -0.0016510928161537312,
+        "trajectory_position_m": -0.02743030271765257,
+        "trajectory_velocity_m_s": 56.12601065736308
+      },
+      "final_or_termination": {
+        "position_m": 0.06,
+        "time_s": 0.001978983939304212,
+        "velocity_m_s": 57.37351448585727
+      },
+      "first_appreciable_illumination": {
+        "mean_envelope": 0.019053209725612738,
+        "position_m": -0.03306086538413835,
+        "sample_index": 3,
+        "time_s": 0.00030000000000000003,
+        "velocity_m_s": 56.4117928803887
+      },
+      "first_center_crossing": {
+        "position_m": 0.00422066662049102,
+        "sample_index": 10,
+        "time_s": 0.001,
+        "velocity_m_s": 53.85193034432524
+      },
+      "gaussian_timing_events": {
+        "center_crossing": {
+          "maximum_envelope": 0.9434911911995316,
+          "mean_envelope": 0.9257193367567247,
+          "minimum_envelope": 0.890175627871111,
+          "position_m": 0.00422066662049102,
+          "sample_index": 10,
+          "time_s": 0.001,
+          "velocity_m_s": 53.85193034432524
+        },
+        "closest_to_slowing_extremum": {
+          "maximum_envelope": 0.08570136258208821,
+          "mean_envelope": 0.059582482904200984,
+          "minimum_envelope": 0.007344723548426542,
+          "position_m": -0.02743030271765257,
+          "sample_index": 4,
+          "time_s": 0.0004,
+          "velocity_m_s": 56.12601065736308
+        },
+        "first_useful_force_encounter": {
+          "maximum_envelope": 0.21020821044067284,
+          "mean_envelope": 0.15486797087267198,
+          "minimum_envelope": 0.04418749173667019,
+          "position_m": -0.02185508826582491,
+          "sample_index": 5,
+          "time_s": 0.0005,
+          "velocity_m_s": 55.269504556628455
+        },
+        "handoff": {
+          "maximum_envelope": 0.9434911911995316,
+          "mean_envelope": 0.9257193367567247,
+          "minimum_envelope": 0.890175627871111,
+          "position_m": 0.00422066662049102,
+          "sample_index": 10,
+          "time_s": 0.001,
+          "velocity_m_s": 53.85193034432524
+        },
+        "last_appreciable_illumination": {
+          "maximum_envelope": 0.03164191889124075,
+          "mean_envelope": 0.021428349604533787,
+          "minimum_envelope": 0.0010012110311198566,
+          "position_m": 0.03252021986625589,
+          "sample_index": 15,
+          "time_s": 0.0015000000000000002,
+          "velocity_m_s": 57.35402888525987
+        }
+      },
+      "handoff": {
+        "normalized_force": 0.008173205355981936,
+        "position_m": 0.00422066662049102,
+        "sample_index": 10,
+        "time_s": 0.001,
+        "velocity_m_s": 53.85193034432524
+      },
+      "impulse_budget": {
+        "cumulative_longitudinal_impulse_n_s": 6.413209095950708e-26,
+        "final_momentum_kg_m_s": 4.095074155830634e-24,
+        "impulse_after_tau_n_s": 2.5135549625647713e-25,
+        "impulse_before_tau_n_s": -1.8722340529697075e-25,
+        "impulse_while_appreciably_illuminated_endpoint_trapezoid_n_s": 7.619147213881568e-26,
+        "initial_momentum_kg_m_s": 4.030942064871128e-24,
+        "negative_impulse_endpoint_trapezoid_n_s": -4.582748198514495e-25,
+        "negative_normalized_force_time_s": -1.8923481020016116e-06,
+        "negative_to_required_stopping_impulse_ratio": 0.11368925984950887,
+        "net_impulse_endpoint_trapezoid_n_s": 7.196844225686545e-26,
+        "positive_impulse_endpoint_trapezoid_n_s": 5.302432621083149e-25,
+        "positive_normalized_force_time_s": 2.189526430832635e-06,
+        "required_stopping_impulse_magnitude_n_s": 4.030942064871128e-24,
+        "signed_decomposition_note": "Negative/positive and illuminated terms are trapezoids over saved endpoint samples; the cumulative longitudinal value is the Run 011 RK4-weighted value."
+      },
+      "initial": {
+        "position_m": -0.05,
+        "time_s": 0.0,
+        "velocity_m_s": 56.475
+      },
+      "last_appreciable_illumination": {
+        "mean_envelope": 0.021428349604533787,
+        "position_m": 0.03252021986625589,
+        "sample_index": 15,
+        "time_s": 0.0015000000000000002,
+        "velocity_m_s": 57.35402888525987
+      },
+      "name": "v_7p5_gamma_over_k",
+      "peak_negative_force": {
+        "force_n": -1.4277768098199572e-21,
+        "normalized_force": -0.005895699739777371,
+        "position_m": -0.016403417832951205,
+        "sample_index": 6,
+        "time_s": 0.0006000000000000001,
+        "velocity_m_s": 53.632100544498584
+      },
+      "peak_positive_force": {
+        "force_n": 1.979326218130629e-21,
+        "normalized_force": 0.008173205355981936,
+        "position_m": 0.00422066662049102,
+        "sample_index": 10,
+        "time_s": 0.001,
+        "velocity_m_s": 53.85193034432524
+      },
+      "pre_handoff_slowing_extrema": [
+        {
+          "normalized_force": -0.07000546058593682,
+          "paper_boat_velocity_m_s": 85.19222499735525,
+          "position_m": 0.0,
+          "sample_index": 0,
+          "time_s": 0.0,
+          "velocity_m_s": 87.5
+        },
+        {
+          "normalized_force": -0.06601867027327593,
+          "paper_boat_velocity_m_s": 77.73790531008667,
+          "position_m": 0.0,
+          "sample_index": 1,
+          "time_s": 0.0001,
+          "velocity_m_s": 75.0
+        },
+        {
+          "normalized_force": -0.06958314755564464,
+          "paper_boat_velocity_m_s": 70.28358562281808,
+          "position_m": 0.0,
+          "sample_index": 2,
+          "time_s": 0.0002,
+          "velocity_m_s": 68.75
+        },
+        {
+          "normalized_force": -0.05739332734181955,
+          "paper_boat_velocity_m_s": 62.82926593554949,
+          "position_m": 0.0,
+          "sample_index": 3,
+          "time_s": 0.00030000000000000003,
+          "velocity_m_s": 62.5
+        },
+        {
+          "normalized_force": -0.05283037870837336,
+          "paper_boat_velocity_m_s": 55.37494624828091,
+          "position_m": 0.0,
+          "sample_index": 4,
+          "time_s": 0.0004,
+          "velocity_m_s": 56.25
+        },
+        {
+          "normalized_force": -0.06667538926105177,
+          "paper_boat_velocity_m_s": 47.920626561012334,
+          "position_m": 0.0,
+          "sample_index": 5,
+          "time_s": 0.0005,
+          "velocity_m_s": 50.0
+        },
+        {
+          "normalized_force": -0.05913973552828672,
+          "paper_boat_velocity_m_s": 40.46630687374374,
+          "position_m": 0.0,
+          "sample_index": 6,
+          "time_s": 0.0006000000000000001,
+          "velocity_m_s": 43.75
+        },
+        {
+          "normalized_force": -0.04561636462537329,
+          "paper_boat_velocity_m_s": 33.01198718647516,
+          "position_m": 0.0,
+          "sample_index": 7,
+          "time_s": 0.0007000000000000001,
+          "velocity_m_s": 31.25
+        },
+        {
+          "normalized_force": -0.058731243340464805,
+          "paper_boat_velocity_m_s": 25.557667499206563,
+          "position_m": 0.0,
+          "sample_index": 8,
+          "time_s": 0.0008000000000000001,
+          "velocity_m_s": 25.0
+        },
+        {
+          "normalized_force": -0.06362844596063714,
+          "paper_boat_velocity_m_s": 18.103347811937983,
+          "position_m": 0.0,
+          "sample_index": 9,
+          "time_s": 0.0009000000000000002,
+          "velocity_m_s": 18.75
+        }
+      ],
+      "sample_count": 21,
+      "useful_force_definition": "F <= -0.05*abs(F_min(detuning)) on the cached pre-handoff field",
+      "useful_force_time_s": 0.0002000000000000001
+    },
+    "v_9_gamma_over_k": {
+      "arrival_classification": "near_slowing_feature_in_velocity_but_spatially_offset",
+      "closest_to_slowing_extremum": {
+        "detuning_gamma": -5.8999999999999995,
+        "extremum_normalized_force": -0.05739332734181955,
+        "extremum_position_m": 0.0,
+        "extremum_velocity_m_s": 62.5,
+        "paper_boat_velocity_m_s": 62.82926593554949,
+        "phase_space_distance": 1.375842874625639,
+        "sample_index": 3,
+        "time_s": 0.00030000000000000003,
+        "trajectory_normalized_force": -0.0008217276920856154,
+        "trajectory_position_m": -0.029679417204518065,
+        "trajectory_velocity_m_s": 67.57810212320966
+      },
+      "final_or_termination": {
+        "position_m": 0.06,
+        "time_s": 0.0017054476681651557,
+        "velocity_m_s": 62.2706135457367
+      },
+      "first_appreciable_illumination": {
+        "mean_envelope": 0.03861994898409638,
+        "position_m": -0.029679417204518065,
+        "sample_index": 3,
+        "time_s": 0.00030000000000000003,
+        "velocity_m_s": 67.57810212320966
+      },
+      "first_center_crossing": {
+        "position_m": 0.00340752028317571,
+        "sample_index": 8,
+        "time_s": 0.0008000000000000001,
+        "velocity_m_s": 64.14549054828811
+      },
+      "gaussian_timing_events": {
+        "center_crossing": {
+          "maximum_envelope": 0.9627956372240841,
+          "mean_envelope": 0.9508555711686327,
+          "minimum_envelope": 0.9269754390577302,
+          "position_m": 0.00340752028317571,
+          "sample_index": 8,
+          "time_s": 0.0008000000000000001,
+          "velocity_m_s": 64.14549054828811
+        },
+        "closest_to_slowing_extremum": {
+          "maximum_envelope": 0.056342674965036685,
+          "mean_envelope": 0.03861994898409638,
+          "minimum_envelope": 0.0031744970222157692,
+          "position_m": -0.029679417204518065,
+          "sample_index": 3,
+          "time_s": 0.00030000000000000003,
+          "velocity_m_s": 67.57810212320966
+        },
+        "first_useful_force_encounter": {
+          "maximum_envelope": 0.9698144099167616,
+          "mean_envelope": 0.9600562698385734,
+          "minimum_envelope": 0.9405399896821965,
+          "position_m": -0.0030637775222079715,
+          "sample_index": 7,
+          "time_s": 0.0007000000000000001,
+          "velocity_m_s": 65.2710158040473
+        },
+        "handoff": {
+          "maximum_envelope": 0.4306290852512331,
+          "mean_envelope": 0.3488998598555933,
+          "minimum_envelope": 0.18544140906431378,
+          "position_m": 0.01606294247887256,
+          "sample_index": 10,
+          "time_s": 0.001,
+          "velocity_m_s": 62.54084368555607
+        },
+        "last_appreciable_illumination": {
+          "maximum_envelope": 0.019376039086364445,
+          "mean_envelope": 0.01304250302113507,
+          "minimum_envelope": 0.00037543089067632274,
+          "position_m": 0.034752894274337386,
+          "sample_index": 13,
+          "time_s": 0.0013000000000000002,
+          "velocity_m_s": 62.26466854208378
+        }
+      },
+      "handoff": {
+        "normalized_force": -0.0014685544748237436,
+        "position_m": 0.01606294247887256,
+        "sample_index": 10,
+        "time_s": 0.001,
+        "velocity_m_s": 62.54084368555607
+      },
+      "impulse_budget": {
+        "cumulative_longitudinal_impulse_n_s": -3.9252250003492346e-25,
+        "final_momentum_kg_m_s": 4.444607977810428e-24,
+        "impulse_after_tau_n_s": -1.9287862555004836e-26,
+        "impulse_before_tau_n_s": -3.7323463747992034e-25,
+        "impulse_while_appreciably_illuminated_endpoint_trapezoid_n_s": -3.7349691568873995e-25,
+        "initial_momentum_kg_m_s": 4.8371304778453536e-24,
+        "negative_impulse_endpoint_trapezoid_n_s": -3.89014447487258e-25,
+        "negative_normalized_force_time_s": -1.6063521700632445e-06,
+        "negative_to_required_stopping_impulse_ratio": 0.08042256649246729,
+        "net_impulse_endpoint_trapezoid_n_s": -3.8807518843204256e-25,
+        "positive_impulse_endpoint_trapezoid_n_s": 9.39259055215439e-28,
+        "positive_normalized_force_time_s": 3.8784698906235174e-09,
+        "required_stopping_impulse_magnitude_n_s": 4.8371304778453536e-24,
+        "signed_decomposition_note": "Negative/positive and illuminated terms are trapezoids over saved endpoint samples; the cumulative longitudinal value is the Run 011 RK4-weighted value."
+      },
+      "initial": {
+        "position_m": -0.05,
+        "time_s": 0.0,
+        "velocity_m_s": 67.77
+      },
+      "last_appreciable_illumination": {
+        "mean_envelope": 0.01304250302113507,
+        "position_m": 0.034752894274337386,
+        "sample_index": 13,
+        "time_s": 0.0013000000000000002,
+        "velocity_m_s": 62.26466854208378
+      },
+      "name": "v_9_gamma_over_k",
+      "peak_negative_force": {
+        "force_n": -7.227415402337856e-22,
+        "normalized_force": -0.002984407003514749,
+        "position_m": 0.00340752028317571,
+        "sample_index": 8,
+        "time_s": 0.0008000000000000001,
+        "velocity_m_s": 64.14549054828811
+      },
+      "peak_positive_force": {
+        "force_n": 5.5543908788659226e-24,
+        "normalized_force": 2.293567218204155e-05,
+        "position_m": 0.034752894274337386,
+        "sample_index": 13,
+        "time_s": 0.0013000000000000002,
+        "velocity_m_s": 62.26466854208378
+      },
+      "pre_handoff_slowing_extrema": [
+        {
+          "normalized_force": -0.07000546058593682,
+          "paper_boat_velocity_m_s": 85.19222499735525,
+          "position_m": 0.0,
+          "sample_index": 0,
+          "time_s": 0.0,
+          "velocity_m_s": 87.5
+        },
+        {
+          "normalized_force": -0.06601867027327593,
+          "paper_boat_velocity_m_s": 77.73790531008667,
+          "position_m": 0.0,
+          "sample_index": 1,
+          "time_s": 0.0001,
+          "velocity_m_s": 75.0
+        },
+        {
+          "normalized_force": -0.06958314755564464,
+          "paper_boat_velocity_m_s": 70.28358562281808,
+          "position_m": 0.0,
+          "sample_index": 2,
+          "time_s": 0.0002,
+          "velocity_m_s": 68.75
+        },
+        {
+          "normalized_force": -0.05739332734181955,
+          "paper_boat_velocity_m_s": 62.82926593554949,
+          "position_m": 0.0,
+          "sample_index": 3,
+          "time_s": 0.00030000000000000003,
+          "velocity_m_s": 62.5
+        },
+        {
+          "normalized_force": -0.05283037870837336,
+          "paper_boat_velocity_m_s": 55.37494624828091,
+          "position_m": 0.0,
+          "sample_index": 4,
+          "time_s": 0.0004,
+          "velocity_m_s": 56.25
+        },
+        {
+          "normalized_force": -0.06667538926105177,
+          "paper_boat_velocity_m_s": 47.920626561012334,
+          "position_m": 0.0,
+          "sample_index": 5,
+          "time_s": 0.0005,
+          "velocity_m_s": 50.0
+        },
+        {
+          "normalized_force": -0.05913973552828672,
+          "paper_boat_velocity_m_s": 40.46630687374374,
+          "position_m": 0.0,
+          "sample_index": 6,
+          "time_s": 0.0006000000000000001,
+          "velocity_m_s": 43.75
+        },
+        {
+          "normalized_force": -0.04561636462537329,
+          "paper_boat_velocity_m_s": 33.01198718647516,
+          "position_m": 0.0,
+          "sample_index": 7,
+          "time_s": 0.0007000000000000001,
+          "velocity_m_s": 31.25
+        },
+        {
+          "normalized_force": -0.058731243340464805,
+          "paper_boat_velocity_m_s": 25.557667499206563,
+          "position_m": 0.0,
+          "sample_index": 8,
+          "time_s": 0.0008000000000000001,
+          "velocity_m_s": 25.0
+        },
+        {
+          "normalized_force": -0.06362844596063714,
+          "paper_boat_velocity_m_s": 18.103347811937983,
+          "position_m": 0.0,
+          "sample_index": 9,
+          "time_s": 0.0009000000000000002,
+          "velocity_m_s": 18.75
+        }
+      ],
+      "sample_count": 19,
+      "useful_force_definition": "F <= -0.05*abs(F_min(detuning)) on the cached pre-handoff field",
+      "useful_force_time_s": 0.00010000000000000005
+    }
+  },
+  "trajectory_integrations_performed": 0
+}

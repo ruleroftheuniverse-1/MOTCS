@@ -105,6 +105,10 @@ from .rateeq_backend import (
     ProvisionalPylcpRateEquationBackend,
     RateEquationBackendConfig,
 )
+from .paper_rateeq_reference import (
+    PaperRateEquationResult,
+    evaluate_paper_rate_equations,
+)
 from .static_acceptance import RUN009A_LABEL, AcceptanceGate, decide_acceptance_gate
 from .tracks import BackendProvenance, ProjectTrack
 from .trajectory import (
@@ -200,6 +204,8 @@ __all__ = [
     "ProvisionalForceBackendMode",
     "ProvisionalPylcpRateEquationBackend",
     "RateEquationBackendConfig",
+    "PaperRateEquationResult",
+    "evaluate_paper_rate_equations",
     "RUN009A_LABEL",
     "AcceptanceGate",
     "decide_acceptance_gate",
