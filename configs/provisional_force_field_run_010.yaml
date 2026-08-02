@@ -1,0 +1,41 @@
+schema_version: 1
+name: PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_run_010
+track: provisional
+replication_valid: false
+canonical_force_unit: hbar*k*Gamma
+motion_axis: lab_x
+domain:
+  position_m: {minimum: -0.060, maximum: 0.060, count: 25}
+  velocity_m_s: {minimum: -100.0, maximum: 100.0, count: 33}
+  detuning_gamma: {minimum: -8.0, maximum: -1.0, count: 15}
+  justification: >-
+    Covers x0=-50 mm with 10 mm margins, passage through and beyond the center,
+    inbound/outbound speeds beyond the named 2-9 Gamma/k range, and the exact
+    Rodriguez baseline chirp interval. Queries outside fail rather than extrapolate.
+refined_slices:
+  position_m: {minimum: -0.060, maximum: 0.060, count: 121}
+  velocity_m_s: {minimum: -100.0, maximum: 100.0, count: 161}
+  detuning_gamma: [-8.0, -4.5, -1.0]
+refinement_history:
+  baseline_grid_shape: [25, 33, 8]
+  baseline_detuning_spacing_gamma: 1.0
+  baseline_global_holdout_rms_over_range: 0.0028092509115134946
+  baseline_minus_4p5_extremum_error_over_range: 0.1614
+  predeclared_important_region_limit: 0.08
+  decision: >-
+    Baseline failed the dynamically important slowing-extremum limit despite
+    passing global holdouts. Refine only the detuning axis to 0.5 Gamma spacing;
+    thresholds are unchanged.
+holdouts:
+  pseudorandom_pre_count: 24
+  pseudorandom_post_count: 16
+  seed: 10010
+acceptance_thresholds:
+  normalized_rms_error_over_force_range_max: 0.03
+  maximum_important_region_error_over_force_range_max: 0.08
+  local_slope_relative_error_max: 0.15
+  extremum_displacement_grid_cells_max: 1.5
+  important_region_force_floor_fraction: 0.05
+cache:
+  directory: outputs/provisional/force_fields
+  reuse_if_provenance_matches: true

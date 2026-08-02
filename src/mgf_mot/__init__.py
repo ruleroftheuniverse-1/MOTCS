@@ -1,6 +1,10 @@
 """Pre-force-map utilities for static MgF MOT replication."""
 
 from .constants import MGF, RODRIGUEZ_STATIC
+from .accepted_backend import (
+    AcceptedProvisionalBackendSelection,
+    build_accepted_provisional_rateeq_backend,
+)
 from .conventions import (
     GroundZeemanConvention,
     PaperHelicityTranslation,
@@ -27,6 +31,19 @@ from .gaussian_beams import (
     GaussianEnvelopeConfig,
     build_rodriguez_gaussian_beam_set,
     load_gaussian_envelope_config,
+)
+from .force_field import (
+    FORCE_FIELD_LABEL,
+    ForceFieldCacheMismatchError,
+    ForceFieldDomain,
+    ForceFieldDomainError,
+    ForceFieldGrid,
+    ForceFieldProvenance,
+    ForceFieldValidation,
+    InterpolatedForceField,
+    SeparatedHandoffForceFields,
+    load_force_field_cache,
+    save_force_field_cache,
 )
 from .mgf_backend import (
     ApproximationMode,
@@ -94,6 +111,8 @@ from .trajectory import (
 __all__ = [
     "MGF",
     "RODRIGUEZ_STATIC",
+    "AcceptedProvisionalBackendSelection",
+    "build_accepted_provisional_rateeq_backend",
     "GroundZeemanConvention",
     "PaperHelicityTranslation",
     "paper_helicity_to_pylcp_pol",
@@ -114,6 +133,17 @@ __all__ = [
     "GaussianEnvelopeConfig",
     "build_rodriguez_gaussian_beam_set",
     "load_gaussian_envelope_config",
+    "FORCE_FIELD_LABEL",
+    "ForceFieldCacheMismatchError",
+    "ForceFieldDomain",
+    "ForceFieldDomainError",
+    "ForceFieldGrid",
+    "ForceFieldProvenance",
+    "ForceFieldValidation",
+    "InterpolatedForceField",
+    "SeparatedHandoffForceFields",
+    "load_force_field_cache",
+    "save_force_field_cache",
     "ApproximationMode",
     "ExactBackendMode",
     "analyze_mgf_exact_backend_feasibility",

@@ -1,0 +1,1076 @@
+{
+  "cache_key": "63e14ddc2508a87780df34315570016bf8b3a04b3ee7fc065d7cda3d153e958e",
+  "canonical_values_are_si_acceleration": false,
+  "created_utc": "2026-08-02T00:00:26.647711+00:00",
+  "equilibrium_solve_count": 825,
+  "force_array_name": "normalized_force_x",
+  "force_unit": "hbar*k*Gamma",
+  "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY",
+  "npz_filename": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_post_handoff_trap_3_plus_1_run_010.npz",
+  "npz_sha256": "b8ff2e8ddecd955e4909a9050667e765e1e92997201c36d2a1ede5c118ab09a3",
+  "position_scale_m": 0.00746628832368648,
+  "provenance": {
+    "backend_mode": "pylcp_rate_equation",
+    "beam_mode": "elliptical_gaussian",
+    "canonical_values_are_si_acceleration": false,
+    "component_order": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "detuning_specification": "(-1,-1,-1,+2) Gamma; component 4 active",
+    "exact_track_blocked": true,
+    "excited_hyperfine_model": "source_aligned_effective_fprime_splitting",
+    "excited_zeeman_model": "rodriguez_effective_g_0p001",
+    "field_gradient_t_m": 0.2,
+    "field_kind": "post_handoff_trap_3_plus_1",
+    "ground_zeeman_convention": "project_energy_slope_corrected",
+    "interpolation_method": "bilinear",
+    "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY",
+    "normalized_force_unit": "hbar*k*Gamma",
+    "replication_valid": false,
+    "saturation_vector": [
+      1.45,
+      1.45,
+      2.17,
+      0.72
+    ],
+    "source_hashes": [
+      [
+        "configs\\provisional_force_field_run_010.yaml",
+        "23935fe573a27928c2f855c1562e8a786092ea7379a40646907911fff3b94eb1"
+      ],
+      [
+        "configs\\rodriguez_baseline_linear_chirp.yaml",
+        "c428695e839de3172ac17e1d30c424a31733bc32dc1d0e7e72b2fa56c9b524b4"
+      ],
+      [
+        "configs\\rodriguez_static_3_plus_1.yaml",
+        "06ed7c00d1df87d2fb929ec6511dc8158e0248a1fb0c7109ba2c6caca81a6f80"
+      ],
+      [
+        "configs\\rodriguez_gaussian_baseline.yaml",
+        "8498253a5f58d3d7187ac26aa5f52f8d14ccbff19ea741eaccd9b0cfdb1d89a3"
+      ],
+      [
+        "src\\mgf_mot\\accepted_backend.py",
+        "5d2070d96c218b522585fbd0721252004bcc1f08cf7b488bb02d50fe5301c0df"
+      ],
+      [
+        "src\\mgf_mot\\excited_hyperfine.py",
+        "909f90e0a4875735df3abd590162bd72f69b5eebbdd0f5e6f15eed31a074afd5"
+      ],
+      [
+        "src\\mgf_mot\\force_field.py",
+        "25b5f55a305c1c1380bb14a0dc543a346a5058a470442d6148901f2ecd4aeb29"
+      ],
+      [
+        "src\\mgf_mot\\gaussian_beams.py",
+        "ca8900129792d2d1e33a8b3b1d824df54c238dac7eafee166d3799eb80d35a64"
+      ],
+      [
+        "src\\mgf_mot\\mgf_backend.py",
+        "3f746fe724cdec328c6d67bd41c4acc0df6cc3b02a801ccd4f823f27c4318944"
+      ],
+      [
+        "src\\mgf_mot\\rateeq_backend.py",
+        "7c3da589bb797d0529a5c6d829dce869df6daff03c89489b3a82edabb82af211"
+      ],
+      [
+        "src\\mgf_mot\\spectroscopy.py",
+        "3b2a339bed6ef1dcf78d27dfbd9980a93f47268061e02e1a0d09e2c2f83ae065"
+      ]
+    ],
+    "splitting_case": "mid_range_0p5_mhz",
+    "splitting_interval_mhz": [
+      0.0,
+      1.0
+    ],
+    "splitting_mhz": 0.5,
+    "splitting_note": "0.5 MHz is the reproducible midpoint of the source-supported <1 MHz interval, not a measured value",
+    "track": "provisional",
+    "unresolved_terms": [
+      "independent Doppelbauer d operator in the retained/effective basis",
+      "d-dependent J'=1/2 to J'=3/2 mixing",
+      "exact positive-parity excited-state spectroscopy"
+    ]
+  },
+  "shape": [
+    25,
+    33
+  ],
+  "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY post_handoff_trap_3_plus_1 cache metadata",
+  "validation": {
+    "acceptance_checks": {
+      "accepted_backend_models": true,
+      "boundary_queries": true,
+      "build_population_health": true,
+      "canonical_normalized_force": true,
+      "component4_effect": true,
+      "component4_population_health": true,
+      "gaussian_attenuation": true,
+      "gaussian_attenuation_population_health": true,
+      "holdout_population_health": true,
+      "holdouts_off_grid_nodes": true,
+      "interpolation_errors": true,
+      "no_silent_extrapolation": true,
+      "post_stronger_than_static_3": true,
+      "pre_post_separate": true,
+      "refined_slice_population_health": true,
+      "topology_preserved": true
+    },
+    "boundary_checks": {
+      "all_outside_queries_rejected": true,
+      "at_handoff_force": -0.0063665078675966755,
+      "before_handoff_force": -0.00602080408066763,
+      "exact_boundary_queries_finite": true,
+      "handoff_convention": "t < tau uses pre; t >= tau uses post; no smoothing",
+      "just_inside_queries_finite": true,
+      "outside_queries_rejected": [
+        "pre_x_below",
+        "pre_v_above",
+        "pre_detuning_above",
+        "post_x_above"
+      ],
+      "pre_and_post_remain_separate": true
+    },
+    "component4": {
+      "component4_stronger_confinement": true,
+      "population_health": {
+        "fallback_count": 0,
+        "maximum_residual_linf": 8.500145032286355e-17,
+        "maximum_sum_error": 1.1102230246251565e-16,
+        "minimum_population": 0.021810780100154113,
+        "nonfinite_count": 0,
+        "nullspace_dimensions": [
+          1
+        ],
+        "passed": true,
+        "solves": 6
+      },
+      "post_3plus1_stronger_than_static_3": true,
+      "static_3_dFdx": -0.16267185305600568,
+      "with_component4_dFdx": -0.5119813689820567,
+      "without_component4_same_3plus1_power_partition_dFdx": -0.15328715844088214
+    },
+    "gate": "PROVISIONAL_FORCE_FIELD_INTERPOLATION_GO",
+    "gaussian_attenuation": {
+      "attenuated_point_count": 6,
+      "center_matches_plane_wave": true,
+      "passed": true,
+      "point_count": 6,
+      "points": [
+        {
+          "attenuated": true,
+          "gaussian_force": 0.0031311536181169415,
+          "per_beam_envelopes": {
+            "+x_prime": 1.0,
+            "+y_prime": 1.0,
+            "+z": 1.0,
+            "-x_prime": 1.0,
+            "-y_prime": 1.0,
+            "-z": 1.0
+          },
+          "plane_force": 0.0031311536181169415,
+          "vx_m_s": 5.0,
+          "x_m": 0.0
+        },
+        {
+          "attenuated": true,
+          "gaussian_force": 0.00013034098716138698,
+          "per_beam_envelopes": {
+            "+x_prime": 0.9216104472977249,
+            "+y_prime": 0.9216104472977249,
+            "+z": 0.8493658165683124,
+            "-x_prime": 0.9216104472977249,
+            "-y_prime": 0.9216104472977249,
+            "-z": 0.8493658165683124
+          },
+          "plane_force": 0.0001407666433489163,
+          "vx_m_s": 0.0,
+          "x_m": 0.005
+        },
+        {
+          "attenuated": true,
+          "gaussian_force": -0.0015444039809350651,
+          "per_beam_envelopes": {
+            "+x_prime": 0.7214222903547562,
+            "+y_prime": 0.7214222903547562,
+            "+z": 0.5204501210207021,
+            "-x_prime": 0.7214222903547562,
+            "-y_prime": 0.7214222903547562,
+            "-z": 0.5204501210207021
+          },
+          "plane_force": -0.002123787555353729,
+          "vx_m_s": -5.0,
+          "x_m": 0.01
+        },
+        {
+          "attenuated": true,
+          "gaussian_force": 0.00020078569374966295,
+          "per_beam_envelopes": {
+            "+x_prime": 0.7214222903547562,
+            "+y_prime": 0.7214222903547562,
+            "+z": 0.5204501210207021,
+            "-x_prime": 0.7214222903547562,
+            "-y_prime": 0.7214222903547562,
+            "-z": 0.5204501210207021
+          },
+          "plane_force": 0.00026945792744294565,
+          "vx_m_s": 0.0,
+          "x_m": 0.01
+        },
+        {
+          "attenuated": true,
+          "gaussian_force": 0.0016735880107971376,
+          "per_beam_envelopes": {
+            "+x_prime": 0.7214222903547562,
+            "+y_prime": 0.7214222903547562,
+            "+z": 0.5204501210207021,
+            "-x_prime": 0.7214222903547562,
+            "-y_prime": 0.7214222903547562,
+            "-z": 0.5204501210207021
+          },
+          "plane_force": 0.002345167675176822,
+          "vx_m_s": 5.0,
+          "x_m": 0.01
+        },
+        {
+          "attenuated": true,
+          "gaussian_force": 0.0004608997940365228,
+          "per_beam_envelopes": {
+            "+x_prime": 0.2708683284704636,
+            "+y_prime": 0.2708683284704636,
+            "+z": 0.0733696513683829,
+            "-x_prime": 0.2708683284704636,
+            "-y_prime": 0.2708683284704636,
+            "-z": 0.0733696513683829
+          },
+          "plane_force": 0.0013055489814267716,
+          "vx_m_s": 10.0,
+          "x_m": 0.02
+        }
+      ],
+      "population_health": {
+        "fallback_count": 0,
+        "maximum_residual_linf": 1.1882855810441129e-16,
+        "maximum_sum_error": 2.220446049250313e-16,
+        "minimum_population": 0.001225421710917473,
+        "nonfinite_count": 0,
+        "nullspace_dimensions": [
+          1
+        ],
+        "passed": true,
+        "solves": 12
+      }
+    },
+    "holdouts": {
+      "all_holdouts_off_grid_nodes": true,
+      "force_range_normalized": 0.15358029203725615,
+      "maximum_error_over_force_range": 0.020433146656393564,
+      "maximum_important_region_error_over_force_range": 0.020433146656393564,
+      "normalized_rms_error_over_force_range": 0.004780402487217151,
+      "population_health": {
+        "fallback_count": 0,
+        "maximum_residual_linf": 1.1774435593192578e-16,
+        "maximum_sum_error": 2.220446049250313e-16,
+        "minimum_population": 1.44980519824689e-08,
+        "nonfinite_count": 0,
+        "nullspace_dimensions": [
+          1
+        ],
+        "passed": true,
+        "solves": 51
+      },
+      "records": [
+        {
+          "absolute_error": 5.149280733223508e-08,
+          "category": "near_lower_boundaries",
+          "detuning_gamma": -7.75,
+          "direct": 1.011061567012075e-07,
+          "error_over_total_force_range": 3.352826501967045e-07,
+          "field": "pre",
+          "holdout_is_not_grid_node": true,
+          "interpolated": 1.5259896403344259e-07,
+          "relative_error": null,
+          "vx_m_s": -96.875,
+          "x_m": -0.057499999999999996
+        },
+        {
+          "absolute_error": 1.4144567672678017e-09,
+          "category": "near_upper_boundaries",
+          "detuning_gamma": -1.25,
+          "direct": 3.596117931949961e-09,
+          "error_over_total_force_range": 9.209884605016097e-09,
+          "field": "pre",
+          "holdout_is_not_grid_node": true,
+          "interpolated": 5.010574699217763e-09,
+          "relative_error": null,
+          "vx_m_s": 96.875,
+          "x_m": 0.0575
+        },
+        {
+          "absolute_error": 0.00013609182918439744,
+          "category": "near_origin_mid_detuning",
+          "detuning_gamma": -4.5,
+          "direct": 0.0015028481328911757,
+          "error_over_total_force_range": 0.0008861282094149405,
+          "field": "pre",
+          "holdout_is_not_grid_node": true,
+          "interpolated": 0.0016389399620755731,
+          "relative_error": null,
+          "vx_m_s": 3.125,
+          "x_m": 0.0025000000000000022
+        },
+        {
+          "absolute_error": 5.713857595839931e-07,
+          "category": "Gaussian_edge_slowing_region",
+          "detuning_gamma": -7.5,
+          "direct": -2.047622405400936e-06,
+          "error_over_total_force_range": 3.7204367305499324e-06,
+          "field": "pre",
+          "holdout_is_not_grid_node": true,
+          "interpolated": -2.619008164984929e-06,
+          "relative_error": null,
+          "vx_m_s": 46.875,
+          "x_m": -0.0475
+        },
+        {
+          "absolute_error": 1.7379243939551857e-07,
+          "category": "opposite_Gaussian_edge",
+          "detuning_gamma": -1.5,
+          "direct": 4.5813842107292386e-07,
+          "error_over_total_force_range": 1.131606387057522e-06,
+          "field": "pre",
+          "holdout_is_not_grid_node": true,
+          "interpolated": 6.319308604684424e-07,
+          "relative_error": null,
+          "vx_m_s": -46.875,
+          "x_m": 0.0475
+        },
+        {
+          "absolute_error": 0.0031381286307290077,
+          "category": "near_major_mid_chirp_slowing_extremum",
+          "detuning_gamma": -4.75,
+          "direct": -0.042365080611263414,
+          "error_over_total_force_range": 0.020433146656393564,
+          "field": "pre",
+          "holdout_is_not_grid_node": true,
+          "interpolated": -0.04550320924199242,
+          "relative_error": 0.07407347243179062,
+          "vx_m_s": 47.5,
+          "x_m": 0.0025000000000000022
+        },
+        {
+          "absolute_error": 0.002988419091275285,
+          "category": "near_major_early_chirp_slowing_extremum",
+          "detuning_gamma": -7.75,
+          "direct": -0.04820456968728139,
+          "error_over_total_force_range": 0.019458350102305715,
+          "field": "pre",
+          "holdout_is_not_grid_node": true,
+          "interpolated": -0.05119298877855667,
+          "relative_error": 0.061994518583240656,
+          "vx_m_s": 83.0,
+          "x_m": 0.0025000000000000022
+        },
+        {
+          "absolute_error": 4.507484006608509e-08,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": -2.9175482973703826,
+          "direct": 7.2577512619728e-07,
+          "error_over_total_force_range": 2.934936473173957e-07,
+          "field": "pre",
+          "holdout_is_not_grid_node": true,
+          "interpolated": 7.708499662633651e-07,
+          "relative_error": null,
+          "vx_m_s": -91.71387422048565,
+          "x_m": -0.044895845698906776
+        },
+        {
+          "absolute_error": 1.4468099145455472e-08,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": -5.464301531667193,
+          "direct": -3.46906960088709e-08,
+          "error_over_total_force_range": 9.420544103370854e-08,
+          "field": "pre",
+          "holdout_is_not_grid_node": true,
+          "interpolated": -4.9158795154326373e-08,
+          "relative_error": null,
+          "vx_m_s": 90.51954780009214,
+          "x_m": 0.05937060719740776
+        },
+        {
+          "absolute_error": 7.44557735721102e-05,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": -5.570872063519357,
+          "direct": 0.002729990455580167,
+          "error_over_total_force_range": 0.00048480031249093083,
+          "field": "pre",
+          "holdout_is_not_grid_node": true,
+          "interpolated": 0.0028044462291522774,
+          "relative_error": null,
+          "vx_m_s": -98.32210036269599,
+          "x_m": 0.01455804871285113
+        },
+        {
+          "absolute_error": 0.000524400662391661,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": -4.606035936362552,
+          "direct": -0.00239907612307282,
+          "error_over_total_force_range": 0.0034145049174958576,
+          "field": "pre",
+          "holdout_is_not_grid_node": true,
+          "interpolated": -0.002923476785464481,
+          "relative_error": null,
+          "vx_m_s": -4.777770091298223,
+          "x_m": -0.00039234770874493896
+        },
+        {
+          "absolute_error": 2.825127252789643e-07,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": -6.826426619133962,
+          "direct": 7.144122918965036e-07,
+          "error_over_total_force_range": 1.8395115775039104e-06,
+          "field": "pre",
+          "holdout_is_not_grid_node": true,
+          "interpolated": 9.96925017175468e-07,
+          "relative_error": null,
+          "vx_m_s": -87.60295526114992,
+          "x_m": -0.05216699032001421
+        },
+        {
+          "absolute_error": 5.4962808106395256e-05,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": -5.352069188723079,
+          "direct": 0.000638392900879815,
+          "error_over_total_force_range": 0.00035787670004600687,
+          "field": "pre",
+          "holdout_is_not_grid_node": true,
+          "interpolated": 0.0006933557089862102,
+          "relative_error": null,
+          "vx_m_s": -77.7827371606669,
+          "x_m": -0.026986951238672494
+        },
+        {
+          "absolute_error": 0.0002761670475714213,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": -6.560413501140342,
+          "direct": -0.0016425033302466972,
+          "error_over_total_force_range": 0.0017981932701653385,
+          "field": "pre",
+          "holdout_is_not_grid_node": true,
+          "interpolated": -0.0013663362826752759,
+          "relative_error": null,
+          "vx_m_s": 44.1606683454946,
+          "x_m": -0.0016344000186005458
+        },
+        {
+          "absolute_error": 0.000549916085269346,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": -2.871353751395624,
+          "direct": -0.0029854946670616117,
+          "error_over_total_force_range": 0.003580642268449034,
+          "field": "pre",
+          "holdout_is_not_grid_node": true,
+          "interpolated": -0.0024355785817922657,
+          "relative_error": null,
+          "vx_m_s": 80.04611359995758,
+          "x_m": 0.0030900827189262736
+        },
+        {
+          "absolute_error": 1.5563345715222144e-06,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": -4.641488544376117,
+          "direct": 4.444013940109429e-06,
+          "error_over_total_force_range": 1.0133686756792155e-05,
+          "field": "pre",
+          "holdout_is_not_grid_node": true,
+          "interpolated": 2.887679368587215e-06,
+          "relative_error": null,
+          "vx_m_s": -4.725704610408201,
+          "x_m": 0.034155322248772296
+        },
+        {
+          "absolute_error": 7.211963369601023e-11,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": -1.9478800365873417,
+          "direct": 1.0965509920963989e-07,
+          "error_over_total_force_range": 4.695891168022727e-10,
+          "field": "pre",
+          "holdout_is_not_grid_node": true,
+          "interpolated": 1.097272188433359e-07,
+          "relative_error": null,
+          "vx_m_s": -57.606651471351626,
+          "x_m": -0.054971802202588314
+        },
+        {
+          "absolute_error": 1.2735747544628459e-05,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": -6.110292948251249,
+          "direct": 9.111314411063887e-05,
+          "error_over_total_force_range": 8.29256630241266e-05,
+          "field": "pre",
+          "holdout_is_not_grid_node": true,
+          "interpolated": 0.00010384889165526733,
+          "relative_error": null,
+          "vx_m_s": -91.31434615758907,
+          "x_m": 0.03430724350109006
+        },
+        {
+          "absolute_error": 1.5414540610969587e-06,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": -7.265139072774226,
+          "direct": -4.449002461761749e-06,
+          "error_over_total_force_range": 1.0036796001944223e-05,
+          "field": "pre",
+          "holdout_is_not_grid_node": true,
+          "interpolated": -5.990456522858708e-06,
+          "relative_error": null,
+          "vx_m_s": 64.19680469750583,
+          "x_m": -0.04696238448741967
+        },
+        {
+          "absolute_error": 0.0005494526453624811,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": -2.6439769765227696,
+          "direct": 0.01188544767091942,
+          "error_over_total_force_range": 0.003577624694379358,
+          "field": "pre",
+          "holdout_is_not_grid_node": true,
+          "interpolated": 0.011335995025556938,
+          "relative_error": 0.04622902397751899,
+          "vx_m_s": -32.30262898046598,
+          "x_m": 0.01594969302846297
+        },
+        {
+          "absolute_error": 0.00015588471923547843,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": -2.142342374853441,
+          "direct": 0.00023078786129522707,
+          "error_over_total_force_range": 0.0010150047064480334,
+          "field": "pre",
+          "holdout_is_not_grid_node": true,
+          "interpolated": 0.0003866725805307055,
+          "relative_error": null,
+          "vx_m_s": -94.27800793361945,
+          "x_m": -0.009207752971056589
+        },
+        {
+          "absolute_error": 9.732366702114322e-07,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": -2.1868961923998462,
+          "direct": -1.0351873917039885e-06,
+          "error_over_total_force_range": 6.336989318755432e-06,
+          "field": "pre",
+          "holdout_is_not_grid_node": true,
+          "interpolated": -2.0084240619154207e-06,
+          "relative_error": null,
+          "vx_m_s": 9.239092437694097,
+          "x_m": 0.04830618364952896
+        },
+        {
+          "absolute_error": 0.0003962596594178553,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": -1.1946697193413227,
+          "direct": 0.002548444035420565,
+          "error_over_total_force_range": 0.002580146541990746,
+          "field": "pre",
+          "holdout_is_not_grid_node": true,
+          "interpolated": 0.00294470369483842,
+          "relative_error": null,
+          "vx_m_s": -26.97427734808025,
+          "x_m": 0.0227510475810542
+        },
+        {
+          "absolute_error": 0.00011012749122757122,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": -7.718159948581015,
+          "direct": -0.0019224891044031481,
+          "error_over_total_force_range": 0.0007170678592071959,
+          "field": "pre",
+          "holdout_is_not_grid_node": true,
+          "interpolated": -0.0020326165956307193,
+          "relative_error": null,
+          "vx_m_s": 62.27725904329796,
+          "x_m": -0.021264369336858727
+        },
+        {
+          "absolute_error": 5.389040115731387e-05,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": -3.7130911207405823,
+          "direct": 0.0006785544327549645,
+          "error_over_total_force_range": 0.00035089398804008596,
+          "field": "pre",
+          "holdout_is_not_grid_node": true,
+          "interpolated": 0.0007324448339122784,
+          "relative_error": null,
+          "vx_m_s": -84.3926942334424,
+          "x_m": 0.01845384982317526
+        },
+        {
+          "absolute_error": 1.9989510865218045e-07,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": -6.859145347253447,
+          "direct": 5.579437489261086e-07,
+          "error_over_total_force_range": 1.3015674472326765e-06,
+          "field": "pre",
+          "holdout_is_not_grid_node": true,
+          "interpolated": 7.578388575782891e-07,
+          "relative_error": null,
+          "vx_m_s": -96.77404150404443,
+          "x_m": 0.052131128546478195
+        },
+        {
+          "absolute_error": 1.5369041110946456e-07,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": -1.098856859729623,
+          "direct": -1.416849116057592e-06,
+          "error_over_total_force_range": 1.000717013040851e-06,
+          "field": "pre",
+          "holdout_is_not_grid_node": true,
+          "interpolated": -1.2631587049481273e-06,
+          "relative_error": null,
+          "vx_m_s": 71.27976433045296,
+          "x_m": 0.04045950487686875
+        },
+        {
+          "absolute_error": 4.5437647756327156e-08,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": -2.271617722837516,
+          "direct": 2.3804674768035703e-07,
+          "error_over_total_force_range": 2.958559796546337e-07,
+          "field": "pre",
+          "holdout_is_not_grid_node": true,
+          "interpolated": 2.834843954366842e-07,
+          "relative_error": null,
+          "vx_m_s": -68.05183496571973,
+          "x_m": -0.05180294940677322
+        },
+        {
+          "absolute_error": 0.00022255952027917976,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": -4.441853647850255,
+          "direct": -0.006324366250531786,
+          "error_over_total_force_range": 0.0014491411451749965,
+          "field": "pre",
+          "holdout_is_not_grid_node": true,
+          "interpolated": -0.006546925770810966,
+          "relative_error": null,
+          "vx_m_s": 99.21866558120365,
+          "x_m": -0.003508571109097469
+        },
+        {
+          "absolute_error": 0.0005159677110423214,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": -7.102553625330541,
+          "direct": 0.01399936896318214,
+          "error_over_total_force_range": 0.0033595958452608994,
+          "field": "pre",
+          "holdout_is_not_grid_node": true,
+          "interpolated": 0.014515336674224461,
+          "relative_error": 0.03685649777495677,
+          "vx_m_s": -89.5724269888067,
+          "x_m": 0.007912105007532838
+        },
+        {
+          "absolute_error": 5.936921934963345e-09,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": -1.1772028625432531,
+          "direct": -4.131045510469121e-08,
+          "error_over_total_force_range": 3.8656795453437096e-08,
+          "field": "pre",
+          "holdout_is_not_grid_node": true,
+          "interpolated": -3.537353316972786e-08,
+          "relative_error": null,
+          "vx_m_s": -84.57645151063349,
+          "x_m": -0.04891437371073066
+        },
+        {
+          "absolute_error": 2.6480137371543667e-09,
+          "category": "near_lower_boundaries",
+          "detuning_gamma": null,
+          "direct": 5.476372726378214e-09,
+          "error_over_total_force_range": 1.7241885023320574e-08,
+          "field": "post",
+          "holdout_is_not_grid_node": true,
+          "interpolated": 8.124386463532581e-09,
+          "relative_error": null,
+          "vx_m_s": -96.875,
+          "x_m": -0.057499999999999996
+        },
+        {
+          "absolute_error": 2.6480137559069962e-09,
+          "category": "near_upper_boundaries",
+          "detuning_gamma": null,
+          "direct": -5.476372714564067e-09,
+          "error_over_total_force_range": 1.7241885145423672e-08,
+          "field": "post",
+          "holdout_is_not_grid_node": true,
+          "interpolated": -8.124386470471063e-09,
+          "relative_error": null,
+          "vx_m_s": 96.875,
+          "x_m": 0.0575
+        },
+        {
+          "absolute_error": 0.002499950070860282,
+          "category": "near_origin",
+          "detuning_gamma": null,
+          "direct": -0.014706303210965955,
+          "error_over_total_force_range": 0.01627780516430997,
+          "field": "post",
+          "holdout_is_not_grid_node": true,
+          "interpolated": -0.017206253281826237,
+          "relative_error": 0.1699917399361221,
+          "vx_m_s": 3.125,
+          "x_m": 0.0025000000000000022
+        },
+        {
+          "absolute_error": 3.267630974365689e-07,
+          "category": "Gaussian_edge",
+          "detuning_gamma": null,
+          "direct": -1.7804613454561825e-06,
+          "error_over_total_force_range": 2.1276369064157094e-06,
+          "field": "post",
+          "holdout_is_not_grid_node": true,
+          "interpolated": -2.1072244428927514e-06,
+          "relative_error": null,
+          "vx_m_s": 46.875,
+          "x_m": -0.0475
+        },
+        {
+          "absolute_error": 0.0005922635418828819,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": null,
+          "direct": 0.0014539425615292083,
+          "error_over_total_force_range": 0.0038563772345165752,
+          "field": "post",
+          "holdout_is_not_grid_node": true,
+          "interpolated": 0.00204620610341209,
+          "relative_error": null,
+          "vx_m_s": 42.13925610173291,
+          "x_m": -0.00664843084903681
+        },
+        {
+          "absolute_error": 1.9093683655591233e-06,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": null,
+          "direct": 2.9933120694154675e-05,
+          "error_over_total_force_range": 1.2432378791778445e-05,
+          "field": "post",
+          "holdout_is_not_grid_node": true,
+          "interpolated": 2.8023752328595552e-05,
+          "relative_error": null,
+          "vx_m_s": -78.40270141795847,
+          "x_m": 0.03497284346374943
+        },
+        {
+          "absolute_error": 0.0007707712004330915,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": null,
+          "direct": -0.0042943161870911285,
+          "error_over_total_force_range": 0.005018685602226324,
+          "field": "post",
+          "holdout_is_not_grid_node": true,
+          "interpolated": -0.003523544986658037,
+          "relative_error": null,
+          "vx_m_s": 94.0067399472197,
+          "x_m": 0.0012618573078475026
+        },
+        {
+          "absolute_error": 2.7608061170732568e-08,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": null,
+          "direct": -1.0456839296324415e-07,
+          "error_over_total_force_range": 1.7976304644631934e-07,
+          "field": "post",
+          "holdout_is_not_grid_node": true,
+          "interpolated": -1.3217645413397672e-07,
+          "relative_error": null,
+          "vx_m_s": 12.805861305039784,
+          "x_m": -0.05582573838374096
+        },
+        {
+          "absolute_error": 2.384884579909979e-05,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": null,
+          "direct": 0.0004390941847238161,
+          "error_over_total_force_range": 0.00015528584744007673,
+          "field": "post",
+          "holdout_is_not_grid_node": true,
+          "interpolated": 0.0004629430305229159,
+          "relative_error": null,
+          "vx_m_s": -66.75838783979006,
+          "x_m": -0.024132169628417875
+        },
+        {
+          "absolute_error": 1.4909265461577767e-08,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": null,
+          "direct": 3.835921959980315e-08,
+          "error_over_total_force_range": 9.707798613874894e-08,
+          "field": "post",
+          "holdout_is_not_grid_node": true,
+          "interpolated": 5.3268485061380914e-08,
+          "relative_error": null,
+          "vx_m_s": 80.25045000814964,
+          "x_m": 0.04962696177103282
+        },
+        {
+          "absolute_error": 1.2244068621366632e-05,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": null,
+          "direct": -0.0011786908078850156,
+          "error_over_total_force_range": 7.972421759945875e-05,
+          "field": "post",
+          "holdout_is_not_grid_node": true,
+          "interpolated": -0.0011909348765063823,
+          "relative_error": null,
+          "vx_m_s": 34.535541445323105,
+          "x_m": -0.019798447073026602
+        },
+        {
+          "absolute_error": 9.552384580908213e-09,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": null,
+          "direct": -3.1427027842381587e-07,
+          "error_over_total_force_range": 6.219798422177082e-08,
+          "field": "post",
+          "holdout_is_not_grid_node": true,
+          "interpolated": -3.238226630047241e-07,
+          "relative_error": null,
+          "vx_m_s": 19.769762027656085,
+          "x_m": 0.05527670302016839
+        },
+        {
+          "absolute_error": 4.478776045762895e-07,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": null,
+          "direct": -1.787364866608347e-06,
+          "error_over_total_force_range": 2.916243996121856e-06,
+          "field": "post",
+          "holdout_is_not_grid_node": true,
+          "interpolated": -2.2352424711846365e-06,
+          "relative_error": null,
+          "vx_m_s": 56.34447141427077,
+          "x_m": -0.04796528697203087
+        },
+        {
+          "absolute_error": 2.9930539421133012e-05,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": null,
+          "direct": 7.06797113949695e-05,
+          "error_over_total_force_range": 0.0001948852878458672,
+          "field": "post",
+          "holdout_is_not_grid_node": true,
+          "interpolated": 0.00010061025081610251,
+          "relative_error": null,
+          "vx_m_s": -92.04514751749826,
+          "x_m": 0.027757019907528144
+        },
+        {
+          "absolute_error": 4.922362148003895e-08,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": null,
+          "direct": -2.4746935522950985e-07,
+          "error_over_total_force_range": 3.205074090372095e-07,
+          "field": "post",
+          "holdout_is_not_grid_node": true,
+          "interpolated": -2.966929767095488e-07,
+          "relative_error": null,
+          "vx_m_s": 26.213339401632126,
+          "x_m": 0.05428449717904041
+        },
+        {
+          "absolute_error": 1.667257515226622e-05,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": null,
+          "direct": 0.002937491215021027,
+          "error_over_total_force_range": 0.00010855934007614541,
+          "field": "post",
+          "holdout_is_not_grid_node": true,
+          "interpolated": 0.0029541637901732932,
+          "relative_error": null,
+          "vx_m_s": -82.60440802044471,
+          "x_m": 0.013788018326689175
+        },
+        {
+          "absolute_error": 6.65838253110163e-08,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": null,
+          "direct": -1.5718103876299906e-08,
+          "error_over_total_force_range": 4.3354407279590345e-07,
+          "field": "post",
+          "holdout_is_not_grid_node": true,
+          "interpolated": 5.086572143471638e-08,
+          "relative_error": null,
+          "vx_m_s": -64.76928994619256,
+          "x_m": 0.05243589267217369
+        },
+        {
+          "absolute_error": 0.00012863789335041537,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": null,
+          "direct": 0.010726490422413623,
+          "error_over_total_force_range": 0.0008375937540163672,
+          "field": "post",
+          "holdout_is_not_grid_node": true,
+          "interpolated": 0.010855128315764039,
+          "relative_error": 0.011992542601037432,
+          "vx_m_s": -18.994186655672678,
+          "x_m": -0.007847914432196852
+        },
+        {
+          "absolute_error": 2.151031928682612e-06,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": null,
+          "direct": 7.552696014821944e-06,
+          "error_over_total_force_range": 1.4005911176160582e-05,
+          "field": "post",
+          "holdout_is_not_grid_node": true,
+          "interpolated": 9.703727943504556e-06,
+          "relative_error": null,
+          "vx_m_s": -79.89114517145266,
+          "x_m": 0.0386714794787959
+        },
+        {
+          "absolute_error": 5.663961971574469e-05,
+          "category": "deterministic_pseudorandom",
+          "detuning_gamma": null,
+          "direct": 0.0047207536585949506,
+          "error_over_total_force_range": 0.00036879484316910147,
+          "field": "post",
+          "holdout_is_not_grid_node": true,
+          "interpolated": 0.004664114038879206,
+          "relative_error": null,
+          "vx_m_s": -74.19921197690577,
+          "x_m": -0.013409873808390663
+        }
+      ],
+      "relative_error_floor_normalized": 0.0076790146018628075
+    },
+    "topology": {
+      "chirp_feature_velocity_decreases_with_less_negative_detuning_direct": true,
+      "chirp_feature_velocity_decreases_with_less_negative_detuning_interpolated": true,
+      "features": [
+        {
+          "detuning_gamma": -8.0,
+          "direct_extremum_force": -0.079507123168846,
+          "direct_extremum_velocity_m_s": 85.0,
+          "direct_zero_crossings_m_s": [
+            -38.10396890968901,
+            -33.2035157745053,
+            -1.3322676295501878e-15,
+            33.203515774505064,
+            38.103968909688646
+          ],
+          "extremum_force_error_over_total_range": 0.06186772050546846,
+          "extremum_velocity_displacement_m_s": 2.5,
+          "interpolated_extremum_force": -0.07000546058593682,
+          "interpolated_extremum_velocity_m_s": 87.5,
+          "interpolated_zero_crossings_m_s": [
+            -37.94072749654845,
+            -36.64720578583641,
+            -1.1102230246251565e-15,
+            36.647205785837166,
+            37.94072749654806
+          ],
+          "representative_direct_zero_crossing_m_s": -1.3322676295501878e-15,
+          "representative_interpolated_zero_crossing_m_s": -1.1102230246251565e-15,
+          "zero_crossing_branch_count_preserved": true
+        },
+        {
+          "detuning_gamma": -4.5,
+          "direct_extremum_force": -0.07419459224927527,
+          "direct_extremum_velocity_m_s": 47.5,
+          "direct_zero_crossings_m_s": [
+            -78.71021765745145,
+            -67.3435988866058,
+            -24.237414812334862,
+            0.0,
+            24.23741481233485,
+            67.34359888660582,
+            78.71021765745137
+          ],
+          "extremum_force_error_over_total_range": 0.04895942629409421,
+          "extremum_velocity_displacement_m_s": 2.5,
+          "interpolated_extremum_force": -0.06667538926105177,
+          "interpolated_extremum_velocity_m_s": 50.0,
+          "interpolated_zero_crossings_m_s": [
+            -78.71185194624785,
+            -67.8459785797497,
+            -24.1276640181981,
+            0.0,
+            24.127664018198075,
+            67.84597857974968,
+            78.71185194624779
+          ],
+          "representative_direct_zero_crossing_m_s": 0.0,
+          "representative_interpolated_zero_crossing_m_s": 0.0,
+          "zero_crossing_branch_count_preserved": true
+        },
+        {
+          "detuning_gamma": -1.0,
+          "direct_extremum_force": -0.06677748394128276,
+          "direct_extremum_velocity_m_s": 11.25,
+          "direct_zero_crossings_m_s": [
+            -93.5018515474903,
+            -59.8575676791596,
+            -35.19688344346867,
+            -2.220446049250313e-16,
+            35.19688344346868,
+            59.85756767915959,
+            93.5018515474903
+          ],
+          "extremum_force_error_over_total_range": 0.022256986406052434,
+          "extremum_velocity_displacement_m_s": 1.25,
+          "interpolated_extremum_force": -0.06335924946917199,
+          "interpolated_extremum_velocity_m_s": 12.5,
+          "interpolated_zero_crossings_m_s": [
+            -93.4852458589876,
+            -59.97347868958738,
+            -35.13838823663994,
+            -2.220446049250313e-16,
+            35.13838823663995,
+            59.97347868958738,
+            93.4852458589876
+          ],
+          "representative_direct_zero_crossing_m_s": -2.220446049250313e-16,
+          "representative_interpolated_zero_crossing_m_s": -2.220446049250313e-16,
+          "zero_crossing_branch_count_preserved": true
+        }
+      ],
+      "population_health": {
+        "fallback_count": 0,
+        "maximum_residual_linf": 1.6349768761081407e-16,
+        "maximum_sum_error": 4.440892098500626e-16,
+        "minimum_population": 5.25186432807313e-08,
+        "nonfinite_count": 0,
+        "nullspace_dimensions": [
+          1
+        ],
+        "passed": true,
+        "solves": 608
+      },
+      "post_local_slopes": {
+        "direct_dFdv": -0.005524344092515479,
+        "direct_dFdx": -0.5119813689820567,
+        "interpolated_dFdv": -0.006216311375008683,
+        "interpolated_dFdx": -0.4914553344985903,
+        "relative_errors": {
+          "dFdv": 0.1252578172005431,
+          "dFdx": 0.04009136997363233
+        }
+      },
+      "post_restoring_and_damping_preserved": true,
+      "post_zero_crossing_x_m": {
+        "direct": -1.734723475976807e-18,
+        "interpolated": -1.734723475976807e-18
+      },
+      "refined_slice_strategy": "direct 121-point position and 161-point velocity slices; baseline interpolation evaluated at identical points",
+      "topology_preserved": true
+    }
+  },
+  "velocity_scale_m_s": 7.509370000000001
+}
