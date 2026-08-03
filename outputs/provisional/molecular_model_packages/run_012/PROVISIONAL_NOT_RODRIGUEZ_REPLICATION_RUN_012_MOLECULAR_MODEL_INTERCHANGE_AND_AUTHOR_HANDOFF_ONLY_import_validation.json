@@ -1,0 +1,118 @@
+{
+  "checks": {
+    "branching_column_normalization_error": 2.220446049250313e-16,
+    "branching_vs_dipole_error": 0.0,
+    "dimensions": {
+      "H0_e": [
+        4,
+        4
+      ],
+      "H0_g": [
+        12,
+        12
+      ],
+      "branching": [
+        12,
+        4
+      ],
+      "construction_to_working_e": [
+        4,
+        4
+      ],
+      "construction_to_working_g": [
+        12,
+        12
+      ],
+      "d_q": [
+        3,
+        12,
+        4
+      ],
+      "excited_eigenvalues": [
+        4
+      ],
+      "excited_eigenvectors": [
+        4,
+        4
+      ],
+      "ground_eigenvalues": [
+        12
+      ],
+      "ground_eigenvectors": [
+        12,
+        12
+      ],
+      "mu_q_e": [
+        3,
+        4,
+        4
+      ],
+      "mu_q_g": [
+        3,
+        12,
+        12
+      ],
+      "working_to_canonical_e": [
+        4,
+        4
+      ],
+      "working_to_canonical_g": [
+        12,
+        12
+      ]
+    },
+    "equilibrium_solver_health": {
+      "complex_warning_count": 6,
+      "finite": true,
+      "population_minimum": 2.865537182475426e-05,
+      "population_sum": 1.0,
+      "residual_linf": 2.2290519039944168e-17
+    },
+    "excited_eigenvalue_spectrum_error": 0.0,
+    "excited_eigenvector_residual": 0.0,
+    "excited_working_basis_offdiagonal_H0": 0.0,
+    "full_independent_d_operator_included": false,
+    "ground_eigenvalue_spectrum_error": 0.0,
+    "ground_eigenvector_residual": 8.881784197001252e-16,
+    "ground_working_basis_offdiagonal_H0": 5.476300141679567e-16,
+    "hermiticity": {
+      "H0_e": 0.0,
+      "H0_g": 1.2886255743077447e-16,
+      "mu_q_e[q=0]": 0.0,
+      "mu_q_g[q=0]": 0.0
+    },
+    "magnetic_weak_field_slopes": {
+      "excited": {
+        "finite": true,
+        "maximum_absolute_slope_Gamma_per_G": 0.0
+      },
+      "ground": {
+        "finite": true,
+        "maximum_absolute_slope_Gamma_per_G": 2.4424906541753444e-09
+      }
+    },
+    "phase_rephasing_transition_strength_error": 1.1102230246251565e-16,
+    "transition_strength_sum_by_excited_state": [
+      0.999999881248747,
+      0.999999910512718,
+      0.9999999169172589,
+      0.999999910512718
+    ],
+    "unitarity": {
+      "construction_to_working_e": 0.0,
+      "construction_to_working_g": 2.220446049250313e-16,
+      "excited_eigenvectors": 0.0,
+      "ground_eigenvectors": 0.0,
+      "working_to_canonical_e": 0.0,
+      "working_to_canonical_g": 0.0
+    }
+  },
+  "errors": [],
+  "gate": "IMPORT_VALID",
+  "invalid_package_force_authorized": false,
+  "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY",
+  "package": "C:\\MOTCS\\outputs\\provisional\\molecular_model_packages\\run_012\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_ACCEPTED_PROVISIONAL_REFERENCE_PACKAGE",
+  "package_hash": "1b9394706613011ab54cbd3c143b60e655487fee38fe9207af11750ddd03ae8c",
+  "replication_valid": false,
+  "warnings": []
+}

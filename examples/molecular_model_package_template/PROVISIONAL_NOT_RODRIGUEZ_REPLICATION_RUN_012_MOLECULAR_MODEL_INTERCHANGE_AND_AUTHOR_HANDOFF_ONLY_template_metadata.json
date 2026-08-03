@@ -1,0 +1,33 @@
+{
+  "schema_version": "mgf-mot-molecular-model-v1",
+  "synthetic_template_only": true,
+  "contains_physical_matrix_values": false,
+  "expected_arrays_not_supplied": {
+    "H0_g": {"shape": [12, 12], "units": "REQUIRED", "axes": ["ground_bra", "ground_ket"]},
+    "mu_q_g": {"shape": [3, 12, 12], "units": "REQUIRED", "axes": ["q=-1,0,+1", "ground_bra", "ground_ket"]},
+    "H0_e": {"shape": [4, 4], "units": "REQUIRED", "axes": ["excited_bra", "excited_ket"]},
+    "mu_q_e": {"shape": [3, 4, 4], "units": "REQUIRED", "axes": ["q=-1,0,+1", "excited_bra", "excited_ket"]},
+    "d_q": {"shape": [3, 12, 4], "units": "REQUIRED", "axes": ["q=-1,0,+1", "ground_bra", "excited_ket"]},
+    "branching": {"shape": [12, 4], "units": "probability", "axes": ["ground_destination", "excited_source"]},
+    "ground_eigenvalues": {"shape": [12], "units": "REQUIRED", "axes": ["ground_eigenstate"]},
+    "ground_eigenvectors": {"shape": [12, 12], "units": "dimensionless", "axes": ["ground_working_basis", "ground_eigenstate"]},
+    "excited_eigenvalues": {"shape": [4], "units": "REQUIRED", "axes": ["excited_eigenstate"]},
+    "excited_eigenvectors": {"shape": [4, 4], "units": "dimensionless", "axes": ["excited_working_basis", "excited_eigenstate"]},
+    "construction_to_working_g": {"shape": [12, 12], "units": "dimensionless", "axes": ["ground_construction_basis", "ground_working_basis"]},
+    "construction_to_working_e": {"shape": [4, 4], "units": "dimensionless", "axes": ["excited_construction_basis", "excited_working_basis"]},
+    "working_to_canonical_g": {"shape": [12, 12], "units": "dimensionless", "axes": ["ground_canonical_basis", "ground_working_basis"]},
+    "working_to_canonical_e": {"shape": [4, 4], "units": "dimensionless", "axes": ["excited_canonical_basis", "excited_working_basis"]}
+  },
+  "basis_label_examples_are_synthetic_strings_only": {
+    "ground": [{"index": 0, "label": "SUPPLY_EXACT_GROUND_STATE_LABEL", "F": "SUPPLY", "mF": "SUPPLY"}],
+    "excited": [{"index": 0, "label": "SUPPLY_EXACT_EXCITED_STATE_LABEL", "F": "SUPPLY", "mF": "SUPPLY"}]
+  },
+  "required_global_metadata": [
+    "molecule", "isotopologue", "transition", "linewidth convention",
+    "angular or cyclic frequency", "energy zero", "Hamiltonian sign",
+    "magnetic Hamiltonian convention", "source citation", "source version",
+    "date created", "author or generator", "exact or provisional status",
+    "full independent d operator included"
+  ],
+  "note": "No zero arrays or placeholder physics are provided because they could be mistaken for model data."
+}
