@@ -1,0 +1,244 @@
+{
+  "conjugate_transpose_used_by_complex_reference": true,
+  "eigenvector_and_dipole_transform_audit": {
+    "U_dagger_d_U_vs_U_transpose_d_U_max_amplitude_difference": 0.0,
+    "complex_reference_uses_conjugate_transpose": true,
+    "excited_eigenvector_dtype": "complex128",
+    "excited_eigenvector_max_imaginary": 0.0,
+    "general_complex_rule": "U.conj().T @ d_q @ U",
+    "ground_eigenvector_dtype": "complex128",
+    "ground_eigenvector_max_imaginary": 0.0,
+    "latent_general_complex_basis_limitation": true,
+    "material_for_current_accepted_real_basis": false,
+    "project_static_ground_transform_expression": "ground_transform.T @ bare_dipole",
+    "project_static_ground_transform_is_real": true,
+    "pylcp_dynamic_expression": "U.T @ d_q @ U"
+  },
+  "final_observable_max_imaginary": 0.0,
+  "finite_amplitude_phase_is_preserved": true,
+  "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY",
+  "stages": [
+    {
+      "dtype": "complex128",
+      "expectation": "Hermitian; real in selected MgF basis",
+      "maximum_absolute_imaginary": 0.0,
+      "maximum_absolute_real": 166.3785771750035,
+      "real_conversion_disposition": "real_if_close used at accepted normalization boundary",
+      "shape": [
+        12,
+        12
+      ],
+      "stage": "source_ground_hamiltonian"
+    },
+    {
+      "dtype": "complex128",
+      "expectation": "complex spherical vector allowed; q=0 real here",
+      "maximum_absolute_imaginary": 0.0,
+      "maximum_absolute_real": 1.5400438556422829,
+      "real_conversion_disposition": "accepted named sign translation then real_if_close",
+      "shape": [
+        3,
+        12,
+        12
+      ],
+      "stage": "source_ground_magnetic_tensor"
+    },
+    {
+      "dtype": "complex128",
+      "expectation": "Hermitian, complex container",
+      "maximum_absolute_imaginary": 0.0,
+      "maximum_absolute_real": 7.9606974724882065,
+      "real_conversion_disposition": "no physical cast during complex reference",
+      "shape": [
+        12,
+        12
+      ],
+      "stage": "accepted_ground_hamiltonian"
+    },
+    {
+      "dtype": "complex128",
+      "expectation": "spherical Hermitian tensor",
+      "maximum_absolute_imaginary": 0.0,
+      "maximum_absolute_real": 0.07368630888240588,
+      "real_conversion_disposition": "no physical cast during complex reference",
+      "shape": [
+        3,
+        12,
+        12
+      ],
+      "stage": "accepted_ground_magnetic_tensor"
+    },
+    {
+      "dtype": "complex128",
+      "expectation": "Hermitian effective diagonal splitting",
+      "maximum_absolute_imaginary": 0.0,
+      "maximum_absolute_real": 0.017942583732057503,
+      "real_conversion_disposition": "no physical cast during complex reference",
+      "shape": [
+        4,
+        4
+      ],
+      "stage": "accepted_excited_hamiltonian"
+    },
+    {
+      "dtype": "complex128",
+      "expectation": "spherical Hermitian g'=0.001 tensor",
+      "maximum_absolute_imaginary": 0.0,
+      "maximum_absolute_real": 6.696767902918662e-05,
+      "real_conversion_disposition": "no physical cast during complex reference",
+      "shape": [
+        3,
+        4,
+        4
+      ],
+      "stage": "accepted_excited_magnetic_tensor"
+    },
+    {
+      "dtype": "complex128",
+      "expectation": "unitary and potentially complex",
+      "maximum_absolute_imaginary": 0.0,
+      "maximum_absolute_real": 1.0,
+      "real_conversion_disposition": "must not cast to real",
+      "shape": [
+        12,
+        12
+      ],
+      "stage": "ground_eigenvectors"
+    },
+    {
+      "dtype": "complex128",
+      "expectation": "unitary and potentially complex",
+      "maximum_absolute_imaginary": 0.0,
+      "maximum_absolute_real": 1.0,
+      "real_conversion_disposition": "must not cast to real",
+      "shape": [
+        4,
+        4
+      ],
+      "stage": "excited_eigenvectors"
+    },
+    {
+      "dtype": "complex128",
+      "expectation": "complex spherical amplitudes allowed",
+      "maximum_absolute_imaginary": 0.0,
+      "maximum_absolute_real": 0.5701167606722362,
+      "real_conversion_disposition": "must remain complex until contraction",
+      "shape": [
+        3,
+        12,
+        4
+      ],
+      "stage": "accepted_dipole_tensor"
+    },
+    {
+      "dtype": "complex128",
+      "expectation": "U-dagger d U complex amplitude",
+      "maximum_absolute_imaginary": 0.0,
+      "maximum_absolute_real": 0.5608958748507531,
+      "real_conversion_disposition": "must remain complex",
+      "shape": [
+        3,
+        12,
+        4
+      ],
+      "stage": "complex_rotated_dipole"
+    },
+    {
+      "dtype": "complex128",
+      "expectation": "complex circular-polarization components",
+      "maximum_absolute_imaginary": 0.5000000000000001,
+      "maximum_absolute_real": 0.8535533905932737,
+      "real_conversion_disposition": "must remain complex",
+      "shape": [
+        18,
+        3
+      ],
+      "stage": "spherical_polarizations"
+    },
+    {
+      "dtype": "complex128",
+      "expectation": "coherent complex sum over q",
+      "maximum_absolute_imaginary": 0.27690435965706284,
+      "maximum_absolute_real": 0.47875457574864083,
+      "real_conversion_disposition": "modulus squared only after sum",
+      "shape": [
+        18,
+        12,
+        4
+      ],
+      "stage": "laser_coupling_amplitudes"
+    },
+    {
+      "dtype": "float64",
+      "expectation": "real nonnegative observable",
+      "maximum_absolute_imaginary": 0.0,
+      "maximum_absolute_real": 0.22920594380026107,
+      "real_conversion_disposition": "real conversion mathematically required",
+      "shape": [
+        18,
+        12,
+        4
+      ],
+      "stage": "squared_transition_strengths"
+    },
+    {
+      "dtype": "float64",
+      "expectation": "real probabilities",
+      "maximum_absolute_imaginary": 0.0,
+      "maximum_absolute_real": 0.3146042197842369,
+      "real_conversion_disposition": "real after modulus squared",
+      "shape": [
+        12,
+        4
+      ],
+      "stage": "spontaneous_branching"
+    },
+    {
+      "dtype": "float64",
+      "expectation": "real rates",
+      "maximum_absolute_imaginary": 0.0,
+      "maximum_absolute_real": 0.08299281120145309,
+      "real_conversion_disposition": "real after modulus squared and real detuning denominator",
+      "shape": [
+        18,
+        12,
+        4
+      ],
+      "stage": "pumping_matrices"
+    },
+    {
+      "dtype": "float64",
+      "expectation": "real population generator",
+      "maximum_absolute_imaginary": 0.0,
+      "maximum_absolute_real": 1.5562028175715947,
+      "real_conversion_disposition": "real physical rate equation",
+      "shape": [
+        16,
+        16
+      ],
+      "stage": "equilibrium_rate_matrix"
+    },
+    {
+      "dtype": "float64",
+      "expectation": "real probabilities",
+      "maximum_absolute_imaginary": 0.0,
+      "maximum_absolute_real": 0.10898911340525641,
+      "real_conversion_disposition": "required real within tolerance",
+      "shape": [
+        16
+      ],
+      "stage": "equilibrium_populations"
+    },
+    {
+      "dtype": "float64",
+      "expectation": "real observable",
+      "maximum_absolute_imaginary": 0.0,
+      "maximum_absolute_real": 0.0006015627714721352,
+      "real_conversion_disposition": "required real within tolerance",
+      "shape": [
+        3
+      ],
+      "stage": "normalized_force"
+    }
+  ]
+}

@@ -1,0 +1,563 @@
+{
+  "basis_rephasing": {
+    "all_invariant_within_1e_12": true,
+    "complex_reference_dipole_rotation": "Ug-dagger d Ue",
+    "phase_sets": [
+      {
+        "combined_xv_slope_difference": 2.7755575615628914e-17,
+        "force": 7.676151381197371e-17,
+        "per_laser": 3.903127820947816e-17,
+        "phase_set": "signs_only",
+        "population": 3.608224830031759e-16,
+        "scattering": 6.938893903907228e-17,
+        "spatial_slope_difference": 1.3010426069826053e-18
+      },
+      {
+        "combined_xv_slope_difference": 0.0,
+        "force": 5.843849709696869e-17,
+        "per_laser": 4.85722573273506e-17,
+        "phase_set": "plus_minus_i",
+        "population": 5.828670879282072e-16,
+        "scattering": 9.71445146547012e-17,
+        "spatial_slope_difference": 2.6020852139652106e-18
+      },
+      {
+        "combined_xv_slope_difference": 3.469446951953614e-17,
+        "force": 1.7780915628762273e-16,
+        "per_laser": 1.196959198423997e-16,
+        "phase_set": "deterministic_pseudorandom",
+        "population": 1.609823385706477e-15,
+        "scattering": 1.1102230246251565e-16,
+        "spatial_slope_difference": 2.5153490401663703e-17
+      }
+    ],
+    "transformation_rule": "H'=P-dagger H P, mu'=P-dagger mu P, d'=Pg-dagger d Pe"
+  },
+  "component_4": {
+    "complex_preservation_changes_run011c_conclusion": false,
+    "paper_hierarchy_reproduced": false,
+    "population_redistribution_full_minus_disabled": [
+      {
+        "by_group": {
+          "F0": 0.0018115768426220369,
+          "F2": 0.0024151853748923258,
+          "excited_total": 0.003976739187752654,
+          "lower_F1": 0.01164136696450524,
+          "upper_F1": -0.019844868369772672
+        },
+        "x_normalized": -0.5
+      },
+      {
+        "by_group": {
+          "F0": 0.0018115768426218148,
+          "F2": 0.0024151853748922147,
+          "excited_total": 0.003976739187752626,
+          "lower_F1": 0.011641366964504574,
+          "upper_F1": -0.01984486836977134
+        },
+        "x_normalized": 0.5
+      }
+    ],
+    "systems": {
+      "component4_alone": {
+        "rows": [
+          {
+            "component4_force_by_level": {
+              "F2": -2.8932731959302428e-05,
+              "upper_F1": 3.1740609648359374e-05
+            },
+            "copropagating_force_x": 0.0005410166660432433,
+            "counterpropagating_force_x": -0.0005410167308805609,
+            "force_x": -6.483731758953615e-11,
+            "population_groups": {
+              "F0": 0.05227716301690588,
+              "F2": 0.0875836096842494,
+              "excited_total": 0.0022953335490399104,
+              "lower_F1": 0.8236454999301712,
+              "upper_F1": 0.034198393819633584
+            },
+            "x_normalized": -0.5
+          },
+          {
+            "component4_force_by_level": {
+              "F2": 2.8932731959298402e-05,
+              "upper_F1": -3.174060964834135e-05
+            },
+            "copropagating_force_x": 0.0005410167308805608,
+            "counterpropagating_force_x": -0.00054101666604323,
+            "force_x": 6.483733081680265e-11,
+            "population_groups": {
+              "F0": 0.05227716301690751,
+              "F2": 0.08758360968425391,
+              "excited_total": 0.00229533354903993,
+              "lower_F1": 0.8236454999301677,
+              "upper_F1": 0.0341983938196309
+            },
+            "x_normalized": 0.5
+          }
+        ],
+        "slope": 1.296746484063388e-10
+      },
+      "component4_disabled": {
+        "rows": [
+          {
+            "component4_force_by_level": {
+              "F2": 0.0,
+              "upper_F1": 0.0
+            },
+            "copropagating_force_x": 0.020787979235197818,
+            "counterpropagating_force_x": -0.020221751255940182,
+            "force_x": 0.0005662279792576367,
+            "population_groups": {
+              "F0": 0.089611914803314,
+              "F2": 0.2751221222536971,
+              "excited_total": 0.08699433961119266,
+              "lower_F1": 0.28116752858035643,
+              "upper_F1": 0.2671040947514401
+            },
+            "x_normalized": -0.5
+          },
+          {
+            "component4_force_by_level": {
+              "F2": 0.0,
+              "upper_F1": 0.0
+            },
+            "copropagating_force_x": 0.020221751255940168,
+            "counterpropagating_force_x": -0.020787979235197825,
+            "force_x": -0.0005662279792576557,
+            "population_groups": {
+              "F0": 0.08961191480331421,
+              "F2": 0.27512212225369725,
+              "excited_total": 0.08699433961119263,
+              "lower_F1": 0.2811675285803571,
+              "upper_F1": 0.26710409475143887
+            },
+            "x_normalized": 0.5
+          }
+        ],
+        "slope": -0.0011324559585152924
+      },
+      "three": {
+        "rows": [
+          {
+            "component4_force_by_level": {
+              "F2": 0.0,
+              "upper_F1": 0.0
+            },
+            "copropagating_force_x": 0.02283267658929444,
+            "counterpropagating_force_x": -0.02223111381782232,
+            "force_x": 0.0006015627714721162,
+            "population_groups": {
+              "F0": 0.09765527851595779,
+              "F2": 0.2577133587573438,
+              "excited_total": 0.09559463398522253,
+              "lower_F1": 0.3081210885339591,
+              "upper_F1": 0.24091564020751668
+            },
+            "x_normalized": -0.5
+          },
+          {
+            "component4_force_by_level": {
+              "F2": 0.0,
+              "upper_F1": 0.0
+            },
+            "copropagating_force_x": 0.022231113817822314,
+            "counterpropagating_force_x": -0.02283267658929445,
+            "force_x": -0.0006015627714721352,
+            "population_groups": {
+              "F0": 0.09765527851595791,
+              "F2": 0.25771335875734386,
+              "excited_total": 0.09559463398522254,
+              "lower_F1": 0.308121088533959,
+              "upper_F1": 0.24091564020751668
+            },
+            "x_normalized": 0.5
+          }
+        ],
+        "slope": -0.0012031255429442514
+      },
+      "three_plus_one": {
+        "rows": [
+          {
+            "component4_force_by_level": {
+              "F2": 0.00010099087172279461,
+              "upper_F1": 0.0005867918035335544
+            },
+            "copropagating_force_x": 0.022403313967385777,
+            "counterpropagating_force_x": -0.020481473622586656,
+            "force_x": 0.0019218403447991183,
+            "population_groups": {
+              "F0": 0.09142349164593604,
+              "F2": 0.2775373076285894,
+              "excited_total": 0.09097107879894531,
+              "lower_F1": 0.29280889554486167,
+              "upper_F1": 0.24725922638166742
+            },
+            "x_normalized": -0.5
+          },
+          {
+            "component4_force_by_level": {
+              "F2": -0.00010099087172279449,
+              "upper_F1": -0.0005867918035335569
+            },
+            "copropagating_force_x": 0.020481473622586666,
+            "counterpropagating_force_x": -0.022403313967385787,
+            "force_x": -0.0019218403447991191,
+            "population_groups": {
+              "F0": 0.09142349164593602,
+              "F2": 0.27753730762858947,
+              "excited_total": 0.09097107879894525,
+              "lower_F1": 0.29280889554486167,
+              "upper_F1": 0.24725922638166753
+            },
+            "x_normalized": 0.5
+          }
+        ],
+        "slope": -0.0038436806895982374
+      }
+    }
+  },
+  "dark_state": {
+    "accepted_force": [
+      -0.009636348688261602,
+      2.6020852139652106e-18,
+      1.734723475976807e-18
+    ],
+    "accepted_per_laser_scattering": [
+      0.0013666187070904448,
+      0.0030287698161332367,
+      0.0028946231020059556,
+      0.006012565402789159,
+      0.003231221663619844,
+      0.004860152062168504,
+      0.0060125654027891615,
+      0.003231221663619844,
+      0.004860152062168506,
+      0.0013666187070904452,
+      0.0030287698161332367,
+      0.0028946231020059556,
+      0.0018965313265781173,
+      0.0011200325319395822,
+      0.004503703583056127,
+      0.0018965313265781156,
+      0.0011200325319395828,
+      0.004503703583056127
+    ],
+    "accepted_population_groups": {
+      "F0": 0.07156530102926856,
+      "F2": 0.38647595211528574,
+      "excited_total": 0.057828441857833326,
+      "lower_F1": 0.311259152365703,
+      "upper_F1": 0.17287115263190944
+    },
+    "complex_force": [
+      -0.009636348688261579,
+      3.469446951953614e-18,
+      8.673617379884035e-19
+    ],
+    "complex_per_laser_scattering": [
+      0.001366618707090443,
+      0.0030287698161332328,
+      0.00289462310200596,
+      0.006012565402789156,
+      0.0032312216636198304,
+      0.0048601520621685025,
+      0.006012565402789158,
+      0.0032312216636198312,
+      0.004860152062168504,
+      0.0013666187070904433,
+      0.0030287698161332328,
+      0.0028946231020059604,
+      0.0018965313265781165,
+      0.0011200325319395794,
+      0.0045037035830561255,
+      0.0018965313265781154,
+      0.00112003253193958,
+      0.0045037035830561255
+    ],
+    "complex_population_groups": {
+      "F0": 0.07156530102926832,
+      "F2": 0.38647595211528574,
+      "excited_total": 0.05782844185783332,
+      "lower_F1": 0.31125915236570323,
+      "upper_F1": 0.17287115263190939
+    },
+    "dominant_complex_coupling_amplitude_indices_laser_ground_excited": [
+      [
+        0,
+        3,
+        1
+      ],
+      [
+        5,
+        3,
+        1
+      ],
+      [
+        9,
+        3,
+        1
+      ],
+      [
+        7,
+        3,
+        1
+      ],
+      [
+        4,
+        3,
+        1
+      ],
+      [
+        8,
+        3,
+        1
+      ],
+      [
+        11,
+        1,
+        3
+      ],
+      [
+        1,
+        1,
+        3
+      ],
+      [
+        10,
+        1,
+        3
+      ],
+      [
+        2,
+        1,
+        3
+      ]
+    ],
+    "force_max_difference": 2.2551405187698492e-17,
+    "point": {
+      "v_normalized": 1.4142135623730951,
+      "x_normalized": 6.0
+    },
+    "population_group_max_difference": 2.3592239273284576e-16,
+    "premature_real_cast_strengthens_dark_states_or_cancellation": false,
+    "weakest_coupled_ground_indices": [
+      11,
+      5,
+      10,
+      0
+    ]
+  },
+  "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY",
+  "spherical_polarization": {
+    "all_normalized": true,
+    "all_transverse": true,
+    "beams": [
+      {
+        "beam": "+x_prime",
+        "cartesian_polarization_imag": [
+          -0.4999999999999999,
+          0.4999999999999999,
+          0.0
+        ],
+        "cartesian_polarization_real": [
+          0.0,
+          0.0,
+          0.7071067811865476
+        ],
+        "component_sampled": 1,
+        "finite_complex_phase_present": true,
+        "helicity": 1,
+        "k_vector": [
+          0.7071067811865475,
+          0.7071067811865475,
+          0.0
+        ],
+        "normalization": 0.9999999999999998,
+        "spherical_imag_q_minus1_0_plus1": [
+          0.0,
+          0.49999999999999983,
+          0.0
+        ],
+        "spherical_real_q_minus1_0_plus1": [
+          -0.8535533905932737,
+          0.0,
+          0.14644660940672624
+        ],
+        "transversality_abs_k_dot_epsilon": 0.0
+      },
+      {
+        "beam": "-x_prime",
+        "cartesian_polarization_imag": [
+          0.5,
+          -0.4999999999999999,
+          0.0
+        ],
+        "cartesian_polarization_real": [
+          0.0,
+          -0.0,
+          0.7071067811865476
+        ],
+        "component_sampled": 1,
+        "finite_complex_phase_present": true,
+        "helicity": 1,
+        "k_vector": [
+          -0.7071067811865475,
+          -0.7071067811865475,
+          -0.0
+        ],
+        "normalization": 0.9999999999999999,
+        "spherical_imag_q_minus1_0_plus1": [
+          0.0,
+          -0.49999999999999994,
+          0.0
+        ],
+        "spherical_real_q_minus1_0_plus1": [
+          -0.14644660940672624,
+          0.0,
+          0.8535533905932737
+        ],
+        "transversality_abs_k_dot_epsilon": 5.551115123125783e-17
+      },
+      {
+        "beam": "+y_prime",
+        "cartesian_polarization_imag": [
+          -0.5,
+          -0.4999999999999999,
+          0.0
+        ],
+        "cartesian_polarization_real": [
+          0.0,
+          -0.0,
+          0.7071067811865476
+        ],
+        "component_sampled": 1,
+        "finite_complex_phase_present": true,
+        "helicity": 1,
+        "k_vector": [
+          -0.7071067811865475,
+          0.7071067811865475,
+          0.0
+        ],
+        "normalization": 1.0,
+        "spherical_imag_q_minus1_0_plus1": [
+          0.0,
+          0.5000000000000001,
+          0.0
+        ],
+        "spherical_real_q_minus1_0_plus1": [
+          -0.1464466094067263,
+          0.0,
+          0.8535533905932737
+        ],
+        "transversality_abs_k_dot_epsilon": 5.551115123125783e-17
+      },
+      {
+        "beam": "-y_prime",
+        "cartesian_polarization_imag": [
+          0.4999999999999999,
+          0.4999999999999999,
+          0.0
+        ],
+        "cartesian_polarization_real": [
+          0.0,
+          0.0,
+          0.7071067811865476
+        ],
+        "component_sampled": 1,
+        "finite_complex_phase_present": true,
+        "helicity": 1,
+        "k_vector": [
+          0.7071067811865475,
+          -0.7071067811865475,
+          -0.0
+        ],
+        "normalization": 1.0,
+        "spherical_imag_q_minus1_0_plus1": [
+          0.0,
+          -0.49999999999999994,
+          0.0
+        ],
+        "spherical_real_q_minus1_0_plus1": [
+          -0.8535533905932737,
+          0.0,
+          0.1464466094067263
+        ],
+        "transversality_abs_k_dot_epsilon": 0.0
+      },
+      {
+        "beam": "+z",
+        "cartesian_polarization_imag": [
+          0.0,
+          0.7071067811865475,
+          0.0
+        ],
+        "cartesian_polarization_real": [
+          -0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        "component_sampled": 1,
+        "finite_complex_phase_present": true,
+        "helicity": 1,
+        "k_vector": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "normalization": 0.9999999999999999,
+        "spherical_imag_q_minus1_0_plus1": [
+          6.123233995736766e-17,
+          -8.659560562354932e-17,
+          6.123233995736766e-17
+        ],
+        "spherical_real_q_minus1_0_plus1": [
+          -0.5,
+          0.7071067811865475,
+          -0.5
+        ],
+        "transversality_abs_k_dot_epsilon": 0.0
+      },
+      {
+        "beam": "-z",
+        "cartesian_polarization_imag": [
+          0.0,
+          0.7071067811865475,
+          0.0
+        ],
+        "cartesian_polarization_real": [
+          0.7071067811865475,
+          0.0,
+          0.0
+        ],
+        "component_sampled": 1,
+        "finite_complex_phase_present": true,
+        "helicity": 1,
+        "k_vector": [
+          -0.0,
+          -0.0,
+          -1.0
+        ],
+        "normalization": 0.9999999999999999,
+        "spherical_imag_q_minus1_0_plus1": [
+          -6.123233995736766e-17,
+          -8.659560562354932e-17,
+          -6.123233995736766e-17
+        ],
+        "spherical_real_q_minus1_0_plus1": [
+          -0.5,
+          -0.7071067811865475,
+          -0.5
+        ],
+        "transversality_abs_k_dot_epsilon": 0.0
+      }
+    ],
+    "complex_circular_polarization_preserved_until_coherent_sum": true,
+    "modulus_squared_applied_after_sum_over_q": true,
+    "quantization_axis": [
+      -1.0,
+      -0.0,
+      0.0
+    ]
+  }
+}

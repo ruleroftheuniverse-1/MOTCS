@@ -1,0 +1,1915 @@
+{
+  "all_warning_locations_localized": true,
+  "cases": {
+    "mgf_3": {
+      "active_laser_count": 18,
+      "amplitude_context": {
+        "coupling_amplitude_max_imaginary": 0.27690435965706284,
+        "coupling_amplitude_physical_role": "coherent spherical dipole-polarization amplitude before modulus squared",
+        "detuning_dtype": "float64",
+        "dipole_dtype": "complex128",
+        "excited_energy_dtype": "complex128",
+        "ground_energy_dtype": "float64",
+        "intensity_dtype": "float64",
+        "modulus_squared_strength_dtype": "float64",
+        "polarization_dtype": "complex128",
+        "pre_cast_rate_dtype": "complex128",
+        "wave_vector_dtype": "float64"
+      },
+      "pre_cast_arrays": [
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.01980660950493848,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.02141462391519841,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.03784538526989389,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.02313141875388852,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.024984745998816452,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.08299281120145309,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.02313141875388852,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.024984745998816452,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.08299281120145309,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.01980660950493848,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.02141462391519841,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.03784538526989389,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.015190738444430023,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.01594717203071921,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.03208118093702868,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.015190738444430023,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.01594717203071921,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.032081180937029156,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        }
+      ],
+      "unique_locations": [
+        "C:\\MOTCS\\.venv\\Lib\\site-packages\\pylcp\\rateeq.py:264"
+      ],
+      "warning_count": 18
+    },
+    "mgf_3_plus_1": {
+      "active_laser_count": 24,
+      "amplitude_context": {
+        "coupling_amplitude_max_imaginary": 0.27690435965706284,
+        "coupling_amplitude_physical_role": "coherent spherical dipole-polarization amplitude before modulus squared",
+        "detuning_dtype": "float64",
+        "dipole_dtype": "complex128",
+        "excited_energy_dtype": "complex128",
+        "ground_energy_dtype": "float64",
+        "intensity_dtype": "float64",
+        "modulus_squared_strength_dtype": "float64",
+        "polarization_dtype": "complex128",
+        "pre_cast_rate_dtype": "complex128",
+        "wave_vector_dtype": "float64"
+      },
+      "pre_cast_arrays": [
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.01980660950493848,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.02141462391519841,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.028416777174972225,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.0049253454489979216,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.02313141875388852,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.024984745998816452,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.06231640149036443,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.007275275191630775,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.02313141875388852,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.024984745998816452,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.06231640149036443,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.007275275191630775,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.01980660950493848,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.02141462391519841,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.028416777174972225,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.0049253454489979216,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.015190738444430023,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.01594717203071921,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.024088637589395234,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.004017547217238375,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.015190738444430023,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.01594717203071921,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.02408863758939559,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        },
+        {
+          "classification": "numerical_roundoff_dtype_promotion",
+          "destination_dtype": "float64",
+          "largest_imaginary_indices": [
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              10,
+              3
+            ]
+          ],
+          "largest_imaginary_values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max_imaginary_over_max_real": 0.0,
+          "maximum_absolute_imaginary": 0.0,
+          "maximum_absolute_real": 0.004017547217238315,
+          "operation": "assign complex128 mathematical pumping-rate expression into pylcp float64 Rijl[laser] slice",
+          "physical_meaning": "ground-to-excited stimulated pumping rates after coherent amplitudes have already been modulus-squared",
+          "rms_imaginary": 0.0,
+          "shape": [
+            12,
+            4
+          ],
+          "source_dtype": "complex128"
+        }
+      ],
+      "unique_locations": [
+        "C:\\MOTCS\\.venv\\Lib\\site-packages\\pylcp\\rateeq.py:264"
+      ],
+      "warning_count": 24
+    }
+  },
+  "disposition_basis": "The warned object is already a physical rate after modulus-squared coupling. Its imaginary part is zero/numerical noise caused by a complex-typed scalar input; finite circular-polarization phase is retained upstream.",
+  "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY",
+  "maximum_discarded_absolute_imaginary": 0.0,
+  "minimal_exception_capture": {
+    "diagnostic_only": false,
+    "full_traceback": "Traceback (most recent call last):\n  File \"C:\\MOTCS\\scripts\\audit_complex_number_fidelity.py\", line 108, in _warning_exception_trace\n    backend.force_at(position, velocity, optical, collect_solver_diagnostics=True)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\MOTCS\\src\\mgf_mot\\rateeq_backend.py\", line 517, in force_at\n    populations, evolution_matrix, pumping_rates = equation.equilibrium_populations(\n                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        position,\n        ^^^^^^^^^\n    ...<2 lines>...\n        return_details=True,\n        ^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\MOTCS\\.venv\\Lib\\site-packages\\pylcp\\rateeq.py\", line 373, in equilibrium_populations\n    Rev, Rijl = self.construct_evolution_matrix(r, v, t, **kwargs)\n                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^\n  File \"C:\\MOTCS\\.venv\\Lib\\site-packages\\pylcp\\rateeq.py\", line 332, in construct_evolution_matrix\n    Bhat = self._calc_pumping_rates(r, v, t, Bhat)\n  File \"C:\\MOTCS\\.venv\\Lib\\site-packages\\pylcp\\rateeq.py\", line 264, in _calc_pumping_rates\n    self.Rijl[key][ll] = gamma*intensity/2*\\\n    ~~~~~~~~~~~~~~^^^^\nnumpy.exceptions.ComplexWarning: Casting complex values to real discards the imaginary part\n",
+    "function": "pylcp.rateeq._calc_pumping_rates",
+    "installed_source_file": "C:\\MOTCS\\.venv\\Lib\\site-packages\\pylcp\\rateeq.py",
+    "message": "Casting complex values to real discards the imaginary part",
+    "minimal_operation": "accepted plane-wave [3+1] force_at at x=+0.5 natural position units, v=0, with warning promoted to exception",
+    "origin": "pylcp",
+    "source_file": "pylcp\\rateeq",
+    "source_line": 264,
+    "warning_class": "numpy.exceptions.ComplexWarning"
+  },
+  "warning_disposition": "WARNING_IS_NUMERICAL_ROUNDOFF",
+  "warning_globally_suppressed": false,
+  "warning_origin_classification": "pylcp force-calculation path, not plotting or serialization"
+}

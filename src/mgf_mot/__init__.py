@@ -109,6 +109,13 @@ from .paper_rateeq_reference import (
     PaperRateEquationResult,
     evaluate_paper_rate_equations,
 )
+from .complex_fidelity_reference import (
+    ComplexFidelityResult,
+    ComplexModelMatrices,
+    evaluate_complex_fidelity,
+    matrices_from_hamiltonian,
+    rephase_matrices,
+)
 from .static_acceptance import RUN009A_LABEL, AcceptanceGate, decide_acceptance_gate
 from .tracks import BackendProvenance, ProjectTrack
 from .trajectory import (
@@ -206,6 +213,11 @@ __all__ = [
     "RateEquationBackendConfig",
     "PaperRateEquationResult",
     "evaluate_paper_rate_equations",
+    "ComplexFidelityResult",
+    "ComplexModelMatrices",
+    "evaluate_complex_fidelity",
+    "matrices_from_hamiltonian",
+    "rephase_matrices",
     "RUN009A_LABEL",
     "AcceptanceGate",
     "decide_acceptance_gate",

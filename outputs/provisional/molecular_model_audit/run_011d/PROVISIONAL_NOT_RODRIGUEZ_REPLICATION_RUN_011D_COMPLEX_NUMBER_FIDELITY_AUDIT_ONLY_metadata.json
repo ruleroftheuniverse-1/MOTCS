@@ -1,0 +1,575 @@
+{
+  "accepted_caches_rebuilt": 0,
+  "accepted_physics_objects_modified": false,
+  "basis_rephasing_and_polarization_file": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY_basis_rephasing_and_polarization_audit.json",
+  "basis_rephasing_invariant": true,
+  "candidate_diagnosis_update": {
+    "demonstrated": [
+      "PYLCP_COMPLEX_DTYPE_TO_REAL_RATE_CAST_WARNING",
+      "LATENT_GENERAL_COMPLEX_BASIS_TRANSPOSE_LIMITATION"
+    ],
+    "likely": [
+      "EXCITED_HYPERFINE_EIGENVECTOR_DIFFERENCE",
+      "DIPOLE_TENSOR_DIFFERENCE",
+      "UNPUBLISHED_PAPER_MODEL_MATRIX_DIFFERENCE"
+    ],
+    "note": "The transpose expression is not generally complex-covariant, but actual accepted matrices/eigenvectors are real to the relevant precision and the U-dagger complex path is numerically identical in force observables.",
+    "ruled_out_as_run011b_force_discrepancy_causes": [
+      "COMPLEX_CAST_OR_PHASE_ERROR",
+      "BASIS_CONJUGATION_ERROR",
+      "SPHERICAL_POLARIZATION_COMPLEXITY_ERROR",
+      "RATE_EQUATION_WRAPPER_MISMATCH"
+    ],
+    "unresolved": [
+      "SPONTANEOUS_BRANCHING_DIFFERENCE",
+      "MULTIPLE_MATRIX_DIFFERENCES"
+    ]
+  },
+  "capture_authorized": false,
+  "capture_velocity_authorized": false,
+  "complex_polarization_preserved": true,
+  "component_4_fidelity": {
+    "complex_preservation_changes_run011c_conclusion": false,
+    "paper_hierarchy_reproduced": false,
+    "population_redistribution_full_minus_disabled": [
+      {
+        "by_group": {
+          "F0": 0.0018115768426220369,
+          "F2": 0.0024151853748923258,
+          "excited_total": 0.003976739187752654,
+          "lower_F1": 0.01164136696450524,
+          "upper_F1": -0.019844868369772672
+        },
+        "x_normalized": -0.5
+      },
+      {
+        "by_group": {
+          "F0": 0.0018115768426218148,
+          "F2": 0.0024151853748922147,
+          "excited_total": 0.003976739187752626,
+          "lower_F1": 0.011641366964504574,
+          "upper_F1": -0.01984486836977134
+        },
+        "x_normalized": 0.5
+      }
+    ],
+    "systems": {
+      "component4_alone": {
+        "rows": [
+          {
+            "component4_force_by_level": {
+              "F2": -2.8932731959302428e-05,
+              "upper_F1": 3.1740609648359374e-05
+            },
+            "copropagating_force_x": 0.0005410166660432433,
+            "counterpropagating_force_x": -0.0005410167308805609,
+            "force_x": -6.483731758953615e-11,
+            "population_groups": {
+              "F0": 0.05227716301690588,
+              "F2": 0.0875836096842494,
+              "excited_total": 0.0022953335490399104,
+              "lower_F1": 0.8236454999301712,
+              "upper_F1": 0.034198393819633584
+            },
+            "x_normalized": -0.5
+          },
+          {
+            "component4_force_by_level": {
+              "F2": 2.8932731959298402e-05,
+              "upper_F1": -3.174060964834135e-05
+            },
+            "copropagating_force_x": 0.0005410167308805608,
+            "counterpropagating_force_x": -0.00054101666604323,
+            "force_x": 6.483733081680265e-11,
+            "population_groups": {
+              "F0": 0.05227716301690751,
+              "F2": 0.08758360968425391,
+              "excited_total": 0.00229533354903993,
+              "lower_F1": 0.8236454999301677,
+              "upper_F1": 0.0341983938196309
+            },
+            "x_normalized": 0.5
+          }
+        ],
+        "slope": 1.296746484063388e-10
+      },
+      "component4_disabled": {
+        "rows": [
+          {
+            "component4_force_by_level": {
+              "F2": 0.0,
+              "upper_F1": 0.0
+            },
+            "copropagating_force_x": 0.020787979235197818,
+            "counterpropagating_force_x": -0.020221751255940182,
+            "force_x": 0.0005662279792576367,
+            "population_groups": {
+              "F0": 0.089611914803314,
+              "F2": 0.2751221222536971,
+              "excited_total": 0.08699433961119266,
+              "lower_F1": 0.28116752858035643,
+              "upper_F1": 0.2671040947514401
+            },
+            "x_normalized": -0.5
+          },
+          {
+            "component4_force_by_level": {
+              "F2": 0.0,
+              "upper_F1": 0.0
+            },
+            "copropagating_force_x": 0.020221751255940168,
+            "counterpropagating_force_x": -0.020787979235197825,
+            "force_x": -0.0005662279792576557,
+            "population_groups": {
+              "F0": 0.08961191480331421,
+              "F2": 0.27512212225369725,
+              "excited_total": 0.08699433961119263,
+              "lower_F1": 0.2811675285803571,
+              "upper_F1": 0.26710409475143887
+            },
+            "x_normalized": 0.5
+          }
+        ],
+        "slope": -0.0011324559585152924
+      },
+      "three": {
+        "rows": [
+          {
+            "component4_force_by_level": {
+              "F2": 0.0,
+              "upper_F1": 0.0
+            },
+            "copropagating_force_x": 0.02283267658929444,
+            "counterpropagating_force_x": -0.02223111381782232,
+            "force_x": 0.0006015627714721162,
+            "population_groups": {
+              "F0": 0.09765527851595779,
+              "F2": 0.2577133587573438,
+              "excited_total": 0.09559463398522253,
+              "lower_F1": 0.3081210885339591,
+              "upper_F1": 0.24091564020751668
+            },
+            "x_normalized": -0.5
+          },
+          {
+            "component4_force_by_level": {
+              "F2": 0.0,
+              "upper_F1": 0.0
+            },
+            "copropagating_force_x": 0.022231113817822314,
+            "counterpropagating_force_x": -0.02283267658929445,
+            "force_x": -0.0006015627714721352,
+            "population_groups": {
+              "F0": 0.09765527851595791,
+              "F2": 0.25771335875734386,
+              "excited_total": 0.09559463398522254,
+              "lower_F1": 0.308121088533959,
+              "upper_F1": 0.24091564020751668
+            },
+            "x_normalized": 0.5
+          }
+        ],
+        "slope": -0.0012031255429442514
+      },
+      "three_plus_one": {
+        "rows": [
+          {
+            "component4_force_by_level": {
+              "F2": 0.00010099087172279461,
+              "upper_F1": 0.0005867918035335544
+            },
+            "copropagating_force_x": 0.022403313967385777,
+            "counterpropagating_force_x": -0.020481473622586656,
+            "force_x": 0.0019218403447991183,
+            "population_groups": {
+              "F0": 0.09142349164593604,
+              "F2": 0.2775373076285894,
+              "excited_total": 0.09097107879894531,
+              "lower_F1": 0.29280889554486167,
+              "upper_F1": 0.24725922638166742
+            },
+            "x_normalized": -0.5
+          },
+          {
+            "component4_force_by_level": {
+              "F2": -0.00010099087172279449,
+              "upper_F1": -0.0005867918035335569
+            },
+            "copropagating_force_x": 0.020481473622586666,
+            "counterpropagating_force_x": -0.022403313967385787,
+            "force_x": -0.0019218403447991191,
+            "population_groups": {
+              "F0": 0.09142349164593602,
+              "F2": 0.27753730762858947,
+              "excited_total": 0.09097107879894525,
+              "lower_F1": 0.29280889554486167,
+              "upper_F1": 0.24725922638166753
+            },
+            "x_normalized": 0.5
+          }
+        ],
+        "slope": -0.0038436806895982374
+      }
+    }
+  },
+  "conjugate_transpose_audit": {
+    "U_dagger_d_U_vs_U_transpose_d_U_max_amplitude_difference": 0.0,
+    "complex_reference_uses_conjugate_transpose": true,
+    "excited_eigenvector_dtype": "complex128",
+    "excited_eigenvector_max_imaginary": 0.0,
+    "general_complex_rule": "U.conj().T @ d_q @ U",
+    "ground_eigenvector_dtype": "complex128",
+    "ground_eigenvector_max_imaginary": 0.0,
+    "latent_general_complex_basis_limitation": true,
+    "material_for_current_accepted_real_basis": false,
+    "project_static_ground_transform_expression": "ground_transform.T @ bare_dipole",
+    "project_static_ground_transform_is_real": true,
+    "pylcp_dynamic_expression": "U.T @ d_q @ U"
+  },
+  "dark_state_fidelity": {
+    "accepted_force": [
+      -0.009636348688261602,
+      2.6020852139652106e-18,
+      1.734723475976807e-18
+    ],
+    "accepted_per_laser_scattering": [
+      0.0013666187070904448,
+      0.0030287698161332367,
+      0.0028946231020059556,
+      0.006012565402789159,
+      0.003231221663619844,
+      0.004860152062168504,
+      0.0060125654027891615,
+      0.003231221663619844,
+      0.004860152062168506,
+      0.0013666187070904452,
+      0.0030287698161332367,
+      0.0028946231020059556,
+      0.0018965313265781173,
+      0.0011200325319395822,
+      0.004503703583056127,
+      0.0018965313265781156,
+      0.0011200325319395828,
+      0.004503703583056127
+    ],
+    "accepted_population_groups": {
+      "F0": 0.07156530102926856,
+      "F2": 0.38647595211528574,
+      "excited_total": 0.057828441857833326,
+      "lower_F1": 0.311259152365703,
+      "upper_F1": 0.17287115263190944
+    },
+    "complex_force": [
+      -0.009636348688261579,
+      3.469446951953614e-18,
+      8.673617379884035e-19
+    ],
+    "complex_per_laser_scattering": [
+      0.001366618707090443,
+      0.0030287698161332328,
+      0.00289462310200596,
+      0.006012565402789156,
+      0.0032312216636198304,
+      0.0048601520621685025,
+      0.006012565402789158,
+      0.0032312216636198312,
+      0.004860152062168504,
+      0.0013666187070904433,
+      0.0030287698161332328,
+      0.0028946231020059604,
+      0.0018965313265781165,
+      0.0011200325319395794,
+      0.0045037035830561255,
+      0.0018965313265781154,
+      0.00112003253193958,
+      0.0045037035830561255
+    ],
+    "complex_population_groups": {
+      "F0": 0.07156530102926832,
+      "F2": 0.38647595211528574,
+      "excited_total": 0.05782844185783332,
+      "lower_F1": 0.31125915236570323,
+      "upper_F1": 0.17287115263190939
+    },
+    "dominant_complex_coupling_amplitude_indices_laser_ground_excited": [
+      [
+        0,
+        3,
+        1
+      ],
+      [
+        5,
+        3,
+        1
+      ],
+      [
+        9,
+        3,
+        1
+      ],
+      [
+        7,
+        3,
+        1
+      ],
+      [
+        4,
+        3,
+        1
+      ],
+      [
+        8,
+        3,
+        1
+      ],
+      [
+        11,
+        1,
+        3
+      ],
+      [
+        1,
+        1,
+        3
+      ],
+      [
+        10,
+        1,
+        3
+      ],
+      [
+        2,
+        1,
+        3
+      ]
+    ],
+    "force_max_difference": 2.2551405187698492e-17,
+    "point": {
+      "v_normalized": 1.4142135623730951,
+      "x_normalized": 6.0
+    },
+    "population_group_max_difference": 2.3592239273284576e-16,
+    "premature_real_cast_strengthens_dark_states_or_cancellation": false,
+    "weakest_coupled_ground_indices": [
+      11,
+      5,
+      10,
+      0
+    ]
+  },
+  "dtype_ledger_file": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY_dtype_and_imaginary_content_ledger.json",
+  "exact_replication_valid": false,
+  "exact_track_blocked": true,
+  "final_observables_real": true,
+  "gate": "COMPLEX_FIDELITY_RULED_OUT",
+  "gate_basis": "warning rate objects carry no finite imaginary content; U-dagger complex results agree with accepted force observables; deterministic rephasing and complex polarization tests pass; component-4 and dark-state discrepancies remain",
+  "generated_files": [
+    "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY.md",
+    "molecular_model_audit\\run_011d\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY_metadata.json",
+    "molecular_model_audit\\run_011d\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY_warning_trace_and_cast_ledger.json",
+    "molecular_model_audit\\run_011d\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY_dtype_and_imaginary_content_ledger.json",
+    "molecular_model_audit\\run_011d\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY_three_path_comparison.json",
+    "molecular_model_audit\\run_011d\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY_basis_rephasing_and_polarization_audit.json"
+  ],
+  "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY",
+  "maximum_discarded_absolute_imaginary": 0.0,
+  "optimizer_authorized": false,
+  "protected_artifacts_unchanged": true,
+  "protected_hashes_after": {
+    "configs\\provisional_force_field_run_010.yaml": "23935fe573a27928c2f855c1562e8a786092ea7379a40646907911fff3b94eb1",
+    "configs\\provisional_named_trajectory_run_011.yaml": "ff2f904d73ee139cb36af24ab45d90c801f44ea6dc12198bfcd2a5278418c2f5",
+    "configs\\rodriguez_baseline_linear_chirp.yaml": "c428695e839de3172ac17e1d30c424a31733bc32dc1d0e7e72b2fa56c9b524b4",
+    "configs\\rodriguez_chirp_to_3_plus_1_handoff.yaml": "f9930c08e5605faa5ea4fe63fc0bff846bc59e785ea6b6a20a152f4458cfc750",
+    "configs\\rodriguez_figure2_sign_calibration_run_011c.yaml": "93c3a319c42fcd5e7c3f7dfb188155fbaad489d7cd8060e3993d18b9c9eb16a9",
+    "configs\\rodriguez_figure_digitization_run_011b.yaml": "62eca00215ebe5770edf08d05ab34a6c62f5dbc2db8106699395dd0ccc51986b",
+    "configs\\rodriguez_gaussian_baseline.yaml": "8498253a5f58d3d7187ac26aa5f52f8d14ccbff19ea741eaccd9b0cfdb1d89a3",
+    "configs\\rodriguez_named_trajectory_protocol.yaml": "580db303fe2774ddda093258773da9e262c446deab50ced08a4164ff1338104a",
+    "configs\\rodriguez_static_3.yaml": "22b9d4f6ff2e1634aaaad7808289c4a4b39c6b63e65763c881c23901c58e4077",
+    "configs\\rodriguez_static_3_plus_1.yaml": "06ed7c00d1df87d2fb929ec6511dc8158e0248a1fb0c7109ba2c6caca81a6f80",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_combined_comparison.png": "fd593020f78105828a626a54b8fa4305ce4f970bd8377e02db8f02e134d73436",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_metadata.json": "2b87c82f6370137b8dd416ac4977a7be70e3b3d84532cf75d87f59e77269fde0",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_pathwise_interpolation_validation.json": "2150d552dcfa1ddb1c56f824940fd5df7a479fb15f435bec5f45c540d4ced8c2",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k.npz": "db20381ae2028815dcc0f453a945333c697a1a66d9d18184b1d7392186b713ee",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k_diagnostics.png": "5c81a20e537b8d032c626572c842bb4ef2ddcb72d3fe6331d7dbb0cadf911b80",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k_metadata.json": "3009a9f6bbe54e433271d243690e61aba7ece2b723179a5ec35cc9945e84c65b",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k.npz": "753b714ee01ef0c8f784b3f0ea9fd022d7321c3f8fcce466d2a05676fba0ac7c",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k_diagnostics.png": "219196d3dc4cc009b1347c60f77f8a5e24d8294c3ee1f60568f5c62921305bef",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k_metadata.json": "62f6d3dfc8c4b6b5151ae07597223074ade23a29f49259054ff9a96e51d2c8c4",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k.npz": "fd5969786282cb3816c07028424d322ae6c6f7fa3bb244e0b38dca9716ee245c",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k_diagnostics.png": "ef010c4c71a833aabbc08ee9103d1426ce7297a9991035d1c85afe2e54e48694",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k_metadata.json": "ac7aa8b88440783a48f62b1695f4d38848284f0ac9740478cb040a3b91430826",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k.npz": "6267a91b621793218ed2385e8ab2991e9e459616ffc048e46ca3ffab6466be17",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k_diagnostics.png": "7b95f421180a2eec1d2790af2ae4def03d6a99c6b5d5e15e25b7d72f9a659362",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k_metadata.json": "5a3975703be82e1df8c47c92159982f2aea1d4d9b0e4e5ca2fdb4945a805ebd9",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k.npz": "3eb6b6a4933e58683ad93945f362a8585f95a33cf578ca560751c94041bb94ec",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k_diagnostics.png": "63432075d78a715c630ff4407fb65486eef783bad9d688507d24bee23ddb00b2",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k_metadata.json": "a28ea7672197a6ffa54ea03d8819747e78184ad54f85972089b603b40303dd55",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_EXCITED_HYPERFINE_D_TERM_SENSITIVITY_ONLY_run_009D.md": "e284fa089f7a628020ff9b89622d8db983d65ee12e7e5a94ef946258aec91f71",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_EXCITED_HYPERFINE_D_TERM_SENSITIVITY_ONLY_run_009D_arrays.npz": "13edff9ae682b8c93868cfe6d2cb0d349a2a3ceb52e26af05cba7609973575e6",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_EXCITED_HYPERFINE_D_TERM_SENSITIVITY_ONLY_run_009D_comparison.png": "f2c8f65585f8e245e6872bea5dbb58b3ed9a20010885e1f044df5c0f272a0049",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_EXCITED_HYPERFINE_D_TERM_SENSITIVITY_ONLY_run_009D_metadata.json": "b145b699199f4089728c490d90f66ff27168ea98faaab782b77a4a7d35e97048",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_EXCITED_ZEEMAN_SENSITIVITY_ONLY_run_009C.md": "0e34e66bfd60ae0cb96f2f33c695d91b81d2f3a7b86ad6e4a79caa0cc6e55689",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_EXCITED_ZEEMAN_SENSITIVITY_ONLY_run_009C_arrays.npz": "c4bb306298b1b1282b2e77727a30277ce6fc59b1b1aa0212d3ff64931abf7646",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_EXCITED_ZEEMAN_SENSITIVITY_ONLY_run_009C_comparison.png": "3871d4424e2a4009d84e58e910589c59cd1e1ea160eecb662a5aa818cd695cfe",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_EXCITED_ZEEMAN_SENSITIVITY_ONLY_run_009C_metadata.json": "c4c14fb77f4334c82a251ca3e77c3e07b77685af9c9d6762f0b5c8bade4f3051",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_run_010.md": "f9b9c7a5f4cd8669d7eba5faeae5cbb8958c8b1fbb73fc767f57bdd629af4199",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_run_010_metadata.json": "3071720c63fe36a1b0de0bb3246deabbb030690e77d56cef7dad73e21f5efa81",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_run_010_validation.png": "bef7b2cd9705922781a2c1fd2cc70c457499233dec9373d2c3f63862f366b3dc",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY.md": "191aed932273bb94b56eb923cfc135be54d5a20461abb5b078326dec2e108d93",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_corrected_static_arrays.npz": "1ed327500c2b7ccabf7394178e6725929e8e57c97a2414d55d16792681caf889",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_corrected_static_metadata.json": "960ee60553385a6a500c80cf06302c2920fce3b5fddfd6582fccde58288c94ff",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_diagnostics.png": "036ada1d3add0fd7e18eabb22372003e2c4cb23d273c01a62d5abaa5c5b4961f",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_gaussian_3.png": "9fbc7107c7a70e8d296befecb90e80a3ecd31b9b292d857e2b1c99416955120e",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_gaussian_3_plus_1.png": "d6c12a33431f112cf0e0be0d768744935a8790002a5ee1c6e75a42d03a9a9d46",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_gaussian_chirp_minus_1_gamma.png": "8ee94a9f2e42dd87ea702f762743a52e2145169bd48cb7eb1cc1854e6a8fed5b",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_gaussian_chirp_minus_4p5_gamma.png": "aef0b5dce66346caac36c91a05e1cb383bad4a7d9c805824c966444a6e8fffe8",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_gaussian_chirp_minus_8_gamma.png": "997adca92d22262ac7c75beec414a9c810c9ce7b896ded5418a41966d71c7d86",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_metadata.json": "962c5084de5a6851f5d103e317ec75fd04fda9b793071e5c7ca42e891aeabd59",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_plane_wave_3.png": "9ebd43c3e349fdf7d3fa3fa6b4a29158e67e868f2c8b7e69edbd971ff8c8aa1f",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_plane_wave_3_plus_1.png": "f972010ba5bf323abbb7163eebe79c2179370d33e591210b08d7cf1cd618005e",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY.md": "938d8a20a6a53861c2bdcb880be6ec6f188a865c23c01fcb5dc34c088e760b93",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY_diagnostics.png": "01d908cf4c604716c095e4637529ed0adc3bac85a4b135de9318d39f04a724c3",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY_metadata.json": "93ad81dfcefeaa948e534f2836ffe1c3f674d180dc980cf2e2121d308365d7dd",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY.md": "9b524b770ec1af4a0cf248b04bbc33ea793854536628c6d2fb65dc871176d9f3",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_comparison.png": "6673ebc29e1779c7a5ea2209bc8cf8246b873347560add7ada10ffe40d5b55d0",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_comparison_metadata.json": "e8b0398bce33411dc5b08d22420ccca5fc950a6f060adb82345622930f2edffa",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY.md": "2db1de730ef708bc4737a62455424efd31ce740b6f64e998b3465ea9a9621cf4",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_post_handoff_trap_3_plus_1_run_010.npz": "b8ff2e8ddecd955e4909a9050667e765e1e92997201c36d2a1ede5c118ab09a3",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_post_handoff_trap_3_plus_1_run_010_metadata.json": "eb0814492e8a3166e58a54f444655cb365e87a40a01bec4e2b494e4697182814",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_pre_handoff_chirp_3_run_010.npz": "da385440e60a6387d8fcf9e864baec2cffa4d4c04904cabd089bc54ce1865004",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_pre_handoff_chirp_3_run_010_metadata.json": "4622064509b2e290c9f0cf052111f6031add462e97c0aa7c22653a471abc3ad4",
+    "outputs\\provisional\\molecular_model_audit\\run_011c\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_accepted_molecular_matrices.npz": "6b406a64174bef7e62e4ed40e066851d2a26b24165b2d6eca3b42d95dd790689",
+    "outputs\\provisional\\molecular_model_audit\\run_011c\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_accepted_molecular_matrices_metadata.json": "4ac2d6a5ede155fb8bc7809ec471df52ae6cfd6464b0f5c4903d93cc82dc02f6",
+    "outputs\\provisional\\molecular_model_audit\\run_011c\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_metadata.json": "b3290635bfe108130cef3ac13454895e45bb5ba69a985810963c3052b8532767",
+    "outputs\\provisional\\molecular_model_audit\\run_011c\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_state_resolved_diagnostics.json": "eba5884450c5cf74b0adc9f92a7672df515d1f93a6acd2870886d4904649a9ed",
+    "outputs\\provisional\\molecular_model_audit\\run_011c\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_transition_ledger.csv": "712f79f5e99107c8e81513c840399c497438e20adca3b30cc9a916f216ca1f02",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_accepted_plane_wave_model_samples.npz": "205a8abceb2e0c338f780a824d831ae41cb575076029a219a467938655d2b16a",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_digitization_metadata.json": "8a2b17db247d255aba346ec3e9340b53e14750fe5530f3f335c3bca585b3e783",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_2_mgf_3_digitized.npz": "aa347d2058f5ee3d99d5d2a6f3c717a089ad85587e83ad328e2ae98cdbe910e2",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_2_mgf_3_panel.png": "71ac93cb7b4f40921dd27940d372791e17b85f8b6e17a247f1c56357eefd8c5a",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_2_mgf_3_plus_1_digitized.npz": "356245f086d1c3ecb863e7f5f2059d3880a8676aa3a2b9609542db5fdb17b432",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_2_mgf_3_plus_1_panel.png": "2387853ee674339b9cea8190b154f5b685405b2ef1f642e91afb5b5822dd54f9",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_2_gamma_digitized.npz": "de2c6245439036275b702eb6966b5882908dfdfa7e8a94e8be37c7c58c059978",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_2_gamma_panel.png": "510f9bb712be0316895b7f9c40041a55316b8ea42663e8dd42e933b1cd3b66af",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_4_gamma_digitized.npz": "a8c878146854b5d94cc5509701d7101ac3a5c2a8b7db5022964b6916140fc749",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_4_gamma_panel.png": "6af01b95ea37d76a0e13dfd7d3048c2ce3e5e292423a4251e874d46ca0b79f78",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_6_gamma_digitized.npz": "56e53ceba5c1bbab65b0d86a64ae83c52f37a54581840417c0d5216784eb3d92",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_6_gamma_panel.png": "cf8b23558113cf26a73c6f3f76e7bbbf0c16473cc781dc7802627fcb1bd85c72",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_8_gamma_digitized.npz": "4432283be9c9c0bb5664d72f695d6ca3fe55737b7beb591cd71fdcfee94d247a",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_8_gamma_panel.png": "877ccdeafd72932144ca5a14df74b3fa8e1753e51c07ecff9d5572c6d6f2c628",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_4a_panel.png": "14c46d4c472c863b3270018a3dc12cf5cc29f47f3ecc932c861c51a66a686f16",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_4a_thick_trajectory_digitized.npz": "be2d9b54dfa14eae500350fe3b9f6b18e48f614fc0198597eae773a2acb2a43f",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_page_4_300dpi.png": "ce1fea103db642e340a93c7fc6e40534506c553b2173aec58ba9a399f7154bbb",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_page_5_300dpi.png": "420c3929b4893140c6f4cf0b8ae3f75b562fd072443db8ad129b8c56bdd04e20",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_page_6_300dpi.png": "77cb2a9b9571bfb62576defab37e246dec7a5e73239585b889e5df1139501b3a",
+    "src\\mgf_mot\\accepted_backend.py": "ffd79a25ec8f1a3821513ffd131f62284a12dba3e8e797967e8491c761468fd0",
+    "src\\mgf_mot\\rateeq_backend.py": "7c3da589bb797d0529a5c6d829dce869df6daff03c89489b3a82edabb82af211",
+    "src\\mgf_mot\\spectroscopy.py": "3b2a339bed6ef1dcf78d27dfbd9980a93f47268061e02e1a0d09e2c2f83ae065"
+  },
+  "protected_hashes_before": {
+    "configs\\provisional_force_field_run_010.yaml": "23935fe573a27928c2f855c1562e8a786092ea7379a40646907911fff3b94eb1",
+    "configs\\provisional_named_trajectory_run_011.yaml": "ff2f904d73ee139cb36af24ab45d90c801f44ea6dc12198bfcd2a5278418c2f5",
+    "configs\\rodriguez_baseline_linear_chirp.yaml": "c428695e839de3172ac17e1d30c424a31733bc32dc1d0e7e72b2fa56c9b524b4",
+    "configs\\rodriguez_chirp_to_3_plus_1_handoff.yaml": "f9930c08e5605faa5ea4fe63fc0bff846bc59e785ea6b6a20a152f4458cfc750",
+    "configs\\rodriguez_figure2_sign_calibration_run_011c.yaml": "93c3a319c42fcd5e7c3f7dfb188155fbaad489d7cd8060e3993d18b9c9eb16a9",
+    "configs\\rodriguez_figure_digitization_run_011b.yaml": "62eca00215ebe5770edf08d05ab34a6c62f5dbc2db8106699395dd0ccc51986b",
+    "configs\\rodriguez_gaussian_baseline.yaml": "8498253a5f58d3d7187ac26aa5f52f8d14ccbff19ea741eaccd9b0cfdb1d89a3",
+    "configs\\rodriguez_named_trajectory_protocol.yaml": "580db303fe2774ddda093258773da9e262c446deab50ced08a4164ff1338104a",
+    "configs\\rodriguez_static_3.yaml": "22b9d4f6ff2e1634aaaad7808289c4a4b39c6b63e65763c881c23901c58e4077",
+    "configs\\rodriguez_static_3_plus_1.yaml": "06ed7c00d1df87d2fb929ec6511dc8158e0248a1fb0c7109ba2c6caca81a6f80",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_combined_comparison.png": "fd593020f78105828a626a54b8fa4305ce4f970bd8377e02db8f02e134d73436",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_metadata.json": "2b87c82f6370137b8dd416ac4977a7be70e3b3d84532cf75d87f59e77269fde0",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_pathwise_interpolation_validation.json": "2150d552dcfa1ddb1c56f824940fd5df7a479fb15f435bec5f45c540d4ced8c2",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k.npz": "db20381ae2028815dcc0f453a945333c697a1a66d9d18184b1d7392186b713ee",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k_diagnostics.png": "5c81a20e537b8d032c626572c842bb4ef2ddcb72d3fe6331d7dbb0cadf911b80",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k_metadata.json": "3009a9f6bbe54e433271d243690e61aba7ece2b723179a5ec35cc9945e84c65b",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k.npz": "753b714ee01ef0c8f784b3f0ea9fd022d7321c3f8fcce466d2a05676fba0ac7c",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k_diagnostics.png": "219196d3dc4cc009b1347c60f77f8a5e24d8294c3ee1f60568f5c62921305bef",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k_metadata.json": "62f6d3dfc8c4b6b5151ae07597223074ade23a29f49259054ff9a96e51d2c8c4",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k.npz": "fd5969786282cb3816c07028424d322ae6c6f7fa3bb244e0b38dca9716ee245c",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k_diagnostics.png": "ef010c4c71a833aabbc08ee9103d1426ce7297a9991035d1c85afe2e54e48694",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k_metadata.json": "ac7aa8b88440783a48f62b1695f4d38848284f0ac9740478cb040a3b91430826",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k.npz": "6267a91b621793218ed2385e8ab2991e9e459616ffc048e46ca3ffab6466be17",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k_diagnostics.png": "7b95f421180a2eec1d2790af2ae4def03d6a99c6b5d5e15e25b7d72f9a659362",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k_metadata.json": "5a3975703be82e1df8c47c92159982f2aea1d4d9b0e4e5ca2fdb4945a805ebd9",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k.npz": "3eb6b6a4933e58683ad93945f362a8585f95a33cf578ca560751c94041bb94ec",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k_diagnostics.png": "63432075d78a715c630ff4407fb65486eef783bad9d688507d24bee23ddb00b2",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k_metadata.json": "a28ea7672197a6ffa54ea03d8819747e78184ad54f85972089b603b40303dd55",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_EXCITED_HYPERFINE_D_TERM_SENSITIVITY_ONLY_run_009D.md": "e284fa089f7a628020ff9b89622d8db983d65ee12e7e5a94ef946258aec91f71",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_EXCITED_HYPERFINE_D_TERM_SENSITIVITY_ONLY_run_009D_arrays.npz": "13edff9ae682b8c93868cfe6d2cb0d349a2a3ceb52e26af05cba7609973575e6",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_EXCITED_HYPERFINE_D_TERM_SENSITIVITY_ONLY_run_009D_comparison.png": "f2c8f65585f8e245e6872bea5dbb58b3ed9a20010885e1f044df5c0f272a0049",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_EXCITED_HYPERFINE_D_TERM_SENSITIVITY_ONLY_run_009D_metadata.json": "b145b699199f4089728c490d90f66ff27168ea98faaab782b77a4a7d35e97048",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_EXCITED_ZEEMAN_SENSITIVITY_ONLY_run_009C.md": "0e34e66bfd60ae0cb96f2f33c695d91b81d2f3a7b86ad6e4a79caa0cc6e55689",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_EXCITED_ZEEMAN_SENSITIVITY_ONLY_run_009C_arrays.npz": "c4bb306298b1b1282b2e77727a30277ce6fc59b1b1aa0212d3ff64931abf7646",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_EXCITED_ZEEMAN_SENSITIVITY_ONLY_run_009C_comparison.png": "3871d4424e2a4009d84e58e910589c59cd1e1ea160eecb662a5aa818cd695cfe",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_EXCITED_ZEEMAN_SENSITIVITY_ONLY_run_009C_metadata.json": "c4c14fb77f4334c82a251ca3e77c3e07b77685af9c9d6762f0b5c8bade4f3051",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_run_010.md": "f9b9c7a5f4cd8669d7eba5faeae5cbb8958c8b1fbb73fc767f57bdd629af4199",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_run_010_metadata.json": "3071720c63fe36a1b0de0bb3246deabbb030690e77d56cef7dad73e21f5efa81",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_run_010_validation.png": "bef7b2cd9705922781a2c1fd2cc70c457499233dec9373d2c3f63862f366b3dc",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY.md": "191aed932273bb94b56eb923cfc135be54d5a20461abb5b078326dec2e108d93",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_corrected_static_arrays.npz": "1ed327500c2b7ccabf7394178e6725929e8e57c97a2414d55d16792681caf889",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_corrected_static_metadata.json": "960ee60553385a6a500c80cf06302c2920fce3b5fddfd6582fccde58288c94ff",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_diagnostics.png": "036ada1d3add0fd7e18eabb22372003e2c4cb23d273c01a62d5abaa5c5b4961f",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_gaussian_3.png": "9fbc7107c7a70e8d296befecb90e80a3ecd31b9b292d857e2b1c99416955120e",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_gaussian_3_plus_1.png": "d6c12a33431f112cf0e0be0d768744935a8790002a5ee1c6e75a42d03a9a9d46",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_gaussian_chirp_minus_1_gamma.png": "8ee94a9f2e42dd87ea702f762743a52e2145169bd48cb7eb1cc1854e6a8fed5b",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_gaussian_chirp_minus_4p5_gamma.png": "aef0b5dce66346caac36c91a05e1cb383bad4a7d9c805824c966444a6e8fffe8",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_gaussian_chirp_minus_8_gamma.png": "997adca92d22262ac7c75beec414a9c810c9ce7b896ded5418a41966d71c7d86",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_metadata.json": "962c5084de5a6851f5d103e317ec75fd04fda9b793071e5c7ca42e891aeabd59",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_plane_wave_3.png": "9ebd43c3e349fdf7d3fa3fa6b4a29158e67e868f2c8b7e69edbd971ff8c8aa1f",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_plane_wave_3_plus_1.png": "f972010ba5bf323abbb7163eebe79c2179370d33e591210b08d7cf1cd618005e",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY.md": "938d8a20a6a53861c2bdcb880be6ec6f188a865c23c01fcb5dc34c088e760b93",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY_diagnostics.png": "01d908cf4c604716c095e4637529ed0adc3bac85a4b135de9318d39f04a724c3",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY_metadata.json": "93ad81dfcefeaa948e534f2836ffe1c3f674d180dc980cf2e2121d308365d7dd",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY.md": "9b524b770ec1af4a0cf248b04bbc33ea793854536628c6d2fb65dc871176d9f3",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_comparison.png": "6673ebc29e1779c7a5ea2209bc8cf8246b873347560add7ada10ffe40d5b55d0",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_comparison_metadata.json": "e8b0398bce33411dc5b08d22420ccca5fc950a6f060adb82345622930f2edffa",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY.md": "2db1de730ef708bc4737a62455424efd31ce740b6f64e998b3465ea9a9621cf4",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_post_handoff_trap_3_plus_1_run_010.npz": "b8ff2e8ddecd955e4909a9050667e765e1e92997201c36d2a1ede5c118ab09a3",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_post_handoff_trap_3_plus_1_run_010_metadata.json": "eb0814492e8a3166e58a54f444655cb365e87a40a01bec4e2b494e4697182814",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_pre_handoff_chirp_3_run_010.npz": "da385440e60a6387d8fcf9e864baec2cffa4d4c04904cabd089bc54ce1865004",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_pre_handoff_chirp_3_run_010_metadata.json": "4622064509b2e290c9f0cf052111f6031add462e97c0aa7c22653a471abc3ad4",
+    "outputs\\provisional\\molecular_model_audit\\run_011c\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_accepted_molecular_matrices.npz": "6b406a64174bef7e62e4ed40e066851d2a26b24165b2d6eca3b42d95dd790689",
+    "outputs\\provisional\\molecular_model_audit\\run_011c\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_accepted_molecular_matrices_metadata.json": "4ac2d6a5ede155fb8bc7809ec471df52ae6cfd6464b0f5c4903d93cc82dc02f6",
+    "outputs\\provisional\\molecular_model_audit\\run_011c\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_metadata.json": "b3290635bfe108130cef3ac13454895e45bb5ba69a985810963c3052b8532767",
+    "outputs\\provisional\\molecular_model_audit\\run_011c\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_state_resolved_diagnostics.json": "eba5884450c5cf74b0adc9f92a7672df515d1f93a6acd2870886d4904649a9ed",
+    "outputs\\provisional\\molecular_model_audit\\run_011c\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_transition_ledger.csv": "712f79f5e99107c8e81513c840399c497438e20adca3b30cc9a916f216ca1f02",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_accepted_plane_wave_model_samples.npz": "205a8abceb2e0c338f780a824d831ae41cb575076029a219a467938655d2b16a",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_digitization_metadata.json": "8a2b17db247d255aba346ec3e9340b53e14750fe5530f3f335c3bca585b3e783",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_2_mgf_3_digitized.npz": "aa347d2058f5ee3d99d5d2a6f3c717a089ad85587e83ad328e2ae98cdbe910e2",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_2_mgf_3_panel.png": "71ac93cb7b4f40921dd27940d372791e17b85f8b6e17a247f1c56357eefd8c5a",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_2_mgf_3_plus_1_digitized.npz": "356245f086d1c3ecb863e7f5f2059d3880a8676aa3a2b9609542db5fdb17b432",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_2_mgf_3_plus_1_panel.png": "2387853ee674339b9cea8190b154f5b685405b2ef1f642e91afb5b5822dd54f9",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_2_gamma_digitized.npz": "de2c6245439036275b702eb6966b5882908dfdfa7e8a94e8be37c7c58c059978",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_2_gamma_panel.png": "510f9bb712be0316895b7f9c40041a55316b8ea42663e8dd42e933b1cd3b66af",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_4_gamma_digitized.npz": "a8c878146854b5d94cc5509701d7101ac3a5c2a8b7db5022964b6916140fc749",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_4_gamma_panel.png": "6af01b95ea37d76a0e13dfd7d3048c2ce3e5e292423a4251e874d46ca0b79f78",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_6_gamma_digitized.npz": "56e53ceba5c1bbab65b0d86a64ae83c52f37a54581840417c0d5216784eb3d92",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_6_gamma_panel.png": "cf8b23558113cf26a73c6f3f76e7bbbf0c16473cc781dc7802627fcb1bd85c72",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_8_gamma_digitized.npz": "4432283be9c9c0bb5664d72f695d6ca3fe55737b7beb591cd71fdcfee94d247a",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_8_gamma_panel.png": "877ccdeafd72932144ca5a14df74b3fa8e1753e51c07ecff9d5572c6d6f2c628",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_4a_panel.png": "14c46d4c472c863b3270018a3dc12cf5cc29f47f3ecc932c861c51a66a686f16",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_4a_thick_trajectory_digitized.npz": "be2d9b54dfa14eae500350fe3b9f6b18e48f614fc0198597eae773a2acb2a43f",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_page_4_300dpi.png": "ce1fea103db642e340a93c7fc6e40534506c553b2173aec58ba9a399f7154bbb",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_page_5_300dpi.png": "420c3929b4893140c6f4cf0b8ae3f75b562fd072443db8ad129b8c56bdd04e20",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_page_6_300dpi.png": "77cb2a9b9571bfb62576defab37e246dec7a5e73239585b889e5df1139501b3a",
+    "src\\mgf_mot\\accepted_backend.py": "ffd79a25ec8f1a3821513ffd131f62284a12dba3e8e797967e8491c761468fd0",
+    "src\\mgf_mot\\rateeq_backend.py": "7c3da589bb797d0529a5c6d829dce869df6daff03c89489b3a82edabb82af211",
+    "src\\mgf_mot\\spectroscopy.py": "3b2a339bed6ef1dcf78d27dfbd9980a93f47268061e02e1a0d09e2c2f83ae065"
+  },
+  "pylcp_source_modified": false,
+  "replication_valid": false,
+  "three_path_comparison_file": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY_three_path_comparison.json",
+  "three_path_maximum_differences": {
+    "accepted_vs_complex_force_max": 4.163336342344337e-17,
+    "accepted_vs_complex_per_laser_scattering_max": 4.85722573273506e-17,
+    "accepted_vs_complex_population_group_max": 1.2212453270876722e-15,
+    "accepted_vs_complex_total_scattering": 1.249000902703301e-16,
+    "paper_vs_complex_force_max": 1.3877787807814457e-17
+  },
+  "track": "provisional",
+  "trajectories_integrated": 0,
+  "warning_analysis_file": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY_warning_trace_and_cast_ledger.json",
+  "warning_disposition": "WARNING_IS_NUMERICAL_ROUNDOFF",
+  "warning_globally_suppressed": false
+}
