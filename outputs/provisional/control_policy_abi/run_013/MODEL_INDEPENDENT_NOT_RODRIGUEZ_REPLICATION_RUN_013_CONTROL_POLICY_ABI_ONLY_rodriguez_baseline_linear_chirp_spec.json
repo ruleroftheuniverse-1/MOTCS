@@ -1,0 +1,378 @@
+{
+  "component_order": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "control_channels": [
+    {
+      "affine_offset": null,
+      "affine_scale": null,
+      "channel_id": "chirp_shared_linear_detuning_123",
+      "description": "Rodriguez common linear detuning channel for components 1,2,3",
+      "field": "detuning_gamma",
+      "fixed_value": null,
+      "parameter_names": [
+        "chirp_initial_detuning_gamma",
+        "chirp_final_detuning_gamma",
+        "chirp_duration_s"
+      ],
+      "relationship": "SHARED",
+      "signal_kind": "LINEAR_HOLD",
+      "source_channel_id": null,
+      "targets": [
+        {
+          "component_id": 1,
+          "field": "detuning_gamma",
+          "segment_id": "linear_chirp"
+        },
+        {
+          "component_id": 2,
+          "field": "detuning_gamma",
+          "segment_id": "linear_chirp"
+        },
+        {
+          "component_id": 3,
+          "field": "detuning_gamma",
+          "segment_id": "linear_chirp"
+        }
+      ]
+    },
+    {
+      "affine_offset": null,
+      "affine_scale": null,
+      "channel_id": "chirp_component_4_parked_detuning",
+      "description": "Parked component 4 frequency, not optical activity",
+      "field": "detuning_gamma",
+      "fixed_value": null,
+      "parameter_names": [
+        "chirp_component_4_detuning_gamma"
+      ],
+      "relationship": "FIXED",
+      "signal_kind": "FIXED",
+      "source_channel_id": null,
+      "targets": [
+        {
+          "component_id": 4,
+          "field": "detuning_gamma",
+          "segment_id": "linear_chirp"
+        }
+      ]
+    },
+    {
+      "affine_offset": null,
+      "affine_scale": null,
+      "channel_id": "chirp_component_1_saturation",
+      "description": "Fixed chirp-stage optical power",
+      "field": "saturation",
+      "fixed_value": null,
+      "parameter_names": [
+        "chirp_component_1_saturation"
+      ],
+      "relationship": "FIXED",
+      "signal_kind": "FIXED",
+      "source_channel_id": null,
+      "targets": [
+        {
+          "component_id": 1,
+          "field": "saturation",
+          "segment_id": "linear_chirp"
+        }
+      ]
+    },
+    {
+      "affine_offset": null,
+      "affine_scale": null,
+      "channel_id": "chirp_component_2_saturation",
+      "description": "Fixed chirp-stage optical power",
+      "field": "saturation",
+      "fixed_value": null,
+      "parameter_names": [
+        "chirp_component_2_saturation"
+      ],
+      "relationship": "FIXED",
+      "signal_kind": "FIXED",
+      "source_channel_id": null,
+      "targets": [
+        {
+          "component_id": 2,
+          "field": "saturation",
+          "segment_id": "linear_chirp"
+        }
+      ]
+    },
+    {
+      "affine_offset": null,
+      "affine_scale": null,
+      "channel_id": "chirp_component_3_saturation",
+      "description": "Fixed chirp-stage optical power",
+      "field": "saturation",
+      "fixed_value": null,
+      "parameter_names": [
+        "chirp_component_3_saturation"
+      ],
+      "relationship": "FIXED",
+      "signal_kind": "FIXED",
+      "source_channel_id": null,
+      "targets": [
+        {
+          "component_id": 3,
+          "field": "saturation",
+          "segment_id": "linear_chirp"
+        }
+      ]
+    },
+    {
+      "affine_offset": null,
+      "affine_scale": null,
+      "channel_id": "chirp_component_4_saturation",
+      "description": "Fixed chirp-stage optical power",
+      "field": "saturation",
+      "fixed_value": null,
+      "parameter_names": [
+        "chirp_component_4_saturation"
+      ],
+      "relationship": "FIXED",
+      "signal_kind": "FIXED",
+      "source_channel_id": null,
+      "targets": [
+        {
+          "component_id": 4,
+          "field": "saturation",
+          "segment_id": "linear_chirp"
+        }
+      ]
+    }
+  ],
+  "detuning_unit": "Gamma",
+  "domain": {
+    "after_maximum": "HOLD_FINAL",
+    "before_minimum": "HOLD_INITIAL",
+    "endpoint_semantics": "t=0 included; finite endpoints use exact values; unbounded final hold",
+    "maximum_time_s": null,
+    "minimum_time_s": 0.0,
+    "unbounded_continuation": true
+  },
+  "events": [
+    {
+      "affected_channel_ids": [
+        "chirp_shared_linear_detuning_123"
+      ],
+      "affected_component_ids": [
+        1,
+        2,
+        3
+      ],
+      "boundary_rule": "t_lt_event_left_t_ge_event_right",
+      "event_id": "chirp_endpoint",
+      "event_time_s": 0.001,
+      "event_type": "CONTINUOUS_CHIRP_TO_HOLD",
+      "left_semantic_label": "linear_chirp",
+      "provenance": "Rodriguez et al., baseline MgF chirp schedule, Track P policy interface only",
+      "right_semantic_label": "final_detuning_hold"
+    }
+  ],
+  "legacy_policy_type": "linear_chirp",
+  "parameter_specs": [
+    {
+      "adjustable": false,
+      "bound_basis": "APPARATUS_ASSUMPTION",
+      "data_type": "float64",
+      "default_value": null,
+      "description": "Common initial chirp detuning",
+      "lower_bound": -10.0,
+      "name": "chirp_initial_detuning_gamma",
+      "shape": [],
+      "units": "Gamma",
+      "upper_bound": 3.0
+    },
+    {
+      "adjustable": false,
+      "bound_basis": "APPARATUS_ASSUMPTION",
+      "data_type": "float64",
+      "default_value": null,
+      "description": "Common final chirp detuning",
+      "lower_bound": -10.0,
+      "name": "chirp_final_detuning_gamma",
+      "shape": [],
+      "units": "Gamma",
+      "upper_bound": 3.0
+    },
+    {
+      "adjustable": false,
+      "bound_basis": "UNKNOWN",
+      "data_type": "float64",
+      "default_value": null,
+      "description": "Linear chirp duration",
+      "lower_bound": null,
+      "name": "chirp_duration_s",
+      "shape": [],
+      "units": "s",
+      "upper_bound": null
+    },
+    {
+      "adjustable": false,
+      "bound_basis": "APPARATUS_ASSUMPTION",
+      "data_type": "float64",
+      "default_value": null,
+      "description": "Parked detuning of inactive component 4",
+      "lower_bound": -10.0,
+      "name": "chirp_component_4_detuning_gamma",
+      "shape": [],
+      "units": "Gamma",
+      "upper_bound": 3.0
+    },
+    {
+      "adjustable": false,
+      "bound_basis": "APPARATUS_ASSUMPTION",
+      "data_type": "float64",
+      "default_value": null,
+      "description": "Fixed saturation of component 1",
+      "lower_bound": 0.0,
+      "name": "chirp_component_1_saturation",
+      "shape": [],
+      "units": "saturation_parameter",
+      "upper_bound": 3.0
+    },
+    {
+      "adjustable": false,
+      "bound_basis": "APPARATUS_ASSUMPTION",
+      "data_type": "float64",
+      "default_value": null,
+      "description": "Fixed saturation of component 2",
+      "lower_bound": 0.0,
+      "name": "chirp_component_2_saturation",
+      "shape": [],
+      "units": "saturation_parameter",
+      "upper_bound": 3.0
+    },
+    {
+      "adjustable": false,
+      "bound_basis": "APPARATUS_ASSUMPTION",
+      "data_type": "float64",
+      "default_value": null,
+      "description": "Fixed saturation of component 3",
+      "lower_bound": 0.0,
+      "name": "chirp_component_3_saturation",
+      "shape": [],
+      "units": "saturation_parameter",
+      "upper_bound": 3.0
+    },
+    {
+      "adjustable": false,
+      "bound_basis": "APPARATUS_ASSUMPTION",
+      "data_type": "float64",
+      "default_value": null,
+      "description": "Fixed saturation of component 4",
+      "lower_bound": 0.0,
+      "name": "chirp_component_4_saturation",
+      "shape": [],
+      "units": "saturation_parameter",
+      "upper_bound": 3.0
+    }
+  ],
+  "parameter_values": {
+    "chirp_component_1_saturation": 1.45,
+    "chirp_component_2_saturation": 1.45,
+    "chirp_component_3_saturation": 2.89,
+    "chirp_component_4_detuning_gamma": 2.0,
+    "chirp_component_4_saturation": 0.0,
+    "chirp_duration_s": 0.001,
+    "chirp_final_detuning_gamma": -1.0,
+    "chirp_initial_detuning_gamma": -8.0
+  },
+  "policy_description": "Legacy-compatible common linear chirp with final hold",
+  "policy_family": "LINEAR_CHIRP",
+  "policy_name": "rodriguez_baseline_linear_chirp",
+  "provenance": {
+    "generation_method": "legacy_v1_to_declarative_v2_adapter",
+    "implementation_version": "run013-control-policy-abi-v2.0",
+    "non_replication_labels": [
+      "MODEL_INDEPENDENT",
+      "NOT_RODRIGUEZ_REPLICATION",
+      "CONTROL_POLICY_ABI_ONLY"
+    ],
+    "notes": [
+      "Converted declaratively from the existing v1 policy object; source YAML was not rewritten."
+    ],
+    "parent_policy_ids": [],
+    "policy_family_id": "LINEAR_CHIRP",
+    "schema_version": "mgf-mot-control-policy-v2",
+    "source_configuration_hashes": [
+      "c428695e839de3172ac17e1d30c424a31733bc32dc1d0e7e72b2fa56c9b524b4"
+    ],
+    "source_configuration_paths": [
+      "C:/MOTCS/configs/rodriguez_baseline_linear_chirp.yaml"
+    ],
+    "units": {
+      "detuning": "Gamma",
+      "saturation": "saturation_parameter",
+      "time": "s"
+    }
+  },
+  "saturation_unit": "saturation_parameter",
+  "schema_version": "mgf-mot-control-policy-v2",
+  "segments": [
+    {
+      "components": [
+        {
+          "active": true,
+          "component_id": 1,
+          "detuning_channel_id": "chirp_shared_linear_detuning_123",
+          "detuning_gamma": -8.0,
+          "enabled": true,
+          "off_reason": null,
+          "polarization": "sigma_plus",
+          "relative_saturation": 0.25,
+          "role": "lower_F1",
+          "saturation": 1.45,
+          "saturation_channel_id": "chirp_component_1_saturation"
+        },
+        {
+          "active": true,
+          "component_id": 2,
+          "detuning_channel_id": "chirp_shared_linear_detuning_123",
+          "detuning_gamma": -8.0,
+          "enabled": true,
+          "off_reason": null,
+          "polarization": "sigma_minus",
+          "relative_saturation": 0.25,
+          "role": "F0",
+          "saturation": 1.45,
+          "saturation_channel_id": "chirp_component_2_saturation"
+        },
+        {
+          "active": true,
+          "component_id": 3,
+          "detuning_channel_id": "chirp_shared_linear_detuning_123",
+          "detuning_gamma": -8.0,
+          "enabled": true,
+          "off_reason": null,
+          "polarization": "sigma_minus",
+          "relative_saturation": 0.5,
+          "role": "upper_F1_F2_mean",
+          "saturation": 2.89,
+          "saturation_channel_id": "chirp_component_3_saturation"
+        },
+        {
+          "active": false,
+          "component_id": 4,
+          "detuning_channel_id": "chirp_component_4_parked_detuning",
+          "detuning_gamma": 2.0,
+          "enabled": false,
+          "off_reason": "parked_off_until_3_plus_1_handoff",
+          "polarization": "sigma_plus",
+          "relative_saturation": 0.0,
+          "role": "upper_F1_F2_mean_confinement",
+          "saturation": 0.0,
+          "saturation_channel_id": "chirp_component_4_saturation"
+        }
+      ],
+      "segment_id": "linear_chirp",
+      "semantic_label": "linear_chirp"
+    }
+  ],
+  "statefulness": "STATELESS_OPEN_LOOP",
+  "time_unit": "s"
+}

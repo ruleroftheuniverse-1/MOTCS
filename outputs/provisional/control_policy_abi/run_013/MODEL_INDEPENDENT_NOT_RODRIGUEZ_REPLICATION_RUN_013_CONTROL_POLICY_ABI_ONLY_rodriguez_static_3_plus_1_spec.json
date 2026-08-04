@@ -1,0 +1,332 @@
+{
+  "component_order": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "control_channels": [
+    {
+      "affine_offset": null,
+      "affine_scale": null,
+      "channel_id": "static_shared_detuning_123",
+      "description": "One shared fixed detuning channel",
+      "field": "detuning_gamma",
+      "fixed_value": null,
+      "parameter_names": [
+        "static_detuning_123_gamma"
+      ],
+      "relationship": "SHARED",
+      "signal_kind": "FIXED",
+      "source_channel_id": null,
+      "targets": [
+        {
+          "component_id": 1,
+          "field": "detuning_gamma",
+          "segment_id": "static"
+        },
+        {
+          "component_id": 2,
+          "field": "detuning_gamma",
+          "segment_id": "static"
+        },
+        {
+          "component_id": 3,
+          "field": "detuning_gamma",
+          "segment_id": "static"
+        }
+      ]
+    },
+    {
+      "affine_offset": null,
+      "affine_scale": null,
+      "channel_id": "static_component_4_detuning",
+      "description": "Explicit fixed/parked detuning",
+      "field": "detuning_gamma",
+      "fixed_value": null,
+      "parameter_names": [
+        "static_component_4_detuning_gamma"
+      ],
+      "relationship": "FIXED",
+      "signal_kind": "FIXED",
+      "source_channel_id": null,
+      "targets": [
+        {
+          "component_id": 4,
+          "field": "detuning_gamma",
+          "segment_id": "static"
+        }
+      ]
+    },
+    {
+      "affine_offset": null,
+      "affine_scale": null,
+      "channel_id": "static_component_1_saturation",
+      "description": "Explicit fixed optical power",
+      "field": "saturation",
+      "fixed_value": null,
+      "parameter_names": [
+        "static_component_1_saturation"
+      ],
+      "relationship": "FIXED",
+      "signal_kind": "FIXED",
+      "source_channel_id": null,
+      "targets": [
+        {
+          "component_id": 1,
+          "field": "saturation",
+          "segment_id": "static"
+        }
+      ]
+    },
+    {
+      "affine_offset": null,
+      "affine_scale": null,
+      "channel_id": "static_component_2_saturation",
+      "description": "Explicit fixed optical power",
+      "field": "saturation",
+      "fixed_value": null,
+      "parameter_names": [
+        "static_component_2_saturation"
+      ],
+      "relationship": "FIXED",
+      "signal_kind": "FIXED",
+      "source_channel_id": null,
+      "targets": [
+        {
+          "component_id": 2,
+          "field": "saturation",
+          "segment_id": "static"
+        }
+      ]
+    },
+    {
+      "affine_offset": null,
+      "affine_scale": null,
+      "channel_id": "static_component_3_saturation",
+      "description": "Explicit fixed optical power",
+      "field": "saturation",
+      "fixed_value": null,
+      "parameter_names": [
+        "static_component_3_saturation"
+      ],
+      "relationship": "FIXED",
+      "signal_kind": "FIXED",
+      "source_channel_id": null,
+      "targets": [
+        {
+          "component_id": 3,
+          "field": "saturation",
+          "segment_id": "static"
+        }
+      ]
+    },
+    {
+      "affine_offset": null,
+      "affine_scale": null,
+      "channel_id": "static_component_4_saturation",
+      "description": "Explicit fixed optical power",
+      "field": "saturation",
+      "fixed_value": null,
+      "parameter_names": [
+        "static_component_4_saturation"
+      ],
+      "relationship": "FIXED",
+      "signal_kind": "FIXED",
+      "source_channel_id": null,
+      "targets": [
+        {
+          "component_id": 4,
+          "field": "saturation",
+          "segment_id": "static"
+        }
+      ]
+    }
+  ],
+  "detuning_unit": "Gamma",
+  "domain": {
+    "after_maximum": "HOLD_FINAL",
+    "before_minimum": "HOLD_INITIAL",
+    "endpoint_semantics": "t=0 included; finite endpoints use exact values; unbounded final hold",
+    "maximum_time_s": null,
+    "minimum_time_s": 0.0,
+    "unbounded_continuation": true
+  },
+  "events": [],
+  "legacy_policy_type": "static",
+  "parameter_specs": [
+    {
+      "adjustable": false,
+      "bound_basis": "UNKNOWN",
+      "data_type": "float64",
+      "default_value": null,
+      "description": "Shared fixed detuning for components 1,2,3",
+      "lower_bound": null,
+      "name": "static_detuning_123_gamma",
+      "shape": [],
+      "units": "Gamma",
+      "upper_bound": null
+    },
+    {
+      "adjustable": false,
+      "bound_basis": "UNKNOWN",
+      "data_type": "float64",
+      "default_value": null,
+      "description": "Fixed detuning of component 4",
+      "lower_bound": null,
+      "name": "static_component_4_detuning_gamma",
+      "shape": [],
+      "units": "Gamma",
+      "upper_bound": null
+    },
+    {
+      "adjustable": false,
+      "bound_basis": "UNKNOWN",
+      "data_type": "float64",
+      "default_value": null,
+      "description": "Fixed saturation of component 1",
+      "lower_bound": null,
+      "name": "static_component_1_saturation",
+      "shape": [],
+      "units": "saturation_parameter",
+      "upper_bound": null
+    },
+    {
+      "adjustable": false,
+      "bound_basis": "UNKNOWN",
+      "data_type": "float64",
+      "default_value": null,
+      "description": "Fixed saturation of component 2",
+      "lower_bound": null,
+      "name": "static_component_2_saturation",
+      "shape": [],
+      "units": "saturation_parameter",
+      "upper_bound": null
+    },
+    {
+      "adjustable": false,
+      "bound_basis": "UNKNOWN",
+      "data_type": "float64",
+      "default_value": null,
+      "description": "Fixed saturation of component 3",
+      "lower_bound": null,
+      "name": "static_component_3_saturation",
+      "shape": [],
+      "units": "saturation_parameter",
+      "upper_bound": null
+    },
+    {
+      "adjustable": false,
+      "bound_basis": "UNKNOWN",
+      "data_type": "float64",
+      "default_value": null,
+      "description": "Fixed saturation of component 4",
+      "lower_bound": null,
+      "name": "static_component_4_saturation",
+      "shape": [],
+      "units": "saturation_parameter",
+      "upper_bound": null
+    }
+  ],
+  "parameter_values": {
+    "static_component_1_saturation": 1.45,
+    "static_component_2_saturation": 1.45,
+    "static_component_3_saturation": 2.17,
+    "static_component_4_detuning_gamma": 2.0,
+    "static_component_4_saturation": 0.72,
+    "static_detuning_123_gamma": -1.0
+  },
+  "policy_description": "Legacy-compatible static four-component schedule",
+  "policy_family": "STATIC",
+  "policy_name": "rodriguez_static_3_plus_1",
+  "provenance": {
+    "generation_method": "legacy_v1_to_declarative_v2_adapter",
+    "implementation_version": "run013-control-policy-abi-v2.0",
+    "non_replication_labels": [
+      "MODEL_INDEPENDENT",
+      "NOT_RODRIGUEZ_REPLICATION",
+      "CONTROL_POLICY_ABI_ONLY"
+    ],
+    "notes": [
+      "Converted declaratively from the existing v1 policy object; source YAML was not rewritten."
+    ],
+    "parent_policy_ids": [],
+    "policy_family_id": "STATIC",
+    "schema_version": "mgf-mot-control-policy-v2",
+    "source_configuration_hashes": [
+      "06ed7c00d1df87d2fb929ec6511dc8158e0248a1fb0c7109ba2c6caca81a6f80"
+    ],
+    "source_configuration_paths": [
+      "C:/MOTCS/configs/rodriguez_static_3_plus_1.yaml"
+    ],
+    "units": {
+      "detuning": "Gamma",
+      "saturation": "saturation_parameter",
+      "time": "s"
+    }
+  },
+  "saturation_unit": "saturation_parameter",
+  "schema_version": "mgf-mot-control-policy-v2",
+  "segments": [
+    {
+      "components": [
+        {
+          "active": true,
+          "component_id": 1,
+          "detuning_channel_id": "static_shared_detuning_123",
+          "detuning_gamma": -1.0,
+          "enabled": true,
+          "off_reason": null,
+          "polarization": "sigma_plus",
+          "relative_saturation": 0.25,
+          "role": "lower_F1",
+          "saturation": 1.45,
+          "saturation_channel_id": "static_component_1_saturation"
+        },
+        {
+          "active": true,
+          "component_id": 2,
+          "detuning_channel_id": "static_shared_detuning_123",
+          "detuning_gamma": -1.0,
+          "enabled": true,
+          "off_reason": null,
+          "polarization": "sigma_minus",
+          "relative_saturation": 0.25,
+          "role": "F0",
+          "saturation": 1.45,
+          "saturation_channel_id": "static_component_2_saturation"
+        },
+        {
+          "active": true,
+          "component_id": 3,
+          "detuning_channel_id": "static_shared_detuning_123",
+          "detuning_gamma": -1.0,
+          "enabled": true,
+          "off_reason": null,
+          "polarization": "sigma_minus",
+          "relative_saturation": 0.375,
+          "role": "upper_F1_F2_mean",
+          "saturation": 2.17,
+          "saturation_channel_id": "static_component_3_saturation"
+        },
+        {
+          "active": true,
+          "component_id": 4,
+          "detuning_channel_id": "static_component_4_detuning",
+          "detuning_gamma": 2.0,
+          "enabled": true,
+          "off_reason": null,
+          "polarization": "sigma_plus",
+          "relative_saturation": 0.125,
+          "role": "upper_F1_F2_mean_confinement",
+          "saturation": 0.72,
+          "saturation_channel_id": "static_component_4_saturation"
+        }
+      ],
+      "segment_id": "static",
+      "semantic_label": "static"
+    }
+  ],
+  "statefulness": "STATELESS_OPEN_LOOP",
+  "time_unit": "s"
+}

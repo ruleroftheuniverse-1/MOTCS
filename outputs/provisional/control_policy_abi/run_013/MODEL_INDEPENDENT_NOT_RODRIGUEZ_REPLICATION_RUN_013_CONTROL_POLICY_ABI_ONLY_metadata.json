@@ -1,0 +1,2366 @@
+{
+  "accepted_track_p_physics_frozen": true,
+  "apparatus_schedule_compiler_authorized": false,
+  "capture_authorized": false,
+  "capture_calculations": 0,
+  "control_policy_abi_authorized": true,
+  "exact_replication_valid": false,
+  "feedback_executions": 0,
+  "feedback_policy_authorized": false,
+  "force_field_queries": 0,
+  "gate": "CONTROL_POLICY_ABI_GO",
+  "label": "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_013_CONTROL_POLICY_ABI_ONLY",
+  "legacy_behavior_gate": "LEGACY_BEHAVIOR_EXACT",
+  "molecular_force_calculations": 0,
+  "open_loop_policy_families_authorized": false,
+  "optimization_run_authorized": false,
+  "optimization_runs": 0,
+  "optimizer_interface_authorized": false,
+  "policies": [
+    {
+      "channel_table": [
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "static_shared_detuning_123",
+          "description": "One shared fixed detuning channel",
+          "field": "detuning_gamma",
+          "fixed_value": null,
+          "parameter_names": [
+            "static_detuning_123_gamma"
+          ],
+          "relationship": "SHARED",
+          "signal_kind": "FIXED",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 1,
+              "field": "detuning_gamma",
+              "segment_id": "static"
+            },
+            {
+              "component_id": 2,
+              "field": "detuning_gamma",
+              "segment_id": "static"
+            },
+            {
+              "component_id": 3,
+              "field": "detuning_gamma",
+              "segment_id": "static"
+            }
+          ]
+        },
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "static_component_4_detuning",
+          "description": "Explicit fixed/parked detuning",
+          "field": "detuning_gamma",
+          "fixed_value": null,
+          "parameter_names": [
+            "static_component_4_detuning_gamma"
+          ],
+          "relationship": "FIXED",
+          "signal_kind": "FIXED",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 4,
+              "field": "detuning_gamma",
+              "segment_id": "static"
+            }
+          ]
+        },
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "static_component_1_saturation",
+          "description": "Explicit fixed optical power",
+          "field": "saturation",
+          "fixed_value": null,
+          "parameter_names": [
+            "static_component_1_saturation"
+          ],
+          "relationship": "FIXED",
+          "signal_kind": "FIXED",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 1,
+              "field": "saturation",
+              "segment_id": "static"
+            }
+          ]
+        },
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "static_component_2_saturation",
+          "description": "Explicit fixed optical power",
+          "field": "saturation",
+          "fixed_value": null,
+          "parameter_names": [
+            "static_component_2_saturation"
+          ],
+          "relationship": "FIXED",
+          "signal_kind": "FIXED",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 2,
+              "field": "saturation",
+              "segment_id": "static"
+            }
+          ]
+        },
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "static_component_3_saturation",
+          "description": "Explicit fixed optical power",
+          "field": "saturation",
+          "fixed_value": null,
+          "parameter_names": [
+            "static_component_3_saturation"
+          ],
+          "relationship": "FIXED",
+          "signal_kind": "FIXED",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 3,
+              "field": "saturation",
+              "segment_id": "static"
+            }
+          ]
+        },
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "static_component_4_saturation",
+          "description": "Explicit fixed optical power",
+          "field": "saturation",
+          "fixed_value": null,
+          "parameter_names": [
+            "static_component_4_saturation"
+          ],
+          "relationship": "FIXED",
+          "signal_kind": "FIXED",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 4,
+              "field": "saturation",
+              "segment_id": "static"
+            }
+          ]
+        }
+      ],
+      "component_order": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "event_table": [],
+      "family": "STATIC",
+      "hash_roundtrip_exact": true,
+      "hashes": {
+        "channel_specification": "c6d18e680c15d35799caef0753c5ac4befea2c5447605ba3c4ab0de4649447b9",
+        "full_policy_package": "ce6764a426ecd130592bb7146930f619d97935ecde2072219fe4e3f1c877365b",
+        "parameter_specification": "caa5d4b189354a8782ab523ecb57b58107b339eb124a3200c3992374263b1e49",
+        "policy_specification": "76a8fddb5c880544ccee0b8d329485ff3b36297d69faf798799fa142bc5727ee"
+      },
+      "legacy_behavior_gate": "LEGACY_BEHAVIOR_EXACT",
+      "name": "rodriguez_static_3",
+      "parameter_table": [
+        {
+          "adjustable": false,
+          "bound_basis": "UNKNOWN",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Shared fixed detuning for components 1,2,3",
+          "lower_bound": null,
+          "name": "static_detuning_123_gamma",
+          "shape": [],
+          "units": "Gamma",
+          "upper_bound": null
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "UNKNOWN",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Fixed detuning of component 4",
+          "lower_bound": null,
+          "name": "static_component_4_detuning_gamma",
+          "shape": [],
+          "units": "Gamma",
+          "upper_bound": null
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "UNKNOWN",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Fixed saturation of component 1",
+          "lower_bound": null,
+          "name": "static_component_1_saturation",
+          "shape": [],
+          "units": "saturation_parameter",
+          "upper_bound": null
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "UNKNOWN",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Fixed saturation of component 2",
+          "lower_bound": null,
+          "name": "static_component_2_saturation",
+          "shape": [],
+          "units": "saturation_parameter",
+          "upper_bound": null
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "UNKNOWN",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Fixed saturation of component 3",
+          "lower_bound": null,
+          "name": "static_component_3_saturation",
+          "shape": [],
+          "units": "saturation_parameter",
+          "upper_bound": null
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "UNKNOWN",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Fixed saturation of component 4",
+          "lower_bound": null,
+          "name": "static_component_4_saturation",
+          "shape": [],
+          "units": "saturation_parameter",
+          "upper_bound": null
+        }
+      ],
+      "sample_comparison": [
+        {
+          "components": [
+            {
+              "active": true,
+              "component_id": 1,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_1_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 2,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_2_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 3,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 2.89,
+              "saturation_channel_id": "static_component_3_saturation"
+            },
+            {
+              "active": false,
+              "component_id": 4,
+              "detuning_channel_id": "static_component_4_detuning",
+              "detuning_gamma": 2.0,
+              "enabled": false,
+              "off_reason": "legacy_v1_explicit_disabled_no_text_reason",
+              "saturation": 0.0,
+              "saturation_channel_id": "static_component_4_saturation"
+            }
+          ],
+          "event_ids_at_time": [],
+          "exact": true,
+          "segment_id": "static",
+          "time_s": -1.0
+        },
+        {
+          "components": [
+            {
+              "active": true,
+              "component_id": 1,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_1_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 2,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_2_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 3,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 2.89,
+              "saturation_channel_id": "static_component_3_saturation"
+            },
+            {
+              "active": false,
+              "component_id": 4,
+              "detuning_channel_id": "static_component_4_detuning",
+              "detuning_gamma": 2.0,
+              "enabled": false,
+              "off_reason": "legacy_v1_explicit_disabled_no_text_reason",
+              "saturation": 0.0,
+              "saturation_channel_id": "static_component_4_saturation"
+            }
+          ],
+          "event_ids_at_time": [],
+          "exact": true,
+          "segment_id": "static",
+          "time_s": 0.0
+        },
+        {
+          "components": [
+            {
+              "active": true,
+              "component_id": 1,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_1_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 2,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_2_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 3,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 2.89,
+              "saturation_channel_id": "static_component_3_saturation"
+            },
+            {
+              "active": false,
+              "component_id": 4,
+              "detuning_channel_id": "static_component_4_detuning",
+              "detuning_gamma": 2.0,
+              "enabled": false,
+              "off_reason": "legacy_v1_explicit_disabled_no_text_reason",
+              "saturation": 0.0,
+              "saturation_channel_id": "static_component_4_saturation"
+            }
+          ],
+          "event_ids_at_time": [],
+          "exact": true,
+          "segment_id": "static",
+          "time_s": 0.123
+        },
+        {
+          "components": [
+            {
+              "active": true,
+              "component_id": 1,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_1_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 2,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_2_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 3,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 2.89,
+              "saturation_channel_id": "static_component_3_saturation"
+            },
+            {
+              "active": false,
+              "component_id": 4,
+              "detuning_channel_id": "static_component_4_detuning",
+              "detuning_gamma": 2.0,
+              "enabled": false,
+              "off_reason": "legacy_v1_explicit_disabled_no_text_reason",
+              "saturation": 0.0,
+              "saturation_channel_id": "static_component_4_saturation"
+            }
+          ],
+          "event_ids_at_time": [],
+          "exact": true,
+          "segment_id": "static",
+          "time_s": 1000.0
+        }
+      ],
+      "schema_roundtrip_exact": true,
+      "serialized_spec_file": "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_013_CONTROL_POLICY_ABI_ONLY_rodriguez_static_3_spec.json",
+      "source_configuration": "configs\\rodriguez_static_3.yaml",
+      "source_hash": "22b9d4f6ff2e1634aaaad7808289c4a4b39c6b63e65763c881c23901c58e4077",
+      "validation_issues": [],
+      "validation_valid": true
+    },
+    {
+      "channel_table": [
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "static_shared_detuning_123",
+          "description": "One shared fixed detuning channel",
+          "field": "detuning_gamma",
+          "fixed_value": null,
+          "parameter_names": [
+            "static_detuning_123_gamma"
+          ],
+          "relationship": "SHARED",
+          "signal_kind": "FIXED",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 1,
+              "field": "detuning_gamma",
+              "segment_id": "static"
+            },
+            {
+              "component_id": 2,
+              "field": "detuning_gamma",
+              "segment_id": "static"
+            },
+            {
+              "component_id": 3,
+              "field": "detuning_gamma",
+              "segment_id": "static"
+            }
+          ]
+        },
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "static_component_4_detuning",
+          "description": "Explicit fixed/parked detuning",
+          "field": "detuning_gamma",
+          "fixed_value": null,
+          "parameter_names": [
+            "static_component_4_detuning_gamma"
+          ],
+          "relationship": "FIXED",
+          "signal_kind": "FIXED",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 4,
+              "field": "detuning_gamma",
+              "segment_id": "static"
+            }
+          ]
+        },
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "static_component_1_saturation",
+          "description": "Explicit fixed optical power",
+          "field": "saturation",
+          "fixed_value": null,
+          "parameter_names": [
+            "static_component_1_saturation"
+          ],
+          "relationship": "FIXED",
+          "signal_kind": "FIXED",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 1,
+              "field": "saturation",
+              "segment_id": "static"
+            }
+          ]
+        },
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "static_component_2_saturation",
+          "description": "Explicit fixed optical power",
+          "field": "saturation",
+          "fixed_value": null,
+          "parameter_names": [
+            "static_component_2_saturation"
+          ],
+          "relationship": "FIXED",
+          "signal_kind": "FIXED",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 2,
+              "field": "saturation",
+              "segment_id": "static"
+            }
+          ]
+        },
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "static_component_3_saturation",
+          "description": "Explicit fixed optical power",
+          "field": "saturation",
+          "fixed_value": null,
+          "parameter_names": [
+            "static_component_3_saturation"
+          ],
+          "relationship": "FIXED",
+          "signal_kind": "FIXED",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 3,
+              "field": "saturation",
+              "segment_id": "static"
+            }
+          ]
+        },
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "static_component_4_saturation",
+          "description": "Explicit fixed optical power",
+          "field": "saturation",
+          "fixed_value": null,
+          "parameter_names": [
+            "static_component_4_saturation"
+          ],
+          "relationship": "FIXED",
+          "signal_kind": "FIXED",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 4,
+              "field": "saturation",
+              "segment_id": "static"
+            }
+          ]
+        }
+      ],
+      "component_order": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "event_table": [],
+      "family": "STATIC",
+      "hash_roundtrip_exact": true,
+      "hashes": {
+        "channel_specification": "c6d18e680c15d35799caef0753c5ac4befea2c5447605ba3c4ab0de4649447b9",
+        "full_policy_package": "1722b131dd89e817e4f1ad5685b26c183ab46989123354a480c265e2ac6e79b4",
+        "parameter_specification": "ba60b3c9383216b3cc8c22b23aa4936486d1d82fec790b7856edfc19be01f531",
+        "policy_specification": "b91871367bf2d26fc14b0fcfadf125f0ff766e6b2e4dd5b27af00100ea904f77"
+      },
+      "legacy_behavior_gate": "LEGACY_BEHAVIOR_EXACT",
+      "name": "rodriguez_static_3_plus_1",
+      "parameter_table": [
+        {
+          "adjustable": false,
+          "bound_basis": "UNKNOWN",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Shared fixed detuning for components 1,2,3",
+          "lower_bound": null,
+          "name": "static_detuning_123_gamma",
+          "shape": [],
+          "units": "Gamma",
+          "upper_bound": null
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "UNKNOWN",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Fixed detuning of component 4",
+          "lower_bound": null,
+          "name": "static_component_4_detuning_gamma",
+          "shape": [],
+          "units": "Gamma",
+          "upper_bound": null
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "UNKNOWN",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Fixed saturation of component 1",
+          "lower_bound": null,
+          "name": "static_component_1_saturation",
+          "shape": [],
+          "units": "saturation_parameter",
+          "upper_bound": null
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "UNKNOWN",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Fixed saturation of component 2",
+          "lower_bound": null,
+          "name": "static_component_2_saturation",
+          "shape": [],
+          "units": "saturation_parameter",
+          "upper_bound": null
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "UNKNOWN",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Fixed saturation of component 3",
+          "lower_bound": null,
+          "name": "static_component_3_saturation",
+          "shape": [],
+          "units": "saturation_parameter",
+          "upper_bound": null
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "UNKNOWN",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Fixed saturation of component 4",
+          "lower_bound": null,
+          "name": "static_component_4_saturation",
+          "shape": [],
+          "units": "saturation_parameter",
+          "upper_bound": null
+        }
+      ],
+      "sample_comparison": [
+        {
+          "components": [
+            {
+              "active": true,
+              "component_id": 1,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_1_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 2,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_2_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 3,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 2.17,
+              "saturation_channel_id": "static_component_3_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 4,
+              "detuning_channel_id": "static_component_4_detuning",
+              "detuning_gamma": 2.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 0.72,
+              "saturation_channel_id": "static_component_4_saturation"
+            }
+          ],
+          "event_ids_at_time": [],
+          "exact": true,
+          "segment_id": "static",
+          "time_s": -1.0
+        },
+        {
+          "components": [
+            {
+              "active": true,
+              "component_id": 1,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_1_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 2,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_2_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 3,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 2.17,
+              "saturation_channel_id": "static_component_3_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 4,
+              "detuning_channel_id": "static_component_4_detuning",
+              "detuning_gamma": 2.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 0.72,
+              "saturation_channel_id": "static_component_4_saturation"
+            }
+          ],
+          "event_ids_at_time": [],
+          "exact": true,
+          "segment_id": "static",
+          "time_s": 0.0
+        },
+        {
+          "components": [
+            {
+              "active": true,
+              "component_id": 1,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_1_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 2,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_2_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 3,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 2.17,
+              "saturation_channel_id": "static_component_3_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 4,
+              "detuning_channel_id": "static_component_4_detuning",
+              "detuning_gamma": 2.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 0.72,
+              "saturation_channel_id": "static_component_4_saturation"
+            }
+          ],
+          "event_ids_at_time": [],
+          "exact": true,
+          "segment_id": "static",
+          "time_s": 0.123
+        },
+        {
+          "components": [
+            {
+              "active": true,
+              "component_id": 1,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_1_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 2,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_2_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 3,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 2.17,
+              "saturation_channel_id": "static_component_3_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 4,
+              "detuning_channel_id": "static_component_4_detuning",
+              "detuning_gamma": 2.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 0.72,
+              "saturation_channel_id": "static_component_4_saturation"
+            }
+          ],
+          "event_ids_at_time": [],
+          "exact": true,
+          "segment_id": "static",
+          "time_s": 1000.0
+        }
+      ],
+      "schema_roundtrip_exact": true,
+      "serialized_spec_file": "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_013_CONTROL_POLICY_ABI_ONLY_rodriguez_static_3_plus_1_spec.json",
+      "source_configuration": "configs\\rodriguez_static_3_plus_1.yaml",
+      "source_hash": "06ed7c00d1df87d2fb929ec6511dc8158e0248a1fb0c7109ba2c6caca81a6f80",
+      "validation_issues": [],
+      "validation_valid": true
+    },
+    {
+      "channel_table": [
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "chirp_shared_linear_detuning_123",
+          "description": "Rodriguez common linear detuning channel for components 1,2,3",
+          "field": "detuning_gamma",
+          "fixed_value": null,
+          "parameter_names": [
+            "chirp_initial_detuning_gamma",
+            "chirp_final_detuning_gamma",
+            "chirp_duration_s"
+          ],
+          "relationship": "SHARED",
+          "signal_kind": "LINEAR_HOLD",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 1,
+              "field": "detuning_gamma",
+              "segment_id": "linear_chirp"
+            },
+            {
+              "component_id": 2,
+              "field": "detuning_gamma",
+              "segment_id": "linear_chirp"
+            },
+            {
+              "component_id": 3,
+              "field": "detuning_gamma",
+              "segment_id": "linear_chirp"
+            }
+          ]
+        },
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "chirp_component_4_parked_detuning",
+          "description": "Parked component 4 frequency, not optical activity",
+          "field": "detuning_gamma",
+          "fixed_value": null,
+          "parameter_names": [
+            "chirp_component_4_detuning_gamma"
+          ],
+          "relationship": "FIXED",
+          "signal_kind": "FIXED",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 4,
+              "field": "detuning_gamma",
+              "segment_id": "linear_chirp"
+            }
+          ]
+        },
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "chirp_component_1_saturation",
+          "description": "Fixed chirp-stage optical power",
+          "field": "saturation",
+          "fixed_value": null,
+          "parameter_names": [
+            "chirp_component_1_saturation"
+          ],
+          "relationship": "FIXED",
+          "signal_kind": "FIXED",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 1,
+              "field": "saturation",
+              "segment_id": "linear_chirp"
+            }
+          ]
+        },
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "chirp_component_2_saturation",
+          "description": "Fixed chirp-stage optical power",
+          "field": "saturation",
+          "fixed_value": null,
+          "parameter_names": [
+            "chirp_component_2_saturation"
+          ],
+          "relationship": "FIXED",
+          "signal_kind": "FIXED",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 2,
+              "field": "saturation",
+              "segment_id": "linear_chirp"
+            }
+          ]
+        },
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "chirp_component_3_saturation",
+          "description": "Fixed chirp-stage optical power",
+          "field": "saturation",
+          "fixed_value": null,
+          "parameter_names": [
+            "chirp_component_3_saturation"
+          ],
+          "relationship": "FIXED",
+          "signal_kind": "FIXED",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 3,
+              "field": "saturation",
+              "segment_id": "linear_chirp"
+            }
+          ]
+        },
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "chirp_component_4_saturation",
+          "description": "Fixed chirp-stage optical power",
+          "field": "saturation",
+          "fixed_value": null,
+          "parameter_names": [
+            "chirp_component_4_saturation"
+          ],
+          "relationship": "FIXED",
+          "signal_kind": "FIXED",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 4,
+              "field": "saturation",
+              "segment_id": "linear_chirp"
+            }
+          ]
+        }
+      ],
+      "component_order": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "event_table": [
+        {
+          "affected_channel_ids": [
+            "chirp_shared_linear_detuning_123"
+          ],
+          "affected_component_ids": [
+            1,
+            2,
+            3
+          ],
+          "boundary_rule": "t_lt_event_left_t_ge_event_right",
+          "event_id": "chirp_endpoint",
+          "event_time_s": 0.001,
+          "event_type": "CONTINUOUS_CHIRP_TO_HOLD",
+          "left_semantic_label": "linear_chirp",
+          "provenance": "Rodriguez et al., baseline MgF chirp schedule, Track P policy interface only",
+          "right_semantic_label": "final_detuning_hold"
+        }
+      ],
+      "family": "LINEAR_CHIRP",
+      "hash_roundtrip_exact": true,
+      "hashes": {
+        "channel_specification": "3e6e67017f39a30e0e2089bdb3ac3af02e2d8c479a318f736c2da914068386a8",
+        "full_policy_package": "88e5224dcfc05b819f689baee3375b28ba5b3dbff40961f6ee2b5a891664ff20",
+        "parameter_specification": "6534d19e82255118f5b5df17408e434f8ee824bc7c45b1ea715d4af3c39b9f55",
+        "policy_specification": "7e87253f245312d51f41d4775c251f2d5055b62d733a952a87677af08fe65f34"
+      },
+      "legacy_behavior_gate": "LEGACY_BEHAVIOR_EXACT",
+      "name": "rodriguez_baseline_linear_chirp",
+      "parameter_table": [
+        {
+          "adjustable": false,
+          "bound_basis": "APPARATUS_ASSUMPTION",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Common initial chirp detuning",
+          "lower_bound": -10.0,
+          "name": "chirp_initial_detuning_gamma",
+          "shape": [],
+          "units": "Gamma",
+          "upper_bound": 3.0
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "APPARATUS_ASSUMPTION",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Common final chirp detuning",
+          "lower_bound": -10.0,
+          "name": "chirp_final_detuning_gamma",
+          "shape": [],
+          "units": "Gamma",
+          "upper_bound": 3.0
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "UNKNOWN",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Linear chirp duration",
+          "lower_bound": null,
+          "name": "chirp_duration_s",
+          "shape": [],
+          "units": "s",
+          "upper_bound": null
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "APPARATUS_ASSUMPTION",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Parked detuning of inactive component 4",
+          "lower_bound": -10.0,
+          "name": "chirp_component_4_detuning_gamma",
+          "shape": [],
+          "units": "Gamma",
+          "upper_bound": 3.0
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "APPARATUS_ASSUMPTION",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Fixed saturation of component 1",
+          "lower_bound": 0.0,
+          "name": "chirp_component_1_saturation",
+          "shape": [],
+          "units": "saturation_parameter",
+          "upper_bound": 3.0
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "APPARATUS_ASSUMPTION",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Fixed saturation of component 2",
+          "lower_bound": 0.0,
+          "name": "chirp_component_2_saturation",
+          "shape": [],
+          "units": "saturation_parameter",
+          "upper_bound": 3.0
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "APPARATUS_ASSUMPTION",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Fixed saturation of component 3",
+          "lower_bound": 0.0,
+          "name": "chirp_component_3_saturation",
+          "shape": [],
+          "units": "saturation_parameter",
+          "upper_bound": 3.0
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "APPARATUS_ASSUMPTION",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Fixed saturation of component 4",
+          "lower_bound": 0.0,
+          "name": "chirp_component_4_saturation",
+          "shape": [],
+          "units": "saturation_parameter",
+          "upper_bound": 3.0
+        }
+      ],
+      "sample_comparison": [
+        {
+          "components": [
+            {
+              "active": true,
+              "component_id": 1,
+              "detuning_channel_id": "chirp_shared_linear_detuning_123",
+              "detuning_gamma": -8.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 1.45,
+              "saturation_channel_id": "chirp_component_1_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 2,
+              "detuning_channel_id": "chirp_shared_linear_detuning_123",
+              "detuning_gamma": -8.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 1.45,
+              "saturation_channel_id": "chirp_component_2_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 3,
+              "detuning_channel_id": "chirp_shared_linear_detuning_123",
+              "detuning_gamma": -8.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 2.89,
+              "saturation_channel_id": "chirp_component_3_saturation"
+            },
+            {
+              "active": false,
+              "component_id": 4,
+              "detuning_channel_id": "chirp_component_4_parked_detuning",
+              "detuning_gamma": 2.0,
+              "enabled": false,
+              "off_reason": "parked_off_until_3_plus_1_handoff",
+              "saturation": 0.0,
+              "saturation_channel_id": "chirp_component_4_saturation"
+            }
+          ],
+          "event_ids_at_time": [],
+          "exact": true,
+          "segment_id": "linear_chirp",
+          "time_s": 0.0
+        },
+        {
+          "components": [
+            {
+              "active": true,
+              "component_id": 1,
+              "detuning_channel_id": "chirp_shared_linear_detuning_123",
+              "detuning_gamma": -7.3,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 1.45,
+              "saturation_channel_id": "chirp_component_1_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 2,
+              "detuning_channel_id": "chirp_shared_linear_detuning_123",
+              "detuning_gamma": -7.3,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 1.45,
+              "saturation_channel_id": "chirp_component_2_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 3,
+              "detuning_channel_id": "chirp_shared_linear_detuning_123",
+              "detuning_gamma": -7.3,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 2.89,
+              "saturation_channel_id": "chirp_component_3_saturation"
+            },
+            {
+              "active": false,
+              "component_id": 4,
+              "detuning_channel_id": "chirp_component_4_parked_detuning",
+              "detuning_gamma": 2.0,
+              "enabled": false,
+              "off_reason": "parked_off_until_3_plus_1_handoff",
+              "saturation": 0.0,
+              "saturation_channel_id": "chirp_component_4_saturation"
+            }
+          ],
+          "event_ids_at_time": [],
+          "exact": true,
+          "segment_id": "linear_chirp",
+          "time_s": 0.0001
+        },
+        {
+          "components": [
+            {
+              "active": true,
+              "component_id": 1,
+              "detuning_channel_id": "chirp_shared_linear_detuning_123",
+              "detuning_gamma": -4.5,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 1.45,
+              "saturation_channel_id": "chirp_component_1_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 2,
+              "detuning_channel_id": "chirp_shared_linear_detuning_123",
+              "detuning_gamma": -4.5,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 1.45,
+              "saturation_channel_id": "chirp_component_2_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 3,
+              "detuning_channel_id": "chirp_shared_linear_detuning_123",
+              "detuning_gamma": -4.5,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 2.89,
+              "saturation_channel_id": "chirp_component_3_saturation"
+            },
+            {
+              "active": false,
+              "component_id": 4,
+              "detuning_channel_id": "chirp_component_4_parked_detuning",
+              "detuning_gamma": 2.0,
+              "enabled": false,
+              "off_reason": "parked_off_until_3_plus_1_handoff",
+              "saturation": 0.0,
+              "saturation_channel_id": "chirp_component_4_saturation"
+            }
+          ],
+          "event_ids_at_time": [],
+          "exact": true,
+          "segment_id": "linear_chirp",
+          "time_s": 0.0005
+        },
+        {
+          "components": [
+            {
+              "active": true,
+              "component_id": 1,
+              "detuning_channel_id": "chirp_shared_linear_detuning_123",
+              "detuning_gamma": -1.0000000000000018,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 1.45,
+              "saturation_channel_id": "chirp_component_1_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 2,
+              "detuning_channel_id": "chirp_shared_linear_detuning_123",
+              "detuning_gamma": -1.0000000000000018,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 1.45,
+              "saturation_channel_id": "chirp_component_2_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 3,
+              "detuning_channel_id": "chirp_shared_linear_detuning_123",
+              "detuning_gamma": -1.0000000000000018,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 2.89,
+              "saturation_channel_id": "chirp_component_3_saturation"
+            },
+            {
+              "active": false,
+              "component_id": 4,
+              "detuning_channel_id": "chirp_component_4_parked_detuning",
+              "detuning_gamma": 2.0,
+              "enabled": false,
+              "off_reason": "parked_off_until_3_plus_1_handoff",
+              "saturation": 0.0,
+              "saturation_channel_id": "chirp_component_4_saturation"
+            }
+          ],
+          "event_ids_at_time": [],
+          "exact": true,
+          "segment_id": "linear_chirp",
+          "time_s": 0.0009999999999999998
+        },
+        {
+          "components": [
+            {
+              "active": true,
+              "component_id": 1,
+              "detuning_channel_id": "chirp_shared_linear_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 1.45,
+              "saturation_channel_id": "chirp_component_1_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 2,
+              "detuning_channel_id": "chirp_shared_linear_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 1.45,
+              "saturation_channel_id": "chirp_component_2_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 3,
+              "detuning_channel_id": "chirp_shared_linear_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 2.89,
+              "saturation_channel_id": "chirp_component_3_saturation"
+            },
+            {
+              "active": false,
+              "component_id": 4,
+              "detuning_channel_id": "chirp_component_4_parked_detuning",
+              "detuning_gamma": 2.0,
+              "enabled": false,
+              "off_reason": "parked_off_until_3_plus_1_handoff",
+              "saturation": 0.0,
+              "saturation_channel_id": "chirp_component_4_saturation"
+            }
+          ],
+          "event_ids_at_time": [
+            "chirp_endpoint"
+          ],
+          "exact": true,
+          "segment_id": "linear_chirp",
+          "time_s": 0.001
+        },
+        {
+          "components": [
+            {
+              "active": true,
+              "component_id": 1,
+              "detuning_channel_id": "chirp_shared_linear_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 1.45,
+              "saturation_channel_id": "chirp_component_1_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 2,
+              "detuning_channel_id": "chirp_shared_linear_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 1.45,
+              "saturation_channel_id": "chirp_component_2_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 3,
+              "detuning_channel_id": "chirp_shared_linear_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 2.89,
+              "saturation_channel_id": "chirp_component_3_saturation"
+            },
+            {
+              "active": false,
+              "component_id": 4,
+              "detuning_channel_id": "chirp_component_4_parked_detuning",
+              "detuning_gamma": 2.0,
+              "enabled": false,
+              "off_reason": "parked_off_until_3_plus_1_handoff",
+              "saturation": 0.0,
+              "saturation_channel_id": "chirp_component_4_saturation"
+            }
+          ],
+          "event_ids_at_time": [],
+          "exact": true,
+          "segment_id": "linear_chirp",
+          "time_s": 0.0010000000000000002
+        },
+        {
+          "components": [
+            {
+              "active": true,
+              "component_id": 1,
+              "detuning_channel_id": "chirp_shared_linear_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 1.45,
+              "saturation_channel_id": "chirp_component_1_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 2,
+              "detuning_channel_id": "chirp_shared_linear_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 1.45,
+              "saturation_channel_id": "chirp_component_2_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 3,
+              "detuning_channel_id": "chirp_shared_linear_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 2.89,
+              "saturation_channel_id": "chirp_component_3_saturation"
+            },
+            {
+              "active": false,
+              "component_id": 4,
+              "detuning_channel_id": "chirp_component_4_parked_detuning",
+              "detuning_gamma": 2.0,
+              "enabled": false,
+              "off_reason": "parked_off_until_3_plus_1_handoff",
+              "saturation": 0.0,
+              "saturation_channel_id": "chirp_component_4_saturation"
+            }
+          ],
+          "event_ids_at_time": [],
+          "exact": true,
+          "segment_id": "linear_chirp",
+          "time_s": 0.002
+        },
+        {
+          "components": [
+            {
+              "active": true,
+              "component_id": 1,
+              "detuning_channel_id": "chirp_shared_linear_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 1.45,
+              "saturation_channel_id": "chirp_component_1_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 2,
+              "detuning_channel_id": "chirp_shared_linear_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 1.45,
+              "saturation_channel_id": "chirp_component_2_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 3,
+              "detuning_channel_id": "chirp_shared_linear_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 2.89,
+              "saturation_channel_id": "chirp_component_3_saturation"
+            },
+            {
+              "active": false,
+              "component_id": 4,
+              "detuning_channel_id": "chirp_component_4_parked_detuning",
+              "detuning_gamma": 2.0,
+              "enabled": false,
+              "off_reason": "parked_off_until_3_plus_1_handoff",
+              "saturation": 0.0,
+              "saturation_channel_id": "chirp_component_4_saturation"
+            }
+          ],
+          "event_ids_at_time": [],
+          "exact": true,
+          "segment_id": "linear_chirp",
+          "time_s": 0.1
+        }
+      ],
+      "schema_roundtrip_exact": true,
+      "serialized_spec_file": "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_013_CONTROL_POLICY_ABI_ONLY_rodriguez_baseline_linear_chirp_spec.json",
+      "source_configuration": "configs\\rodriguez_baseline_linear_chirp.yaml",
+      "source_hash": "c428695e839de3172ac17e1d30c424a31733bc32dc1d0e7e72b2fa56c9b524b4",
+      "validation_issues": [],
+      "validation_valid": true
+    },
+    {
+      "channel_table": [
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "pre_shared_linear_detuning_123",
+          "description": "Rodriguez common linear detuning channel for components 1,2,3",
+          "field": "detuning_gamma",
+          "fixed_value": null,
+          "parameter_names": [
+            "pre_initial_detuning_gamma",
+            "pre_final_detuning_gamma",
+            "pre_duration_s"
+          ],
+          "relationship": "SHARED",
+          "signal_kind": "LINEAR_HOLD",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 1,
+              "field": "detuning_gamma",
+              "segment_id": "pre_handoff"
+            },
+            {
+              "component_id": 2,
+              "field": "detuning_gamma",
+              "segment_id": "pre_handoff"
+            },
+            {
+              "component_id": 3,
+              "field": "detuning_gamma",
+              "segment_id": "pre_handoff"
+            }
+          ]
+        },
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "pre_component_4_parked_detuning",
+          "description": "Parked component 4 frequency, not optical activity",
+          "field": "detuning_gamma",
+          "fixed_value": null,
+          "parameter_names": [
+            "pre_component_4_detuning_gamma"
+          ],
+          "relationship": "FIXED",
+          "signal_kind": "FIXED",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 4,
+              "field": "detuning_gamma",
+              "segment_id": "pre_handoff"
+            }
+          ]
+        },
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "pre_component_1_saturation",
+          "description": "Fixed chirp-stage optical power",
+          "field": "saturation",
+          "fixed_value": null,
+          "parameter_names": [
+            "pre_component_1_saturation"
+          ],
+          "relationship": "FIXED",
+          "signal_kind": "FIXED",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 1,
+              "field": "saturation",
+              "segment_id": "pre_handoff"
+            }
+          ]
+        },
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "pre_component_2_saturation",
+          "description": "Fixed chirp-stage optical power",
+          "field": "saturation",
+          "fixed_value": null,
+          "parameter_names": [
+            "pre_component_2_saturation"
+          ],
+          "relationship": "FIXED",
+          "signal_kind": "FIXED",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 2,
+              "field": "saturation",
+              "segment_id": "pre_handoff"
+            }
+          ]
+        },
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "pre_component_3_saturation",
+          "description": "Fixed chirp-stage optical power",
+          "field": "saturation",
+          "fixed_value": null,
+          "parameter_names": [
+            "pre_component_3_saturation"
+          ],
+          "relationship": "FIXED",
+          "signal_kind": "FIXED",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 3,
+              "field": "saturation",
+              "segment_id": "pre_handoff"
+            }
+          ]
+        },
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "pre_component_4_saturation",
+          "description": "Fixed chirp-stage optical power",
+          "field": "saturation",
+          "fixed_value": null,
+          "parameter_names": [
+            "pre_component_4_saturation"
+          ],
+          "relationship": "FIXED",
+          "signal_kind": "FIXED",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 4,
+              "field": "saturation",
+              "segment_id": "pre_handoff"
+            }
+          ]
+        },
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "post_shared_detuning_123",
+          "description": "One shared fixed detuning channel",
+          "field": "detuning_gamma",
+          "fixed_value": null,
+          "parameter_names": [
+            "post_detuning_123_gamma"
+          ],
+          "relationship": "SHARED",
+          "signal_kind": "FIXED",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 1,
+              "field": "detuning_gamma",
+              "segment_id": "post_handoff"
+            },
+            {
+              "component_id": 2,
+              "field": "detuning_gamma",
+              "segment_id": "post_handoff"
+            },
+            {
+              "component_id": 3,
+              "field": "detuning_gamma",
+              "segment_id": "post_handoff"
+            }
+          ]
+        },
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "post_component_4_detuning",
+          "description": "Explicit fixed/parked detuning",
+          "field": "detuning_gamma",
+          "fixed_value": null,
+          "parameter_names": [
+            "post_component_4_detuning_gamma"
+          ],
+          "relationship": "FIXED",
+          "signal_kind": "FIXED",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 4,
+              "field": "detuning_gamma",
+              "segment_id": "post_handoff"
+            }
+          ]
+        },
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "post_component_1_saturation",
+          "description": "Explicit fixed optical power",
+          "field": "saturation",
+          "fixed_value": null,
+          "parameter_names": [
+            "post_component_1_saturation"
+          ],
+          "relationship": "FIXED",
+          "signal_kind": "FIXED",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 1,
+              "field": "saturation",
+              "segment_id": "post_handoff"
+            }
+          ]
+        },
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "post_component_2_saturation",
+          "description": "Explicit fixed optical power",
+          "field": "saturation",
+          "fixed_value": null,
+          "parameter_names": [
+            "post_component_2_saturation"
+          ],
+          "relationship": "FIXED",
+          "signal_kind": "FIXED",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 2,
+              "field": "saturation",
+              "segment_id": "post_handoff"
+            }
+          ]
+        },
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "post_component_3_saturation",
+          "description": "Explicit fixed optical power",
+          "field": "saturation",
+          "fixed_value": null,
+          "parameter_names": [
+            "post_component_3_saturation"
+          ],
+          "relationship": "FIXED",
+          "signal_kind": "FIXED",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 3,
+              "field": "saturation",
+              "segment_id": "post_handoff"
+            }
+          ]
+        },
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "post_component_4_saturation",
+          "description": "Explicit fixed optical power",
+          "field": "saturation",
+          "fixed_value": null,
+          "parameter_names": [
+            "post_component_4_saturation"
+          ],
+          "relationship": "FIXED",
+          "signal_kind": "FIXED",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 4,
+              "field": "saturation",
+              "segment_id": "post_handoff"
+            }
+          ]
+        }
+      ],
+      "component_order": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "event_table": [
+        {
+          "affected_channel_ids": [
+            "pre_shared_linear_detuning_123",
+            "pre_component_4_parked_detuning",
+            "pre_component_1_saturation",
+            "pre_component_2_saturation",
+            "pre_component_3_saturation",
+            "pre_component_4_saturation",
+            "post_shared_detuning_123",
+            "post_component_4_detuning",
+            "post_component_1_saturation",
+            "post_component_2_saturation",
+            "post_component_3_saturation",
+            "post_component_4_saturation"
+          ],
+          "affected_component_ids": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "boundary_rule": "t_lt_event_left_t_ge_event_right",
+          "event_id": "chirp_to_trap_handoff",
+          "event_time_s": 0.001,
+          "event_type": "DISCONTINUOUS_POLICY_HANDOFF",
+          "left_semantic_label": "chirp_3",
+          "provenance": "Rodriguez et al., baseline instantaneous chirp-to-[3+1] sequence; Track P policy interface only",
+          "right_semantic_label": "trap_3_plus_1"
+        }
+      ],
+      "family": "CHIRP_TO_TRAP_HANDOFF",
+      "hash_roundtrip_exact": true,
+      "hashes": {
+        "channel_specification": "e089f5954f5825de048a4502b1cccae4a12e972016a26717b44d2203c65906fd",
+        "full_policy_package": "8dc5c849cf23d07e9add3c95dfb842774e5306a47639e7e7d6936f0786b87a2d",
+        "parameter_specification": "eb700df8a8ded812c02d31c605d16af1099509e8f9b0a88bc66d1a2d45e509bf",
+        "policy_specification": "05c658a09cc991968f3e3203d56c52d6ff77f3bec2b8928055caf1a868e6d17f"
+      },
+      "legacy_behavior_gate": "LEGACY_BEHAVIOR_EXACT",
+      "name": "rodriguez_chirp_to_3_plus_1_handoff",
+      "parameter_table": [
+        {
+          "adjustable": false,
+          "bound_basis": "APPARATUS_ASSUMPTION",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Common initial chirp detuning",
+          "lower_bound": -10.0,
+          "name": "pre_initial_detuning_gamma",
+          "shape": [],
+          "units": "Gamma",
+          "upper_bound": 3.0
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "APPARATUS_ASSUMPTION",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Common final chirp detuning",
+          "lower_bound": -10.0,
+          "name": "pre_final_detuning_gamma",
+          "shape": [],
+          "units": "Gamma",
+          "upper_bound": 3.0
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "UNKNOWN",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Linear chirp duration",
+          "lower_bound": null,
+          "name": "pre_duration_s",
+          "shape": [],
+          "units": "s",
+          "upper_bound": null
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "APPARATUS_ASSUMPTION",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Parked detuning of inactive component 4",
+          "lower_bound": -10.0,
+          "name": "pre_component_4_detuning_gamma",
+          "shape": [],
+          "units": "Gamma",
+          "upper_bound": 3.0
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "APPARATUS_ASSUMPTION",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Fixed saturation of component 1",
+          "lower_bound": 0.0,
+          "name": "pre_component_1_saturation",
+          "shape": [],
+          "units": "saturation_parameter",
+          "upper_bound": 3.0
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "APPARATUS_ASSUMPTION",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Fixed saturation of component 2",
+          "lower_bound": 0.0,
+          "name": "pre_component_2_saturation",
+          "shape": [],
+          "units": "saturation_parameter",
+          "upper_bound": 3.0
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "APPARATUS_ASSUMPTION",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Fixed saturation of component 3",
+          "lower_bound": 0.0,
+          "name": "pre_component_3_saturation",
+          "shape": [],
+          "units": "saturation_parameter",
+          "upper_bound": 3.0
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "APPARATUS_ASSUMPTION",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Fixed saturation of component 4",
+          "lower_bound": 0.0,
+          "name": "pre_component_4_saturation",
+          "shape": [],
+          "units": "saturation_parameter",
+          "upper_bound": 3.0
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "APPARATUS_ASSUMPTION",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Shared fixed detuning for components 1,2,3",
+          "lower_bound": -10.0,
+          "name": "post_detuning_123_gamma",
+          "shape": [],
+          "units": "Gamma",
+          "upper_bound": 3.0
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "APPARATUS_ASSUMPTION",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Fixed detuning of component 4",
+          "lower_bound": -10.0,
+          "name": "post_component_4_detuning_gamma",
+          "shape": [],
+          "units": "Gamma",
+          "upper_bound": 3.0
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "APPARATUS_ASSUMPTION",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Fixed saturation of component 1",
+          "lower_bound": 0.0,
+          "name": "post_component_1_saturation",
+          "shape": [],
+          "units": "saturation_parameter",
+          "upper_bound": 3.0
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "APPARATUS_ASSUMPTION",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Fixed saturation of component 2",
+          "lower_bound": 0.0,
+          "name": "post_component_2_saturation",
+          "shape": [],
+          "units": "saturation_parameter",
+          "upper_bound": 3.0
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "APPARATUS_ASSUMPTION",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Fixed saturation of component 3",
+          "lower_bound": 0.0,
+          "name": "post_component_3_saturation",
+          "shape": [],
+          "units": "saturation_parameter",
+          "upper_bound": 3.0
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "APPARATUS_ASSUMPTION",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Fixed saturation of component 4",
+          "lower_bound": 0.0,
+          "name": "post_component_4_saturation",
+          "shape": [],
+          "units": "saturation_parameter",
+          "upper_bound": 3.0
+        }
+      ],
+      "sample_comparison": [
+        {
+          "components": [
+            {
+              "active": true,
+              "component_id": 1,
+              "detuning_channel_id": "pre_shared_linear_detuning_123",
+              "detuning_gamma": -1.0000000000000018,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 1.45,
+              "saturation_channel_id": "pre_component_1_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 2,
+              "detuning_channel_id": "pre_shared_linear_detuning_123",
+              "detuning_gamma": -1.0000000000000018,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 1.45,
+              "saturation_channel_id": "pre_component_2_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 3,
+              "detuning_channel_id": "pre_shared_linear_detuning_123",
+              "detuning_gamma": -1.0000000000000018,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 2.89,
+              "saturation_channel_id": "pre_component_3_saturation"
+            },
+            {
+              "active": false,
+              "component_id": 4,
+              "detuning_channel_id": "pre_component_4_parked_detuning",
+              "detuning_gamma": 2.0,
+              "enabled": false,
+              "off_reason": "parked_off_until_3_plus_1_handoff",
+              "saturation": 0.0,
+              "saturation_channel_id": "pre_component_4_saturation"
+            }
+          ],
+          "event_ids_at_time": [],
+          "exact": true,
+          "segment_id": "pre_handoff",
+          "time_s": 0.0009999999999999998
+        },
+        {
+          "components": [
+            {
+              "active": true,
+              "component_id": 1,
+              "detuning_channel_id": "post_shared_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 1.45,
+              "saturation_channel_id": "post_component_1_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 2,
+              "detuning_channel_id": "post_shared_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 1.45,
+              "saturation_channel_id": "post_component_2_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 3,
+              "detuning_channel_id": "post_shared_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 2.17,
+              "saturation_channel_id": "post_component_3_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 4,
+              "detuning_channel_id": "post_component_4_detuning",
+              "detuning_gamma": 2.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 0.72,
+              "saturation_channel_id": "post_component_4_saturation"
+            }
+          ],
+          "event_ids_at_time": [
+            "chirp_to_trap_handoff"
+          ],
+          "exact": true,
+          "segment_id": "post_handoff",
+          "time_s": 0.001
+        },
+        {
+          "components": [
+            {
+              "active": true,
+              "component_id": 1,
+              "detuning_channel_id": "post_shared_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 1.45,
+              "saturation_channel_id": "post_component_1_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 2,
+              "detuning_channel_id": "post_shared_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 1.45,
+              "saturation_channel_id": "post_component_2_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 3,
+              "detuning_channel_id": "post_shared_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 2.17,
+              "saturation_channel_id": "post_component_3_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 4,
+              "detuning_channel_id": "post_component_4_detuning",
+              "detuning_gamma": 2.0,
+              "enabled": true,
+              "off_reason": null,
+              "saturation": 0.72,
+              "saturation_channel_id": "post_component_4_saturation"
+            }
+          ],
+          "event_ids_at_time": [],
+          "exact": true,
+          "segment_id": "post_handoff",
+          "time_s": 0.0010000000000000002
+        }
+      ],
+      "schema_roundtrip_exact": true,
+      "serialized_spec_file": "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_013_CONTROL_POLICY_ABI_ONLY_rodriguez_chirp_to_3_plus_1_handoff_spec.json",
+      "source_configuration": "configs\\rodriguez_chirp_to_3_plus_1_handoff.yaml",
+      "source_hash": "f9930c08e5605faa5ea4fe63fc0bff846bc59e785ea6b6a20a152f4458cfc750",
+      "validation_issues": [],
+      "validation_valid": true
+    }
+  ],
+  "protected_artifacts_unchanged": true,
+  "protected_hashes_after": {
+    "configs\\provisional_force_field_run_010.yaml": "23935fe573a27928c2f855c1562e8a786092ea7379a40646907911fff3b94eb1",
+    "configs\\provisional_named_trajectory_run_011.yaml": "ff2f904d73ee139cb36af24ab45d90c801f44ea6dc12198bfcd2a5278418c2f5",
+    "configs\\rodriguez_baseline_linear_chirp.yaml": "c428695e839de3172ac17e1d30c424a31733bc32dc1d0e7e72b2fa56c9b524b4",
+    "configs\\rodriguez_chirp_to_3_plus_1_handoff.yaml": "f9930c08e5605faa5ea4fe63fc0bff846bc59e785ea6b6a20a152f4458cfc750",
+    "configs\\rodriguez_figure2_sign_calibration_run_011c.yaml": "93c3a319c42fcd5e7c3f7dfb188155fbaad489d7cd8060e3993d18b9c9eb16a9",
+    "configs\\rodriguez_figure_digitization_run_011b.yaml": "62eca00215ebe5770edf08d05ab34a6c62f5dbc2db8106699395dd0ccc51986b",
+    "configs\\rodriguez_gaussian_baseline.yaml": "8498253a5f58d3d7187ac26aa5f52f8d14ccbff19ea741eaccd9b0cfdb1d89a3",
+    "configs\\rodriguez_named_trajectory_protocol.yaml": "580db303fe2774ddda093258773da9e262c446deab50ced08a4164ff1338104a",
+    "configs\\rodriguez_static_3.yaml": "22b9d4f6ff2e1634aaaad7808289c4a4b39c6b63e65763c881c23901c58e4077",
+    "configs\\rodriguez_static_3_plus_1.yaml": "06ed7c00d1df87d2fb929ec6511dc8158e0248a1fb0c7109ba2c6caca81a6f80",
+    "docs\\policy-interface.md": "ab3ca2abef298e202761c9ab48fff45f0ec1dfbf2860393189e3d40e7744ad1f",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_combined_comparison.png": "fd593020f78105828a626a54b8fa4305ce4f970bd8377e02db8f02e134d73436",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_metadata.json": "2b87c82f6370137b8dd416ac4977a7be70e3b3d84532cf75d87f59e77269fde0",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_pathwise_interpolation_validation.json": "2150d552dcfa1ddb1c56f824940fd5df7a479fb15f435bec5f45c540d4ced8c2",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k.npz": "db20381ae2028815dcc0f453a945333c697a1a66d9d18184b1d7392186b713ee",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k_diagnostics.png": "5c81a20e537b8d032c626572c842bb4ef2ddcb72d3fe6331d7dbb0cadf911b80",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k_metadata.json": "3009a9f6bbe54e433271d243690e61aba7ece2b723179a5ec35cc9945e84c65b",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k.npz": "753b714ee01ef0c8f784b3f0ea9fd022d7321c3f8fcce466d2a05676fba0ac7c",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k_diagnostics.png": "219196d3dc4cc009b1347c60f77f8a5e24d8294c3ee1f60568f5c62921305bef",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k_metadata.json": "62f6d3dfc8c4b6b5151ae07597223074ade23a29f49259054ff9a96e51d2c8c4",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k.npz": "fd5969786282cb3816c07028424d322ae6c6f7fa3bb244e0b38dca9716ee245c",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k_diagnostics.png": "ef010c4c71a833aabbc08ee9103d1426ce7297a9991035d1c85afe2e54e48694",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k_metadata.json": "ac7aa8b88440783a48f62b1695f4d38848284f0ac9740478cb040a3b91430826",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k.npz": "6267a91b621793218ed2385e8ab2991e9e459616ffc048e46ca3ffab6466be17",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k_diagnostics.png": "7b95f421180a2eec1d2790af2ae4def03d6a99c6b5d5e15e25b7d72f9a659362",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k_metadata.json": "5a3975703be82e1df8c47c92159982f2aea1d4d9b0e4e5ca2fdb4945a805ebd9",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k.npz": "3eb6b6a4933e58683ad93945f362a8585f95a33cf578ca560751c94041bb94ec",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k_diagnostics.png": "63432075d78a715c630ff4407fb65486eef783bad9d688507d24bee23ddb00b2",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k_metadata.json": "a28ea7672197a6ffa54ea03d8819747e78184ad54f85972089b603b40303dd55",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_run_011.md": "a6067ad266844faafecb3679fb8d5cf6106609a815205f8901e9c243ebf84a85",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY.md": "938d8a20a6a53861c2bdcb880be6ec6f188a865c23c01fcb5dc34c088e760b93",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY_diagnostics.png": "01d908cf4c604716c095e4637529ed0adc3bac85a4b135de9318d39f04a724c3",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY_metadata.json": "93ad81dfcefeaa948e534f2836ffe1c3f674d180dc980cf2e2121d308365d7dd",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY.md": "9b524b770ec1af4a0cf248b04bbc33ea793854536628c6d2fb65dc871176d9f3",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_comparison.png": "6673ebc29e1779c7a5ea2209bc8cf8246b873347560add7ada10ffe40d5b55d0",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_comparison_metadata.json": "e8b0398bce33411dc5b08d22420ccca5fc950a6f060adb82345622930f2edffa",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY.md": "2db1de730ef708bc4737a62455424efd31ce740b6f64e998b3465ea9a9621cf4",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY.md": "fc3a7b168fd0c0c7f5016ccd505a14f425bf082adf75608d4bf50b16af4a6d93",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY.md": "738ae346848c2720f77e8b0cf249b9946898c7660943f2ead66d62358f29f07d",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_post_handoff_trap_3_plus_1_run_010.npz": "b8ff2e8ddecd955e4909a9050667e765e1e92997201c36d2a1ede5c118ab09a3",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_post_handoff_trap_3_plus_1_run_010_metadata.json": "eb0814492e8a3166e58a54f444655cb365e87a40a01bec4e2b494e4697182814",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_pre_handoff_chirp_3_run_010.npz": "da385440e60a6387d8fcf9e864baec2cffa4d4c04904cabd089bc54ce1865004",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_pre_handoff_chirp_3_run_010_metadata.json": "4622064509b2e290c9f0cf052111f6031add462e97c0aa7c22653a471abc3ad4",
+    "outputs\\provisional\\molecular_model_audit\\run_011c\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_accepted_molecular_matrices.npz": "6b406a64174bef7e62e4ed40e066851d2a26b24165b2d6eca3b42d95dd790689",
+    "outputs\\provisional\\molecular_model_audit\\run_011c\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_accepted_molecular_matrices_metadata.json": "4ac2d6a5ede155fb8bc7809ec471df52ae6cfd6464b0f5c4903d93cc82dc02f6",
+    "outputs\\provisional\\molecular_model_audit\\run_011c\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_metadata.json": "b3290635bfe108130cef3ac13454895e45bb5ba69a985810963c3052b8532767",
+    "outputs\\provisional\\molecular_model_audit\\run_011c\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_state_resolved_diagnostics.json": "eba5884450c5cf74b0adc9f92a7672df515d1f93a6acd2870886d4904649a9ed",
+    "outputs\\provisional\\molecular_model_audit\\run_011c\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_transition_ledger.csv": "712f79f5e99107c8e81513c840399c497438e20adca3b30cc9a916f216ca1f02",
+    "outputs\\provisional\\molecular_model_audit\\run_011d\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY_basis_rephasing_and_polarization_audit.json": "4edef83e93bd94e7eab9a3769ce7c5b6fed50afc21cb2593bf94abfb645252a2",
+    "outputs\\provisional\\molecular_model_audit\\run_011d\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY_dtype_and_imaginary_content_ledger.json": "fb34b3e7a0bbfd582179548f82a930705c46c444476f3d0a5f29de39a57b5f21",
+    "outputs\\provisional\\molecular_model_audit\\run_011d\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY_metadata.json": "daa9079ccafd1e7808eb33faaf8775f7894213a4967ef0b40f352528a6199ea6",
+    "outputs\\provisional\\molecular_model_audit\\run_011d\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY_three_path_comparison.json": "e5901a93110d04ee8ddcff1e7e8c02f6d2b810af55ac31cab0bb4cbb0547d12f",
+    "outputs\\provisional\\molecular_model_audit\\run_011d\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY_warning_trace_and_cast_ledger.json": "0ed4688d9f9304dc9e3fe2b18f324c79713b2446d27671d2732e30691c2a5c71",
+    "outputs\\provisional\\molecular_model_packages\\run_012\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_ACCEPTED_PROVISIONAL_REFERENCE_PACKAGE.manifest.json": "c4246c0a6e474d1bd507399a112b99ce79528356150f5e45d09b689a2fc48a17",
+    "outputs\\provisional\\molecular_model_packages\\run_012\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_ACCEPTED_PROVISIONAL_REFERENCE_PACKAGE.metadata.json": "349af73ef179aff4a51c63ee2dee75a36327b92ef0616eab0460628619c926d5",
+    "outputs\\provisional\\molecular_model_packages\\run_012\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_ACCEPTED_PROVISIONAL_REFERENCE_PACKAGE.npz": "ba7379032e776adbb9a611efb7f15794f669c3946b882fa58990f1e74420276f",
+    "outputs\\provisional\\molecular_model_packages\\run_012\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_import_validation.json": "eef596ca6b7a58ce7ec17360c67821baebb455e1778be2f8586d2b07fbb1a798",
+    "outputs\\provisional\\molecular_model_packages\\run_012\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_model_difference_report.json": "25a8214d7a46b5bab0fc3daa0d20825df397515eb16dbb158ee5dbee7eade778",
+    "outputs\\provisional\\molecular_model_packages\\run_012\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_paper_benchmark.json": "d931f3258d6a8d894800c3255341d5da10349bb33e55565314a8f251b5183c70",
+    "outputs\\provisional\\molecular_model_packages\\run_012\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_roundtrip_validation.json": "e0507a83be2950a38aa111eeef0ea4f6b332c022460467a6508665be263fb64d",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_accepted_plane_wave_model_samples.npz": "205a8abceb2e0c338f780a824d831ae41cb575076029a219a467938655d2b16a",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_digitization_metadata.json": "8a2b17db247d255aba346ec3e9340b53e14750fe5530f3f335c3bca585b3e783",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_2_mgf_3_digitized.npz": "aa347d2058f5ee3d99d5d2a6f3c717a089ad85587e83ad328e2ae98cdbe910e2",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_2_mgf_3_panel.png": "71ac93cb7b4f40921dd27940d372791e17b85f8b6e17a247f1c56357eefd8c5a",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_2_mgf_3_plus_1_digitized.npz": "356245f086d1c3ecb863e7f5f2059d3880a8676aa3a2b9609542db5fdb17b432",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_2_mgf_3_plus_1_panel.png": "2387853ee674339b9cea8190b154f5b685405b2ef1f642e91afb5b5822dd54f9",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_2_gamma_digitized.npz": "de2c6245439036275b702eb6966b5882908dfdfa7e8a94e8be37c7c58c059978",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_2_gamma_panel.png": "510f9bb712be0316895b7f9c40041a55316b8ea42663e8dd42e933b1cd3b66af",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_4_gamma_digitized.npz": "a8c878146854b5d94cc5509701d7101ac3a5c2a8b7db5022964b6916140fc749",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_4_gamma_panel.png": "6af01b95ea37d76a0e13dfd7d3048c2ce3e5e292423a4251e874d46ca0b79f78",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_6_gamma_digitized.npz": "56e53ceba5c1bbab65b0d86a64ae83c52f37a54581840417c0d5216784eb3d92",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_6_gamma_panel.png": "cf8b23558113cf26a73c6f3f76e7bbbf0c16473cc781dc7802627fcb1bd85c72",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_8_gamma_digitized.npz": "4432283be9c9c0bb5664d72f695d6ca3fe55737b7beb591cd71fdcfee94d247a",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_8_gamma_panel.png": "877ccdeafd72932144ca5a14df74b3fa8e1753e51c07ecff9d5572c6d6f2c628",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_4a_panel.png": "14c46d4c472c863b3270018a3dc12cf5cc29f47f3ecc932c861c51a66a686f16",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_4a_thick_trajectory_digitized.npz": "be2d9b54dfa14eae500350fe3b9f6b18e48f614fc0198597eae773a2acb2a43f",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_page_4_300dpi.png": "ce1fea103db642e340a93c7fc6e40534506c553b2173aec58ba9a399f7154bbb",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_page_5_300dpi.png": "420c3929b4893140c6f4cf0b8ae3f75b562fd072443db8ad129b8c56bdd04e20",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_page_6_300dpi.png": "77cb2a9b9571bfb62576defab37e246dec7a5e73239585b889e5df1139501b3a"
+  },
+  "protected_hashes_before": {
+    "configs\\provisional_force_field_run_010.yaml": "23935fe573a27928c2f855c1562e8a786092ea7379a40646907911fff3b94eb1",
+    "configs\\provisional_named_trajectory_run_011.yaml": "ff2f904d73ee139cb36af24ab45d90c801f44ea6dc12198bfcd2a5278418c2f5",
+    "configs\\rodriguez_baseline_linear_chirp.yaml": "c428695e839de3172ac17e1d30c424a31733bc32dc1d0e7e72b2fa56c9b524b4",
+    "configs\\rodriguez_chirp_to_3_plus_1_handoff.yaml": "f9930c08e5605faa5ea4fe63fc0bff846bc59e785ea6b6a20a152f4458cfc750",
+    "configs\\rodriguez_figure2_sign_calibration_run_011c.yaml": "93c3a319c42fcd5e7c3f7dfb188155fbaad489d7cd8060e3993d18b9c9eb16a9",
+    "configs\\rodriguez_figure_digitization_run_011b.yaml": "62eca00215ebe5770edf08d05ab34a6c62f5dbc2db8106699395dd0ccc51986b",
+    "configs\\rodriguez_gaussian_baseline.yaml": "8498253a5f58d3d7187ac26aa5f52f8d14ccbff19ea741eaccd9b0cfdb1d89a3",
+    "configs\\rodriguez_named_trajectory_protocol.yaml": "580db303fe2774ddda093258773da9e262c446deab50ced08a4164ff1338104a",
+    "configs\\rodriguez_static_3.yaml": "22b9d4f6ff2e1634aaaad7808289c4a4b39c6b63e65763c881c23901c58e4077",
+    "configs\\rodriguez_static_3_plus_1.yaml": "06ed7c00d1df87d2fb929ec6511dc8158e0248a1fb0c7109ba2c6caca81a6f80",
+    "docs\\policy-interface.md": "ab3ca2abef298e202761c9ab48fff45f0ec1dfbf2860393189e3d40e7744ad1f",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_combined_comparison.png": "fd593020f78105828a626a54b8fa4305ce4f970bd8377e02db8f02e134d73436",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_metadata.json": "2b87c82f6370137b8dd416ac4977a7be70e3b3d84532cf75d87f59e77269fde0",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_pathwise_interpolation_validation.json": "2150d552dcfa1ddb1c56f824940fd5df7a479fb15f435bec5f45c540d4ced8c2",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k.npz": "db20381ae2028815dcc0f453a945333c697a1a66d9d18184b1d7392186b713ee",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k_diagnostics.png": "5c81a20e537b8d032c626572c842bb4ef2ddcb72d3fe6331d7dbb0cadf911b80",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k_metadata.json": "3009a9f6bbe54e433271d243690e61aba7ece2b723179a5ec35cc9945e84c65b",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k.npz": "753b714ee01ef0c8f784b3f0ea9fd022d7321c3f8fcce466d2a05676fba0ac7c",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k_diagnostics.png": "219196d3dc4cc009b1347c60f77f8a5e24d8294c3ee1f60568f5c62921305bef",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k_metadata.json": "62f6d3dfc8c4b6b5151ae07597223074ade23a29f49259054ff9a96e51d2c8c4",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k.npz": "fd5969786282cb3816c07028424d322ae6c6f7fa3bb244e0b38dca9716ee245c",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k_diagnostics.png": "ef010c4c71a833aabbc08ee9103d1426ce7297a9991035d1c85afe2e54e48694",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k_metadata.json": "ac7aa8b88440783a48f62b1695f4d38848284f0ac9740478cb040a3b91430826",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k.npz": "6267a91b621793218ed2385e8ab2991e9e459616ffc048e46ca3ffab6466be17",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k_diagnostics.png": "7b95f421180a2eec1d2790af2ae4def03d6a99c6b5d5e15e25b7d72f9a659362",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k_metadata.json": "5a3975703be82e1df8c47c92159982f2aea1d4d9b0e4e5ca2fdb4945a805ebd9",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k.npz": "3eb6b6a4933e58683ad93945f362a8585f95a33cf578ca560751c94041bb94ec",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k_diagnostics.png": "63432075d78a715c630ff4407fb65486eef783bad9d688507d24bee23ddb00b2",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k_metadata.json": "a28ea7672197a6ffa54ea03d8819747e78184ad54f85972089b603b40303dd55",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_run_011.md": "a6067ad266844faafecb3679fb8d5cf6106609a815205f8901e9c243ebf84a85",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY.md": "938d8a20a6a53861c2bdcb880be6ec6f188a865c23c01fcb5dc34c088e760b93",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY_diagnostics.png": "01d908cf4c604716c095e4637529ed0adc3bac85a4b135de9318d39f04a724c3",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY_metadata.json": "93ad81dfcefeaa948e534f2836ffe1c3f674d180dc980cf2e2121d308365d7dd",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY.md": "9b524b770ec1af4a0cf248b04bbc33ea793854536628c6d2fb65dc871176d9f3",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_comparison.png": "6673ebc29e1779c7a5ea2209bc8cf8246b873347560add7ada10ffe40d5b55d0",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_comparison_metadata.json": "e8b0398bce33411dc5b08d22420ccca5fc950a6f060adb82345622930f2edffa",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY.md": "2db1de730ef708bc4737a62455424efd31ce740b6f64e998b3465ea9a9621cf4",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY.md": "fc3a7b168fd0c0c7f5016ccd505a14f425bf082adf75608d4bf50b16af4a6d93",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY.md": "738ae346848c2720f77e8b0cf249b9946898c7660943f2ead66d62358f29f07d",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_post_handoff_trap_3_plus_1_run_010.npz": "b8ff2e8ddecd955e4909a9050667e765e1e92997201c36d2a1ede5c118ab09a3",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_post_handoff_trap_3_plus_1_run_010_metadata.json": "eb0814492e8a3166e58a54f444655cb365e87a40a01bec4e2b494e4697182814",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_pre_handoff_chirp_3_run_010.npz": "da385440e60a6387d8fcf9e864baec2cffa4d4c04904cabd089bc54ce1865004",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_pre_handoff_chirp_3_run_010_metadata.json": "4622064509b2e290c9f0cf052111f6031add462e97c0aa7c22653a471abc3ad4",
+    "outputs\\provisional\\molecular_model_audit\\run_011c\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_accepted_molecular_matrices.npz": "6b406a64174bef7e62e4ed40e066851d2a26b24165b2d6eca3b42d95dd790689",
+    "outputs\\provisional\\molecular_model_audit\\run_011c\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_accepted_molecular_matrices_metadata.json": "4ac2d6a5ede155fb8bc7809ec471df52ae6cfd6464b0f5c4903d93cc82dc02f6",
+    "outputs\\provisional\\molecular_model_audit\\run_011c\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_metadata.json": "b3290635bfe108130cef3ac13454895e45bb5ba69a985810963c3052b8532767",
+    "outputs\\provisional\\molecular_model_audit\\run_011c\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_state_resolved_diagnostics.json": "eba5884450c5cf74b0adc9f92a7672df515d1f93a6acd2870886d4904649a9ed",
+    "outputs\\provisional\\molecular_model_audit\\run_011c\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_transition_ledger.csv": "712f79f5e99107c8e81513c840399c497438e20adca3b30cc9a916f216ca1f02",
+    "outputs\\provisional\\molecular_model_audit\\run_011d\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY_basis_rephasing_and_polarization_audit.json": "4edef83e93bd94e7eab9a3769ce7c5b6fed50afc21cb2593bf94abfb645252a2",
+    "outputs\\provisional\\molecular_model_audit\\run_011d\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY_dtype_and_imaginary_content_ledger.json": "fb34b3e7a0bbfd582179548f82a930705c46c444476f3d0a5f29de39a57b5f21",
+    "outputs\\provisional\\molecular_model_audit\\run_011d\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY_metadata.json": "daa9079ccafd1e7808eb33faaf8775f7894213a4967ef0b40f352528a6199ea6",
+    "outputs\\provisional\\molecular_model_audit\\run_011d\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY_three_path_comparison.json": "e5901a93110d04ee8ddcff1e7e8c02f6d2b810af55ac31cab0bb4cbb0547d12f",
+    "outputs\\provisional\\molecular_model_audit\\run_011d\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY_warning_trace_and_cast_ledger.json": "0ed4688d9f9304dc9e3fe2b18f324c79713b2446d27671d2732e30691c2a5c71",
+    "outputs\\provisional\\molecular_model_packages\\run_012\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_ACCEPTED_PROVISIONAL_REFERENCE_PACKAGE.manifest.json": "c4246c0a6e474d1bd507399a112b99ce79528356150f5e45d09b689a2fc48a17",
+    "outputs\\provisional\\molecular_model_packages\\run_012\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_ACCEPTED_PROVISIONAL_REFERENCE_PACKAGE.metadata.json": "349af73ef179aff4a51c63ee2dee75a36327b92ef0616eab0460628619c926d5",
+    "outputs\\provisional\\molecular_model_packages\\run_012\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_ACCEPTED_PROVISIONAL_REFERENCE_PACKAGE.npz": "ba7379032e776adbb9a611efb7f15794f669c3946b882fa58990f1e74420276f",
+    "outputs\\provisional\\molecular_model_packages\\run_012\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_import_validation.json": "eef596ca6b7a58ce7ec17360c67821baebb455e1778be2f8586d2b07fbb1a798",
+    "outputs\\provisional\\molecular_model_packages\\run_012\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_model_difference_report.json": "25a8214d7a46b5bab0fc3daa0d20825df397515eb16dbb158ee5dbee7eade778",
+    "outputs\\provisional\\molecular_model_packages\\run_012\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_paper_benchmark.json": "d931f3258d6a8d894800c3255341d5da10349bb33e55565314a8f251b5183c70",
+    "outputs\\provisional\\molecular_model_packages\\run_012\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_roundtrip_validation.json": "e0507a83be2950a38aa111eeef0ea4f6b332c022460467a6508665be263fb64d",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_accepted_plane_wave_model_samples.npz": "205a8abceb2e0c338f780a824d831ae41cb575076029a219a467938655d2b16a",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_digitization_metadata.json": "8a2b17db247d255aba346ec3e9340b53e14750fe5530f3f335c3bca585b3e783",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_2_mgf_3_digitized.npz": "aa347d2058f5ee3d99d5d2a6f3c717a089ad85587e83ad328e2ae98cdbe910e2",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_2_mgf_3_panel.png": "71ac93cb7b4f40921dd27940d372791e17b85f8b6e17a247f1c56357eefd8c5a",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_2_mgf_3_plus_1_digitized.npz": "356245f086d1c3ecb863e7f5f2059d3880a8676aa3a2b9609542db5fdb17b432",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_2_mgf_3_plus_1_panel.png": "2387853ee674339b9cea8190b154f5b685405b2ef1f642e91afb5b5822dd54f9",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_2_gamma_digitized.npz": "de2c6245439036275b702eb6966b5882908dfdfa7e8a94e8be37c7c58c059978",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_2_gamma_panel.png": "510f9bb712be0316895b7f9c40041a55316b8ea42663e8dd42e933b1cd3b66af",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_4_gamma_digitized.npz": "a8c878146854b5d94cc5509701d7101ac3a5c2a8b7db5022964b6916140fc749",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_4_gamma_panel.png": "6af01b95ea37d76a0e13dfd7d3048c2ce3e5e292423a4251e874d46ca0b79f78",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_6_gamma_digitized.npz": "56e53ceba5c1bbab65b0d86a64ae83c52f37a54581840417c0d5216784eb3d92",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_6_gamma_panel.png": "cf8b23558113cf26a73c6f3f76e7bbbf0c16473cc781dc7802627fcb1bd85c72",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_8_gamma_digitized.npz": "4432283be9c9c0bb5664d72f695d6ca3fe55737b7beb591cd71fdcfee94d247a",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_8_gamma_panel.png": "877ccdeafd72932144ca5a14df74b3fa8e1753e51c07ecff9d5572c6d6f2c628",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_4a_panel.png": "14c46d4c472c863b3270018a3dc12cf5cc29f47f3ecc932c861c51a66a686f16",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_4a_thick_trajectory_digitized.npz": "be2d9b54dfa14eae500350fe3b9f6b18e48f614fc0198597eae773a2acb2a43f",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_page_4_300dpi.png": "ce1fea103db642e340a93c7fc6e40534506c553b2173aec58ba9a399f7154bbb",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_page_5_300dpi.png": "420c3929b4893140c6f4cf0b8ae3f75b562fd072443db8ad129b8c56bdd04e20",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_page_6_300dpi.png": "77cb2a9b9571bfb62576defab37e246dec7a5e73239585b889e5df1139501b3a"
+  },
+  "schema_version": "mgf-mot-control-policy-v2",
+  "trajectory_calculations": 0
+}

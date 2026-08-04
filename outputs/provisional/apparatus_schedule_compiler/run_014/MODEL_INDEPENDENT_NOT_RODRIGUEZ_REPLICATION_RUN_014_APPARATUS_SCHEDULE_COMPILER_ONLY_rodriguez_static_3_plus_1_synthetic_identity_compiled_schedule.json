@@ -1,0 +1,1144 @@
+{
+  "compiled": {
+    "apparatus_profile_hash": "87023795fdb844279c70763b3d3a045f04579250c474f9dc5cb6da42a2b3a417",
+    "commands": [
+      {
+        "actual_effective_time_s": 0.0,
+        "atomic_group_id": null,
+        "channel_id": "static_component_1_saturation",
+        "clock_displacement_s": 0.0,
+        "command_id": "cmd_00005",
+        "continuous_identity_binding": true,
+        "event_id": null,
+        "field": "saturation",
+        "ideal_value": 1.45,
+        "issued_time_s": 0.0,
+        "latency_s": 0.0,
+        "quantization_error": 0.0,
+        "quantization_step": null,
+        "quantized_value": 1.45,
+        "requested_effective_time_s": 0.0,
+        "rounding_rule": "NONE",
+        "units": "saturation_parameter"
+      },
+      {
+        "actual_effective_time_s": 0.0,
+        "atomic_group_id": null,
+        "channel_id": "static_component_2_saturation",
+        "clock_displacement_s": 0.0,
+        "command_id": "cmd_00007",
+        "continuous_identity_binding": true,
+        "event_id": null,
+        "field": "saturation",
+        "ideal_value": 1.45,
+        "issued_time_s": 0.0,
+        "latency_s": 0.0,
+        "quantization_error": 0.0,
+        "quantization_step": null,
+        "quantized_value": 1.45,
+        "requested_effective_time_s": 0.0,
+        "rounding_rule": "NONE",
+        "units": "saturation_parameter"
+      },
+      {
+        "actual_effective_time_s": 0.0,
+        "atomic_group_id": null,
+        "channel_id": "static_component_3_saturation",
+        "clock_displacement_s": 0.0,
+        "command_id": "cmd_00009",
+        "continuous_identity_binding": true,
+        "event_id": null,
+        "field": "saturation",
+        "ideal_value": 2.17,
+        "issued_time_s": 0.0,
+        "latency_s": 0.0,
+        "quantization_error": 0.0,
+        "quantization_step": null,
+        "quantized_value": 2.17,
+        "requested_effective_time_s": 0.0,
+        "rounding_rule": "NONE",
+        "units": "saturation_parameter"
+      },
+      {
+        "actual_effective_time_s": 0.0,
+        "atomic_group_id": null,
+        "channel_id": "static_component_4_detuning",
+        "clock_displacement_s": 0.0,
+        "command_id": "cmd_00003",
+        "continuous_identity_binding": true,
+        "event_id": null,
+        "field": "detuning_gamma",
+        "ideal_value": 2.0,
+        "issued_time_s": 0.0,
+        "latency_s": 0.0,
+        "quantization_error": 0.0,
+        "quantization_step": null,
+        "quantized_value": 2.0,
+        "requested_effective_time_s": 0.0,
+        "rounding_rule": "NONE",
+        "units": "Gamma"
+      },
+      {
+        "actual_effective_time_s": 0.0,
+        "atomic_group_id": null,
+        "channel_id": "static_component_4_saturation",
+        "clock_displacement_s": 0.0,
+        "command_id": "cmd_00011",
+        "continuous_identity_binding": true,
+        "event_id": null,
+        "field": "saturation",
+        "ideal_value": 0.72,
+        "issued_time_s": 0.0,
+        "latency_s": 0.0,
+        "quantization_error": 0.0,
+        "quantization_step": null,
+        "quantized_value": 0.72,
+        "requested_effective_time_s": 0.0,
+        "rounding_rule": "NONE",
+        "units": "saturation_parameter"
+      },
+      {
+        "actual_effective_time_s": 0.0,
+        "atomic_group_id": null,
+        "channel_id": "static_shared_detuning_123",
+        "clock_displacement_s": 0.0,
+        "command_id": "cmd_00001",
+        "continuous_identity_binding": true,
+        "event_id": null,
+        "field": "detuning_gamma",
+        "ideal_value": -1.0,
+        "issued_time_s": 0.0,
+        "latency_s": 0.0,
+        "quantization_error": 0.0,
+        "quantization_step": null,
+        "quantized_value": -1.0,
+        "requested_effective_time_s": 0.0,
+        "rounding_rule": "NONE",
+        "units": "Gamma"
+      }
+    ],
+    "compilation_order": [
+      "validate_policy",
+      "validate_profile",
+      "validate_request",
+      "resolve_channels",
+      "establish_horizon",
+      "collect_events",
+      "construct_effective_time_grid",
+      "evaluate_ideal_channels",
+      "align_events",
+      "quantize_values",
+      "generate_commands",
+      "apply_latency",
+      "reconstruct_realized_schedule",
+      "deduplicate_identical_commands",
+      "validate_hard_constraints",
+      "calculate_metrics",
+      "serialize_and_hash"
+    ],
+    "compiler_version": "run014-compiler-v1",
+    "events": [],
+    "hardware_executable_claim_valid": false,
+    "hardware_validation_status": "SYNTHETIC_ONLY",
+    "hashes": {
+      "apparatus_profile": "87023795fdb844279c70763b3d3a045f04579250c474f9dc5cb6da42a2b3a417",
+      "command_stream": "02384d7da581371b3c495700eb23c34ab958b1aa570daf50048e93da554958b6",
+      "compilation_request": "c4c08443fcab74db8c1e555fea57120eed06742085d880b4f7a004544b0c7e7f",
+      "complete_compiled_package": "58739160df4bec2cc108f5adb50ebe34c45fca9a15d94d66917000353c5ec9c2",
+      "realized_schedule": "8e5a9d2f9f6eb2b1430cfb266f274255fd3d4424c3c14d00c37a5936dac90a65",
+      "source_policy_specification": "b91871367bf2d26fc14b0fcfadf125f0ff766e6b2e4dd5b27af00100ea904f77"
+    },
+    "initial_channel_values": {
+      "static_component_1_saturation": 1.45,
+      "static_component_2_saturation": 1.45,
+      "static_component_3_saturation": 2.17,
+      "static_component_4_detuning": 2.0,
+      "static_component_4_saturation": 0.72,
+      "static_shared_detuning_123": -1.0
+    },
+    "maximum_event_displacement_s": 0.0,
+    "metrics": [
+      {
+        "channel_id": "static_shared_detuning_123",
+        "deduplicated_command_count": 1,
+        "endpoint_error": 0.0,
+        "event_adjacent_error": 0.0,
+        "field": "detuning_gamma",
+        "maximum_absolute_quantization_error": 0.0,
+        "maximum_absolute_value_error": 0.0,
+        "maximum_measured_first_derivative": 0.0,
+        "maximum_measured_second_difference": 0.0,
+        "raw_command_count": 2,
+        "rms_quantization_error": 0.0,
+        "rms_value_error": 0.0
+      },
+      {
+        "channel_id": "static_component_4_detuning",
+        "deduplicated_command_count": 1,
+        "endpoint_error": 0.0,
+        "event_adjacent_error": 0.0,
+        "field": "detuning_gamma",
+        "maximum_absolute_quantization_error": 0.0,
+        "maximum_absolute_value_error": 0.0,
+        "maximum_measured_first_derivative": 0.0,
+        "maximum_measured_second_difference": 0.0,
+        "raw_command_count": 2,
+        "rms_quantization_error": 0.0,
+        "rms_value_error": 0.0
+      },
+      {
+        "channel_id": "static_component_1_saturation",
+        "deduplicated_command_count": 1,
+        "endpoint_error": 0.0,
+        "event_adjacent_error": 0.0,
+        "field": "saturation",
+        "maximum_absolute_quantization_error": 0.0,
+        "maximum_absolute_value_error": 0.0,
+        "maximum_measured_first_derivative": 0.0,
+        "maximum_measured_second_difference": 0.0,
+        "raw_command_count": 2,
+        "rms_quantization_error": 0.0,
+        "rms_value_error": 0.0
+      },
+      {
+        "channel_id": "static_component_2_saturation",
+        "deduplicated_command_count": 1,
+        "endpoint_error": 0.0,
+        "event_adjacent_error": 0.0,
+        "field": "saturation",
+        "maximum_absolute_quantization_error": 0.0,
+        "maximum_absolute_value_error": 0.0,
+        "maximum_measured_first_derivative": 0.0,
+        "maximum_measured_second_difference": 0.0,
+        "raw_command_count": 2,
+        "rms_quantization_error": 0.0,
+        "rms_value_error": 0.0
+      },
+      {
+        "channel_id": "static_component_3_saturation",
+        "deduplicated_command_count": 1,
+        "endpoint_error": 0.0,
+        "event_adjacent_error": 0.0,
+        "field": "saturation",
+        "maximum_absolute_quantization_error": 0.0,
+        "maximum_absolute_value_error": 0.0,
+        "maximum_measured_first_derivative": 0.0,
+        "maximum_measured_second_difference": 0.0,
+        "raw_command_count": 2,
+        "rms_quantization_error": 0.0,
+        "rms_value_error": 0.0
+      },
+      {
+        "channel_id": "static_component_4_saturation",
+        "deduplicated_command_count": 1,
+        "endpoint_error": 0.0,
+        "event_adjacent_error": 0.0,
+        "field": "saturation",
+        "maximum_absolute_quantization_error": 0.0,
+        "maximum_absolute_value_error": 0.0,
+        "maximum_measured_first_derivative": 0.0,
+        "maximum_measured_second_difference": 0.0,
+        "raw_command_count": 2,
+        "rms_quantization_error": 0.0,
+        "rms_value_error": 0.0
+      }
+    ],
+    "policy_hash": "1722b131dd89e817e4f1ad5685b26c183ab46989123354a480c265e2ac6e79b4",
+    "profile_complete": true,
+    "request": {
+      "diagnostic_grid_period_s": null,
+      "end_time_s": 0.002,
+      "explicit_initial_channel_values": null,
+      "initial_state_mode": "POLICY_STATE_AT_START",
+      "mode": "EXACT_ONLY",
+      "policy_hash": "1722b131dd89e817e4f1ad5685b26c183ab46989123354a480c265e2ac6e79b4",
+      "pre_roll_s": null,
+      "profile_hash": "87023795fdb844279c70763b3d3a045f04579250c474f9dc5cb6da42a2b3a417",
+      "reconstruction_mode": "SYNTHETIC_CONTINUOUS_IDENTITY_BINDING",
+      "start_time_s": 0.0
+    },
+    "schema_version": "mgf-mot-compiled-control-schedule-v1",
+    "simultaneous_command_group_count": 0,
+    "status": "COMPILED_EXACT",
+    "total_command_count": 6,
+    "total_raw_command_count": 12,
+    "violations": []
+  },
+  "label": "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_014_APPARATUS_SCHEDULE_COMPILER_ONLY",
+  "profile": {
+    "aggregate_saturation_budget": {
+      "knowledge": "UNBOUNDED",
+      "not_applicable_reason": null,
+      "provenance": {
+        "directly_reported": false,
+        "interpretation_notes": "explicit idealized unbounded synthetic capability",
+        "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+        "source_description": "explicit idealized unbounded synthetic capability",
+        "source_hash": null,
+        "source_path_or_citation": null
+      },
+      "units": "aggregate_saturation_parameter",
+      "value": null
+    },
+    "channel_capabilities": [
+      {
+        "activation_restriction": "ALLOWED",
+        "allowed_values": {
+          "knowledge": "NOT_APPLICABLE",
+          "not_applicable_reason": "no discrete allowed-value set",
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "no discrete allowed-value set",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "no discrete allowed-value set",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": null,
+          "value": null
+        },
+        "channel_id": "static_component_1_saturation",
+        "deactivation_restriction": "ALLOWED",
+        "field": "saturation",
+        "maximum": {
+          "knowledge": "UNBOUNDED",
+          "not_applicable_reason": null,
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "explicit idealized unbounded synthetic capability",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "explicit idealized unbounded synthetic capability",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": "saturation_parameter",
+          "value": null
+        },
+        "maximum_first_derivative": {
+          "knowledge": "UNBOUNDED",
+          "not_applicable_reason": null,
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "explicit idealized unbounded synthetic capability",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "explicit idealized unbounded synthetic capability",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": "saturation_parameter/s",
+          "value": null
+        },
+        "maximum_second_difference": {
+          "knowledge": "UNBOUNDED",
+          "not_applicable_reason": null,
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "explicit idealized unbounded synthetic capability",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "explicit idealized unbounded synthetic capability",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": "saturation_parameter/s/s",
+          "value": null
+        },
+        "minimum": {
+          "knowledge": "UNBOUNDED",
+          "not_applicable_reason": null,
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "explicit idealized unbounded synthetic capability",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "explicit idealized unbounded synthetic capability",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": "saturation_parameter",
+          "value": null
+        },
+        "minimum_dwell_time": {
+          "knowledge": "NOT_APPLICABLE",
+          "not_applicable_reason": "no minimum dwell",
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "no minimum dwell",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "no minimum dwell",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": null,
+          "value": null
+        },
+        "resolution": {
+          "knowledge": "NOT_APPLICABLE",
+          "not_applicable_reason": "continuous values",
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "continuous values",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "continuous values",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": null,
+          "value": null
+        },
+        "update_period": {
+          "knowledge": "UNBOUNDED",
+          "not_applicable_reason": null,
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "explicit idealized unbounded synthetic capability",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "explicit idealized unbounded synthetic capability",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": "s",
+          "value": null
+        }
+      },
+      {
+        "activation_restriction": "ALLOWED",
+        "allowed_values": {
+          "knowledge": "NOT_APPLICABLE",
+          "not_applicable_reason": "no discrete allowed-value set",
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "no discrete allowed-value set",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "no discrete allowed-value set",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": null,
+          "value": null
+        },
+        "channel_id": "static_component_2_saturation",
+        "deactivation_restriction": "ALLOWED",
+        "field": "saturation",
+        "maximum": {
+          "knowledge": "UNBOUNDED",
+          "not_applicable_reason": null,
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "explicit idealized unbounded synthetic capability",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "explicit idealized unbounded synthetic capability",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": "saturation_parameter",
+          "value": null
+        },
+        "maximum_first_derivative": {
+          "knowledge": "UNBOUNDED",
+          "not_applicable_reason": null,
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "explicit idealized unbounded synthetic capability",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "explicit idealized unbounded synthetic capability",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": "saturation_parameter/s",
+          "value": null
+        },
+        "maximum_second_difference": {
+          "knowledge": "UNBOUNDED",
+          "not_applicable_reason": null,
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "explicit idealized unbounded synthetic capability",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "explicit idealized unbounded synthetic capability",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": "saturation_parameter/s/s",
+          "value": null
+        },
+        "minimum": {
+          "knowledge": "UNBOUNDED",
+          "not_applicable_reason": null,
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "explicit idealized unbounded synthetic capability",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "explicit idealized unbounded synthetic capability",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": "saturation_parameter",
+          "value": null
+        },
+        "minimum_dwell_time": {
+          "knowledge": "NOT_APPLICABLE",
+          "not_applicable_reason": "no minimum dwell",
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "no minimum dwell",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "no minimum dwell",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": null,
+          "value": null
+        },
+        "resolution": {
+          "knowledge": "NOT_APPLICABLE",
+          "not_applicable_reason": "continuous values",
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "continuous values",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "continuous values",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": null,
+          "value": null
+        },
+        "update_period": {
+          "knowledge": "UNBOUNDED",
+          "not_applicable_reason": null,
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "explicit idealized unbounded synthetic capability",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "explicit idealized unbounded synthetic capability",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": "s",
+          "value": null
+        }
+      },
+      {
+        "activation_restriction": "ALLOWED",
+        "allowed_values": {
+          "knowledge": "NOT_APPLICABLE",
+          "not_applicable_reason": "no discrete allowed-value set",
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "no discrete allowed-value set",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "no discrete allowed-value set",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": null,
+          "value": null
+        },
+        "channel_id": "static_component_3_saturation",
+        "deactivation_restriction": "ALLOWED",
+        "field": "saturation",
+        "maximum": {
+          "knowledge": "UNBOUNDED",
+          "not_applicable_reason": null,
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "explicit idealized unbounded synthetic capability",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "explicit idealized unbounded synthetic capability",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": "saturation_parameter",
+          "value": null
+        },
+        "maximum_first_derivative": {
+          "knowledge": "UNBOUNDED",
+          "not_applicable_reason": null,
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "explicit idealized unbounded synthetic capability",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "explicit idealized unbounded synthetic capability",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": "saturation_parameter/s",
+          "value": null
+        },
+        "maximum_second_difference": {
+          "knowledge": "UNBOUNDED",
+          "not_applicable_reason": null,
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "explicit idealized unbounded synthetic capability",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "explicit idealized unbounded synthetic capability",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": "saturation_parameter/s/s",
+          "value": null
+        },
+        "minimum": {
+          "knowledge": "UNBOUNDED",
+          "not_applicable_reason": null,
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "explicit idealized unbounded synthetic capability",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "explicit idealized unbounded synthetic capability",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": "saturation_parameter",
+          "value": null
+        },
+        "minimum_dwell_time": {
+          "knowledge": "NOT_APPLICABLE",
+          "not_applicable_reason": "no minimum dwell",
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "no minimum dwell",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "no minimum dwell",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": null,
+          "value": null
+        },
+        "resolution": {
+          "knowledge": "NOT_APPLICABLE",
+          "not_applicable_reason": "continuous values",
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "continuous values",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "continuous values",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": null,
+          "value": null
+        },
+        "update_period": {
+          "knowledge": "UNBOUNDED",
+          "not_applicable_reason": null,
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "explicit idealized unbounded synthetic capability",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "explicit idealized unbounded synthetic capability",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": "s",
+          "value": null
+        }
+      },
+      {
+        "activation_restriction": "ALLOWED",
+        "allowed_values": {
+          "knowledge": "NOT_APPLICABLE",
+          "not_applicable_reason": "no discrete allowed-value set",
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "no discrete allowed-value set",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "no discrete allowed-value set",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": null,
+          "value": null
+        },
+        "channel_id": "static_component_4_detuning",
+        "deactivation_restriction": "ALLOWED",
+        "field": "detuning_gamma",
+        "maximum": {
+          "knowledge": "UNBOUNDED",
+          "not_applicable_reason": null,
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "explicit idealized unbounded synthetic capability",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "explicit idealized unbounded synthetic capability",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": "Gamma",
+          "value": null
+        },
+        "maximum_first_derivative": {
+          "knowledge": "UNBOUNDED",
+          "not_applicable_reason": null,
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "explicit idealized unbounded synthetic capability",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "explicit idealized unbounded synthetic capability",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": "Gamma/s",
+          "value": null
+        },
+        "maximum_second_difference": {
+          "knowledge": "UNBOUNDED",
+          "not_applicable_reason": null,
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "explicit idealized unbounded synthetic capability",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "explicit idealized unbounded synthetic capability",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": "Gamma/s/s",
+          "value": null
+        },
+        "minimum": {
+          "knowledge": "UNBOUNDED",
+          "not_applicable_reason": null,
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "explicit idealized unbounded synthetic capability",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "explicit idealized unbounded synthetic capability",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": "Gamma",
+          "value": null
+        },
+        "minimum_dwell_time": {
+          "knowledge": "NOT_APPLICABLE",
+          "not_applicable_reason": "no minimum dwell",
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "no minimum dwell",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "no minimum dwell",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": null,
+          "value": null
+        },
+        "resolution": {
+          "knowledge": "NOT_APPLICABLE",
+          "not_applicable_reason": "continuous values",
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "continuous values",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "continuous values",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": null,
+          "value": null
+        },
+        "update_period": {
+          "knowledge": "UNBOUNDED",
+          "not_applicable_reason": null,
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "explicit idealized unbounded synthetic capability",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "explicit idealized unbounded synthetic capability",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": "s",
+          "value": null
+        }
+      },
+      {
+        "activation_restriction": "ALLOWED",
+        "allowed_values": {
+          "knowledge": "NOT_APPLICABLE",
+          "not_applicable_reason": "no discrete allowed-value set",
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "no discrete allowed-value set",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "no discrete allowed-value set",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": null,
+          "value": null
+        },
+        "channel_id": "static_component_4_saturation",
+        "deactivation_restriction": "ALLOWED",
+        "field": "saturation",
+        "maximum": {
+          "knowledge": "UNBOUNDED",
+          "not_applicable_reason": null,
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "explicit idealized unbounded synthetic capability",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "explicit idealized unbounded synthetic capability",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": "saturation_parameter",
+          "value": null
+        },
+        "maximum_first_derivative": {
+          "knowledge": "UNBOUNDED",
+          "not_applicable_reason": null,
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "explicit idealized unbounded synthetic capability",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "explicit idealized unbounded synthetic capability",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": "saturation_parameter/s",
+          "value": null
+        },
+        "maximum_second_difference": {
+          "knowledge": "UNBOUNDED",
+          "not_applicable_reason": null,
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "explicit idealized unbounded synthetic capability",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "explicit idealized unbounded synthetic capability",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": "saturation_parameter/s/s",
+          "value": null
+        },
+        "minimum": {
+          "knowledge": "UNBOUNDED",
+          "not_applicable_reason": null,
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "explicit idealized unbounded synthetic capability",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "explicit idealized unbounded synthetic capability",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": "saturation_parameter",
+          "value": null
+        },
+        "minimum_dwell_time": {
+          "knowledge": "NOT_APPLICABLE",
+          "not_applicable_reason": "no minimum dwell",
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "no minimum dwell",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "no minimum dwell",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": null,
+          "value": null
+        },
+        "resolution": {
+          "knowledge": "NOT_APPLICABLE",
+          "not_applicable_reason": "continuous values",
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "continuous values",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "continuous values",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": null,
+          "value": null
+        },
+        "update_period": {
+          "knowledge": "UNBOUNDED",
+          "not_applicable_reason": null,
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "explicit idealized unbounded synthetic capability",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "explicit idealized unbounded synthetic capability",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": "s",
+          "value": null
+        }
+      },
+      {
+        "activation_restriction": "ALLOWED",
+        "allowed_values": {
+          "knowledge": "NOT_APPLICABLE",
+          "not_applicable_reason": "no discrete allowed-value set",
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "no discrete allowed-value set",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "no discrete allowed-value set",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": null,
+          "value": null
+        },
+        "channel_id": "static_shared_detuning_123",
+        "deactivation_restriction": "ALLOWED",
+        "field": "detuning_gamma",
+        "maximum": {
+          "knowledge": "UNBOUNDED",
+          "not_applicable_reason": null,
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "explicit idealized unbounded synthetic capability",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "explicit idealized unbounded synthetic capability",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": "Gamma",
+          "value": null
+        },
+        "maximum_first_derivative": {
+          "knowledge": "UNBOUNDED",
+          "not_applicable_reason": null,
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "explicit idealized unbounded synthetic capability",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "explicit idealized unbounded synthetic capability",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": "Gamma/s",
+          "value": null
+        },
+        "maximum_second_difference": {
+          "knowledge": "UNBOUNDED",
+          "not_applicable_reason": null,
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "explicit idealized unbounded synthetic capability",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "explicit idealized unbounded synthetic capability",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": "Gamma/s/s",
+          "value": null
+        },
+        "minimum": {
+          "knowledge": "UNBOUNDED",
+          "not_applicable_reason": null,
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "explicit idealized unbounded synthetic capability",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "explicit idealized unbounded synthetic capability",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": "Gamma",
+          "value": null
+        },
+        "minimum_dwell_time": {
+          "knowledge": "NOT_APPLICABLE",
+          "not_applicable_reason": "no minimum dwell",
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "no minimum dwell",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "no minimum dwell",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": null,
+          "value": null
+        },
+        "resolution": {
+          "knowledge": "NOT_APPLICABLE",
+          "not_applicable_reason": "continuous values",
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "continuous values",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "continuous values",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": null,
+          "value": null
+        },
+        "update_period": {
+          "knowledge": "UNBOUNDED",
+          "not_applicable_reason": null,
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "explicit idealized unbounded synthetic capability",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "explicit idealized unbounded synthetic capability",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": "s",
+          "value": null
+        }
+      }
+    ],
+    "command_clock": {
+      "allowed_time_rule": "clock_origin_plus_integer_update_period",
+      "clock_origin_s": 0.0,
+      "continuous_identity_binding": true,
+      "minimum_command_separation": {
+        "knowledge": "NOT_APPLICABLE",
+        "not_applicable_reason": "continuous binding",
+        "provenance": {
+          "directly_reported": false,
+          "interpretation_notes": "continuous binding",
+          "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+          "source_description": "continuous binding",
+          "source_hash": null,
+          "source_path_or_citation": null
+        },
+        "units": null,
+        "value": null
+      },
+      "rounding_mode": "REQUIRE_EXACT",
+      "shared_clock": true,
+      "simultaneous_updates_atomic": true,
+      "update_period": {
+        "knowledge": "UNBOUNDED",
+        "not_applicable_reason": null,
+        "provenance": {
+          "directly_reported": false,
+          "interpretation_notes": "explicit idealized unbounded synthetic capability",
+          "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+          "source_description": "explicit idealized unbounded synthetic capability",
+          "source_hash": null,
+          "source_path_or_citation": null
+        },
+        "units": "s",
+        "value": null
+      }
+    },
+    "complete": true,
+    "coupling_rules": [],
+    "event_execution": {
+      "atomic_update_required": true,
+      "rule": "REQUIRE_EXACT_TIME"
+    },
+    "hardware_validation_status": "SYNTHETIC_ONLY",
+    "latency": {
+      "fixed_latency": {
+        "knowledge": "KNOWN",
+        "not_applicable_reason": null,
+        "provenance": {
+          "directly_reported": false,
+          "interpretation_notes": "synthetic Run 014 test fixture",
+          "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+          "source_description": "synthetic Run 014 test fixture",
+          "source_hash": null,
+          "source_path_or_citation": null
+        },
+        "units": "s",
+        "value": 0.0
+      }
+    },
+    "profile_description": "Formal exact continuous binding with zero latency and no quantization; not a finite-clock device",
+    "profile_id": "synthetic_identity",
+    "profile_name": "Synthetic identity profile",
+    "provenance": {
+      "directly_reported": false,
+      "interpretation_notes": "formal continuous identity profile; not hardware",
+      "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+      "source_description": "formal continuous identity profile; not hardware",
+      "source_hash": null,
+      "source_path_or_citation": null
+    },
+    "schema_version": "mgf-mot-apparatus-constraints-v1"
+  },
+  "sample_audit": [
+    {
+      "component_order": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "exact": true,
+      "segment": "static",
+      "time_s": 0.0
+    },
+    {
+      "component_order": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "exact": true,
+      "segment": "static",
+      "time_s": 0.0001
+    },
+    {
+      "component_order": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "exact": true,
+      "segment": "static",
+      "time_s": 0.0005
+    },
+    {
+      "component_order": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "exact": true,
+      "segment": "static",
+      "time_s": 0.0009999999999999998
+    },
+    {
+      "component_order": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "exact": true,
+      "segment": "static",
+      "time_s": 0.001
+    },
+    {
+      "component_order": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "exact": true,
+      "segment": "static",
+      "time_s": 0.0010000000000000002
+    },
+    {
+      "component_order": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "exact": true,
+      "segment": "static",
+      "time_s": 0.002
+    }
+  ]
+}
