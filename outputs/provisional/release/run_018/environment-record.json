@@ -4,16 +4,19 @@
     "pylcp": "==1.0.2"
   },
   "environment_kind": "AUDIT_SNAPSHOT_NOT_A_UNIVERSAL_LOCKFILE",
-  "generation_time_utc": "2026-08-04T07:55:39.674306+00:00",
+  "generation_time_utc": "2026-08-04T22:58:00.650425+00:00",
   "installed_versions": {
+    "Pillow": "12.3.0",
     "PyYAML": "6.0.3",
     "build": "1.5.0",
     "mgf-mot-force-map": "0.1.0",
     "numpy": "2.4.6",
+    "pdfplumber": "0.11.10",
     "pylcp": "1.0.2",
     "pytest": "9.1.1",
     "scipy": "1.18.0",
     "setuptools": null,
+    "tomli": null,
     "wheel": null
   },
   "labels": [
@@ -24,6 +27,12 @@
   ],
   "operating_system": "win32",
   "python_implementation": "cpython",
-  "python_version": "3.14.4",
-  "schema_version": "mgf-mot-release-environment-v1"
+  "python_version": "3.12.13",
+  "schema_version": "mgf-mot-release-environment-v1",
+  "test_extra_dependencies": {
+    "Pillow": ">=10.0",
+    "pdfplumber": ">=0.11.0",
+    "pytest": ">=8.0",
+    "tomli": ">=2.0; python_version < '3.11'"
+  }
 }

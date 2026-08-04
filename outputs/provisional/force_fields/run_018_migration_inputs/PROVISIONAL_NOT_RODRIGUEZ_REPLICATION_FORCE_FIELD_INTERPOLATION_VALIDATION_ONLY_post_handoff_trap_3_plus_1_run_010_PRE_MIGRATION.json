@@ -1,5 +1,5 @@
 {
-  "cache_key": "3c0c75c8e3a089c4f29b159c1f0e4ee12b479c483d4167def80409252b54727f",
+  "cache_key": "e0fbe7f34339ec0a0f413419d6e9f06e0509066ee4132a46693367ec81a65c02",
   "canonical_values_are_si_acceleration": false,
   "created_utc": "2026-08-02T07:02:21.266339+00:00",
   "equilibrium_solve_count": 825,
@@ -38,47 +38,47 @@
     ],
     "source_hashes": [
       [
-        "configs/provisional_force_field_run_010.yaml",
+        "configs\\provisional_force_field_run_010.yaml",
         "23935fe573a27928c2f855c1562e8a786092ea7379a40646907911fff3b94eb1"
       ],
       [
-        "configs/rodriguez_baseline_linear_chirp.yaml",
+        "configs\\rodriguez_baseline_linear_chirp.yaml",
         "c428695e839de3172ac17e1d30c424a31733bc32dc1d0e7e72b2fa56c9b524b4"
       ],
       [
-        "configs/rodriguez_static_3_plus_1.yaml",
+        "configs\\rodriguez_static_3_plus_1.yaml",
         "06ed7c00d1df87d2fb929ec6511dc8158e0248a1fb0c7109ba2c6caca81a6f80"
       ],
       [
-        "configs/rodriguez_gaussian_baseline.yaml",
+        "configs\\rodriguez_gaussian_baseline.yaml",
         "8498253a5f58d3d7187ac26aa5f52f8d14ccbff19ea741eaccd9b0cfdb1d89a3"
       ],
       [
-        "src/mgf_mot/accepted_backend.py",
-        "1bb699b03b3b95c4bf479129dd18f89d67597b81592883b3bda005450bd16c85"
+        "src\\mgf_mot\\accepted_backend.py",
+        "ffd79a25ec8f1a3821513ffd131f62284a12dba3e8e797967e8491c761468fd0"
       ],
       [
-        "src/mgf_mot/excited_hyperfine.py",
+        "src\\mgf_mot\\excited_hyperfine.py",
         "909f90e0a4875735df3abd590162bd72f69b5eebbdd0f5e6f15eed31a074afd5"
       ],
       [
-        "src/mgf_mot/force_field.py",
+        "src\\mgf_mot\\force_field.py",
         "25b5f55a305c1c1380bb14a0dc543a346a5058a470442d6148901f2ecd4aeb29"
       ],
       [
-        "src/mgf_mot/gaussian_beams.py",
+        "src\\mgf_mot\\gaussian_beams.py",
         "ca8900129792d2d1e33a8b3b1d824df54c238dac7eafee166d3799eb80d35a64"
       ],
       [
-        "src/mgf_mot/mgf_backend.py",
+        "src\\mgf_mot\\mgf_backend.py",
         "3f746fe724cdec328c6d67bd41c4acc0df6cc3b02a801ccd4f823f27c4318944"
       ],
       [
-        "src/mgf_mot/rateeq_backend.py",
+        "src\\mgf_mot\\rateeq_backend.py",
         "7c3da589bb797d0529a5c6d829dce869df6daff03c89489b3a82edabb82af211"
       ],
       [
-        "src/mgf_mot/spectroscopy.py",
+        "src\\mgf_mot\\spectroscopy.py",
         "3b2a339bed6ef1dcf78d27dfbd9980a93f47268061e02e1a0d09e2c2f83ae065"
       ]
     ],
@@ -95,19 +95,6 @@
       "d-dependent J'=1/2 to J'=3/2 mixing",
       "exact positive-parity excited-state spectroscopy"
     ]
-  },
-  "provenance_migration": {
-    "labels": [
-      "MODEL_INDEPENDENT",
-      "NOT_RODRIGUEZ_REPLICATION",
-      "RUN_018",
-      "CACHE_PROVENANCE_AND_CI_DEPENDENCY_CORRECTION_ONLY"
-    ],
-    "numerical_cache_rebuilt": false,
-    "original_metadata_backup": "outputs/provisional/force_fields/run_018_migration_inputs/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_post_handoff_trap_3_plus_1_run_010_PRE_MIGRATION.json",
-    "original_metadata_sha256": "87d4a9ebe3b364871cb588892c93d2c88748c2f0ea1bd31db8cd45cc195849bb",
-    "schema_version": "mgf-mot-run-010-cache-provenance-migration-v1",
-    "status": "RUN_010_NUMERICAL_CACHE_UNCHANGED_RUN_018_PROVENANCE_METADATA_MIGRATED"
   },
   "shape": [
     25,

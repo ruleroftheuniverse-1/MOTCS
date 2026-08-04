@@ -104,7 +104,7 @@ def accepted_force_field_source_hashes(repo_root: Path) -> tuple[tuple[str, str]
         repo_root / "src" / "mgf_mot" / "spectroscopy.py",
     )
     return tuple(
-        (str(path.relative_to(repo_root)), sha256(path.read_bytes()).hexdigest())
+        (path.relative_to(repo_root).as_posix(), sha256(path.read_bytes()).hexdigest())
         for path in paths
     )
 

@@ -21,8 +21,8 @@
       "protected": false,
       "regeneration_command": null,
       "semantic_role": "canonical continuous integration",
-      "sha256": "20083a4b15ed483a99d282fb695a5942ac446097ddb2726b041c05e31b2755a2",
-      "size_bytes": 959
+      "sha256": "63694a10cecfb6861b06c0f048aac042712c2db1dc8607af983be72d7ee73746",
+      "size_bytes": 1024
     },
     {
       "canonical": true,
@@ -45,7 +45,7 @@
       "protected": false,
       "regeneration_command": null,
       "semantic_role": "canonical project metadata",
-      "sha256": "4c69a6bb264a91136c59960728d82b27c3f466fe17fcd76fd4938c5ec4ac66e2",
+      "sha256": "064df1352df30f7083ea3f51afd0a27816a9ad855fbfdc3ee5eee8a42d0c271a",
       "size_bytes": 21829
     },
     {
@@ -757,6 +757,18 @@
       "canonical": true,
       "category": "documentation",
       "labels": [],
+      "path": "docs/provenance-path-portability.md",
+      "producing_run": "PROJECT",
+      "protected": false,
+      "regeneration_command": null,
+      "semantic_role": "canonical documentation",
+      "sha256": "9a279c22cf7ee5c0eb328aa025e9db49bf1d03086e34029cb0c0003e7cf212b3",
+      "size_bytes": 5265
+    },
+    {
+      "canonical": true,
+      "category": "documentation",
+      "labels": [],
       "path": "docs/pylcp-rate-equation-backend.md",
       "producing_run": "PROJECT",
       "protected": false,
@@ -786,8 +798,8 @@
       "protected": false,
       "regeneration_command": null,
       "semantic_role": "canonical documentation",
-      "sha256": "b15bd33fff31192b359ea10e4013c6b9eeab9c6c908a54d18d2184d80ca7cd76",
-      "size_bytes": 1615
+      "sha256": "e30b8aa13c07377d3504df9f358822f4f216bee44ff52c233e593b6446b4e826",
+      "size_bytes": 2807
     },
     {
       "canonical": true,
@@ -798,8 +810,8 @@
       "protected": false,
       "regeneration_command": null,
       "semantic_role": "canonical documentation",
-      "sha256": "909a3850991e7be6cb4931f4d3da42b5fa0bf7420ec8951c16a3db40fedb039c",
-      "size_bytes": 3361
+      "sha256": "85d75afb65234696e0f14197c273a1f60c51a041a14c1fb6fb6d769541430190",
+      "size_bytes": 5116
     },
     {
       "canonical": true,
@@ -3229,8 +3241,8 @@
       "protected": true,
       "regeneration_command": null,
       "semantic_role": "canonical protected output",
-      "sha256": "87d4a9ebe3b364871cb588892c93d2c88748c2f0ea1bd31db8cd45cc195849bb",
-      "size_bytes": 40220
+      "sha256": "0eaf4ce2c481cad5e2d01f01481548e648f2c9b6d665e9c81da2c9c3f74bbfca",
+      "size_bytes": 40920
     },
     {
       "canonical": true,
@@ -3256,6 +3268,50 @@
       ],
       "path": "outputs/provisional/force_fields/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_pre_handoff_chirp_3_run_010_metadata.json",
       "producing_run": "Run 010",
+      "protected": true,
+      "regeneration_command": null,
+      "semantic_role": "canonical protected output",
+      "sha256": "0776912a76a5f25c98887ed571ef31368a90706301ec20d84ea8affd5425aec6",
+      "size_bytes": 40938
+    },
+    {
+      "canonical": true,
+      "category": "protected_output",
+      "labels": [
+        "PROVISIONAL"
+      ],
+      "path": "outputs/provisional/force_fields/run_018_cache_provenance_migration.json",
+      "producing_run": "Run 018",
+      "protected": true,
+      "regeneration_command": null,
+      "semantic_role": "canonical protected output",
+      "sha256": "521edf80bb06a5f2db28b37b6a36758c861b203f68a67d6f753a9b04e6d3790a",
+      "size_bytes": 26401
+    },
+    {
+      "canonical": true,
+      "category": "protected_output",
+      "labels": [
+        "PROVISIONAL",
+        "NOT_RODRIGUEZ_REPLICATION"
+      ],
+      "path": "outputs/provisional/force_fields/run_018_migration_inputs/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_post_handoff_trap_3_plus_1_run_010_PRE_MIGRATION.json",
+      "producing_run": "Run 018",
+      "protected": true,
+      "regeneration_command": null,
+      "semantic_role": "canonical protected output",
+      "sha256": "87d4a9ebe3b364871cb588892c93d2c88748c2f0ea1bd31db8cd45cc195849bb",
+      "size_bytes": 40220
+    },
+    {
+      "canonical": true,
+      "category": "protected_output",
+      "labels": [
+        "PROVISIONAL",
+        "NOT_RODRIGUEZ_REPLICATION"
+      ],
+      "path": "outputs/provisional/force_fields/run_018_migration_inputs/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_pre_handoff_chirp_3_run_010_PRE_MIGRATION.json",
+      "producing_run": "Run 018",
       "protected": true,
       "regeneration_command": null,
       "semantic_role": "canonical protected output",
@@ -3932,6 +3988,22 @@
     },
     {
       "canonical": true,
+      "category": "protected_output",
+      "labels": [
+        "MODEL_INDEPENDENT",
+        "PROVISIONAL",
+        "NOT_RODRIGUEZ_REPLICATION"
+      ],
+      "path": "outputs/provisional/provenance_portability/run_018/MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_018_CROSS_PLATFORM_PROVENANCE_CERTIFICATION_ONLY_audit.json",
+      "producing_run": "Run 018",
+      "protected": true,
+      "regeneration_command": null,
+      "semantic_role": "canonical protected output",
+      "sha256": "889272df457d24b27c9d055832d4fecfc270565d5bfe9078db65a7996e44714f",
+      "size_bytes": 12019
+    },
+    {
+      "canonical": true,
       "category": "project_metadata",
       "labels": [],
       "path": "pyproject.toml",
@@ -3939,8 +4011,8 @@
       "protected": false,
       "regeneration_command": null,
       "semantic_role": "canonical project metadata",
-      "sha256": "0456e11967b08b1a60c200942c3a8ea65015cc5a9b532e9d8a5690c6ef415c16",
-      "size_bytes": 527
+      "sha256": "4a9bb8e1c205a1b0fd9cbdab44ae412872f7f9e2cf1a4f73fe16ff684cb38cef",
+      "size_bytes": 623
     },
     {
       "canonical": true,
@@ -4015,8 +4087,8 @@
       "protected": false,
       "regeneration_command": null,
       "semantic_role": "canonical script",
-      "sha256": "9b3af8402213f86e231e900539210d2326c8322053073db62dbe004943159603",
-      "size_bytes": 1136
+      "sha256": "ce5b62ea1fa39e1b18474a178f2a5d5f1fb527da1bd3112df0922cb34eb5d12d",
+      "size_bytes": 1229
     },
     {
       "canonical": true,
@@ -4029,6 +4101,18 @@
       "semantic_role": "canonical script",
       "sha256": "670f8f707be116d72958a90fb80fd2f224f7599713b46f710faa543f3a983a9c",
       "size_bytes": 52456
+    },
+    {
+      "canonical": true,
+      "category": "script",
+      "labels": [],
+      "path": "scripts/audit_provenance_path_portability.py",
+      "producing_run": "PROJECT",
+      "protected": false,
+      "regeneration_command": null,
+      "semantic_role": "canonical script",
+      "sha256": "c469dfc5a73bb62a3c712289985bc91af9c65ee895111268fae9d9dc382bdcaa",
+      "size_bytes": 16184
     },
     {
       "canonical": true,
@@ -4139,8 +4223,8 @@
       "protected": false,
       "regeneration_command": null,
       "semantic_role": "canonical script",
-      "sha256": "37dcef5f785e8814df5158a624e2c24f26a5cb626035d88715e44820cef848de",
-      "size_bytes": 7341
+      "sha256": "219a531b15f026381f11a8744d464e18e559569b445a2d471f40f688cc4e7da4",
+      "size_bytes": 8108
     },
     {
       "canonical": true,
@@ -4165,6 +4249,18 @@
       "semantic_role": "canonical script",
       "sha256": "48efc1ec9bfe6cec067cdcd976bf9d35d41f6b08c296cd023b5fef13b40e280b",
       "size_bytes": 1278
+    },
+    {
+      "canonical": true,
+      "category": "script",
+      "labels": [],
+      "path": "scripts/migrate_run_010_cache_provenance_to_canonical_lf.py",
+      "producing_run": "Run 010",
+      "protected": false,
+      "regeneration_command": null,
+      "semantic_role": "canonical script",
+      "sha256": "264809a1b0bc7bdd78a53e09e763c958141fb04abdc8d1c5c8f7c517c69b833d",
+      "size_bytes": 18968
     },
     {
       "canonical": true,
@@ -4541,8 +4637,8 @@
       "protected": false,
       "regeneration_command": null,
       "semantic_role": "canonical source",
-      "sha256": "ffd79a25ec8f1a3821513ffd131f62284a12dba3e8e797967e8491c761468fd0",
-      "size_bytes": 6855
+      "sha256": "1bb699b03b3b95c4bf479129dd18f89d67597b81592883b3bda005450bd16c85",
+      "size_bytes": 6861
     },
     {
       "canonical": true,
@@ -4895,6 +4991,18 @@
     {
       "canonical": true,
       "category": "source",
+      "labels": [],
+      "path": "src/mgf_mot/provenance_paths.py",
+      "producing_run": "PROJECT",
+      "protected": false,
+      "regeneration_command": null,
+      "semantic_role": "canonical source",
+      "sha256": "a9c354be940c457d26db758edbfc8c664c1beb261f298c854f3fc100b2751674",
+      "size_bytes": 4725
+    },
+    {
+      "canonical": true,
+      "category": "source",
       "labels": [
         "PROVISIONAL"
       ],
@@ -4927,8 +5035,8 @@
       "protected": false,
       "regeneration_command": null,
       "semantic_role": "canonical source",
-      "sha256": "a6a5c9693a2fc1fd2cf7a02c37bec4ac9cf18aa4b82465212b3077df82633aa0",
-      "size_bytes": 18639
+      "sha256": "c3ceabaa695f89abf79bbf08b176eb35d5fb80e5a27a6927ac24384e68df95b8",
+      "size_bytes": 19131
     },
     {
       "canonical": true,
@@ -5384,6 +5492,18 @@
       "canonical": true,
       "category": "test",
       "labels": [],
+      "path": "tests/test_run_018_cache_provenance_correction.py",
+      "producing_run": "Run 018",
+      "protected": false,
+      "regeneration_command": null,
+      "semantic_role": "canonical test",
+      "sha256": "daf7a17075500ec779b9aa9bc8c1a8fde2b1c392d859e78b67bb887735700550",
+      "size_bytes": 10208
+    },
+    {
+      "canonical": true,
+      "category": "test",
+      "labels": [],
       "path": "tests/test_run_018_ci_portability.py",
       "producing_run": "Run 018",
       "protected": false,
@@ -5391,6 +5511,18 @@
       "semantic_role": "canonical test",
       "sha256": "94e75ba5144bb35f12f1677371b9114b93481afebb5dfd2f6aebe43df431b247",
       "size_bytes": 2976
+    },
+    {
+      "canonical": true,
+      "category": "test",
+      "labels": [],
+      "path": "tests/test_run_018_provenance_portability.py",
+      "producing_run": "Run 018",
+      "protected": false,
+      "regeneration_command": null,
+      "semantic_role": "canonical test",
+      "sha256": "8b9ddbee8beb2871a01b38119536cc5f1fe864cc725287bc18b53a492228aadb",
+      "size_bytes": 6707
     },
     {
       "canonical": true,

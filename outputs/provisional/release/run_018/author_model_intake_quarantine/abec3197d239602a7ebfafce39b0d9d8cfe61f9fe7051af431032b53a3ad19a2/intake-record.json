@@ -1,0 +1,34 @@
+{
+  "accepted_package_replaced": false,
+  "automatic_promotion_authorized": false,
+  "capture_calculations": 0,
+  "compared_with_accepted_hash": "1b9394706613011ab54cbd3c143b60e655487fee38fe9207af11750ddd03ae8c",
+  "equivalent_to_accepted": true,
+  "force_cache_rebuilds": 0,
+  "labels": [
+    "MODEL_INDEPENDENT",
+    "NOT_RODRIGUEZ_REPLICATION",
+    "RUN_018",
+    "REPRODUCIBLE_CONTROL_INFRA_RELEASE_ONLY"
+  ],
+  "package_hash": "1b9394706613011ab54cbd3c143b60e655487fee38fe9207af11750ddd03ae8c",
+  "preserved_file_hashes": {
+    "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_ACCEPTED_PROVISIONAL_REFERENCE_PACKAGE.manifest.json": "ca27a5638859e7ca425cd8fbb1e898ee0382adf8f252f3bfcb5080089fdf3f7b",
+    "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_ACCEPTED_PROVISIONAL_REFERENCE_PACKAGE.metadata.json": "ece1d02ad8b3503cee9c5a3e9a0c745010252fcdb19b5a2bfab5b7582a5e2dec",
+    "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_ACCEPTED_PROVISIONAL_REFERENCE_PACKAGE.npz": "ba7379032e776adbb9a611efb7f15794f669c3946b882fa58990f1e74420276f"
+  },
+  "quarantine_directory": "C:\\MOTCS\\outputs\\provisional\\release\\run_018\\author_model_intake_quarantine\\abec3197d239602a7ebfafce39b0d9d8cfe61f9fe7051af431032b53a3ad19a2",
+  "schema_version": "mgf-mot-author-model-intake-v1",
+  "source_base": "C:\\MOTCS\\outputs\\provisional\\molecular_model_packages\\run_012\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_ACCEPTED_PROVISIONAL_REFERENCE_PACKAGE",
+  "source_bundle_hash": "abec3197d239602a7ebfafce39b0d9d8cfe61f9fe7051af431032b53a3ad19a2",
+  "source_description": "Run 018 accepted-package equivalent dry-run fixture",
+  "source_file_hashes": {
+    "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_ACCEPTED_PROVISIONAL_REFERENCE_PACKAGE.manifest.json": "ca27a5638859e7ca425cd8fbb1e898ee0382adf8f252f3bfcb5080089fdf3f7b",
+    "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_ACCEPTED_PROVISIONAL_REFERENCE_PACKAGE.metadata.json": "ece1d02ad8b3503cee9c5a3e9a0c745010252fcdb19b5a2bfab5b7582a5e2dec",
+    "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_ACCEPTED_PROVISIONAL_REFERENCE_PACKAGE.npz": "ba7379032e776adbb9a611efb7f15794f669c3946b882fa58990f1e74420276f"
+  },
+  "trajectory_integrations": 0,
+  "validation_errors": [],
+  "validation_gate": "IMPORT_VALID",
+  "validation_warnings": []
+}

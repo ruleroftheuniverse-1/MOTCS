@@ -18,5 +18,6 @@ jobs:
       - run: python -m pytest -q
       - run: python scripts/verify_release_integrity.py
       - run: python scripts/audit_model_independent_boundaries.py
+      - run: python scripts/audit_provenance_path_portability.py
       - run: python scripts/verify_package_build_run_018.py
       - run: python -c "from pathlib import Path; from mgf_mot.release_manifest import check_documentation_links; broken=check_documentation_links(Path('.')); print(broken); raise SystemExit(bool(broken))"

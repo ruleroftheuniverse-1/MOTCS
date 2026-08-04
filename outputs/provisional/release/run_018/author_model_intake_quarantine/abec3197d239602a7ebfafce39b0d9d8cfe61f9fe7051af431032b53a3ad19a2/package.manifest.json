@@ -1,0 +1,19 @@
+{
+  "canonicalization": {
+    "arrays": "array names sorted; little-endian dtype+shape header; contiguous raw bytes",
+    "basis_labels": "canonical JSON of metadata.basis",
+    "full_package": "SHA-256 of schema version and the three component hashes",
+    "metadata": "UTF-8 JSON, recursively sorted keys, compact separators; hashes/manifest keys excluded"
+  },
+  "files": {
+    "arrays": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_ACCEPTED_PROVISIONAL_REFERENCE_PACKAGE.npz",
+    "metadata": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_ACCEPTED_PROVISIONAL_REFERENCE_PACKAGE.metadata.json"
+  },
+  "hashes": {
+    "basis_labels": "863778ac5133ec42f8cd0a38aa1482a1c32217ba15f9fa03b435b2a4a061987f",
+    "full_package": "1b9394706613011ab54cbd3c143b60e655487fee38fe9207af11750ddd03ae8c",
+    "metadata": "15f67b820cf1e5334b4a94d827b5ba4d49aa6d67f7f5a9b8b501c8aaf8e94de9",
+    "numerical_arrays": "c65cde286ae093fe6e104b5a3294f8dd4041f4a6ddc36e810c8f874474bee920"
+  },
+  "schema_version": "mgf-mot-molecular-model-v1"
+}

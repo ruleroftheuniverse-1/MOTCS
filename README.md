@@ -90,7 +90,7 @@ A precise request for the original molecular matrices or their construction code
 Current test status:
 
 ```text
-296 passed
+326 passed
 ```
 
 This count is verified with `python -m pytest -q` and recorded by the Run 018 release audit.

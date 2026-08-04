@@ -8,4 +8,22 @@ Semantic identities are deterministic; volatile environment metadata is separate
 
 The Run 018 CI portability correction adds a repository-wide LF checkout policy and explicit binary declarations. It retains raw-byte hashing while making checked-out canonical text bytes identical on Windows and Linux. The correction changes no scientific value, conclusion, gate, or authorization.
 
+The focused Run 018 cache-provenance and CI dependency addendum declares the
+Run 011B Pillow and pdfplumber dependencies explicitly and migrates the two
+Run 010 cache metadata records to canonical repository-relative POSIX source
+paths. The audit found that their recorded dependency hashes already matched
+canonical-LF bytes; host-specific path serialization caused the remaining CI
+mismatch. The Run 010 NPZ files were not rewritten, no force field was rebuilt,
+and the accepted loader continues to reject every noncanonical or genuinely
+changed provenance key.
+
+The final provenance certification keeps checkout-byte and provenance-path
+portability separate. `.gitattributes` controls canonical LF artifact bytes;
+repository dependency identities use root-relative POSIX paths. It also audits
+molecular-model, policy, apparatus, feedback, experiment, intake, release, and
+catalog path fields. Older policy full-package and experiment checkpoint hashes
+that include audit locators are explicitly platform-local; their portable
+content identities are separately named and no protected Runs 013-017 schema
+was rewritten. See [provenance path portability](../provenance-path-portability.md).
+
 Scientifically, the numerical and rate-equation machinery has been reproduced, but the Rodriguez force structure has not. The discrepancy is localized to molecular-model objects. Track E awaits the original arrays or construction code. When they arrive, preserve and quarantine them, validate/compare them through Run 012, and seek a separate benchmark gate before any promotion, cache rebuild, trajectory, or capture work.

@@ -1,0 +1,482 @@
+{
+  "approximations": {
+    "collapsed_terms": [
+      "excited_b_F_plus_2c_over_3 -> pylcp Astate b+c/3 with c=0",
+      "excited_p_plus_2q -> pylcp Astate p with q=0"
+    ],
+    "corrected_ground_magnetic_convention": "project_energy_slope_corrected",
+    "effective_Fprime_splitting_MHz": 0.5,
+    "effective_Fprime_splitting_status": "midpoint of source-supported 0 to 1 MHz interval, not a measurement",
+    "effective_excited_g_prime": 0.001,
+    "full_independent_d_operator_included": false,
+    "omitted_terms": [
+      "ground_fluorine_nuclear_g_factor",
+      "excited_hyperfine_d operator",
+      "excited_backend_gL",
+      "excited_backend_gl",
+      "excited_backend_glprime",
+      "excited_backend_gr",
+      "excited_backend_greprime",
+      "excited_backend_gN"
+    ],
+    "unresolved": [
+      "independent Doppelbauer d operator in the retained/effective basis",
+      "d-dependent J'=1/2 to J'=3/2 mixing",
+      "exact positive-parity excited-state spectroscopy"
+    ]
+  },
+  "array_specs": {
+    "H0_e": {
+      "axes": [
+        "excited_bra",
+        "excited_ket"
+      ],
+      "dtype": "complex128",
+      "shape": [
+        4,
+        4
+      ],
+      "units": "Gamma"
+    },
+    "H0_g": {
+      "axes": [
+        "ground_bra",
+        "ground_ket"
+      ],
+      "dtype": "complex128",
+      "shape": [
+        12,
+        12
+      ],
+      "units": "Gamma"
+    },
+    "branching": {
+      "axes": [
+        "ground_destination",
+        "excited_source"
+      ],
+      "dtype": "float64",
+      "shape": [
+        12,
+        4
+      ],
+      "units": "dimensionless"
+    },
+    "construction_to_working_e": {
+      "axes": [
+        "excited_construction_basis",
+        "excited_working_basis"
+      ],
+      "dtype": "complex128",
+      "shape": [
+        4,
+        4
+      ],
+      "units": "dimensionless"
+    },
+    "construction_to_working_g": {
+      "axes": [
+        "ground_construction_basis",
+        "ground_working_basis"
+      ],
+      "dtype": "complex128",
+      "shape": [
+        12,
+        12
+      ],
+      "units": "dimensionless"
+    },
+    "d_q": {
+      "axes": [
+        "q=-1,0,+1",
+        "ground_bra",
+        "excited_ket"
+      ],
+      "dtype": "complex128",
+      "shape": [
+        3,
+        12,
+        4
+      ],
+      "units": "dimensionless"
+    },
+    "excited_eigenvalues": {
+      "axes": [
+        "excited_eigenstate"
+      ],
+      "dtype": "float64",
+      "shape": [
+        4
+      ],
+      "units": "Gamma"
+    },
+    "excited_eigenvectors": {
+      "axes": [
+        "excited_working_basis",
+        "excited_eigenstate"
+      ],
+      "dtype": "complex128",
+      "shape": [
+        4,
+        4
+      ],
+      "units": "dimensionless"
+    },
+    "ground_eigenvalues": {
+      "axes": [
+        "ground_eigenstate"
+      ],
+      "dtype": "float64",
+      "shape": [
+        12
+      ],
+      "units": "Gamma"
+    },
+    "ground_eigenvectors": {
+      "axes": [
+        "ground_working_basis",
+        "ground_eigenstate"
+      ],
+      "dtype": "complex128",
+      "shape": [
+        12,
+        12
+      ],
+      "units": "dimensionless"
+    },
+    "mu_q_e": {
+      "axes": [
+        "q=-1,0,+1",
+        "excited_bra",
+        "excited_ket"
+      ],
+      "dtype": "complex128",
+      "shape": [
+        3,
+        4,
+        4
+      ],
+      "units": "Gamma/G"
+    },
+    "mu_q_g": {
+      "axes": [
+        "q=-1,0,+1",
+        "ground_bra",
+        "ground_ket"
+      ],
+      "dtype": "complex128",
+      "shape": [
+        3,
+        12,
+        12
+      ],
+      "units": "Gamma/G"
+    },
+    "working_to_canonical_e": {
+      "axes": [
+        "excited_canonical_basis",
+        "excited_working_basis"
+      ],
+      "dtype": "complex128",
+      "shape": [
+        4,
+        4
+      ],
+      "units": "dimensionless"
+    },
+    "working_to_canonical_g": {
+      "axes": [
+        "ground_canonical_basis",
+        "ground_working_basis"
+      ],
+      "dtype": "complex128",
+      "shape": [
+        12,
+        12
+      ],
+      "units": "dimensionless"
+    }
+  },
+  "authorization": {
+    "cache_rebuild_authorized": false,
+    "capture_authorized": false,
+    "exact_replication_valid": false,
+    "imported_model_force_authorized": false,
+    "molecular_model_interchange_authorized": true,
+    "optimizer_authorized": false,
+    "trajectory_reintegration_authorized": false
+  },
+  "basis": {
+    "excited": [
+      {
+        "F": 0.0,
+        "angular_momentum_assignment": "pylcp_Astate_basis_assignment",
+        "index": 0,
+        "label": "Fprime0",
+        "mF": -0.0,
+        "manifold": "excited"
+      },
+      {
+        "F": 1.0,
+        "angular_momentum_assignment": "pylcp_Astate_basis_assignment",
+        "index": 1,
+        "label": "Fprime1",
+        "mF": -1.0,
+        "manifold": "excited"
+      },
+      {
+        "F": 1.0,
+        "angular_momentum_assignment": "pylcp_Astate_basis_assignment",
+        "index": 2,
+        "label": "Fprime1",
+        "mF": 0.0,
+        "manifold": "excited"
+      },
+      {
+        "F": 1.0,
+        "angular_momentum_assignment": "pylcp_Astate_basis_assignment",
+        "index": 3,
+        "label": "Fprime1",
+        "mF": 1.0,
+        "manifold": "excited"
+      }
+    ],
+    "ground": [
+      {
+        "F": 1.0,
+        "angular_momentum_assignment": "dominant_zero_field_assignment",
+        "dominant_J": 1.5,
+        "index": 0,
+        "label": "lower_F1",
+        "mF": -1.0,
+        "manifold": "ground"
+      },
+      {
+        "F": 1.0,
+        "angular_momentum_assignment": "dominant_zero_field_assignment",
+        "dominant_J": 1.5,
+        "index": 1,
+        "label": "lower_F1",
+        "mF": 0.0,
+        "manifold": "ground"
+      },
+      {
+        "F": 1.0,
+        "angular_momentum_assignment": "dominant_zero_field_assignment",
+        "dominant_J": 1.5,
+        "index": 2,
+        "label": "lower_F1",
+        "mF": 1.0,
+        "manifold": "ground"
+      },
+      {
+        "F": 0.0,
+        "angular_momentum_assignment": "dominant_zero_field_assignment",
+        "dominant_J": 0.5,
+        "index": 3,
+        "label": "F0",
+        "mF": -0.0,
+        "manifold": "ground"
+      },
+      {
+        "F": 1.0,
+        "angular_momentum_assignment": "dominant_zero_field_assignment",
+        "dominant_J": 0.5,
+        "index": 4,
+        "label": "upper_F1",
+        "mF": -1.0,
+        "manifold": "ground"
+      },
+      {
+        "F": 1.0,
+        "angular_momentum_assignment": "dominant_zero_field_assignment",
+        "dominant_J": 0.5,
+        "index": 5,
+        "label": "upper_F1",
+        "mF": 0.0,
+        "manifold": "ground"
+      },
+      {
+        "F": 1.0,
+        "angular_momentum_assignment": "dominant_zero_field_assignment",
+        "dominant_J": 0.5,
+        "index": 6,
+        "label": "upper_F1",
+        "mF": 1.0,
+        "manifold": "ground"
+      },
+      {
+        "F": 2.0,
+        "angular_momentum_assignment": "dominant_zero_field_assignment",
+        "dominant_J": 1.5,
+        "index": 7,
+        "label": "F2",
+        "mF": -2.0,
+        "manifold": "ground"
+      },
+      {
+        "F": 2.0,
+        "angular_momentum_assignment": "dominant_zero_field_assignment",
+        "dominant_J": 1.5,
+        "index": 8,
+        "label": "F2",
+        "mF": -1.0,
+        "manifold": "ground"
+      },
+      {
+        "F": 2.0,
+        "angular_momentum_assignment": "dominant_zero_field_assignment",
+        "dominant_J": 1.5,
+        "index": 9,
+        "label": "F2",
+        "mF": 0.0,
+        "manifold": "ground"
+      },
+      {
+        "F": 2.0,
+        "angular_momentum_assignment": "dominant_zero_field_assignment",
+        "dominant_J": 1.5,
+        "index": 10,
+        "label": "F2",
+        "mF": 1.0,
+        "manifold": "ground"
+      },
+      {
+        "F": 2.0,
+        "angular_momentum_assignment": "dominant_zero_field_assignment",
+        "dominant_J": 1.5,
+        "index": 11,
+        "label": "F2",
+        "mF": 2.0,
+        "manifold": "ground"
+      }
+    ],
+    "ordering_is_explicit": true
+  },
+  "conventions": {
+    "angular_frequency": true,
+    "complex_storage": "native NumPy complex arrays in NPZ; no imaginary part discarded",
+    "dipole_normalization": "sum over q and ground states equals one for each excited state",
+    "dipole_orientation": "ground_to_excited",
+    "energy_zero": "serialized working-basis values; comparisons allow one global offset per manifold",
+    "hamiltonian_sign": "H(B)=H0-|B|*mu_q[q=0_index_1]",
+    "linewidth_definition": "Gamma=2*pi*20.9 MHz",
+    "linewidth_unit": "Gamma",
+    "magnetic_hamiltonian": "pylcp diag_static_field magnitude convention; corrected ground magnetic sign applied exactly once",
+    "reduced_matrix_element": "pylcp XFmolecules.dipoleXandAstates normalized tensor convention",
+    "spherical_component_order": [
+      -1,
+      0,
+      1
+    ]
+  },
+  "date_created": "2026-08-02",
+  "force_context": {
+    "backend_config": {
+      "excited_hyperfine_model": "source_aligned_effective_fprime_splitting",
+      "excited_hyperfine_splitting_case": "mid_range_0p5_mhz",
+      "excited_zeeman_model": "rodriguez_effective_g_0p001",
+      "ground_zeeman_convention": "project_energy_slope_corrected",
+      "paper_helicity_translation": "direct_beam_relative"
+    },
+    "excited_reference_energy_gamma": 0.005980861244019054,
+    "figure_position_unit_m": 0.00748,
+    "force_units": {
+      "acceleration_per_normalized_force_m_s2": 3392928.0470171887,
+      "hbar_k_gamma_N": 2.421725788012861e-19,
+      "linewidth_rad_s": 131318572.92005336,
+      "linewidth_source": "E. B. Norrgard et al., Phys. Rev. A 108, 032809 (2023), doi:10.1103/PhysRevA.108.032809; Rodriguez page 2 citing Norrgard; Gamma=2*pi*20.9(2) MHz",
+      "mass_isotopologue": "24Mg19F",
+      "mass_kg": 7.137568950635021e-26,
+      "wave_number_rad_m": 17487295.594710786,
+      "wavelength_m": 3.5930000000000005e-07,
+      "wavelength_source": "K. J. Rodriguez et al., Phys. Rev. A 108, 033105 (2023), doi:10.1103/PhysRevA.108.033105; Cooling-transition description"
+    },
+    "magnetic_gradient_T_per_m": 0.2,
+    "role_ground_energy_gamma": {
+      "F0": -2.7103828116238966,
+      "F2": 3.4903587503546385,
+      "lower_F1": -7.9606974724882065,
+      "upper_F1": 3.0468936991543187,
+      "upper_F1_F2_mean": 3.2686262247544784,
+      "upper_F1_F2_mean_confinement": 3.2686262247544784
+    },
+    "status": {
+      "approximation_mode": "collapsed_pylcp_astate",
+      "backend_mode": "pylcp_rate_equation",
+      "collapsed_terms": [
+        "excited_b_F_plus_2c_over_3 -> pylcp Astate b+c/3 with c=0",
+        "excited_p_plus_2q -> pylcp Astate p with q=0"
+      ],
+      "downstream_zeeman_sign_correction_count": 0,
+      "excited_hyperfine_model": "source_aligned_effective_fprime_splitting",
+      "excited_hyperfine_model_application_count": 1,
+      "excited_hyperfine_model_application_location": "Hamiltonian boundary",
+      "excited_hyperfine_source": "Doppelbauer et al., J. Chem. Phys. 156, 134301 (2022)",
+      "excited_hyperfine_splitting_case": "mid_range_0p5_mhz",
+      "excited_hyperfine_splitting_mhz": 0.5,
+      "excited_zeeman_model": "rodriguez_effective_g_0p001",
+      "excited_zeeman_model_application_count": 1,
+      "excited_zeeman_model_application_location": "Hamiltonian boundary",
+      "excited_zeeman_override_applied": true,
+      "excited_zeeman_source": "K. J. Rodriguez et al., Phys. Rev. A 108, 033105 (2023), doi:10.1103/PhysRevA.108.033105",
+      "force_model": "pylcp_rate_equation_combined_equilibrium_populations",
+      "force_unit": "hbar*k*Gamma",
+      "ground_magnetic_moment_correction_applied": true,
+      "ground_magnetic_moment_correction_count": 1,
+      "ground_magnetic_moment_correction_location": "Hamiltonian boundary",
+      "ground_zeeman_convention": "project_energy_slope_corrected",
+      "label": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY",
+      "omitted_terms": [
+        "ground_fluorine_nuclear_g_factor",
+        "excited_hyperfine_d operator",
+        "excited_backend_gL",
+        "excited_backend_gl",
+        "excited_backend_glprime",
+        "excited_backend_gr",
+        "excited_backend_greprime",
+        "excited_backend_gN"
+      ],
+      "paper_helicity_translation": "direct_beam_relative",
+      "physics_scope": "static provisional rate-equation validation only",
+      "physics_valid": true,
+      "replication_valid": false,
+      "static_force_ready": true,
+      "supersedes_run_outputs": "Run 008B supersedes physical interpretation of force-dependent Runs 001-008",
+      "title": "PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY backend status",
+      "track": "provisional",
+      "trajectory_force_ready": false,
+      "warnings": [
+        "PROVISIONAL backend: engineering/plumbing artifact only.",
+        "NOT_RODRIGUEZ_REPLICATION: exact excited-state d operator and Zeeman mappings are unresolved.",
+        "No approximate force output from this backend is force-ready by default.",
+        "PYLCP_RATEEQ_STATIC_VALIDATION_ONLY: no trajectories or capture result.",
+        "Helicity strings are interpreted relative to each beam k-vector using pylcp pol=+1/-1.",
+        "Component carrier offsets use the upper collapsed excited level and explicit addressed-role ground energies.",
+        "Ground Xstate mu_q is translated once at the pylcp Hamiltonian boundary according to the named convention mode.",
+        "The excited Zeeman tensor is selected by one explicit named model at the Hamiltonian boundary.",
+        "The excited field-free Hamiltonian is selected by one explicit named hyperfine model at the Hamiltonian boundary.",
+        "Paper-aligned effective model only; independent d and exact excited spectroscopy remain unresolved.",
+        "Effective diagonal interval sample, not a measured exact splitting or full d operator.",
+        "The 0.5 MHz midpoint is an interval representative, not a fitted spectroscopy value."
+      ]
+    },
+    "svd_eps": 1e-10,
+    "velocity_unit_m_s": 7.509370000000001
+  },
+  "generator": "MOTCS Run 012 export_accepted_molecular_model.py",
+  "isotopologue": "24Mg19F",
+  "molecule": "MgF",
+  "notes": [
+    "Accepted Track P reference package; not a Rodriguez-replication-valid molecular model."
+  ],
+  "replication_valid": false,
+  "schema_version": "mgf-mot-molecular-model-v1",
+  "source": {
+    "citation": "K. J. Rodriguez et al., Phys. Rev. A 108, 033105 (2023), doi:10.1103/PhysRevA.108.033105; provisional source mapping documented in spectroscopy.py",
+    "source_code": "local MOTCS accepted Track P backend",
+    "source_code_version": "Run 009D selection audited through Run 011D; pylcp 1.0.2"
+  },
+  "status": "provisional",
+  "transition": "X 2Sigma+(v=0,N=1) to A 2Pi1/2(v'=0,J'=1/2,+)"
+}

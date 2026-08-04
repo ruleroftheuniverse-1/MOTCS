@@ -21,7 +21,7 @@ ARTIFACT_CATALOG_SCHEMA_VERSION = "mgf-mot-artifact-catalog-v1"
 ENVIRONMENT_SCHEMA_VERSION = "mgf-mot-release-environment-v1"
 INTEGRITY_SCHEMA_VERSION = "mgf-mot-release-integrity-v1"
 PROMOTION_SCHEMA_VERSION = "mgf-mot-model-promotion-record-v1"
-GENERATOR_VERSION = "run018-release-generator-v1"
+GENERATOR_VERSION = "run018-release-generator-v2-provenance-certified"
 RUN018_LABEL = "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_018_REPRODUCIBLE_CONTROL_INFRA_RELEASE_ONLY"
 RELEASE_LABELS = ("MODEL_INDEPENDENT", "NOT_RODRIGUEZ_REPLICATION", "RUN_018", "REPRODUCIBLE_CONTROL_INFRA_RELEASE_ONLY")
 KNOWN_WARNING = {
@@ -123,6 +123,7 @@ class EnvironmentRecord:
     direct_dependencies: Mapping[str, str]
     installed_versions: Mapping[str, str | None]
     environment_kind: str
+    test_extra_dependencies: Mapping[str, str] = field(default_factory=dict)
     labels: tuple[str, ...] = RELEASE_LABELS
 
 
@@ -232,6 +233,7 @@ def protected_paths(root: Path) -> tuple[Path, ...]:
         "outputs/provisional/open_loop_policy_families/run_015/**/*", "outputs/provisional/feedback_policy_interface/run_016/**/*",
         "outputs/provisional/experiment_search_protocol/run_017/**/*", "outputs/provisional/experiments/run_017/**/*",
         "outputs/provisional/molecular_model_audit/**/*", "outputs/provisional/paper_digitization/**/*",
+        "outputs/provisional/provenance_portability/run_018/**/*",
         "configs/*.yaml", "configs/run_015/*.yaml", "configs/run_016/*.yaml", "configs/run_017/*.yaml",
     )
     paths: set[Path] = set()
@@ -315,7 +317,9 @@ def audit_forbidden_boundaries(root: Path, scripts: Sequence[Path]) -> Mapping[s
 def environment_record(generation_time_utc: str, installed_versions: Mapping[str, str | None]) -> EnvironmentRecord:
     return EnvironmentRecord(ENVIRONMENT_SCHEMA_VERSION, generation_time_utc, platform.system(), platform.python_implementation(), platform.python_version(),
                              {"PyYAML": ">=6.0", "pylcp": "==1.0.2"}, dict(sorted(installed_versions.items())),
-                             "AUDIT_SNAPSHOT_NOT_A_UNIVERSAL_LOCKFILE")
+                             "AUDIT_SNAPSHOT_NOT_A_UNIVERSAL_LOCKFILE",
+                             {"pytest": ">=8.0", "Pillow": ">=10.0", "pdfplumber": ">=0.11.0",
+                              "tomli": ">=2.0; python_version < '3.11'"})
 
 
 def load_release_bundle(directory: Path) -> ReleaseBundle:
@@ -345,7 +349,12 @@ def verify_bundle(root: Path, bundle: ReleaseBundle) -> IntegrityReport:
     links = check_documentation_links(root)
     warning_valid = tuple(bundle.semantic_manifest.known_warnings) == (KNOWN_WARNING,)
     release_hash_valid = catalog_valid and bundle.semantic_manifest.source_tree_hash == semantic_hash(tuple((item.path, item.sha256) for item in bundle.artifact_catalog.artifacts))
-    gates_valid = bundle.semantic_manifest.infrastructure_gates.get("Run 017") == "CONTROL_EXPERIMENT_INFRA_READY"
+    gates_valid = (
+        bundle.semantic_manifest.infrastructure_gates.get("Run 017")
+        == "CONTROL_EXPERIMENT_INFRA_READY"
+        and bundle.semantic_manifest.infrastructure_gates.get("Run 018 provenance")
+        == "RUN_018_CROSS_PLATFORM_PROVENANCE_GO"
+    )
     valid = release_hash_valid and schemas and gates_valid and authorizations and not links and warning_valid and not modified and not missing and not unexpected and not conflicting
     return IntegrityReport(INTEGRITY_SCHEMA_VERSION, release_hash_valid, schemas, gates_valid, authorizations, not links, warning_valid,
                            tuple(modified), tuple(missing), tuple(unexpected), tuple(conflicting), "RELEASE_INTEGRITY_OK" if valid else "RELEASE_INTEGRITY_FAILED")
