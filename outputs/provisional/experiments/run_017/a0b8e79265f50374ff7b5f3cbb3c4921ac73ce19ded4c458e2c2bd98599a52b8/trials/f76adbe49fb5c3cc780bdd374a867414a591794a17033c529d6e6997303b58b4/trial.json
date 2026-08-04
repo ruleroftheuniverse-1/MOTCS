@@ -1,0 +1,73 @@
+{
+  "artifact_labels": [
+    "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+    "MODEL_INDEPENDENT",
+    "NOT_RODRIGUEZ_REPLICATION",
+    "RUN_017",
+    "EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+    "SYNTHETIC_OBJECTIVE",
+    "NOT_PHYSICAL_PERFORMANCE",
+    "SYNTHETIC_OBJECTIVE",
+    "NOT_PHYSICAL_PERFORMANCE"
+  ],
+  "trial": {
+    "artifact_labels": [
+      "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+      "MODEL_INDEPENDENT",
+      "NOT_RODRIGUEZ_REPLICATION",
+      "RUN_017",
+      "EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+      "SYNTHETIC_OBJECTIVE",
+      "NOT_PHYSICAL_PERFORMANCE"
+    ],
+    "candidate": {
+      "authorization_labels": [
+        "MODEL_INDEPENDENT",
+        "SYNTHETIC_TEST_FIXTURE",
+        "NOT_MGF_PHYSICS",
+        "SYNTHETIC_OBJECTIVE",
+        "NOT_PHYSICAL_PERFORMANCE"
+      ],
+      "candidate_id": "synthetic-grid-plan-0003",
+      "candidate_kind": "SYNTHETIC_PARAMETER_VECTOR",
+      "declared_semantic_hash": null,
+      "parameter_layout_hash": "6464b7a330048b32ac244a4327dd4c967572e19716778bfb467c13b8e6fd9831",
+      "parameter_values": [
+        0.0,
+        0
+      ],
+      "payload": {
+        "dimension_ids": [
+          "x",
+          "category"
+        ]
+      },
+      "provenance": {
+        "labels": [
+          "MODEL_INDEPENDENT",
+          "SYNTHETIC_TEST_FIXTURE",
+          "NOT_MGF_PHYSICS",
+          "SYNTHETIC_OBJECTIVE",
+          "NOT_PHYSICAL_PERFORMANCE"
+        ],
+        "notes": "",
+        "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+        "source_description": "deterministic Cartesian fixture",
+        "source_hashes": []
+      },
+      "source_specification_hashes": [
+        "d9ffcc69b25cf17700f7f95785d3d9edb47b155b526febc42bac4312fd9e9c90"
+      ]
+    },
+    "context_hash": "8c982d457c8121b9dbefad778941b6f0484f1bd9efb3f5fe00dbdbbbbb244489",
+    "evaluator_hash": "58d82a273bfe000dff5fdffe29cec7f0b0ce133fb506ddd1b772d865317640f5",
+    "experiment_hash": "a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8",
+    "metric_hashes": [
+      "1df73220dfb37ba9dc06ce6ef9b5a8ae33646916bd2fe1f1b0427b1379dd4d6b",
+      "4cd698b558971759f4f41b245f042fa5affebb3e3aba115659ae7963f2292bc7"
+    ],
+    "replicate_index": 0,
+    "schema_version": "mgf-mot-trial-manifest-v1",
+    "seed_identity": "91b9ba6b35951f73c43225183053c62aeac408d63fec8a87cb0d30693eea61a4"
+  }
+}

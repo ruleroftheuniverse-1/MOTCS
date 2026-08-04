@@ -1,0 +1,72 @@
+{
+  "artifact_labels": [
+    "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+    "MODEL_INDEPENDENT",
+    "NOT_RODRIGUEZ_REPLICATION",
+    "RUN_017",
+    "EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+    "SYNTHETIC_OBJECTIVE",
+    "NOT_PHYSICAL_PERFORMANCE"
+  ],
+  "trial": {
+    "artifact_labels": [
+      "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+      "MODEL_INDEPENDENT",
+      "NOT_RODRIGUEZ_REPLICATION",
+      "RUN_017",
+      "EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+      "SYNTHETIC_OBJECTIVE",
+      "NOT_PHYSICAL_PERFORMANCE"
+    ],
+    "candidate": {
+      "authorization_labels": [
+        "MODEL_INDEPENDENT",
+        "SYNTHETIC_TEST_FIXTURE",
+        "NOT_MGF_PHYSICS"
+      ],
+      "candidate_id": "baseline_replay",
+      "candidate_kind": "FEEDBACK_SESSION_SPEC",
+      "declared_semantic_hash": null,
+      "parameter_layout_hash": null,
+      "parameter_values": null,
+      "payload": {
+        "asset_hash": "7947f544da263159995f0475f85cfa000788677f939db3a019accb26335c7c3d"
+      },
+      "provenance": {
+        "labels": [
+          "MODEL_INDEPENDENT",
+          "SYNTHETIC_TEST_FIXTURE",
+          "NOT_MGF_PHYSICS",
+          "SYNTHETIC_OBJECTIVE",
+          "NOT_PHYSICAL_PERFORMANCE"
+        ],
+        "notes": "",
+        "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+        "source_description": "Run 016 synthetic feedback session",
+        "source_hashes": []
+      },
+      "source_specification_hashes": [
+        "2ae7a210495a5839cc3d54c314b80448fa56f9b25394e3033d8b86151b8eeff0",
+        "43059141df80289446ccb5925ef49cd665e19cf8541feb44ee71e1b3bda1b6bc",
+        "403c5da491712ba1d3484f6eb8aea87f939db067befbecc6aec55026c8c927fd",
+        "3a07671d9618567a12be645719d7225e17beb912d21b0c2097a0ee849081fe44",
+        "0bebbac9509c221cf1eedf465347fbe8066a49807ade318bc95f84e859c4e6e7",
+        "8ea37803ad106aea608870b503110956aaff30f243a61b65b53a8c2349539652",
+        "7947f544da263159995f0475f85cfa000788677f939db3a019accb26335c7c3d"
+      ]
+    },
+    "context_hash": "49d8a7ef4b59bf474d885f72ea3f8eb8f987eed78afab0af0cbd36b8857eb38d",
+    "evaluator_hash": "609ff0a43466c17875c6dd13445f58d3576d3d4cb72856e95eeacd7dd9d22ee4",
+    "experiment_hash": "9e566898347dc62b5a0bb06b9df38ca86fef45b0d176a02cd7c3eda7df710615",
+    "metric_hashes": [
+      "8b94864109c791243757f47b23d52bc8a87b11ab471564fe4ad940e9e903dbf1",
+      "ae5e05447a8538e8eae4e64e1a2ace804cc4879ab58b29bfd869f4103086d56e",
+      "cb577e40495dd7fb19c0120ec381af1c0d4998581434a11157626ae4b11154d4",
+      "0cddf6b409a271c6f202081a4106a16a57085c9c2a12769a6f9f7a89eecbd503",
+      "9b7c03f7b363401088108c42999efdbe00c2791223f132b6f63de3d6ecbc02b7"
+    ],
+    "replicate_index": 0,
+    "schema_version": "mgf-mot-trial-manifest-v1",
+    "seed_identity": "41add4249141e9ff22b202a0edc25cc177ab69e6612526b234197bd85c9c53da"
+  }
+}

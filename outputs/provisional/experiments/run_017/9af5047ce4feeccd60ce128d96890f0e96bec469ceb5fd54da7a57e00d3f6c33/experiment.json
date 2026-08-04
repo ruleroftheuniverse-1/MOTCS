@@ -1,0 +1,398 @@
+{
+  "manifest": {
+    "authorization_summary": {
+      "hardware_executable_claim_valid": false,
+      "optimization_run_authorized": false,
+      "optimizer_interface_authorized": true,
+      "physical_evaluation_authorized": false
+    },
+    "candidate_plan_hash": "f5a73f67ae714a12e12d1a35ea84cfe44aba69056ff141a2581c6adbb7c05b4f",
+    "duplicate_candidate_hashes": [],
+    "experiment_hash": "9af5047ce4feeccd60ce128d96890f0e96bec469ceb5fd54da7a57e00d3f6c33",
+    "pipeline_version": "run017-authorize-before-evaluate-v1",
+    "schema_version": "mgf-mot-experiment-run-v1",
+    "trial_result_hashes": {
+      "1b105eaea0d1d1f581c6bdec40e40d5b2f0c50077fa3851248f64fd57ab279ce": "9b830fece1be2480dc5f9f08c2f960af7f411c839ed3bc8e20a2accbb41caea8",
+      "258b7eeca26971cdba575a4244e8f633406c601e3ba2845b15335ed6bf263a78": "61ca1b2f25ca523740f9c79866b045f4ce6e8491f849884b841287c7443c1ad9",
+      "2e779a5f23abe1103d4b828c85c159685ecf422df83ad3a4503c6f9d97531141": "b72cf27e190a71722ec9853ab8e3f7711c3d28af5460351168e7ee1f6124d3e4",
+      "c1ed309fcb49f31064066d173e0ee70f5586fcface1e9347fd45d9424407444a": "cb17bdfaba553c94702e53a24f96ccb9a0fff1dfb05f6d9b4299b13f02dc5087"
+    },
+    "volatile_runtime_metadata": {},
+    "warning_labels": [
+      "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+      "MODEL_INDEPENDENT",
+      "NOT_RODRIGUEZ_REPLICATION",
+      "RUN_017",
+      "EXPERIMENT_SEARCH_PROTOCOL_ONLY"
+    ]
+  },
+  "spec": {
+    "authorization_labels": [
+      "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+      "MODEL_INDEPENDENT",
+      "NOT_RODRIGUEZ_REPLICATION",
+      "RUN_017",
+      "EXPERIMENT_SEARCH_PROTOCOL_ONLY"
+    ],
+    "candidate_kind": "COMPILED_CONTROL_SCHEDULE",
+    "candidate_plan": {
+      "adaptive": false,
+      "candidates": [
+        {
+          "authorization_labels": [
+            "MODEL_INDEPENDENT",
+            "NOT_HARDWARE_EVIDENCE"
+          ],
+          "candidate_id": "exact",
+          "candidate_kind": "COMPILED_CONTROL_SCHEDULE",
+          "declared_semantic_hash": null,
+          "parameter_layout_hash": null,
+          "parameter_values": null,
+          "payload": {
+            "asset_hash": "853d6b83f8320618c5260fc32721222f79012e74eaae18bc99274ebd4a519f6d"
+          },
+          "provenance": {
+            "labels": [
+              "MODEL_INDEPENDENT"
+            ],
+            "notes": "",
+            "provenance_class": "MODEL_INDEPENDENT",
+            "source_description": "Run 014 compilation fixture exact",
+            "source_hashes": []
+          },
+          "source_specification_hashes": [
+            "f55f887d8f1eb60e3d22f310c189e497f3596df213b4fef6f8f95595716a0230",
+            "3882dff5fcb725d730439563a105b8d2a5a0dd0add69e0ce0aa839f8a18a0adb"
+          ]
+        },
+        {
+          "authorization_labels": [
+            "MODEL_INDEPENDENT",
+            "NOT_HARDWARE_EVIDENCE"
+          ],
+          "candidate_id": "approximate",
+          "candidate_kind": "COMPILED_CONTROL_SCHEDULE",
+          "declared_semantic_hash": null,
+          "parameter_layout_hash": null,
+          "parameter_values": null,
+          "payload": {
+            "asset_hash": "911e4f944d1b8f6f42afb593586db96aaddd6e60d0953f0f035453e50695a0fe"
+          },
+          "provenance": {
+            "labels": [
+              "MODEL_INDEPENDENT"
+            ],
+            "notes": "",
+            "provenance_class": "MODEL_INDEPENDENT",
+            "source_description": "Run 014 compilation fixture approximate",
+            "source_hashes": []
+          },
+          "source_specification_hashes": [
+            "f55f887d8f1eb60e3d22f310c189e497f3596df213b4fef6f8f95595716a0230",
+            "a8209cab325bb83e881157b8c37391c3995910a3296cb14e5c416cd35a4c46e5"
+          ]
+        },
+        {
+          "authorization_labels": [
+            "MODEL_INDEPENDENT",
+            "NOT_HARDWARE_EVIDENCE"
+          ],
+          "candidate_id": "infeasible",
+          "candidate_kind": "COMPILED_CONTROL_SCHEDULE",
+          "declared_semantic_hash": null,
+          "parameter_layout_hash": null,
+          "parameter_values": null,
+          "payload": {
+            "asset_hash": "c7bf32ff0494eae411bbf92a018df47672731b8a6633bd2fc71d84d6f4dad5b7"
+          },
+          "provenance": {
+            "labels": [
+              "MODEL_INDEPENDENT"
+            ],
+            "notes": "",
+            "provenance_class": "MODEL_INDEPENDENT",
+            "source_description": "Run 014 compilation fixture infeasible",
+            "source_hashes": []
+          },
+          "source_specification_hashes": [
+            "0305ca3a3325933844d4d2b5682c571f07bad270fe8081c23d0a97208acb359b",
+            "1888dc3ceac455595f473e6888921f31758068e07a5431b50618caab0cb08eee"
+          ]
+        },
+        {
+          "authorization_labels": [
+            "MODEL_INDEPENDENT",
+            "NOT_HARDWARE_EVIDENCE"
+          ],
+          "candidate_id": "diagnostic_incomplete",
+          "candidate_kind": "COMPILED_CONTROL_SCHEDULE",
+          "declared_semantic_hash": null,
+          "parameter_layout_hash": null,
+          "parameter_values": null,
+          "payload": {
+            "asset_hash": "26b14497139d15a1e52643901cce81a5f54c4bb3b2818be3a8e46cd5da183317"
+          },
+          "provenance": {
+            "labels": [
+              "MODEL_INDEPENDENT"
+            ],
+            "notes": "",
+            "provenance_class": "MODEL_INDEPENDENT",
+            "source_description": "Run 014 compilation fixture diagnostic_incomplete",
+            "source_hashes": []
+          },
+          "source_specification_hashes": [
+            "f55f887d8f1eb60e3d22f310c189e497f3596df213b4fef6f8f95595716a0230",
+            "79fb39269f18298cef320e6636895657d642b76500a8554195ec2d788a23cdc5"
+          ]
+        }
+      ],
+      "deduplicate": true,
+      "grid_values": {},
+      "plan_id": "apparatus-compilation-plan",
+      "plan_kind": "EXPLICIT_CANDIDATE_LIST",
+      "provenance": {
+        "labels": [
+          "MODEL_INDEPENDENT"
+        ],
+        "notes": "",
+        "provenance_class": "MODEL_INDEPENDENT",
+        "source_description": "Run 014 compiler outputs",
+        "source_hashes": []
+      },
+      "recorded_source_hash": null,
+      "search_space": null
+    },
+    "evaluation_context": {
+      "apparatus_profile_hash": null,
+      "context_class": "MODEL_INDEPENDENT_STRUCTURAL",
+      "context_id": "run017-compilation",
+      "controller_spec_hash": null,
+      "execution_authorized": true,
+      "labels": [
+        "MODEL_INDEPENDENT"
+      ],
+      "observation_spec_hash": null,
+      "parameter_layout_hash": null,
+      "physics_reference": null,
+      "policy_spec_hash": null,
+      "provenance": {
+        "labels": [
+          "MODEL_INDEPENDENT"
+        ],
+        "notes": "",
+        "provenance_class": "MODEL_INDEPENDENT",
+        "source_description": "run017-compilation",
+        "source_hashes": []
+      },
+      "schema_version": "mgf-mot-evaluation-context-v1",
+      "synthetic_plant_hash": null
+    },
+    "evaluator": {
+      "authorized": true,
+      "evaluator_id": "SCHEDULE_COMPILATION_EVALUATOR",
+      "evaluator_version": "1",
+      "implementation_version": "run014-compiler-v1",
+      "input_schema": "mgf-mot-candidate-v1",
+      "output_schema": "mgf-mot-evaluator-output-v1",
+      "provenance": {
+        "labels": [],
+        "notes": "",
+        "provenance_class": "CLOSED_REGISTRY",
+        "source_description": "Run 017 evaluator registry",
+        "source_hashes": []
+      }
+    },
+    "experiment_id": "apparatus_compilation",
+    "experiment_name": "apparatus compilation",
+    "metric_specs": [
+      {
+        "aggregation": "NONE",
+        "authorization": "AUTHORIZED_MODEL_INDEPENDENT",
+        "compatible_contexts": [
+          "MODEL_INDEPENDENT_STRUCTURAL"
+        ],
+        "compatible_evaluators": [
+          "SCHEDULE_COMPILATION_EVALUATOR"
+        ],
+        "description": "Run 017 registered metric command_count",
+        "dtype": "int64",
+        "meaning": null,
+        "metric_id": "command_count",
+        "name": "command count",
+        "objective_eligible": false,
+        "provenance": {
+          "labels": [],
+          "notes": "",
+          "provenance_class": "CLOSED_REGISTRY",
+          "source_description": "Run 017 metric registry",
+          "source_hashes": []
+        },
+        "required_future_artifact_or_gate": null,
+        "shape": [],
+        "units": "count"
+      },
+      {
+        "aggregation": "NONE",
+        "authorization": "AUTHORIZED_MODEL_INDEPENDENT",
+        "compatible_contexts": [
+          "MODEL_INDEPENDENT_STRUCTURAL"
+        ],
+        "compatible_evaluators": [
+          "SCHEDULE_COMPILATION_EVALUATOR"
+        ],
+        "description": "Run 017 registered metric simultaneous_command_group_count",
+        "dtype": "int64",
+        "meaning": null,
+        "metric_id": "simultaneous_command_group_count",
+        "name": "simultaneous command group count",
+        "objective_eligible": false,
+        "provenance": {
+          "labels": [],
+          "notes": "",
+          "provenance_class": "CLOSED_REGISTRY",
+          "source_description": "Run 017 metric registry",
+          "source_hashes": []
+        },
+        "required_future_artifact_or_gate": null,
+        "shape": [],
+        "units": "count"
+      },
+      {
+        "aggregation": "NONE",
+        "authorization": "AUTHORIZED_MODEL_INDEPENDENT",
+        "compatible_contexts": [
+          "MODEL_INDEPENDENT_STRUCTURAL"
+        ],
+        "compatible_evaluators": [
+          "SCHEDULE_COMPILATION_EVALUATOR"
+        ],
+        "description": "Run 017 registered metric maximum_event_displacement",
+        "dtype": "float64",
+        "meaning": null,
+        "metric_id": "maximum_event_displacement",
+        "name": "maximum event displacement",
+        "objective_eligible": false,
+        "provenance": {
+          "labels": [],
+          "notes": "",
+          "provenance_class": "CLOSED_REGISTRY",
+          "source_description": "Run 017 metric registry",
+          "source_hashes": []
+        },
+        "required_future_artifact_or_gate": null,
+        "shape": [],
+        "units": "s"
+      },
+      {
+        "aggregation": "NONE",
+        "authorization": "AUTHORIZED_MODEL_INDEPENDENT",
+        "compatible_contexts": [
+          "MODEL_INDEPENDENT_STRUCTURAL"
+        ],
+        "compatible_evaluators": [
+          "SCHEDULE_COMPILATION_EVALUATOR"
+        ],
+        "description": "Run 017 registered metric infeasibility_issue_count",
+        "dtype": "int64",
+        "meaning": null,
+        "metric_id": "infeasibility_issue_count",
+        "name": "infeasibility issue count",
+        "objective_eligible": false,
+        "provenance": {
+          "labels": [],
+          "notes": "",
+          "provenance_class": "CLOSED_REGISTRY",
+          "source_description": "Run 017 metric registry",
+          "source_hashes": []
+        },
+        "required_future_artifact_or_gate": null,
+        "shape": [],
+        "units": "count"
+      },
+      {
+        "aggregation": "NONE",
+        "authorization": "AUTHORIZED_MODEL_INDEPENDENT",
+        "compatible_contexts": [
+          "MODEL_INDEPENDENT_STRUCTURAL"
+        ],
+        "compatible_evaluators": [
+          "SCHEDULE_COMPILATION_EVALUATOR"
+        ],
+        "description": "Run 017 registered metric profile_completeness",
+        "dtype": "bool",
+        "meaning": null,
+        "metric_id": "profile_completeness",
+        "name": "profile completeness",
+        "objective_eligible": false,
+        "provenance": {
+          "labels": [],
+          "notes": "",
+          "provenance_class": "CLOSED_REGISTRY",
+          "source_description": "Run 017 metric registry",
+          "source_hashes": []
+        },
+        "required_future_artifact_or_gate": null,
+        "shape": [],
+        "units": "boolean"
+      }
+    ],
+    "objectives": [],
+    "optimizer_adapter": {
+      "adapter_id": "run017-no-op-boundary",
+      "adapter_version": "1",
+      "objective_spec_hashes": [],
+      "optimization_run_authorized": false,
+      "optimizer_family_id": "NO_OP_INTERFACE_VALIDATOR",
+      "optimizer_interface_authorized": true,
+      "proposal_history_hash": null,
+      "search_space_hash": "NOT_APPLICABLE",
+      "seed": 17
+    },
+    "output_contract": {
+      "artifact_schema": "run017-deterministic-artifacts-v1",
+      "atomic_write_required": true,
+      "required_files": [
+        "experiment.json",
+        "checkpoint.json",
+        "trial.json",
+        "metrics.json",
+        "evaluator-output.json",
+        "issues.json"
+      ],
+      "warning_labels": [
+        "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+        "MODEL_INDEPENDENT",
+        "NOT_RODRIGUEZ_REPLICATION",
+        "RUN_017",
+        "EXPERIMENT_SEARCH_PROTOCOL_ONLY"
+      ]
+    },
+    "provenance": {
+      "labels": [
+        "MODEL_INDEPENDENT"
+      ],
+      "notes": "",
+      "provenance_class": "MODEL_INDEPENDENT",
+      "source_description": "apparatus_compilation",
+      "source_hashes": []
+    },
+    "purpose": "Run 017 model-independent protocol validation; never physical performance",
+    "schema_version": "mgf-mot-experiment-spec-v1",
+    "seed_ledger": {
+      "derivation_version": "sha256-namespaced-uint64-v1",
+      "root_seed": 170017,
+      "stream_names": [
+        "candidate_fixture_generation",
+        "synthetic_evaluator_behavior",
+        "observation_noise",
+        "synthetic_plant_behavior",
+        "controller_behavior"
+      ]
+    },
+    "software_versions": {
+      "experiment_protocol": "run017-experiment-protocol-v1"
+    },
+    "volatile_created_at": null
+  }
+}

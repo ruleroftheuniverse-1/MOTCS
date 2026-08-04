@@ -1,0 +1,364 @@
+{
+  "manifest": {
+    "authorization_summary": {
+      "hardware_executable_claim_valid": false,
+      "optimization_run_authorized": false,
+      "optimizer_interface_authorized": true,
+      "physical_evaluation_authorized": false
+    },
+    "candidate_plan_hash": "478002bbab69397ae062d7a0884fb4d5f71942c79ee01da9e2ce666378d338c8",
+    "duplicate_candidate_hashes": [],
+    "experiment_hash": "b1e32812d86844452c816645738c69168f51634c0a1a9a845a7553294c5af846",
+    "pipeline_version": "run017-authorize-before-evaluate-v1",
+    "schema_version": "mgf-mot-experiment-run-v1",
+    "trial_result_hashes": {
+      "0215c3de45dbc332f22d6db3a9e90cfb3ba21dbbbba13cb2b6440e84da0607bd": "172d098379d97563cda15d749fba46c7bc07e56fa15006d4a272e4b6d872668a",
+      "1ec56cf1423dcc40e3c35732c713862c455ca91e709675192da90866affec18f": "97edced997df71939c36897d54f355b10720f64504bd967f627e076f031224f2",
+      "243032073343b5a6a47a5435e43d53ce709f3a855d7a9a2e1ad08589f158c4d4": "d67d07200d31f6be071d48ab6142320a49c79e88d213a9a9b960ea8b397c2e3a",
+      "da3f1758b14f24eadeeade012b7ed36e3641d21dfd0847cfd5fa2d97530b8e0d": "633a8f14515c00766b731ac0e8c8b08262bd62cf0e438dfc67f107b42a63f5f3"
+    },
+    "volatile_runtime_metadata": {},
+    "warning_labels": [
+      "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+      "MODEL_INDEPENDENT",
+      "NOT_RODRIGUEZ_REPLICATION",
+      "RUN_017",
+      "EXPERIMENT_SEARCH_PROTOCOL_ONLY"
+    ]
+  },
+  "spec": {
+    "authorization_labels": [
+      "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+      "MODEL_INDEPENDENT",
+      "NOT_RODRIGUEZ_REPLICATION",
+      "RUN_017",
+      "EXPERIMENT_SEARCH_PROTOCOL_ONLY"
+    ],
+    "candidate_kind": "OPEN_LOOP_POLICY_SPEC",
+    "candidate_plan": {
+      "adaptive": false,
+      "candidates": [
+        {
+          "authorization_labels": [
+            "MODEL_INDEPENDENT"
+          ],
+          "candidate_id": "piecewise_baseline",
+          "candidate_kind": "OPEN_LOOP_POLICY_SPEC",
+          "declared_semantic_hash": null,
+          "parameter_layout_hash": null,
+          "parameter_values": null,
+          "payload": {
+            "asset_hash": "727c59498309ebcfc70932fbc3699aafd7eb96a85ca62b23ac2fedd1c3b81850"
+          },
+          "provenance": {
+            "labels": [
+              "MODEL_INDEPENDENT"
+            ],
+            "notes": "",
+            "provenance_class": "MODEL_INDEPENDENT",
+            "source_description": "Run 015 family piecewise_baseline",
+            "source_hashes": []
+          },
+          "source_specification_hashes": [
+            "727c59498309ebcfc70932fbc3699aafd7eb96a85ca62b23ac2fedd1c3b81850"
+          ]
+        },
+        {
+          "authorization_labels": [
+            "MODEL_INDEPENDENT"
+          ],
+          "candidate_id": "cubic_baseline",
+          "candidate_kind": "OPEN_LOOP_POLICY_SPEC",
+          "declared_semantic_hash": null,
+          "parameter_layout_hash": null,
+          "parameter_values": null,
+          "payload": {
+            "asset_hash": "17809cbf8d4e382313d1fd2a2879f42af0aba0435a19277dd605ca3d35a0a4c8"
+          },
+          "provenance": {
+            "labels": [
+              "MODEL_INDEPENDENT"
+            ],
+            "notes": "",
+            "provenance_class": "MODEL_INDEPENDENT",
+            "source_description": "Run 015 family cubic_baseline",
+            "source_hashes": []
+          },
+          "source_specification_hashes": [
+            "17809cbf8d4e382313d1fd2a2879f42af0aba0435a19277dd605ca3d35a0a4c8"
+          ]
+        },
+        {
+          "authorization_labels": [
+            "MODEL_INDEPENDENT"
+          ],
+          "candidate_id": "fourier_zero",
+          "candidate_kind": "OPEN_LOOP_POLICY_SPEC",
+          "declared_semantic_hash": null,
+          "parameter_layout_hash": null,
+          "parameter_values": null,
+          "payload": {
+            "asset_hash": "775f80c4b727faef09116da33f63242e2104d0e85fd807ea638a5e7fe67bcb7b"
+          },
+          "provenance": {
+            "labels": [
+              "MODEL_INDEPENDENT"
+            ],
+            "notes": "",
+            "provenance_class": "MODEL_INDEPENDENT",
+            "source_description": "Run 015 family fourier_zero",
+            "source_hashes": []
+          },
+          "source_specification_hashes": [
+            "775f80c4b727faef09116da33f63242e2104d0e85fd807ea638a5e7fe67bcb7b"
+          ]
+        },
+        {
+          "authorization_labels": [
+            "MODEL_INDEPENDENT"
+          ],
+          "candidate_id": "piecewise_multiknot",
+          "candidate_kind": "OPEN_LOOP_POLICY_SPEC",
+          "declared_semantic_hash": null,
+          "parameter_layout_hash": null,
+          "parameter_values": null,
+          "payload": {
+            "asset_hash": "f55f887d8f1eb60e3d22f310c189e497f3596df213b4fef6f8f95595716a0230"
+          },
+          "provenance": {
+            "labels": [
+              "MODEL_INDEPENDENT"
+            ],
+            "notes": "",
+            "provenance_class": "MODEL_INDEPENDENT",
+            "source_description": "Run 015 family piecewise_multiknot",
+            "source_hashes": []
+          },
+          "source_specification_hashes": [
+            "f55f887d8f1eb60e3d22f310c189e497f3596df213b4fef6f8f95595716a0230"
+          ]
+        }
+      ],
+      "deduplicate": true,
+      "grid_values": {},
+      "plan_id": "policy-structural-plan",
+      "plan_kind": "EXPLICIT_CANDIDATE_LIST",
+      "provenance": {
+        "labels": [
+          "MODEL_INDEPENDENT"
+        ],
+        "notes": "",
+        "provenance_class": "MODEL_INDEPENDENT",
+        "source_description": "explicit structural candidates",
+        "source_hashes": []
+      },
+      "recorded_source_hash": null,
+      "search_space": null
+    },
+    "evaluation_context": {
+      "apparatus_profile_hash": null,
+      "context_class": "MODEL_INDEPENDENT_STRUCTURAL",
+      "context_id": "run017-structural",
+      "controller_spec_hash": null,
+      "execution_authorized": true,
+      "labels": [
+        "MODEL_INDEPENDENT"
+      ],
+      "observation_spec_hash": null,
+      "parameter_layout_hash": null,
+      "physics_reference": null,
+      "policy_spec_hash": null,
+      "provenance": {
+        "labels": [
+          "MODEL_INDEPENDENT"
+        ],
+        "notes": "",
+        "provenance_class": "MODEL_INDEPENDENT",
+        "source_description": "run017-structural",
+        "source_hashes": []
+      },
+      "schema_version": "mgf-mot-evaluation-context-v1",
+      "synthetic_plant_hash": null
+    },
+    "evaluator": {
+      "authorized": true,
+      "evaluator_id": "POLICY_STRUCTURAL_EVALUATOR",
+      "evaluator_version": "1",
+      "implementation_version": "run015-structural-v1",
+      "input_schema": "mgf-mot-candidate-v1",
+      "output_schema": "mgf-mot-evaluator-output-v1",
+      "provenance": {
+        "labels": [],
+        "notes": "",
+        "provenance_class": "CLOSED_REGISTRY",
+        "source_description": "Run 017 evaluator registry",
+        "source_hashes": []
+      }
+    },
+    "experiment_id": "policy_structural_comparison",
+    "experiment_name": "policy structural comparison",
+    "metric_specs": [
+      {
+        "aggregation": "NONE",
+        "authorization": "AUTHORIZED_MODEL_INDEPENDENT",
+        "compatible_contexts": [
+          "MODEL_INDEPENDENT_STRUCTURAL"
+        ],
+        "compatible_evaluators": [
+          "POLICY_STRUCTURAL_EVALUATOR"
+        ],
+        "description": "Run 017 registered metric parameter_count",
+        "dtype": "int64",
+        "meaning": null,
+        "metric_id": "parameter_count",
+        "name": "parameter count",
+        "objective_eligible": false,
+        "provenance": {
+          "labels": [],
+          "notes": "",
+          "provenance_class": "CLOSED_REGISTRY",
+          "source_description": "Run 017 metric registry",
+          "source_hashes": []
+        },
+        "required_future_artifact_or_gate": null,
+        "shape": [],
+        "units": "count"
+      },
+      {
+        "aggregation": "NONE",
+        "authorization": "AUTHORIZED_MODEL_INDEPENDENT",
+        "compatible_contexts": [
+          "MODEL_INDEPENDENT_STRUCTURAL"
+        ],
+        "compatible_evaluators": [
+          "POLICY_STRUCTURAL_EVALUATOR"
+        ],
+        "description": "Run 017 registered metric adjustable_parameter_count",
+        "dtype": "int64",
+        "meaning": null,
+        "metric_id": "adjustable_parameter_count",
+        "name": "adjustable parameter count",
+        "objective_eligible": false,
+        "provenance": {
+          "labels": [],
+          "notes": "",
+          "provenance_class": "CLOSED_REGISTRY",
+          "source_description": "Run 017 metric registry",
+          "source_hashes": []
+        },
+        "required_future_artifact_or_gate": null,
+        "shape": [],
+        "units": "count"
+      },
+      {
+        "aggregation": "NONE",
+        "authorization": "AUTHORIZED_MODEL_INDEPENDENT",
+        "compatible_contexts": [
+          "MODEL_INDEPENDENT_STRUCTURAL"
+        ],
+        "compatible_evaluators": [
+          "POLICY_STRUCTURAL_EVALUATOR"
+        ],
+        "description": "Run 017 registered metric event_count",
+        "dtype": "int64",
+        "meaning": null,
+        "metric_id": "event_count",
+        "name": "event count",
+        "objective_eligible": false,
+        "provenance": {
+          "labels": [],
+          "notes": "",
+          "provenance_class": "CLOSED_REGISTRY",
+          "source_description": "Run 017 metric registry",
+          "source_hashes": []
+        },
+        "required_future_artifact_or_gate": null,
+        "shape": [],
+        "units": "count"
+      },
+      {
+        "aggregation": "NONE",
+        "authorization": "AUTHORIZED_MODEL_INDEPENDENT",
+        "compatible_contexts": [
+          "MODEL_INDEPENDENT_STRUCTURAL"
+        ],
+        "compatible_evaluators": [
+          "POLICY_STRUCTURAL_EVALUATOR"
+        ],
+        "description": "Run 017 registered metric structural_boundary_count",
+        "dtype": "int64",
+        "meaning": null,
+        "metric_id": "structural_boundary_count",
+        "name": "structural boundary count",
+        "objective_eligible": false,
+        "provenance": {
+          "labels": [],
+          "notes": "",
+          "provenance_class": "CLOSED_REGISTRY",
+          "source_description": "Run 017 metric registry",
+          "source_hashes": []
+        },
+        "required_future_artifact_or_gate": null,
+        "shape": [],
+        "units": "count"
+      }
+    ],
+    "objectives": [],
+    "optimizer_adapter": {
+      "adapter_id": "run017-no-op-boundary",
+      "adapter_version": "1",
+      "objective_spec_hashes": [],
+      "optimization_run_authorized": false,
+      "optimizer_family_id": "NO_OP_INTERFACE_VALIDATOR",
+      "optimizer_interface_authorized": true,
+      "proposal_history_hash": null,
+      "search_space_hash": "NOT_APPLICABLE",
+      "seed": 17
+    },
+    "output_contract": {
+      "artifact_schema": "run017-deterministic-artifacts-v1",
+      "atomic_write_required": true,
+      "required_files": [
+        "experiment.json",
+        "checkpoint.json",
+        "trial.json",
+        "metrics.json",
+        "evaluator-output.json",
+        "issues.json"
+      ],
+      "warning_labels": [
+        "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+        "MODEL_INDEPENDENT",
+        "NOT_RODRIGUEZ_REPLICATION",
+        "RUN_017",
+        "EXPERIMENT_SEARCH_PROTOCOL_ONLY"
+      ]
+    },
+    "provenance": {
+      "labels": [
+        "MODEL_INDEPENDENT"
+      ],
+      "notes": "",
+      "provenance_class": "MODEL_INDEPENDENT",
+      "source_description": "policy_structural_comparison",
+      "source_hashes": []
+    },
+    "purpose": "Run 017 model-independent protocol validation; never physical performance",
+    "schema_version": "mgf-mot-experiment-spec-v1",
+    "seed_ledger": {
+      "derivation_version": "sha256-namespaced-uint64-v1",
+      "root_seed": 170017,
+      "stream_names": [
+        "candidate_fixture_generation",
+        "synthetic_evaluator_behavior",
+        "observation_noise",
+        "synthetic_plant_behavior",
+        "controller_behavior"
+      ]
+    },
+    "software_versions": {
+      "experiment_protocol": "run017-experiment-protocol-v1"
+    },
+    "volatile_created_at": null
+  }
+}

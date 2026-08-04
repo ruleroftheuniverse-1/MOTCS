@@ -1,0 +1,3 @@
+schema_version: mgf-mot-experiment-example-selector-v1
+example_id: locked_physical_metric
+labels: [MODEL_INDEPENDENT, SYNTHETIC_TEST_FIXTURE, NOT_MGF_PHYSICS, NOT_RODRIGUEZ_REPLICATION, RUN_017, EXPERIMENT_SEARCH_PROTOCOL_ONLY]

@@ -1,0 +1,71 @@
+{
+  "artifact_labels": [
+    "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+    "MODEL_INDEPENDENT",
+    "NOT_RODRIGUEZ_REPLICATION",
+    "RUN_017",
+    "EXPERIMENT_SEARCH_PROTOCOL_ONLY"
+  ],
+  "metrics": [
+    {
+      "labels": [
+        "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY"
+      ],
+      "lock_reason": null,
+      "metric_id": "command_count",
+      "required_future_artifact_or_gate": null,
+      "required_missing_authorization": null,
+      "status": "VALUE",
+      "units": "count",
+      "value": 8
+    },
+    {
+      "labels": [
+        "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY"
+      ],
+      "lock_reason": null,
+      "metric_id": "simultaneous_command_group_count",
+      "required_future_artifact_or_gate": null,
+      "required_missing_authorization": null,
+      "status": "VALUE",
+      "units": "count",
+      "value": 0
+    },
+    {
+      "labels": [
+        "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY"
+      ],
+      "lock_reason": null,
+      "metric_id": "maximum_event_displacement",
+      "required_future_artifact_or_gate": null,
+      "required_missing_authorization": null,
+      "status": "VALUE",
+      "units": "s",
+      "value": 0.0
+    },
+    {
+      "labels": [
+        "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY"
+      ],
+      "lock_reason": null,
+      "metric_id": "infeasibility_issue_count",
+      "required_future_artifact_or_gate": null,
+      "required_missing_authorization": null,
+      "status": "VALUE",
+      "units": "count",
+      "value": 0
+    },
+    {
+      "labels": [
+        "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY"
+      ],
+      "lock_reason": null,
+      "metric_id": "profile_completeness",
+      "required_future_artifact_or_gate": null,
+      "required_missing_authorization": null,
+      "status": "VALUE",
+      "units": "boolean",
+      "value": false
+    }
+  ]
+}

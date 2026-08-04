@@ -1,0 +1,494 @@
+{
+  "manifest": {
+    "authorization_summary": {
+      "hardware_executable_claim_valid": false,
+      "optimization_run_authorized": false,
+      "optimizer_interface_authorized": true,
+      "physical_evaluation_authorized": false
+    },
+    "candidate_plan_hash": "d03437b0914aa374dbb4991b0b84bc83f11e37ecd181e5bd91344bd19d6590e2",
+    "duplicate_candidate_hashes": [],
+    "experiment_hash": "9e566898347dc62b5a0bb06b9df38ca86fef45b0d176a02cd7c3eda7df710615",
+    "pipeline_version": "run017-authorize-before-evaluate-v1",
+    "schema_version": "mgf-mot-experiment-run-v1",
+    "trial_result_hashes": {
+      "90087b6773e8393147da511192055dd713ebeaa504ed534dfca530e29fd7e672": "b985026a33cb209591ff66f24a5b43d434c755d1f3f77b49436b5c0113140e0a",
+      "a98d7e04f86a1cbb20651ce692b6fa42d7ea7a6dd127c588e598fc85f5ad16b7": "43da2e391bd5e68e600ead586196d8cc5be4c674a70ba2d13b903e37ca9ec47d",
+      "c08d2c8c19f4fccd23b6bc67cc67c94a3694e2b3c290c828e0ab6777bfb24eda": "e538289fb05d444a818749a6e3f4bfe712d7f2d977552ec580c9e7fc96671ec6",
+      "dc8e30962d183ae53cd697fd005903d3a65b0dfe7d57e2cc8c01b88357907733": "831a58f56e79e7cb4c0dd137f289c284a662f98a3810ceabbee404ecc2fdaa16",
+      "ffa28bb95210e395e9376f7926ad42ee47f7e2009c48384100f488c01ed48650": "a25c1eab2effdf7bf96c2cd7a10d794b124ed43f8d78e5008dff6dc730b70b8f"
+    },
+    "volatile_runtime_metadata": {},
+    "warning_labels": [
+      "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+      "MODEL_INDEPENDENT",
+      "NOT_RODRIGUEZ_REPLICATION",
+      "RUN_017",
+      "EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+      "SYNTHETIC_OBJECTIVE",
+      "NOT_PHYSICAL_PERFORMANCE"
+    ]
+  },
+  "spec": {
+    "authorization_labels": [
+      "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+      "MODEL_INDEPENDENT",
+      "NOT_RODRIGUEZ_REPLICATION",
+      "RUN_017",
+      "EXPERIMENT_SEARCH_PROTOCOL_ONLY"
+    ],
+    "candidate_kind": "FEEDBACK_SESSION_SPEC",
+    "candidate_plan": {
+      "adaptive": false,
+      "candidates": [
+        {
+          "authorization_labels": [
+            "MODEL_INDEPENDENT",
+            "SYNTHETIC_TEST_FIXTURE",
+            "NOT_MGF_PHYSICS"
+          ],
+          "candidate_id": "baseline_replay",
+          "candidate_kind": "FEEDBACK_SESSION_SPEC",
+          "declared_semantic_hash": null,
+          "parameter_layout_hash": null,
+          "parameter_values": null,
+          "payload": {
+            "asset_hash": "7947f544da263159995f0475f85cfa000788677f939db3a019accb26335c7c3d"
+          },
+          "provenance": {
+            "labels": [
+              "MODEL_INDEPENDENT",
+              "SYNTHETIC_TEST_FIXTURE",
+              "NOT_MGF_PHYSICS",
+              "SYNTHETIC_OBJECTIVE",
+              "NOT_PHYSICAL_PERFORMANCE"
+            ],
+            "notes": "",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "Run 016 synthetic feedback session",
+            "source_hashes": []
+          },
+          "source_specification_hashes": [
+            "2ae7a210495a5839cc3d54c314b80448fa56f9b25394e3033d8b86151b8eeff0",
+            "43059141df80289446ccb5925ef49cd665e19cf8541feb44ee71e1b3bda1b6bc",
+            "403c5da491712ba1d3484f6eb8aea87f939db067befbecc6aec55026c8c927fd",
+            "3a07671d9618567a12be645719d7225e17beb912d21b0c2097a0ee849081fe44",
+            "0bebbac9509c221cf1eedf465347fbe8066a49807ade318bc95f84e859c4e6e7",
+            "8ea37803ad106aea608870b503110956aaff30f243a61b65b53a8c2349539652",
+            "7947f544da263159995f0475f85cfa000788677f939db3a019accb26335c7c3d"
+          ]
+        },
+        {
+          "authorization_labels": [
+            "MODEL_INDEPENDENT",
+            "SYNTHETIC_TEST_FIXTURE",
+            "NOT_MGF_PHYSICS"
+          ],
+          "candidate_id": "deterministic_noise",
+          "candidate_kind": "FEEDBACK_SESSION_SPEC",
+          "declared_semantic_hash": null,
+          "parameter_layout_hash": null,
+          "parameter_values": null,
+          "payload": {
+            "asset_hash": "dbb8e2b5f86b0fc881636b840cb4762f5e944b2492fea1876444451fbfd9b9e5"
+          },
+          "provenance": {
+            "labels": [
+              "MODEL_INDEPENDENT",
+              "SYNTHETIC_TEST_FIXTURE",
+              "NOT_MGF_PHYSICS",
+              "SYNTHETIC_OBJECTIVE",
+              "NOT_PHYSICAL_PERFORMANCE"
+            ],
+            "notes": "",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "Run 016 synthetic feedback session",
+            "source_hashes": []
+          },
+          "source_specification_hashes": [
+            "aa1b920b74203fd1c053dcb963c3e19ff4aca0b140aa801073f37793c6e603c9",
+            "0dc80389beb2944cd2acde213568bd53dfa5dc3a925381b6eb682f6beb78d808",
+            "2b3b1c7effb5c5086b7af52547435864b52467203c2fd30750cb7ca626a298dd",
+            "294ba54c0e35416482a5dcb72a7629a6eb9f95b8acf812f0bce08a6666fc5336",
+            "57983c618ad3e2228064591b3c1cf79be1d4ebad285c7f954bc210068fd7f87a",
+            "745adc339b41213d015eebdbc73505403a7a9fca5d4d5fb95b5abb173835f09f",
+            "dbb8e2b5f86b0fc881636b840cb4762f5e944b2492fea1876444451fbfd9b9e5"
+          ]
+        },
+        {
+          "authorization_labels": [
+            "MODEL_INDEPENDENT",
+            "SYNTHETIC_TEST_FIXTURE",
+            "NOT_MGF_PHYSICS"
+          ],
+          "candidate_id": "infeasible_action",
+          "candidate_kind": "FEEDBACK_SESSION_SPEC",
+          "declared_semantic_hash": null,
+          "parameter_layout_hash": null,
+          "parameter_values": null,
+          "payload": {
+            "asset_hash": "78de14a55ca49d3235d668f0c53e46e73cdaa0570a39bcec7be7077a29a39f06"
+          },
+          "provenance": {
+            "labels": [
+              "MODEL_INDEPENDENT",
+              "SYNTHETIC_TEST_FIXTURE",
+              "NOT_MGF_PHYSICS",
+              "SYNTHETIC_OBJECTIVE",
+              "NOT_PHYSICAL_PERFORMANCE"
+            ],
+            "notes": "",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "Run 016 synthetic feedback session",
+            "source_hashes": []
+          },
+          "source_specification_hashes": [
+            "2ae7a210495a5839cc3d54c314b80448fa56f9b25394e3033d8b86151b8eeff0",
+            "f7a074fcd15e3e9f3152da21121f828d5872df9d72a07e19d875d67ab211abc5",
+            "9a7b3e00d69b30f356518dae17cdfbce5ab3b3dc3d9ab119b1dd5a9a574625cc",
+            "03285fc1c67d9af4320d386f0b11c2844e57e76d776da7c1c7b2e136b79f2dfa",
+            "57983c618ad3e2228064591b3c1cf79be1d4ebad285c7f954bc210068fd7f87a",
+            "a81c807bc13e8ae2184f5639e99b398941227205c983709fbf988c32013e0713",
+            "78de14a55ca49d3235d668f0c53e46e73cdaa0570a39bcec7be7077a29a39f06"
+          ]
+        },
+        {
+          "authorization_labels": [
+            "MODEL_INDEPENDENT",
+            "SYNTHETIC_TEST_FIXTURE",
+            "NOT_MGF_PHYSICS"
+          ],
+          "candidate_id": "oracle_affine",
+          "candidate_kind": "FEEDBACK_SESSION_SPEC",
+          "declared_semantic_hash": null,
+          "parameter_layout_hash": null,
+          "parameter_values": null,
+          "payload": {
+            "asset_hash": "81efde2f5f33b6ee7c580e855e4aef1643a9f6b130d55d3fd699cb4a6502f3ea"
+          },
+          "provenance": {
+            "labels": [
+              "MODEL_INDEPENDENT",
+              "SYNTHETIC_TEST_FIXTURE",
+              "NOT_MGF_PHYSICS",
+              "SYNTHETIC_OBJECTIVE",
+              "NOT_PHYSICAL_PERFORMANCE"
+            ],
+            "notes": "",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "Run 016 synthetic feedback session",
+            "source_hashes": []
+          },
+          "source_specification_hashes": [
+            "6f596121b2751ca1e1a421744766117c607b4e89ffd736822ed98f51a3238e09",
+            "26e7665bc1186abc3640f0e6d554687870c9d432752664fd4bf5beb8545ba91b",
+            "89b8d8821069e73e4fd459563ef4272be5cfcd07084816643e5fa69104ff8ee7",
+            "294ba54c0e35416482a5dcb72a7629a6eb9f95b8acf812f0bce08a6666fc5336",
+            "3156ff0955c76806ecd1d2c976094dc7e5341acbb484766cc273802a5fff4277",
+            "745adc339b41213d015eebdbc73505403a7a9fca5d4d5fb95b5abb173835f09f",
+            "81efde2f5f33b6ee7c580e855e4aef1643a9f6b130d55d3fd699cb4a6502f3ea"
+          ]
+        },
+        {
+          "authorization_labels": [
+            "MODEL_INDEPENDENT",
+            "SYNTHETIC_TEST_FIXTURE",
+            "NOT_MGF_PHYSICS"
+          ],
+          "candidate_id": "partial_delayed",
+          "candidate_kind": "FEEDBACK_SESSION_SPEC",
+          "declared_semantic_hash": null,
+          "parameter_layout_hash": null,
+          "parameter_values": null,
+          "payload": {
+            "asset_hash": "00359f5da9ca305fa6f3875a958dbb8b0b5efe6e56eaa2573fd755bbd9174693"
+          },
+          "provenance": {
+            "labels": [
+              "MODEL_INDEPENDENT",
+              "SYNTHETIC_TEST_FIXTURE",
+              "NOT_MGF_PHYSICS",
+              "SYNTHETIC_OBJECTIVE",
+              "NOT_PHYSICAL_PERFORMANCE"
+            ],
+            "notes": "",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "Run 016 synthetic feedback session",
+            "source_hashes": []
+          },
+          "source_specification_hashes": [
+            "d16837dc972e2783c7da26843528beaa78ab90c2e02b29ac2cf07d3c903985c8",
+            "40ecb60a16e1e711b755efa693b4e32499009a965497f29ec4d714c3e999d4a8",
+            "2b3b1c7effb5c5086b7af52547435864b52467203c2fd30750cb7ca626a298dd",
+            "2f7a02a789e49b28ea257b53c876eedd6ebbd563c16cc5d75f1651cc05e65604",
+            "8c73ecdd1b7a422e907a29a7f048ff64d44728d04ab53b0efb6f3ae62ffd6c6c",
+            "745adc339b41213d015eebdbc73505403a7a9fca5d4d5fb95b5abb173835f09f",
+            "00359f5da9ca305fa6f3875a958dbb8b0b5efe6e56eaa2573fd755bbd9174693"
+          ]
+        }
+      ],
+      "deduplicate": true,
+      "grid_values": {},
+      "plan_id": "feedback-replay-plan",
+      "plan_kind": "EXPLICIT_CANDIDATE_LIST",
+      "provenance": {
+        "labels": [
+          "MODEL_INDEPENDENT",
+          "SYNTHETIC_TEST_FIXTURE",
+          "NOT_MGF_PHYSICS",
+          "SYNTHETIC_OBJECTIVE",
+          "NOT_PHYSICAL_PERFORMANCE"
+        ],
+        "notes": "",
+        "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+        "source_description": "Run 016 session replay",
+        "source_hashes": []
+      },
+      "recorded_source_hash": null,
+      "search_space": null
+    },
+    "evaluation_context": {
+      "apparatus_profile_hash": null,
+      "context_class": "SYNTHETIC_CONTROL_FIXTURE",
+      "context_id": "run017-feedback",
+      "controller_spec_hash": null,
+      "execution_authorized": true,
+      "labels": [
+        "MODEL_INDEPENDENT",
+        "SYNTHETIC_TEST_FIXTURE",
+        "NOT_MGF_PHYSICS"
+      ],
+      "observation_spec_hash": null,
+      "parameter_layout_hash": null,
+      "physics_reference": null,
+      "policy_spec_hash": null,
+      "provenance": {
+        "labels": [
+          "MODEL_INDEPENDENT",
+          "SYNTHETIC_TEST_FIXTURE",
+          "NOT_MGF_PHYSICS",
+          "SYNTHETIC_OBJECTIVE",
+          "NOT_PHYSICAL_PERFORMANCE"
+        ],
+        "notes": "",
+        "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+        "source_description": "run017-feedback",
+        "source_hashes": []
+      },
+      "schema_version": "mgf-mot-evaluation-context-v1",
+      "synthetic_plant_hash": "3a188298c8135b58dc2069311c37fa0e39a061b460aa1b0e7c9ae1b9094c90d6"
+    },
+    "evaluator": {
+      "authorized": true,
+      "evaluator_id": "FEEDBACK_REPLAY_EVALUATOR",
+      "evaluator_version": "1",
+      "implementation_version": "run016-feedback-v1",
+      "input_schema": "mgf-mot-candidate-v1",
+      "output_schema": "mgf-mot-evaluator-output-v1",
+      "provenance": {
+        "labels": [],
+        "notes": "",
+        "provenance_class": "CLOSED_REGISTRY",
+        "source_description": "Run 017 evaluator registry",
+        "source_hashes": []
+      }
+    },
+    "experiment_id": "feedback_replay",
+    "experiment_name": "feedback replay",
+    "metric_specs": [
+      {
+        "aggregation": "NONE",
+        "authorization": "AUTHORIZED_SYNTHETIC_ONLY",
+        "compatible_contexts": [
+          "SYNTHETIC_CONTROL_FIXTURE"
+        ],
+        "compatible_evaluators": [
+          "FEEDBACK_REPLAY_EVALUATOR"
+        ],
+        "description": "Run 017 registered metric observation_packet_count",
+        "dtype": "int64",
+        "meaning": null,
+        "metric_id": "observation_packet_count",
+        "name": "observation packet count",
+        "objective_eligible": false,
+        "provenance": {
+          "labels": [],
+          "notes": "",
+          "provenance_class": "CLOSED_REGISTRY",
+          "source_description": "Run 017 metric registry",
+          "source_hashes": []
+        },
+        "required_future_artifact_or_gate": null,
+        "shape": [],
+        "units": "count"
+      },
+      {
+        "aggregation": "NONE",
+        "authorization": "AUTHORIZED_SYNTHETIC_ONLY",
+        "compatible_contexts": [
+          "SYNTHETIC_CONTROL_FIXTURE"
+        ],
+        "compatible_evaluators": [
+          "FEEDBACK_REPLAY_EVALUATOR"
+        ],
+        "description": "Run 017 registered metric missing_packet_count",
+        "dtype": "int64",
+        "meaning": null,
+        "metric_id": "missing_packet_count",
+        "name": "missing packet count",
+        "objective_eligible": false,
+        "provenance": {
+          "labels": [],
+          "notes": "",
+          "provenance_class": "CLOSED_REGISTRY",
+          "source_description": "Run 017 metric registry",
+          "source_hashes": []
+        },
+        "required_future_artifact_or_gate": null,
+        "shape": [],
+        "units": "count"
+      },
+      {
+        "aggregation": "NONE",
+        "authorization": "AUTHORIZED_SYNTHETIC_ONLY",
+        "compatible_contexts": [
+          "SYNTHETIC_CONTROL_FIXTURE"
+        ],
+        "compatible_evaluators": [
+          "FEEDBACK_REPLAY_EVALUATOR"
+        ],
+        "description": "Run 017 registered metric fallback_count",
+        "dtype": "int64",
+        "meaning": null,
+        "metric_id": "fallback_count",
+        "name": "fallback count",
+        "objective_eligible": false,
+        "provenance": {
+          "labels": [],
+          "notes": "",
+          "provenance_class": "CLOSED_REGISTRY",
+          "source_description": "Run 017 metric registry",
+          "source_hashes": []
+        },
+        "required_future_artifact_or_gate": null,
+        "shape": [],
+        "units": "count"
+      },
+      {
+        "aggregation": "NONE",
+        "authorization": "AUTHORIZED_SYNTHETIC_ONLY",
+        "compatible_contexts": [
+          "SYNTHETIC_CONTROL_FIXTURE"
+        ],
+        "compatible_evaluators": [
+          "FEEDBACK_REPLAY_EVALUATOR"
+        ],
+        "description": "Run 017 registered metric replay_equality",
+        "dtype": "bool",
+        "meaning": null,
+        "metric_id": "replay_equality",
+        "name": "replay equality",
+        "objective_eligible": false,
+        "provenance": {
+          "labels": [],
+          "notes": "",
+          "provenance_class": "CLOSED_REGISTRY",
+          "source_description": "Run 017 metric registry",
+          "source_hashes": []
+        },
+        "required_future_artifact_or_gate": null,
+        "shape": [],
+        "units": "boolean"
+      },
+      {
+        "aggregation": "NONE",
+        "authorization": "AUTHORIZED_SYNTHETIC_ONLY",
+        "compatible_contexts": [
+          "SYNTHETIC_CONTROL_FIXTURE"
+        ],
+        "compatible_evaluators": [
+          "FEEDBACK_REPLAY_EVALUATOR"
+        ],
+        "description": "Run 017 registered metric maximum_action_to_effect_latency",
+        "dtype": "float64",
+        "meaning": null,
+        "metric_id": "maximum_action_to_effect_latency",
+        "name": "maximum action to effect latency",
+        "objective_eligible": false,
+        "provenance": {
+          "labels": [],
+          "notes": "",
+          "provenance_class": "CLOSED_REGISTRY",
+          "source_description": "Run 017 metric registry",
+          "source_hashes": []
+        },
+        "required_future_artifact_or_gate": null,
+        "shape": [],
+        "units": "s"
+      }
+    ],
+    "objectives": [],
+    "optimizer_adapter": {
+      "adapter_id": "run017-no-op-boundary",
+      "adapter_version": "1",
+      "objective_spec_hashes": [],
+      "optimization_run_authorized": false,
+      "optimizer_family_id": "NO_OP_INTERFACE_VALIDATOR",
+      "optimizer_interface_authorized": true,
+      "proposal_history_hash": null,
+      "search_space_hash": "NOT_APPLICABLE",
+      "seed": 17
+    },
+    "output_contract": {
+      "artifact_schema": "run017-deterministic-artifacts-v1",
+      "atomic_write_required": true,
+      "required_files": [
+        "experiment.json",
+        "checkpoint.json",
+        "trial.json",
+        "metrics.json",
+        "evaluator-output.json",
+        "issues.json"
+      ],
+      "warning_labels": [
+        "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+        "MODEL_INDEPENDENT",
+        "NOT_RODRIGUEZ_REPLICATION",
+        "RUN_017",
+        "EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+        "SYNTHETIC_OBJECTIVE",
+        "NOT_PHYSICAL_PERFORMANCE"
+      ]
+    },
+    "provenance": {
+      "labels": [
+        "MODEL_INDEPENDENT",
+        "SYNTHETIC_TEST_FIXTURE",
+        "NOT_MGF_PHYSICS",
+        "SYNTHETIC_OBJECTIVE",
+        "NOT_PHYSICAL_PERFORMANCE"
+      ],
+      "notes": "",
+      "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+      "source_description": "feedback_replay",
+      "source_hashes": []
+    },
+    "purpose": "Run 017 model-independent protocol validation; never physical performance",
+    "schema_version": "mgf-mot-experiment-spec-v1",
+    "seed_ledger": {
+      "derivation_version": "sha256-namespaced-uint64-v1",
+      "root_seed": 170017,
+      "stream_names": [
+        "candidate_fixture_generation",
+        "synthetic_evaluator_behavior",
+        "observation_noise",
+        "synthetic_plant_behavior",
+        "controller_behavior"
+      ]
+    },
+    "software_versions": {
+      "experiment_protocol": "run017-experiment-protocol-v1"
+    },
+    "volatile_created_at": null
+  }
+}

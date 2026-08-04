@@ -1,0 +1,3 @@
+schema_version: mgf-mot-experiment-example-selector-v1
+example_id: apparatus_compilation
+labels: [MODEL_INDEPENDENT, NOT_RODRIGUEZ_REPLICATION, RUN_017, EXPERIMENT_SEARCH_PROTOCOL_ONLY]

@@ -1,0 +1,83 @@
+{
+  "artifact_labels": [
+    "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+    "MODEL_INDEPENDENT",
+    "NOT_RODRIGUEZ_REPLICATION",
+    "RUN_017",
+    "EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+    "SYNTHETIC_OBJECTIVE",
+    "NOT_PHYSICAL_PERFORMANCE"
+  ],
+  "metrics": [
+    {
+      "labels": [
+        "MODEL_INDEPENDENT",
+        "SYNTHETIC_TEST_FIXTURE",
+        "NOT_MGF_PHYSICS"
+      ],
+      "lock_reason": null,
+      "metric_id": "observation_packet_count",
+      "required_future_artifact_or_gate": null,
+      "required_missing_authorization": null,
+      "status": "VALUE",
+      "units": "count",
+      "value": 10
+    },
+    {
+      "labels": [
+        "MODEL_INDEPENDENT",
+        "SYNTHETIC_TEST_FIXTURE",
+        "NOT_MGF_PHYSICS"
+      ],
+      "lock_reason": null,
+      "metric_id": "missing_packet_count",
+      "required_future_artifact_or_gate": null,
+      "required_missing_authorization": null,
+      "status": "VALUE",
+      "units": "count",
+      "value": 0
+    },
+    {
+      "labels": [
+        "MODEL_INDEPENDENT",
+        "SYNTHETIC_TEST_FIXTURE",
+        "NOT_MGF_PHYSICS"
+      ],
+      "lock_reason": null,
+      "metric_id": "fallback_count",
+      "required_future_artifact_or_gate": null,
+      "required_missing_authorization": null,
+      "status": "VALUE",
+      "units": "count",
+      "value": 0
+    },
+    {
+      "labels": [
+        "MODEL_INDEPENDENT",
+        "SYNTHETIC_TEST_FIXTURE",
+        "NOT_MGF_PHYSICS"
+      ],
+      "lock_reason": null,
+      "metric_id": "replay_equality",
+      "required_future_artifact_or_gate": null,
+      "required_missing_authorization": null,
+      "status": "VALUE",
+      "units": "boolean",
+      "value": true
+    },
+    {
+      "labels": [
+        "MODEL_INDEPENDENT",
+        "SYNTHETIC_TEST_FIXTURE",
+        "NOT_MGF_PHYSICS"
+      ],
+      "lock_reason": null,
+      "metric_id": "maximum_action_to_effect_latency",
+      "required_future_artifact_or_gate": null,
+      "required_missing_authorization": null,
+      "status": "VALUE",
+      "units": "s",
+      "value": 0.0
+    }
+  ]
+}

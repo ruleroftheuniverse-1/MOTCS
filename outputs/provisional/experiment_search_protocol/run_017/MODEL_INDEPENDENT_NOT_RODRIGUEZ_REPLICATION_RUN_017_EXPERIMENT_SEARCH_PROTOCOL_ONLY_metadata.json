@@ -1,0 +1,1010 @@
+{
+  "artifact_labels": [
+    "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+    "MODEL_INDEPENDENT",
+    "NOT_RODRIGUEZ_REPLICATION",
+    "RUN_017",
+    "EXPERIMENT_SEARCH_PROTOCOL_ONLY"
+  ],
+  "authorization": {
+    "apparatus_schedule_compiler_authorized": true,
+    "capture_metric_authorized": false,
+    "control_policy_abi_authorized": true,
+    "exact_replication_valid": false,
+    "experiment_protocol_authorized": true,
+    "feedback_policy_interface_authorized": true,
+    "hardware_executable_claim_valid": false,
+    "open_loop_policy_families_authorized": true,
+    "optimization_run_authorized": false,
+    "optimizer_adapter_interface_authorized": true,
+    "optimizer_implementation_authorized": false,
+    "physical_evaluator_authorized": false,
+    "physical_objective_authorized": false,
+    "real_apparatus_profile_validated": false,
+    "real_sensor_model_validated": false,
+    "reinforcement_learning_authorized": false,
+    "synthetic_trial_execution_authorized": true
+  },
+  "candidate_rows": [
+    [
+      "apparatus_compilation",
+      "770b6752527c",
+      "SUCCEEDED"
+    ],
+    [
+      "apparatus_compilation",
+      "58818e83d7e7",
+      "SUCCEEDED"
+    ],
+    [
+      "apparatus_compilation",
+      "0ec0dd20f28e",
+      "SUCCEEDED"
+    ],
+    [
+      "apparatus_compilation",
+      "5a8924144765",
+      "SUCCEEDED"
+    ],
+    [
+      "feedback_replay",
+      "5b0b532eb3a1",
+      "SUCCEEDED"
+    ],
+    [
+      "feedback_replay",
+      "c2c053c3f098",
+      "SUCCEEDED"
+    ],
+    [
+      "feedback_replay",
+      "f54369a2e058",
+      "SUCCEEDED"
+    ],
+    [
+      "feedback_replay",
+      "ccc747ecf23d",
+      "SUCCEEDED"
+    ],
+    [
+      "feedback_replay",
+      "98e74b531c16",
+      "SUCCEEDED"
+    ],
+    [
+      "locked_physical_metric",
+      "744e071cc2d6",
+      "METRIC_LOCKED"
+    ],
+    [
+      "policy_structural_comparison",
+      "80d698924bb3",
+      "SUCCEEDED"
+    ],
+    [
+      "policy_structural_comparison",
+      "ecff1ea3fcb4",
+      "SUCCEEDED"
+    ],
+    [
+      "policy_structural_comparison",
+      "4e7d463db266",
+      "SUCCEEDED"
+    ],
+    [
+      "policy_structural_comparison",
+      "49b6ca873f97",
+      "SUCCEEDED"
+    ],
+    [
+      "synthetic_search_plumbing",
+      "27a247f71e1d",
+      "SUCCEEDED"
+    ],
+    [
+      "synthetic_search_plumbing",
+      "e862c3629a73",
+      "SUCCEEDED"
+    ],
+    [
+      "synthetic_search_plumbing",
+      "04a318c026ad",
+      "SUCCEEDED"
+    ],
+    [
+      "synthetic_search_plumbing",
+      "8defb5a43a6e",
+      "SUCCEEDED"
+    ],
+    [
+      "synthetic_search_plumbing",
+      "bc18b141e5bd",
+      "SUCCEEDED"
+    ],
+    [
+      "synthetic_search_plumbing",
+      "16e0d7d9c34f",
+      "SUCCEEDED"
+    ],
+    [
+      "synthetic_search_plumbing",
+      "7612173f3df9",
+      "SUCCEEDED"
+    ],
+    [
+      "synthetic_search_plumbing",
+      "24679086db00",
+      "SUCCEEDED"
+    ],
+    [
+      "synthetic_search_plumbing",
+      "cd2831f41619",
+      "SUCCEEDED"
+    ]
+  ],
+  "capture_metrics_calculated": 0,
+  "controller_training_runs": 0,
+  "experiments": [
+    [
+      "apparatus_compilation",
+      "9af5047ce4fe",
+      4,
+      "95e1dd1a8e67",
+      4,
+      0
+    ],
+    [
+      "feedback_replay",
+      "9e566898347d",
+      5,
+      "7994e876c55b",
+      5,
+      0
+    ],
+    [
+      "locked_physical_metric",
+      "d81f13b1d0bc",
+      1,
+      "59de01b2a8ee",
+      0,
+      1
+    ],
+    [
+      "policy_structural_comparison",
+      "b1e32812d868",
+      4,
+      "485290ce650f",
+      4,
+      0
+    ],
+    [
+      "synthetic_search_plumbing",
+      "a0b8e79265f5",
+      9,
+      "18756646cd9e",
+      9,
+      0
+    ]
+  ],
+  "force_field_queries": 0,
+  "gate": "CONTROL_EXPERIMENT_INFRA_READY",
+  "label": "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+  "locked_metric_audit": {
+    "all_metrics_locked": true,
+    "all_values_absent": true,
+    "lock_reasons": [
+      "LOCKED_REQUIRED_MODEL_MISSING"
+    ],
+    "no_evaluator_output": true,
+    "status": "METRIC_LOCKED"
+  },
+  "metric_rows": [
+    [
+      "command_count",
+      "VALUE",
+      "7"
+    ],
+    [
+      "simultaneous_command_group_count",
+      "VALUE",
+      "1"
+    ],
+    [
+      "maximum_event_displacement",
+      "VALUE",
+      "0.0"
+    ],
+    [
+      "infeasibility_issue_count",
+      "VALUE",
+      "0"
+    ],
+    [
+      "profile_completeness",
+      "VALUE",
+      "True"
+    ],
+    [
+      "command_count",
+      "VALUE",
+      "9"
+    ],
+    [
+      "simultaneous_command_group_count",
+      "VALUE",
+      "1"
+    ],
+    [
+      "maximum_event_displacement",
+      "VALUE",
+      "0.00010000000000000005"
+    ],
+    [
+      "infeasibility_issue_count",
+      "VALUE",
+      "0"
+    ],
+    [
+      "profile_completeness",
+      "VALUE",
+      "True"
+    ],
+    [
+      "command_count",
+      "VALUE",
+      "9"
+    ],
+    [
+      "simultaneous_command_group_count",
+      "VALUE",
+      "1"
+    ],
+    [
+      "maximum_event_displacement",
+      "VALUE",
+      "0.00010000000000000005"
+    ],
+    [
+      "infeasibility_issue_count",
+      "VALUE",
+      "3"
+    ],
+    [
+      "profile_completeness",
+      "VALUE",
+      "True"
+    ],
+    [
+      "command_count",
+      "VALUE",
+      "8"
+    ],
+    [
+      "simultaneous_command_group_count",
+      "VALUE",
+      "0"
+    ],
+    [
+      "maximum_event_displacement",
+      "VALUE",
+      "0.0"
+    ],
+    [
+      "infeasibility_issue_count",
+      "VALUE",
+      "0"
+    ],
+    [
+      "profile_completeness",
+      "VALUE",
+      "False"
+    ],
+    [
+      "observation_packet_count",
+      "VALUE",
+      "10"
+    ],
+    [
+      "missing_packet_count",
+      "VALUE",
+      "0"
+    ],
+    [
+      "fallback_count",
+      "VALUE",
+      "0"
+    ],
+    [
+      "replay_equality",
+      "VALUE",
+      "True"
+    ],
+    [
+      "maximum_action_to_effect_latency",
+      "VALUE",
+      "0.0"
+    ],
+    [
+      "observation_packet_count",
+      "VALUE",
+      "4"
+    ],
+    [
+      "missing_packet_count",
+      "VALUE",
+      "0"
+    ],
+    [
+      "fallback_count",
+      "VALUE",
+      "0"
+    ],
+    [
+      "replay_equality",
+      "VALUE",
+      "True"
+    ],
+    [
+      "maximum_action_to_effect_latency",
+      "VALUE",
+      "0.0"
+    ],
+    [
+      "observation_packet_count",
+      "VALUE",
+      "3"
+    ],
+    [
+      "missing_packet_count",
+      "VALUE",
+      "0"
+    ],
+    [
+      "fallback_count",
+      "VALUE",
+      "2"
+    ],
+    [
+      "replay_equality",
+      "VALUE",
+      "True"
+    ],
+    [
+      "maximum_action_to_effect_latency",
+      "VALUE",
+      "0.0"
+    ],
+    [
+      "observation_packet_count",
+      "VALUE",
+      "4"
+    ],
+    [
+      "missing_packet_count",
+      "VALUE",
+      "0"
+    ],
+    [
+      "fallback_count",
+      "VALUE",
+      "0"
+    ],
+    [
+      "replay_equality",
+      "VALUE",
+      "True"
+    ],
+    [
+      "maximum_action_to_effect_latency",
+      "VALUE",
+      "0.0"
+    ],
+    [
+      "observation_packet_count",
+      "VALUE",
+      "4"
+    ],
+    [
+      "missing_packet_count",
+      "VALUE",
+      "2"
+    ],
+    [
+      "fallback_count",
+      "VALUE",
+      "2"
+    ],
+    [
+      "replay_equality",
+      "VALUE",
+      "True"
+    ],
+    [
+      "maximum_action_to_effect_latency",
+      "VALUE",
+      "0.0"
+    ],
+    [
+      "capture_velocity",
+      "METRIC_LOCKED",
+      "NO_VALUE"
+    ],
+    [
+      "parameter_count",
+      "VALUE",
+      "2"
+    ],
+    [
+      "adjustable_parameter_count",
+      "VALUE",
+      "0"
+    ],
+    [
+      "event_count",
+      "VALUE",
+      "1"
+    ],
+    [
+      "structural_boundary_count",
+      "VALUE",
+      "0"
+    ],
+    [
+      "parameter_count",
+      "VALUE",
+      "2"
+    ],
+    [
+      "adjustable_parameter_count",
+      "VALUE",
+      "0"
+    ],
+    [
+      "event_count",
+      "VALUE",
+      "1"
+    ],
+    [
+      "structural_boundary_count",
+      "VALUE",
+      "0"
+    ],
+    [
+      "parameter_count",
+      "VALUE",
+      "3"
+    ],
+    [
+      "adjustable_parameter_count",
+      "VALUE",
+      "3"
+    ],
+    [
+      "event_count",
+      "VALUE",
+      "1"
+    ],
+    [
+      "structural_boundary_count",
+      "VALUE",
+      "0"
+    ],
+    [
+      "parameter_count",
+      "VALUE",
+      "4"
+    ],
+    [
+      "adjustable_parameter_count",
+      "VALUE",
+      "2"
+    ],
+    [
+      "event_count",
+      "VALUE",
+      "1"
+    ],
+    [
+      "structural_boundary_count",
+      "VALUE",
+      "2"
+    ],
+    [
+      "synthetic_fixture_value",
+      "VALUE",
+      "1.0"
+    ],
+    [
+      "synthetic_coordinate_terms",
+      "VALUE",
+      "(1.0, 0.0)"
+    ],
+    [
+      "synthetic_fixture_value",
+      "VALUE",
+      "2.0"
+    ],
+    [
+      "synthetic_coordinate_terms",
+      "VALUE",
+      "(1.0, 1.0)"
+    ],
+    [
+      "synthetic_fixture_value",
+      "VALUE",
+      "5.0"
+    ],
+    [
+      "synthetic_coordinate_terms",
+      "VALUE",
+      "(1.0, 4.0)"
+    ],
+    [
+      "synthetic_fixture_value",
+      "VALUE",
+      "0.0"
+    ],
+    [
+      "synthetic_coordinate_terms",
+      "VALUE",
+      "(0.0, 0.0)"
+    ],
+    [
+      "synthetic_fixture_value",
+      "VALUE",
+      "1.0"
+    ],
+    [
+      "synthetic_coordinate_terms",
+      "VALUE",
+      "(0.0, 1.0)"
+    ],
+    [
+      "synthetic_fixture_value",
+      "VALUE",
+      "4.0"
+    ],
+    [
+      "synthetic_coordinate_terms",
+      "VALUE",
+      "(0.0, 4.0)"
+    ],
+    [
+      "synthetic_fixture_value",
+      "VALUE",
+      "1.0"
+    ],
+    [
+      "synthetic_coordinate_terms",
+      "VALUE",
+      "(1.0, 0.0)"
+    ],
+    [
+      "synthetic_fixture_value",
+      "VALUE",
+      "2.0"
+    ],
+    [
+      "synthetic_coordinate_terms",
+      "VALUE",
+      "(1.0, 1.0)"
+    ],
+    [
+      "synthetic_fixture_value",
+      "VALUE",
+      "5.0"
+    ],
+    [
+      "synthetic_coordinate_terms",
+      "VALUE",
+      "(1.0, 4.0)"
+    ]
+  ],
+  "molecular_force_evaluations": 0,
+  "molecular_trajectory_integrations": 0,
+  "objective_rows": [
+    [
+      "synthetic_search_plumbing",
+      "synthetic_fixture_value",
+      "MINIMIZE",
+      "PRIMARY"
+    ]
+  ],
+  "optimization_runs": 0,
+  "physical_objectives_evaluated": 0,
+  "prerequisites": {
+    "run013": "CONTROL_POLICY_ABI_GO",
+    "run014": "APPARATUS_SCHEDULE_COMPILER_GO",
+    "run015": "OPEN_LOOP_POLICY_FAMILIES_GO",
+    "run016": "FEEDBACK_POLICY_INTERFACE_GO"
+  },
+  "protected_artifacts_unchanged": true,
+  "protected_hashes_after": {
+    "configs\\run_015\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_cubic_baseline.yaml": "3fae7ec15bc4d48c6e9036d13019609aeb8140e0db0b0db1ec7d8499575c225c",
+    "configs\\run_015\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_cubic_multiknot.yaml": "3cf2dc9b013ac8e88f828fca01b8bd25c5d8c0a15c42eeeb2504d161ee394db5",
+    "configs\\run_015\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_fourier_high_bandwidth.yaml": "f29f7cc2a8c00b006197dbf30db5346bec364c5e1a073dee08e051a227c53bf4",
+    "configs\\run_015\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_fourier_nonzero.yaml": "f31a309063047f89da5bea785a2117d80442b0ba5bdfc649865f241f24923be1",
+    "configs\\run_015\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_fourier_zero.yaml": "321dfe7db72c67181d378832327a5ec9e158fb2163b787d6413afb950a2696a2",
+    "configs\\run_015\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_piecewise_baseline.yaml": "22c6d66fe9c1f0db71491c37cb35ec54014f0bb7955ccb028e618b1485af8164",
+    "configs\\run_015\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_piecewise_multiknot.yaml": "f0ec3f19be8badb651fdce7d769bcfa2218318e5de157944bf1d5a4bd907d59a",
+    "configs\\run_016\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_016_FEEDBACK_POLICY_INTERFACE_ONLY_baseline_replay.yaml": "9ca6f22eb52079333d49b4931f6a90cf11e6c4bd6a52311bfe775f9ef1993acd",
+    "configs\\run_016\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_016_FEEDBACK_POLICY_INTERFACE_ONLY_deterministic_noise.yaml": "834731281b3e998fc1055702a341677f6a4867ae9dd878959ae7c99620ae6d44",
+    "configs\\run_016\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_016_FEEDBACK_POLICY_INTERFACE_ONLY_infeasible_action.yaml": "021d174c773ef6815badd856c9e8d87d2488fb17edfc913ef24698cb8a36f1ef",
+    "configs\\run_016\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_016_FEEDBACK_POLICY_INTERFACE_ONLY_oracle_affine.yaml": "034bc006759d002afc329de608ca92061c07b851472f6e3ae731cabc53a590eb",
+    "configs\\run_016\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_016_FEEDBACK_POLICY_INTERFACE_ONLY_partial_delayed.yaml": "ed58066eb645119eda17f9698267852a0e0a423604ad0e851943670a329e29f0",
+    "outputs\\provisional\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_013_CONTROL_POLICY_ABI_ONLY.md": "e74852914f37ab3d4188943d579585dfafd5fc438b8052150e17819423b46d84",
+    "outputs\\provisional\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_014_APPARATUS_SCHEDULE_COMPILER_ONLY.md": "ebd5c26e52dbdb6d8e8054ac0b87a449ea22890452d5f22b05c19f7be24c2882",
+    "outputs\\provisional\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY.md": "0acd0acb78c3aee6a9479a2cff05ad050467e3035693b1bbcd65dfabf0fe4827",
+    "outputs\\provisional\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_016_FEEDBACK_POLICY_INTERFACE_ONLY.md": "704dea9e4798c9e5324b66ab566dde623a006e6a61aa54d278b7401000f9f2e6",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_combined_comparison.png": "fd593020f78105828a626a54b8fa4305ce4f970bd8377e02db8f02e134d73436",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_metadata.json": "2b87c82f6370137b8dd416ac4977a7be70e3b3d84532cf75d87f59e77269fde0",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_pathwise_interpolation_validation.json": "2150d552dcfa1ddb1c56f824940fd5df7a479fb15f435bec5f45c540d4ced8c2",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k.npz": "db20381ae2028815dcc0f453a945333c697a1a66d9d18184b1d7392186b713ee",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k_diagnostics.png": "5c81a20e537b8d032c626572c842bb4ef2ddcb72d3fe6331d7dbb0cadf911b80",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k_metadata.json": "3009a9f6bbe54e433271d243690e61aba7ece2b723179a5ec35cc9945e84c65b",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k.npz": "753b714ee01ef0c8f784b3f0ea9fd022d7321c3f8fcce466d2a05676fba0ac7c",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k_diagnostics.png": "219196d3dc4cc009b1347c60f77f8a5e24d8294c3ee1f60568f5c62921305bef",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k_metadata.json": "62f6d3dfc8c4b6b5151ae07597223074ade23a29f49259054ff9a96e51d2c8c4",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k.npz": "fd5969786282cb3816c07028424d322ae6c6f7fa3bb244e0b38dca9716ee245c",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k_diagnostics.png": "ef010c4c71a833aabbc08ee9103d1426ce7297a9991035d1c85afe2e54e48694",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k_metadata.json": "ac7aa8b88440783a48f62b1695f4d38848284f0ac9740478cb040a3b91430826",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k.npz": "6267a91b621793218ed2385e8ab2991e9e459616ffc048e46ca3ffab6466be17",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k_diagnostics.png": "7b95f421180a2eec1d2790af2ae4def03d6a99c6b5d5e15e25b7d72f9a659362",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k_metadata.json": "5a3975703be82e1df8c47c92159982f2aea1d4d9b0e4e5ca2fdb4945a805ebd9",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k.npz": "3eb6b6a4933e58683ad93945f362a8585f95a33cf578ca560751c94041bb94ec",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k_diagnostics.png": "63432075d78a715c630ff4407fb65486eef783bad9d688507d24bee23ddb00b2",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k_metadata.json": "a28ea7672197a6ffa54ea03d8819747e78184ad54f85972089b603b40303dd55",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_run_011.md": "a6067ad266844faafecb3679fb8d5cf6106609a815205f8901e9c243ebf84a85",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_run_010.md": "f9b9c7a5f4cd8669d7eba5faeae5cbb8958c8b1fbb73fc767f57bdd629af4199",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_run_010_metadata.json": "3071720c63fe36a1b0de0bb3246deabbb030690e77d56cef7dad73e21f5efa81",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_run_010_validation.png": "bef7b2cd9705922781a2c1fd2cc70c457499233dec9373d2c3f63862f366b3dc",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY.md": "938d8a20a6a53861c2bdcb880be6ec6f188a865c23c01fcb5dc34c088e760b93",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY_diagnostics.png": "01d908cf4c604716c095e4637529ed0adc3bac85a4b135de9318d39f04a724c3",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY_metadata.json": "93ad81dfcefeaa948e534f2836ffe1c3f674d180dc980cf2e2121d308365d7dd",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY.md": "9b524b770ec1af4a0cf248b04bbc33ea793854536628c6d2fb65dc871176d9f3",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_comparison.png": "6673ebc29e1779c7a5ea2209bc8cf8246b873347560add7ada10ffe40d5b55d0",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_comparison_metadata.json": "e8b0398bce33411dc5b08d22420ccca5fc950a6f060adb82345622930f2edffa",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY.md": "2db1de730ef708bc4737a62455424efd31ce740b6f64e998b3465ea9a9621cf4",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY.md": "fc3a7b168fd0c0c7f5016ccd505a14f425bf082adf75608d4bf50b16af4a6d93",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY.md": "738ae346848c2720f77e8b0cf249b9946898c7660943f2ead66d62358f29f07d",
+    "outputs\\provisional\\apparatus_schedule_compiler\\run_014\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_014_APPARATUS_SCHEDULE_COMPILER_ONLY_metadata.json": "a3f07a1af3c6aab96204cdbdce5b7222980e876749f7d50b82b6dfbdc50dc1bd",
+    "outputs\\provisional\\apparatus_schedule_compiler\\run_014\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_014_APPARATUS_SCHEDULE_COMPILER_ONLY_quantized_demonstration_compiled_schedule.json": "ecd1be5d10486b75362d317ef8988a2d76fbf772946b014c301eeda5e896f032",
+    "outputs\\provisional\\apparatus_schedule_compiler\\run_014\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_014_APPARATUS_SCHEDULE_COMPILER_ONLY_rate_limited_demonstration_compiled_schedule.json": "02606a71f27adf93b9b8bd49cf1dbb7aa91e9be49e346f70c45cfd0f4afc5984",
+    "outputs\\provisional\\apparatus_schedule_compiler\\run_014\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_014_APPARATUS_SCHEDULE_COMPILER_ONLY_rodriguez_baseline_linear_chirp_synthetic_identity_compiled_schedule.json": "781f51fccc984dd056fe8eac73ae7e346c3f7bd4e4aef85ab9bcbe503db6b90c",
+    "outputs\\provisional\\apparatus_schedule_compiler\\run_014\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_014_APPARATUS_SCHEDULE_COMPILER_ONLY_rodriguez_chirp_to_3_plus_1_handoff_synthetic_identity_compiled_schedule.json": "3f1d0bec51ca39defaab6c85d03c08fe52b48fe48df209069d983c0f5d93450e",
+    "outputs\\provisional\\apparatus_schedule_compiler\\run_014\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_014_APPARATUS_SCHEDULE_COMPILER_ONLY_rodriguez_static_3_plus_1_synthetic_identity_compiled_schedule.json": "c69403f4c418665b0382a62ed6a76f0ac6bfef8c1559f3cbd874463c87f8dddb",
+    "outputs\\provisional\\apparatus_schedule_compiler\\run_014\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_014_APPARATUS_SCHEDULE_COMPILER_ONLY_rodriguez_static_3_synthetic_identity_compiled_schedule.json": "af605bec8d46cc1dabb33352d26e4444e401cef15c7596d581b6e4f22898f6cb",
+    "outputs\\provisional\\apparatus_schedule_compiler\\run_014\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_014_APPARATUS_SCHEDULE_COMPILER_ONLY_source_incomplete_demonstration_compiled_schedule.json": "29f03c02d5ae9e57bdabd3e3c675a121f7ed9aeec3e67d810ecee056ff7eb883",
+    "outputs\\provisional\\control_policy_abi\\run_013\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_013_CONTROL_POLICY_ABI_ONLY_metadata.json": "78fdbefe110ad62f1f31c4a9678f6f5b15bb1dcc6bebedc819be72c2fda2f79e",
+    "outputs\\provisional\\control_policy_abi\\run_013\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_013_CONTROL_POLICY_ABI_ONLY_rodriguez_baseline_linear_chirp_spec.json": "e9b56a2921877edae7b60ab4029ef7697fbadce638c49e3df7a2b54044e135bc",
+    "outputs\\provisional\\control_policy_abi\\run_013\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_013_CONTROL_POLICY_ABI_ONLY_rodriguez_chirp_to_3_plus_1_handoff_spec.json": "242458cb228899cb1550ba4866c4da4276bbeade74ec2379f847aad2c91a5d6c",
+    "outputs\\provisional\\control_policy_abi\\run_013\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_013_CONTROL_POLICY_ABI_ONLY_rodriguez_static_3_plus_1_spec.json": "d10f9dec165f5cde10d164284fed517a999d8dea92303dc29c9141cc0b4ffb69",
+    "outputs\\provisional\\control_policy_abi\\run_013\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_013_CONTROL_POLICY_ABI_ONLY_rodriguez_static_3_spec.json": "11d2b4bd007148ef4b1757d3a67face2991470fff869ce9daf0f2731b72fa8a1",
+    "outputs\\provisional\\feedback_policy_interface\\run_016\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_016_FEEDBACK_POLICY_INTERFACE_ONLY_baseline_replay_replay_package.json": "3484c454697d2120fbd5906c74cdf03b3c3debbc0e00080d1b3917cbb5c4c078",
+    "outputs\\provisional\\feedback_policy_interface\\run_016\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_016_FEEDBACK_POLICY_INTERFACE_ONLY_deterministic_noise_replay_package.json": "b507f5c3b654fefd1550788edd7b5aa7f89d082c07453a14277faebafa153684",
+    "outputs\\provisional\\feedback_policy_interface\\run_016\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_016_FEEDBACK_POLICY_INTERFACE_ONLY_infeasible_action_replay_package.json": "bc263502aa4b0f18974cdbdece0720c29c6828297bc67a4f437ffb049a8bc423",
+    "outputs\\provisional\\feedback_policy_interface\\run_016\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_016_FEEDBACK_POLICY_INTERFACE_ONLY_metadata.json": "d36be8009b7bc7bfa1998a7489abf68939ce45821082d7fa385b068a86cba7cd",
+    "outputs\\provisional\\feedback_policy_interface\\run_016\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_016_FEEDBACK_POLICY_INTERFACE_ONLY_oracle_affine_FULL_STATE_ORACLE_SIMULATION_ONLY_NOT_APPARATUS_REALIZABLE_replay_package.json": "ca54ddb110e6b512e0dceab779f63aa7a28dff4abc03c345d427b0e6552ed6a2",
+    "outputs\\provisional\\feedback_policy_interface\\run_016\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_016_FEEDBACK_POLICY_INTERFACE_ONLY_partial_delayed_replay_package.json": "51653d353db044a68fd9d283e573cf486af1005a00f6e548e98e4caeaec11862",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_post_handoff_trap_3_plus_1_run_010.npz": "b8ff2e8ddecd955e4909a9050667e765e1e92997201c36d2a1ede5c118ab09a3",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_post_handoff_trap_3_plus_1_run_010_metadata.json": "eb0814492e8a3166e58a54f444655cb365e87a40a01bec4e2b494e4697182814",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_pre_handoff_chirp_3_run_010.npz": "da385440e60a6387d8fcf9e864baec2cffa4d4c04904cabd089bc54ce1865004",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_pre_handoff_chirp_3_run_010_metadata.json": "4622064509b2e290c9f0cf052111f6031add462e97c0aa7c22653a471abc3ad4",
+    "outputs\\provisional\\molecular_model_audit\\run_011c\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_accepted_molecular_matrices.npz": "6b406a64174bef7e62e4ed40e066851d2a26b24165b2d6eca3b42d95dd790689",
+    "outputs\\provisional\\molecular_model_audit\\run_011c\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_accepted_molecular_matrices_metadata.json": "4ac2d6a5ede155fb8bc7809ec471df52ae6cfd6464b0f5c4903d93cc82dc02f6",
+    "outputs\\provisional\\molecular_model_audit\\run_011c\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_metadata.json": "b3290635bfe108130cef3ac13454895e45bb5ba69a985810963c3052b8532767",
+    "outputs\\provisional\\molecular_model_audit\\run_011c\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_state_resolved_diagnostics.json": "eba5884450c5cf74b0adc9f92a7672df515d1f93a6acd2870886d4904649a9ed",
+    "outputs\\provisional\\molecular_model_audit\\run_011c\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_transition_ledger.csv": "712f79f5e99107c8e81513c840399c497438e20adca3b30cc9a916f216ca1f02",
+    "outputs\\provisional\\molecular_model_audit\\run_011d\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY_basis_rephasing_and_polarization_audit.json": "4edef83e93bd94e7eab9a3769ce7c5b6fed50afc21cb2593bf94abfb645252a2",
+    "outputs\\provisional\\molecular_model_audit\\run_011d\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY_dtype_and_imaginary_content_ledger.json": "fb34b3e7a0bbfd582179548f82a930705c46c444476f3d0a5f29de39a57b5f21",
+    "outputs\\provisional\\molecular_model_audit\\run_011d\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY_metadata.json": "daa9079ccafd1e7808eb33faaf8775f7894213a4967ef0b40f352528a6199ea6",
+    "outputs\\provisional\\molecular_model_audit\\run_011d\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY_three_path_comparison.json": "e5901a93110d04ee8ddcff1e7e8c02f6d2b810af55ac31cab0bb4cbb0547d12f",
+    "outputs\\provisional\\molecular_model_audit\\run_011d\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY_warning_trace_and_cast_ledger.json": "0ed4688d9f9304dc9e3fe2b18f324c79713b2446d27671d2732e30691c2a5c71",
+    "outputs\\provisional\\molecular_model_packages\\run_012\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_ACCEPTED_PROVISIONAL_REFERENCE_PACKAGE.manifest.json": "c4246c0a6e474d1bd507399a112b99ce79528356150f5e45d09b689a2fc48a17",
+    "outputs\\provisional\\molecular_model_packages\\run_012\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_ACCEPTED_PROVISIONAL_REFERENCE_PACKAGE.metadata.json": "349af73ef179aff4a51c63ee2dee75a36327b92ef0616eab0460628619c926d5",
+    "outputs\\provisional\\molecular_model_packages\\run_012\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_ACCEPTED_PROVISIONAL_REFERENCE_PACKAGE.npz": "ba7379032e776adbb9a611efb7f15794f669c3946b882fa58990f1e74420276f",
+    "outputs\\provisional\\molecular_model_packages\\run_012\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_import_validation.json": "eef596ca6b7a58ce7ec17360c67821baebb455e1778be2f8586d2b07fbb1a798",
+    "outputs\\provisional\\molecular_model_packages\\run_012\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_model_difference_report.json": "25a8214d7a46b5bab0fc3daa0d20825df397515eb16dbb158ee5dbee7eade778",
+    "outputs\\provisional\\molecular_model_packages\\run_012\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_paper_benchmark.json": "d931f3258d6a8d894800c3255341d5da10349bb33e55565314a8f251b5183c70",
+    "outputs\\provisional\\molecular_model_packages\\run_012\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_roundtrip_validation.json": "e0507a83be2950a38aa111eeef0ea4f6b332c022460467a6508665be263fb64d",
+    "outputs\\provisional\\open_loop_policy_families\\run_015\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_cubic_baseline_family_package.json": "0446448854689b265641292c2d89ec9dc225f3331fe8c6481cfa2745e7a816bf",
+    "outputs\\provisional\\open_loop_policy_families\\run_015\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_cubic_multiknot_family_package.json": "cf4be41b80cb47fdb21f2cbaba4af0b66c93dac3c22f66906ea67078dd57d076",
+    "outputs\\provisional\\open_loop_policy_families\\run_015\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_fourier_high_bandwidth_family_package.json": "000ff2b143b2ec29b116564f2b7cf2635841ef55887d2255ee03ba4f94437286",
+    "outputs\\provisional\\open_loop_policy_families\\run_015\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_fourier_nonzero_family_package.json": "6aee6d43c802963a22f671ec2a02b9b9abf62b8a86d13ecc8f4ab178aaf53ab2",
+    "outputs\\provisional\\open_loop_policy_families\\run_015\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_fourier_zero_family_package.json": "10da3304880c9b6e1038c91e5a7a092245b21513e8da7da77e3b6925d9afdcd4",
+    "outputs\\provisional\\open_loop_policy_families\\run_015\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_metadata.json": "335a31e361c85654595987982c373960f2bc47d0716ef28366e2ad1e8bc30189",
+    "outputs\\provisional\\open_loop_policy_families\\run_015\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_piecewise_baseline_family_package.json": "5be6eb5f87c241d94cdeefa2e77ee5cac6a8553665eb0eeba1f45c292ab5fb79",
+    "outputs\\provisional\\open_loop_policy_families\\run_015\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_piecewise_multiknot_family_package.json": "ba6e21a655048c1fecb8eb72e828918d88e03ac4731fb0cae97ddef54216bc6d",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_accepted_plane_wave_model_samples.npz": "205a8abceb2e0c338f780a824d831ae41cb575076029a219a467938655d2b16a",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_digitization_metadata.json": "8a2b17db247d255aba346ec3e9340b53e14750fe5530f3f335c3bca585b3e783",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_2_mgf_3_digitized.npz": "aa347d2058f5ee3d99d5d2a6f3c717a089ad85587e83ad328e2ae98cdbe910e2",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_2_mgf_3_panel.png": "71ac93cb7b4f40921dd27940d372791e17b85f8b6e17a247f1c56357eefd8c5a",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_2_mgf_3_plus_1_digitized.npz": "356245f086d1c3ecb863e7f5f2059d3880a8676aa3a2b9609542db5fdb17b432",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_2_mgf_3_plus_1_panel.png": "2387853ee674339b9cea8190b154f5b685405b2ef1f642e91afb5b5822dd54f9",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_2_gamma_digitized.npz": "de2c6245439036275b702eb6966b5882908dfdfa7e8a94e8be37c7c58c059978",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_2_gamma_panel.png": "510f9bb712be0316895b7f9c40041a55316b8ea42663e8dd42e933b1cd3b66af",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_4_gamma_digitized.npz": "a8c878146854b5d94cc5509701d7101ac3a5c2a8b7db5022964b6916140fc749",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_4_gamma_panel.png": "6af01b95ea37d76a0e13dfd7d3048c2ce3e5e292423a4251e874d46ca0b79f78",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_6_gamma_digitized.npz": "56e53ceba5c1bbab65b0d86a64ae83c52f37a54581840417c0d5216784eb3d92",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_6_gamma_panel.png": "cf8b23558113cf26a73c6f3f76e7bbbf0c16473cc781dc7802627fcb1bd85c72",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_8_gamma_digitized.npz": "4432283be9c9c0bb5664d72f695d6ca3fe55737b7beb591cd71fdcfee94d247a",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_8_gamma_panel.png": "877ccdeafd72932144ca5a14df74b3fa8e1753e51c07ecff9d5572c6d6f2c628",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_4a_panel.png": "14c46d4c472c863b3270018a3dc12cf5cc29f47f3ecc932c861c51a66a686f16",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_4a_thick_trajectory_digitized.npz": "be2d9b54dfa14eae500350fe3b9f6b18e48f614fc0198597eae773a2acb2a43f",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_page_4_300dpi.png": "ce1fea103db642e340a93c7fc6e40534506c553b2173aec58ba9a399f7154bbb",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_page_5_300dpi.png": "420c3929b4893140c6f4cf0b8ae3f75b562fd072443db8ad129b8c56bdd04e20",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_page_6_300dpi.png": "77cb2a9b9571bfb62576defab37e246dec7a5e73239585b889e5df1139501b3a",
+    "src\\mgf_mot\\apparatus_constraints.py": "78902180a725d171f2a7b67bd4bd6b78de030dd3f589245633d8f01541a55632",
+    "src\\mgf_mot\\control_policy_abi.py": "fd64046693e33a08a4a037c622c69c83417c3f42c7f9d6fcd72bd1028c29d000",
+    "src\\mgf_mot\\control_policy_serialization.py": "8f0dfbd0fff43a0e7583683784761fbec544834ec0882b70e229ee8da842daa5",
+    "src\\mgf_mot\\control_policy_validation.py": "0d271981fb0e2f10c77d291dc941a7a761dc9e67843c218f982ca5625375cae7",
+    "src\\mgf_mot\\control_schedule_compiler.py": "956e50a95cd8327005b86a372489924ab10f51f639e808bb042120ea086c61b7",
+    "src\\mgf_mot\\feedback_examples.py": "b4c30a71206e84811c74fecce3acfdd64743dcf830031383df28993011828773",
+    "src\\mgf_mot\\feedback_policy.py": "bba8ccd165f2f5fc5ad569568f8676774abb1e0b2623076b88a63d5d68001cbd",
+    "src\\mgf_mot\\open_loop_policy_families.py": "884e9d6896a521946d53a3b91b6f31957d83aec5c599cd4c783ca08bb9c798a1"
+  },
+  "protected_hashes_before": {
+    "configs\\run_015\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_cubic_baseline.yaml": "3fae7ec15bc4d48c6e9036d13019609aeb8140e0db0b0db1ec7d8499575c225c",
+    "configs\\run_015\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_cubic_multiknot.yaml": "3cf2dc9b013ac8e88f828fca01b8bd25c5d8c0a15c42eeeb2504d161ee394db5",
+    "configs\\run_015\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_fourier_high_bandwidth.yaml": "f29f7cc2a8c00b006197dbf30db5346bec364c5e1a073dee08e051a227c53bf4",
+    "configs\\run_015\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_fourier_nonzero.yaml": "f31a309063047f89da5bea785a2117d80442b0ba5bdfc649865f241f24923be1",
+    "configs\\run_015\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_fourier_zero.yaml": "321dfe7db72c67181d378832327a5ec9e158fb2163b787d6413afb950a2696a2",
+    "configs\\run_015\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_piecewise_baseline.yaml": "22c6d66fe9c1f0db71491c37cb35ec54014f0bb7955ccb028e618b1485af8164",
+    "configs\\run_015\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_piecewise_multiknot.yaml": "f0ec3f19be8badb651fdce7d769bcfa2218318e5de157944bf1d5a4bd907d59a",
+    "configs\\run_016\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_016_FEEDBACK_POLICY_INTERFACE_ONLY_baseline_replay.yaml": "9ca6f22eb52079333d49b4931f6a90cf11e6c4bd6a52311bfe775f9ef1993acd",
+    "configs\\run_016\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_016_FEEDBACK_POLICY_INTERFACE_ONLY_deterministic_noise.yaml": "834731281b3e998fc1055702a341677f6a4867ae9dd878959ae7c99620ae6d44",
+    "configs\\run_016\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_016_FEEDBACK_POLICY_INTERFACE_ONLY_infeasible_action.yaml": "021d174c773ef6815badd856c9e8d87d2488fb17edfc913ef24698cb8a36f1ef",
+    "configs\\run_016\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_016_FEEDBACK_POLICY_INTERFACE_ONLY_oracle_affine.yaml": "034bc006759d002afc329de608ca92061c07b851472f6e3ae731cabc53a590eb",
+    "configs\\run_016\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_016_FEEDBACK_POLICY_INTERFACE_ONLY_partial_delayed.yaml": "ed58066eb645119eda17f9698267852a0e0a423604ad0e851943670a329e29f0",
+    "outputs\\provisional\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_013_CONTROL_POLICY_ABI_ONLY.md": "e74852914f37ab3d4188943d579585dfafd5fc438b8052150e17819423b46d84",
+    "outputs\\provisional\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_014_APPARATUS_SCHEDULE_COMPILER_ONLY.md": "ebd5c26e52dbdb6d8e8054ac0b87a449ea22890452d5f22b05c19f7be24c2882",
+    "outputs\\provisional\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY.md": "0acd0acb78c3aee6a9479a2cff05ad050467e3035693b1bbcd65dfabf0fe4827",
+    "outputs\\provisional\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_016_FEEDBACK_POLICY_INTERFACE_ONLY.md": "704dea9e4798c9e5324b66ab566dde623a006e6a61aa54d278b7401000f9f2e6",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_combined_comparison.png": "fd593020f78105828a626a54b8fa4305ce4f970bd8377e02db8f02e134d73436",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_metadata.json": "2b87c82f6370137b8dd416ac4977a7be70e3b3d84532cf75d87f59e77269fde0",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_pathwise_interpolation_validation.json": "2150d552dcfa1ddb1c56f824940fd5df7a479fb15f435bec5f45c540d4ced8c2",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k.npz": "db20381ae2028815dcc0f453a945333c697a1a66d9d18184b1d7392186b713ee",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k_diagnostics.png": "5c81a20e537b8d032c626572c842bb4ef2ddcb72d3fe6331d7dbb0cadf911b80",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k_metadata.json": "3009a9f6bbe54e433271d243690e61aba7ece2b723179a5ec35cc9945e84c65b",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k.npz": "753b714ee01ef0c8f784b3f0ea9fd022d7321c3f8fcce466d2a05676fba0ac7c",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k_diagnostics.png": "219196d3dc4cc009b1347c60f77f8a5e24d8294c3ee1f60568f5c62921305bef",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k_metadata.json": "62f6d3dfc8c4b6b5151ae07597223074ade23a29f49259054ff9a96e51d2c8c4",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k.npz": "fd5969786282cb3816c07028424d322ae6c6f7fa3bb244e0b38dca9716ee245c",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k_diagnostics.png": "ef010c4c71a833aabbc08ee9103d1426ce7297a9991035d1c85afe2e54e48694",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k_metadata.json": "ac7aa8b88440783a48f62b1695f4d38848284f0ac9740478cb040a3b91430826",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k.npz": "6267a91b621793218ed2385e8ab2991e9e459616ffc048e46ca3ffab6466be17",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k_diagnostics.png": "7b95f421180a2eec1d2790af2ae4def03d6a99c6b5d5e15e25b7d72f9a659362",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k_metadata.json": "5a3975703be82e1df8c47c92159982f2aea1d4d9b0e4e5ca2fdb4945a805ebd9",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k.npz": "3eb6b6a4933e58683ad93945f362a8585f95a33cf578ca560751c94041bb94ec",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k_diagnostics.png": "63432075d78a715c630ff4407fb65486eef783bad9d688507d24bee23ddb00b2",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k_metadata.json": "a28ea7672197a6ffa54ea03d8819747e78184ad54f85972089b603b40303dd55",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_run_011.md": "a6067ad266844faafecb3679fb8d5cf6106609a815205f8901e9c243ebf84a85",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_run_010.md": "f9b9c7a5f4cd8669d7eba5faeae5cbb8958c8b1fbb73fc767f57bdd629af4199",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_run_010_metadata.json": "3071720c63fe36a1b0de0bb3246deabbb030690e77d56cef7dad73e21f5efa81",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_run_010_validation.png": "bef7b2cd9705922781a2c1fd2cc70c457499233dec9373d2c3f63862f366b3dc",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY.md": "938d8a20a6a53861c2bdcb880be6ec6f188a865c23c01fcb5dc34c088e760b93",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY_diagnostics.png": "01d908cf4c604716c095e4637529ed0adc3bac85a4b135de9318d39f04a724c3",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY_metadata.json": "93ad81dfcefeaa948e534f2836ffe1c3f674d180dc980cf2e2121d308365d7dd",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY.md": "9b524b770ec1af4a0cf248b04bbc33ea793854536628c6d2fb65dc871176d9f3",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_comparison.png": "6673ebc29e1779c7a5ea2209bc8cf8246b873347560add7ada10ffe40d5b55d0",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_comparison_metadata.json": "e8b0398bce33411dc5b08d22420ccca5fc950a6f060adb82345622930f2edffa",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY.md": "2db1de730ef708bc4737a62455424efd31ce740b6f64e998b3465ea9a9621cf4",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY.md": "fc3a7b168fd0c0c7f5016ccd505a14f425bf082adf75608d4bf50b16af4a6d93",
+    "outputs\\provisional\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY.md": "738ae346848c2720f77e8b0cf249b9946898c7660943f2ead66d62358f29f07d",
+    "outputs\\provisional\\apparatus_schedule_compiler\\run_014\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_014_APPARATUS_SCHEDULE_COMPILER_ONLY_metadata.json": "a3f07a1af3c6aab96204cdbdce5b7222980e876749f7d50b82b6dfbdc50dc1bd",
+    "outputs\\provisional\\apparatus_schedule_compiler\\run_014\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_014_APPARATUS_SCHEDULE_COMPILER_ONLY_quantized_demonstration_compiled_schedule.json": "ecd1be5d10486b75362d317ef8988a2d76fbf772946b014c301eeda5e896f032",
+    "outputs\\provisional\\apparatus_schedule_compiler\\run_014\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_014_APPARATUS_SCHEDULE_COMPILER_ONLY_rate_limited_demonstration_compiled_schedule.json": "02606a71f27adf93b9b8bd49cf1dbb7aa91e9be49e346f70c45cfd0f4afc5984",
+    "outputs\\provisional\\apparatus_schedule_compiler\\run_014\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_014_APPARATUS_SCHEDULE_COMPILER_ONLY_rodriguez_baseline_linear_chirp_synthetic_identity_compiled_schedule.json": "781f51fccc984dd056fe8eac73ae7e346c3f7bd4e4aef85ab9bcbe503db6b90c",
+    "outputs\\provisional\\apparatus_schedule_compiler\\run_014\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_014_APPARATUS_SCHEDULE_COMPILER_ONLY_rodriguez_chirp_to_3_plus_1_handoff_synthetic_identity_compiled_schedule.json": "3f1d0bec51ca39defaab6c85d03c08fe52b48fe48df209069d983c0f5d93450e",
+    "outputs\\provisional\\apparatus_schedule_compiler\\run_014\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_014_APPARATUS_SCHEDULE_COMPILER_ONLY_rodriguez_static_3_plus_1_synthetic_identity_compiled_schedule.json": "c69403f4c418665b0382a62ed6a76f0ac6bfef8c1559f3cbd874463c87f8dddb",
+    "outputs\\provisional\\apparatus_schedule_compiler\\run_014\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_014_APPARATUS_SCHEDULE_COMPILER_ONLY_rodriguez_static_3_synthetic_identity_compiled_schedule.json": "af605bec8d46cc1dabb33352d26e4444e401cef15c7596d581b6e4f22898f6cb",
+    "outputs\\provisional\\apparatus_schedule_compiler\\run_014\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_014_APPARATUS_SCHEDULE_COMPILER_ONLY_source_incomplete_demonstration_compiled_schedule.json": "29f03c02d5ae9e57bdabd3e3c675a121f7ed9aeec3e67d810ecee056ff7eb883",
+    "outputs\\provisional\\control_policy_abi\\run_013\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_013_CONTROL_POLICY_ABI_ONLY_metadata.json": "78fdbefe110ad62f1f31c4a9678f6f5b15bb1dcc6bebedc819be72c2fda2f79e",
+    "outputs\\provisional\\control_policy_abi\\run_013\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_013_CONTROL_POLICY_ABI_ONLY_rodriguez_baseline_linear_chirp_spec.json": "e9b56a2921877edae7b60ab4029ef7697fbadce638c49e3df7a2b54044e135bc",
+    "outputs\\provisional\\control_policy_abi\\run_013\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_013_CONTROL_POLICY_ABI_ONLY_rodriguez_chirp_to_3_plus_1_handoff_spec.json": "242458cb228899cb1550ba4866c4da4276bbeade74ec2379f847aad2c91a5d6c",
+    "outputs\\provisional\\control_policy_abi\\run_013\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_013_CONTROL_POLICY_ABI_ONLY_rodriguez_static_3_plus_1_spec.json": "d10f9dec165f5cde10d164284fed517a999d8dea92303dc29c9141cc0b4ffb69",
+    "outputs\\provisional\\control_policy_abi\\run_013\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_013_CONTROL_POLICY_ABI_ONLY_rodriguez_static_3_spec.json": "11d2b4bd007148ef4b1757d3a67face2991470fff869ce9daf0f2731b72fa8a1",
+    "outputs\\provisional\\feedback_policy_interface\\run_016\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_016_FEEDBACK_POLICY_INTERFACE_ONLY_baseline_replay_replay_package.json": "3484c454697d2120fbd5906c74cdf03b3c3debbc0e00080d1b3917cbb5c4c078",
+    "outputs\\provisional\\feedback_policy_interface\\run_016\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_016_FEEDBACK_POLICY_INTERFACE_ONLY_deterministic_noise_replay_package.json": "b507f5c3b654fefd1550788edd7b5aa7f89d082c07453a14277faebafa153684",
+    "outputs\\provisional\\feedback_policy_interface\\run_016\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_016_FEEDBACK_POLICY_INTERFACE_ONLY_infeasible_action_replay_package.json": "bc263502aa4b0f18974cdbdece0720c29c6828297bc67a4f437ffb049a8bc423",
+    "outputs\\provisional\\feedback_policy_interface\\run_016\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_016_FEEDBACK_POLICY_INTERFACE_ONLY_metadata.json": "d36be8009b7bc7bfa1998a7489abf68939ce45821082d7fa385b068a86cba7cd",
+    "outputs\\provisional\\feedback_policy_interface\\run_016\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_016_FEEDBACK_POLICY_INTERFACE_ONLY_oracle_affine_FULL_STATE_ORACLE_SIMULATION_ONLY_NOT_APPARATUS_REALIZABLE_replay_package.json": "ca54ddb110e6b512e0dceab779f63aa7a28dff4abc03c345d427b0e6552ed6a2",
+    "outputs\\provisional\\feedback_policy_interface\\run_016\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_016_FEEDBACK_POLICY_INTERFACE_ONLY_partial_delayed_replay_package.json": "51653d353db044a68fd9d283e573cf486af1005a00f6e548e98e4caeaec11862",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_post_handoff_trap_3_plus_1_run_010.npz": "b8ff2e8ddecd955e4909a9050667e765e1e92997201c36d2a1ede5c118ab09a3",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_post_handoff_trap_3_plus_1_run_010_metadata.json": "eb0814492e8a3166e58a54f444655cb365e87a40a01bec4e2b494e4697182814",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_pre_handoff_chirp_3_run_010.npz": "da385440e60a6387d8fcf9e864baec2cffa4d4c04904cabd089bc54ce1865004",
+    "outputs\\provisional\\force_fields\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_pre_handoff_chirp_3_run_010_metadata.json": "4622064509b2e290c9f0cf052111f6031add462e97c0aa7c22653a471abc3ad4",
+    "outputs\\provisional\\molecular_model_audit\\run_011c\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_accepted_molecular_matrices.npz": "6b406a64174bef7e62e4ed40e066851d2a26b24165b2d6eca3b42d95dd790689",
+    "outputs\\provisional\\molecular_model_audit\\run_011c\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_accepted_molecular_matrices_metadata.json": "4ac2d6a5ede155fb8bc7809ec471df52ae6cfd6464b0f5c4903d93cc82dc02f6",
+    "outputs\\provisional\\molecular_model_audit\\run_011c\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_metadata.json": "b3290635bfe108130cef3ac13454895e45bb5ba69a985810963c3052b8532767",
+    "outputs\\provisional\\molecular_model_audit\\run_011c\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_state_resolved_diagnostics.json": "eba5884450c5cf74b0adc9f92a7672df515d1f93a6acd2870886d4904649a9ed",
+    "outputs\\provisional\\molecular_model_audit\\run_011c\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_transition_ledger.csv": "712f79f5e99107c8e81513c840399c497438e20adca3b30cc9a916f216ca1f02",
+    "outputs\\provisional\\molecular_model_audit\\run_011d\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY_basis_rephasing_and_polarization_audit.json": "4edef83e93bd94e7eab9a3769ce7c5b6fed50afc21cb2593bf94abfb645252a2",
+    "outputs\\provisional\\molecular_model_audit\\run_011d\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY_dtype_and_imaginary_content_ledger.json": "fb34b3e7a0bbfd582179548f82a930705c46c444476f3d0a5f29de39a57b5f21",
+    "outputs\\provisional\\molecular_model_audit\\run_011d\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY_metadata.json": "daa9079ccafd1e7808eb33faaf8775f7894213a4967ef0b40f352528a6199ea6",
+    "outputs\\provisional\\molecular_model_audit\\run_011d\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY_three_path_comparison.json": "e5901a93110d04ee8ddcff1e7e8c02f6d2b810af55ac31cab0bb4cbb0547d12f",
+    "outputs\\provisional\\molecular_model_audit\\run_011d\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY_warning_trace_and_cast_ledger.json": "0ed4688d9f9304dc9e3fe2b18f324c79713b2446d27671d2732e30691c2a5c71",
+    "outputs\\provisional\\molecular_model_packages\\run_012\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_ACCEPTED_PROVISIONAL_REFERENCE_PACKAGE.manifest.json": "c4246c0a6e474d1bd507399a112b99ce79528356150f5e45d09b689a2fc48a17",
+    "outputs\\provisional\\molecular_model_packages\\run_012\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_ACCEPTED_PROVISIONAL_REFERENCE_PACKAGE.metadata.json": "349af73ef179aff4a51c63ee2dee75a36327b92ef0616eab0460628619c926d5",
+    "outputs\\provisional\\molecular_model_packages\\run_012\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_ACCEPTED_PROVISIONAL_REFERENCE_PACKAGE.npz": "ba7379032e776adbb9a611efb7f15794f669c3946b882fa58990f1e74420276f",
+    "outputs\\provisional\\molecular_model_packages\\run_012\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_import_validation.json": "eef596ca6b7a58ce7ec17360c67821baebb455e1778be2f8586d2b07fbb1a798",
+    "outputs\\provisional\\molecular_model_packages\\run_012\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_model_difference_report.json": "25a8214d7a46b5bab0fc3daa0d20825df397515eb16dbb158ee5dbee7eade778",
+    "outputs\\provisional\\molecular_model_packages\\run_012\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_paper_benchmark.json": "d931f3258d6a8d894800c3255341d5da10349bb33e55565314a8f251b5183c70",
+    "outputs\\provisional\\molecular_model_packages\\run_012\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_roundtrip_validation.json": "e0507a83be2950a38aa111eeef0ea4f6b332c022460467a6508665be263fb64d",
+    "outputs\\provisional\\open_loop_policy_families\\run_015\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_cubic_baseline_family_package.json": "0446448854689b265641292c2d89ec9dc225f3331fe8c6481cfa2745e7a816bf",
+    "outputs\\provisional\\open_loop_policy_families\\run_015\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_cubic_multiknot_family_package.json": "cf4be41b80cb47fdb21f2cbaba4af0b66c93dac3c22f66906ea67078dd57d076",
+    "outputs\\provisional\\open_loop_policy_families\\run_015\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_fourier_high_bandwidth_family_package.json": "000ff2b143b2ec29b116564f2b7cf2635841ef55887d2255ee03ba4f94437286",
+    "outputs\\provisional\\open_loop_policy_families\\run_015\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_fourier_nonzero_family_package.json": "6aee6d43c802963a22f671ec2a02b9b9abf62b8a86d13ecc8f4ab178aaf53ab2",
+    "outputs\\provisional\\open_loop_policy_families\\run_015\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_fourier_zero_family_package.json": "10da3304880c9b6e1038c91e5a7a092245b21513e8da7da77e3b6925d9afdcd4",
+    "outputs\\provisional\\open_loop_policy_families\\run_015\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_metadata.json": "335a31e361c85654595987982c373960f2bc47d0716ef28366e2ad1e8bc30189",
+    "outputs\\provisional\\open_loop_policy_families\\run_015\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_piecewise_baseline_family_package.json": "5be6eb5f87c241d94cdeefa2e77ee5cac6a8553665eb0eeba1f45c292ab5fb79",
+    "outputs\\provisional\\open_loop_policy_families\\run_015\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_piecewise_multiknot_family_package.json": "ba6e21a655048c1fecb8eb72e828918d88e03ac4731fb0cae97ddef54216bc6d",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_accepted_plane_wave_model_samples.npz": "205a8abceb2e0c338f780a824d831ae41cb575076029a219a467938655d2b16a",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_digitization_metadata.json": "8a2b17db247d255aba346ec3e9340b53e14750fe5530f3f335c3bca585b3e783",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_2_mgf_3_digitized.npz": "aa347d2058f5ee3d99d5d2a6f3c717a089ad85587e83ad328e2ae98cdbe910e2",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_2_mgf_3_panel.png": "71ac93cb7b4f40921dd27940d372791e17b85f8b6e17a247f1c56357eefd8c5a",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_2_mgf_3_plus_1_digitized.npz": "356245f086d1c3ecb863e7f5f2059d3880a8676aa3a2b9609542db5fdb17b432",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_2_mgf_3_plus_1_panel.png": "2387853ee674339b9cea8190b154f5b685405b2ef1f642e91afb5b5822dd54f9",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_2_gamma_digitized.npz": "de2c6245439036275b702eb6966b5882908dfdfa7e8a94e8be37c7c58c059978",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_2_gamma_panel.png": "510f9bb712be0316895b7f9c40041a55316b8ea42663e8dd42e933b1cd3b66af",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_4_gamma_digitized.npz": "a8c878146854b5d94cc5509701d7101ac3a5c2a8b7db5022964b6916140fc749",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_4_gamma_panel.png": "6af01b95ea37d76a0e13dfd7d3048c2ce3e5e292423a4251e874d46ca0b79f78",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_6_gamma_digitized.npz": "56e53ceba5c1bbab65b0d86a64ae83c52f37a54581840417c0d5216784eb3d92",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_6_gamma_panel.png": "cf8b23558113cf26a73c6f3f76e7bbbf0c16473cc781dc7802627fcb1bd85c72",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_8_gamma_digitized.npz": "4432283be9c9c0bb5664d72f695d6ca3fe55737b7beb591cd71fdcfee94d247a",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_3_minus_8_gamma_panel.png": "877ccdeafd72932144ca5a14df74b3fa8e1753e51c07ecff9d5572c6d6f2c628",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_4a_panel.png": "14c46d4c472c863b3270018a3dc12cf5cc29f47f3ecc932c861c51a66a686f16",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_figure_4a_thick_trajectory_digitized.npz": "be2d9b54dfa14eae500350fe3b9f6b18e48f614fc0198597eae773a2acb2a43f",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_page_4_300dpi.png": "ce1fea103db642e340a93c7fc6e40534506c553b2173aec58ba9a399f7154bbb",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_page_5_300dpi.png": "420c3929b4893140c6f4cf0b8ae3f75b562fd072443db8ad129b8c56bdd04e20",
+    "outputs\\provisional\\paper_digitization\\run_011b\\PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_page_6_300dpi.png": "77cb2a9b9571bfb62576defab37e246dec7a5e73239585b889e5df1139501b3a",
+    "src\\mgf_mot\\apparatus_constraints.py": "78902180a725d171f2a7b67bd4bd6b78de030dd3f589245633d8f01541a55632",
+    "src\\mgf_mot\\control_policy_abi.py": "fd64046693e33a08a4a037c622c69c83417c3f42c7f9d6fcd72bd1028c29d000",
+    "src\\mgf_mot\\control_policy_serialization.py": "8f0dfbd0fff43a0e7583683784761fbec544834ec0882b70e229ee8da842daa5",
+    "src\\mgf_mot\\control_policy_validation.py": "0d271981fb0e2f10c77d291dc941a7a761dc9e67843c218f982ca5625375cae7",
+    "src\\mgf_mot\\control_schedule_compiler.py": "956e50a95cd8327005b86a372489924ab10f51f639e808bb042120ea086c61b7",
+    "src\\mgf_mot\\feedback_examples.py": "b4c30a71206e84811c74fecce3acfdd64743dcf830031383df28993011828773",
+    "src\\mgf_mot\\feedback_policy.py": "bba8ccd165f2f5fc5ad569568f8676774abb1e0b2623076b88a63d5d68001cbd",
+    "src\\mgf_mot\\open_loop_policy_families.py": "884e9d6896a521946d53a3b91b6f31957d83aec5c599cd4c783ca08bb9c798a1"
+  },
+  "reinforcement_learning_runs": 0,
+  "replay_audit": {
+    "artifact_conflict_detected": true,
+    "artifact_corruption_detected": true,
+    "checkpoint_semantic_hash": "4703d62c1c738f1752cc73623b04f85a8175839c7dd4bbf1f33dbb2ba9958b46",
+    "forward_reverse_manifest_hash_equal": true,
+    "forward_reverse_trial_hashes_equal": true,
+    "interrupted_resumed_manifest_hash_equal": true,
+    "interrupted_resumed_trial_hashes_equal": true,
+    "manifest_integrity_valid": true,
+    "metrics_only_replay_equal": true,
+    "partial_completed": 3,
+    "resumed_completed": 9
+  },
+  "schema_versions": {
+    "checkpoint": "mgf-mot-experiment-checkpoint-v1",
+    "context": "mgf-mot-evaluation-context-v1",
+    "experiment": "mgf-mot-experiment-spec-v1",
+    "experiment_run": "mgf-mot-experiment-run-v1",
+    "metric_registry": "mgf-mot-metric-registry-v1",
+    "search_space": "mgf-mot-search-space-v1",
+    "trial_manifest": "mgf-mot-trial-manifest-v1"
+  },
+  "trial_rows": [
+    [
+      "258b7eeca269",
+      "SCHEDULE_COMPILATION_EVALUATOR",
+      "SUCCEEDED"
+    ],
+    [
+      "2e779a5f23ab",
+      "SCHEDULE_COMPILATION_EVALUATOR",
+      "SUCCEEDED"
+    ],
+    [
+      "1b105eaea0d1",
+      "SCHEDULE_COMPILATION_EVALUATOR",
+      "SUCCEEDED"
+    ],
+    [
+      "c1ed309fcb49",
+      "SCHEDULE_COMPILATION_EVALUATOR",
+      "SUCCEEDED"
+    ],
+    [
+      "c08d2c8c19f4",
+      "FEEDBACK_REPLAY_EVALUATOR",
+      "SUCCEEDED"
+    ],
+    [
+      "dc8e30962d18",
+      "FEEDBACK_REPLAY_EVALUATOR",
+      "SUCCEEDED"
+    ],
+    [
+      "ffa28bb95210",
+      "FEEDBACK_REPLAY_EVALUATOR",
+      "SUCCEEDED"
+    ],
+    [
+      "90087b6773e8",
+      "FEEDBACK_REPLAY_EVALUATOR",
+      "SUCCEEDED"
+    ],
+    [
+      "a98d7e04f86a",
+      "FEEDBACK_REPLAY_EVALUATOR",
+      "SUCCEEDED"
+    ],
+    [
+      "c761db97583f",
+      "SYNTHETIC_VECTOR_EVALUATOR",
+      "METRIC_LOCKED"
+    ],
+    [
+      "1ec56cf1423d",
+      "POLICY_STRUCTURAL_EVALUATOR",
+      "SUCCEEDED"
+    ],
+    [
+      "0215c3de45db",
+      "POLICY_STRUCTURAL_EVALUATOR",
+      "SUCCEEDED"
+    ],
+    [
+      "da3f1758b14f",
+      "POLICY_STRUCTURAL_EVALUATOR",
+      "SUCCEEDED"
+    ],
+    [
+      "243032073343",
+      "POLICY_STRUCTURAL_EVALUATOR",
+      "SUCCEEDED"
+    ],
+    [
+      "7e895043cb19",
+      "SYNTHETIC_VECTOR_EVALUATOR",
+      "SUCCEEDED"
+    ],
+    [
+      "71ed6be2221f",
+      "SYNTHETIC_VECTOR_EVALUATOR",
+      "SUCCEEDED"
+    ],
+    [
+      "4bb9bb4e1989",
+      "SYNTHETIC_VECTOR_EVALUATOR",
+      "SUCCEEDED"
+    ],
+    [
+      "f76adbe49fb5",
+      "SYNTHETIC_VECTOR_EVALUATOR",
+      "SUCCEEDED"
+    ],
+    [
+      "4cd49bfe4037",
+      "SYNTHETIC_VECTOR_EVALUATOR",
+      "SUCCEEDED"
+    ],
+    [
+      "f1c5818220c3",
+      "SYNTHETIC_VECTOR_EVALUATOR",
+      "SUCCEEDED"
+    ],
+    [
+      "b8f38634ce61",
+      "SYNTHETIC_VECTOR_EVALUATOR",
+      "SUCCEEDED"
+    ],
+    [
+      "96ecb7541e0b",
+      "SYNTHETIC_VECTOR_EVALUATOR",
+      "SUCCEEDED"
+    ],
+    [
+      "dba797d39c49",
+      "SYNTHETIC_VECTOR_EVALUATOR",
+      "SUCCEEDED"
+    ]
+  ]
+}

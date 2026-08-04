@@ -1,0 +1,330 @@
+{
+  "manifest": {
+    "authorization_summary": {
+      "hardware_executable_claim_valid": false,
+      "optimization_run_authorized": false,
+      "optimizer_interface_authorized": true,
+      "physical_evaluation_authorized": false
+    },
+    "candidate_plan_hash": "e3be226a85f68f6de501580917d25ad0641f535081a684a6fa1ae1d40fd302f4",
+    "duplicate_candidate_hashes": [],
+    "experiment_hash": "a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8",
+    "pipeline_version": "run017-authorize-before-evaluate-v1",
+    "schema_version": "mgf-mot-experiment-run-v1",
+    "trial_result_hashes": {
+      "4bb9bb4e1989fddb3e869db8fa3e9f8187b362fca5e513a20d402a0b4b5e2af8": "8535ea00a8252ed2e1845552c859ad2345575aef0d5f906cae41f507ed037f41",
+      "4cd49bfe40377ae29a4e757a84e769944029052492acb2ae143ab3a2e6d87af2": "3909d2d607ed7d14fb2038110953603ee13cad2e87cdffe88fed5b46f579b041",
+      "71ed6be2221f18cb962d7e40cd9a49ba5c6559335d19c9969eab629b6d36e52b": "d1d28f0a08afc0bebeeb012ebebf8f034faf0878a4a038fa8745079fd6780037",
+      "7e895043cb1942fad93203bbdcdb738e4d07bc69fa9557e20f2ba57305f14d2f": "87537b1449dd7c6d4f1704da8dd11a9913135ac30edab8ca2e68892aef1e8a5a",
+      "96ecb7541e0b1663123661aea11700e13165a37052dbcaea97ce2c9a0da714b0": "80a90bb37ef02c953ad5bd60f4499e14134f627bc6ea311d87a9e9e975dd9f2b",
+      "b8f38634ce61028980cd2471d74caaaae3176223f3f9ead93ed64f62e6cf4540": "1ce6723efcd10ae07ddfffef24549b2600490b13046c3489b79c66da43cff763",
+      "dba797d39c49672f012f352d6f197ac2d3e7c758e92b1df248d7b0c9c95fec16": "1fb20c80209357daf811fb191595b32ac531874e1452c7989f9b57255801d5eb",
+      "f1c5818220c3c844bac6bfbf4bf3e3aa03c333247bdcbcad272ebb8e114a97db": "c55e39da912cb6e4ad4df99672208c1d8d8cbfd018a718a02b613f0947a0316b",
+      "f76adbe49fb5c3cc780bdd374a867414a591794a17033c529d6e6997303b58b4": "7ee98ebdf5d067cce67964e516b0c85b94308e62d326fe2a5973d37b49d8ecdd"
+    },
+    "volatile_runtime_metadata": {},
+    "warning_labels": [
+      "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+      "MODEL_INDEPENDENT",
+      "NOT_RODRIGUEZ_REPLICATION",
+      "RUN_017",
+      "EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+      "SYNTHETIC_OBJECTIVE",
+      "NOT_PHYSICAL_PERFORMANCE"
+    ]
+  },
+  "spec": {
+    "authorization_labels": [
+      "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+      "MODEL_INDEPENDENT",
+      "NOT_RODRIGUEZ_REPLICATION",
+      "RUN_017",
+      "EXPERIMENT_SEARCH_PROTOCOL_ONLY"
+    ],
+    "candidate_kind": "SYNTHETIC_PARAMETER_VECTOR",
+    "candidate_plan": {
+      "adaptive": false,
+      "candidates": [],
+      "deduplicate": true,
+      "grid_values": {
+        "category": [
+          0,
+          1,
+          2
+        ],
+        "x": [
+          -1.0,
+          0.0,
+          1.0
+        ]
+      },
+      "plan_id": "synthetic-grid-plan",
+      "plan_kind": "CARTESIAN_GRID_FIXTURE",
+      "provenance": {
+        "labels": [
+          "MODEL_INDEPENDENT",
+          "SYNTHETIC_TEST_FIXTURE",
+          "NOT_MGF_PHYSICS",
+          "SYNTHETIC_OBJECTIVE",
+          "NOT_PHYSICAL_PERFORMANCE"
+        ],
+        "notes": "",
+        "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+        "source_description": "deterministic Cartesian fixture",
+        "source_hashes": []
+      },
+      "recorded_source_hash": null,
+      "search_space": {
+        "dimensions": [
+          {
+            "adjustable": true,
+            "allowed_values": [
+              -1.0,
+              0.0,
+              1.0
+            ],
+            "bound_provenance": "EXPLICIT_SYNTHETIC_FIXTURE",
+            "dimension_id": "x",
+            "dtype": "real",
+            "lower_bound": -1.0,
+            "name": "x",
+            "parameter_layout_entry": "synthetic[0]",
+            "serialization_order": 0,
+            "shape": [],
+            "transform": "LINEAR_UNIT_INTERVAL",
+            "transform_parameters": {},
+            "units": "dimensionless",
+            "upper_bound": 1.0
+          },
+          {
+            "adjustable": true,
+            "allowed_values": [
+              0,
+              1,
+              2
+            ],
+            "bound_provenance": "EXPLICIT_SYNTHETIC_FIXTURE",
+            "dimension_id": "category",
+            "dtype": "integer",
+            "lower_bound": 0,
+            "name": "category",
+            "parameter_layout_entry": "synthetic[1]",
+            "serialization_order": 1,
+            "shape": [],
+            "transform": "IDENTITY",
+            "transform_parameters": {},
+            "units": "dimensionless",
+            "upper_bound": 2
+          }
+        ],
+        "parameter_layout_hash": "6464b7a330048b32ac244a4327dd4c967572e19716778bfb467c13b8e6fd9831",
+        "provenance": {
+          "labels": [
+            "MODEL_INDEPENDENT",
+            "SYNTHETIC_TEST_FIXTURE",
+            "NOT_MGF_PHYSICS",
+            "SYNTHETIC_OBJECTIVE",
+            "NOT_PHYSICAL_PERFORMANCE"
+          ],
+          "notes": "",
+          "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+          "source_description": "synthetic two-dimensional layout",
+          "source_hashes": []
+        },
+        "schema_version": "mgf-mot-search-space-v1",
+        "search_space_id": "run017-quadratic-grid"
+      }
+    },
+    "evaluation_context": {
+      "apparatus_profile_hash": null,
+      "context_class": "SYNTHETIC_CONTROL_FIXTURE",
+      "context_id": "run017-synthetic-vector",
+      "controller_spec_hash": null,
+      "execution_authorized": true,
+      "labels": [
+        "MODEL_INDEPENDENT",
+        "SYNTHETIC_TEST_FIXTURE",
+        "NOT_MGF_PHYSICS"
+      ],
+      "observation_spec_hash": null,
+      "parameter_layout_hash": null,
+      "physics_reference": null,
+      "policy_spec_hash": null,
+      "provenance": {
+        "labels": [
+          "MODEL_INDEPENDENT",
+          "SYNTHETIC_TEST_FIXTURE",
+          "NOT_MGF_PHYSICS",
+          "SYNTHETIC_OBJECTIVE",
+          "NOT_PHYSICAL_PERFORMANCE"
+        ],
+        "notes": "",
+        "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+        "source_description": "run017-synthetic-vector",
+        "source_hashes": []
+      },
+      "schema_version": "mgf-mot-evaluation-context-v1",
+      "synthetic_plant_hash": "NO_PLANT_PURE_MATH_FIXTURE"
+    },
+    "evaluator": {
+      "authorized": true,
+      "evaluator_id": "SYNTHETIC_VECTOR_EVALUATOR",
+      "evaluator_version": "1",
+      "implementation_version": "quadratic-fixture-v1",
+      "input_schema": "mgf-mot-candidate-v1",
+      "output_schema": "mgf-mot-evaluator-output-v1",
+      "provenance": {
+        "labels": [],
+        "notes": "",
+        "provenance_class": "CLOSED_REGISTRY",
+        "source_description": "Run 017 evaluator registry",
+        "source_hashes": []
+      }
+    },
+    "experiment_id": "synthetic_search_plumbing",
+    "experiment_name": "synthetic search plumbing",
+    "metric_specs": [
+      {
+        "aggregation": "NONE",
+        "authorization": "AUTHORIZED_SYNTHETIC_ONLY",
+        "compatible_contexts": [
+          "SYNTHETIC_CONTROL_FIXTURE"
+        ],
+        "compatible_evaluators": [
+          "SYNTHETIC_VECTOR_EVALUATOR"
+        ],
+        "description": "Run 017 registered metric synthetic_fixture_value",
+        "dtype": "float64",
+        "meaning": "lower or higher only when an ObjectiveSpec explicitly declares direction",
+        "metric_id": "synthetic_fixture_value",
+        "name": "synthetic fixture value",
+        "objective_eligible": true,
+        "provenance": {
+          "labels": [],
+          "notes": "",
+          "provenance_class": "CLOSED_REGISTRY",
+          "source_description": "Run 017 metric registry",
+          "source_hashes": []
+        },
+        "required_future_artifact_or_gate": null,
+        "shape": [],
+        "units": "dimensionless"
+      },
+      {
+        "aggregation": "NONE",
+        "authorization": "AUTHORIZED_SYNTHETIC_ONLY",
+        "compatible_contexts": [
+          "SYNTHETIC_CONTROL_FIXTURE"
+        ],
+        "compatible_evaluators": [
+          "SYNTHETIC_VECTOR_EVALUATOR"
+        ],
+        "description": "Run 017 registered metric synthetic_coordinate_terms",
+        "dtype": "float64",
+        "meaning": null,
+        "metric_id": "synthetic_coordinate_terms",
+        "name": "synthetic coordinate terms",
+        "objective_eligible": false,
+        "provenance": {
+          "labels": [],
+          "notes": "",
+          "provenance_class": "CLOSED_REGISTRY",
+          "source_description": "Run 017 metric registry",
+          "source_hashes": []
+        },
+        "required_future_artifact_or_gate": null,
+        "shape": [
+          -1
+        ],
+        "units": "dimensionless"
+      }
+    ],
+    "objectives": [
+      {
+        "authorization_requirement": "AUTHORIZED_SYNTHETIC_ONLY",
+        "direction": "MINIMIZE",
+        "metric_id": "synthetic_fixture_value",
+        "provenance": {
+          "labels": [
+            "MODEL_INDEPENDENT",
+            "SYNTHETIC_TEST_FIXTURE",
+            "NOT_MGF_PHYSICS",
+            "SYNTHETIC_OBJECTIVE",
+            "NOT_PHYSICAL_PERFORMANCE"
+          ],
+          "notes": "",
+          "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+          "source_description": "synthetic objective declaration",
+          "source_hashes": []
+        },
+        "role": "PRIMARY",
+        "target": null,
+        "units": "dimensionless"
+      }
+    ],
+    "optimizer_adapter": {
+      "adapter_id": "run017-no-op-boundary",
+      "adapter_version": "1",
+      "objective_spec_hashes": [
+        "7f970da5b10c54dcf7edd4e50154d547006167fdd59199bbbb6163b86eff5c46"
+      ],
+      "optimization_run_authorized": false,
+      "optimizer_family_id": "NO_OP_INTERFACE_VALIDATOR",
+      "optimizer_interface_authorized": true,
+      "proposal_history_hash": null,
+      "search_space_hash": "d9ffcc69b25cf17700f7f95785d3d9edb47b155b526febc42bac4312fd9e9c90",
+      "seed": 17
+    },
+    "output_contract": {
+      "artifact_schema": "run017-deterministic-artifacts-v1",
+      "atomic_write_required": true,
+      "required_files": [
+        "experiment.json",
+        "checkpoint.json",
+        "trial.json",
+        "metrics.json",
+        "evaluator-output.json",
+        "issues.json"
+      ],
+      "warning_labels": [
+        "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+        "MODEL_INDEPENDENT",
+        "NOT_RODRIGUEZ_REPLICATION",
+        "RUN_017",
+        "EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+        "SYNTHETIC_OBJECTIVE",
+        "NOT_PHYSICAL_PERFORMANCE"
+      ]
+    },
+    "provenance": {
+      "labels": [
+        "MODEL_INDEPENDENT",
+        "SYNTHETIC_TEST_FIXTURE",
+        "NOT_MGF_PHYSICS",
+        "SYNTHETIC_OBJECTIVE",
+        "NOT_PHYSICAL_PERFORMANCE"
+      ],
+      "notes": "",
+      "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+      "source_description": "synthetic_search_plumbing",
+      "source_hashes": []
+    },
+    "purpose": "Run 017 model-independent protocol validation; never physical performance",
+    "schema_version": "mgf-mot-experiment-spec-v1",
+    "seed_ledger": {
+      "derivation_version": "sha256-namespaced-uint64-v1",
+      "root_seed": 170017,
+      "stream_names": [
+        "candidate_fixture_generation",
+        "synthetic_evaluator_behavior",
+        "observation_noise",
+        "synthetic_plant_behavior",
+        "controller_behavior"
+      ]
+    },
+    "software_versions": {
+      "experiment_protocol": "run017-experiment-protocol-v1"
+    },
+    "volatile_created_at": null
+  }
+}

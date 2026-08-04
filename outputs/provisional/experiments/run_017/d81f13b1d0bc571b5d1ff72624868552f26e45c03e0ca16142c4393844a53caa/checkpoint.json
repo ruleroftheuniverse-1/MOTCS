@@ -1,0 +1,31 @@
+{
+  "artifact_hashes": {
+    "trials\\c761db97583f8d0b7ad9c7eb997efa17bf77fdc367d0ef22894088ee41dbe885\\evaluator-output.json": "135a0ad26c498405e8bdbd4592fadf30a3f52c8a2cf9786f897ec452983ae868",
+    "trials\\c761db97583f8d0b7ad9c7eb997efa17bf77fdc367d0ef22894088ee41dbe885\\issues.json": "05ee1509c4afc5c10f6fb46f8d33942269578b8576238e5d801a8474e6bf6119",
+    "trials\\c761db97583f8d0b7ad9c7eb997efa17bf77fdc367d0ef22894088ee41dbe885\\metrics.json": "1b7f1e709eef78d8d02797637761a4dfebaae6329d3cae3430ce68570eaf7b53",
+    "trials\\c761db97583f8d0b7ad9c7eb997efa17bf77fdc367d0ef22894088ee41dbe885\\trial.json": "f493e0724f341b4c8466f2f58385fb6ff8fbeb987a6a864b8f51070ac875ff64"
+  },
+  "artifact_labels": [
+    "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+    "MODEL_INDEPENDENT",
+    "NOT_RODRIGUEZ_REPLICATION",
+    "RUN_017",
+    "EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+    "SYNTHETIC_OBJECTIVE",
+    "NOT_PHYSICAL_PERFORMANCE"
+  ],
+  "candidate_plan_hash": "d7a0170c3bd3de2723e0f2c2f4bd277bb41142b813360eed6bf40aa1801cda20",
+  "completed_trial_identities": [],
+  "evaluator_version_hashes": [
+    "58d82a273bfe000dff5fdffe29cec7f0b0ce133fb506ddd1b772d865317640f5"
+  ],
+  "experiment_hash": "d81f13b1d0bc571b5d1ff72624868552f26e45c03e0ca16142c4393844a53caa",
+  "failed_trial_identities": [],
+  "locked_trial_identities": [
+    "c761db97583f8d0b7ad9c7eb997efa17bf77fdc367d0ef22894088ee41dbe885"
+  ],
+  "pending_trial_identities": [],
+  "schema_version": "mgf-mot-experiment-checkpoint-v1",
+  "seed_ledger_hash": "1cd9d97639288c524a2939a3a536b84cd4ed2d38e8961888793521c813a4be04",
+  "volatile_write_time": null
+}

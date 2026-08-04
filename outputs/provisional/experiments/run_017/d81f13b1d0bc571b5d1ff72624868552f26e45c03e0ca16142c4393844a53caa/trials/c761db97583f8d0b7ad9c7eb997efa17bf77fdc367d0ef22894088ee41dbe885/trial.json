@@ -1,0 +1,66 @@
+{
+  "artifact_labels": [
+    "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+    "MODEL_INDEPENDENT",
+    "NOT_RODRIGUEZ_REPLICATION",
+    "RUN_017",
+    "EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+    "SYNTHETIC_OBJECTIVE",
+    "NOT_PHYSICAL_PERFORMANCE"
+  ],
+  "trial": {
+    "artifact_labels": [
+      "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+      "MODEL_INDEPENDENT",
+      "NOT_RODRIGUEZ_REPLICATION",
+      "RUN_017",
+      "EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+      "SYNTHETIC_OBJECTIVE",
+      "NOT_PHYSICAL_PERFORMANCE"
+    ],
+    "candidate": {
+      "authorization_labels": [
+        "MODEL_INDEPENDENT",
+        "SYNTHETIC_TEST_FIXTURE",
+        "NOT_MGF_PHYSICS"
+      ],
+      "candidate_id": "locked-physical-request",
+      "candidate_kind": "SYNTHETIC_PARAMETER_VECTOR",
+      "declared_semantic_hash": null,
+      "parameter_layout_hash": "synthetic-locked-layout",
+      "parameter_values": [
+        0.0
+      ],
+      "payload": {
+        "center": [
+          0.0
+        ]
+      },
+      "provenance": {
+        "labels": [
+          "MODEL_INDEPENDENT",
+          "SYNTHETIC_TEST_FIXTURE",
+          "NOT_MGF_PHYSICS",
+          "SYNTHETIC_OBJECTIVE",
+          "NOT_PHYSICAL_PERFORMANCE"
+        ],
+        "notes": "",
+        "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+        "source_description": "candidate used only to prove pre-evaluation lock",
+        "source_hashes": []
+      },
+      "source_specification_hashes": [
+        "NO_MOLECULAR_MODEL_SELECTED"
+      ]
+    },
+    "context_hash": "2cc07fc94236c7638433449b9485b4312bba022f33dc06b181e97ab688d977cd",
+    "evaluator_hash": "58d82a273bfe000dff5fdffe29cec7f0b0ce133fb506ddd1b772d865317640f5",
+    "experiment_hash": "d81f13b1d0bc571b5d1ff72624868552f26e45c03e0ca16142c4393844a53caa",
+    "metric_hashes": [
+      "4bd1918c8c52d35d330e10bb180ca5dfabe66b5f4dfa006caa166990139bb904"
+    ],
+    "replicate_index": 0,
+    "schema_version": "mgf-mot-trial-manifest-v1",
+    "seed_identity": "02ece9dc899915c5adac171574420ef09a45970e95d6bb4f112aae4d940b4d7f"
+  }
+}

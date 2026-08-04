@@ -1,0 +1,59 @@
+{
+  "artifact_labels": [
+    "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+    "MODEL_INDEPENDENT",
+    "NOT_RODRIGUEZ_REPLICATION",
+    "RUN_017",
+    "EXPERIMENT_SEARCH_PROTOCOL_ONLY"
+  ],
+  "metrics": [
+    {
+      "labels": [
+        "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY"
+      ],
+      "lock_reason": null,
+      "metric_id": "parameter_count",
+      "required_future_artifact_or_gate": null,
+      "required_missing_authorization": null,
+      "status": "VALUE",
+      "units": "count",
+      "value": 3
+    },
+    {
+      "labels": [
+        "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY"
+      ],
+      "lock_reason": null,
+      "metric_id": "adjustable_parameter_count",
+      "required_future_artifact_or_gate": null,
+      "required_missing_authorization": null,
+      "status": "VALUE",
+      "units": "count",
+      "value": 3
+    },
+    {
+      "labels": [
+        "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY"
+      ],
+      "lock_reason": null,
+      "metric_id": "event_count",
+      "required_future_artifact_or_gate": null,
+      "required_missing_authorization": null,
+      "status": "VALUE",
+      "units": "count",
+      "value": 1
+    },
+    {
+      "labels": [
+        "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY"
+      ],
+      "lock_reason": null,
+      "metric_id": "structural_boundary_count",
+      "required_future_artifact_or_gate": null,
+      "required_missing_authorization": null,
+      "status": "VALUE",
+      "units": "count",
+      "value": 0
+    }
+  ]
+}

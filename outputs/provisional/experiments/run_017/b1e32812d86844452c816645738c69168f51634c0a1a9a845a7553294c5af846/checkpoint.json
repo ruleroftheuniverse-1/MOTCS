@@ -1,0 +1,44 @@
+{
+  "artifact_hashes": {
+    "trials\\0215c3de45dbc332f22d6db3a9e90cfb3ba21dbbbba13cb2b6440e84da0607bd\\evaluator-output.json": "719325716ef3113f5d35e03dc6dae391d19476c3ab42c97f5be41b22dc77cc78",
+    "trials\\0215c3de45dbc332f22d6db3a9e90cfb3ba21dbbbba13cb2b6440e84da0607bd\\issues.json": "f650913cde73f5355a3b856f58c1ec40e5eba337f3f03e36a684aa185f4981e3",
+    "trials\\0215c3de45dbc332f22d6db3a9e90cfb3ba21dbbbba13cb2b6440e84da0607bd\\metrics.json": "06568b420a9b31f5d4f0adc056c20d5f9f8c44c21080431b922e44e7e7ecd9a0",
+    "trials\\0215c3de45dbc332f22d6db3a9e90cfb3ba21dbbbba13cb2b6440e84da0607bd\\trial.json": "ab4187cfbb5f0faf99c6c71e5dc15340467acbaf80fa932707ff3135a538e3b2",
+    "trials\\1ec56cf1423dcc40e3c35732c713862c455ca91e709675192da90866affec18f\\evaluator-output.json": "719325716ef3113f5d35e03dc6dae391d19476c3ab42c97f5be41b22dc77cc78",
+    "trials\\1ec56cf1423dcc40e3c35732c713862c455ca91e709675192da90866affec18f\\issues.json": "f650913cde73f5355a3b856f58c1ec40e5eba337f3f03e36a684aa185f4981e3",
+    "trials\\1ec56cf1423dcc40e3c35732c713862c455ca91e709675192da90866affec18f\\metrics.json": "06568b420a9b31f5d4f0adc056c20d5f9f8c44c21080431b922e44e7e7ecd9a0",
+    "trials\\1ec56cf1423dcc40e3c35732c713862c455ca91e709675192da90866affec18f\\trial.json": "5d68858fa60d22d4961d4bf1cb4a6156854c33d85864d476aec444ce223488a0",
+    "trials\\243032073343b5a6a47a5435e43d53ce709f3a855d7a9a2e1ad08589f158c4d4\\evaluator-output.json": "9cfc2f5033a55692108d054f43f29233e42e5a135841ec98a8d1f669e99d5036",
+    "trials\\243032073343b5a6a47a5435e43d53ce709f3a855d7a9a2e1ad08589f158c4d4\\issues.json": "f650913cde73f5355a3b856f58c1ec40e5eba337f3f03e36a684aa185f4981e3",
+    "trials\\243032073343b5a6a47a5435e43d53ce709f3a855d7a9a2e1ad08589f158c4d4\\metrics.json": "b23b57727dd168502ba383f261668edf034b016d51c9055f59259251ec63926d",
+    "trials\\243032073343b5a6a47a5435e43d53ce709f3a855d7a9a2e1ad08589f158c4d4\\trial.json": "923e006e9b2f5f3e764caaf8f31a176664ea62e745129ec5471eadd70cd9d0de",
+    "trials\\da3f1758b14f24eadeeade012b7ed36e3641d21dfd0847cfd5fa2d97530b8e0d\\evaluator-output.json": "76ff922611bab0461e46accdd10db3d023120954d82240aa5f330d27e7a25513",
+    "trials\\da3f1758b14f24eadeeade012b7ed36e3641d21dfd0847cfd5fa2d97530b8e0d\\issues.json": "f650913cde73f5355a3b856f58c1ec40e5eba337f3f03e36a684aa185f4981e3",
+    "trials\\da3f1758b14f24eadeeade012b7ed36e3641d21dfd0847cfd5fa2d97530b8e0d\\metrics.json": "c6c2c50a0d41f9b6598390405e7598a28e86dafaf6e93cc35f30e2a1937716e3",
+    "trials\\da3f1758b14f24eadeeade012b7ed36e3641d21dfd0847cfd5fa2d97530b8e0d\\trial.json": "83608ebccff962bbe555b31886259e4684c76cb93a87a3dc4082d7c980700461"
+  },
+  "artifact_labels": [
+    "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+    "MODEL_INDEPENDENT",
+    "NOT_RODRIGUEZ_REPLICATION",
+    "RUN_017",
+    "EXPERIMENT_SEARCH_PROTOCOL_ONLY"
+  ],
+  "candidate_plan_hash": "478002bbab69397ae062d7a0884fb4d5f71942c79ee01da9e2ce666378d338c8",
+  "completed_trial_identities": [
+    "0215c3de45dbc332f22d6db3a9e90cfb3ba21dbbbba13cb2b6440e84da0607bd",
+    "1ec56cf1423dcc40e3c35732c713862c455ca91e709675192da90866affec18f",
+    "243032073343b5a6a47a5435e43d53ce709f3a855d7a9a2e1ad08589f158c4d4",
+    "da3f1758b14f24eadeeade012b7ed36e3641d21dfd0847cfd5fa2d97530b8e0d"
+  ],
+  "evaluator_version_hashes": [
+    "fe10a79fc48815f3e01433784089fc562226c869a1aa6fc8b22bae2ba528dc35"
+  ],
+  "experiment_hash": "b1e32812d86844452c816645738c69168f51634c0a1a9a845a7553294c5af846",
+  "failed_trial_identities": [],
+  "locked_trial_identities": [],
+  "pending_trial_identities": [],
+  "schema_version": "mgf-mot-experiment-checkpoint-v1",
+  "seed_ledger_hash": "1cd9d97639288c524a2939a3a536b84cd4ed2d38e8961888793521c813a4be04",
+  "volatile_write_time": null
+}

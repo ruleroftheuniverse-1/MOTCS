@@ -1,0 +1,55 @@
+{
+  "artifact_labels": [
+    "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+    "MODEL_INDEPENDENT",
+    "NOT_RODRIGUEZ_REPLICATION",
+    "RUN_017",
+    "EXPERIMENT_SEARCH_PROTOCOL_ONLY"
+  ],
+  "trial": {
+    "artifact_labels": [
+      "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+      "MODEL_INDEPENDENT",
+      "NOT_RODRIGUEZ_REPLICATION",
+      "RUN_017",
+      "EXPERIMENT_SEARCH_PROTOCOL_ONLY"
+    ],
+    "candidate": {
+      "authorization_labels": [
+        "MODEL_INDEPENDENT"
+      ],
+      "candidate_id": "piecewise_multiknot",
+      "candidate_kind": "OPEN_LOOP_POLICY_SPEC",
+      "declared_semantic_hash": null,
+      "parameter_layout_hash": null,
+      "parameter_values": null,
+      "payload": {
+        "asset_hash": "f55f887d8f1eb60e3d22f310c189e497f3596df213b4fef6f8f95595716a0230"
+      },
+      "provenance": {
+        "labels": [
+          "MODEL_INDEPENDENT"
+        ],
+        "notes": "",
+        "provenance_class": "MODEL_INDEPENDENT",
+        "source_description": "Run 015 family piecewise_multiknot",
+        "source_hashes": []
+      },
+      "source_specification_hashes": [
+        "f55f887d8f1eb60e3d22f310c189e497f3596df213b4fef6f8f95595716a0230"
+      ]
+    },
+    "context_hash": "ecb845fdf0a942977d353b43e21fa354b9a67d1c4d0f7179cd4da3ae47e36d2c",
+    "evaluator_hash": "fe10a79fc48815f3e01433784089fc562226c869a1aa6fc8b22bae2ba528dc35",
+    "experiment_hash": "b1e32812d86844452c816645738c69168f51634c0a1a9a845a7553294c5af846",
+    "metric_hashes": [
+      "762dd53aefa27ff2d139ecd7183a1cc2c5fa946457e040621681bac9d6e78e51",
+      "9d25535e9517d5ec80772490d1412975689791112398f7b15f7baabf3d1f694a",
+      "4ade565a9a2e45b057bd5970020cda2ba55a24ad41ca2d2d163aea2194cf0722",
+      "e702c428c3162e77d1481420c31d0c61b242f2f0a63b8cd21f7be679d951e197"
+    ],
+    "replicate_index": 0,
+    "schema_version": "mgf-mot-trial-manifest-v1",
+    "seed_identity": "7c14547eedaaab0f0d1459d567087846d2b73245bbaccce14ae26cf17ef47366"
+  }
+}

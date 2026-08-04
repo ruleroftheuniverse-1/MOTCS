@@ -1,0 +1,58 @@
+{
+  "artifact_labels": [
+    "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+    "MODEL_INDEPENDENT",
+    "NOT_RODRIGUEZ_REPLICATION",
+    "RUN_017",
+    "EXPERIMENT_SEARCH_PROTOCOL_ONLY"
+  ],
+  "trial": {
+    "artifact_labels": [
+      "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY",
+      "MODEL_INDEPENDENT",
+      "NOT_RODRIGUEZ_REPLICATION",
+      "RUN_017",
+      "EXPERIMENT_SEARCH_PROTOCOL_ONLY"
+    ],
+    "candidate": {
+      "authorization_labels": [
+        "MODEL_INDEPENDENT",
+        "NOT_HARDWARE_EVIDENCE"
+      ],
+      "candidate_id": "exact",
+      "candidate_kind": "COMPILED_CONTROL_SCHEDULE",
+      "declared_semantic_hash": null,
+      "parameter_layout_hash": null,
+      "parameter_values": null,
+      "payload": {
+        "asset_hash": "853d6b83f8320618c5260fc32721222f79012e74eaae18bc99274ebd4a519f6d"
+      },
+      "provenance": {
+        "labels": [
+          "MODEL_INDEPENDENT"
+        ],
+        "notes": "",
+        "provenance_class": "MODEL_INDEPENDENT",
+        "source_description": "Run 014 compilation fixture exact",
+        "source_hashes": []
+      },
+      "source_specification_hashes": [
+        "f55f887d8f1eb60e3d22f310c189e497f3596df213b4fef6f8f95595716a0230",
+        "3882dff5fcb725d730439563a105b8d2a5a0dd0add69e0ce0aa839f8a18a0adb"
+      ]
+    },
+    "context_hash": "b26ca159ce3053094dfacac864d1a9ebaddb3ad8143bb65cff3005db782f1087",
+    "evaluator_hash": "55887065908eb730bb74fcef34ca037ee6ff699673fbf034a74e3a5d6ec57ce5",
+    "experiment_hash": "9af5047ce4feeccd60ce128d96890f0e96bec469ceb5fd54da7a57e00d3f6c33",
+    "metric_hashes": [
+      "9dd72b9204173211f8a1a3444b7405aa3fb33dc677cb1df11327bf15e88efa50",
+      "575de73782d1423bc26e612ccc580694f4418ca04dbcc9f5161e4deac89436e5",
+      "b793ef033648f00d4ab001b47ba39e33c0c6f3a1f357841ed57b6b85da38e891",
+      "56c9af9774c1be6ac9d4feed0ec731037f0744cb056bd1b7ace8a8b498a24706",
+      "e9309422239014d57d657f45da1006cd441a54336894079fc05d2f7694560fcc"
+    ],
+    "replicate_index": 0,
+    "schema_version": "mgf-mot-trial-manifest-v1",
+    "seed_identity": "7bb94b77e709e8c548431d727a4080ba16bcae3689c4f2768c8baa41ed603754"
+  }
+}
