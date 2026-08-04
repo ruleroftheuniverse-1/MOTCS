@@ -180,7 +180,7 @@ def atomic_write_json(path: Path, value: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     text = json.dumps(_plain(value), indent=2, sort_keys=True, allow_nan=False) + "\n"
     temporary = path.with_name(path.name + ".tmp")
-    temporary.write_text(text, encoding="utf-8")
+    temporary.write_text(text, encoding="utf-8", newline="\n")
     temporary.replace(path)
 
 
@@ -260,7 +260,7 @@ def _producing_run(path: Path) -> str:
 
 
 def catalog_paths(root: Path) -> tuple[Path, ...]:
-    paths: set[Path] = {root / "pyproject.toml", root / "README.md"}
+    paths: set[Path] = {root / "pyproject.toml", root / "README.md", root / ".gitattributes", root / ".gitignore"}
     for pattern in ("src/**/*.py", "scripts/*.py", "tests/*.py", "configs/**/*.yaml", "docs/**/*.md", ".github/workflows/*.yml", ".github/workflows/*.yaml"):
         paths.update(item for item in root.glob(pattern) if item.is_file())
     paths.update(protected_paths(root))

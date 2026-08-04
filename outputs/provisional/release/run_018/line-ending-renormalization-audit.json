@@ -1,0 +1,2387 @@
+{
+  "all_binary_artifacts_byte_identical": true,
+  "all_renormalized_text_content_equal": true,
+  "audit_status": "LINE_ENDING_RENORMALIZATION_OK",
+  "binary_changed_paths": [],
+  "binary_file_count": 142,
+  "changed_path_count": 237,
+  "changed_paths": [
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "edb8587652b1cc622bf76f0f0fe4ffae744386468de7f99fa3512bdc109abf9d",
+      "old_crlf_count": 305,
+      "old_sha256": "60bb0b2c5df5891cf2fa5e5234d23c4399aeb55908c55348916f5c4673bf2383",
+      "parsed_content_equivalent": null,
+      "path": "docs/rodriguez-parameter-sheet.md"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "a4b71d206d5b494c1520d31a9977b823d2ab6868549b525b935b9347a528ca58",
+      "old_crlf_count": 440,
+      "old_sha256": "4ea5f5d2ace8c80eef9de389b755b8351aceced325b6733049fcc913a9e36c9c",
+      "parsed_content_equivalent": true,
+      "path": "notebooks/pylcp_conventions_sanity_check.ipynb"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "72caaab634183d9c39dba58c0433328123cf29ec7dbba80609e4ec4039d5212f",
+      "old_crlf_count": 21,
+      "old_sha256": "e74852914f37ab3d4188943d579585dfafd5fc438b8052150e17819423b46d84",
+      "parsed_content_equivalent": null,
+      "path": "outputs/provisional/MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_013_CONTROL_POLICY_ABI_ONLY.md"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "bd858584eaafd0459243473fbe109c5f953db9c9713c99fb1b13cfa5b496d8a6",
+      "old_crlf_count": 17,
+      "old_sha256": "ebd5c26e52dbdb6d8e8054ac0b87a449ea22890452d5f22b05c19f7be24c2882",
+      "parsed_content_equivalent": null,
+      "path": "outputs/provisional/MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_014_APPARATUS_SCHEDULE_COMPILER_ONLY.md"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "642a4a25d2d610c87b0e3460dcd97766678b993b1a53a381de3004c854c86576",
+      "old_crlf_count": 23,
+      "old_sha256": "0acd0acb78c3aee6a9479a2cff05ad050467e3035693b1bbcd65dfabf0fe4827",
+      "parsed_content_equivalent": null,
+      "path": "outputs/provisional/MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY.md"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "d14f4376508b37f6475951aaadbadf04d9340186563a4ea1db22a8f954683581",
+      "old_crlf_count": 19,
+      "old_sha256": "704dea9e4798c9e5324b66ab566dde623a006e6a61aa54d278b7401000f9f2e6",
+      "parsed_content_equivalent": null,
+      "path": "outputs/provisional/MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_016_FEEDBACK_POLICY_INTERFACE_ONLY.md"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "1daa584f67e97e310d6b58b2debabdb74dd1a82a070b4006395ef4ecee183fb3",
+      "old_crlf_count": 37,
+      "old_sha256": "1028b35accc3d9063d507dd00b2f9c9e2b05399a44ff52bc54292aed8015de02",
+      "parsed_content_equivalent": null,
+      "path": "outputs/provisional/MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY.md"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "e163e62e49d5933e7fbdc1e63dd84e2f202d279abf52e6dc40b92764133941d6",
+      "old_crlf_count": 10,
+      "old_sha256": "d3e37717bf95f21f723c19b388536ad8cfc30c8d2f561898722195332f60fe36",
+      "parsed_content_equivalent": null,
+      "path": "outputs/provisional/MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_018_REPRODUCIBLE_CONTROL_INFRA_RELEASE_ONLY.md"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "35ac075b9421f82ac0e66e25b62a7f1feeed27f8a240b08d762b59f662cb2728",
+      "old_crlf_count": 497,
+      "old_sha256": "2b87c82f6370137b8dd416ac4977a7be70e3b3d84532cf75d87f59e77269fde0",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "d3225bc43ed8a6b263a0b3e91e0c557cfa9c206800ae4663f7a95cdede628447",
+      "old_crlf_count": 792,
+      "old_sha256": "2150d552dcfa1ddb1c56f824940fd5df7a479fb15f435bec5f45c540d4ced8c2",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_pathwise_interpolation_validation.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "d49f046bbf88438eafe6aa3a35e40b8a188484a326aaaef54c45e91079404cfc",
+      "old_crlf_count": 227,
+      "old_sha256": "3009a9f6bbe54e433271d243690e61aba7ece2b723179a5ec35cc9945e84c65b",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_2_gamma_over_k_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "b4bf1ed6edd989f058220e02c8ce49afdbf1f3ce94ccd887c2f94e949cb2b25b",
+      "old_crlf_count": 249,
+      "old_sha256": "62f6d3dfc8c4b6b5151ae07597223074ade23a29f49259054ff9a96e51d2c8c4",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_4_gamma_over_k_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "75a6fc54f9ebf717fb7fdc0d1dd6ac1e0af750c4a26cd6b43c10ad31059ac8e5",
+      "old_crlf_count": 319,
+      "old_sha256": "ac7aa8b88440783a48f62b1695f4d38848284f0ac9740478cb040a3b91430826",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_6_gamma_over_k_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "a6c3f488f88bdae772a38d62e94473310f52643da54f73eea388a99ac80fca01",
+      "old_crlf_count": 275,
+      "old_sha256": "5a3975703be82e1df8c47c92159982f2aea1d4d9b0e4e5ca2fdb4945a805ebd9",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_7p5_gamma_over_k_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "5a8aaee734231340210c0543056374efc986cd41029c9b08233c214c8d8d2e4d",
+      "old_crlf_count": 319,
+      "old_sha256": "a28ea7672197a6ffa54ea03d8819747e78184ad54f85972089b603b40303dd55",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_RUN_011_v_9_gamma_over_k_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "77f82199060ab9f3d1f6205e077fabe4e888913e878081e9c81434e765449e1a",
+      "old_crlf_count": 42,
+      "old_sha256": "a6067ad266844faafecb3679fb8d5cf6106609a815205f8901e9c243ebf84a85",
+      "parsed_content_equivalent": null,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_ACCEPTED_FORCE_FIELD_NAMED_TRAJECTORIES_ONLY_run_011.md"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "a4df4149a418489557a1f4c8cef8eb2b96654e8b077d07c81026c05eb6ce36ad",
+      "old_crlf_count": 54,
+      "old_sha256": "e284fa089f7a628020ff9b89622d8db983d65ee12e7e5a94ef946258aec91f71",
+      "parsed_content_equivalent": null,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_EXCITED_HYPERFINE_D_TERM_SENSITIVITY_ONLY_run_009D.md"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "9cbe3a3cd543882583f4c2b20a5a5b1fb777c9a723a813c6a251d9a3ee29e919",
+      "old_crlf_count": 8968,
+      "old_sha256": "b145b699199f4089728c490d90f66ff27168ea98faaab782b77a4a7d35e97048",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_EXCITED_HYPERFINE_D_TERM_SENSITIVITY_ONLY_run_009D_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "14bd22e6c0aa6d131456046f435286ae9d6a89cb2b4ba9e45ee568abc9378b6d",
+      "old_crlf_count": 42,
+      "old_sha256": "0e34e66bfd60ae0cb96f2f33c695d91b81d2f3a7b86ad6e4a79caa0cc6e55689",
+      "parsed_content_equivalent": null,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_EXCITED_ZEEMAN_SENSITIVITY_ONLY_run_009C.md"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "2c34c9c8bb26f93b8f2f5c68c895269d4f65231f1c0ff525ca1c3c4195901921",
+      "old_crlf_count": 6998,
+      "old_sha256": "c4c14fb77f4334c82a251ca3e77c3e07b77685af9c9d6762f0b5c8bade4f3051",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_EXCITED_ZEEMAN_SENSITIVITY_ONLY_run_009C_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "df3fa3c2e99b8dbbe2a3e3df39407c2c3d3795af4e2f2ab83e0856f8d3ca2671",
+      "old_crlf_count": 47,
+      "old_sha256": "f9b9c7a5f4cd8669d7eba5faeae5cbb8958c8b1fbb73fc767f57bdd629af4199",
+      "parsed_content_equivalent": null,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_run_010.md"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "01c5b3dd1592fb6a3a0887efab2bfdaa4cfb36b4137554b4728777bbcc250a11",
+      "old_crlf_count": 1135,
+      "old_sha256": "3071720c63fe36a1b0de0bb3246deabbb030690e77d56cef7dad73e21f5efa81",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_run_010_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "4930d099eaa18ab0b524f33ea8bf4db71a946b9fe365d8c13d614a7109837cd4",
+      "old_crlf_count": 87,
+      "old_sha256": "b5c4a0ad0e699c7449f4cfbb76e17eb3f9b25fbd67f71e02831ed244c86efe01",
+      "parsed_content_equivalent": null,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY_run_007.md"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "786db36c165dbd8fa57ed42797089e8fea1a07deb1ae3453788dfcb33b09c5e4",
+      "old_crlf_count": 356,
+      "old_sha256": "113fe1c931ffb200329c95aeeae0e21dcf08136def4ed756e5cc9eec43099cde",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_GAUSSIAN_GEOMETRY_VALIDATION_ONLY_run_007_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "4fe4afc732464d9e4ecb3c737295ab1a39f755c1519961fdb7907668033ee360",
+      "old_crlf_count": 113,
+      "old_sha256": "86d5b8274a12f82a8fb2414bc31c2ae1faef378a16e2f75709bbed45bc750b8f",
+      "parsed_content_equivalent": null,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_HANDOFF_VALIDATION_ONLY_run_005.md"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "34e6c1a78b9448b1a1454e479695ee24a5b3e2e4405eea055d5a142a3be333e2",
+      "old_crlf_count": 470,
+      "old_sha256": "db6915241e78de2e3650257228da390e25a42ec9eb3fd3f69debaef7290cadce",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_HANDOFF_VALIDATION_ONLY_run_005_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "ceda2a3ba9794374a213042db4c35db5ce2c9557cc8fe4e55518ab10c3f41a15",
+      "old_crlf_count": 139,
+      "old_sha256": "5e6776e1b2514364ff33a3f54eed95bcc85c521e5895b8f625deefd3797a6d08",
+      "parsed_content_equivalent": null,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_run_008.md"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "e165d476f681e8d49bbfd040ae1fc715c819ccc37caec23f7ef07f845d284b23",
+      "old_crlf_count": 545,
+      "old_sha256": "65c0cf3fdae376ed3664aa8626c226a59b7e1a6987ff48dfa4e432f01aa8a20e",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_run_008_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "60d6b90260b22b31ff4d02525ee1a32e8dbff5c896d11ee22198ddfc8e91415f",
+      "old_crlf_count": 204,
+      "old_sha256": "15fb6e113f13f08abdc5685d27da6372602d3e3ce7ee3a77eeb88688f2aef59e",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_2_gamma_over_k_run_008_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "bb527539eff9fed1f2dd89bc493b0000d02d846da0730f1198974d4e72ccdbfb",
+      "old_crlf_count": 204,
+      "old_sha256": "79bc6f1dc9cc2d5f74fe87a92bd4c2e7d7ee54276b92cbf1135951a90ae6a73c",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_4_gamma_over_k_run_008_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "e5daae2bb030d9edaf9c824258a225cd41e909ba52d7419b6d936cbc2635f396",
+      "old_crlf_count": 204,
+      "old_sha256": "5c683d4cccaeafe41f95097afb5efcb223b4278f1ed5cebf5866e09454b0be7b",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_6_gamma_over_k_run_008_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "0af9f32e925d019cdef79312b68729e291926923ef9031ee8324b23b52349bf4",
+      "old_crlf_count": 204,
+      "old_sha256": "e22ec8b56d0854917c6e81874f76cd4eb35e35905d7e0dd7d10aa634db255b00",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_7p5_gamma_over_k_run_008_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "1a227af3dd88fbf32d13f96a3a66e3f65c6d540922e1acc868e0fe0d8025cc8c",
+      "old_crlf_count": 204,
+      "old_sha256": "c5cc05533b3700957de66336fc1e862139e48715405dbfb57e4cc8e66838b870",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_NAMED_TRAJECTORY_PROTOCOL_ONLY_v_9_gamma_over_k_run_008_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "442dd37341c958c1bb057cbe1e7423f123965b261ff86f44b1c95d2709d6de4c",
+      "old_crlf_count": 62,
+      "old_sha256": "e2517e4b374f78f519de0cd9d20ce84ef89d20e089405a88df0e3d09d242274b",
+      "parsed_content_equivalent": null,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_OUTCOME_CLASSIFICATION_SCAFFOLD_ONLY_run_006.md"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "cc44ca821128b43932809a283cea7ef7a13158a51eecd4b6eff95dfa61a023a3",
+      "old_crlf_count": 488,
+      "old_sha256": "4342ad3578fc09af3a921e445a8c4791593a9cca251732cb04615c38aa87bd62",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_OUTCOME_CLASSIFICATION_SCAFFOLD_ONLY_run_006_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "c10d563d58002ff8ea24538425cd856f86e655d7cbaf606cf62ba0b37410fcfa",
+      "old_crlf_count": 60,
+      "old_sha256": "bd92eee9984ab7ae7ebcd3510ffabfb4447d9878f2d1f2f8642d9706670d78b8",
+      "parsed_content_equivalent": null,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY_run_009B.md"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "2ca28e039bb1b341c67e236a45c4f3a3a5bf8d76ca6ff7709dcbdb012cb1f22e",
+      "old_crlf_count": 2537,
+      "old_sha256": "cc5f06242191e71104172cfb4d3254dfc7c8b338576ea128e9ec9a5b47e125f0",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLARIZATION_ZEEMAN_RECONCILIATION_ONLY_run_009B_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "7f0838f7a1747073d169cc043cf2f6b132babea4b80d737d4951ac0a56e34423",
+      "old_crlf_count": 227,
+      "old_sha256": "533271aeb8203215cdb077b586df4def4b0ded48af715e398430a099f15e82e7",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLICY_FORCE_SNAPSHOT_ONLY_rodriguez_baseline_linear_chirp_t_0p0005s_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "2fcca1dc2bc96dc8e8c3061e6ecfda1aef163529cef779f6a93711d0abc3c186",
+      "old_crlf_count": 227,
+      "old_sha256": "8656b69ca3675d154e59b51170d82cd74750c5d87ee3cd49e2652e7f8a48a9db",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLICY_FORCE_SNAPSHOT_ONLY_rodriguez_baseline_linear_chirp_t_0p001s_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "7009af2d1ef5ffc6d38d0446b801eafc7a936b0248b4d2f95ec6939e3fa4fed1",
+      "old_crlf_count": 227,
+      "old_sha256": "ad4d916adbdc432977791a9a1ef71c102ca87b56921e77f2616f03721944c88c",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLICY_FORCE_SNAPSHOT_ONLY_rodriguez_baseline_linear_chirp_t_0p002s_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "418de1c3e3000ebc91ec3697952c7a5cedfe055414dd2bbae2438c66982fd984",
+      "old_crlf_count": 227,
+      "old_sha256": "96682d594ce11461d0be8b11d06cd00b158f1d0c59733e0f0880b1cb2f7c9f50",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLICY_FORCE_SNAPSHOT_ONLY_rodriguez_baseline_linear_chirp_t_0s_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "91118f20c6227e2ddf51f3aa749131d448a0254c1044b25decfd1554d65f6557",
+      "old_crlf_count": 87,
+      "old_sha256": "74ddc6c082ae1397e1775209ba898b2b80a8880a36f8ff744995077eb9e2e33a",
+      "parsed_content_equivalent": null,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLICY_FORCE_SNAPSHOT_ONLY_run_003.md"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "6656241b4ecfbdb304a1e5537f603036c56a3693ca5bb20595eb8143658a899b",
+      "old_crlf_count": 476,
+      "old_sha256": "6a3e4249033c648557b1e966813eaca3cb0701f4f5bd31a30da79ddc600e8e48",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLICY_INTERFACE_ONLY_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "ec49e5a1d19b72b42673ccc5071f6ffb929f472f2b058a24c14f0637d0267da5",
+      "old_crlf_count": 24,
+      "old_sha256": "5e66722565f4af1b350298d62aa172abf880b9c34b24f9e8eaaf0c37a99bcfec",
+      "parsed_content_equivalent": null,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_POLICY_INTERFACE_ONLY_report.md"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "b0809acf381b9a9ce60129c66e908a656db32f5ef856163c666f9b04936e35fb",
+      "old_crlf_count": 42,
+      "old_sha256": "8634ce84c4b829434c10bd617f3527c5b0b6ea5289d88c2ccfe1953d530f7cb2",
+      "parsed_content_equivalent": null,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY_run_009.md"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "7480eb27d26e0d62771e8fcb03e3cdc3aab841e22c4048238312a6d29c3f5291",
+      "old_crlf_count": 797,
+      "old_sha256": "1f5d70a4e7217fcf11e327ff0bec0a126252e5e1a37ce3d9a244a18b82b77b4c",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_PYLCP_RATEEQ_STATIC_VALIDATION_ONLY_run_009_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "5aafa868d7be3c8f881057d410a44a5528b700084e5db3ab6ab247186ee85b11",
+      "old_crlf_count": 70,
+      "old_sha256": "fd4959c08311f062e7319d487c809c8ecfabec2012143b0d85c029c16d8513e1",
+      "parsed_content_equivalent": null,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_run_009A.md"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "2b3a4beab347ec55b588010813e439c5e7ecf9d77f244a154f576fff2b6de313",
+      "old_crlf_count": 1315,
+      "old_sha256": "1a59eee21d5033c3dd0c8cd49d555359e84755adbf4c4372f46d67e91487d62b",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_run_009A_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "bd9d67ceba770f478c68d18a33bda03ea56daa948108fc9672b8206ca48aa4cc",
+      "old_crlf_count": 105,
+      "old_sha256": "31c4e4aa80335b91cf37463d4d54ccd184bea3c279f92df480c4d2bd255acfec",
+      "parsed_content_equivalent": null,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008A_DIAGNOSTIC_AUDIT_ONLY.md"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "0ada3a98c3ea3a91cc66555f5843d993234590b27c7072c59de0e931c6807dfa",
+      "old_crlf_count": 727,
+      "old_sha256": "080a560ef58a4d16661c81a776133c258f31dffe6854c3fa551a59619a9adc98",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008A_DIAGNOSTIC_AUDIT_ONLY_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "b8e11ab4a66c534e1dee86c4561257630cd1e69a30336cb9e47769b3d748f333",
+      "old_crlf_count": 109,
+      "old_sha256": "b37659ff3beda967f060306b237878c556045d354f9f395c371ee182df3fe54b",
+      "parsed_content_equivalent": null,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY.md"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "e8b0c14cbc4f65df0efa257e7b19c0e505f3c98ace988ac67b431c8798a24217",
+      "old_crlf_count": 869,
+      "old_sha256": "0b9a4f6b64827e23db78c5c057428f353ca79a1508346c7034d71abb63831683",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_008B_FORCE_BUDGET_AUDIT_ONLY_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "383d809272efe68b57223eea8d3ebfab4b3730826b83f8db0f835c68b83df286",
+      "old_crlf_count": 62,
+      "old_sha256": "191aed932273bb94b56eb923cfc135be54d5a20461abb5b078326dec2e108d93",
+      "parsed_content_equivalent": null,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY.md"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "5108edd1bdcee00bab12ff11526c3326638872e85758565c946c96a8ca12ba50",
+      "old_crlf_count": 282,
+      "old_sha256": "960ee60553385a6a500c80cf06302c2920fce3b5fddfd6582fccde58288c94ff",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_corrected_static_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "eda2a603bb89660be87b797a493cc4ef6c29bd694ac420240c29e5d1920976c4",
+      "old_crlf_count": 3840,
+      "old_sha256": "962c5084de5a6851f5d103e317ec75fd04fda9b793071e5c7ca42e891aeabd59",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_009A_R1_CORRECTED_GROUND_ZEEMAN_RATEEQ_STATIC_ACCEPTANCE_AUDIT_ONLY_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "31502bca775edd2a08e46fd9299718387b1400624ebd482369c819e2e9d2dc34",
+      "old_crlf_count": 161,
+      "old_sha256": "938d8a20a6a53861c2bdcb880be6ec6f188a865c23c01fcb5dc34c088e760b93",
+      "parsed_content_equivalent": null,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY.md"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "7febe3dfb8167fcc5ffae2e328116f8634008b3e2f37cd172521d43849de50cc",
+      "old_crlf_count": 2303,
+      "old_sha256": "93ad81dfcefeaa948e534f2836ffe1c3f674d180dc980cf2e2121d308365d7dd",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011A_BASELINE_DISCREPANCY_AUDIT_ONLY_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "4d121e27e174a756773b31f78f43afa89bba5d22b33dc7af679d139deb9b23ff",
+      "old_crlf_count": 77,
+      "old_sha256": "9b524b770ec1af4a0cf248b04bbc33ea793854536628c6d2fb65dc871176d9f3",
+      "parsed_content_equivalent": null,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY.md"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "7a9315323c082012127368a68926fa999d41cec4cad5c003302977340ce744d0",
+      "old_crlf_count": 2475,
+      "old_sha256": "e8b0398bce33411dc5b08d22420ccca5fc950a6f060adb82345622930f2edffa",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_comparison_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "f58d8d7fb51cc0f43b2646e089e24c1918893464fe600cf4364acc5fbe32bff9",
+      "old_crlf_count": 56,
+      "old_sha256": "2db1de730ef708bc4737a62455424efd31ce740b6f64e998b3465ea9a9621cf4",
+      "parsed_content_equivalent": null,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY.md"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "035f74f413067b1cb88f2062bfe23687ade20c5fecf003f38472f1708107b3ee",
+      "old_crlf_count": 47,
+      "old_sha256": "fc3a7b168fd0c0c7f5016ccd505a14f425bf082adf75608d4bf50b16af4a6d93",
+      "parsed_content_equivalent": null,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY.md"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "5196998b19cf8740ef84784b972ac0c0d6230a36971e688484c483c6bf99e81a",
+      "old_crlf_count": 28,
+      "old_sha256": "738ae346848c2720f77e8b0cf249b9946898c7660943f2ead66d62358f29f07d",
+      "parsed_content_equivalent": null,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY.md"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "8f2d9e0a6795f56bb7e5b1b4c46163a5b0863931bc47df60fe8be5b45af812c2",
+      "old_crlf_count": 37,
+      "old_sha256": "0cbfe8b675324b89d9f205491e24f9163bc94ead2cee21c56a13542f776ebc9a",
+      "parsed_content_equivalent": null,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_TRAJECTORY_SCAFFOLD_ONLY_run_004.md"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "f01d51ecf811c1d820488ca319555bbcabde3b8b99449a51fea55dd90aa14285",
+      "old_crlf_count": 132,
+      "old_sha256": "f63f821f984d4bb04e30b9e97a772717b25288ce8ec6c8879b48ee9d41405828",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_TRAJECTORY_SCAFFOLD_ONLY_run_004_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "4ba864bc8370abbe5861b84920958bb523f505d1ea84fe68bb99b4a48a7e3656",
+      "old_crlf_count": 144,
+      "old_sha256": "bf896febbff9c0be27881987d75cf475690786afce8e113dd88e905a2dcd1014",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_rodriguez_static_3_flipped_both_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "9aa8f50a580531376018ced4bbec88a4be6fbbb975f3ce23f1361b7796214b35",
+      "old_crlf_count": 144,
+      "old_sha256": "dd5e1dd72ef48cf19f03167d45e9bf2e3d6d7a93afcdc21139c0541d03dfe8d2",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_rodriguez_static_3_flipped_gradient_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "6e76195a9ba0b2d0d6246a3eb91f5d5dac8dfbdf90d4b57a193aa888e1e25472",
+      "old_crlf_count": 144,
+      "old_sha256": "477844c9451ba5c0a02dadc619edbb5f1a25f9011838acf9c4f65c9327ae166a",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_rodriguez_static_3_flipped_polarization_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "a63256eb08ed90832fe8bce2253cbb4127ae73129ec09e2d4613544d26038b0d",
+      "old_crlf_count": 141,
+      "old_sha256": "cab9e8a7ae60c0a2ce2c86d20017183eb93ca3963987f8acac095c91ec50daf1",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_rodriguez_static_3_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "81bc3ef8f42fc2f6fc35ea4afc3fdfa047ee27cfe8732c0cf391376d5d506d33",
+      "old_crlf_count": 144,
+      "old_sha256": "bbdaf3f48d70d1de4c644d1f19602a2f7b94ae7bae1c6c161e52643b49ca039f",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_rodriguez_static_3_nominal_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "c95efd5a9ce47e5d273acf83690cec4141788ea30fbc3ccab52f1b5012c661b2",
+      "old_crlf_count": 143,
+      "old_sha256": "e56b642d5897f1229c5e89e931d50f27db8c9cf4a45ffeeafc6fe4f6d53ff2e5",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_rodriguez_static_3_plus_1_flipped_both_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "36aa6ee7990195bb5829e027ff68f7e60784734edd87d7d8b99a549bff4f9ad5",
+      "old_crlf_count": 143,
+      "old_sha256": "2d8d2557e6a9e837c5b8b654c4f4bac31083448087f59a8c93ff948940f7bcd6",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_rodriguez_static_3_plus_1_flipped_gradient_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "d64283a364abf9761c650049a452bc2e78261ec97fc7d84fa0cf3be8d936d26c",
+      "old_crlf_count": 143,
+      "old_sha256": "12ad37dff9ea12f120de8bf4361b2427e2d49cffcabc8be046d3e440a218bbcd",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_rodriguez_static_3_plus_1_flipped_polarization_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "a54f4a5db4ce112ed0d3f6bfed4d011e860864a7c173a688e58173c07ed0f648",
+      "old_crlf_count": 140,
+      "old_sha256": "247eaef489141163acd8e85e0de7f028d792dc5a5b341651b79928e744b94f03",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_rodriguez_static_3_plus_1_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "95fe0ad25d71a46e716e7221e6b6dc414430fbce28749107367aa1c7ee5c7965",
+      "old_crlf_count": 143,
+      "old_sha256": "492b6140e85866399f5f91cfa749b1684873bb7541df6b9961608b854ed1a3d8",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_rodriguez_static_3_plus_1_nominal_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "b6ef8d5da2023fd6ab5449793e1879520cdead4b0f861bea6ba47561b9c2ebb0",
+      "old_crlf_count": 34,
+      "old_sha256": "2da421d5c4c2a5ed64338c831aa1614d205f7242f4b1d91abade1a838ceddfb4",
+      "parsed_content_equivalent": null,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_run_001.md"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "365355495e4e85a8d8e3ebd1a200b3fa7a449d3ace30a311bae8b4e5ce3772e3",
+      "old_crlf_count": 115,
+      "old_sha256": "c07d01db1a0807b71cddd940a015bd07b05e49ea16e7dacc2207d3694d255e6b",
+      "parsed_content_equivalent": null,
+      "path": "outputs/provisional/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_run_002_reversal_diagnostics.md"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "b2545893788e3a9477d502d1204246a4c86b0858b94c387bbd2b8bbaddd0d801",
+      "old_crlf_count": 1041,
+      "old_sha256": "a3f07a1af3c6aab96204cdbdce5b7222980e876749f7d50b82b6dfbdc50dc1bd",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/apparatus_schedule_compiler/run_014/MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_014_APPARATUS_SCHEDULE_COMPILER_ONLY_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "e709316656db6431368830c6421f088290cee63cc3196ba917a347d02df77c3a",
+      "old_crlf_count": 1366,
+      "old_sha256": "ecd1be5d10486b75362d317ef8988a2d76fbf772946b014c301eeda5e896f032",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/apparatus_schedule_compiler/run_014/MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_014_APPARATUS_SCHEDULE_COMPILER_ONLY_quantized_demonstration_compiled_schedule.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "b307bd73b07c1c823bd1eaf5382b7a22c4ca7d530983a6a405f9ad87a0cd43a2",
+      "old_crlf_count": 1280,
+      "old_sha256": "02606a71f27adf93b9b8bd49cf1dbb7aa91e9be49e346f70c45cfd0f4afc5984",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/apparatus_schedule_compiler/run_014/MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_014_APPARATUS_SCHEDULE_COMPILER_ONLY_rate_limited_demonstration_compiled_schedule.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "f6d53a29e0e946f3284fa7b91557b1111d64e58698adcfe53f3cca680f22582c",
+      "old_crlf_count": 1289,
+      "old_sha256": "781f51fccc984dd056fe8eac73ae7e346c3f7bd4e4aef85ab9bcbe503db6b90c",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/apparatus_schedule_compiler/run_014/MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_014_APPARATUS_SCHEDULE_COMPILER_ONLY_rodriguez_baseline_linear_chirp_synthetic_identity_compiled_schedule.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "e7f19452434f8b6eb2860d8da5f3b59dcced59fb606b900416b179c2de93fb16",
+      "old_crlf_count": 2422,
+      "old_sha256": "3f1d0bec51ca39defaab6c85d03c08fe52b48fe48df209069d983c0f5d93450e",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/apparatus_schedule_compiler/run_014/MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_014_APPARATUS_SCHEDULE_COMPILER_ONLY_rodriguez_chirp_to_3_plus_1_handoff_synthetic_identity_compiled_schedule.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "684832cb1ad7b837147e84e1aa4e5d03e3075d773f42cdae131814e4c0dc110c",
+      "old_crlf_count": 1144,
+      "old_sha256": "c69403f4c418665b0382a62ed6a76f0ac6bfef8c1559f3cbd874463c87f8dddb",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/apparatus_schedule_compiler/run_014/MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_014_APPARATUS_SCHEDULE_COMPILER_ONLY_rodriguez_static_3_plus_1_synthetic_identity_compiled_schedule.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "8bab302a5698eb5f674161108c626ff0cf5835bb47e20795f7da2e6719621334",
+      "old_crlf_count": 1144,
+      "old_sha256": "af605bec8d46cc1dabb33352d26e4444e401cef15c7596d581b6e4f22898f6cb",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/apparatus_schedule_compiler/run_014/MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_014_APPARATUS_SCHEDULE_COMPILER_ONLY_rodriguez_static_3_synthetic_identity_compiled_schedule.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "fc056992c826b225f924dfab89b0a6abccfecb7afac666d3b4b5db4ad4416911",
+      "old_crlf_count": 1347,
+      "old_sha256": "29f03c02d5ae9e57bdabd3e3c675a121f7ed9aeec3e67d810ecee056ff7eb883",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/apparatus_schedule_compiler/run_014/MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_014_APPARATUS_SCHEDULE_COMPILER_ONLY_source_incomplete_demonstration_compiled_schedule.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "86b602ae0f8ae9c767f9116ad7b9748a7e3a37150ba4fdcad2b08db496dc62ce",
+      "old_crlf_count": 2366,
+      "old_sha256": "78fdbefe110ad62f1f31c4a9678f6f5b15bb1dcc6bebedc819be72c2fda2f79e",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/control_policy_abi/run_013/MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_013_CONTROL_POLICY_ABI_ONLY_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "498f8a7fcb827e6422e467b8fe99d57a6a444fda43e8d0b3dbe2973b066f1129",
+      "old_crlf_count": 378,
+      "old_sha256": "e9b56a2921877edae7b60ab4029ef7697fbadce638c49e3df7a2b54044e135bc",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/control_policy_abi/run_013/MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_013_CONTROL_POLICY_ABI_ONLY_rodriguez_baseline_linear_chirp_spec.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "251d14d305d6ad35659bd39df5577083401c1c88b4099ea823012ea9d679382f",
+      "old_crlf_count": 665,
+      "old_sha256": "242458cb228899cb1550ba4866c4da4276bbeade74ec2379f847aad2c91a5d6c",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/control_policy_abi/run_013/MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_013_CONTROL_POLICY_ABI_ONLY_rodriguez_chirp_to_3_plus_1_handoff_spec.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "9c71c5cebaf636461ad3a04963389dd8209c90d221b04deeaeb406b23f060366",
+      "old_crlf_count": 332,
+      "old_sha256": "d10f9dec165f5cde10d164284fed517a999d8dea92303dc29c9141cc0b4ffb69",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/control_policy_abi/run_013/MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_013_CONTROL_POLICY_ABI_ONLY_rodriguez_static_3_plus_1_spec.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "7bc48b43789a931d7ecee3c98e44332fbc4ea6e7822a0105647e4bfd0d628f61",
+      "old_crlf_count": 333,
+      "old_sha256": "11d2b4bd007148ef4b1757d3a67face2991470fff869ce9daf0f2731b72fa8a1",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/control_policy_abi/run_013/MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_013_CONTROL_POLICY_ABI_ONLY_rodriguez_static_3_spec.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "ebd899c3d2ba553d75b88f7dc5a9d3fbe429e8b8f83801ca93b5cf74e5340c3d",
+      "old_crlf_count": 1010,
+      "old_sha256": "fec85f4fc23ba27cee1cdf356b4d0dfaf52134c0e31e4e08f2584dd856198d9e",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiment_search_protocol/run_017/MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_017_EXPERIMENT_SEARCH_PROTOCOL_ONLY_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "1af537758916b5933fc84867f86047098c752add8a7d5ba6af2a60f18e6995c9",
+      "old_crlf_count": 44,
+      "old_sha256": "736c8e0a998587934edd9dc992cd7d90659717dbf6dd1f33e4126a17ed17a3f2",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9af5047ce4feeccd60ce128d96890f0e96bec469ceb5fd54da7a57e00d3f6c33/checkpoint.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "03c80b5e2ba2d64c9c42c12b2b56dc310259b561cb62ea849ee606d74b3bb57c",
+      "old_crlf_count": 398,
+      "old_sha256": "25d4cc92370af34829b2a32414dd60e3b18d27e8ff27148d7334d825999c430a",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9af5047ce4feeccd60ce128d96890f0e96bec469ceb5fd54da7a57e00d3f6c33/experiment.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "73cab26a9d2c3a621182acf6c6e0c6ba38ecb9f8abe934e00fc5f569d445d2f0",
+      "old_crlf_count": 16,
+      "old_sha256": "8898dd706d850e3219b50599acebd5c228a4d6ccecb0db1a321ef43c5ab45d54",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9af5047ce4feeccd60ce128d96890f0e96bec469ceb5fd54da7a57e00d3f6c33/trials/1b105eaea0d1d1f581c6bdec40e40d5b2f0c50077fa3851248f64fd57ab279ce/evaluator-output.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "c7b3a8fdbe98d5316f1ae6752c086f430fffa15c9e1bc6a4547f13cbf2211ab6",
+      "old_crlf_count": 11,
+      "old_sha256": "f650913cde73f5355a3b856f58c1ec40e5eba337f3f03e36a684aa185f4981e3",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9af5047ce4feeccd60ce128d96890f0e96bec469ceb5fd54da7a57e00d3f6c33/trials/1b105eaea0d1d1f581c6bdec40e40d5b2f0c50077fa3851248f64fd57ab279ce/issues.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "1bd77dd6e020af5077f7df0a741896704db9e220eeedeb511bdc95c55fec1ca0",
+      "old_crlf_count": 71,
+      "old_sha256": "efe004a290ddf2e14a8a5999252007429f864b99f0656b08b24640018e8cbe27",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9af5047ce4feeccd60ce128d96890f0e96bec469ceb5fd54da7a57e00d3f6c33/trials/1b105eaea0d1d1f581c6bdec40e40d5b2f0c50077fa3851248f64fd57ab279ce/metrics.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "047180b3a0c2b240e3d3a090485ca5d1e69b95c219a71e6f5f5882a3dca1bd2c",
+      "old_crlf_count": 58,
+      "old_sha256": "26513adc8d45e8c12c403d034ee16b313b7f6970755fdb3a307ac4cdab03b1ea",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9af5047ce4feeccd60ce128d96890f0e96bec469ceb5fd54da7a57e00d3f6c33/trials/1b105eaea0d1d1f581c6bdec40e40d5b2f0c50077fa3851248f64fd57ab279ce/trial.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "86b043cf94c072c4670fe08c6c4854dae070ef1c9e879449c616722844db77e9",
+      "old_crlf_count": 16,
+      "old_sha256": "0805ab789581749b4ed02d21ca782fabb2ec645d496eb32ad06305c5c76c7bf0",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9af5047ce4feeccd60ce128d96890f0e96bec469ceb5fd54da7a57e00d3f6c33/trials/258b7eeca26971cdba575a4244e8f633406c601e3ba2845b15335ed6bf263a78/evaluator-output.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "c7b3a8fdbe98d5316f1ae6752c086f430fffa15c9e1bc6a4547f13cbf2211ab6",
+      "old_crlf_count": 11,
+      "old_sha256": "f650913cde73f5355a3b856f58c1ec40e5eba337f3f03e36a684aa185f4981e3",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9af5047ce4feeccd60ce128d96890f0e96bec469ceb5fd54da7a57e00d3f6c33/trials/258b7eeca26971cdba575a4244e8f633406c601e3ba2845b15335ed6bf263a78/issues.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "8cde4bad8b4fa4f72a981838729fd1a2bfb1abe71b23cbfb030dc9f7b7823992",
+      "old_crlf_count": 71,
+      "old_sha256": "f2c18ce784071da16c21db259d6c0d1f283c3dc6971325aab47eeefd9dff7037",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9af5047ce4feeccd60ce128d96890f0e96bec469ceb5fd54da7a57e00d3f6c33/trials/258b7eeca26971cdba575a4244e8f633406c601e3ba2845b15335ed6bf263a78/metrics.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "4d0c3f41e80a21abb87f33d8bd53de0887febee82ec2a3970adf13c3b16bef4a",
+      "old_crlf_count": 58,
+      "old_sha256": "371e750f2663c9515cf15a72db1007eaf5d2e850ebf9003632168673f8081995",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9af5047ce4feeccd60ce128d96890f0e96bec469ceb5fd54da7a57e00d3f6c33/trials/258b7eeca26971cdba575a4244e8f633406c601e3ba2845b15335ed6bf263a78/trial.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "2979e6ce45554834ecb820fced157239ff43bc8e4e29e2d863d1991f75a3c603",
+      "old_crlf_count": 16,
+      "old_sha256": "4bde75ab93f5128710efe31de74fc54c462af383453efc50e441879c4c5e26ed",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9af5047ce4feeccd60ce128d96890f0e96bec469ceb5fd54da7a57e00d3f6c33/trials/2e779a5f23abe1103d4b828c85c159685ecf422df83ad3a4503c6f9d97531141/evaluator-output.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "c7b3a8fdbe98d5316f1ae6752c086f430fffa15c9e1bc6a4547f13cbf2211ab6",
+      "old_crlf_count": 11,
+      "old_sha256": "f650913cde73f5355a3b856f58c1ec40e5eba337f3f03e36a684aa185f4981e3",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9af5047ce4feeccd60ce128d96890f0e96bec469ceb5fd54da7a57e00d3f6c33/trials/2e779a5f23abe1103d4b828c85c159685ecf422df83ad3a4503c6f9d97531141/issues.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "1afdcdb97a2616eb0152175291ec08410d9240d5d20f12d49be3fb82f21be53e",
+      "old_crlf_count": 71,
+      "old_sha256": "958001587e3ab1b66480aa5e40d66fa5430ab7bc2eeafab8e6ccf6d62d65ccbc",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9af5047ce4feeccd60ce128d96890f0e96bec469ceb5fd54da7a57e00d3f6c33/trials/2e779a5f23abe1103d4b828c85c159685ecf422df83ad3a4503c6f9d97531141/metrics.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "013949e78a930e238407ba512d45cf237d7f56c3266f89959f444d9686cf5909",
+      "old_crlf_count": 58,
+      "old_sha256": "e112a346c2fccbfeea1dd7d36440882adee65062e452b65418daea26554801e9",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9af5047ce4feeccd60ce128d96890f0e96bec469ceb5fd54da7a57e00d3f6c33/trials/2e779a5f23abe1103d4b828c85c159685ecf422df83ad3a4503c6f9d97531141/trial.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "128c1bf5491f2291402ea9e1738df836db46e26edcafc3e26371798d9d7bf2f7",
+      "old_crlf_count": 16,
+      "old_sha256": "7a542299003a7f8b1f22e2a7727e6739d448b472297dd3833f92095da63c7519",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9af5047ce4feeccd60ce128d96890f0e96bec469ceb5fd54da7a57e00d3f6c33/trials/c1ed309fcb49f31064066d173e0ee70f5586fcface1e9347fd45d9424407444a/evaluator-output.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "c7b3a8fdbe98d5316f1ae6752c086f430fffa15c9e1bc6a4547f13cbf2211ab6",
+      "old_crlf_count": 11,
+      "old_sha256": "f650913cde73f5355a3b856f58c1ec40e5eba337f3f03e36a684aa185f4981e3",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9af5047ce4feeccd60ce128d96890f0e96bec469ceb5fd54da7a57e00d3f6c33/trials/c1ed309fcb49f31064066d173e0ee70f5586fcface1e9347fd45d9424407444a/issues.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "48f75508e187115871aa203c1a3788e66b40ec1a4d0638f431c3c8eea9bc256e",
+      "old_crlf_count": 71,
+      "old_sha256": "f1abc3ebf5de506437904aacb5cf6d74278cfe620f21b252e8d75ebccd82cc6e",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9af5047ce4feeccd60ce128d96890f0e96bec469ceb5fd54da7a57e00d3f6c33/trials/c1ed309fcb49f31064066d173e0ee70f5586fcface1e9347fd45d9424407444a/metrics.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "9be8273f84284909758922dc8a5525ded72591119f66d84913bf782520a99b06",
+      "old_crlf_count": 58,
+      "old_sha256": "c2d3dcda83f485186b2ddcf90841bce84bb8d2dd2fc8ef6f0e8e512f0d7ee9ad",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9af5047ce4feeccd60ce128d96890f0e96bec469ceb5fd54da7a57e00d3f6c33/trials/c1ed309fcb49f31064066d173e0ee70f5586fcface1e9347fd45d9424407444a/trial.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "e4667c5a185d96b27780340e69c0943031dec2902a8fad35937d7bc436d593e4",
+      "old_crlf_count": 51,
+      "old_sha256": "6e1fee30c5037e20f762fbb382e861e510e810282a61c81de7450eef3da3e412",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9e566898347dc62b5a0bb06b9df38ca86fef45b0d176a02cd7c3eda7df710615/checkpoint.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "4b3ba903b6a6b915c55bd6b27ddab01101d7a145125dfb0c0ef2872c6ad230c9",
+      "old_crlf_count": 494,
+      "old_sha256": "aa9dbe8b58fb745d9b10983cb3df70257c219e5232d3792b444d9f654ddbf3b0",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9e566898347dc62b5a0bb06b9df38ca86fef45b0d176a02cd7c3eda7df710615/experiment.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "e04193ed77789791510ad47d1c3a096dffebc915146aff3916c60232090f933d",
+      "old_crlf_count": 23,
+      "old_sha256": "69498b5e83629d7d8fa5c296ce83625423087dc38c2bbc691bee7839e75c25e9",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9e566898347dc62b5a0bb06b9df38ca86fef45b0d176a02cd7c3eda7df710615/trials/90087b6773e8393147da511192055dd713ebeaa504ed534dfca530e29fd7e672/evaluator-output.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "f3d147e7894dc438f8d3355e20b2533877cb30b7b6c19116a04929ebb251a35b",
+      "old_crlf_count": 13,
+      "old_sha256": "05ee1509c4afc5c10f6fb46f8d33942269578b8576238e5d801a8474e6bf6119",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9e566898347dc62b5a0bb06b9df38ca86fef45b0d176a02cd7c3eda7df710615/trials/90087b6773e8393147da511192055dd713ebeaa504ed534dfca530e29fd7e672/issues.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "e3a94b9ce43dbe72cdeb2e32bda14717d3fbd65b689a839c936db6052ba9d32c",
+      "old_crlf_count": 83,
+      "old_sha256": "465af38040f7e7b8ee5130104d103a2c298d8b41fc26a488e888d5432cd4346e",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9e566898347dc62b5a0bb06b9df38ca86fef45b0d176a02cd7c3eda7df710615/trials/90087b6773e8393147da511192055dd713ebeaa504ed534dfca530e29fd7e672/metrics.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "ca85932250c2d4a4836a8e8915684dab741e3d02f4bddf80c562a57539ad8134",
+      "old_crlf_count": 72,
+      "old_sha256": "b3d4481e34ab336a896eb57f48bf5eebfddf0df806a0209345ee84f1d357dedb",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9e566898347dc62b5a0bb06b9df38ca86fef45b0d176a02cd7c3eda7df710615/trials/90087b6773e8393147da511192055dd713ebeaa504ed534dfca530e29fd7e672/trial.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "0cf6ed3f348c57a533413203b46133c56890dc47a51da5d976b56de42a02b625",
+      "old_crlf_count": 23,
+      "old_sha256": "afb0d49dce31297ea0db8ad4459317757af43589df1b12a31fe9b520bf0a8128",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9e566898347dc62b5a0bb06b9df38ca86fef45b0d176a02cd7c3eda7df710615/trials/a98d7e04f86a1cbb20651ce692b6fa42d7ea7a6dd127c588e598fc85f5ad16b7/evaluator-output.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "f3d147e7894dc438f8d3355e20b2533877cb30b7b6c19116a04929ebb251a35b",
+      "old_crlf_count": 13,
+      "old_sha256": "05ee1509c4afc5c10f6fb46f8d33942269578b8576238e5d801a8474e6bf6119",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9e566898347dc62b5a0bb06b9df38ca86fef45b0d176a02cd7c3eda7df710615/trials/a98d7e04f86a1cbb20651ce692b6fa42d7ea7a6dd127c588e598fc85f5ad16b7/issues.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "31c1e17a66a2064be40117267d805de3fe291c51e05993585938f167fd0b0883",
+      "old_crlf_count": 83,
+      "old_sha256": "61c947b90a2d9b1317ab6a55359ecff99a10bf575824105783398a2b5fe09ffe",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9e566898347dc62b5a0bb06b9df38ca86fef45b0d176a02cd7c3eda7df710615/trials/a98d7e04f86a1cbb20651ce692b6fa42d7ea7a6dd127c588e598fc85f5ad16b7/metrics.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "e6c6389d156a333157ee86fa8290af5e9ceed1f9b3b8e45506bca8312bb58765",
+      "old_crlf_count": 72,
+      "old_sha256": "d1a1e46d37eef0e25c1e267ddcf7b2445528470e0f1a2f0f9c039766be996f07",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9e566898347dc62b5a0bb06b9df38ca86fef45b0d176a02cd7c3eda7df710615/trials/a98d7e04f86a1cbb20651ce692b6fa42d7ea7a6dd127c588e598fc85f5ad16b7/trial.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "b9d1c4d9ba7a7f967bb0c49498b6781d7293c6b40b21f344e3477bc2c01056dc",
+      "old_crlf_count": 23,
+      "old_sha256": "2e4fe0077924f6af8b1451cb2a7ba3ebc322bece9216cd183a8c1c12cd44aad9",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9e566898347dc62b5a0bb06b9df38ca86fef45b0d176a02cd7c3eda7df710615/trials/c08d2c8c19f4fccd23b6bc67cc67c94a3694e2b3c290c828e0ab6777bfb24eda/evaluator-output.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "f3d147e7894dc438f8d3355e20b2533877cb30b7b6c19116a04929ebb251a35b",
+      "old_crlf_count": 13,
+      "old_sha256": "05ee1509c4afc5c10f6fb46f8d33942269578b8576238e5d801a8474e6bf6119",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9e566898347dc62b5a0bb06b9df38ca86fef45b0d176a02cd7c3eda7df710615/trials/c08d2c8c19f4fccd23b6bc67cc67c94a3694e2b3c290c828e0ab6777bfb24eda/issues.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "f4a2324de9e53b332204d6e87f9b74d6159865d2f1e995577deba19fe249eb2e",
+      "old_crlf_count": 83,
+      "old_sha256": "c5e13cc4fffa954525e0514698ab352d8218358722a5cbc951d01398ad5d9beb",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9e566898347dc62b5a0bb06b9df38ca86fef45b0d176a02cd7c3eda7df710615/trials/c08d2c8c19f4fccd23b6bc67cc67c94a3694e2b3c290c828e0ab6777bfb24eda/metrics.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "96dbfbca1345a0a9ea33727660bae3c5fb88788a4729038416c5acf548c2fed4",
+      "old_crlf_count": 72,
+      "old_sha256": "9464667b2f0713d71e0f81ea283f31a9dc30d03f5490d35a18f2f2df67189e99",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9e566898347dc62b5a0bb06b9df38ca86fef45b0d176a02cd7c3eda7df710615/trials/c08d2c8c19f4fccd23b6bc67cc67c94a3694e2b3c290c828e0ab6777bfb24eda/trial.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "e04193ed77789791510ad47d1c3a096dffebc915146aff3916c60232090f933d",
+      "old_crlf_count": 23,
+      "old_sha256": "69498b5e83629d7d8fa5c296ce83625423087dc38c2bbc691bee7839e75c25e9",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9e566898347dc62b5a0bb06b9df38ca86fef45b0d176a02cd7c3eda7df710615/trials/dc8e30962d183ae53cd697fd005903d3a65b0dfe7d57e2cc8c01b88357907733/evaluator-output.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "f3d147e7894dc438f8d3355e20b2533877cb30b7b6c19116a04929ebb251a35b",
+      "old_crlf_count": 13,
+      "old_sha256": "05ee1509c4afc5c10f6fb46f8d33942269578b8576238e5d801a8474e6bf6119",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9e566898347dc62b5a0bb06b9df38ca86fef45b0d176a02cd7c3eda7df710615/trials/dc8e30962d183ae53cd697fd005903d3a65b0dfe7d57e2cc8c01b88357907733/issues.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "e3a94b9ce43dbe72cdeb2e32bda14717d3fbd65b689a839c936db6052ba9d32c",
+      "old_crlf_count": 83,
+      "old_sha256": "465af38040f7e7b8ee5130104d103a2c298d8b41fc26a488e888d5432cd4346e",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9e566898347dc62b5a0bb06b9df38ca86fef45b0d176a02cd7c3eda7df710615/trials/dc8e30962d183ae53cd697fd005903d3a65b0dfe7d57e2cc8c01b88357907733/metrics.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "066ee9ae903ce3604e661e0cf17b5639213c684e1cdc0924827e2d76ec5bf062",
+      "old_crlf_count": 72,
+      "old_sha256": "ec3e8756198e4b29f8ee01b4dd8a80f7d00334489be5b5cf54a963b74d314ad5",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9e566898347dc62b5a0bb06b9df38ca86fef45b0d176a02cd7c3eda7df710615/trials/dc8e30962d183ae53cd697fd005903d3a65b0dfe7d57e2cc8c01b88357907733/trial.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "0c14eaad36cd70925052438def81a611e3580a04865ff224e745a812ea3c662e",
+      "old_crlf_count": 23,
+      "old_sha256": "32c9583585b97369f603d1f938b505a13d9643e2eff8d82d64e4362884fc7be9",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9e566898347dc62b5a0bb06b9df38ca86fef45b0d176a02cd7c3eda7df710615/trials/ffa28bb95210e395e9376f7926ad42ee47f7e2009c48384100f488c01ed48650/evaluator-output.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "f3d147e7894dc438f8d3355e20b2533877cb30b7b6c19116a04929ebb251a35b",
+      "old_crlf_count": 13,
+      "old_sha256": "05ee1509c4afc5c10f6fb46f8d33942269578b8576238e5d801a8474e6bf6119",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9e566898347dc62b5a0bb06b9df38ca86fef45b0d176a02cd7c3eda7df710615/trials/ffa28bb95210e395e9376f7926ad42ee47f7e2009c48384100f488c01ed48650/issues.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "d84c497b067ff25f5e3e9868cf9354665352cd48bb66876472ac4274bacb10af",
+      "old_crlf_count": 83,
+      "old_sha256": "09998ae9d0fafe07d753e2864c6c5ff5680e507768874ef682d37fc0d1c78f22",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9e566898347dc62b5a0bb06b9df38ca86fef45b0d176a02cd7c3eda7df710615/trials/ffa28bb95210e395e9376f7926ad42ee47f7e2009c48384100f488c01ed48650/metrics.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "217cfccb051628afdabdcd56aea210659a2e3006171c9284e1845113c0875989",
+      "old_crlf_count": 72,
+      "old_sha256": "5add8efe08e6b567151ed69918dfaa24f4a0b6733a308e744b9daa85e8ec3d5f",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/9e566898347dc62b5a0bb06b9df38ca86fef45b0d176a02cd7c3eda7df710615/trials/ffa28bb95210e395e9376f7926ad42ee47f7e2009c48384100f488c01ed48650/trial.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "8798086ca7b6c9b12233faf04b7e064b828602048c3f9946a4989d8fd9acefa4",
+      "old_crlf_count": 71,
+      "old_sha256": "69f69d4949bd281498d2164c3cfeffb7e19acdc5f97ad4286009f5761b340f63",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8/checkpoint.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "918c625000e9d60ab20a0d30738e2516ef62c0d57fb7d3efd918d927f5e1841e",
+      "old_crlf_count": 330,
+      "old_sha256": "d73c4f1ef52125c82c3521d1639af0140ba3feb356585d080cf5714d1bfc4f40",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8/experiment.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "4461f4b7debe526e895432baaceb4930db86adb9b0dc6163ac5fa0c96a26572d",
+      "old_crlf_count": 27,
+      "old_sha256": "9c65f42409365abba86af47d591c54ab6453df074006a3f341c16befb466fff7",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8/trials/4bb9bb4e1989fddb3e869db8fa3e9f8187b362fca5e513a20d402a0b4b5e2af8/evaluator-output.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "718271f4db421f6a083468f5f71add9aa55835b2d7992943f81aa6332ba38daf",
+      "old_crlf_count": 15,
+      "old_sha256": "1257e11f21074d62c23fe744aa1c680f6052bda443b684207d60fdad78ba6af2",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8/trials/4bb9bb4e1989fddb3e869db8fa3e9f8187b362fca5e513a20d402a0b4b5e2af8/issues.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "804a9bccd7421a849226c72093a1f80be048bf6433936075f2ffb0136652e9d8",
+      "old_crlf_count": 50,
+      "old_sha256": "0d6e9b5a214a753bf9c9c3aeaf7992c3f6f1a01f5f685d20ea4d0f6a93533568",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8/trials/4bb9bb4e1989fddb3e869db8fa3e9f8187b362fca5e513a20d402a0b4b5e2af8/metrics.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "72cc790ef4a8dc5790e8b0bb7cfb27dbac392063cb473830ca15457f0e806b9b",
+      "old_crlf_count": 73,
+      "old_sha256": "9118b44f528610f5558046b4f81760a4f5d964376eaac2e862d48e3148bda495",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8/trials/4bb9bb4e1989fddb3e869db8fa3e9f8187b362fca5e513a20d402a0b4b5e2af8/trial.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "195977bd7d8a92f5293db1f519290af1a5e8e77b8c3f69a241ee0f0f30c707d4",
+      "old_crlf_count": 27,
+      "old_sha256": "b1a23468c1b157ff2a7ca82d8a6e6f1ded3aba8b644b0645a54107ea3c711374",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8/trials/4cd49bfe40377ae29a4e757a84e769944029052492acb2ae143ab3a2e6d87af2/evaluator-output.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "718271f4db421f6a083468f5f71add9aa55835b2d7992943f81aa6332ba38daf",
+      "old_crlf_count": 15,
+      "old_sha256": "1257e11f21074d62c23fe744aa1c680f6052bda443b684207d60fdad78ba6af2",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8/trials/4cd49bfe40377ae29a4e757a84e769944029052492acb2ae143ab3a2e6d87af2/issues.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "806a7870825262a1833978b10b8b0038998bff5cb9ef72e9c12d049dc5bcff83",
+      "old_crlf_count": 50,
+      "old_sha256": "6a6beb40b27a4124599f078b73f3834fe95052da3f9e1d9fa12ccb2cbbb187d2",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8/trials/4cd49bfe40377ae29a4e757a84e769944029052492acb2ae143ab3a2e6d87af2/metrics.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "2a8b88dfcfc870e925084f0f0939e54db10b27f78eafac52aec028b0a9c3c82f",
+      "old_crlf_count": 73,
+      "old_sha256": "b9ccc978a33e15f6170ff6af402a3dd1a9584ddd63afe864a512c37789381d68",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8/trials/4cd49bfe40377ae29a4e757a84e769944029052492acb2ae143ab3a2e6d87af2/trial.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "39f8ec95ed9c1bccccbf22b1c5218d0f23cce69c798c01981aba97023749b259",
+      "old_crlf_count": 27,
+      "old_sha256": "d8000e86c068c660427539cb1c20acf7bd7ab779915f87e647e990821e2e6647",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8/trials/71ed6be2221f18cb962d7e40cd9a49ba5c6559335d19c9969eab629b6d36e52b/evaluator-output.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "718271f4db421f6a083468f5f71add9aa55835b2d7992943f81aa6332ba38daf",
+      "old_crlf_count": 15,
+      "old_sha256": "1257e11f21074d62c23fe744aa1c680f6052bda443b684207d60fdad78ba6af2",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8/trials/71ed6be2221f18cb962d7e40cd9a49ba5c6559335d19c9969eab629b6d36e52b/issues.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "6f4ab230b96c1e355eeefd8158c68fedcb6700f5d2a0c20e5453ad1a8d5b1ea6",
+      "old_crlf_count": 50,
+      "old_sha256": "7a716b4cc214dc4315e7b102f240748315434692fdc0f1d312deba99f1e26454",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8/trials/71ed6be2221f18cb962d7e40cd9a49ba5c6559335d19c9969eab629b6d36e52b/metrics.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "47de99106c06edbd86d944e5ddbd7996d65b54ce314d3d479e6f5dcc52177622",
+      "old_crlf_count": 73,
+      "old_sha256": "10afb9e81ad840bc1ea778a84c6b3cfee3cd43ffbcc883c540ae99009926ac8a",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8/trials/71ed6be2221f18cb962d7e40cd9a49ba5c6559335d19c9969eab629b6d36e52b/trial.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "488122eec5e05784bc0a8f9eecd61b56c8697dc2fe0a66ef642401cbdd9faeb8",
+      "old_crlf_count": 27,
+      "old_sha256": "48a5291b57deb8a26a10aa1a5095c2ef3c168be3d4fe2d1acd297d11cd340724",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8/trials/7e895043cb1942fad93203bbdcdb738e4d07bc69fa9557e20f2ba57305f14d2f/evaluator-output.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "718271f4db421f6a083468f5f71add9aa55835b2d7992943f81aa6332ba38daf",
+      "old_crlf_count": 15,
+      "old_sha256": "1257e11f21074d62c23fe744aa1c680f6052bda443b684207d60fdad78ba6af2",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8/trials/7e895043cb1942fad93203bbdcdb738e4d07bc69fa9557e20f2ba57305f14d2f/issues.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "18d5cbdf8afbef4c2c49fed8c53c6e7310a77387a7b2398bee422c1fcdc31965",
+      "old_crlf_count": 50,
+      "old_sha256": "b4c16623054554233336aac5b14dee107d28255eff7ddba55f7858e4bcb51cd4",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8/trials/7e895043cb1942fad93203bbdcdb738e4d07bc69fa9557e20f2ba57305f14d2f/metrics.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "58032f3d8670344ff34d3ba18cf362b6e95042f20a9f85c539b985e9e6abf5a7",
+      "old_crlf_count": 73,
+      "old_sha256": "1f90dbba42343664e5f713c145832b281a92937d0e669df98c8c63c7a06c1044",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8/trials/7e895043cb1942fad93203bbdcdb738e4d07bc69fa9557e20f2ba57305f14d2f/trial.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "39f8ec95ed9c1bccccbf22b1c5218d0f23cce69c798c01981aba97023749b259",
+      "old_crlf_count": 27,
+      "old_sha256": "d8000e86c068c660427539cb1c20acf7bd7ab779915f87e647e990821e2e6647",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8/trials/96ecb7541e0b1663123661aea11700e13165a37052dbcaea97ce2c9a0da714b0/evaluator-output.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "718271f4db421f6a083468f5f71add9aa55835b2d7992943f81aa6332ba38daf",
+      "old_crlf_count": 15,
+      "old_sha256": "1257e11f21074d62c23fe744aa1c680f6052bda443b684207d60fdad78ba6af2",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8/trials/96ecb7541e0b1663123661aea11700e13165a37052dbcaea97ce2c9a0da714b0/issues.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "6f4ab230b96c1e355eeefd8158c68fedcb6700f5d2a0c20e5453ad1a8d5b1ea6",
+      "old_crlf_count": 50,
+      "old_sha256": "7a716b4cc214dc4315e7b102f240748315434692fdc0f1d312deba99f1e26454",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8/trials/96ecb7541e0b1663123661aea11700e13165a37052dbcaea97ce2c9a0da714b0/metrics.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "047d34af94a10d1e914a74b6cb6f50996780f00e6d5f3c50b04efb1ffcedadcc",
+      "old_crlf_count": 73,
+      "old_sha256": "ab276756a7e5a6373938a198b23b0b4df7fdd7f422944c7d897741e49d10d196",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8/trials/96ecb7541e0b1663123661aea11700e13165a37052dbcaea97ce2c9a0da714b0/trial.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "488122eec5e05784bc0a8f9eecd61b56c8697dc2fe0a66ef642401cbdd9faeb8",
+      "old_crlf_count": 27,
+      "old_sha256": "48a5291b57deb8a26a10aa1a5095c2ef3c168be3d4fe2d1acd297d11cd340724",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8/trials/b8f38634ce61028980cd2471d74caaaae3176223f3f9ead93ed64f62e6cf4540/evaluator-output.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "718271f4db421f6a083468f5f71add9aa55835b2d7992943f81aa6332ba38daf",
+      "old_crlf_count": 15,
+      "old_sha256": "1257e11f21074d62c23fe744aa1c680f6052bda443b684207d60fdad78ba6af2",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8/trials/b8f38634ce61028980cd2471d74caaaae3176223f3f9ead93ed64f62e6cf4540/issues.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "18d5cbdf8afbef4c2c49fed8c53c6e7310a77387a7b2398bee422c1fcdc31965",
+      "old_crlf_count": 50,
+      "old_sha256": "b4c16623054554233336aac5b14dee107d28255eff7ddba55f7858e4bcb51cd4",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8/trials/b8f38634ce61028980cd2471d74caaaae3176223f3f9ead93ed64f62e6cf4540/metrics.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "8e923d2b2415ecee35566daee611ef8eeec3409675b72e6f6cad36ddaabc5283",
+      "old_crlf_count": 73,
+      "old_sha256": "3173fef1acb94aef02ffc7813b44409539287c77e50613f52cc028209e9f6be7",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8/trials/b8f38634ce61028980cd2471d74caaaae3176223f3f9ead93ed64f62e6cf4540/trial.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "4461f4b7debe526e895432baaceb4930db86adb9b0dc6163ac5fa0c96a26572d",
+      "old_crlf_count": 27,
+      "old_sha256": "9c65f42409365abba86af47d591c54ab6453df074006a3f341c16befb466fff7",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8/trials/dba797d39c49672f012f352d6f197ac2d3e7c758e92b1df248d7b0c9c95fec16/evaluator-output.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "718271f4db421f6a083468f5f71add9aa55835b2d7992943f81aa6332ba38daf",
+      "old_crlf_count": 15,
+      "old_sha256": "1257e11f21074d62c23fe744aa1c680f6052bda443b684207d60fdad78ba6af2",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8/trials/dba797d39c49672f012f352d6f197ac2d3e7c758e92b1df248d7b0c9c95fec16/issues.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "804a9bccd7421a849226c72093a1f80be048bf6433936075f2ffb0136652e9d8",
+      "old_crlf_count": 50,
+      "old_sha256": "0d6e9b5a214a753bf9c9c3aeaf7992c3f6f1a01f5f685d20ea4d0f6a93533568",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8/trials/dba797d39c49672f012f352d6f197ac2d3e7c758e92b1df248d7b0c9c95fec16/metrics.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "17d2902723eac2086d3bff464fb4ca0782d629fa7a1df699a02f96569e089d91",
+      "old_crlf_count": 73,
+      "old_sha256": "22c96c3bfe4194595bee750dfa5a15b8bec6c8f960e0e2258a4a44dc61f7767e",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8/trials/dba797d39c49672f012f352d6f197ac2d3e7c758e92b1df248d7b0c9c95fec16/trial.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "bd5e12ae4e941dac4bcc0144d38ee4b2fadfe7fe829e39775b5296bf83a68b11",
+      "old_crlf_count": 27,
+      "old_sha256": "a2ba94aa7368c5ef4ba568a9b1151f7838a10671971cb24a4d46b7aaf84cb397",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8/trials/f1c5818220c3c844bac6bfbf4bf3e3aa03c333247bdcbcad272ebb8e114a97db/evaluator-output.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "718271f4db421f6a083468f5f71add9aa55835b2d7992943f81aa6332ba38daf",
+      "old_crlf_count": 15,
+      "old_sha256": "1257e11f21074d62c23fe744aa1c680f6052bda443b684207d60fdad78ba6af2",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8/trials/f1c5818220c3c844bac6bfbf4bf3e3aa03c333247bdcbcad272ebb8e114a97db/issues.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "ec68b3e41b254b2820ee0f03df53a92a98b9a612f41ff1716b7a08d369ed7723",
+      "old_crlf_count": 50,
+      "old_sha256": "136ab21bb54db68940f69fae140baa9c51a117bc7b9673e7dcf9260d63320567",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8/trials/f1c5818220c3c844bac6bfbf4bf3e3aa03c333247bdcbcad272ebb8e114a97db/metrics.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "ef170ddd71612d3190e7477bcc535bebda3f775e275e238cf172fb837f408e97",
+      "old_crlf_count": 73,
+      "old_sha256": "fb91e4fdd3036b2f2ae01b9db6d931dba652781e2a9c332e10ab66ec1d724b4e",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8/trials/f1c5818220c3c844bac6bfbf4bf3e3aa03c333247bdcbcad272ebb8e114a97db/trial.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "38b45c7fcfe189993d7873c0147659bb203429c180df9cedab3c72f5180b57ee",
+      "old_crlf_count": 27,
+      "old_sha256": "71c6ce925395d85fc88a27c07efcd66f9c2e1c6e011f98d5e822f4a41acb5c07",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8/trials/f76adbe49fb5c3cc780bdd374a867414a591794a17033c529d6e6997303b58b4/evaluator-output.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "718271f4db421f6a083468f5f71add9aa55835b2d7992943f81aa6332ba38daf",
+      "old_crlf_count": 15,
+      "old_sha256": "1257e11f21074d62c23fe744aa1c680f6052bda443b684207d60fdad78ba6af2",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8/trials/f76adbe49fb5c3cc780bdd374a867414a591794a17033c529d6e6997303b58b4/issues.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "9991f0c21d7ee832a662ea9d4da2ea8c3b796750235ab5d538f62fc16c4cd4da",
+      "old_crlf_count": 50,
+      "old_sha256": "e154b96acf29f7928204fa040e5a895a6600f977536e2dec1b5f3f630d318151",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8/trials/f76adbe49fb5c3cc780bdd374a867414a591794a17033c529d6e6997303b58b4/metrics.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "143e4a20191f6cf055650ef6e1cc63dac96d8e30e2f09c2ee3fa769bed82cc9f",
+      "old_crlf_count": 73,
+      "old_sha256": "c1e1ddd496894e5f50b584d606f9332f5bfa22a84803e265340233f92568214a",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/a0b8e79265f50374ff7b5f3cbb3c4921ac73ce19ded4c458e2c2bd98599a52b8/trials/f76adbe49fb5c3cc780bdd374a867414a591794a17033c529d6e6997303b58b4/trial.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "c5e24d822a2f2c5b5ea96c57434495976075b0bdbac5663ace5e671962754bf8",
+      "old_crlf_count": 44,
+      "old_sha256": "db172824264bd9d6710f579e163a9aacf471873bcd872911e362d89cbd28a63e",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/b1e32812d86844452c816645738c69168f51634c0a1a9a845a7553294c5af846/checkpoint.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "2f702d475ebead68cec65f4df67524cff772cf95e448dcc7d6735f20e47b0813",
+      "old_crlf_count": 364,
+      "old_sha256": "9814c49c9a7dfc033b85b1b80b98c3fcbe2faff1e4fa647f79764f35445997f8",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/b1e32812d86844452c816645738c69168f51634c0a1a9a845a7553294c5af846/experiment.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "be93b21f21aa95fcb6344f098b335d458f656f9c7215165559087db89e2335ff",
+      "old_crlf_count": 15,
+      "old_sha256": "719325716ef3113f5d35e03dc6dae391d19476c3ab42c97f5be41b22dc77cc78",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/b1e32812d86844452c816645738c69168f51634c0a1a9a845a7553294c5af846/trials/0215c3de45dbc332f22d6db3a9e90cfb3ba21dbbbba13cb2b6440e84da0607bd/evaluator-output.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "c7b3a8fdbe98d5316f1ae6752c086f430fffa15c9e1bc6a4547f13cbf2211ab6",
+      "old_crlf_count": 11,
+      "old_sha256": "f650913cde73f5355a3b856f58c1ec40e5eba337f3f03e36a684aa185f4981e3",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/b1e32812d86844452c816645738c69168f51634c0a1a9a845a7553294c5af846/trials/0215c3de45dbc332f22d6db3a9e90cfb3ba21dbbbba13cb2b6440e84da0607bd/issues.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "5ff645c193cae4ac0c434aaba1a449be50a38273505e37e7a17ac4699eac79ea",
+      "old_crlf_count": 59,
+      "old_sha256": "06568b420a9b31f5d4f0adc056c20d5f9f8c44c21080431b922e44e7e7ecd9a0",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/b1e32812d86844452c816645738c69168f51634c0a1a9a845a7553294c5af846/trials/0215c3de45dbc332f22d6db3a9e90cfb3ba21dbbbba13cb2b6440e84da0607bd/metrics.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "08329641289cefbd7d3f02ae571619a4474512195c952d7c0e8decaa7b332e4d",
+      "old_crlf_count": 55,
+      "old_sha256": "ab4187cfbb5f0faf99c6c71e5dc15340467acbaf80fa932707ff3135a538e3b2",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/b1e32812d86844452c816645738c69168f51634c0a1a9a845a7553294c5af846/trials/0215c3de45dbc332f22d6db3a9e90cfb3ba21dbbbba13cb2b6440e84da0607bd/trial.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "be93b21f21aa95fcb6344f098b335d458f656f9c7215165559087db89e2335ff",
+      "old_crlf_count": 15,
+      "old_sha256": "719325716ef3113f5d35e03dc6dae391d19476c3ab42c97f5be41b22dc77cc78",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/b1e32812d86844452c816645738c69168f51634c0a1a9a845a7553294c5af846/trials/1ec56cf1423dcc40e3c35732c713862c455ca91e709675192da90866affec18f/evaluator-output.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "c7b3a8fdbe98d5316f1ae6752c086f430fffa15c9e1bc6a4547f13cbf2211ab6",
+      "old_crlf_count": 11,
+      "old_sha256": "f650913cde73f5355a3b856f58c1ec40e5eba337f3f03e36a684aa185f4981e3",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/b1e32812d86844452c816645738c69168f51634c0a1a9a845a7553294c5af846/trials/1ec56cf1423dcc40e3c35732c713862c455ca91e709675192da90866affec18f/issues.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "5ff645c193cae4ac0c434aaba1a449be50a38273505e37e7a17ac4699eac79ea",
+      "old_crlf_count": 59,
+      "old_sha256": "06568b420a9b31f5d4f0adc056c20d5f9f8c44c21080431b922e44e7e7ecd9a0",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/b1e32812d86844452c816645738c69168f51634c0a1a9a845a7553294c5af846/trials/1ec56cf1423dcc40e3c35732c713862c455ca91e709675192da90866affec18f/metrics.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "28d4fa1fddb2538144f0341b11df946d2484c6677ed9a571510949abc2e6cf21",
+      "old_crlf_count": 55,
+      "old_sha256": "5d68858fa60d22d4961d4bf1cb4a6156854c33d85864d476aec444ce223488a0",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/b1e32812d86844452c816645738c69168f51634c0a1a9a845a7553294c5af846/trials/1ec56cf1423dcc40e3c35732c713862c455ca91e709675192da90866affec18f/trial.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "8dbde69e9bb885026a97c4b8869024eb0e223a081f01a8c6cbe68903e22dc5ee",
+      "old_crlf_count": 15,
+      "old_sha256": "9cfc2f5033a55692108d054f43f29233e42e5a135841ec98a8d1f669e99d5036",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/b1e32812d86844452c816645738c69168f51634c0a1a9a845a7553294c5af846/trials/243032073343b5a6a47a5435e43d53ce709f3a855d7a9a2e1ad08589f158c4d4/evaluator-output.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "c7b3a8fdbe98d5316f1ae6752c086f430fffa15c9e1bc6a4547f13cbf2211ab6",
+      "old_crlf_count": 11,
+      "old_sha256": "f650913cde73f5355a3b856f58c1ec40e5eba337f3f03e36a684aa185f4981e3",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/b1e32812d86844452c816645738c69168f51634c0a1a9a845a7553294c5af846/trials/243032073343b5a6a47a5435e43d53ce709f3a855d7a9a2e1ad08589f158c4d4/issues.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "c0759bbeb519f4799c84ca34f1c70bc31b4957d183b67ab986488e1df49ae83d",
+      "old_crlf_count": 59,
+      "old_sha256": "b23b57727dd168502ba383f261668edf034b016d51c9055f59259251ec63926d",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/b1e32812d86844452c816645738c69168f51634c0a1a9a845a7553294c5af846/trials/243032073343b5a6a47a5435e43d53ce709f3a855d7a9a2e1ad08589f158c4d4/metrics.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "07e3c4337a62002c1569872b35cfbddee6e7b8915e732ded8688e7305313f30d",
+      "old_crlf_count": 55,
+      "old_sha256": "923e006e9b2f5f3e764caaf8f31a176664ea62e745129ec5471eadd70cd9d0de",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/b1e32812d86844452c816645738c69168f51634c0a1a9a845a7553294c5af846/trials/243032073343b5a6a47a5435e43d53ce709f3a855d7a9a2e1ad08589f158c4d4/trial.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "efe59dc588b86fee0f678155d795769cf88d1f2096410a671939a4d8511b02b4",
+      "old_crlf_count": 15,
+      "old_sha256": "76ff922611bab0461e46accdd10db3d023120954d82240aa5f330d27e7a25513",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/b1e32812d86844452c816645738c69168f51634c0a1a9a845a7553294c5af846/trials/da3f1758b14f24eadeeade012b7ed36e3641d21dfd0847cfd5fa2d97530b8e0d/evaluator-output.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "c7b3a8fdbe98d5316f1ae6752c086f430fffa15c9e1bc6a4547f13cbf2211ab6",
+      "old_crlf_count": 11,
+      "old_sha256": "f650913cde73f5355a3b856f58c1ec40e5eba337f3f03e36a684aa185f4981e3",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/b1e32812d86844452c816645738c69168f51634c0a1a9a845a7553294c5af846/trials/da3f1758b14f24eadeeade012b7ed36e3641d21dfd0847cfd5fa2d97530b8e0d/issues.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "99b1c5a6c9e33a3559f17484356bb6cb14a307d63fac9c0d08756157035459fb",
+      "old_crlf_count": 59,
+      "old_sha256": "c6c2c50a0d41f9b6598390405e7598a28e86dafaf6e93cc35f30e2a1937716e3",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/b1e32812d86844452c816645738c69168f51634c0a1a9a845a7553294c5af846/trials/da3f1758b14f24eadeeade012b7ed36e3641d21dfd0847cfd5fa2d97530b8e0d/metrics.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "0c6e817c525b6612f930ac4eee2fb380c201640b3fe8aafa986093282f634513",
+      "old_crlf_count": 55,
+      "old_sha256": "83608ebccff962bbe555b31886259e4684c76cb93a87a3dc4082d7c980700461",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/b1e32812d86844452c816645738c69168f51634c0a1a9a845a7553294c5af846/trials/da3f1758b14f24eadeeade012b7ed36e3641d21dfd0847cfd5fa2d97530b8e0d/trial.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "8aaabfd1016b13ff384ef6a44baa8e5718e2daf974ff7d08beb1d330c1daa37a",
+      "old_crlf_count": 31,
+      "old_sha256": "161b584b6f2133a3d1fec54a5205dc8de91d2cd611c6afc01da47e7cb2eb911c",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/d81f13b1d0bc571b5d1ff72624868552f26e45c03e0ca16142c4393844a53caa/checkpoint.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "ee0c1e8073134cf75b1382f76d607545f47c45b0f2cd804c77bc2389e7aca013",
+      "old_crlf_count": 232,
+      "old_sha256": "87bbeb24343c5baf56cbf711c85b782b7623f34af46ec8abb30755d4eeb99ca1",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/d81f13b1d0bc571b5d1ff72624868552f26e45c03e0ca16142c4393844a53caa/experiment.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "9b726a782daab2ce6efff90b851031836a223f49b2732f5640b1e99ba6719394",
+      "old_crlf_count": 12,
+      "old_sha256": "135a0ad26c498405e8bdbd4592fadf30a3f52c8a2cf9786f897ec452983ae868",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/d81f13b1d0bc571b5d1ff72624868552f26e45c03e0ca16142c4393844a53caa/trials/c761db97583f8d0b7ad9c7eb997efa17bf77fdc367d0ef22894088ee41dbe885/evaluator-output.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "f3d147e7894dc438f8d3355e20b2533877cb30b7b6c19116a04929ebb251a35b",
+      "old_crlf_count": 13,
+      "old_sha256": "05ee1509c4afc5c10f6fb46f8d33942269578b8576238e5d801a8474e6bf6119",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/d81f13b1d0bc571b5d1ff72624868552f26e45c03e0ca16142c4393844a53caa/trials/c761db97583f8d0b7ad9c7eb997efa17bf77fdc367d0ef22894088ee41dbe885/issues.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "165ab763b55aad3f99e7df57cbb3b3a53bc20af32be8c94fd3e65ce09a8d69b6",
+      "old_crlf_count": 26,
+      "old_sha256": "1b7f1e709eef78d8d02797637761a4dfebaae6329d3cae3430ce68570eaf7b53",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/d81f13b1d0bc571b5d1ff72624868552f26e45c03e0ca16142c4393844a53caa/trials/c761db97583f8d0b7ad9c7eb997efa17bf77fdc367d0ef22894088ee41dbe885/metrics.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "c1634d6c4578a8006624966681981eaef0bd331ba773beadc63812cc95bca1ae",
+      "old_crlf_count": 66,
+      "old_sha256": "f493e0724f341b4c8466f2f58385fb6ff8fbeb987a6a864b8f51070ac875ff64",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/experiments/run_017/d81f13b1d0bc571b5d1ff72624868552f26e45c03e0ca16142c4393844a53caa/trials/c761db97583f8d0b7ad9c7eb997efa17bf77fdc367d0ef22894088ee41dbe885/trial.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "be7ff4dc07c3a60fea13d7847da0ffec8d432f731e3a79bcf286c31c4d18df15",
+      "old_crlf_count": 15752,
+      "old_sha256": "3484c454697d2120fbd5906c74cdf03b3c3debbc0e00080d1b3917cbb5c4c078",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/feedback_policy_interface/run_016/MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_016_FEEDBACK_POLICY_INTERFACE_ONLY_baseline_replay_replay_package.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "55a76d9b519ad79b62a86c4265dc456f4d1889625182f16af52751af042d44bb",
+      "old_crlf_count": 4308,
+      "old_sha256": "b507f5c3b654fefd1550788edd7b5aa7f89d082c07453a14277faebafa153684",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/feedback_policy_interface/run_016/MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_016_FEEDBACK_POLICY_INTERFACE_ONLY_deterministic_noise_replay_package.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "50587b3b3a932ffc38ccd80001ae2be463e03b82e7278c87970dc70a9399da43",
+      "old_crlf_count": 3114,
+      "old_sha256": "bc263502aa4b0f18974cdbdece0720c29c6828297bc67a4f437ffb049a8bc423",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/feedback_policy_interface/run_016/MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_016_FEEDBACK_POLICY_INTERFACE_ONLY_infeasible_action_replay_package.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "2a9edfb5fc19ec6a0ead265b0dc88e5a7d849784104e37d06e7d129c3cb240ab",
+      "old_crlf_count": 664,
+      "old_sha256": "d36be8009b7bc7bfa1998a7489abf68939ce45821082d7fa385b068a86cba7cd",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/feedback_policy_interface/run_016/MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_016_FEEDBACK_POLICY_INTERFACE_ONLY_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "e6186012a635622d11469e3d464b71581315a16956518820c625d9bf0b4800ca",
+      "old_crlf_count": 4402,
+      "old_sha256": "ca54ddb110e6b512e0dceab779f63aa7a28dff4abc03c345d427b0e6552ed6a2",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/feedback_policy_interface/run_016/MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_016_FEEDBACK_POLICY_INTERFACE_ONLY_oracle_affine_FULL_STATE_ORACLE_SIMULATION_ONLY_NOT_APPARATUS_REALIZABLE_replay_package.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "222eb10a29556dddac2de170253f141075e3c3247a75dbbe3ec9f7c0c76ea8d0",
+      "old_crlf_count": 4169,
+      "old_sha256": "51653d353db044a68fd9d283e573cf486af1005a00f6e548e98e4caeaec11862",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/feedback_policy_interface/run_016/MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_016_FEEDBACK_POLICY_INTERFACE_ONLY_partial_delayed_replay_package.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "87d4a9ebe3b364871cb588892c93d2c88748c2f0ea1bd31db8cd45cc195849bb",
+      "old_crlf_count": 1075,
+      "old_sha256": "eb0814492e8a3166e58a54f444655cb365e87a40a01bec4e2b494e4697182814",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/force_fields/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_post_handoff_trap_3_plus_1_run_010_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "9a1810d1070e19e59228713c9e1788344c6e4c9145d0e49e6883725a7bc7974f",
+      "old_crlf_count": 1076,
+      "old_sha256": "4622064509b2e290c9f0cf052111f6031add462e97c0aa7c22653a471abc3ad4",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/force_fields/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_FORCE_FIELD_INTERPOLATION_VALIDATION_ONLY_pre_handoff_chirp_3_run_010_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "ba111aa9d81129c900b04270c075a461a35edcc5b5073ab6280f7ff245dfe284",
+      "old_crlf_count": 394,
+      "old_sha256": "4ac2d6a5ede155fb8bc7809ec471df52ae6cfd6464b0f5c4903d93cc82dc02f6",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/molecular_model_audit/run_011c/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_accepted_molecular_matrices_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "5a0183888113bc625efe0ad3e48416bdd953f5e6f4dded15e53d56c9bfd491d0",
+      "old_crlf_count": 2429,
+      "old_sha256": "b3290635bfe108130cef3ac13454895e45bb5ba69a985810963c3052b8532767",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/molecular_model_audit/run_011c/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "d27692bf9a72818420f7a4d72596462eddcd5e1c7d30a2968c4b104d986e509f",
+      "old_crlf_count": 4622,
+      "old_sha256": "eba5884450c5cf74b0adc9f92a7672df515d1f93a6acd2870886d4904649a9ed",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/molecular_model_audit/run_011c/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_state_resolved_diagnostics.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "a299393467a0752777f4f7d4a90611cb6641dfcf4478fd1bf1f06f4ded7e3270",
+      "old_crlf_count": 31,
+      "old_sha256": "712f79f5e99107c8e81513c840399c497438e20adca3b30cc9a916f216ca1f02",
+      "parsed_content_equivalent": null,
+      "path": "outputs/provisional/molecular_model_audit/run_011c/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011C_PLANE_WAVE_MOLECULAR_MODEL_DIFFERENTIAL_AUDIT_ONLY_transition_ledger.csv"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "9a0b46083c694171c806d59174188029764899e236d7d37f4749b3069eb736ba",
+      "old_crlf_count": 562,
+      "old_sha256": "4edef83e93bd94e7eab9a3769ce7c5b6fed50afc21cb2593bf94abfb645252a2",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/molecular_model_audit/run_011d/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY_basis_rephasing_and_polarization_audit.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "c03afe6132911689fa959522e30579e65e04ed2b7502da93ee7ff93b8fb195a7",
+      "old_crlf_count": 243,
+      "old_sha256": "fb34b3e7a0bbfd582179548f82a930705c46c444476f3d0a5f29de39a57b5f21",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/molecular_model_audit/run_011d/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY_dtype_and_imaginary_content_ledger.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "460e34e1d1340ace13e85ec8a22dc5d91a7a8803ace8bacaea919a0aa1e34876",
+      "old_crlf_count": 574,
+      "old_sha256": "daa9079ccafd1e7808eb33faaf8775f7894213a4967ef0b40f352528a6199ea6",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/molecular_model_audit/run_011d/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "dfc73c3cd9df9d8d10c5714e5b15783df79a40ef7115b4eaee7b06431ca19d53",
+      "old_crlf_count": 3666,
+      "old_sha256": "e5901a93110d04ee8ddcff1e7e8c02f6d2b810af55ac31cab0bb4cbb0547d12f",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/molecular_model_audit/run_011d/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY_three_path_comparison.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "cdea542a64534a1ee43078922823f0c8049198ab74bad6471a63317eb3886ea8",
+      "old_crlf_count": 1914,
+      "old_sha256": "0ed4688d9f9304dc9e3fe2b18f324c79713b2446d27671d2732e30691c2a5c71",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/molecular_model_audit/run_011d/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011D_COMPLEX_NUMBER_FIDELITY_AUDIT_ONLY_warning_trace_and_cast_ledger.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "ca27a5638859e7ca425cd8fbb1e898ee0382adf8f252f3bfcb5080089fdf3f7b",
+      "old_crlf_count": 19,
+      "old_sha256": "c4246c0a6e474d1bd507399a112b99ce79528356150f5e45d09b689a2fc48a17",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/molecular_model_packages/run_012/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_ACCEPTED_PROVISIONAL_REFERENCE_PACKAGE.manifest.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "ece1d02ad8b3503cee9c5a3e9a0c745010252fcdb19b5a2bfab5b7582a5e2dec",
+      "old_crlf_count": 482,
+      "old_sha256": "349af73ef179aff4a51c63ee2dee75a36327b92ef0616eab0460628619c926d5",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/molecular_model_packages/run_012/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_ACCEPTED_PROVISIONAL_REFERENCE_PACKAGE.metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "ebf3ada00bdf2d2ea3c72b4616b5f9d67f861cd92ca3e023c9486ad20f39618e",
+      "old_crlf_count": 118,
+      "old_sha256": "eef596ca6b7a58ce7ec17360c67821baebb455e1778be2f8586d2b07fbb1a798",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/molecular_model_packages/run_012/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_import_validation.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "fa067e2bf14df329bfb34e334cd3c8d9bc4cf6cde1fe72235320199a099d8180",
+      "old_crlf_count": 300,
+      "old_sha256": "25a8214d7a46b5bab0fc3daa0d20825df397515eb16dbb158ee5dbee7eade778",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/molecular_model_packages/run_012/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_model_difference_report.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "e9db4c525de8b48eec518d8d35155640eb95afe6e41034f9a49209953c69526a",
+      "old_crlf_count": 734,
+      "old_sha256": "d931f3258d6a8d894800c3255341d5da10349bb33e55565314a8f251b5183c70",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/molecular_model_packages/run_012/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_paper_benchmark.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "188596e99ce84fa867b0fe12554d078b74a593f7aa65708ea103b5cfdb75b90b",
+      "old_crlf_count": 587,
+      "old_sha256": "e0507a83be2950a38aa111eeef0ea4f6b332c022460467a6508665be263fb64d",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/molecular_model_packages/run_012/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_012_MOLECULAR_MODEL_INTERCHANGE_AND_AUTHOR_HANDOFF_ONLY_roundtrip_validation.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "eb985f6b8eff41866d9c5a2384fe9baefa3b5e9179d8a5b282b5a4540bdaa498",
+      "old_crlf_count": 1707,
+      "old_sha256": "0446448854689b265641292c2d89ec9dc225f3331fe8c6481cfa2745e7a816bf",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/open_loop_policy_families/run_015/MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_cubic_baseline_family_package.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "7f5b5265b27169178a28f931acf5757d445160ed956cd45280fe2a263475785c",
+      "old_crlf_count": 1754,
+      "old_sha256": "cf4be41b80cb47fdb21f2cbaba4af0b66c93dac3c22f66906ea67078dd57d076",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/open_loop_policy_families/run_015/MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_cubic_multiknot_family_package.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "b70a212b5fa458e55d2a6a580dd20e75d51455c130cbc2cbdbba2269e6a42135",
+      "old_crlf_count": 1724,
+      "old_sha256": "000ff2b143b2ec29b116564f2b7cf2635841ef55887d2255ee03ba4f94437286",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/open_loop_policy_families/run_015/MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_fourier_high_bandwidth_family_package.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "061a8a8e4d014a76cd9fb32139cf52d63b9a4a56d0de040107c4df06206ff54f",
+      "old_crlf_count": 1771,
+      "old_sha256": "6aee6d43c802963a22f671ec2a02b9b9abf62b8a86d13ecc8f4ab178aaf53ab2",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/open_loop_policy_families/run_015/MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_fourier_nonzero_family_package.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "16712ac760eafb229d38ba996bb91b08a11e318e7ffbd579dc4942569c93ce74",
+      "old_crlf_count": 1788,
+      "old_sha256": "10da3304880c9b6e1038c91e5a7a092245b21513e8da7da77e3b6925d9afdcd4",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/open_loop_policy_families/run_015/MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_fourier_zero_family_package.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "9dd08727406530e4c0ebd4d6889ea186ddd6188eed8d735ce342e3dd5eb09cd8",
+      "old_crlf_count": 529,
+      "old_sha256": "335a31e361c85654595987982c373960f2bc47d0716ef28366e2ad1e8bc30189",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/open_loop_policy_families/run_015/MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "3eefb22080597d2e22f148a531e2b1bc47f6f632c8312e3958bc7270b44e2dc4",
+      "old_crlf_count": 1707,
+      "old_sha256": "5be6eb5f87c241d94cdeefa2e77ee5cac6a8553665eb0eeba1f45c292ab5fb79",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/open_loop_policy_families/run_015/MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_piecewise_baseline_family_package.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "42650dc67cb5ee6b6c9eedb489b2aea614b55b3a4628dc5e8373357c2265dabb",
+      "old_crlf_count": 1754,
+      "old_sha256": "ba6e21a655048c1fecb8eb72e828918d88e03ac4731fb0cae97ddef54216bc6d",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/open_loop_policy_families/run_015/MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_piecewise_multiknot_family_package.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "1cf3e3ac4ad696fa6c019fca4398c3441361a2da171a5c53ce93024eed2f7c11",
+      "old_crlf_count": 623,
+      "old_sha256": "8a2b17db247d255aba346ec3e9340b53e14750fe5530f3f335c3bca585b3e783",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/paper_digitization/run_011b/PROVISIONAL_NOT_RODRIGUEZ_REPLICATION_RUN_011B_PAPER_FIGURE_FORCE_SHAPE_BENCHMARK_ONLY_digitization_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "24339949a3e1cc81b1f86fff12e41699604e84a752ce01aae13dd9d60b604a45",
+      "old_crlf_count": 495,
+      "old_sha256": "b6416e2df643b8322f3019848cf93bafbd99d957926190b5c6d497769207591d",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/release/run_018/MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_018_REPRODUCIBLE_CONTROL_INFRA_RELEASE_ONLY_metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "6ce7814c6a40cd23b557e309fe2ed4bd4c4292ef62b463dc67a6a4b2719894a9",
+      "old_crlf_count": 5386,
+      "old_sha256": "3950ad561d52c434fb7e65318f7eb2eb853222b49c5be82564594c2ed44f7761",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/release/run_018/artifact-catalog.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "00fb7194a14d71a74bb872ef6791ca8cdd4a444271d22011a3e644d90a28dcaa",
+      "old_crlf_count": 54,
+      "old_sha256": "7326d0158618ad6df1386df4ae6f247583dd8708f7adf1edab59c3acc6e26c6b",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/release/run_018/author-intake-dry-run-report.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "baa476766b86fe08ad11c3c243146c57ca27c36a3d7406d638861878e068e063",
+      "old_crlf_count": 34,
+      "old_sha256": "1ef8ba391619b1d4d20bc4a6d88378fb34c0747a95cfbb91f0927f9f6118cd3c",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/release/run_018/author_model_intake_quarantine/f0e0248ba66a7077d3c662f38f0851e2474452bb0b580d2893933fec04c843d5/intake-record.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "ca27a5638859e7ca425cd8fbb1e898ee0382adf8f252f3bfcb5080089fdf3f7b",
+      "old_crlf_count": 19,
+      "old_sha256": "c4246c0a6e474d1bd507399a112b99ce79528356150f5e45d09b689a2fc48a17",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/release/run_018/author_model_intake_quarantine/f0e0248ba66a7077d3c662f38f0851e2474452bb0b580d2893933fec04c843d5/package.manifest.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "ece1d02ad8b3503cee9c5a3e9a0c745010252fcdb19b5a2bfab5b7582a5e2dec",
+      "old_crlf_count": 482,
+      "old_sha256": "349af73ef179aff4a51c63ee2dee75a36327b92ef0616eab0460628619c926d5",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/release/run_018/author_model_intake_quarantine/f0e0248ba66a7077d3c662f38f0851e2474452bb0b580d2893933fec04c843d5/package.metadata.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "8a8c51508d51b35096102114c42e59c4689e452ead274705cd7004b431961098",
+      "old_crlf_count": 172,
+      "old_sha256": "cea297b01bbd0b1ee004abb7bfc48af8f030ee33d631442afba7120ac6dd06a6",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/release/run_018/authorization-ledger.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "4e0c78297eece1d522e507a30cd94cb2855e93ea3831314cd827143ac88a6654",
+      "old_crlf_count": 29,
+      "old_sha256": "65d57c071784bd17393fa718a7b8c058204dc8d7aa13aab961cf08a87d829118",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/release/run_018/environment-record.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "57f848f4f6317d1310a0de6b3b8d19cfd72bd3e2bad3b16cfadc6611fb4a8efa",
+      "old_crlf_count": 32,
+      "old_sha256": "07c07c9a426e154ff0d4611658dcd4cb23420a55918a8f54ae934754f95085e9",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/release/run_018/forbidden-boundary-audit.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "cee2cd283680c611732c9fa801ec02980408221ad57bf81f70fb538d7c114f7f",
+      "old_crlf_count": 20,
+      "old_sha256": "0dfbaba603d82b40c8b7d48d7cbb9289a725c515a71bc8eb40870b773a537891",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/release/run_018/integrity-report.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "5f5eefe25e1745bd66770599606c53ee06f3200fdf9a0957145f5bc1a0c13f18",
+      "old_crlf_count": 153,
+      "old_sha256": "7baefda128d38c7079f0c5a6371ce324ef0d7cc7dae10c9581c9d39bbaf53b36",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/release/run_018/package-content-report.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "b4742db731401e1e870239a7b0a8de532458fcaa002fb6af40edfe56d273bc3f",
+      "old_crlf_count": 546,
+      "old_sha256": "53451bf972f540d39ff9d75cb74b830b12577683f087c7e2db6c6619ba442cde",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/release/run_018/run-018-audit.json"
+    },
+    {
+      "classification": "text",
+      "line_ending_only": true,
+      "new_crlf_count": 0,
+      "new_sha256": "1a5028ee44988195e6d0c3830d11dfc8ec5c3d8902ebd22e70218440b667a125",
+      "old_crlf_count": 368,
+      "old_sha256": "ba25417c1c62d5e5ee97ad5faeba8fccf66f73925ac33dfe4daad524e545987e",
+      "parsed_content_equivalent": true,
+      "path": "outputs/provisional/release/run_018/semantic-release-manifest.json"
+    }
+  ],
+  "labels": [
+    "MODEL_INDEPENDENT",
+    "NOT_RODRIGUEZ_REPLICATION",
+    "RUN_018",
+    "CI_PORTABILITY_CORRECTION_ONLY"
+  ],
+  "readme_formatting_correction_recorded_separately": true
+}

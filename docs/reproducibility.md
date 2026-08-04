@@ -4,6 +4,8 @@
 
 The project uses its existing `pyproject.toml`/pip workflow; Run 018 does not introduce another package manager.
 
+Repository text bytes are canonical LF under the root `.gitattributes` policy. Numerical arrays, images, archives, wheels, compressed files, and PDFs are explicitly binary. Raw-byte SHA-256 remains the integrity rule; hashes do not normalize content during verification. CI runs `scripts/audit_canonical_line_endings.py` before dependency installation and the full suite.
+
 ```powershell
 python -m venv .venv
 .venv\Scripts\python -m pip install -e ".[test]"
@@ -31,6 +33,8 @@ The package-build audit creates an sdist and wheel, inspects their members, inst
 Canonical JSON sorts mapping keys, rejects nonfinite/executable content where applicable, and excludes explicitly volatile environment fields from semantic identity. The release manifest hashes a deterministic, ordered artifact catalog. Runs 010–017 scientific/generated artifacts and current policy YAML files are protected byte-for-byte. Verification is read-only and fails on a missing or changed cataloged file.
 
 Canonical outputs are accepted run reports, package objects, metadata, manifests, and protected trial/checkpoint artifacts. Disposable files live in temporary test directories or explicitly named quarantine/dry-run directories. `__pycache__`, `.pytest_cache`, editor files, `.git`, and temporary files are excluded.
+
+The Run 018 portability correction renormalized the Windows working tree to the same LF bytes stored by Git, recorded old/new working-tree hashes, proved parsed JSON/YAML and normalized text equivalence, and verified that every declared binary artifact remained byte-identical. The README code-fence repair is recorded separately as documentation-only.
 
 ## Warning policy
 

@@ -6,4 +6,6 @@ Runs 012–017 provide the molecular-model interchange, control-policy ABI, appa
 
 Semantic identities are deterministic; volatile environment metadata is separate. Trial and release artifacts are content-hashed and conflict-detecting. Physical metrics stay locked, synthetic objectives remain visibly synthetic, and no optimizer has been implemented or run.
 
+The Run 018 CI portability correction adds a repository-wide LF checkout policy and explicit binary declarations. It retains raw-byte hashing while making checked-out canonical text bytes identical on Windows and Linux. The correction changes no scientific value, conclusion, gate, or authorization.
+
 Scientifically, the numerical and rate-equation machinery has been reproduced, but the Rodriguez force structure has not. The discrepancy is localized to molecular-model objects. Track E awaits the original arrays or construction code. When they arrive, preserve and quarantine them, validate/compare them through Run 012, and seek a separate benchmark gate before any promotion, cache rebuild, trajectory, or capture work.

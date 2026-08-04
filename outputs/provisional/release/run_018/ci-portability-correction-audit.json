@@ -1,0 +1,29 @@
+{
+  "authorization_boundaries_changed": false,
+  "authorization_ledger_unchanged": true,
+  "binary_artifacts_byte_identical": true,
+  "capture_calculations": 0,
+  "clean_canonical_checkout": "PASS",
+  "force_cache_rebuilds": 0,
+  "force_evaluations": 0,
+  "gate": "RUN_018_CROSS_PLATFORM_RELEASE_INTEGRITY_GO",
+  "integrity_result": "RELEASE_INTEGRITY_OK",
+  "labels": [
+    "MODEL_INDEPENDENT",
+    "NOT_RODRIGUEZ_REPLICATION",
+    "RUN_018",
+    "CI_PORTABILITY_CORRECTION_ONLY"
+  ],
+  "new_release_hash": "eab01ab6da8736573418445d5c94139f49306e2d076090d6de72ad382754e164",
+  "optimization_runs": 0,
+  "package_build_result": "PACKAGE_BUILD_OK",
+  "parsed_and_normalized_content_equal": true,
+  "previous_release_hash": "2a2ca91977a62d65e4b8b7e82b11ccd4c0b13939c92be7b6b45dab30441b08a2",
+  "raw_byte_hashing_retained": true,
+  "readme_formatting_correction": "documentation-only nested code fence removed",
+  "renormalized_text_file_count": 237,
+  "root_cause": "Windows working-tree CRLF conversion made raw-byte protected hashes differ from canonical LF Git blobs and Ubuntu checkout bytes.",
+  "scientific_content_changed": false,
+  "test_result": "296 passed, 1 narrowly audited warning (Windows tree and staged-tree clean LF checkout)",
+  "trajectory_integrations": 0
+}

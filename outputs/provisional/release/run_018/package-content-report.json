@@ -98,6 +98,7 @@
     "mgf_mot_force_map-0.1.0/tests/test_run_015_open_loop_policy_families.py",
     "mgf_mot_force_map-0.1.0/tests/test_run_016_feedback_policy_interface.py",
     "mgf_mot_force_map-0.1.0/tests/test_run_017_experiment_search_protocol.py",
+    "mgf_mot_force_map-0.1.0/tests/test_run_018_ci_portability.py",
     "mgf_mot_force_map-0.1.0/tests/test_run_018_reproducible_release.py",
     "mgf_mot_force_map-0.1.0/tests/test_spectroscopy.py",
     "mgf_mot_force_map-0.1.0/tests/test_static_acceptance_audit.py",

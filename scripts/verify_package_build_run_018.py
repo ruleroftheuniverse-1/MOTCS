@@ -22,5 +22,5 @@ def run():
             raise RuntimeError("installed-wheel smoke failed: "+smoke_run.stderr.strip())
         smoke=smoke_run.stdout.strip()
     payload={"labels":LABELS,"build_status":"PACKAGE_BUILD_OK" if not forbidden else "PACKAGE_BUILD_FAILED","wheel":wheel.name,"sdist":sdist.name,"wheel_files":wheel_files,"sdist_files":sdist_files,"forbidden_members":forbidden,"installed_import_smoke":smoke,"published":False,"includes_force_caches":False,"includes_transient_outputs":False}
-    path=OUT/"package-content-report.json";path.write_text(json.dumps(payload,indent=2,sort_keys=True)+"\n",encoding="utf-8");print(payload["build_status"]);return payload
+    path=OUT/"package-content-report.json";path.write_text(json.dumps(payload,indent=2,sort_keys=True)+"\n",encoding="utf-8",newline="\n");print(payload["build_status"]);return payload
 if __name__=="__main__":run()

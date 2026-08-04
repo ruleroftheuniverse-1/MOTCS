@@ -90,12 +90,10 @@ A precise request for the original molecular matrices or their construction code
 Current test status:
 
 ```text
-```text
-289 passed
+296 passed
 ```
 
 This count is verified with `python -m pytest -q` and recorded by the Run 018 release audit.
-````
 
 One known `pylcp` `ComplexWarning` remains visible. It was audited in Run 011D: the cast occurs after modulus-squared coupling, and the discarded imaginary component is exactly zero.
 
