@@ -1,0 +1,5 @@
+schema_version: mgf-mot-feedback-example-v1
+example_id: oracle_affine
+description: Synthetic scalar oracle and bounded affine controller plumbing fixture
+provenance_class: SYNTHETIC_TEST_FIXTURE
+labels: [MODEL_INDEPENDENT, NOT_RODRIGUEZ_REPLICATION, RUN_016, FEEDBACK_POLICY_INTERFACE_ONLY, FULL_STATE_ORACLE, SIMULATION_ONLY, NOT_APPARATUS_REALIZABLE]

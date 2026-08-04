@@ -1,0 +1,4402 @@
+{
+  "apparatus_only_replay": {
+    "action_stream_hash": "7bacb0860b944ac1d20c343f5e6233aae42bcede50d80303f178fa83ded0e4a2",
+    "command_stream_hash": "62498788b292f427a998afcde7690ad7bf12b9357723c5461223eb48eaba3440",
+    "labels": [
+      "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_016_FEEDBACK_POLICY_INTERFACE_ONLY",
+      "FULL_STATE_ORACLE",
+      "SIMULATION_ONLY",
+      "NOT_APPARATUS_REALIZABLE"
+    ],
+    "mode": "APPARATUS_ONLY_FROM_RECORDED_ACTIONS",
+    "observation_stream_hash": "cc6f7275a11770bc42d905bf1ffcaf29b3be79ead938a6a68133644ba126f1b9",
+    "replay_equal": true,
+    "replay_package_hash": "70d950c3ee7eb0f0995e7bd5a624da4d17a105a9da61ba0b186050f430e508d9",
+    "schema_version": "mgf-mot-feedback-replay-v1",
+    "source_session_hash": "81efde2f5f33b6ee7c580e855e4aef1643a9f6b130d55d3fd699cb4a6502f3ea",
+    "spec_hashes": {
+      "apparatus": "745adc339b41213d015eebdbc73505403a7a9fca5d4d5fb95b5abb173835f09f",
+      "controller": "26e7665bc1186abc3640f0e6d554687870c9d432752664fd4bf5beb8545ba91b",
+      "controller_parameters": "89b8d8821069e73e4fd459563ef4272be5cfcd07084816643e5fa69104ff8ee7",
+      "observation": "6f596121b2751ca1e1a421744766117c607b4e89ffd736822ed98f51a3238e09",
+      "plant": "3156ff0955c76806ecd1d2c976094dc7e5341acbb484766cc273802a5fff4277",
+      "session": "81efde2f5f33b6ee7c580e855e4aef1643a9f6b130d55d3fd699cb4a6502f3ea",
+      "timing": "294ba54c0e35416482a5dcb72a7629a6eb9f95b8acf812f0bce08a6666fc5336"
+    }
+  },
+  "controller_only_replay": {
+    "action_stream_hash": "7bacb0860b944ac1d20c343f5e6233aae42bcede50d80303f178fa83ded0e4a2",
+    "command_stream_hash": "",
+    "labels": [
+      "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_016_FEEDBACK_POLICY_INTERFACE_ONLY",
+      "FULL_STATE_ORACLE",
+      "SIMULATION_ONLY",
+      "NOT_APPARATUS_REALIZABLE"
+    ],
+    "mode": "CONTROLLER_ONLY_FROM_RECORDED_PACKETS",
+    "observation_stream_hash": "cc6f7275a11770bc42d905bf1ffcaf29b3be79ead938a6a68133644ba126f1b9",
+    "replay_equal": true,
+    "replay_package_hash": "03a45c6c6a9689551ecb0b54f9afcc29528f0ca60e07fae8268d1c581f644a31",
+    "schema_version": "mgf-mot-feedback-replay-v1",
+    "source_session_hash": "81efde2f5f33b6ee7c580e855e4aef1643a9f6b130d55d3fd699cb4a6502f3ea",
+    "spec_hashes": {
+      "apparatus": "745adc339b41213d015eebdbc73505403a7a9fca5d4d5fb95b5abb173835f09f",
+      "controller": "26e7665bc1186abc3640f0e6d554687870c9d432752664fd4bf5beb8545ba91b",
+      "controller_parameters": "89b8d8821069e73e4fd459563ef4272be5cfcd07084816643e5fa69104ff8ee7",
+      "observation": "6f596121b2751ca1e1a421744766117c607b4e89ffd736822ed98f51a3238e09",
+      "plant": "3156ff0955c76806ecd1d2c976094dc7e5341acbb484766cc273802a5fff4277",
+      "session": "81efde2f5f33b6ee7c580e855e4aef1643a9f6b130d55d3fd699cb4a6502f3ea",
+      "timing": "294ba54c0e35416482a5dcb72a7629a6eb9f95b8acf812f0bce08a6666fc5336"
+    }
+  },
+  "full_replay": {
+    "action_stream_hash": "7bacb0860b944ac1d20c343f5e6233aae42bcede50d80303f178fa83ded0e4a2",
+    "command_stream_hash": "62498788b292f427a998afcde7690ad7bf12b9357723c5461223eb48eaba3440",
+    "labels": [
+      "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_016_FEEDBACK_POLICY_INTERFACE_ONLY",
+      "FULL_STATE_ORACLE",
+      "SIMULATION_ONLY",
+      "NOT_APPARATUS_REALIZABLE"
+    ],
+    "mode": "FULL_REPLAY_FROM_SPECS_AND_SEEDS",
+    "observation_stream_hash": "cc6f7275a11770bc42d905bf1ffcaf29b3be79ead938a6a68133644ba126f1b9",
+    "replay_equal": true,
+    "replay_package_hash": "49b436d05a947a0689dc7ee89b8cacbd37dbe3f18fc7059ebd2ac2e904befb2c",
+    "schema_version": "mgf-mot-feedback-replay-v1",
+    "source_session_hash": "81efde2f5f33b6ee7c580e855e4aef1643a9f6b130d55d3fd699cb4a6502f3ea",
+    "spec_hashes": {
+      "apparatus": "745adc339b41213d015eebdbc73505403a7a9fca5d4d5fb95b5abb173835f09f",
+      "controller": "26e7665bc1186abc3640f0e6d554687870c9d432752664fd4bf5beb8545ba91b",
+      "controller_parameters": "89b8d8821069e73e4fd459563ef4272be5cfcd07084816643e5fa69104ff8ee7",
+      "observation": "6f596121b2751ca1e1a421744766117c607b4e89ffd736822ed98f51a3238e09",
+      "plant": "3156ff0955c76806ecd1d2c976094dc7e5341acbb484766cc273802a5fff4277",
+      "session": "81efde2f5f33b6ee7c580e855e4aef1643a9f6b130d55d3fd699cb4a6502f3ea",
+      "timing": "294ba54c0e35416482a5dcb72a7629a6eb9f95b8acf812f0bce08a6666fc5336"
+    }
+  },
+  "label": "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_016_FEEDBACK_POLICY_INTERFACE_ONLY",
+  "no_physics_or_training_claim": true,
+  "oracle_labels": [
+    "FULL_STATE_ORACLE",
+    "SIMULATION_ONLY",
+    "NOT_APPARATUS_REALIZABLE"
+  ],
+  "session_result": {
+    "accepted_actions": [
+      {
+        "action_id": "action_step_00000",
+        "action_source": "BOUNDED_AFFINE_CONTROLLER",
+        "action_timestamp_s": 0.0,
+        "channel_values": [
+          {
+            "channel_id": "static_shared_detuning_123",
+            "units": "Gamma",
+            "value": -1.8
+          }
+        ],
+        "controller_step_id": "step_00000",
+        "fallback_origin": null,
+        "provenance": {
+          "interpretation_notes": "Feedback plumbing only; no physical claim",
+          "labels": [
+            "MODEL_INDEPENDENT",
+            "NOT_MGF_PHYSICS"
+          ],
+          "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+          "source_description": "Run 016 closed synthetic example",
+          "source_hash": null,
+          "source_path_or_citation": null
+        },
+        "requested_effective_time_s": 0.0,
+        "update_mode": "PARTIAL_HOLD_UNSPECIFIED",
+        "validity": "VALID"
+      },
+      {
+        "action_id": "action_step_00001",
+        "action_source": "BOUNDED_AFFINE_CONTROLLER",
+        "action_timestamp_s": 0.0003,
+        "channel_values": [
+          {
+            "channel_id": "static_shared_detuning_123",
+            "units": "Gamma",
+            "value": -1.8035999999999999
+          }
+        ],
+        "controller_step_id": "step_00001",
+        "fallback_origin": null,
+        "provenance": {
+          "interpretation_notes": "Feedback plumbing only; no physical claim",
+          "labels": [
+            "MODEL_INDEPENDENT",
+            "NOT_MGF_PHYSICS"
+          ],
+          "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+          "source_description": "Run 016 closed synthetic example",
+          "source_hash": null,
+          "source_path_or_citation": null
+        },
+        "requested_effective_time_s": 0.0003,
+        "update_mode": "PARTIAL_HOLD_UNSPECIFIED",
+        "validity": "VALID"
+      },
+      {
+        "action_id": "action_step_00002",
+        "action_source": "BOUNDED_AFFINE_CONTROLLER",
+        "action_timestamp_s": 0.0006,
+        "channel_values": [
+          {
+            "channel_id": "static_shared_detuning_123",
+            "units": "Gamma",
+            "value": -1.8072072000000001
+          }
+        ],
+        "controller_step_id": "step_00002",
+        "fallback_origin": null,
+        "provenance": {
+          "interpretation_notes": "Feedback plumbing only; no physical claim",
+          "labels": [
+            "MODEL_INDEPENDENT",
+            "NOT_MGF_PHYSICS"
+          ],
+          "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+          "source_description": "Run 016 closed synthetic example",
+          "source_hash": null,
+          "source_path_or_citation": null
+        },
+        "requested_effective_time_s": 0.0006,
+        "update_mode": "PARTIAL_HOLD_UNSPECIFIED",
+        "validity": "VALID"
+      },
+      {
+        "action_id": "action_step_00003",
+        "action_source": "BOUNDED_AFFINE_CONTROLLER",
+        "action_timestamp_s": 0.0009,
+        "channel_values": [
+          {
+            "channel_id": "static_shared_detuning_123",
+            "units": "Gamma",
+            "value": -1.8108216144
+          }
+        ],
+        "controller_step_id": "step_00003",
+        "fallback_origin": null,
+        "provenance": {
+          "interpretation_notes": "Feedback plumbing only; no physical claim",
+          "labels": [
+            "MODEL_INDEPENDENT",
+            "NOT_MGF_PHYSICS"
+          ],
+          "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+          "source_description": "Run 016 closed synthetic example",
+          "source_hash": null,
+          "source_path_or_citation": null
+        },
+        "requested_effective_time_s": 0.0009,
+        "update_mode": "PARTIAL_HOLD_UNSPECIFIED",
+        "validity": "VALID"
+      }
+    ],
+    "action_stream_hash": "7bacb0860b944ac1d20c343f5e6233aae42bcede50d80303f178fa83ded0e4a2",
+    "command_stream_hash": "62498788b292f427a998afcde7690ad7bf12b9357723c5461223eb48eaba3440",
+    "event_order": [
+      "0:EFFECTIVE_COMMANDS",
+      "0:SENSOR_SAMPLE",
+      "0:OBSERVATION_ARRIVAL",
+      "0:CONTROLLER_EVALUATION",
+      "0:COMMAND_ISSUE_RECORD",
+      "0.0003:EFFECTIVE_COMMANDS",
+      "0.0003:PLANT_UPDATE",
+      "0.0003:SENSOR_SAMPLE",
+      "0.0003:OBSERVATION_ARRIVAL",
+      "0.0003:CONTROLLER_EVALUATION",
+      "0.0003:COMMAND_ISSUE_RECORD",
+      "0.0006:EFFECTIVE_COMMANDS",
+      "0.0006:PLANT_UPDATE",
+      "0.0006:SENSOR_SAMPLE",
+      "0.0006:OBSERVATION_ARRIVAL",
+      "0.0006:CONTROLLER_EVALUATION",
+      "0.0006:COMMAND_ISSUE_RECORD",
+      "0.0009:EFFECTIVE_COMMANDS",
+      "0.0009:PLANT_UPDATE",
+      "0.0009:SENSOR_SAMPLE",
+      "0.0009:OBSERVATION_ARRIVAL",
+      "0.0009:CONTROLLER_EVALUATION",
+      "0.0009:COMMAND_ISSUE_RECORD"
+    ],
+    "final_compilation": {
+      "apparatus_profile_hash": "745adc339b41213d015eebdbc73505403a7a9fca5d4d5fb95b5abb173835f09f",
+      "commands": [
+        {
+          "actual_effective_time_s": 0.0,
+          "atomic_group_id": null,
+          "channel_id": "static_component_1_saturation",
+          "clock_displacement_s": 0.0,
+          "command_id": "cmd_00009",
+          "continuous_identity_binding": false,
+          "event_id": null,
+          "field": "saturation",
+          "ideal_value": 1.45,
+          "issued_time_s": 0.0,
+          "latency_s": 0.0,
+          "quantization_error": 0.0,
+          "quantization_step": 0.05,
+          "quantized_value": 1.45,
+          "requested_effective_time_s": 0.0,
+          "rounding_rule": "NEAREST_TIES_TO_EVEN",
+          "units": "saturation_parameter"
+        },
+        {
+          "actual_effective_time_s": 0.0,
+          "atomic_group_id": null,
+          "channel_id": "static_component_2_saturation",
+          "clock_displacement_s": 0.0,
+          "command_id": "cmd_00013",
+          "continuous_identity_binding": false,
+          "event_id": null,
+          "field": "saturation",
+          "ideal_value": 1.45,
+          "issued_time_s": 0.0,
+          "latency_s": 0.0,
+          "quantization_error": 0.0,
+          "quantization_step": 0.05,
+          "quantized_value": 1.45,
+          "requested_effective_time_s": 0.0,
+          "rounding_rule": "NEAREST_TIES_TO_EVEN",
+          "units": "saturation_parameter"
+        },
+        {
+          "actual_effective_time_s": 0.0,
+          "atomic_group_id": null,
+          "channel_id": "static_component_3_saturation",
+          "clock_displacement_s": 0.0,
+          "command_id": "cmd_00017",
+          "continuous_identity_binding": false,
+          "event_id": null,
+          "field": "saturation",
+          "ideal_value": 2.89,
+          "issued_time_s": 0.0,
+          "latency_s": 0.0,
+          "quantization_error": 0.009999999999999787,
+          "quantization_step": 0.05,
+          "quantized_value": 2.9,
+          "requested_effective_time_s": 0.0,
+          "rounding_rule": "NEAREST_TIES_TO_EVEN",
+          "units": "saturation_parameter"
+        },
+        {
+          "actual_effective_time_s": 0.0,
+          "atomic_group_id": null,
+          "channel_id": "static_component_4_detuning",
+          "clock_displacement_s": 0.0,
+          "command_id": "cmd_00005",
+          "continuous_identity_binding": false,
+          "event_id": null,
+          "field": "detuning_gamma",
+          "ideal_value": 2.0,
+          "issued_time_s": 0.0,
+          "latency_s": 0.0,
+          "quantization_error": 0.0,
+          "quantization_step": 0.25,
+          "quantized_value": 2.0,
+          "requested_effective_time_s": 0.0,
+          "rounding_rule": "NEAREST_TIES_TO_EVEN",
+          "units": "Gamma"
+        },
+        {
+          "actual_effective_time_s": 0.0,
+          "atomic_group_id": null,
+          "channel_id": "static_component_4_saturation",
+          "clock_displacement_s": 0.0,
+          "command_id": "cmd_00021",
+          "continuous_identity_binding": false,
+          "event_id": null,
+          "field": "saturation",
+          "ideal_value": 0.0,
+          "issued_time_s": 0.0,
+          "latency_s": 0.0,
+          "quantization_error": 0.0,
+          "quantization_step": 0.05,
+          "quantized_value": 0.0,
+          "requested_effective_time_s": 0.0,
+          "rounding_rule": "NEAREST_TIES_TO_EVEN",
+          "units": "saturation_parameter"
+        },
+        {
+          "actual_effective_time_s": 0.0,
+          "atomic_group_id": "atomic_action_step_00000",
+          "channel_id": "static_shared_detuning_123",
+          "clock_displacement_s": 0.0,
+          "command_id": "cmd_00001",
+          "continuous_identity_binding": false,
+          "event_id": "action_step_00000",
+          "field": "detuning_gamma",
+          "ideal_value": -1.8,
+          "issued_time_s": 0.0,
+          "latency_s": 0.0,
+          "quantization_error": 0.050000000000000044,
+          "quantization_step": 0.25,
+          "quantized_value": -1.75,
+          "requested_effective_time_s": 0.0,
+          "rounding_rule": "NEAREST_TIES_TO_EVEN",
+          "units": "Gamma"
+        },
+        {
+          "actual_effective_time_s": 0.0003,
+          "atomic_group_id": "atomic_action_step_00001",
+          "channel_id": "static_shared_detuning_123",
+          "clock_displacement_s": 0.0,
+          "command_id": "cmd_00002",
+          "continuous_identity_binding": false,
+          "event_id": "action_step_00001",
+          "field": "detuning_gamma",
+          "ideal_value": -1.8035999999999999,
+          "issued_time_s": 0.0003,
+          "latency_s": 0.0,
+          "quantization_error": 0.05359999999999987,
+          "quantization_step": 0.25,
+          "quantized_value": -1.75,
+          "requested_effective_time_s": 0.0003,
+          "rounding_rule": "NEAREST_TIES_TO_EVEN",
+          "units": "Gamma"
+        },
+        {
+          "actual_effective_time_s": 0.0006,
+          "atomic_group_id": "atomic_action_step_00002",
+          "channel_id": "static_shared_detuning_123",
+          "clock_displacement_s": 0.0,
+          "command_id": "cmd_00003",
+          "continuous_identity_binding": false,
+          "event_id": "action_step_00002",
+          "field": "detuning_gamma",
+          "ideal_value": -1.8072072000000001,
+          "issued_time_s": 0.0006,
+          "latency_s": 0.0,
+          "quantization_error": 0.057207200000000125,
+          "quantization_step": 0.25,
+          "quantized_value": -1.75,
+          "requested_effective_time_s": 0.0006,
+          "rounding_rule": "NEAREST_TIES_TO_EVEN",
+          "units": "Gamma"
+        },
+        {
+          "actual_effective_time_s": 0.0009,
+          "atomic_group_id": "atomic_action_step_00003",
+          "channel_id": "static_shared_detuning_123",
+          "clock_displacement_s": 0.0,
+          "command_id": "cmd_00004",
+          "continuous_identity_binding": false,
+          "event_id": "action_step_00003",
+          "field": "detuning_gamma",
+          "ideal_value": -1.8108216144,
+          "issued_time_s": 0.0009,
+          "latency_s": 0.0,
+          "quantization_error": 0.0608216144,
+          "quantization_step": 0.25,
+          "quantized_value": -1.75,
+          "requested_effective_time_s": 0.0009,
+          "rounding_rule": "NEAREST_TIES_TO_EVEN",
+          "units": "Gamma"
+        }
+      ],
+      "compilation_order": [
+        "validate_policy",
+        "validate_profile",
+        "validate_request",
+        "resolve_channels",
+        "establish_horizon",
+        "collect_events",
+        "construct_effective_time_grid",
+        "evaluate_ideal_channels",
+        "align_events",
+        "quantize_values",
+        "generate_commands",
+        "apply_latency",
+        "reconstruct_realized_schedule",
+        "deduplicate_identical_commands",
+        "validate_hard_constraints",
+        "calculate_metrics",
+        "serialize_and_hash"
+      ],
+      "compiler_version": "run014-compiler-v1",
+      "events": [
+        {
+          "affected_channel_ids": [
+            "static_shared_detuning_123"
+          ],
+          "affected_component_ids": [
+            1,
+            2,
+            3
+          ],
+          "atomic": true,
+          "displacement_s": 0.0,
+          "event_id": "action_step_00000",
+          "left_component_states": [
+            {
+              "active": true,
+              "component_id": 1,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_plus",
+              "relative_saturation": 0.25,
+              "role": "lower_F1",
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_1_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 2,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_minus",
+              "relative_saturation": 0.25,
+              "role": "F0",
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_2_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 3,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_minus",
+              "relative_saturation": 0.5,
+              "role": "upper_F1_F2_mean",
+              "saturation": 2.89,
+              "saturation_channel_id": "static_component_3_saturation"
+            },
+            {
+              "active": false,
+              "component_id": 4,
+              "detuning_channel_id": "static_component_4_detuning",
+              "detuning_gamma": 2.0,
+              "enabled": false,
+              "off_reason": "legacy_v1_explicit_disabled_no_text_reason",
+              "polarization": "sigma_plus",
+              "relative_saturation": 0.0,
+              "role": "upper_F1_F2_mean_confinement",
+              "saturation": 0.0,
+              "saturation_channel_id": "static_component_4_saturation"
+            }
+          ],
+          "left_semantic_label": "previous_requested_action",
+          "realized_time_s": 0.0,
+          "requested_time_s": 0.0,
+          "right_component_states": [
+            {
+              "active": true,
+              "component_id": 1,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.8,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_plus",
+              "relative_saturation": 0.25,
+              "role": "lower_F1",
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_1_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 2,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.8,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_minus",
+              "relative_saturation": 0.25,
+              "role": "F0",
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_2_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 3,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.8,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_minus",
+              "relative_saturation": 0.5,
+              "role": "upper_F1_F2_mean",
+              "saturation": 2.89,
+              "saturation_channel_id": "static_component_3_saturation"
+            },
+            {
+              "active": false,
+              "component_id": 4,
+              "detuning_channel_id": "static_component_4_detuning",
+              "detuning_gamma": 2.0,
+              "enabled": false,
+              "off_reason": "legacy_v1_explicit_disabled_no_text_reason",
+              "polarization": "sigma_plus",
+              "relative_saturation": 0.0,
+              "role": "upper_F1_F2_mean_confinement",
+              "saturation": 0.0,
+              "saturation_channel_id": "static_component_4_saturation"
+            }
+          ],
+          "right_semantic_label": "updated_requested_action"
+        },
+        {
+          "affected_channel_ids": [
+            "static_shared_detuning_123"
+          ],
+          "affected_component_ids": [
+            1,
+            2,
+            3
+          ],
+          "atomic": true,
+          "displacement_s": 0.0,
+          "event_id": "action_step_00001",
+          "left_component_states": [
+            {
+              "active": true,
+              "component_id": 1,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.8,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_plus",
+              "relative_saturation": 0.25,
+              "role": "lower_F1",
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_1_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 2,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.8,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_minus",
+              "relative_saturation": 0.25,
+              "role": "F0",
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_2_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 3,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.8,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_minus",
+              "relative_saturation": 0.5,
+              "role": "upper_F1_F2_mean",
+              "saturation": 2.89,
+              "saturation_channel_id": "static_component_3_saturation"
+            },
+            {
+              "active": false,
+              "component_id": 4,
+              "detuning_channel_id": "static_component_4_detuning",
+              "detuning_gamma": 2.0,
+              "enabled": false,
+              "off_reason": "legacy_v1_explicit_disabled_no_text_reason",
+              "polarization": "sigma_plus",
+              "relative_saturation": 0.0,
+              "role": "upper_F1_F2_mean_confinement",
+              "saturation": 0.0,
+              "saturation_channel_id": "static_component_4_saturation"
+            }
+          ],
+          "left_semantic_label": "previous_requested_action",
+          "realized_time_s": 0.0003,
+          "requested_time_s": 0.0003,
+          "right_component_states": [
+            {
+              "active": true,
+              "component_id": 1,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.8035999999999999,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_plus",
+              "relative_saturation": 0.25,
+              "role": "lower_F1",
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_1_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 2,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.8035999999999999,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_minus",
+              "relative_saturation": 0.25,
+              "role": "F0",
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_2_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 3,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.8035999999999999,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_minus",
+              "relative_saturation": 0.5,
+              "role": "upper_F1_F2_mean",
+              "saturation": 2.89,
+              "saturation_channel_id": "static_component_3_saturation"
+            },
+            {
+              "active": false,
+              "component_id": 4,
+              "detuning_channel_id": "static_component_4_detuning",
+              "detuning_gamma": 2.0,
+              "enabled": false,
+              "off_reason": "legacy_v1_explicit_disabled_no_text_reason",
+              "polarization": "sigma_plus",
+              "relative_saturation": 0.0,
+              "role": "upper_F1_F2_mean_confinement",
+              "saturation": 0.0,
+              "saturation_channel_id": "static_component_4_saturation"
+            }
+          ],
+          "right_semantic_label": "updated_requested_action"
+        },
+        {
+          "affected_channel_ids": [
+            "static_shared_detuning_123"
+          ],
+          "affected_component_ids": [
+            1,
+            2,
+            3
+          ],
+          "atomic": true,
+          "displacement_s": 0.0,
+          "event_id": "action_step_00002",
+          "left_component_states": [
+            {
+              "active": true,
+              "component_id": 1,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.8035999999999999,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_plus",
+              "relative_saturation": 0.25,
+              "role": "lower_F1",
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_1_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 2,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.8035999999999999,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_minus",
+              "relative_saturation": 0.25,
+              "role": "F0",
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_2_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 3,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.8035999999999999,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_minus",
+              "relative_saturation": 0.5,
+              "role": "upper_F1_F2_mean",
+              "saturation": 2.89,
+              "saturation_channel_id": "static_component_3_saturation"
+            },
+            {
+              "active": false,
+              "component_id": 4,
+              "detuning_channel_id": "static_component_4_detuning",
+              "detuning_gamma": 2.0,
+              "enabled": false,
+              "off_reason": "legacy_v1_explicit_disabled_no_text_reason",
+              "polarization": "sigma_plus",
+              "relative_saturation": 0.0,
+              "role": "upper_F1_F2_mean_confinement",
+              "saturation": 0.0,
+              "saturation_channel_id": "static_component_4_saturation"
+            }
+          ],
+          "left_semantic_label": "previous_requested_action",
+          "realized_time_s": 0.0006,
+          "requested_time_s": 0.0006,
+          "right_component_states": [
+            {
+              "active": true,
+              "component_id": 1,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.8072072000000001,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_plus",
+              "relative_saturation": 0.25,
+              "role": "lower_F1",
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_1_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 2,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.8072072000000001,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_minus",
+              "relative_saturation": 0.25,
+              "role": "F0",
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_2_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 3,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.8072072000000001,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_minus",
+              "relative_saturation": 0.5,
+              "role": "upper_F1_F2_mean",
+              "saturation": 2.89,
+              "saturation_channel_id": "static_component_3_saturation"
+            },
+            {
+              "active": false,
+              "component_id": 4,
+              "detuning_channel_id": "static_component_4_detuning",
+              "detuning_gamma": 2.0,
+              "enabled": false,
+              "off_reason": "legacy_v1_explicit_disabled_no_text_reason",
+              "polarization": "sigma_plus",
+              "relative_saturation": 0.0,
+              "role": "upper_F1_F2_mean_confinement",
+              "saturation": 0.0,
+              "saturation_channel_id": "static_component_4_saturation"
+            }
+          ],
+          "right_semantic_label": "updated_requested_action"
+        },
+        {
+          "affected_channel_ids": [
+            "static_shared_detuning_123"
+          ],
+          "affected_component_ids": [
+            1,
+            2,
+            3
+          ],
+          "atomic": true,
+          "displacement_s": 0.0,
+          "event_id": "action_step_00003",
+          "left_component_states": [
+            {
+              "active": true,
+              "component_id": 1,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.8072072000000001,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_plus",
+              "relative_saturation": 0.25,
+              "role": "lower_F1",
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_1_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 2,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.8072072000000001,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_minus",
+              "relative_saturation": 0.25,
+              "role": "F0",
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_2_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 3,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.8072072000000001,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_minus",
+              "relative_saturation": 0.5,
+              "role": "upper_F1_F2_mean",
+              "saturation": 2.89,
+              "saturation_channel_id": "static_component_3_saturation"
+            },
+            {
+              "active": false,
+              "component_id": 4,
+              "detuning_channel_id": "static_component_4_detuning",
+              "detuning_gamma": 2.0,
+              "enabled": false,
+              "off_reason": "legacy_v1_explicit_disabled_no_text_reason",
+              "polarization": "sigma_plus",
+              "relative_saturation": 0.0,
+              "role": "upper_F1_F2_mean_confinement",
+              "saturation": 0.0,
+              "saturation_channel_id": "static_component_4_saturation"
+            }
+          ],
+          "left_semantic_label": "previous_requested_action",
+          "realized_time_s": 0.0009,
+          "requested_time_s": 0.0009,
+          "right_component_states": [
+            {
+              "active": true,
+              "component_id": 1,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.8108216144,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_plus",
+              "relative_saturation": 0.25,
+              "role": "lower_F1",
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_1_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 2,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.8108216144,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_minus",
+              "relative_saturation": 0.25,
+              "role": "F0",
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_2_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 3,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.8108216144,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_minus",
+              "relative_saturation": 0.5,
+              "role": "upper_F1_F2_mean",
+              "saturation": 2.89,
+              "saturation_channel_id": "static_component_3_saturation"
+            },
+            {
+              "active": false,
+              "component_id": 4,
+              "detuning_channel_id": "static_component_4_detuning",
+              "detuning_gamma": 2.0,
+              "enabled": false,
+              "off_reason": "legacy_v1_explicit_disabled_no_text_reason",
+              "polarization": "sigma_plus",
+              "relative_saturation": 0.0,
+              "role": "upper_F1_F2_mean_confinement",
+              "saturation": 0.0,
+              "saturation_channel_id": "static_component_4_saturation"
+            }
+          ],
+          "right_semantic_label": "updated_requested_action"
+        }
+      ],
+      "hardware_executable_claim_valid": false,
+      "hardware_validation_status": "SYNTHETIC_ONLY",
+      "hashes": {
+        "apparatus_profile": "745adc339b41213d015eebdbc73505403a7a9fca5d4d5fb95b5abb173835f09f",
+        "command_stream": "62498788b292f427a998afcde7690ad7bf12b9357723c5461223eb48eaba3440",
+        "compilation_request": "eed3ccbea7011127861d71cc10c5ad120563749286c6f36b793b651a86776973",
+        "complete_compiled_package": "3023b5bcef59c604c5ac5a0383cdf7d4689b2e903200437b5d12e1cb45cba82e",
+        "realized_schedule": "3674a6cee1d6009b02aba881bfa704ca228f35995109f376e14226413e5e4974",
+        "source_policy_specification": "3651526dab14e779b3518d075046874a83c7c51e0646815995005eefa4c83943"
+      },
+      "initial_channel_values": {
+        "static_component_1_saturation": 1.45,
+        "static_component_2_saturation": 1.45,
+        "static_component_3_saturation": 2.89,
+        "static_component_4_detuning": 2.0,
+        "static_component_4_saturation": 0.0,
+        "static_shared_detuning_123": -1.8
+      },
+      "maximum_event_displacement_s": 0.0,
+      "metrics": [
+        {
+          "channel_id": "static_shared_detuning_123",
+          "deduplicated_command_count": 4,
+          "endpoint_error": 0.0608216144,
+          "event_adjacent_error": 0.0608216144,
+          "field": "detuning_gamma",
+          "maximum_absolute_quantization_error": 0.0608216144,
+          "maximum_absolute_value_error": 0.0608216144,
+          "maximum_measured_first_derivative": 0.0,
+          "maximum_measured_second_difference": 0.0,
+          "raw_command_count": 4,
+          "rms_quantization_error": 0.05555378589723272,
+          "rms_value_error": 0.05475988657233152
+        },
+        {
+          "channel_id": "static_component_4_detuning",
+          "deduplicated_command_count": 1,
+          "endpoint_error": 0.0,
+          "event_adjacent_error": 0.0,
+          "field": "detuning_gamma",
+          "maximum_absolute_quantization_error": 0.0,
+          "maximum_absolute_value_error": 0.0,
+          "maximum_measured_first_derivative": 0.0,
+          "maximum_measured_second_difference": 0.0,
+          "raw_command_count": 4,
+          "rms_quantization_error": 0.0,
+          "rms_value_error": 0.0
+        },
+        {
+          "channel_id": "static_component_1_saturation",
+          "deduplicated_command_count": 1,
+          "endpoint_error": 0.0,
+          "event_adjacent_error": 0.0,
+          "field": "saturation",
+          "maximum_absolute_quantization_error": 0.0,
+          "maximum_absolute_value_error": 0.0,
+          "maximum_measured_first_derivative": 0.0,
+          "maximum_measured_second_difference": 0.0,
+          "raw_command_count": 4,
+          "rms_quantization_error": 0.0,
+          "rms_value_error": 0.0
+        },
+        {
+          "channel_id": "static_component_2_saturation",
+          "deduplicated_command_count": 1,
+          "endpoint_error": 0.0,
+          "event_adjacent_error": 0.0,
+          "field": "saturation",
+          "maximum_absolute_quantization_error": 0.0,
+          "maximum_absolute_value_error": 0.0,
+          "maximum_measured_first_derivative": 0.0,
+          "maximum_measured_second_difference": 0.0,
+          "raw_command_count": 4,
+          "rms_quantization_error": 0.0,
+          "rms_value_error": 0.0
+        },
+        {
+          "channel_id": "static_component_3_saturation",
+          "deduplicated_command_count": 1,
+          "endpoint_error": 0.009999999999999787,
+          "event_adjacent_error": 0.009999999999999787,
+          "field": "saturation",
+          "maximum_absolute_quantization_error": 0.009999999999999787,
+          "maximum_absolute_value_error": 0.009999999999999787,
+          "maximum_measured_first_derivative": 0.0,
+          "maximum_measured_second_difference": 0.0,
+          "raw_command_count": 4,
+          "rms_quantization_error": 0.009999999999999787,
+          "rms_value_error": 0.009999999999999787
+        },
+        {
+          "channel_id": "static_component_4_saturation",
+          "deduplicated_command_count": 1,
+          "endpoint_error": 0.0,
+          "event_adjacent_error": 0.0,
+          "field": "saturation",
+          "maximum_absolute_quantization_error": 0.0,
+          "maximum_absolute_value_error": 0.0,
+          "maximum_measured_first_derivative": 0.0,
+          "maximum_measured_second_difference": 0.0,
+          "raw_command_count": 4,
+          "rms_quantization_error": 0.0,
+          "rms_value_error": 0.0
+        }
+      ],
+      "policy_hash": "7bacb0860b944ac1d20c343f5e6233aae42bcede50d80303f178fa83ded0e4a2",
+      "profile_complete": true,
+      "request": {
+        "diagnostic_grid_period_s": null,
+        "end_time_s": 0.0009,
+        "explicit_initial_channel_values": null,
+        "initial_state_mode": "POLICY_STATE_AT_START",
+        "mode": "SAMPLE_AND_HOLD",
+        "policy_hash": "7bacb0860b944ac1d20c343f5e6233aae42bcede50d80303f178fa83ded0e4a2",
+        "pre_roll_s": 0.0,
+        "profile_hash": "745adc339b41213d015eebdbc73505403a7a9fca5d4d5fb95b5abb173835f09f",
+        "reconstruction_mode": "ZERO_ORDER_HOLD",
+        "start_time_s": 0.0
+      },
+      "schema_version": "mgf-mot-compiled-control-schedule-v1",
+      "simultaneous_command_group_count": 4,
+      "status": "COMPILED_APPROXIMATE",
+      "total_command_count": 9,
+      "total_raw_command_count": 24,
+      "violations": []
+    },
+    "final_memory": {
+      "schema_hash": "72565dc0bd6b74a36147fe130a206b5df6ab2ce16c6cdcf2ec7e94b5c07ee2d6",
+      "values": {
+        "last_action_hash": "f92ba4e196b9b0c9d8bff16deab10aaa06ac9fec7703a7e4a56ad24a78805cc8",
+        "step_index": 4
+      }
+    },
+    "final_plant_state": {
+      "synthetic_fixture_labels": [
+        "SYNTHETIC_TEST_FIXTURE",
+        "MODEL_INDEPENDENT",
+        "NOT_MGF_PHYSICS"
+      ],
+      "timestamp_s": 0.0009,
+      "values": {
+        "x": 0.9458919279999999
+      }
+    },
+    "hardware_executable_claim_valid": false,
+    "labels": [
+      "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_016_FEEDBACK_POLICY_INTERFACE_ONLY",
+      "FULL_STATE_ORACLE",
+      "SIMULATION_ONLY",
+      "NOT_APPARATUS_REALIZABLE"
+    ],
+    "metrics": {
+      "action_count": 4,
+      "approximate_compilation_count": 4,
+      "channel_saturation_count": 0,
+      "command_count": 9,
+      "controller_step_count": 4,
+      "deterministic_replay_status": "PENDING_REPLAY_AUDIT",
+      "exact_compilation_count": 0,
+      "fallback_count": 0,
+      "infeasible_action_count": 0,
+      "invalid_action_count": 0,
+      "latency_max_s": 0.0,
+      "latency_min_s": 0.0,
+      "maximum_action_to_effect_latency_s": 0.0,
+      "memory_state_size": 2,
+      "missing_count": 0,
+      "packet_count": 4,
+      "quantization_by_channel": {
+        "static_component_1_saturation": {
+          "maximum_absolute": 0.0,
+          "rms": 0.0
+        },
+        "static_component_2_saturation": {
+          "maximum_absolute": 0.0,
+          "rms": 0.0
+        },
+        "static_component_3_saturation": {
+          "maximum_absolute": 0.009999999999999787,
+          "rms": 0.009999999999999787
+        },
+        "static_component_4_detuning": {
+          "maximum_absolute": 0.0,
+          "rms": 0.0
+        },
+        "static_component_4_saturation": {
+          "maximum_absolute": 0.0,
+          "rms": 0.0
+        },
+        "static_shared_detuning_123": {
+          "maximum_absolute": 0.0608216144,
+          "rms": 0.05555378589723272
+        }
+      },
+      "stale_count": 0,
+      "valid_count": 4
+    },
+    "observation_stream_hash": "cc6f7275a11770bc42d905bf1ffcaf29b3be79ead938a6a68133644ba126f1b9",
+    "replay_hash": "c4652877ec094fa9c211494ed92682ba53178f7f68c5b572c14dbb47535a7c6b",
+    "schema_version": "mgf-mot-feedback-replay-v1",
+    "session_hash": "81efde2f5f33b6ee7c580e855e4aef1643a9f6b130d55d3fd699cb4a6502f3ea",
+    "spec_hashes": {
+      "apparatus": "745adc339b41213d015eebdbc73505403a7a9fca5d4d5fb95b5abb173835f09f",
+      "controller": "26e7665bc1186abc3640f0e6d554687870c9d432752664fd4bf5beb8545ba91b",
+      "controller_parameters": "89b8d8821069e73e4fd459563ef4272be5cfcd07084816643e5fa69104ff8ee7",
+      "observation": "6f596121b2751ca1e1a421744766117c607b4e89ffd736822ed98f51a3238e09",
+      "plant": "3156ff0955c76806ecd1d2c976094dc7e5341acbb484766cc273802a5fff4277",
+      "session": "81efde2f5f33b6ee7c580e855e4aef1643a9f6b130d55d3fd699cb4a6502f3ea",
+      "timing": "294ba54c0e35416482a5dcb72a7629a6eb9f95b8acf812f0bce08a6666fc5336"
+    },
+    "steps": [
+      {
+        "action": {
+          "action_id": "action_step_00000",
+          "action_source": "BOUNDED_AFFINE_CONTROLLER",
+          "action_timestamp_s": 0.0,
+          "channel_values": [
+            {
+              "channel_id": "static_shared_detuning_123",
+              "units": "Gamma",
+              "value": -1.8
+            }
+          ],
+          "controller_step_id": "step_00000",
+          "fallback_origin": null,
+          "provenance": {
+            "interpretation_notes": "Feedback plumbing only; no physical claim",
+            "labels": [
+              "MODEL_INDEPENDENT",
+              "NOT_MGF_PHYSICS"
+            ],
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "Run 016 closed synthetic example",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "requested_effective_time_s": 0.0,
+          "update_mode": "PARTIAL_HOLD_UNSPECIFIED",
+          "validity": "VALID"
+        },
+        "action_validation": {
+          "issues": []
+        },
+        "compilation_status": "COMPILED_APPROXIMATE",
+        "controller_receive_time_s": 0.0,
+        "effective_commands": [
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_1_saturation",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00009",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "saturation",
+            "ideal_value": 1.45,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.0,
+            "quantization_step": 0.05,
+            "quantized_value": 1.45,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "saturation_parameter"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_2_saturation",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00013",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "saturation",
+            "ideal_value": 1.45,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.0,
+            "quantization_step": 0.05,
+            "quantized_value": 1.45,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "saturation_parameter"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_3_saturation",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00017",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "saturation",
+            "ideal_value": 2.89,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.009999999999999787,
+            "quantization_step": 0.05,
+            "quantized_value": 2.9,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "saturation_parameter"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_4_detuning",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00005",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "detuning_gamma",
+            "ideal_value": 2.0,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.0,
+            "quantization_step": 0.25,
+            "quantized_value": 2.0,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "Gamma"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_4_saturation",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00021",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "saturation",
+            "ideal_value": 0.0,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.0,
+            "quantization_step": 0.05,
+            "quantized_value": 0.0,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "saturation_parameter"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": "atomic_action_step_00000",
+            "channel_id": "static_shared_detuning_123",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00001",
+            "continuous_identity_binding": false,
+            "event_id": "action_step_00000",
+            "field": "detuning_gamma",
+            "ideal_value": -1.8,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.050000000000000044,
+            "quantization_step": 0.25,
+            "quantized_value": -1.75,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "Gamma"
+          }
+        ],
+        "event_index": 0,
+        "fallback_decision": null,
+        "issued_commands": [
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_1_saturation",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00009",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "saturation",
+            "ideal_value": 1.45,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.0,
+            "quantization_step": 0.05,
+            "quantized_value": 1.45,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "saturation_parameter"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_2_saturation",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00013",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "saturation",
+            "ideal_value": 1.45,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.0,
+            "quantization_step": 0.05,
+            "quantized_value": 1.45,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "saturation_parameter"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_3_saturation",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00017",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "saturation",
+            "ideal_value": 2.89,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.009999999999999787,
+            "quantization_step": 0.05,
+            "quantized_value": 2.9,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "saturation_parameter"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_4_detuning",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00005",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "detuning_gamma",
+            "ideal_value": 2.0,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.0,
+            "quantization_step": 0.25,
+            "quantized_value": 2.0,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "Gamma"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_4_saturation",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00021",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "saturation",
+            "ideal_value": 0.0,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.0,
+            "quantization_step": 0.05,
+            "quantized_value": 0.0,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "saturation_parameter"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": "atomic_action_step_00000",
+            "channel_id": "static_shared_detuning_123",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00001",
+            "continuous_identity_binding": false,
+            "event_id": "action_step_00000",
+            "field": "detuning_gamma",
+            "ideal_value": -1.8,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.050000000000000044,
+            "quantization_step": 0.25,
+            "quantized_value": -1.75,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "Gamma"
+          }
+        ],
+        "memory_after": {
+          "schema_hash": "72565dc0bd6b74a36147fe130a206b5df6ab2ce16c6cdcf2ec7e94b5c07ee2d6",
+          "values": {
+            "last_action_hash": "17496286759d683cf79c176007d378626a329d02aa6d425e1046ff615927022a",
+            "step_index": 1
+          }
+        },
+        "memory_before": {
+          "schema_hash": "72565dc0bd6b74a36147fe130a206b5df6ab2ce16c6cdcf2ec7e94b5c07ee2d6",
+          "values": {
+            "last_action_hash": "",
+            "step_index": 0
+          }
+        },
+        "observation_packet": {
+          "controller_receive_time_s": 0.0,
+          "labels": [
+            "FULL_STATE_ORACLE",
+            "SIMULATION_ONLY",
+            "NOT_APPARATUS_REALIZABLE"
+          ],
+          "observation_availability_time_s": 0.0,
+          "observation_spec_hash": "6f596121b2751ca1e1a421744766117c607b4e89ffd736822ed98f51a3238e09",
+          "observations": [
+            {
+              "availability_time_s": 0.0,
+              "channel_id": "obs_x",
+              "missing_reason": null,
+              "noise_realization": [
+                0.0
+              ],
+              "saturated": false,
+              "sensor_sample_time_s": 0.0,
+              "source_state_timestamp_s": 0.0,
+              "status": "VALID",
+              "units": "abstract",
+              "value": [
+                1.0
+              ]
+            }
+          ],
+          "packet_id": "packet_00000",
+          "sensor_sample_time_s": 0.0,
+          "source_state_timestamp_s": 0.0,
+          "status": "VALID"
+        },
+        "plant_state_hash": "3f07aac34378a9d1c41a73440c056222fed9f7998370528d2324b86eaa4bf7da",
+        "realized_control_state": {
+          "component_order": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "components": [
+            {
+              "active": true,
+              "component_id": 1,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.75,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_plus",
+              "relative_saturation": 0.25,
+              "role": "lower_F1",
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_1_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 2,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.75,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_minus",
+              "relative_saturation": 0.25,
+              "role": "F0",
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_2_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 3,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.75,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_minus",
+              "relative_saturation": 0.5,
+              "role": "upper_F1_F2_mean",
+              "saturation": 2.9,
+              "saturation_channel_id": "static_component_3_saturation"
+            },
+            {
+              "active": false,
+              "component_id": 4,
+              "detuning_channel_id": "static_component_4_detuning",
+              "detuning_gamma": 2.0,
+              "enabled": false,
+              "off_reason": "legacy_v1_explicit_disabled_no_text_reason",
+              "polarization": "sigma_plus",
+              "relative_saturation": 0.0,
+              "role": "upper_F1_F2_mean_confinement",
+              "saturation": 0.0,
+              "saturation_channel_id": "static_component_4_saturation"
+            }
+          ],
+          "evaluation_time_s": 0.0,
+          "event_ids_at_time": [
+            "action_step_00000"
+          ],
+          "handoff_occurred": false,
+          "policy_hash": "282e3fc1cd8bb4f848c5241daeb7ce3f5f7de968ecb8e06061ba3ec040705ce6",
+          "segment_id": "static",
+          "semantic_label": "static",
+          "time_s": 0.0
+        },
+        "record_hash": "28a92f76d4351bf473e68cd4baf914bc4444ed4fbcf980fca5da514d92491d05",
+        "step_id": "step_00000",
+        "synthetic_hidden_state": {
+          "synthetic_fixture_labels": [
+            "SYNTHETIC_TEST_FIXTURE",
+            "MODEL_INDEPENDENT",
+            "NOT_MGF_PHYSICS"
+          ],
+          "timestamp_s": 0.0,
+          "values": {
+            "x": 1.0
+          }
+        },
+        "validation_issues": []
+      },
+      {
+        "action": {
+          "action_id": "action_step_00001",
+          "action_source": "BOUNDED_AFFINE_CONTROLLER",
+          "action_timestamp_s": 0.0003,
+          "channel_values": [
+            {
+              "channel_id": "static_shared_detuning_123",
+              "units": "Gamma",
+              "value": -1.8035999999999999
+            }
+          ],
+          "controller_step_id": "step_00001",
+          "fallback_origin": null,
+          "provenance": {
+            "interpretation_notes": "Feedback plumbing only; no physical claim",
+            "labels": [
+              "MODEL_INDEPENDENT",
+              "NOT_MGF_PHYSICS"
+            ],
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "Run 016 closed synthetic example",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "requested_effective_time_s": 0.0003,
+          "update_mode": "PARTIAL_HOLD_UNSPECIFIED",
+          "validity": "VALID"
+        },
+        "action_validation": {
+          "issues": []
+        },
+        "compilation_status": "COMPILED_APPROXIMATE",
+        "controller_receive_time_s": 0.0003,
+        "effective_commands": [
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_1_saturation",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00009",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "saturation",
+            "ideal_value": 1.45,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.0,
+            "quantization_step": 0.05,
+            "quantized_value": 1.45,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "saturation_parameter"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_2_saturation",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00013",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "saturation",
+            "ideal_value": 1.45,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.0,
+            "quantization_step": 0.05,
+            "quantized_value": 1.45,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "saturation_parameter"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_3_saturation",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00017",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "saturation",
+            "ideal_value": 2.89,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.009999999999999787,
+            "quantization_step": 0.05,
+            "quantized_value": 2.9,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "saturation_parameter"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_4_detuning",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00005",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "detuning_gamma",
+            "ideal_value": 2.0,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.0,
+            "quantization_step": 0.25,
+            "quantized_value": 2.0,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "Gamma"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_4_saturation",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00021",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "saturation",
+            "ideal_value": 0.0,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.0,
+            "quantization_step": 0.05,
+            "quantized_value": 0.0,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "saturation_parameter"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": "atomic_action_step_00000",
+            "channel_id": "static_shared_detuning_123",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00001",
+            "continuous_identity_binding": false,
+            "event_id": "action_step_00000",
+            "field": "detuning_gamma",
+            "ideal_value": -1.8,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.050000000000000044,
+            "quantization_step": 0.25,
+            "quantized_value": -1.75,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "Gamma"
+          },
+          {
+            "actual_effective_time_s": 0.0003,
+            "atomic_group_id": "atomic_action_step_00001",
+            "channel_id": "static_shared_detuning_123",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00002",
+            "continuous_identity_binding": false,
+            "event_id": "action_step_00001",
+            "field": "detuning_gamma",
+            "ideal_value": -1.8035999999999999,
+            "issued_time_s": 0.0003,
+            "latency_s": 0.0,
+            "quantization_error": 0.05359999999999987,
+            "quantization_step": 0.25,
+            "quantized_value": -1.75,
+            "requested_effective_time_s": 0.0003,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "Gamma"
+          }
+        ],
+        "event_index": 1,
+        "fallback_decision": null,
+        "issued_commands": [
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_1_saturation",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00009",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "saturation",
+            "ideal_value": 1.45,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.0,
+            "quantization_step": 0.05,
+            "quantized_value": 1.45,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "saturation_parameter"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_2_saturation",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00013",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "saturation",
+            "ideal_value": 1.45,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.0,
+            "quantization_step": 0.05,
+            "quantized_value": 1.45,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "saturation_parameter"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_3_saturation",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00017",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "saturation",
+            "ideal_value": 2.89,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.009999999999999787,
+            "quantization_step": 0.05,
+            "quantized_value": 2.9,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "saturation_parameter"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_4_detuning",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00005",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "detuning_gamma",
+            "ideal_value": 2.0,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.0,
+            "quantization_step": 0.25,
+            "quantized_value": 2.0,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "Gamma"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_4_saturation",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00021",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "saturation",
+            "ideal_value": 0.0,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.0,
+            "quantization_step": 0.05,
+            "quantized_value": 0.0,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "saturation_parameter"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": "atomic_action_step_00000",
+            "channel_id": "static_shared_detuning_123",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00001",
+            "continuous_identity_binding": false,
+            "event_id": "action_step_00000",
+            "field": "detuning_gamma",
+            "ideal_value": -1.8,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.050000000000000044,
+            "quantization_step": 0.25,
+            "quantized_value": -1.75,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "Gamma"
+          },
+          {
+            "actual_effective_time_s": 0.0003,
+            "atomic_group_id": "atomic_action_step_00001",
+            "channel_id": "static_shared_detuning_123",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00002",
+            "continuous_identity_binding": false,
+            "event_id": "action_step_00001",
+            "field": "detuning_gamma",
+            "ideal_value": -1.8035999999999999,
+            "issued_time_s": 0.0003,
+            "latency_s": 0.0,
+            "quantization_error": 0.05359999999999987,
+            "quantization_step": 0.25,
+            "quantized_value": -1.75,
+            "requested_effective_time_s": 0.0003,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "Gamma"
+          }
+        ],
+        "memory_after": {
+          "schema_hash": "72565dc0bd6b74a36147fe130a206b5df6ab2ce16c6cdcf2ec7e94b5c07ee2d6",
+          "values": {
+            "last_action_hash": "a4743866686aa774cd805e3bec007412006ff6510fd7590f4757c44ef0fe036d",
+            "step_index": 2
+          }
+        },
+        "memory_before": {
+          "schema_hash": "72565dc0bd6b74a36147fe130a206b5df6ab2ce16c6cdcf2ec7e94b5c07ee2d6",
+          "values": {
+            "last_action_hash": "17496286759d683cf79c176007d378626a329d02aa6d425e1046ff615927022a",
+            "step_index": 1
+          }
+        },
+        "observation_packet": {
+          "controller_receive_time_s": 0.0003,
+          "labels": [
+            "FULL_STATE_ORACLE",
+            "SIMULATION_ONLY",
+            "NOT_APPARATUS_REALIZABLE"
+          ],
+          "observation_availability_time_s": 0.0003,
+          "observation_spec_hash": "6f596121b2751ca1e1a421744766117c607b4e89ffd736822ed98f51a3238e09",
+          "observations": [
+            {
+              "availability_time_s": 0.0003,
+              "channel_id": "obs_x",
+              "missing_reason": null,
+              "noise_realization": [
+                0.0
+              ],
+              "saturated": false,
+              "sensor_sample_time_s": 0.0003,
+              "source_state_timestamp_s": 0.0003,
+              "status": "VALID",
+              "units": "abstract",
+              "value": [
+                0.982
+              ]
+            }
+          ],
+          "packet_id": "packet_00001",
+          "sensor_sample_time_s": 0.0003,
+          "source_state_timestamp_s": 0.0003,
+          "status": "VALID"
+        },
+        "plant_state_hash": "5baa7beddc4f81883e40740f27e492d905a9a030898c2bbe428036d45c688f0c",
+        "realized_control_state": {
+          "component_order": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "components": [
+            {
+              "active": true,
+              "component_id": 1,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.75,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_plus",
+              "relative_saturation": 0.25,
+              "role": "lower_F1",
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_1_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 2,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.75,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_minus",
+              "relative_saturation": 0.25,
+              "role": "F0",
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_2_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 3,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.75,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_minus",
+              "relative_saturation": 0.5,
+              "role": "upper_F1_F2_mean",
+              "saturation": 2.9,
+              "saturation_channel_id": "static_component_3_saturation"
+            },
+            {
+              "active": false,
+              "component_id": 4,
+              "detuning_channel_id": "static_component_4_detuning",
+              "detuning_gamma": 2.0,
+              "enabled": false,
+              "off_reason": "legacy_v1_explicit_disabled_no_text_reason",
+              "polarization": "sigma_plus",
+              "relative_saturation": 0.0,
+              "role": "upper_F1_F2_mean_confinement",
+              "saturation": 0.0,
+              "saturation_channel_id": "static_component_4_saturation"
+            }
+          ],
+          "evaluation_time_s": 0.0003,
+          "event_ids_at_time": [
+            "action_step_00001"
+          ],
+          "handoff_occurred": false,
+          "policy_hash": "7999fce2080e4a4bb4481ecd965a78343ec7794eb3e544395ca4d195b9ea1b63",
+          "segment_id": "static",
+          "semantic_label": "static",
+          "time_s": 0.0003
+        },
+        "record_hash": "c5df2a4988583dbf1ae7ff3304506a9cdca7283db74bfabb229fcf252950580d",
+        "step_id": "step_00001",
+        "synthetic_hidden_state": {
+          "synthetic_fixture_labels": [
+            "SYNTHETIC_TEST_FIXTURE",
+            "MODEL_INDEPENDENT",
+            "NOT_MGF_PHYSICS"
+          ],
+          "timestamp_s": 0.0003,
+          "values": {
+            "x": 0.982
+          }
+        },
+        "validation_issues": []
+      },
+      {
+        "action": {
+          "action_id": "action_step_00002",
+          "action_source": "BOUNDED_AFFINE_CONTROLLER",
+          "action_timestamp_s": 0.0006,
+          "channel_values": [
+            {
+              "channel_id": "static_shared_detuning_123",
+              "units": "Gamma",
+              "value": -1.8072072000000001
+            }
+          ],
+          "controller_step_id": "step_00002",
+          "fallback_origin": null,
+          "provenance": {
+            "interpretation_notes": "Feedback plumbing only; no physical claim",
+            "labels": [
+              "MODEL_INDEPENDENT",
+              "NOT_MGF_PHYSICS"
+            ],
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "Run 016 closed synthetic example",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "requested_effective_time_s": 0.0006,
+          "update_mode": "PARTIAL_HOLD_UNSPECIFIED",
+          "validity": "VALID"
+        },
+        "action_validation": {
+          "issues": []
+        },
+        "compilation_status": "COMPILED_APPROXIMATE",
+        "controller_receive_time_s": 0.0006,
+        "effective_commands": [
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_1_saturation",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00009",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "saturation",
+            "ideal_value": 1.45,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.0,
+            "quantization_step": 0.05,
+            "quantized_value": 1.45,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "saturation_parameter"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_2_saturation",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00013",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "saturation",
+            "ideal_value": 1.45,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.0,
+            "quantization_step": 0.05,
+            "quantized_value": 1.45,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "saturation_parameter"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_3_saturation",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00017",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "saturation",
+            "ideal_value": 2.89,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.009999999999999787,
+            "quantization_step": 0.05,
+            "quantized_value": 2.9,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "saturation_parameter"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_4_detuning",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00005",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "detuning_gamma",
+            "ideal_value": 2.0,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.0,
+            "quantization_step": 0.25,
+            "quantized_value": 2.0,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "Gamma"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_4_saturation",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00021",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "saturation",
+            "ideal_value": 0.0,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.0,
+            "quantization_step": 0.05,
+            "quantized_value": 0.0,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "saturation_parameter"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": "atomic_action_step_00000",
+            "channel_id": "static_shared_detuning_123",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00001",
+            "continuous_identity_binding": false,
+            "event_id": "action_step_00000",
+            "field": "detuning_gamma",
+            "ideal_value": -1.8,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.050000000000000044,
+            "quantization_step": 0.25,
+            "quantized_value": -1.75,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "Gamma"
+          },
+          {
+            "actual_effective_time_s": 0.0003,
+            "atomic_group_id": "atomic_action_step_00001",
+            "channel_id": "static_shared_detuning_123",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00002",
+            "continuous_identity_binding": false,
+            "event_id": "action_step_00001",
+            "field": "detuning_gamma",
+            "ideal_value": -1.8035999999999999,
+            "issued_time_s": 0.0003,
+            "latency_s": 0.0,
+            "quantization_error": 0.05359999999999987,
+            "quantization_step": 0.25,
+            "quantized_value": -1.75,
+            "requested_effective_time_s": 0.0003,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "Gamma"
+          },
+          {
+            "actual_effective_time_s": 0.0006,
+            "atomic_group_id": "atomic_action_step_00002",
+            "channel_id": "static_shared_detuning_123",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00003",
+            "continuous_identity_binding": false,
+            "event_id": "action_step_00002",
+            "field": "detuning_gamma",
+            "ideal_value": -1.8072072000000001,
+            "issued_time_s": 0.0006,
+            "latency_s": 0.0,
+            "quantization_error": 0.057207200000000125,
+            "quantization_step": 0.25,
+            "quantized_value": -1.75,
+            "requested_effective_time_s": 0.0006,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "Gamma"
+          }
+        ],
+        "event_index": 2,
+        "fallback_decision": null,
+        "issued_commands": [
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_1_saturation",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00009",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "saturation",
+            "ideal_value": 1.45,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.0,
+            "quantization_step": 0.05,
+            "quantized_value": 1.45,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "saturation_parameter"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_2_saturation",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00013",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "saturation",
+            "ideal_value": 1.45,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.0,
+            "quantization_step": 0.05,
+            "quantized_value": 1.45,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "saturation_parameter"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_3_saturation",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00017",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "saturation",
+            "ideal_value": 2.89,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.009999999999999787,
+            "quantization_step": 0.05,
+            "quantized_value": 2.9,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "saturation_parameter"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_4_detuning",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00005",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "detuning_gamma",
+            "ideal_value": 2.0,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.0,
+            "quantization_step": 0.25,
+            "quantized_value": 2.0,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "Gamma"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_4_saturation",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00021",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "saturation",
+            "ideal_value": 0.0,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.0,
+            "quantization_step": 0.05,
+            "quantized_value": 0.0,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "saturation_parameter"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": "atomic_action_step_00000",
+            "channel_id": "static_shared_detuning_123",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00001",
+            "continuous_identity_binding": false,
+            "event_id": "action_step_00000",
+            "field": "detuning_gamma",
+            "ideal_value": -1.8,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.050000000000000044,
+            "quantization_step": 0.25,
+            "quantized_value": -1.75,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "Gamma"
+          },
+          {
+            "actual_effective_time_s": 0.0003,
+            "atomic_group_id": "atomic_action_step_00001",
+            "channel_id": "static_shared_detuning_123",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00002",
+            "continuous_identity_binding": false,
+            "event_id": "action_step_00001",
+            "field": "detuning_gamma",
+            "ideal_value": -1.8035999999999999,
+            "issued_time_s": 0.0003,
+            "latency_s": 0.0,
+            "quantization_error": 0.05359999999999987,
+            "quantization_step": 0.25,
+            "quantized_value": -1.75,
+            "requested_effective_time_s": 0.0003,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "Gamma"
+          },
+          {
+            "actual_effective_time_s": 0.0006,
+            "atomic_group_id": "atomic_action_step_00002",
+            "channel_id": "static_shared_detuning_123",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00003",
+            "continuous_identity_binding": false,
+            "event_id": "action_step_00002",
+            "field": "detuning_gamma",
+            "ideal_value": -1.8072072000000001,
+            "issued_time_s": 0.0006,
+            "latency_s": 0.0,
+            "quantization_error": 0.057207200000000125,
+            "quantization_step": 0.25,
+            "quantized_value": -1.75,
+            "requested_effective_time_s": 0.0006,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "Gamma"
+          }
+        ],
+        "memory_after": {
+          "schema_hash": "72565dc0bd6b74a36147fe130a206b5df6ab2ce16c6cdcf2ec7e94b5c07ee2d6",
+          "values": {
+            "last_action_hash": "8d1181aab7200e01de8fc353c7f9b0d4a6ac9d29229cec83a97037b714ae564d",
+            "step_index": 3
+          }
+        },
+        "memory_before": {
+          "schema_hash": "72565dc0bd6b74a36147fe130a206b5df6ab2ce16c6cdcf2ec7e94b5c07ee2d6",
+          "values": {
+            "last_action_hash": "a4743866686aa774cd805e3bec007412006ff6510fd7590f4757c44ef0fe036d",
+            "step_index": 2
+          }
+        },
+        "observation_packet": {
+          "controller_receive_time_s": 0.0006,
+          "labels": [
+            "FULL_STATE_ORACLE",
+            "SIMULATION_ONLY",
+            "NOT_APPARATUS_REALIZABLE"
+          ],
+          "observation_availability_time_s": 0.0006,
+          "observation_spec_hash": "6f596121b2751ca1e1a421744766117c607b4e89ffd736822ed98f51a3238e09",
+          "observations": [
+            {
+              "availability_time_s": 0.0006,
+              "channel_id": "obs_x",
+              "missing_reason": null,
+              "noise_realization": [
+                0.0
+              ],
+              "saturated": false,
+              "sensor_sample_time_s": 0.0006,
+              "source_state_timestamp_s": 0.0006,
+              "status": "VALID",
+              "units": "abstract",
+              "value": [
+                0.9639639999999999
+              ]
+            }
+          ],
+          "packet_id": "packet_00002",
+          "sensor_sample_time_s": 0.0006,
+          "source_state_timestamp_s": 0.0006,
+          "status": "VALID"
+        },
+        "plant_state_hash": "4ddfd78d1219b4a555ba9185af170c5a10e9797eefcd3fde79f23b880e5d6208",
+        "realized_control_state": {
+          "component_order": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "components": [
+            {
+              "active": true,
+              "component_id": 1,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.75,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_plus",
+              "relative_saturation": 0.25,
+              "role": "lower_F1",
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_1_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 2,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.75,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_minus",
+              "relative_saturation": 0.25,
+              "role": "F0",
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_2_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 3,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.75,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_minus",
+              "relative_saturation": 0.5,
+              "role": "upper_F1_F2_mean",
+              "saturation": 2.9,
+              "saturation_channel_id": "static_component_3_saturation"
+            },
+            {
+              "active": false,
+              "component_id": 4,
+              "detuning_channel_id": "static_component_4_detuning",
+              "detuning_gamma": 2.0,
+              "enabled": false,
+              "off_reason": "legacy_v1_explicit_disabled_no_text_reason",
+              "polarization": "sigma_plus",
+              "relative_saturation": 0.0,
+              "role": "upper_F1_F2_mean_confinement",
+              "saturation": 0.0,
+              "saturation_channel_id": "static_component_4_saturation"
+            }
+          ],
+          "evaluation_time_s": 0.0006,
+          "event_ids_at_time": [
+            "action_step_00002"
+          ],
+          "handoff_occurred": false,
+          "policy_hash": "d8c9876017ac1284baa1d31c17f7179c985f03fc16da49aa987661426a56d701",
+          "segment_id": "static",
+          "semantic_label": "static",
+          "time_s": 0.0006
+        },
+        "record_hash": "4bc908c3da4453eb5434b7b43faadc624228b8174d4e134d6ec58908e7889d33",
+        "step_id": "step_00002",
+        "synthetic_hidden_state": {
+          "synthetic_fixture_labels": [
+            "SYNTHETIC_TEST_FIXTURE",
+            "MODEL_INDEPENDENT",
+            "NOT_MGF_PHYSICS"
+          ],
+          "timestamp_s": 0.0006,
+          "values": {
+            "x": 0.9639639999999999
+          }
+        },
+        "validation_issues": []
+      },
+      {
+        "action": {
+          "action_id": "action_step_00003",
+          "action_source": "BOUNDED_AFFINE_CONTROLLER",
+          "action_timestamp_s": 0.0009,
+          "channel_values": [
+            {
+              "channel_id": "static_shared_detuning_123",
+              "units": "Gamma",
+              "value": -1.8108216144
+            }
+          ],
+          "controller_step_id": "step_00003",
+          "fallback_origin": null,
+          "provenance": {
+            "interpretation_notes": "Feedback plumbing only; no physical claim",
+            "labels": [
+              "MODEL_INDEPENDENT",
+              "NOT_MGF_PHYSICS"
+            ],
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "Run 016 closed synthetic example",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "requested_effective_time_s": 0.0009,
+          "update_mode": "PARTIAL_HOLD_UNSPECIFIED",
+          "validity": "VALID"
+        },
+        "action_validation": {
+          "issues": []
+        },
+        "compilation_status": "COMPILED_APPROXIMATE",
+        "controller_receive_time_s": 0.0009,
+        "effective_commands": [
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_1_saturation",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00009",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "saturation",
+            "ideal_value": 1.45,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.0,
+            "quantization_step": 0.05,
+            "quantized_value": 1.45,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "saturation_parameter"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_2_saturation",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00013",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "saturation",
+            "ideal_value": 1.45,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.0,
+            "quantization_step": 0.05,
+            "quantized_value": 1.45,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "saturation_parameter"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_3_saturation",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00017",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "saturation",
+            "ideal_value": 2.89,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.009999999999999787,
+            "quantization_step": 0.05,
+            "quantized_value": 2.9,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "saturation_parameter"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_4_detuning",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00005",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "detuning_gamma",
+            "ideal_value": 2.0,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.0,
+            "quantization_step": 0.25,
+            "quantized_value": 2.0,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "Gamma"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_4_saturation",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00021",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "saturation",
+            "ideal_value": 0.0,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.0,
+            "quantization_step": 0.05,
+            "quantized_value": 0.0,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "saturation_parameter"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": "atomic_action_step_00000",
+            "channel_id": "static_shared_detuning_123",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00001",
+            "continuous_identity_binding": false,
+            "event_id": "action_step_00000",
+            "field": "detuning_gamma",
+            "ideal_value": -1.8,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.050000000000000044,
+            "quantization_step": 0.25,
+            "quantized_value": -1.75,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "Gamma"
+          },
+          {
+            "actual_effective_time_s": 0.0003,
+            "atomic_group_id": "atomic_action_step_00001",
+            "channel_id": "static_shared_detuning_123",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00002",
+            "continuous_identity_binding": false,
+            "event_id": "action_step_00001",
+            "field": "detuning_gamma",
+            "ideal_value": -1.8035999999999999,
+            "issued_time_s": 0.0003,
+            "latency_s": 0.0,
+            "quantization_error": 0.05359999999999987,
+            "quantization_step": 0.25,
+            "quantized_value": -1.75,
+            "requested_effective_time_s": 0.0003,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "Gamma"
+          },
+          {
+            "actual_effective_time_s": 0.0006,
+            "atomic_group_id": "atomic_action_step_00002",
+            "channel_id": "static_shared_detuning_123",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00003",
+            "continuous_identity_binding": false,
+            "event_id": "action_step_00002",
+            "field": "detuning_gamma",
+            "ideal_value": -1.8072072000000001,
+            "issued_time_s": 0.0006,
+            "latency_s": 0.0,
+            "quantization_error": 0.057207200000000125,
+            "quantization_step": 0.25,
+            "quantized_value": -1.75,
+            "requested_effective_time_s": 0.0006,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "Gamma"
+          },
+          {
+            "actual_effective_time_s": 0.0009,
+            "atomic_group_id": "atomic_action_step_00003",
+            "channel_id": "static_shared_detuning_123",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00004",
+            "continuous_identity_binding": false,
+            "event_id": "action_step_00003",
+            "field": "detuning_gamma",
+            "ideal_value": -1.8108216144,
+            "issued_time_s": 0.0009,
+            "latency_s": 0.0,
+            "quantization_error": 0.0608216144,
+            "quantization_step": 0.25,
+            "quantized_value": -1.75,
+            "requested_effective_time_s": 0.0009,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "Gamma"
+          }
+        ],
+        "event_index": 3,
+        "fallback_decision": null,
+        "issued_commands": [
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_1_saturation",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00009",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "saturation",
+            "ideal_value": 1.45,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.0,
+            "quantization_step": 0.05,
+            "quantized_value": 1.45,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "saturation_parameter"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_2_saturation",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00013",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "saturation",
+            "ideal_value": 1.45,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.0,
+            "quantization_step": 0.05,
+            "quantized_value": 1.45,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "saturation_parameter"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_3_saturation",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00017",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "saturation",
+            "ideal_value": 2.89,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.009999999999999787,
+            "quantization_step": 0.05,
+            "quantized_value": 2.9,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "saturation_parameter"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_4_detuning",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00005",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "detuning_gamma",
+            "ideal_value": 2.0,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.0,
+            "quantization_step": 0.25,
+            "quantized_value": 2.0,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "Gamma"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": null,
+            "channel_id": "static_component_4_saturation",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00021",
+            "continuous_identity_binding": false,
+            "event_id": null,
+            "field": "saturation",
+            "ideal_value": 0.0,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.0,
+            "quantization_step": 0.05,
+            "quantized_value": 0.0,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "saturation_parameter"
+          },
+          {
+            "actual_effective_time_s": 0.0,
+            "atomic_group_id": "atomic_action_step_00000",
+            "channel_id": "static_shared_detuning_123",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00001",
+            "continuous_identity_binding": false,
+            "event_id": "action_step_00000",
+            "field": "detuning_gamma",
+            "ideal_value": -1.8,
+            "issued_time_s": 0.0,
+            "latency_s": 0.0,
+            "quantization_error": 0.050000000000000044,
+            "quantization_step": 0.25,
+            "quantized_value": -1.75,
+            "requested_effective_time_s": 0.0,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "Gamma"
+          },
+          {
+            "actual_effective_time_s": 0.0003,
+            "atomic_group_id": "atomic_action_step_00001",
+            "channel_id": "static_shared_detuning_123",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00002",
+            "continuous_identity_binding": false,
+            "event_id": "action_step_00001",
+            "field": "detuning_gamma",
+            "ideal_value": -1.8035999999999999,
+            "issued_time_s": 0.0003,
+            "latency_s": 0.0,
+            "quantization_error": 0.05359999999999987,
+            "quantization_step": 0.25,
+            "quantized_value": -1.75,
+            "requested_effective_time_s": 0.0003,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "Gamma"
+          },
+          {
+            "actual_effective_time_s": 0.0006,
+            "atomic_group_id": "atomic_action_step_00002",
+            "channel_id": "static_shared_detuning_123",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00003",
+            "continuous_identity_binding": false,
+            "event_id": "action_step_00002",
+            "field": "detuning_gamma",
+            "ideal_value": -1.8072072000000001,
+            "issued_time_s": 0.0006,
+            "latency_s": 0.0,
+            "quantization_error": 0.057207200000000125,
+            "quantization_step": 0.25,
+            "quantized_value": -1.75,
+            "requested_effective_time_s": 0.0006,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "Gamma"
+          },
+          {
+            "actual_effective_time_s": 0.0009,
+            "atomic_group_id": "atomic_action_step_00003",
+            "channel_id": "static_shared_detuning_123",
+            "clock_displacement_s": 0.0,
+            "command_id": "cmd_00004",
+            "continuous_identity_binding": false,
+            "event_id": "action_step_00003",
+            "field": "detuning_gamma",
+            "ideal_value": -1.8108216144,
+            "issued_time_s": 0.0009,
+            "latency_s": 0.0,
+            "quantization_error": 0.0608216144,
+            "quantization_step": 0.25,
+            "quantized_value": -1.75,
+            "requested_effective_time_s": 0.0009,
+            "rounding_rule": "NEAREST_TIES_TO_EVEN",
+            "units": "Gamma"
+          }
+        ],
+        "memory_after": {
+          "schema_hash": "72565dc0bd6b74a36147fe130a206b5df6ab2ce16c6cdcf2ec7e94b5c07ee2d6",
+          "values": {
+            "last_action_hash": "f92ba4e196b9b0c9d8bff16deab10aaa06ac9fec7703a7e4a56ad24a78805cc8",
+            "step_index": 4
+          }
+        },
+        "memory_before": {
+          "schema_hash": "72565dc0bd6b74a36147fe130a206b5df6ab2ce16c6cdcf2ec7e94b5c07ee2d6",
+          "values": {
+            "last_action_hash": "8d1181aab7200e01de8fc353c7f9b0d4a6ac9d29229cec83a97037b714ae564d",
+            "step_index": 3
+          }
+        },
+        "observation_packet": {
+          "controller_receive_time_s": 0.0009,
+          "labels": [
+            "FULL_STATE_ORACLE",
+            "SIMULATION_ONLY",
+            "NOT_APPARATUS_REALIZABLE"
+          ],
+          "observation_availability_time_s": 0.0009,
+          "observation_spec_hash": "6f596121b2751ca1e1a421744766117c607b4e89ffd736822ed98f51a3238e09",
+          "observations": [
+            {
+              "availability_time_s": 0.0009,
+              "channel_id": "obs_x",
+              "missing_reason": null,
+              "noise_realization": [
+                0.0
+              ],
+              "saturated": false,
+              "sensor_sample_time_s": 0.0009,
+              "source_state_timestamp_s": 0.0009,
+              "status": "VALID",
+              "units": "abstract",
+              "value": [
+                0.9458919279999999
+              ]
+            }
+          ],
+          "packet_id": "packet_00003",
+          "sensor_sample_time_s": 0.0009,
+          "source_state_timestamp_s": 0.0009,
+          "status": "VALID"
+        },
+        "plant_state_hash": "a9a477ba9cd1cdce843e13305923832ad78230358b3b2e0d6bf246b9edbf3d06",
+        "realized_control_state": {
+          "component_order": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "components": [
+            {
+              "active": true,
+              "component_id": 1,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.75,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_plus",
+              "relative_saturation": 0.25,
+              "role": "lower_F1",
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_1_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 2,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.75,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_minus",
+              "relative_saturation": 0.25,
+              "role": "F0",
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_2_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 3,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.75,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_minus",
+              "relative_saturation": 0.5,
+              "role": "upper_F1_F2_mean",
+              "saturation": 2.9,
+              "saturation_channel_id": "static_component_3_saturation"
+            },
+            {
+              "active": false,
+              "component_id": 4,
+              "detuning_channel_id": "static_component_4_detuning",
+              "detuning_gamma": 2.0,
+              "enabled": false,
+              "off_reason": "legacy_v1_explicit_disabled_no_text_reason",
+              "polarization": "sigma_plus",
+              "relative_saturation": 0.0,
+              "role": "upper_F1_F2_mean_confinement",
+              "saturation": 0.0,
+              "saturation_channel_id": "static_component_4_saturation"
+            }
+          ],
+          "evaluation_time_s": 0.0009,
+          "event_ids_at_time": [
+            "action_step_00003"
+          ],
+          "handoff_occurred": false,
+          "policy_hash": "7bacb0860b944ac1d20c343f5e6233aae42bcede50d80303f178fa83ded0e4a2",
+          "segment_id": "static",
+          "semantic_label": "static",
+          "time_s": 0.0009
+        },
+        "record_hash": "b2e624ff17df1431c0aa4c4f49d57e7db87c535b8418538efbd338fc1dc547f1",
+        "step_id": "step_00003",
+        "synthetic_hidden_state": {
+          "synthetic_fixture_labels": [
+            "SYNTHETIC_TEST_FIXTURE",
+            "MODEL_INDEPENDENT",
+            "NOT_MGF_PHYSICS"
+          ],
+          "timestamp_s": 0.0009,
+          "values": {
+            "x": 0.9458919279999999
+          }
+        },
+        "validation_issues": []
+      }
+    ]
+  },
+  "session_spec": {
+    "abi_spec": {
+      "component_order": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "control_channels": [
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "static_shared_detuning_123",
+          "description": "One shared fixed detuning channel",
+          "field": "detuning_gamma",
+          "fixed_value": null,
+          "parameter_names": [
+            "static_detuning_123_gamma"
+          ],
+          "relationship": "SHARED",
+          "signal_kind": "FIXED",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 1,
+              "field": "detuning_gamma",
+              "segment_id": "static"
+            },
+            {
+              "component_id": 2,
+              "field": "detuning_gamma",
+              "segment_id": "static"
+            },
+            {
+              "component_id": 3,
+              "field": "detuning_gamma",
+              "segment_id": "static"
+            }
+          ]
+        },
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "static_component_4_detuning",
+          "description": "Explicit fixed/parked detuning",
+          "field": "detuning_gamma",
+          "fixed_value": null,
+          "parameter_names": [
+            "static_component_4_detuning_gamma"
+          ],
+          "relationship": "FIXED",
+          "signal_kind": "FIXED",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 4,
+              "field": "detuning_gamma",
+              "segment_id": "static"
+            }
+          ]
+        },
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "static_component_1_saturation",
+          "description": "Explicit fixed optical power",
+          "field": "saturation",
+          "fixed_value": null,
+          "parameter_names": [
+            "static_component_1_saturation"
+          ],
+          "relationship": "FIXED",
+          "signal_kind": "FIXED",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 1,
+              "field": "saturation",
+              "segment_id": "static"
+            }
+          ]
+        },
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "static_component_2_saturation",
+          "description": "Explicit fixed optical power",
+          "field": "saturation",
+          "fixed_value": null,
+          "parameter_names": [
+            "static_component_2_saturation"
+          ],
+          "relationship": "FIXED",
+          "signal_kind": "FIXED",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 2,
+              "field": "saturation",
+              "segment_id": "static"
+            }
+          ]
+        },
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "static_component_3_saturation",
+          "description": "Explicit fixed optical power",
+          "field": "saturation",
+          "fixed_value": null,
+          "parameter_names": [
+            "static_component_3_saturation"
+          ],
+          "relationship": "FIXED",
+          "signal_kind": "FIXED",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 3,
+              "field": "saturation",
+              "segment_id": "static"
+            }
+          ]
+        },
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "static_component_4_saturation",
+          "description": "Explicit fixed optical power",
+          "field": "saturation",
+          "fixed_value": null,
+          "parameter_names": [
+            "static_component_4_saturation"
+          ],
+          "relationship": "FIXED",
+          "signal_kind": "FIXED",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 4,
+              "field": "saturation",
+              "segment_id": "static"
+            }
+          ]
+        }
+      ],
+      "detuning_unit": "Gamma",
+      "domain": {
+        "after_maximum": "HOLD_FINAL",
+        "before_minimum": "HOLD_INITIAL",
+        "endpoint_semantics": "t=0 included; finite endpoints use exact values; unbounded final hold",
+        "maximum_time_s": null,
+        "minimum_time_s": 0.0,
+        "unbounded_continuation": true
+      },
+      "events": [],
+      "legacy_policy_type": "static",
+      "parameter_specs": [
+        {
+          "adjustable": false,
+          "bound_basis": "UNKNOWN",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Shared fixed detuning for components 1,2,3",
+          "lower_bound": null,
+          "name": "static_detuning_123_gamma",
+          "shape": [],
+          "units": "Gamma",
+          "upper_bound": null
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "UNKNOWN",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Fixed detuning of component 4",
+          "lower_bound": null,
+          "name": "static_component_4_detuning_gamma",
+          "shape": [],
+          "units": "Gamma",
+          "upper_bound": null
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "UNKNOWN",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Fixed saturation of component 1",
+          "lower_bound": null,
+          "name": "static_component_1_saturation",
+          "shape": [],
+          "units": "saturation_parameter",
+          "upper_bound": null
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "UNKNOWN",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Fixed saturation of component 2",
+          "lower_bound": null,
+          "name": "static_component_2_saturation",
+          "shape": [],
+          "units": "saturation_parameter",
+          "upper_bound": null
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "UNKNOWN",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Fixed saturation of component 3",
+          "lower_bound": null,
+          "name": "static_component_3_saturation",
+          "shape": [],
+          "units": "saturation_parameter",
+          "upper_bound": null
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "UNKNOWN",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Fixed saturation of component 4",
+          "lower_bound": null,
+          "name": "static_component_4_saturation",
+          "shape": [],
+          "units": "saturation_parameter",
+          "upper_bound": null
+        }
+      ],
+      "parameter_values": {
+        "static_component_1_saturation": 1.45,
+        "static_component_2_saturation": 1.45,
+        "static_component_3_saturation": 2.89,
+        "static_component_4_detuning_gamma": 2.0,
+        "static_component_4_saturation": 0.0,
+        "static_detuning_123_gamma": -1.0
+      },
+      "policy_description": "Legacy-compatible static four-component schedule",
+      "policy_family": "STATIC",
+      "policy_name": "rodriguez_static_3",
+      "provenance": {
+        "generation_method": "legacy_v1_to_declarative_v2_adapter",
+        "implementation_version": "run013-control-policy-abi-v2.0",
+        "non_replication_labels": [
+          "MODEL_INDEPENDENT",
+          "NOT_RODRIGUEZ_REPLICATION",
+          "CONTROL_POLICY_ABI_ONLY"
+        ],
+        "notes": [
+          "Converted declaratively from the existing v1 policy object; source YAML was not rewritten.",
+          "ABI v2 labels a legacy explicit-disabled/null-reason component with a sentinel; compatibility projection restores null exactly."
+        ],
+        "parent_policy_ids": [],
+        "policy_family_id": "STATIC",
+        "schema_version": "mgf-mot-control-policy-v2",
+        "source_configuration_hashes": [
+          "22b9d4f6ff2e1634aaaad7808289c4a4b39c6b63e65763c881c23901c58e4077"
+        ],
+        "source_configuration_paths": [
+          "C:/MOTCS/configs/rodriguez_static_3.yaml"
+        ],
+        "units": {
+          "detuning": "Gamma",
+          "saturation": "saturation_parameter",
+          "time": "s"
+        }
+      },
+      "saturation_unit": "saturation_parameter",
+      "schema_version": "mgf-mot-control-policy-v2",
+      "segments": [
+        {
+          "components": [
+            {
+              "active": true,
+              "component_id": 1,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_plus",
+              "relative_saturation": 0.25,
+              "role": "lower_F1",
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_1_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 2,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_minus",
+              "relative_saturation": 0.25,
+              "role": "F0",
+              "saturation": 1.45,
+              "saturation_channel_id": "static_component_2_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 3,
+              "detuning_channel_id": "static_shared_detuning_123",
+              "detuning_gamma": -1.0,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_minus",
+              "relative_saturation": 0.5,
+              "role": "upper_F1_F2_mean",
+              "saturation": 2.89,
+              "saturation_channel_id": "static_component_3_saturation"
+            },
+            {
+              "active": false,
+              "component_id": 4,
+              "detuning_channel_id": "static_component_4_detuning",
+              "detuning_gamma": 2.0,
+              "enabled": false,
+              "off_reason": "legacy_v1_explicit_disabled_no_text_reason",
+              "polarization": "sigma_plus",
+              "relative_saturation": 0.0,
+              "role": "upper_F1_F2_mean_confinement",
+              "saturation": 0.0,
+              "saturation_channel_id": "static_component_4_saturation"
+            }
+          ],
+          "segment_id": "static",
+          "semantic_label": "static"
+        }
+      ],
+      "statefulness": "STATELESS_OPEN_LOOP",
+      "time_unit": "s"
+    },
+    "action_spec": {
+      "action_spec_id": "run016_abi_action_channels",
+      "allow_hold_instruction": true,
+      "allow_partial_updates": true,
+      "channels": [
+        {
+          "channel_id": "static_shared_detuning_123",
+          "maximum": 3.0,
+          "minimum": -10.0,
+          "ownership": "SHARED",
+          "required_in_complete_action": true,
+          "units": "Gamma"
+        },
+        {
+          "channel_id": "static_component_4_detuning",
+          "maximum": 3.0,
+          "minimum": -10.0,
+          "ownership": "FIXED",
+          "required_in_complete_action": true,
+          "units": "Gamma"
+        },
+        {
+          "channel_id": "static_component_1_saturation",
+          "maximum": 4.0,
+          "minimum": 0.0,
+          "ownership": "FIXED",
+          "required_in_complete_action": true,
+          "units": "saturation_parameter"
+        },
+        {
+          "channel_id": "static_component_2_saturation",
+          "maximum": 4.0,
+          "minimum": 0.0,
+          "ownership": "FIXED",
+          "required_in_complete_action": true,
+          "units": "saturation_parameter"
+        },
+        {
+          "channel_id": "static_component_3_saturation",
+          "maximum": 4.0,
+          "minimum": 0.0,
+          "ownership": "FIXED",
+          "required_in_complete_action": true,
+          "units": "saturation_parameter"
+        },
+        {
+          "channel_id": "static_component_4_saturation",
+          "maximum": 4.0,
+          "minimum": 0.0,
+          "ownership": "FIXED",
+          "required_in_complete_action": true,
+          "units": "saturation_parameter"
+        }
+      ],
+      "provenance": {
+        "interpretation_notes": "Feedback plumbing only; no physical claim",
+        "labels": [
+          "MODEL_INDEPENDENT",
+          "NOT_MGF_PHYSICS"
+        ],
+        "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+        "source_description": "Run 016 closed synthetic example",
+        "source_hash": null,
+        "source_path_or_citation": null
+      },
+      "schema_version": "mgf-mot-feedback-action-spec-v1",
+      "unspecified_channel_behavior": "HOLD_PREVIOUS_VALUE"
+    },
+    "apparatus_profile": {
+      "aggregate_saturation_budget": {
+        "knowledge": "UNBOUNDED",
+        "not_applicable_reason": null,
+        "provenance": {
+          "directly_reported": false,
+          "interpretation_notes": "explicit idealized unbounded synthetic capability",
+          "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+          "source_description": "explicit idealized unbounded synthetic capability",
+          "source_hash": null,
+          "source_path_or_citation": null
+        },
+        "units": "aggregate_saturation_parameter",
+        "value": null
+      },
+      "channel_capabilities": [
+        {
+          "activation_restriction": "ALLOWED",
+          "allowed_values": {
+            "knowledge": "NOT_APPLICABLE",
+            "not_applicable_reason": "no discrete allowed-value set",
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "no discrete allowed-value set",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "no discrete allowed-value set",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": null,
+            "value": null
+          },
+          "channel_id": "static_component_1_saturation",
+          "deactivation_restriction": "ALLOWED",
+          "field": "saturation",
+          "maximum": {
+            "knowledge": "KNOWN",
+            "not_applicable_reason": null,
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "synthetic Run 014 test fixture",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "synthetic Run 014 test fixture",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": "saturation_parameter",
+            "value": 4
+          },
+          "maximum_first_derivative": {
+            "knowledge": "UNBOUNDED",
+            "not_applicable_reason": null,
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "explicit idealized unbounded synthetic capability",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "explicit idealized unbounded synthetic capability",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": "saturation_parameter/s",
+            "value": null
+          },
+          "maximum_second_difference": {
+            "knowledge": "UNBOUNDED",
+            "not_applicable_reason": null,
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "explicit idealized unbounded synthetic capability",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "explicit idealized unbounded synthetic capability",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": "saturation_parameter/s/s",
+            "value": null
+          },
+          "minimum": {
+            "knowledge": "KNOWN",
+            "not_applicable_reason": null,
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "synthetic Run 014 test fixture",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "synthetic Run 014 test fixture",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": "saturation_parameter",
+            "value": 0
+          },
+          "minimum_dwell_time": {
+            "knowledge": "NOT_APPLICABLE",
+            "not_applicable_reason": "no minimum dwell",
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "no minimum dwell",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "no minimum dwell",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": null,
+            "value": null
+          },
+          "resolution": {
+            "knowledge": "KNOWN",
+            "not_applicable_reason": null,
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "synthetic Run 014 test fixture",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "synthetic Run 014 test fixture",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": "saturation_parameter",
+            "value": 0.05
+          },
+          "update_period": {
+            "knowledge": "KNOWN",
+            "not_applicable_reason": null,
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "synthetic Run 014 test fixture",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "synthetic Run 014 test fixture",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": "s",
+            "value": 0.0003
+          }
+        },
+        {
+          "activation_restriction": "ALLOWED",
+          "allowed_values": {
+            "knowledge": "NOT_APPLICABLE",
+            "not_applicable_reason": "no discrete allowed-value set",
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "no discrete allowed-value set",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "no discrete allowed-value set",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": null,
+            "value": null
+          },
+          "channel_id": "static_component_2_saturation",
+          "deactivation_restriction": "ALLOWED",
+          "field": "saturation",
+          "maximum": {
+            "knowledge": "KNOWN",
+            "not_applicable_reason": null,
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "synthetic Run 014 test fixture",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "synthetic Run 014 test fixture",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": "saturation_parameter",
+            "value": 4
+          },
+          "maximum_first_derivative": {
+            "knowledge": "UNBOUNDED",
+            "not_applicable_reason": null,
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "explicit idealized unbounded synthetic capability",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "explicit idealized unbounded synthetic capability",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": "saturation_parameter/s",
+            "value": null
+          },
+          "maximum_second_difference": {
+            "knowledge": "UNBOUNDED",
+            "not_applicable_reason": null,
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "explicit idealized unbounded synthetic capability",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "explicit idealized unbounded synthetic capability",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": "saturation_parameter/s/s",
+            "value": null
+          },
+          "minimum": {
+            "knowledge": "KNOWN",
+            "not_applicable_reason": null,
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "synthetic Run 014 test fixture",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "synthetic Run 014 test fixture",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": "saturation_parameter",
+            "value": 0
+          },
+          "minimum_dwell_time": {
+            "knowledge": "NOT_APPLICABLE",
+            "not_applicable_reason": "no minimum dwell",
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "no minimum dwell",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "no minimum dwell",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": null,
+            "value": null
+          },
+          "resolution": {
+            "knowledge": "KNOWN",
+            "not_applicable_reason": null,
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "synthetic Run 014 test fixture",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "synthetic Run 014 test fixture",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": "saturation_parameter",
+            "value": 0.05
+          },
+          "update_period": {
+            "knowledge": "KNOWN",
+            "not_applicable_reason": null,
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "synthetic Run 014 test fixture",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "synthetic Run 014 test fixture",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": "s",
+            "value": 0.0003
+          }
+        },
+        {
+          "activation_restriction": "ALLOWED",
+          "allowed_values": {
+            "knowledge": "NOT_APPLICABLE",
+            "not_applicable_reason": "no discrete allowed-value set",
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "no discrete allowed-value set",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "no discrete allowed-value set",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": null,
+            "value": null
+          },
+          "channel_id": "static_component_3_saturation",
+          "deactivation_restriction": "ALLOWED",
+          "field": "saturation",
+          "maximum": {
+            "knowledge": "KNOWN",
+            "not_applicable_reason": null,
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "synthetic Run 014 test fixture",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "synthetic Run 014 test fixture",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": "saturation_parameter",
+            "value": 4
+          },
+          "maximum_first_derivative": {
+            "knowledge": "UNBOUNDED",
+            "not_applicable_reason": null,
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "explicit idealized unbounded synthetic capability",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "explicit idealized unbounded synthetic capability",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": "saturation_parameter/s",
+            "value": null
+          },
+          "maximum_second_difference": {
+            "knowledge": "UNBOUNDED",
+            "not_applicable_reason": null,
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "explicit idealized unbounded synthetic capability",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "explicit idealized unbounded synthetic capability",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": "saturation_parameter/s/s",
+            "value": null
+          },
+          "minimum": {
+            "knowledge": "KNOWN",
+            "not_applicable_reason": null,
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "synthetic Run 014 test fixture",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "synthetic Run 014 test fixture",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": "saturation_parameter",
+            "value": 0
+          },
+          "minimum_dwell_time": {
+            "knowledge": "NOT_APPLICABLE",
+            "not_applicable_reason": "no minimum dwell",
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "no minimum dwell",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "no minimum dwell",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": null,
+            "value": null
+          },
+          "resolution": {
+            "knowledge": "KNOWN",
+            "not_applicable_reason": null,
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "synthetic Run 014 test fixture",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "synthetic Run 014 test fixture",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": "saturation_parameter",
+            "value": 0.05
+          },
+          "update_period": {
+            "knowledge": "KNOWN",
+            "not_applicable_reason": null,
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "synthetic Run 014 test fixture",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "synthetic Run 014 test fixture",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": "s",
+            "value": 0.0003
+          }
+        },
+        {
+          "activation_restriction": "ALLOWED",
+          "allowed_values": {
+            "knowledge": "NOT_APPLICABLE",
+            "not_applicable_reason": "no discrete allowed-value set",
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "no discrete allowed-value set",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "no discrete allowed-value set",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": null,
+            "value": null
+          },
+          "channel_id": "static_component_4_detuning",
+          "deactivation_restriction": "ALLOWED",
+          "field": "detuning_gamma",
+          "maximum": {
+            "knowledge": "KNOWN",
+            "not_applicable_reason": null,
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "synthetic Run 014 test fixture",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "synthetic Run 014 test fixture",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": "Gamma",
+            "value": 3
+          },
+          "maximum_first_derivative": {
+            "knowledge": "UNBOUNDED",
+            "not_applicable_reason": null,
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "explicit idealized unbounded synthetic capability",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "explicit idealized unbounded synthetic capability",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": "Gamma/s",
+            "value": null
+          },
+          "maximum_second_difference": {
+            "knowledge": "UNBOUNDED",
+            "not_applicable_reason": null,
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "explicit idealized unbounded synthetic capability",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "explicit idealized unbounded synthetic capability",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": "Gamma/s/s",
+            "value": null
+          },
+          "minimum": {
+            "knowledge": "KNOWN",
+            "not_applicable_reason": null,
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "synthetic Run 014 test fixture",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "synthetic Run 014 test fixture",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": "Gamma",
+            "value": -10
+          },
+          "minimum_dwell_time": {
+            "knowledge": "NOT_APPLICABLE",
+            "not_applicable_reason": "no minimum dwell",
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "no minimum dwell",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "no minimum dwell",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": null,
+            "value": null
+          },
+          "resolution": {
+            "knowledge": "KNOWN",
+            "not_applicable_reason": null,
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "synthetic Run 014 test fixture",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "synthetic Run 014 test fixture",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": "Gamma",
+            "value": 0.25
+          },
+          "update_period": {
+            "knowledge": "KNOWN",
+            "not_applicable_reason": null,
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "synthetic Run 014 test fixture",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "synthetic Run 014 test fixture",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": "s",
+            "value": 0.0003
+          }
+        },
+        {
+          "activation_restriction": "ALLOWED",
+          "allowed_values": {
+            "knowledge": "NOT_APPLICABLE",
+            "not_applicable_reason": "no discrete allowed-value set",
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "no discrete allowed-value set",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "no discrete allowed-value set",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": null,
+            "value": null
+          },
+          "channel_id": "static_component_4_saturation",
+          "deactivation_restriction": "ALLOWED",
+          "field": "saturation",
+          "maximum": {
+            "knowledge": "KNOWN",
+            "not_applicable_reason": null,
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "synthetic Run 014 test fixture",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "synthetic Run 014 test fixture",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": "saturation_parameter",
+            "value": 4
+          },
+          "maximum_first_derivative": {
+            "knowledge": "UNBOUNDED",
+            "not_applicable_reason": null,
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "explicit idealized unbounded synthetic capability",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "explicit idealized unbounded synthetic capability",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": "saturation_parameter/s",
+            "value": null
+          },
+          "maximum_second_difference": {
+            "knowledge": "UNBOUNDED",
+            "not_applicable_reason": null,
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "explicit idealized unbounded synthetic capability",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "explicit idealized unbounded synthetic capability",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": "saturation_parameter/s/s",
+            "value": null
+          },
+          "minimum": {
+            "knowledge": "KNOWN",
+            "not_applicable_reason": null,
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "synthetic Run 014 test fixture",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "synthetic Run 014 test fixture",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": "saturation_parameter",
+            "value": 0
+          },
+          "minimum_dwell_time": {
+            "knowledge": "NOT_APPLICABLE",
+            "not_applicable_reason": "no minimum dwell",
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "no minimum dwell",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "no minimum dwell",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": null,
+            "value": null
+          },
+          "resolution": {
+            "knowledge": "KNOWN",
+            "not_applicable_reason": null,
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "synthetic Run 014 test fixture",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "synthetic Run 014 test fixture",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": "saturation_parameter",
+            "value": 0.05
+          },
+          "update_period": {
+            "knowledge": "KNOWN",
+            "not_applicable_reason": null,
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "synthetic Run 014 test fixture",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "synthetic Run 014 test fixture",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": "s",
+            "value": 0.0003
+          }
+        },
+        {
+          "activation_restriction": "ALLOWED",
+          "allowed_values": {
+            "knowledge": "NOT_APPLICABLE",
+            "not_applicable_reason": "no discrete allowed-value set",
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "no discrete allowed-value set",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "no discrete allowed-value set",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": null,
+            "value": null
+          },
+          "channel_id": "static_shared_detuning_123",
+          "deactivation_restriction": "ALLOWED",
+          "field": "detuning_gamma",
+          "maximum": {
+            "knowledge": "KNOWN",
+            "not_applicable_reason": null,
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "synthetic Run 014 test fixture",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "synthetic Run 014 test fixture",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": "Gamma",
+            "value": 3
+          },
+          "maximum_first_derivative": {
+            "knowledge": "UNBOUNDED",
+            "not_applicable_reason": null,
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "explicit idealized unbounded synthetic capability",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "explicit idealized unbounded synthetic capability",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": "Gamma/s",
+            "value": null
+          },
+          "maximum_second_difference": {
+            "knowledge": "UNBOUNDED",
+            "not_applicable_reason": null,
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "explicit idealized unbounded synthetic capability",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "explicit idealized unbounded synthetic capability",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": "Gamma/s/s",
+            "value": null
+          },
+          "minimum": {
+            "knowledge": "KNOWN",
+            "not_applicable_reason": null,
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "synthetic Run 014 test fixture",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "synthetic Run 014 test fixture",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": "Gamma",
+            "value": -10
+          },
+          "minimum_dwell_time": {
+            "knowledge": "NOT_APPLICABLE",
+            "not_applicable_reason": "no minimum dwell",
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "no minimum dwell",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "no minimum dwell",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": null,
+            "value": null
+          },
+          "resolution": {
+            "knowledge": "KNOWN",
+            "not_applicable_reason": null,
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "synthetic Run 014 test fixture",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "synthetic Run 014 test fixture",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": "Gamma",
+            "value": 0.25
+          },
+          "update_period": {
+            "knowledge": "KNOWN",
+            "not_applicable_reason": null,
+            "provenance": {
+              "directly_reported": false,
+              "interpretation_notes": "synthetic Run 014 test fixture",
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "synthetic Run 014 test fixture",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "units": "s",
+            "value": 0.0003
+          }
+        }
+      ],
+      "command_clock": {
+        "allowed_time_rule": "clock_origin_plus_integer_update_period",
+        "clock_origin_s": 0.0,
+        "continuous_identity_binding": false,
+        "minimum_command_separation": {
+          "knowledge": "KNOWN",
+          "not_applicable_reason": null,
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "synthetic Run 014 test fixture",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "synthetic Run 014 test fixture",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": "s",
+          "value": 0.0003
+        },
+        "rounding_mode": "NEAREST_TIES_TO_EVEN",
+        "shared_clock": true,
+        "simultaneous_updates_atomic": true,
+        "update_period": {
+          "knowledge": "KNOWN",
+          "not_applicable_reason": null,
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "synthetic Run 014 test fixture",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "synthetic Run 014 test fixture",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": "s",
+          "value": 0.0003
+        }
+      },
+      "complete": true,
+      "coupling_rules": [],
+      "event_execution": {
+        "atomic_update_required": true,
+        "rule": "SNAP_NEAREST"
+      },
+      "hardware_validation_status": "SYNTHETIC_ONLY",
+      "latency": {
+        "fixed_latency": {
+          "knowledge": "KNOWN",
+          "not_applicable_reason": null,
+          "provenance": {
+            "directly_reported": false,
+            "interpretation_notes": "synthetic Run 014 test fixture",
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "synthetic Run 014 test fixture",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "units": "s",
+          "value": 0.0
+        }
+      },
+      "profile_description": "Deterministic finite-clock fixture",
+      "profile_id": "synthetic_quantized",
+      "profile_name": "Synthetic quantized profile",
+      "provenance": {
+        "directly_reported": false,
+        "interpretation_notes": "synthetic quantization fixture; not hardware",
+        "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+        "source_description": "synthetic quantization fixture; not hardware",
+        "source_hash": null,
+        "source_path_or_citation": null
+      },
+      "schema_version": "mgf-mot-apparatus-constraints-v1"
+    },
+    "baseline_family_spec": null,
+    "controller_spec": {
+      "action_spec_hash": "9937788b24f762d8aff903b03b8d801213772cb6bb5c36531ff17ddac50ad462",
+      "apparatus_eligible": false,
+      "controller_family": "BOUNDED_AFFINE_CONTROLLER",
+      "controller_id": "run016_bounded_affine_controller",
+      "controller_version": "1",
+      "fallback_rules": {
+        "INVALID": "REJECT_STEP",
+        "MISSING": "REJECT_STEP",
+        "SATURATED": "REJECT_STEP",
+        "STALE": "REJECT_STEP",
+        "VALID": "REJECT_STEP"
+      },
+      "memory_schema": [
+        {
+          "dtype": "int64",
+          "initial_value": 0,
+          "name": "step_index",
+          "shape": [],
+          "units": null,
+          "update_semantics": "increment once per controller execution"
+        },
+        {
+          "dtype": "string",
+          "initial_value": "",
+          "name": "last_action_hash",
+          "shape": [],
+          "units": null,
+          "update_semantics": "replace with deterministic action hash"
+        }
+      ],
+      "observation_spec_hash": "6f596121b2751ca1e1a421744766117c607b4e89ffd736822ed98f51a3238e09",
+      "parameters": {
+        "action_channel_ids": [
+          "static_shared_detuning_123"
+        ],
+        "bound_behavior": "EXPLICIT_CLIP",
+        "lower": [
+          -10.0
+        ],
+        "matrix": [
+          [
+            0.2
+          ]
+        ],
+        "observation_channel_ids": [
+          "obs_x"
+        ],
+        "offset": [
+          -2.0
+        ],
+        "update_mode": "PARTIAL_HOLD_UNSPECIFIED",
+        "upper": [
+          3.0
+        ]
+      },
+      "provenance": {
+        "interpretation_notes": "Feedback plumbing only; no physical claim",
+        "labels": [
+          "MODEL_INDEPENDENT",
+          "NOT_MGF_PHYSICS"
+        ],
+        "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+        "source_description": "Run 016 closed synthetic example",
+        "source_hash": null,
+        "source_path_or_citation": null
+      },
+      "schema_version": "mgf-mot-feedback-controller-v1",
+      "simulation_only": true,
+      "statefulness": "EXPLICIT_MEMORY",
+      "timing_assumptions": {
+        "packet_only": true
+      }
+    },
+    "infeasible_action_strategy": "REJECT_AND_HOLD_PREVIOUS",
+    "observation_spec": {
+      "access_class": "FULL_STATE_ORACLE",
+      "channels": [
+        {
+          "access_class": "FULL_STATE_ORACLE",
+          "channel_id": "obs_x",
+          "clip_max": null,
+          "clip_min": null,
+          "description": "Declared synthetic scalar observation",
+          "dtype": "float64",
+          "input_channel_ids": [],
+          "meaning": "synthetic control-fixture coordinate",
+          "missing_data_model": {
+            "mode": "EXPLICIT_STATUS"
+          },
+          "name": "Synthetic state coordinate",
+          "noise_model": {
+            "generator_algorithm": "NONE",
+            "model_id": "NONE",
+            "parameters": {},
+            "provenance": {
+              "interpretation_notes": "Feedback plumbing only; no physical claim",
+              "labels": [
+                "MODEL_INDEPENDENT",
+                "NOT_MGF_PHYSICS"
+              ],
+              "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+              "source_description": "Run 016 closed synthetic example",
+              "source_hash": null,
+              "source_path_or_citation": null
+            },
+            "seed": null,
+            "stream_sharing_id": null,
+            "units": "abstract",
+            "version": "1"
+          },
+          "provenance": {
+            "interpretation_notes": "Feedback plumbing only; no physical claim",
+            "labels": [
+              "MODEL_INDEPENDENT",
+              "NOT_MGF_PHYSICS"
+            ],
+            "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+            "source_description": "Run 016 closed synthetic example",
+            "source_hash": null,
+            "source_path_or_citation": null
+          },
+          "quantization_step": null,
+          "sampling_period_s": 0.0003,
+          "sensor_latency_s": 0.0,
+          "shape": [
+            1
+          ],
+          "source_hidden_state_fields": [
+            "x"
+          ],
+          "transformation_id": "IDENTITY_FIELD",
+          "transformation_parameters": {},
+          "transformation_version": "1",
+          "units": "abstract"
+        }
+      ],
+      "communication_latency_s": 0.0,
+      "deterministic_jitter_s": [],
+      "explicit_sample_times_s": [],
+      "fixed_period_s": 0.0003,
+      "labels": [
+        "FULL_STATE_ORACLE",
+        "SIMULATION_ONLY",
+        "NOT_APPARATUS_REALIZABLE"
+      ],
+      "provenance": {
+        "interpretation_notes": "Feedback plumbing only; no physical claim",
+        "labels": [
+          "MODEL_INDEPENDENT",
+          "NOT_MGF_PHYSICS"
+        ],
+        "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+        "source_description": "Run 016 closed synthetic example",
+        "source_hash": null,
+        "source_path_or_citation": null
+      },
+      "schema_version": "mgf-mot-observation-spec-v1",
+      "spec_id": "run016_observation"
+    },
+    "plant_spec": {
+      "family": "DISCRETE_INTEGRATOR_PLANT",
+      "initial_values": [
+        1.0
+      ],
+      "input_channel_ids": [
+        "static_shared_detuning_123"
+      ],
+      "labels": [
+        "SYNTHETIC_TEST_FIXTURE",
+        "MODEL_INDEPENDENT",
+        "NOT_MGF_PHYSICS"
+      ],
+      "parameters": {
+        "input_matrix": [
+          [
+            0.01
+          ]
+        ]
+      },
+      "plant_id": "run016_synthetic_plant",
+      "provenance": {
+        "interpretation_notes": "Feedback plumbing only; no physical claim",
+        "labels": [
+          "MODEL_INDEPENDENT",
+          "NOT_MGF_PHYSICS"
+        ],
+        "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+        "source_description": "Run 016 closed synthetic example",
+        "source_hash": null,
+        "source_path_or_citation": null
+      },
+      "schema_version": "mgf-mot-synthetic-plant-v1",
+      "state_fields": [
+        "x"
+      ],
+      "update_period_s": 0.0003
+    },
+    "provenance": {
+      "interpretation_notes": "Feedback plumbing only; no physical claim",
+      "labels": [
+        "MODEL_INDEPENDENT",
+        "NOT_MGF_PHYSICS"
+      ],
+      "provenance_class": "SYNTHETIC_TEST_FIXTURE",
+      "source_description": "Run 016 closed synthetic example",
+      "source_hash": null,
+      "source_path_or_citation": null
+    },
+    "safe_action": null,
+    "schema_version": "mgf-mot-feedback-session-v1",
+    "session_id": "oracle_affine",
+    "timing_spec": {
+      "apparatus_command_latency_s": 0.0,
+      "clock_alignment_rule": "NEAREST_TIES_TO_EVEN",
+      "communication_latency_s": 0.0,
+      "control_period_s": 0.0003,
+      "controller_compute_latency_s": 0.0,
+      "end_time_s": 0.0009,
+      "event_ordering_version": "run016-effective_plant_sample_arrival_controller_issue_checkpoint-v1",
+      "initial_time_s": 0.0,
+      "max_observation_age_s": 0.001,
+      "observation_period_s": 0.0003,
+      "pre_roll_s": 0.0,
+      "scheduling_mode": "FIXED_CONTROL_CLOCK",
+      "scripted_controller_times_s": [],
+      "sensor_latency_s": 0.0,
+      "synchronous_clocks": true
+    }
+  },
+  "source_config": "configs\\run_016\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_016_FEEDBACK_POLICY_INTERFACE_ONLY_oracle_affine.yaml",
+  "validation": {
+    "issues": []
+  }
+}

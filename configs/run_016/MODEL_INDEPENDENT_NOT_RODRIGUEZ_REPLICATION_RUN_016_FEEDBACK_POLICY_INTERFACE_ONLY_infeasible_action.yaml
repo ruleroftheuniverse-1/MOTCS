@@ -1,0 +1,5 @@
+schema_version: mgf-mot-feedback-example-v1
+example_id: infeasible_action
+description: Deliberately rate-infeasible scripted action with reject-and-hold response
+provenance_class: ENGINEERING_STRESS_TEST
+labels: [MODEL_INDEPENDENT, NOT_RODRIGUEZ_REPLICATION, RUN_016, FEEDBACK_POLICY_INTERFACE_ONLY]

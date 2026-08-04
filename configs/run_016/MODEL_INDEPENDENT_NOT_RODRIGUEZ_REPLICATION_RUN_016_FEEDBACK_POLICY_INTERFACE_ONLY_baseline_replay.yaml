@@ -1,0 +1,5 @@
+schema_version: mgf-mot-feedback-example-v1
+example_id: baseline_replay
+description: Exact open-loop baseline replay through the feedback interface
+provenance_class: SOURCE_SUPPORTED_CONTROL_BASELINE
+labels: [MODEL_INDEPENDENT, NOT_RODRIGUEZ_REPLICATION, RUN_016, FEEDBACK_POLICY_INTERFACE_ONLY]

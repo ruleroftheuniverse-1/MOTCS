@@ -1,0 +1,5 @@
+schema_version: mgf-mot-feedback-example-v1
+example_id: partial_delayed
+description: Synthetic partial observation with latency and deterministic dropout
+provenance_class: SYNTHETIC_TEST_FIXTURE
+labels: [MODEL_INDEPENDENT, NOT_RODRIGUEZ_REPLICATION, RUN_016, FEEDBACK_POLICY_INTERFACE_ONLY]
