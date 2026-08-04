@@ -1,0 +1,172 @@
+{
+  "entries": [
+    {
+      "name": "apparatus_schedule_compiler_authorized",
+      "rationale": "accepted infrastructure gate",
+      "source_gate": "APPARATUS_SCHEDULE_COMPILER_GO",
+      "source_run": "Run 014",
+      "value": true
+    },
+    {
+      "name": "author_model_intake_pipeline_authorized",
+      "rationale": "quarantined preserve-validate-compare workflow only",
+      "source_gate": "REPRODUCIBLE_CONTROL_INFRA_RELEASE_READY",
+      "source_run": "Run 018",
+      "value": true
+    },
+    {
+      "name": "automatic_model_promotion_authorized",
+      "rationale": "promotion requires a later reviewed gate",
+      "source_gate": "REPRODUCIBLE_CONTROL_INFRA_RELEASE_READY",
+      "source_run": "Run 018",
+      "value": false
+    },
+    {
+      "name": "capture_authorized",
+      "rationale": "capture remains locked",
+      "source_gate": "REPRODUCIBLE_CONTROL_INFRA_RELEASE_READY",
+      "source_run": "Run 018",
+      "value": false
+    },
+    {
+      "name": "capture_metric_authorized",
+      "rationale": "capture remains locked",
+      "source_gate": "REPRODUCIBLE_CONTROL_INFRA_RELEASE_READY",
+      "source_run": "Run 018",
+      "value": false
+    },
+    {
+      "name": "control_policy_abi_authorized",
+      "rationale": "accepted infrastructure gate",
+      "source_gate": "CONTROL_POLICY_ABI_GO",
+      "source_run": "Run 013",
+      "value": true
+    },
+    {
+      "name": "exact_replication_valid",
+      "rationale": "published force structure has not been reproduced",
+      "source_gate": "REPRODUCIBLE_CONTROL_INFRA_RELEASE_READY",
+      "source_run": "Run 018",
+      "value": false
+    },
+    {
+      "name": "experiment_protocol_authorized",
+      "rationale": "accepted infrastructure gate",
+      "source_gate": "CONTROL_EXPERIMENT_INFRA_READY",
+      "source_run": "Run 017",
+      "value": true
+    },
+    {
+      "name": "feedback_policy_interface_authorized",
+      "rationale": "accepted infrastructure gate",
+      "source_gate": "FEEDBACK_POLICY_INTERFACE_GO",
+      "source_run": "Run 016",
+      "value": true
+    },
+    {
+      "name": "hardware_executable_claim_valid",
+      "rationale": "no real apparatus has been validated",
+      "source_gate": "REPRODUCIBLE_CONTROL_INFRA_RELEASE_READY",
+      "source_run": "Run 018",
+      "value": false
+    },
+    {
+      "name": "molecular_model_interchange_authorized",
+      "rationale": "accepted infrastructure gate",
+      "source_gate": "MOLECULAR_MODEL_INTERCHANGE_READY",
+      "source_run": "Run 012",
+      "value": true
+    },
+    {
+      "name": "open_loop_policy_families_authorized",
+      "rationale": "accepted infrastructure gate",
+      "source_gate": "OPEN_LOOP_POLICY_FAMILIES_GO",
+      "source_run": "Run 015",
+      "value": true
+    },
+    {
+      "name": "optimization_run_authorized",
+      "rationale": "no optimization run is authorized",
+      "source_gate": "REPRODUCIBLE_CONTROL_INFRA_RELEASE_READY",
+      "source_run": "Run 018",
+      "value": false
+    },
+    {
+      "name": "optimizer_adapter_interface_authorized",
+      "rationale": "accepted infrastructure gate",
+      "source_gate": "CONTROL_EXPERIMENT_INFRA_READY",
+      "source_run": "Run 017",
+      "value": true
+    },
+    {
+      "name": "optimizer_implementation_authorized",
+      "rationale": "no optimizer implementation is authorized",
+      "source_gate": "REPRODUCIBLE_CONTROL_INFRA_RELEASE_READY",
+      "source_run": "Run 018",
+      "value": false
+    },
+    {
+      "name": "physical_evaluator_authorized",
+      "rationale": "published force structure is not reproduced",
+      "source_gate": "REPRODUCIBLE_CONTROL_INFRA_RELEASE_READY",
+      "source_run": "Run 018",
+      "value": false
+    },
+    {
+      "name": "physical_objective_authorized",
+      "rationale": "physical metrics remain locked",
+      "source_gate": "REPRODUCIBLE_CONTROL_INFRA_RELEASE_READY",
+      "source_run": "Run 018",
+      "value": false
+    },
+    {
+      "name": "real_apparatus_profile_validated",
+      "rationale": "only synthetic or source-incomplete profiles exist",
+      "source_gate": "REPRODUCIBLE_CONTROL_INFRA_RELEASE_READY",
+      "source_run": "Run 018",
+      "value": false
+    },
+    {
+      "name": "real_sensor_model_validated",
+      "rationale": "only synthetic observation fixtures are validated",
+      "source_gate": "REPRODUCIBLE_CONTROL_INFRA_RELEASE_READY",
+      "source_run": "Run 018",
+      "value": false
+    },
+    {
+      "name": "reinforcement_learning_authorized",
+      "rationale": "reinforcement learning is outside authorized scope",
+      "source_gate": "REPRODUCIBLE_CONTROL_INFRA_RELEASE_READY",
+      "source_run": "Run 018",
+      "value": false
+    },
+    {
+      "name": "release_manifest_authorized",
+      "rationale": "release audit gate",
+      "source_gate": "REPRODUCIBLE_CONTROL_INFRA_RELEASE_READY",
+      "source_run": "Run 018",
+      "value": true
+    },
+    {
+      "name": "synthetic_trial_execution_authorized",
+      "rationale": "accepted infrastructure gate",
+      "source_gate": "CONTROL_EXPERIMENT_INFRA_READY",
+      "source_run": "Run 017",
+      "value": true
+    },
+    {
+      "name": "track_e_blocked",
+      "rationale": "awaiting original Rodriguez molecular-model objects",
+      "source_gate": "REPRODUCIBLE_CONTROL_INFRA_RELEASE_READY",
+      "source_run": "Run 018",
+      "value": true
+    }
+  ],
+  "labels": [
+    "MODEL_INDEPENDENT",
+    "NOT_RODRIGUEZ_REPLICATION",
+    "RUN_018",
+    "REPRODUCIBLE_CONTROL_INFRA_RELEASE_ONLY"
+  ],
+  "schema_version": "mgf-mot-authorization-ledger-v1"
+}

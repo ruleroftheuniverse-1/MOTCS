@@ -75,6 +75,12 @@ A precise request for the original molecular matrices or their construction code
 | Named provisional trajectories | Authorized |
 | Paper force-map agreement | Failed |
 | Molecular-model interchange | Ready |
+| Control-policy ABI v2 | Validated |
+| Apparatus schedule compiler | Validated on synthetic/source-incomplete profiles; not real hardware |
+| Open-loop policy families | Validated structurally; no physical ranking |
+| Feedback and exact replay | Validated on synthetic fixtures; not physically evaluated |
+| Experiment/trial/checkpoint/replay protocol | Ready for model-independent and synthetic evaluation |
+| Reproducible infrastructure release | Run 018 release manifest and integrity workflow |
 | Author-model import | Awaiting source data |
 | Capture-velocity calculation | Not authorized |
 | Capture-boundary search | Not authorized |
@@ -84,10 +90,16 @@ A precise request for the original molecular matrices or their construction code
 Current test status:
 
 ```text
-209 passed
+```text
+289 passed
+```
+
+This count is verified with `python -m pytest -q` and recorded by the Run 018 release audit.
 ````
 
 One known `pylcp` `ComplexWarning` remains visible. It was audited in Run 011D: the cast occurs after modulus-squared coupling, and the discarded imaginary component is exactly zero.
+
+The current short status is [docs/current-project-status.md](docs/current-project-status.md); the complete history is [docs/run-index.md](docs/run-index.md).
 
 ---
 
@@ -670,8 +682,32 @@ python scripts/audit_complex_number_fidelity.py
 | 011C    | `MOLECULAR_MODEL_DISCREPANCY_NARROWED`      |
 | 011D    | `COMPLEX_FIDELITY_RULED_OUT`                |
 | 012     | `MOLECULAR_MODEL_INTERCHANGE_READY`         |
+| 013     | `CONTROL_POLICY_ABI_GO`                     |
+| 014     | `APPARATUS_SCHEDULE_COMPILER_GO`            |
+| 015     | `OPEN_LOOP_POLICY_FAMILIES_GO`              |
+| 016     | `FEEDBACK_POLICY_INTERFACE_GO`              |
+| 017     | `CONTROL_EXPERIMENT_INFRA_READY`            |
+| 018     | Reproducible release and safe intake audit  |
 
-Runs 001–008 remain as software-development history and regression plumbing tests. Their heuristic-force trajectory outcomes are physically uninterpretable and superseded by Run 011.
+Runs 001–008 remain as software-development history and regression plumbing tests. Their heuristic-force trajectory outcomes are physically uninterpretable and superseded by Run 011. See [the run index](docs/run-index.md) for the complete ledger.
+
+---
+
+## Model-independent control and release stack
+
+Runs 013–017 provide deterministic control-policy specifications; synthetic/source-incomplete apparatus compilation; open-loop policy representations; observation-only synthetic feedback and exact replay; and experiment, metric, trial, checkpoint, resume, and replay protocols. These interfaces do not show that any alternative policy improves MgF performance.
+
+Run 018 adds a semantic release manifest, artifact catalog, authorization ledger, environment snapshot, CI checks, package-build inspection, and preserve-first author-model intake:
+
+```powershell
+python scripts/generate_release_manifest.py
+python scripts/verify_release_integrity.py
+python scripts/show_project_status.py
+python scripts/audit_model_independent_boundaries.py
+python scripts/verify_package_build_run_018.py
+```
+
+Synthetic feedback success is not physical evidence. Synthetic apparatus profiles are not real hardware descriptions. The optimizer adapter is an interface boundary only: no optimizer has been implemented or run.
 
 ---
 
@@ -743,15 +779,7 @@ The rate-equation model omits optical coherences and is not intended to predict 
 
 ### While the molecular model is pending
 
-Work may continue on model-independent infrastructure:
-
-* piecewise chirp policies;
-* spline chirp policies;
-* Fourier policy representations;
-* feedback-policy interfaces;
-* apparatus constraints;
-* policy serialization and provenance;
-* optimizer interfaces without quantitative optimization runs.
+Work may continue on model-independent maintenance: documentation, deterministic schemas, serialization/provenance, CI, package integrity, and synthetic regression fixtures. Existing policy, apparatus, feedback, and experiment interfaces may be reused without physical evaluation.
 
 Capture searches and quantitative optimization remain locked until the baseline force model is reproduced or a clearly separate provisional research program is approved.
 
@@ -767,4 +795,3 @@ Capture searches and quantitative optimization remain locked until the baseline 
 
   * [https://www.nist.gov/programs-projects/platform-realizing-integrated-molecule-experiments-prime](https://www.nist.gov/programs-projects/platform-realizing-integrated-molecule-experiments-prime)
 * Doppelbauer *et al.*, MgF excited-state spectroscopy and hyperfine constraints.
-

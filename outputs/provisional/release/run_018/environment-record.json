@@ -1,0 +1,29 @@
+{
+  "direct_dependencies": {
+    "PyYAML": ">=6.0",
+    "pylcp": "==1.0.2"
+  },
+  "environment_kind": "AUDIT_SNAPSHOT_NOT_A_UNIVERSAL_LOCKFILE",
+  "generation_time_utc": "2026-08-04T06:37:24.721339+00:00",
+  "installed_versions": {
+    "PyYAML": "6.0.3",
+    "build": "1.5.0",
+    "mgf-mot-force-map": "0.1.0",
+    "numpy": "2.4.6",
+    "pylcp": "1.0.2",
+    "pytest": "9.1.1",
+    "scipy": "1.18.0",
+    "setuptools": null,
+    "wheel": null
+  },
+  "labels": [
+    "MODEL_INDEPENDENT",
+    "NOT_RODRIGUEZ_REPLICATION",
+    "RUN_018",
+    "REPRODUCIBLE_CONTROL_INFRA_RELEASE_ONLY"
+  ],
+  "operating_system": "win32",
+  "python_implementation": "cpython",
+  "python_version": "3.14.4",
+  "schema_version": "mgf-mot-release-environment-v1"
+}

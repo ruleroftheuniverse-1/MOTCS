@@ -1,0 +1,20 @@
+{
+  "authorizations_valid": true,
+  "conflicting_files": [],
+  "documentation_links_valid": true,
+  "gates_valid": true,
+  "labels": [
+    "MODEL_INDEPENDENT",
+    "NOT_RODRIGUEZ_REPLICATION",
+    "RUN_018",
+    "REPRODUCIBLE_CONTROL_INFRA_RELEASE_ONLY"
+  ],
+  "missing_files": [],
+  "modified_files": [],
+  "release_hash_valid": true,
+  "schema_valid": true,
+  "schema_version": "mgf-mot-release-integrity-v1",
+  "status": "RELEASE_INTEGRITY_OK",
+  "unexpected_files": [],
+  "warning_ledger_valid": true
+}

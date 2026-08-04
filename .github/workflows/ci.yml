@@ -1,0 +1,21 @@
+name: model-independent-infrastructure
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: python -m pip install --upgrade pip build
+      - run: python -m pip install -e ".[test]"
+      - run: python -m compileall -q src scripts
+      - run: python -m pytest -q
+      - run: python scripts/verify_release_integrity.py
+      - run: python scripts/audit_model_independent_boundaries.py
+      - run: python scripts/verify_package_build_run_018.py
+      - run: python -c "from pathlib import Path; from mgf_mot.release_manifest import check_documentation_links; broken=check_documentation_links(Path('.')); print(broken); raise SystemExit(bool(broken))"

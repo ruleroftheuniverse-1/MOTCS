@@ -1,0 +1,32 @@
+{
+  "allowed_references": "data-only provenance and documentation strings",
+  "audited_modules": [
+    "scripts/validate_control_policy_abi_v2.py",
+    "scripts/compile_control_policies_run_014.py",
+    "scripts/validate_open_loop_policy_families_run_015.py",
+    "scripts/validate_feedback_policy_interface_run_016.py",
+    "scripts/validate_experiment_search_protocol_run_017.py",
+    "scripts/generate_release_manifest.py",
+    "scripts/verify_release_integrity.py",
+    "scripts/show_project_status.py",
+    "scripts/intake_molecular_model_package.py",
+    "scripts/validate_release_run_018.py"
+  ],
+  "forbidden_boundary": [
+    "build_accepted_provisional_rateeq_backend",
+    "classify_outcome",
+    "gym",
+    "integrate_policy_trajectory",
+    "load_force_field_cache",
+    "mgf_mot.force_field",
+    "mgf_mot.outcomes",
+    "mgf_mot.rateeq_backend",
+    "mgf_mot.trajectory",
+    "minimize",
+    "scipy.optimize",
+    "torch",
+    "train"
+  ],
+  "passed": true,
+  "violations": []
+}
