@@ -8,7 +8,7 @@ from enum import Enum
 from hashlib import sha256
 import json
 import math
-from typing import Any, Mapping
+from typing import Any, Mapping, Protocol
 
 import numpy as np
 
@@ -49,6 +49,12 @@ class CompilationStatus(str, Enum):
     COMPILED_DIAGNOSTIC_INCOMPLETE_PROFILE = "COMPILED_DIAGNOSTIC_INCOMPLETE_PROFILE"
     COMPILATION_INFEASIBLE = "COMPILATION_INFEASIBLE"
     COMPILATION_INVALID = "COMPILATION_INVALID"
+
+
+class PolicyEvaluator(Protocol):
+    spec: ControlPolicySpec
+
+    def sample(self, t: float) -> PolicyState: ...
 
 
 @dataclass(frozen=True)
@@ -193,10 +199,13 @@ class CompilationReport:
 class RealizedControlSchedule:
     """Pure evaluator for effective commands over one finite horizon."""
 
-    def __init__(self, policy_spec: ControlPolicySpec, compiled: CompiledControlSchedule):
+    def __init__(self, policy_spec: ControlPolicySpec, compiled: CompiledControlSchedule, *, policy_evaluator: PolicyEvaluator | None = None):
         if compiled.request.reconstruction_mode not in {ReconstructionMode.ZERO_ORDER_HOLD, ReconstructionMode.SYNTHETIC_CONTINUOUS_IDENTITY_BINDING}:
             raise ValueError("unsupported reconstruction mode")
-        self.policy = ControlPolicy(policy_spec); self.compiled = compiled
+        self.policy = ControlPolicy(policy_spec) if policy_evaluator is None else policy_evaluator
+        if self.policy.spec != policy_spec:
+            raise ValueError("policy evaluator specification does not match the compiled ABI specification")
+        self.compiled = compiled
         self.by_channel: dict[str,list[HardwareCommand]] = {}
         for command in compiled.commands: self.by_channel.setdefault(command.channel_id, []).append(command)
 
@@ -289,7 +298,7 @@ def _quantize(value: float, step: float | None) -> float:
     return float(n*Decimal(str(step)))
 
 
-def _channel_value(policy: ControlPolicy, channel: Any, t: float) -> float:
+def _channel_value(policy: PolicyEvaluator, channel: Any, t: float) -> float:
     state=policy.sample(t); target=channel.targets[0]; component=state.components[target.component_id-1]
     return float(getattr(component,target.field))
 
@@ -298,10 +307,23 @@ def _violation(code: str, message: str, value: Any, units: str|None=None, item: 
     return ConstraintViolation(code,"ERROR","$",message,value,units,item,None)
 
 
-def compile_control_schedule(spec: ControlPolicySpec, profile: ApparatusConstraintSet, request: CompilationRequest) -> tuple[CompiledControlSchedule,RealizedControlSchedule|None]:
+def compile_control_schedule(
+    spec: ControlPolicySpec,
+    profile: ApparatusConstraintSet,
+    request: CompilationRequest,
+    *,
+    policy_evaluator: PolicyEvaluator | None = None,
+    policy_hash_override: str | None = None,
+    source_policy_specification_hash_override: str | None = None,
+) -> tuple[CompiledControlSchedule,RealizedControlSchedule|None]:
     violations: list[ConstraintViolation]=[]
     policy_validation=validate_control_policy_spec(spec); profile_validation=validate_apparatus_profile(profile)
-    policy_hash=control_policy_hashes(spec).full_policy_package; profile_hash=apparatus_profile_hash(profile)
+    abi_hashes=control_policy_hashes(spec)
+    policy_hash=abi_hashes.full_policy_package if policy_hash_override is None else policy_hash_override
+    source_policy_hash=abi_hashes.policy_specification if source_policy_specification_hash_override is None else source_policy_specification_hash_override
+    profile_hash=apparatus_profile_hash(profile)
+    if policy_evaluator is not None and policy_evaluator.spec != spec:
+        violations.append(_violation("POLICY_EVALUATOR_MISMATCH","registered evaluator does not own the supplied ABI specification",None))
     if not policy_validation.valid: violations.append(_violation("INVALID_POLICY","ABI-v2 policy validation failed",[x.code for x in policy_validation.errors]))
     if not profile_validation.valid: violations.append(_violation("INVALID_APPARATUS_PROFILE","apparatus profile validation failed",[x.code for x in profile_validation.issues if x.severity=="ERROR"]))
     if request.policy_hash!=policy_hash or request.profile_hash!=profile_hash: violations.append(_violation("HASH_MISMATCH","request policy/profile hashes do not match inputs",(request.policy_hash,request.profile_hash)))
@@ -314,10 +336,10 @@ def compile_control_schedule(spec: ControlPolicySpec, profile: ApparatusConstrai
     missing=channel_ids-set(capabilities)
     if missing: violations.append(_violation("UNRESOLVED_CHANNEL","apparatus profile lacks ABI channels",sorted(missing)))
     if violations:
-        empty_hash=ScheduleHashes(profile_hash,compilation_request_hash(request),control_policy_hashes(spec).policy_specification,_hash([]),_hash({}),_hash({"invalid":True,"request":request}))
+        empty_hash=ScheduleHashes(profile_hash,compilation_request_hash(request),source_policy_hash,_hash([]),_hash({}),_hash({"invalid":True,"request":request}))
         compiled=CompiledControlSchedule(COMPILED_SCHEDULE_SCHEMA_VERSION,"run014-compiler-v1",PIPELINE,CompilationStatus.COMPILATION_INVALID,policy_hash,profile_hash,request,(),(),{},tuple(violations),(),0,0,0,0.0,not unknown,profile.hardware_validation_status.value,False,empty_hash)
         return compiled,None
-    policy=ControlPolicy(spec)
+    policy=ControlPolicy(spec) if policy_evaluator is None else policy_evaluator
     latency=0.0 if profile.latency.fixed_latency.knowledge is not KnowledgeState.KNOWN else float(profile.latency.fixed_latency.value)
     if latency>0 and request.initial_state_mode is InitialStateMode.POLICY_STATE_AT_START and (request.pre_roll_s is None or request.pre_roll_s<latency): violations.append(_violation("INSUFFICIENT_PRE_ROLL","latency requires explicit initial state or sufficient pre-roll",request.pre_roll_s,"s"))
     if request.initial_state_mode is InitialStateMode.REQUIRE_PRE_ROLL and (request.pre_roll_s is None or request.pre_roll_s < latency):
@@ -452,9 +474,9 @@ def compile_control_schedule(spec: ControlPolicySpec, profile: ApparatusConstrai
         status=CompilationStatus.COMPILATION_INFEASIBLE; violations.append(_violation("SAMPLING_APPROXIMATION_FORBIDDEN","finite ZOH cannot exactly represent nonconstant continuous channels",period,"s"))
     else: status=CompilationStatus.COMPILED_APPROXIMATE
     # Provisional object first, then use evaluator for deterministic metrics.
-    placeholder=ScheduleHashes(profile_hash,compilation_request_hash(request),control_policy_hashes(spec).policy_specification,"","","")
+    placeholder=ScheduleHashes(profile_hash,compilation_request_hash(request),source_policy_hash,"","","")
     compiled=CompiledControlSchedule(COMPILED_SCHEDULE_SCHEMA_VERSION,"run014-compiler-v1",PIPELINE,status,policy_hash,profile_hash,request,commands,tuple(events),initial,tuple(violations),(),raw_count,len(commands),len({item.atomic_group_id for item in commands if item.atomic_group_id}),max([abs(event.displacement_s) for event in events] or [0.0]),not unknown,profile.hardware_validation_status.value,False,placeholder)
-    realized=RealizedControlSchedule(spec,compiled) if status not in {CompilationStatus.COMPILATION_INVALID,CompilationStatus.COMPILATION_INFEASIBLE} else None
+    realized=RealizedControlSchedule(spec,compiled,policy_evaluator=policy) if status not in {CompilationStatus.COMPILATION_INVALID,CompilationStatus.COMPILATION_INFEASIBLE} else None
     metrics=[]
     for channel in spec.control_channels:
         rows=[item for item in commands if item.channel_id==channel.channel_id]; errors=[]
@@ -475,5 +497,5 @@ def compile_control_schedule(spec: ControlPolicySpec, profile: ApparatusConstrai
     hardware_claim=status in {CompilationStatus.COMPILED_EXACT,CompilationStatus.COMPILED_APPROXIMATE} and profile.hardware_validation_status is HardwareValidationStatus.HARDWARE_VALIDATED and not unknown
     compiled=replace(compiled,metrics=tuple(metrics),hashes=hashes,hardware_executable_claim_valid=hardware_claim)
     if status is CompilationStatus.COMPILED_DIAGNOSTIC_INCOMPLETE_PROFILE and hardware_claim: raise RuntimeError("partial profile escaped hardware-executability boundary")
-    realized=RealizedControlSchedule(spec,compiled) if realized else None
+    realized=RealizedControlSchedule(spec,compiled,policy_evaluator=policy) if realized else None
     return compiled,realized

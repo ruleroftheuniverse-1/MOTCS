@@ -1,0 +1,26 @@
+schema_version: mgf-mot-open-loop-policy-family-v1
+family_id: piecewise-linear-open-loop-v1
+family_name: Synthetic multi-knot piecewise fixture
+parameterization_version: "1"
+implementation_version: run015-open-loop-v1
+abi_source_config: ../rodriguez_baseline_linear_chirp.yaml
+t_start_s: 0.0
+t_end_s: 0.001
+supported_channel_fields: [detuning_gamma, saturation]
+supported_event_behavior: EXPLICIT_ABI_EVENTS_NO_KNOT_EVENT_ALIASING
+statefulness: STATELESS_OPEN_LOOP
+serialization_contract: CANONICAL_JSON_SORTED_KEYS_V1
+channel_schedules:
+  - schedule_type: PIECEWISE_LINEAR
+    channel_id: chirp_shared_linear_detuning_123
+    field: detuning_gamma
+    knot_u: [0.0, 0.25, 0.7, 1.0]
+    knot_values: [-8.0, -6.4, -2.8, -1.0]
+    monotonicity: NONDECREASING
+    adjustable_value_indices: [1, 2]
+    fixed_endpoint_values: true
+    minimum_knot_separation: 0.1
+provenance:
+  provenance_class: SYNTHETIC_TEST_FIXTURE
+  source_description: Synthetic Run 015 piecewise plumbing fixture
+  interpretation_notes: Not improved, optimized, experimental, or hardware validated

@@ -1,0 +1,26 @@
+schema_version: mgf-mot-open-loop-policy-family-v1
+family_id: piecewise-linear-open-loop-v1
+family_name: Linear-equivalent piecewise baseline
+parameterization_version: "1"
+implementation_version: run015-open-loop-v1
+abi_source_config: ../rodriguez_baseline_linear_chirp.yaml
+t_start_s: 0.0
+t_end_s: 0.001
+supported_channel_fields: [detuning_gamma, saturation]
+supported_event_behavior: EXPLICIT_ABI_EVENTS_NO_KNOT_EVENT_ALIASING
+statefulness: STATELESS_OPEN_LOOP
+serialization_contract: CANONICAL_JSON_SORTED_KEYS_V1
+channel_schedules:
+  - schedule_type: PIECEWISE_LINEAR
+    channel_id: chirp_shared_linear_detuning_123
+    field: detuning_gamma
+    knot_u: [0.0, 1.0]
+    knot_values: [-8.0, -1.0]
+    monotonicity: NONDECREASING
+    adjustable_value_indices: []
+    fixed_endpoint_values: true
+    minimum_knot_separation: 1.0
+provenance:
+  provenance_class: SOURCE_SUPPORTED
+  source_description: Distinguished Rodriguez-baseline-equivalent control parameterization
+  interpretation_notes: Control equivalence only; no molecular-force or apparatus claim

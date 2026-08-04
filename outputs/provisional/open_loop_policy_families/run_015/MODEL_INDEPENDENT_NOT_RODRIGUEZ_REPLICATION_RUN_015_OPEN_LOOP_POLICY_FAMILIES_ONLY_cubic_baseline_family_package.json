@@ -1,0 +1,1707 @@
+{
+  "baseline_equivalence": {
+    "derivative_equality": true,
+    "handoff_state_equality": true,
+    "outcome": "BASELINE_EXACT",
+    "sample_times_s": [
+      0.0,
+      5e-05,
+      0.00025,
+      0.0005,
+      0.00075,
+      0.0009999999999999998,
+      0.001,
+      0.000137,
+      0.000619,
+      0.000883
+    ],
+    "state_equality": true
+  },
+  "family_spec": {
+    "abi_schema_version": "mgf-mot-control-policy-v2",
+    "abi_spec": {
+      "component_order": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "control_channels": [
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "chirp_shared_linear_detuning_123",
+          "description": "Rodriguez common linear detuning channel for components 1,2,3",
+          "field": "detuning_gamma",
+          "fixed_value": null,
+          "parameter_names": [
+            "chirp_initial_detuning_gamma",
+            "chirp_final_detuning_gamma",
+            "chirp_duration_s"
+          ],
+          "relationship": "SHARED",
+          "signal_kind": "LINEAR_HOLD",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 1,
+              "field": "detuning_gamma",
+              "segment_id": "linear_chirp"
+            },
+            {
+              "component_id": 2,
+              "field": "detuning_gamma",
+              "segment_id": "linear_chirp"
+            },
+            {
+              "component_id": 3,
+              "field": "detuning_gamma",
+              "segment_id": "linear_chirp"
+            }
+          ]
+        },
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "chirp_component_4_parked_detuning",
+          "description": "Parked component 4 frequency, not optical activity",
+          "field": "detuning_gamma",
+          "fixed_value": null,
+          "parameter_names": [
+            "chirp_component_4_detuning_gamma"
+          ],
+          "relationship": "FIXED",
+          "signal_kind": "FIXED",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 4,
+              "field": "detuning_gamma",
+              "segment_id": "linear_chirp"
+            }
+          ]
+        },
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "chirp_component_1_saturation",
+          "description": "Fixed chirp-stage optical power",
+          "field": "saturation",
+          "fixed_value": null,
+          "parameter_names": [
+            "chirp_component_1_saturation"
+          ],
+          "relationship": "FIXED",
+          "signal_kind": "FIXED",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 1,
+              "field": "saturation",
+              "segment_id": "linear_chirp"
+            }
+          ]
+        },
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "chirp_component_2_saturation",
+          "description": "Fixed chirp-stage optical power",
+          "field": "saturation",
+          "fixed_value": null,
+          "parameter_names": [
+            "chirp_component_2_saturation"
+          ],
+          "relationship": "FIXED",
+          "signal_kind": "FIXED",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 2,
+              "field": "saturation",
+              "segment_id": "linear_chirp"
+            }
+          ]
+        },
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "chirp_component_3_saturation",
+          "description": "Fixed chirp-stage optical power",
+          "field": "saturation",
+          "fixed_value": null,
+          "parameter_names": [
+            "chirp_component_3_saturation"
+          ],
+          "relationship": "FIXED",
+          "signal_kind": "FIXED",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 3,
+              "field": "saturation",
+              "segment_id": "linear_chirp"
+            }
+          ]
+        },
+        {
+          "affine_offset": null,
+          "affine_scale": null,
+          "channel_id": "chirp_component_4_saturation",
+          "description": "Fixed chirp-stage optical power",
+          "field": "saturation",
+          "fixed_value": null,
+          "parameter_names": [
+            "chirp_component_4_saturation"
+          ],
+          "relationship": "FIXED",
+          "signal_kind": "FIXED",
+          "source_channel_id": null,
+          "targets": [
+            {
+              "component_id": 4,
+              "field": "saturation",
+              "segment_id": "linear_chirp"
+            }
+          ]
+        }
+      ],
+      "detuning_unit": "Gamma",
+      "domain": {
+        "after_maximum": "HOLD_FINAL",
+        "before_minimum": "HOLD_INITIAL",
+        "endpoint_semantics": "t=0 included; finite endpoints use exact values; unbounded final hold",
+        "maximum_time_s": null,
+        "minimum_time_s": 0.0,
+        "unbounded_continuation": true
+      },
+      "events": [
+        {
+          "affected_channel_ids": [
+            "chirp_shared_linear_detuning_123"
+          ],
+          "affected_component_ids": [
+            1,
+            2,
+            3
+          ],
+          "boundary_rule": "t_lt_event_left_t_ge_event_right",
+          "event_id": "chirp_endpoint",
+          "event_time_s": 0.001,
+          "event_type": "CONTINUOUS_CHIRP_TO_HOLD",
+          "left_semantic_label": "linear_chirp",
+          "provenance": "Rodriguez et al., baseline MgF chirp schedule, Track P policy interface only",
+          "right_semantic_label": "final_detuning_hold"
+        }
+      ],
+      "legacy_policy_type": "monotone-cubic-open-loop-v1",
+      "parameter_specs": [
+        {
+          "adjustable": false,
+          "bound_basis": "APPARATUS_ASSUMPTION",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Common initial chirp detuning",
+          "lower_bound": -10.0,
+          "name": "chirp_initial_detuning_gamma",
+          "shape": [],
+          "units": "Gamma",
+          "upper_bound": 3.0
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "APPARATUS_ASSUMPTION",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Common final chirp detuning",
+          "lower_bound": -10.0,
+          "name": "chirp_final_detuning_gamma",
+          "shape": [],
+          "units": "Gamma",
+          "upper_bound": 3.0
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "UNKNOWN",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Linear chirp duration",
+          "lower_bound": null,
+          "name": "chirp_duration_s",
+          "shape": [],
+          "units": "s",
+          "upper_bound": null
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "APPARATUS_ASSUMPTION",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Parked detuning of inactive component 4",
+          "lower_bound": -10.0,
+          "name": "chirp_component_4_detuning_gamma",
+          "shape": [],
+          "units": "Gamma",
+          "upper_bound": 3.0
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "APPARATUS_ASSUMPTION",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Fixed saturation of component 1",
+          "lower_bound": 0.0,
+          "name": "chirp_component_1_saturation",
+          "shape": [],
+          "units": "saturation_parameter",
+          "upper_bound": 3.0
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "APPARATUS_ASSUMPTION",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Fixed saturation of component 2",
+          "lower_bound": 0.0,
+          "name": "chirp_component_2_saturation",
+          "shape": [],
+          "units": "saturation_parameter",
+          "upper_bound": 3.0
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "APPARATUS_ASSUMPTION",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Fixed saturation of component 3",
+          "lower_bound": 0.0,
+          "name": "chirp_component_3_saturation",
+          "shape": [],
+          "units": "saturation_parameter",
+          "upper_bound": 3.0
+        },
+        {
+          "adjustable": false,
+          "bound_basis": "APPARATUS_ASSUMPTION",
+          "data_type": "float64",
+          "default_value": null,
+          "description": "Fixed saturation of component 4",
+          "lower_bound": 0.0,
+          "name": "chirp_component_4_saturation",
+          "shape": [],
+          "units": "saturation_parameter",
+          "upper_bound": 3.0
+        }
+      ],
+      "parameter_values": {
+        "chirp_component_1_saturation": 1.45,
+        "chirp_component_2_saturation": 1.45,
+        "chirp_component_3_saturation": 2.89,
+        "chirp_component_4_detuning_gamma": 2.0,
+        "chirp_component_4_saturation": 0.0,
+        "chirp_duration_s": 0.001,
+        "chirp_final_detuning_gamma": -1.0,
+        "chirp_initial_detuning_gamma": -8.0
+      },
+      "policy_description": "Legacy-compatible common linear chirp with final hold",
+      "policy_family": "LINEAR_CHIRP",
+      "policy_name": "rodriguez_baseline_linear_chirp",
+      "provenance": {
+        "generation_method": "Run 015 closed-registry open-loop family",
+        "implementation_version": "run015-open-loop-v1",
+        "non_replication_labels": [
+          "MODEL_INDEPENDENT",
+          "NOT_RODRIGUEZ_REPLICATION",
+          "CONTROL_POLICY_ABI_ONLY"
+        ],
+        "notes": [
+          "Converted declaratively from the existing v1 policy object; source YAML was not rewritten.",
+          "family_parameterization=1"
+        ],
+        "parent_policy_ids": [],
+        "policy_family_id": "monotone-cubic-open-loop-v1",
+        "schema_version": "mgf-mot-control-policy-v2",
+        "source_configuration_hashes": [
+          "c428695e839de3172ac17e1d30c424a31733bc32dc1d0e7e72b2fa56c9b524b4"
+        ],
+        "source_configuration_paths": [
+          "C:/MOTCS/configs/rodriguez_baseline_linear_chirp.yaml"
+        ],
+        "units": {
+          "detuning": "Gamma",
+          "saturation": "saturation_parameter",
+          "time": "s"
+        }
+      },
+      "saturation_unit": "saturation_parameter",
+      "schema_version": "mgf-mot-control-policy-v2",
+      "segments": [
+        {
+          "components": [
+            {
+              "active": true,
+              "component_id": 1,
+              "detuning_channel_id": "chirp_shared_linear_detuning_123",
+              "detuning_gamma": -8.0,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_plus",
+              "relative_saturation": 0.25,
+              "role": "lower_F1",
+              "saturation": 1.45,
+              "saturation_channel_id": "chirp_component_1_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 2,
+              "detuning_channel_id": "chirp_shared_linear_detuning_123",
+              "detuning_gamma": -8.0,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_minus",
+              "relative_saturation": 0.25,
+              "role": "F0",
+              "saturation": 1.45,
+              "saturation_channel_id": "chirp_component_2_saturation"
+            },
+            {
+              "active": true,
+              "component_id": 3,
+              "detuning_channel_id": "chirp_shared_linear_detuning_123",
+              "detuning_gamma": -8.0,
+              "enabled": true,
+              "off_reason": null,
+              "polarization": "sigma_minus",
+              "relative_saturation": 0.5,
+              "role": "upper_F1_F2_mean",
+              "saturation": 2.89,
+              "saturation_channel_id": "chirp_component_3_saturation"
+            },
+            {
+              "active": false,
+              "component_id": 4,
+              "detuning_channel_id": "chirp_component_4_parked_detuning",
+              "detuning_gamma": 2.0,
+              "enabled": false,
+              "off_reason": "parked_off_until_3_plus_1_handoff",
+              "polarization": "sigma_plus",
+              "relative_saturation": 0.0,
+              "role": "upper_F1_F2_mean_confinement",
+              "saturation": 0.0,
+              "saturation_channel_id": "chirp_component_4_saturation"
+            }
+          ],
+          "segment_id": "linear_chirp",
+          "semantic_label": "linear_chirp"
+        }
+      ],
+      "statefulness": "STATELESS_OPEN_LOOP",
+      "time_unit": "s"
+    },
+    "channel_schedules": [
+      {
+        "adjustable_value_indices": [],
+        "algorithm": "FRITSCH_CARLSON_PCHIP_V1",
+        "channel_id": "chirp_shared_linear_detuning_123",
+        "field": "detuning_gamma",
+        "fixed_endpoint_values": true,
+        "knot_u": [
+          0.0,
+          1.0
+        ],
+        "knot_values": [
+          -8.0,
+          -1.0
+        ],
+        "minimum_knot_separation": 1.0,
+        "monotonicity": "NONDECREASING",
+        "schedule_type": "MonotoneCubicChannel"
+      }
+    ],
+    "family_id": "monotone-cubic-open-loop-v1",
+    "family_name": "Linear-equivalent monotone cubic baseline",
+    "implementation_version": "run015-open-loop-v1",
+    "parameterization_version": "1",
+    "provenance": {
+      "interpretation_notes": "Two-knot Fritsch-Carlson construction is exactly linear",
+      "provenance_class": "SOURCE_SUPPORTED",
+      "source_description": "Distinguished Rodriguez-baseline-equivalent control parameterization",
+      "source_hash": "3fae7ec15bc4d48c6e9036d13019609aeb8140e0db0b0db1ec7d8499575c225c",
+      "source_path": "C:\\MOTCS\\configs\\run_015\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_cubic_baseline.yaml"
+    },
+    "schema_version": "mgf-mot-open-loop-policy-family-v1",
+    "serialization_contract": "CANONICAL_JSON_SORTED_KEYS_V1",
+    "statefulness": "STATELESS_OPEN_LOOP",
+    "supported_channel_fields": [
+      "detuning_gamma",
+      "saturation"
+    ],
+    "supported_event_behavior": "EXPLICIT_ABI_EVENTS_NO_KNOT_EVENT_ALIASING",
+    "t_end_s": 0.001,
+    "t_start_s": 0.0
+  },
+  "hashes": {
+    "complete_policy_package": "17809cbf8d4e382313d1fd2a2879f42af0aba0435a19277dd605ca3d35a0a4c8",
+    "family_specification": "826d2fe190c7e7f78245f416b46a84785031f666cec71994b3982b34df2ed3fe",
+    "parameter_values": "94c40e232f17b16e8c90f1e211446222039701d335f454fbf99640b076f1b50f",
+    "parameter_vector_layout": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  "identity_compilation": {
+    "apparatus_profile_hash": "3882dff5fcb725d730439563a105b8d2a5a0dd0add69e0ce0aa839f8a18a0adb",
+    "commands": [
+      {
+        "actual_effective_time_s": 0.0,
+        "atomic_group_id": null,
+        "channel_id": "chirp_component_1_saturation",
+        "clock_displacement_s": 0.0,
+        "command_id": "cmd_00007",
+        "continuous_identity_binding": true,
+        "event_id": null,
+        "field": "saturation",
+        "ideal_value": 1.45,
+        "issued_time_s": 0.0,
+        "latency_s": 0.0,
+        "quantization_error": 0.0,
+        "quantization_step": null,
+        "quantized_value": 1.45,
+        "requested_effective_time_s": 0.0,
+        "rounding_rule": "NONE",
+        "units": "saturation_parameter"
+      },
+      {
+        "actual_effective_time_s": 0.0,
+        "atomic_group_id": null,
+        "channel_id": "chirp_component_2_saturation",
+        "clock_displacement_s": 0.0,
+        "command_id": "cmd_00010",
+        "continuous_identity_binding": true,
+        "event_id": null,
+        "field": "saturation",
+        "ideal_value": 1.45,
+        "issued_time_s": 0.0,
+        "latency_s": 0.0,
+        "quantization_error": 0.0,
+        "quantization_step": null,
+        "quantized_value": 1.45,
+        "requested_effective_time_s": 0.0,
+        "rounding_rule": "NONE",
+        "units": "saturation_parameter"
+      },
+      {
+        "actual_effective_time_s": 0.0,
+        "atomic_group_id": null,
+        "channel_id": "chirp_component_3_saturation",
+        "clock_displacement_s": 0.0,
+        "command_id": "cmd_00013",
+        "continuous_identity_binding": true,
+        "event_id": null,
+        "field": "saturation",
+        "ideal_value": 2.89,
+        "issued_time_s": 0.0,
+        "latency_s": 0.0,
+        "quantization_error": 0.0,
+        "quantization_step": null,
+        "quantized_value": 2.89,
+        "requested_effective_time_s": 0.0,
+        "rounding_rule": "NONE",
+        "units": "saturation_parameter"
+      },
+      {
+        "actual_effective_time_s": 0.0,
+        "atomic_group_id": null,
+        "channel_id": "chirp_component_4_parked_detuning",
+        "clock_displacement_s": 0.0,
+        "command_id": "cmd_00004",
+        "continuous_identity_binding": true,
+        "event_id": null,
+        "field": "detuning_gamma",
+        "ideal_value": 2.0,
+        "issued_time_s": 0.0,
+        "latency_s": 0.0,
+        "quantization_error": 0.0,
+        "quantization_step": null,
+        "quantized_value": 2.0,
+        "requested_effective_time_s": 0.0,
+        "rounding_rule": "NONE",
+        "units": "Gamma"
+      },
+      {
+        "actual_effective_time_s": 0.0,
+        "atomic_group_id": null,
+        "channel_id": "chirp_component_4_saturation",
+        "clock_displacement_s": 0.0,
+        "command_id": "cmd_00016",
+        "continuous_identity_binding": true,
+        "event_id": null,
+        "field": "saturation",
+        "ideal_value": 0.0,
+        "issued_time_s": 0.0,
+        "latency_s": 0.0,
+        "quantization_error": 0.0,
+        "quantization_step": null,
+        "quantized_value": 0.0,
+        "requested_effective_time_s": 0.0,
+        "rounding_rule": "NONE",
+        "units": "saturation_parameter"
+      },
+      {
+        "actual_effective_time_s": 0.0,
+        "atomic_group_id": null,
+        "channel_id": "chirp_shared_linear_detuning_123",
+        "clock_displacement_s": 0.0,
+        "command_id": "cmd_00001",
+        "continuous_identity_binding": true,
+        "event_id": null,
+        "field": "detuning_gamma",
+        "ideal_value": -8.0,
+        "issued_time_s": 0.0,
+        "latency_s": 0.0,
+        "quantization_error": 0.0,
+        "quantization_step": null,
+        "quantized_value": -8.0,
+        "requested_effective_time_s": 0.0,
+        "rounding_rule": "NONE",
+        "units": "Gamma"
+      },
+      {
+        "actual_effective_time_s": 0.001,
+        "atomic_group_id": "atomic_chirp_endpoint",
+        "channel_id": "chirp_shared_linear_detuning_123",
+        "clock_displacement_s": 0.0,
+        "command_id": "cmd_00002",
+        "continuous_identity_binding": true,
+        "event_id": "chirp_endpoint",
+        "field": "detuning_gamma",
+        "ideal_value": -1.0,
+        "issued_time_s": 0.001,
+        "latency_s": 0.0,
+        "quantization_error": 0.0,
+        "quantization_step": null,
+        "quantized_value": -1.0,
+        "requested_effective_time_s": 0.001,
+        "rounding_rule": "NONE",
+        "units": "Gamma"
+      }
+    ],
+    "compilation_order": [
+      "validate_policy",
+      "validate_profile",
+      "validate_request",
+      "resolve_channels",
+      "establish_horizon",
+      "collect_events",
+      "construct_effective_time_grid",
+      "evaluate_ideal_channels",
+      "align_events",
+      "quantize_values",
+      "generate_commands",
+      "apply_latency",
+      "reconstruct_realized_schedule",
+      "deduplicate_identical_commands",
+      "validate_hard_constraints",
+      "calculate_metrics",
+      "serialize_and_hash"
+    ],
+    "compiler_version": "run014-compiler-v1",
+    "events": [
+      {
+        "affected_channel_ids": [
+          "chirp_shared_linear_detuning_123"
+        ],
+        "affected_component_ids": [
+          1,
+          2,
+          3
+        ],
+        "atomic": true,
+        "displacement_s": 0.0,
+        "event_id": "chirp_endpoint",
+        "left_component_states": [
+          {
+            "active": true,
+            "component_id": 1,
+            "detuning_channel_id": "chirp_shared_linear_detuning_123",
+            "detuning_gamma": -1.0000000000000018,
+            "enabled": true,
+            "off_reason": null,
+            "polarization": "sigma_plus",
+            "relative_saturation": 0.25,
+            "role": "lower_F1",
+            "saturation": 1.45,
+            "saturation_channel_id": "chirp_component_1_saturation"
+          },
+          {
+            "active": true,
+            "component_id": 2,
+            "detuning_channel_id": "chirp_shared_linear_detuning_123",
+            "detuning_gamma": -1.0000000000000018,
+            "enabled": true,
+            "off_reason": null,
+            "polarization": "sigma_minus",
+            "relative_saturation": 0.25,
+            "role": "F0",
+            "saturation": 1.45,
+            "saturation_channel_id": "chirp_component_2_saturation"
+          },
+          {
+            "active": true,
+            "component_id": 3,
+            "detuning_channel_id": "chirp_shared_linear_detuning_123",
+            "detuning_gamma": -1.0000000000000018,
+            "enabled": true,
+            "off_reason": null,
+            "polarization": "sigma_minus",
+            "relative_saturation": 0.5,
+            "role": "upper_F1_F2_mean",
+            "saturation": 2.89,
+            "saturation_channel_id": "chirp_component_3_saturation"
+          },
+          {
+            "active": false,
+            "component_id": 4,
+            "detuning_channel_id": "chirp_component_4_parked_detuning",
+            "detuning_gamma": 2.0,
+            "enabled": false,
+            "off_reason": "parked_off_until_3_plus_1_handoff",
+            "polarization": "sigma_plus",
+            "relative_saturation": 0.0,
+            "role": "upper_F1_F2_mean_confinement",
+            "saturation": 0.0,
+            "saturation_channel_id": "chirp_component_4_saturation"
+          }
+        ],
+        "left_semantic_label": "linear_chirp",
+        "realized_time_s": 0.001,
+        "requested_time_s": 0.001,
+        "right_component_states": [
+          {
+            "active": true,
+            "component_id": 1,
+            "detuning_channel_id": "chirp_shared_linear_detuning_123",
+            "detuning_gamma": -1.0,
+            "enabled": true,
+            "off_reason": null,
+            "polarization": "sigma_plus",
+            "relative_saturation": 0.25,
+            "role": "lower_F1",
+            "saturation": 1.45,
+            "saturation_channel_id": "chirp_component_1_saturation"
+          },
+          {
+            "active": true,
+            "component_id": 2,
+            "detuning_channel_id": "chirp_shared_linear_detuning_123",
+            "detuning_gamma": -1.0,
+            "enabled": true,
+            "off_reason": null,
+            "polarization": "sigma_minus",
+            "relative_saturation": 0.25,
+            "role": "F0",
+            "saturation": 1.45,
+            "saturation_channel_id": "chirp_component_2_saturation"
+          },
+          {
+            "active": true,
+            "component_id": 3,
+            "detuning_channel_id": "chirp_shared_linear_detuning_123",
+            "detuning_gamma": -1.0,
+            "enabled": true,
+            "off_reason": null,
+            "polarization": "sigma_minus",
+            "relative_saturation": 0.5,
+            "role": "upper_F1_F2_mean",
+            "saturation": 2.89,
+            "saturation_channel_id": "chirp_component_3_saturation"
+          },
+          {
+            "active": false,
+            "component_id": 4,
+            "detuning_channel_id": "chirp_component_4_parked_detuning",
+            "detuning_gamma": 2.0,
+            "enabled": false,
+            "off_reason": "parked_off_until_3_plus_1_handoff",
+            "polarization": "sigma_plus",
+            "relative_saturation": 0.0,
+            "role": "upper_F1_F2_mean_confinement",
+            "saturation": 0.0,
+            "saturation_channel_id": "chirp_component_4_saturation"
+          }
+        ],
+        "right_semantic_label": "final_detuning_hold"
+      }
+    ],
+    "hardware_executable_claim_valid": false,
+    "hardware_validation_status": "SYNTHETIC_ONLY",
+    "hashes": {
+      "apparatus_profile": "3882dff5fcb725d730439563a105b8d2a5a0dd0add69e0ce0aa839f8a18a0adb",
+      "command_stream": "866f5c7e7aaffca4b9a65770587432a04b2607723b77839ffc62256a9b113bf5",
+      "compilation_request": "68b4538e1f324c73d94bca14915fdd0d2a738b3ae084fd4cad5a568ffbf5324f",
+      "complete_compiled_package": "e819683a5095c61211b679488670a0520331b1040135037b07ade7fdcabf0673",
+      "realized_schedule": "53c0c11622c82d8e290ac6e55edb9360c66d2ee280527da626006675d94b7517",
+      "source_policy_specification": "74f1f72acdfa9614809441dd1642f8989eaf5def729b0f38903dbce5ab5348f5"
+    },
+    "initial_channel_values": {
+      "chirp_component_1_saturation": 1.45,
+      "chirp_component_2_saturation": 1.45,
+      "chirp_component_3_saturation": 2.89,
+      "chirp_component_4_parked_detuning": 2.0,
+      "chirp_component_4_saturation": 0.0,
+      "chirp_shared_linear_detuning_123": -8.0
+    },
+    "maximum_event_displacement_s": 0.0,
+    "metrics": [
+      {
+        "channel_id": "chirp_shared_linear_detuning_123",
+        "deduplicated_command_count": 2,
+        "endpoint_error": 0.0,
+        "event_adjacent_error": 0.0,
+        "field": "detuning_gamma",
+        "maximum_absolute_quantization_error": 0.0,
+        "maximum_absolute_value_error": 0.0,
+        "maximum_measured_first_derivative": 7000.0,
+        "maximum_measured_second_difference": 0.0,
+        "raw_command_count": 3,
+        "rms_quantization_error": 0.0,
+        "rms_value_error": 0.0
+      },
+      {
+        "channel_id": "chirp_component_4_parked_detuning",
+        "deduplicated_command_count": 1,
+        "endpoint_error": 0.0,
+        "event_adjacent_error": 0.0,
+        "field": "detuning_gamma",
+        "maximum_absolute_quantization_error": 0.0,
+        "maximum_absolute_value_error": 0.0,
+        "maximum_measured_first_derivative": 0.0,
+        "maximum_measured_second_difference": 0.0,
+        "raw_command_count": 3,
+        "rms_quantization_error": 0.0,
+        "rms_value_error": 0.0
+      },
+      {
+        "channel_id": "chirp_component_1_saturation",
+        "deduplicated_command_count": 1,
+        "endpoint_error": 0.0,
+        "event_adjacent_error": 0.0,
+        "field": "saturation",
+        "maximum_absolute_quantization_error": 0.0,
+        "maximum_absolute_value_error": 0.0,
+        "maximum_measured_first_derivative": 0.0,
+        "maximum_measured_second_difference": 0.0,
+        "raw_command_count": 3,
+        "rms_quantization_error": 0.0,
+        "rms_value_error": 0.0
+      },
+      {
+        "channel_id": "chirp_component_2_saturation",
+        "deduplicated_command_count": 1,
+        "endpoint_error": 0.0,
+        "event_adjacent_error": 0.0,
+        "field": "saturation",
+        "maximum_absolute_quantization_error": 0.0,
+        "maximum_absolute_value_error": 0.0,
+        "maximum_measured_first_derivative": 0.0,
+        "maximum_measured_second_difference": 0.0,
+        "raw_command_count": 3,
+        "rms_quantization_error": 0.0,
+        "rms_value_error": 0.0
+      },
+      {
+        "channel_id": "chirp_component_3_saturation",
+        "deduplicated_command_count": 1,
+        "endpoint_error": 0.0,
+        "event_adjacent_error": 0.0,
+        "field": "saturation",
+        "maximum_absolute_quantization_error": 0.0,
+        "maximum_absolute_value_error": 0.0,
+        "maximum_measured_first_derivative": 0.0,
+        "maximum_measured_second_difference": 0.0,
+        "raw_command_count": 3,
+        "rms_quantization_error": 0.0,
+        "rms_value_error": 0.0
+      },
+      {
+        "channel_id": "chirp_component_4_saturation",
+        "deduplicated_command_count": 1,
+        "endpoint_error": 0.0,
+        "event_adjacent_error": 0.0,
+        "field": "saturation",
+        "maximum_absolute_quantization_error": 0.0,
+        "maximum_absolute_value_error": 0.0,
+        "maximum_measured_first_derivative": 0.0,
+        "maximum_measured_second_difference": 0.0,
+        "raw_command_count": 3,
+        "rms_quantization_error": 0.0,
+        "rms_value_error": 0.0
+      }
+    ],
+    "policy_hash": "17809cbf8d4e382313d1fd2a2879f42af0aba0435a19277dd605ca3d35a0a4c8",
+    "profile_complete": true,
+    "request": {
+      "diagnostic_grid_period_s": null,
+      "end_time_s": 0.002,
+      "explicit_initial_channel_values": null,
+      "initial_state_mode": "POLICY_STATE_AT_START",
+      "mode": "EXACT_ONLY",
+      "policy_hash": "17809cbf8d4e382313d1fd2a2879f42af0aba0435a19277dd605ca3d35a0a4c8",
+      "pre_roll_s": null,
+      "profile_hash": "3882dff5fcb725d730439563a105b8d2a5a0dd0add69e0ce0aa839f8a18a0adb",
+      "reconstruction_mode": "SYNTHETIC_CONTINUOUS_IDENTITY_BINDING",
+      "start_time_s": 0.0
+    },
+    "schema_version": "mgf-mot-compiled-control-schedule-v1",
+    "simultaneous_command_group_count": 1,
+    "status": "COMPILED_EXACT",
+    "total_command_count": 7,
+    "total_raw_command_count": 18,
+    "violations": []
+  },
+  "label": "MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY",
+  "parameter_layout": {
+    "entries": [],
+    "layout_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  "parameter_vector": {
+    "layout_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "values": []
+  },
+  "quantized_compilation": {
+    "apparatus_profile_hash": "a8209cab325bb83e881157b8c37391c3995910a3296cb14e5c416cd35a4c46e5",
+    "commands": [
+      {
+        "actual_effective_time_s": 0.0,
+        "atomic_group_id": null,
+        "channel_id": "chirp_component_1_saturation",
+        "clock_displacement_s": 0.0,
+        "command_id": "cmd_00015",
+        "continuous_identity_binding": false,
+        "event_id": null,
+        "field": "saturation",
+        "ideal_value": 1.45,
+        "issued_time_s": 0.0,
+        "latency_s": 0.0,
+        "quantization_error": 0.0,
+        "quantization_step": 0.05,
+        "quantized_value": 1.45,
+        "requested_effective_time_s": 0.0,
+        "rounding_rule": "NEAREST_TIES_TO_EVEN",
+        "units": "saturation_parameter"
+      },
+      {
+        "actual_effective_time_s": 0.0,
+        "atomic_group_id": null,
+        "channel_id": "chirp_component_2_saturation",
+        "clock_displacement_s": 0.0,
+        "command_id": "cmd_00022",
+        "continuous_identity_binding": false,
+        "event_id": null,
+        "field": "saturation",
+        "ideal_value": 1.45,
+        "issued_time_s": 0.0,
+        "latency_s": 0.0,
+        "quantization_error": 0.0,
+        "quantization_step": 0.05,
+        "quantized_value": 1.45,
+        "requested_effective_time_s": 0.0,
+        "rounding_rule": "NEAREST_TIES_TO_EVEN",
+        "units": "saturation_parameter"
+      },
+      {
+        "actual_effective_time_s": 0.0,
+        "atomic_group_id": null,
+        "channel_id": "chirp_component_3_saturation",
+        "clock_displacement_s": 0.0,
+        "command_id": "cmd_00029",
+        "continuous_identity_binding": false,
+        "event_id": null,
+        "field": "saturation",
+        "ideal_value": 2.89,
+        "issued_time_s": 0.0,
+        "latency_s": 0.0,
+        "quantization_error": 0.009999999999999787,
+        "quantization_step": 0.05,
+        "quantized_value": 2.9,
+        "requested_effective_time_s": 0.0,
+        "rounding_rule": "NEAREST_TIES_TO_EVEN",
+        "units": "saturation_parameter"
+      },
+      {
+        "actual_effective_time_s": 0.0,
+        "atomic_group_id": null,
+        "channel_id": "chirp_component_4_parked_detuning",
+        "clock_displacement_s": 0.0,
+        "command_id": "cmd_00008",
+        "continuous_identity_binding": false,
+        "event_id": null,
+        "field": "detuning_gamma",
+        "ideal_value": 2.0,
+        "issued_time_s": 0.0,
+        "latency_s": 0.0,
+        "quantization_error": 0.0,
+        "quantization_step": 0.25,
+        "quantized_value": 2.0,
+        "requested_effective_time_s": 0.0,
+        "rounding_rule": "NEAREST_TIES_TO_EVEN",
+        "units": "Gamma"
+      },
+      {
+        "actual_effective_time_s": 0.0,
+        "atomic_group_id": null,
+        "channel_id": "chirp_component_4_saturation",
+        "clock_displacement_s": 0.0,
+        "command_id": "cmd_00036",
+        "continuous_identity_binding": false,
+        "event_id": null,
+        "field": "saturation",
+        "ideal_value": 0.0,
+        "issued_time_s": 0.0,
+        "latency_s": 0.0,
+        "quantization_error": 0.0,
+        "quantization_step": 0.05,
+        "quantized_value": 0.0,
+        "requested_effective_time_s": 0.0,
+        "rounding_rule": "NEAREST_TIES_TO_EVEN",
+        "units": "saturation_parameter"
+      },
+      {
+        "actual_effective_time_s": 0.0,
+        "atomic_group_id": null,
+        "channel_id": "chirp_shared_linear_detuning_123",
+        "clock_displacement_s": 0.0,
+        "command_id": "cmd_00001",
+        "continuous_identity_binding": false,
+        "event_id": null,
+        "field": "detuning_gamma",
+        "ideal_value": -8.0,
+        "issued_time_s": 0.0,
+        "latency_s": 0.0,
+        "quantization_error": 0.0,
+        "quantization_step": 0.25,
+        "quantized_value": -8.0,
+        "requested_effective_time_s": 0.0,
+        "rounding_rule": "NEAREST_TIES_TO_EVEN",
+        "units": "Gamma"
+      },
+      {
+        "actual_effective_time_s": 0.0003,
+        "atomic_group_id": null,
+        "channel_id": "chirp_shared_linear_detuning_123",
+        "clock_displacement_s": 0.0,
+        "command_id": "cmd_00002",
+        "continuous_identity_binding": false,
+        "event_id": null,
+        "field": "detuning_gamma",
+        "ideal_value": -5.9,
+        "issued_time_s": 0.0003,
+        "latency_s": 0.0,
+        "quantization_error": -0.09999999999999964,
+        "quantization_step": 0.25,
+        "quantized_value": -6.0,
+        "requested_effective_time_s": 0.0003,
+        "rounding_rule": "NEAREST_TIES_TO_EVEN",
+        "units": "Gamma"
+      },
+      {
+        "actual_effective_time_s": 0.0006,
+        "atomic_group_id": null,
+        "channel_id": "chirp_shared_linear_detuning_123",
+        "clock_displacement_s": 0.0,
+        "command_id": "cmd_00003",
+        "continuous_identity_binding": false,
+        "event_id": null,
+        "field": "detuning_gamma",
+        "ideal_value": -3.8,
+        "issued_time_s": 0.0006,
+        "latency_s": 0.0,
+        "quantization_error": 0.04999999999999982,
+        "quantization_step": 0.25,
+        "quantized_value": -3.75,
+        "requested_effective_time_s": 0.0006,
+        "rounding_rule": "NEAREST_TIES_TO_EVEN",
+        "units": "Gamma"
+      },
+      {
+        "actual_effective_time_s": 0.0009,
+        "atomic_group_id": "atomic_chirp_endpoint",
+        "channel_id": "chirp_shared_linear_detuning_123",
+        "clock_displacement_s": -0.00010000000000000005,
+        "command_id": "cmd_00004",
+        "continuous_identity_binding": false,
+        "event_id": "chirp_endpoint",
+        "field": "detuning_gamma",
+        "ideal_value": -1.0,
+        "issued_time_s": 0.0009,
+        "latency_s": 0.0,
+        "quantization_error": 0.0,
+        "quantization_step": 0.25,
+        "quantized_value": -1.0,
+        "requested_effective_time_s": 0.001,
+        "rounding_rule": "NEAREST_TIES_TO_EVEN",
+        "units": "Gamma"
+      }
+    ],
+    "compilation_order": [
+      "validate_policy",
+      "validate_profile",
+      "validate_request",
+      "resolve_channels",
+      "establish_horizon",
+      "collect_events",
+      "construct_effective_time_grid",
+      "evaluate_ideal_channels",
+      "align_events",
+      "quantize_values",
+      "generate_commands",
+      "apply_latency",
+      "reconstruct_realized_schedule",
+      "deduplicate_identical_commands",
+      "validate_hard_constraints",
+      "calculate_metrics",
+      "serialize_and_hash"
+    ],
+    "compiler_version": "run014-compiler-v1",
+    "events": [
+      {
+        "affected_channel_ids": [
+          "chirp_shared_linear_detuning_123"
+        ],
+        "affected_component_ids": [
+          1,
+          2,
+          3
+        ],
+        "atomic": true,
+        "displacement_s": -0.00010000000000000005,
+        "event_id": "chirp_endpoint",
+        "left_component_states": [
+          {
+            "active": true,
+            "component_id": 1,
+            "detuning_channel_id": "chirp_shared_linear_detuning_123",
+            "detuning_gamma": -1.0000000000000018,
+            "enabled": true,
+            "off_reason": null,
+            "polarization": "sigma_plus",
+            "relative_saturation": 0.25,
+            "role": "lower_F1",
+            "saturation": 1.45,
+            "saturation_channel_id": "chirp_component_1_saturation"
+          },
+          {
+            "active": true,
+            "component_id": 2,
+            "detuning_channel_id": "chirp_shared_linear_detuning_123",
+            "detuning_gamma": -1.0000000000000018,
+            "enabled": true,
+            "off_reason": null,
+            "polarization": "sigma_minus",
+            "relative_saturation": 0.25,
+            "role": "F0",
+            "saturation": 1.45,
+            "saturation_channel_id": "chirp_component_2_saturation"
+          },
+          {
+            "active": true,
+            "component_id": 3,
+            "detuning_channel_id": "chirp_shared_linear_detuning_123",
+            "detuning_gamma": -1.0000000000000018,
+            "enabled": true,
+            "off_reason": null,
+            "polarization": "sigma_minus",
+            "relative_saturation": 0.5,
+            "role": "upper_F1_F2_mean",
+            "saturation": 2.89,
+            "saturation_channel_id": "chirp_component_3_saturation"
+          },
+          {
+            "active": false,
+            "component_id": 4,
+            "detuning_channel_id": "chirp_component_4_parked_detuning",
+            "detuning_gamma": 2.0,
+            "enabled": false,
+            "off_reason": "parked_off_until_3_plus_1_handoff",
+            "polarization": "sigma_plus",
+            "relative_saturation": 0.0,
+            "role": "upper_F1_F2_mean_confinement",
+            "saturation": 0.0,
+            "saturation_channel_id": "chirp_component_4_saturation"
+          }
+        ],
+        "left_semantic_label": "linear_chirp",
+        "realized_time_s": 0.0009,
+        "requested_time_s": 0.001,
+        "right_component_states": [
+          {
+            "active": true,
+            "component_id": 1,
+            "detuning_channel_id": "chirp_shared_linear_detuning_123",
+            "detuning_gamma": -1.0,
+            "enabled": true,
+            "off_reason": null,
+            "polarization": "sigma_plus",
+            "relative_saturation": 0.25,
+            "role": "lower_F1",
+            "saturation": 1.45,
+            "saturation_channel_id": "chirp_component_1_saturation"
+          },
+          {
+            "active": true,
+            "component_id": 2,
+            "detuning_channel_id": "chirp_shared_linear_detuning_123",
+            "detuning_gamma": -1.0,
+            "enabled": true,
+            "off_reason": null,
+            "polarization": "sigma_minus",
+            "relative_saturation": 0.25,
+            "role": "F0",
+            "saturation": 1.45,
+            "saturation_channel_id": "chirp_component_2_saturation"
+          },
+          {
+            "active": true,
+            "component_id": 3,
+            "detuning_channel_id": "chirp_shared_linear_detuning_123",
+            "detuning_gamma": -1.0,
+            "enabled": true,
+            "off_reason": null,
+            "polarization": "sigma_minus",
+            "relative_saturation": 0.5,
+            "role": "upper_F1_F2_mean",
+            "saturation": 2.89,
+            "saturation_channel_id": "chirp_component_3_saturation"
+          },
+          {
+            "active": false,
+            "component_id": 4,
+            "detuning_channel_id": "chirp_component_4_parked_detuning",
+            "detuning_gamma": 2.0,
+            "enabled": false,
+            "off_reason": "parked_off_until_3_plus_1_handoff",
+            "polarization": "sigma_plus",
+            "relative_saturation": 0.0,
+            "role": "upper_F1_F2_mean_confinement",
+            "saturation": 0.0,
+            "saturation_channel_id": "chirp_component_4_saturation"
+          }
+        ],
+        "right_semantic_label": "final_detuning_hold"
+      }
+    ],
+    "hardware_executable_claim_valid": false,
+    "hardware_validation_status": "SYNTHETIC_ONLY",
+    "hashes": {
+      "apparatus_profile": "a8209cab325bb83e881157b8c37391c3995910a3296cb14e5c416cd35a4c46e5",
+      "command_stream": "d8fd49b1d69bad97528c834fcac76f017c6bbc73e463a939c067709257e67e21",
+      "compilation_request": "3f92f7746547ffcbcac863e80f140c3f95a85e7ef8a7e7bc696efb1789964d07",
+      "complete_compiled_package": "917b42fd48d9a001ec4bc283c5afecc0afff62609cd208f72de2c85f89c0e9b5",
+      "realized_schedule": "6c788e8b1a8eef9e81380df515415da0aca2145e9147ec59a4e347e81d5acf78",
+      "source_policy_specification": "74f1f72acdfa9614809441dd1642f8989eaf5def729b0f38903dbce5ab5348f5"
+    },
+    "initial_channel_values": {
+      "chirp_component_1_saturation": 1.45,
+      "chirp_component_2_saturation": 1.45,
+      "chirp_component_3_saturation": 2.89,
+      "chirp_component_4_parked_detuning": 2.0,
+      "chirp_component_4_saturation": 0.0,
+      "chirp_shared_linear_detuning_123": -8.0
+    },
+    "maximum_event_displacement_s": 0.00010000000000000005,
+    "metrics": [
+      {
+        "channel_id": "chirp_shared_linear_detuning_123",
+        "deduplicated_command_count": 4,
+        "endpoint_error": 0.0,
+        "event_adjacent_error": 1.1499999999999995,
+        "field": "detuning_gamma",
+        "maximum_absolute_quantization_error": 0.09999999999999964,
+        "maximum_absolute_value_error": 1.1499999999999995,
+        "maximum_measured_first_derivative": 9166.666666666666,
+        "maximum_measured_second_difference": 5555555.55555555,
+        "raw_command_count": 7,
+        "rms_quantization_error": 0.05590169943749454,
+        "rms_value_error": 0.5496502384383951
+      },
+      {
+        "channel_id": "chirp_component_4_parked_detuning",
+        "deduplicated_command_count": 1,
+        "endpoint_error": 0.0,
+        "event_adjacent_error": 0.0,
+        "field": "detuning_gamma",
+        "maximum_absolute_quantization_error": 0.0,
+        "maximum_absolute_value_error": 0.0,
+        "maximum_measured_first_derivative": 0.0,
+        "maximum_measured_second_difference": 0.0,
+        "raw_command_count": 7,
+        "rms_quantization_error": 0.0,
+        "rms_value_error": 0.0
+      },
+      {
+        "channel_id": "chirp_component_1_saturation",
+        "deduplicated_command_count": 1,
+        "endpoint_error": 0.0,
+        "event_adjacent_error": 0.0,
+        "field": "saturation",
+        "maximum_absolute_quantization_error": 0.0,
+        "maximum_absolute_value_error": 0.0,
+        "maximum_measured_first_derivative": 0.0,
+        "maximum_measured_second_difference": 0.0,
+        "raw_command_count": 7,
+        "rms_quantization_error": 0.0,
+        "rms_value_error": 0.0
+      },
+      {
+        "channel_id": "chirp_component_2_saturation",
+        "deduplicated_command_count": 1,
+        "endpoint_error": 0.0,
+        "event_adjacent_error": 0.0,
+        "field": "saturation",
+        "maximum_absolute_quantization_error": 0.0,
+        "maximum_absolute_value_error": 0.0,
+        "maximum_measured_first_derivative": 0.0,
+        "maximum_measured_second_difference": 0.0,
+        "raw_command_count": 7,
+        "rms_quantization_error": 0.0,
+        "rms_value_error": 0.0
+      },
+      {
+        "channel_id": "chirp_component_3_saturation",
+        "deduplicated_command_count": 1,
+        "endpoint_error": 0.009999999999999787,
+        "event_adjacent_error": 0.009999999999999787,
+        "field": "saturation",
+        "maximum_absolute_quantization_error": 0.009999999999999787,
+        "maximum_absolute_value_error": 0.009999999999999787,
+        "maximum_measured_first_derivative": 0.0,
+        "maximum_measured_second_difference": 0.0,
+        "raw_command_count": 7,
+        "rms_quantization_error": 0.009999999999999787,
+        "rms_value_error": 0.009999999999999787
+      },
+      {
+        "channel_id": "chirp_component_4_saturation",
+        "deduplicated_command_count": 1,
+        "endpoint_error": 0.0,
+        "event_adjacent_error": 0.0,
+        "field": "saturation",
+        "maximum_absolute_quantization_error": 0.0,
+        "maximum_absolute_value_error": 0.0,
+        "maximum_measured_first_derivative": 0.0,
+        "maximum_measured_second_difference": 0.0,
+        "raw_command_count": 7,
+        "rms_quantization_error": 0.0,
+        "rms_value_error": 0.0
+      }
+    ],
+    "policy_hash": "17809cbf8d4e382313d1fd2a2879f42af0aba0435a19277dd605ca3d35a0a4c8",
+    "profile_complete": true,
+    "request": {
+      "diagnostic_grid_period_s": null,
+      "end_time_s": 0.002,
+      "explicit_initial_channel_values": null,
+      "initial_state_mode": "POLICY_STATE_AT_START",
+      "mode": "SAMPLE_AND_HOLD",
+      "policy_hash": "17809cbf8d4e382313d1fd2a2879f42af0aba0435a19277dd605ca3d35a0a4c8",
+      "pre_roll_s": null,
+      "profile_hash": "a8209cab325bb83e881157b8c37391c3995910a3296cb14e5c416cd35a4c46e5",
+      "reconstruction_mode": "ZERO_ORDER_HOLD",
+      "start_time_s": 0.0
+    },
+    "schema_version": "mgf-mot-compiled-control-schedule-v1",
+    "simultaneous_command_group_count": 1,
+    "status": "COMPILED_APPROXIMATE",
+    "total_command_count": 9,
+    "total_raw_command_count": 42,
+    "violations": []
+  },
+  "round_trip_equal": true,
+  "samples": [
+    {
+      "components": [
+        {
+          "active": true,
+          "component_id": 1,
+          "detuning_channel_id": "chirp_shared_linear_detuning_123",
+          "detuning_gamma": -8.0,
+          "enabled": true,
+          "off_reason": null,
+          "polarization": "sigma_plus",
+          "relative_saturation": 0.25,
+          "role": "lower_F1",
+          "saturation": 1.45,
+          "saturation_channel_id": "chirp_component_1_saturation"
+        },
+        {
+          "active": true,
+          "component_id": 2,
+          "detuning_channel_id": "chirp_shared_linear_detuning_123",
+          "detuning_gamma": -8.0,
+          "enabled": true,
+          "off_reason": null,
+          "polarization": "sigma_minus",
+          "relative_saturation": 0.25,
+          "role": "F0",
+          "saturation": 1.45,
+          "saturation_channel_id": "chirp_component_2_saturation"
+        },
+        {
+          "active": true,
+          "component_id": 3,
+          "detuning_channel_id": "chirp_shared_linear_detuning_123",
+          "detuning_gamma": -8.0,
+          "enabled": true,
+          "off_reason": null,
+          "polarization": "sigma_minus",
+          "relative_saturation": 0.5,
+          "role": "upper_F1_F2_mean",
+          "saturation": 2.89,
+          "saturation_channel_id": "chirp_component_3_saturation"
+        },
+        {
+          "active": false,
+          "component_id": 4,
+          "detuning_channel_id": "chirp_component_4_parked_detuning",
+          "detuning_gamma": 2.0,
+          "enabled": false,
+          "off_reason": "parked_off_until_3_plus_1_handoff",
+          "polarization": "sigma_plus",
+          "relative_saturation": 0.0,
+          "role": "upper_F1_F2_mean_confinement",
+          "saturation": 0.0,
+          "saturation_channel_id": "chirp_component_4_saturation"
+        }
+      ],
+      "time_s": 0.0
+    },
+    {
+      "components": [
+        {
+          "active": true,
+          "component_id": 1,
+          "detuning_channel_id": "chirp_shared_linear_detuning_123",
+          "detuning_gamma": -6.25,
+          "enabled": true,
+          "off_reason": null,
+          "polarization": "sigma_plus",
+          "relative_saturation": 0.25,
+          "role": "lower_F1",
+          "saturation": 1.45,
+          "saturation_channel_id": "chirp_component_1_saturation"
+        },
+        {
+          "active": true,
+          "component_id": 2,
+          "detuning_channel_id": "chirp_shared_linear_detuning_123",
+          "detuning_gamma": -6.25,
+          "enabled": true,
+          "off_reason": null,
+          "polarization": "sigma_minus",
+          "relative_saturation": 0.25,
+          "role": "F0",
+          "saturation": 1.45,
+          "saturation_channel_id": "chirp_component_2_saturation"
+        },
+        {
+          "active": true,
+          "component_id": 3,
+          "detuning_channel_id": "chirp_shared_linear_detuning_123",
+          "detuning_gamma": -6.25,
+          "enabled": true,
+          "off_reason": null,
+          "polarization": "sigma_minus",
+          "relative_saturation": 0.5,
+          "role": "upper_F1_F2_mean",
+          "saturation": 2.89,
+          "saturation_channel_id": "chirp_component_3_saturation"
+        },
+        {
+          "active": false,
+          "component_id": 4,
+          "detuning_channel_id": "chirp_component_4_parked_detuning",
+          "detuning_gamma": 2.0,
+          "enabled": false,
+          "off_reason": "parked_off_until_3_plus_1_handoff",
+          "polarization": "sigma_plus",
+          "relative_saturation": 0.0,
+          "role": "upper_F1_F2_mean_confinement",
+          "saturation": 0.0,
+          "saturation_channel_id": "chirp_component_4_saturation"
+        }
+      ],
+      "time_s": 0.00025
+    },
+    {
+      "components": [
+        {
+          "active": true,
+          "component_id": 1,
+          "detuning_channel_id": "chirp_shared_linear_detuning_123",
+          "detuning_gamma": -4.5,
+          "enabled": true,
+          "off_reason": null,
+          "polarization": "sigma_plus",
+          "relative_saturation": 0.25,
+          "role": "lower_F1",
+          "saturation": 1.45,
+          "saturation_channel_id": "chirp_component_1_saturation"
+        },
+        {
+          "active": true,
+          "component_id": 2,
+          "detuning_channel_id": "chirp_shared_linear_detuning_123",
+          "detuning_gamma": -4.5,
+          "enabled": true,
+          "off_reason": null,
+          "polarization": "sigma_minus",
+          "relative_saturation": 0.25,
+          "role": "F0",
+          "saturation": 1.45,
+          "saturation_channel_id": "chirp_component_2_saturation"
+        },
+        {
+          "active": true,
+          "component_id": 3,
+          "detuning_channel_id": "chirp_shared_linear_detuning_123",
+          "detuning_gamma": -4.5,
+          "enabled": true,
+          "off_reason": null,
+          "polarization": "sigma_minus",
+          "relative_saturation": 0.5,
+          "role": "upper_F1_F2_mean",
+          "saturation": 2.89,
+          "saturation_channel_id": "chirp_component_3_saturation"
+        },
+        {
+          "active": false,
+          "component_id": 4,
+          "detuning_channel_id": "chirp_component_4_parked_detuning",
+          "detuning_gamma": 2.0,
+          "enabled": false,
+          "off_reason": "parked_off_until_3_plus_1_handoff",
+          "polarization": "sigma_plus",
+          "relative_saturation": 0.0,
+          "role": "upper_F1_F2_mean_confinement",
+          "saturation": 0.0,
+          "saturation_channel_id": "chirp_component_4_saturation"
+        }
+      ],
+      "time_s": 0.0005
+    },
+    {
+      "components": [
+        {
+          "active": true,
+          "component_id": 1,
+          "detuning_channel_id": "chirp_shared_linear_detuning_123",
+          "detuning_gamma": -2.75,
+          "enabled": true,
+          "off_reason": null,
+          "polarization": "sigma_plus",
+          "relative_saturation": 0.25,
+          "role": "lower_F1",
+          "saturation": 1.45,
+          "saturation_channel_id": "chirp_component_1_saturation"
+        },
+        {
+          "active": true,
+          "component_id": 2,
+          "detuning_channel_id": "chirp_shared_linear_detuning_123",
+          "detuning_gamma": -2.75,
+          "enabled": true,
+          "off_reason": null,
+          "polarization": "sigma_minus",
+          "relative_saturation": 0.25,
+          "role": "F0",
+          "saturation": 1.45,
+          "saturation_channel_id": "chirp_component_2_saturation"
+        },
+        {
+          "active": true,
+          "component_id": 3,
+          "detuning_channel_id": "chirp_shared_linear_detuning_123",
+          "detuning_gamma": -2.75,
+          "enabled": true,
+          "off_reason": null,
+          "polarization": "sigma_minus",
+          "relative_saturation": 0.5,
+          "role": "upper_F1_F2_mean",
+          "saturation": 2.89,
+          "saturation_channel_id": "chirp_component_3_saturation"
+        },
+        {
+          "active": false,
+          "component_id": 4,
+          "detuning_channel_id": "chirp_component_4_parked_detuning",
+          "detuning_gamma": 2.0,
+          "enabled": false,
+          "off_reason": "parked_off_until_3_plus_1_handoff",
+          "polarization": "sigma_plus",
+          "relative_saturation": 0.0,
+          "role": "upper_F1_F2_mean_confinement",
+          "saturation": 0.0,
+          "saturation_channel_id": "chirp_component_4_saturation"
+        }
+      ],
+      "time_s": 0.00075
+    },
+    {
+      "components": [
+        {
+          "active": true,
+          "component_id": 1,
+          "detuning_channel_id": "chirp_shared_linear_detuning_123",
+          "detuning_gamma": -1.0,
+          "enabled": true,
+          "off_reason": null,
+          "polarization": "sigma_plus",
+          "relative_saturation": 0.25,
+          "role": "lower_F1",
+          "saturation": 1.45,
+          "saturation_channel_id": "chirp_component_1_saturation"
+        },
+        {
+          "active": true,
+          "component_id": 2,
+          "detuning_channel_id": "chirp_shared_linear_detuning_123",
+          "detuning_gamma": -1.0,
+          "enabled": true,
+          "off_reason": null,
+          "polarization": "sigma_minus",
+          "relative_saturation": 0.25,
+          "role": "F0",
+          "saturation": 1.45,
+          "saturation_channel_id": "chirp_component_2_saturation"
+        },
+        {
+          "active": true,
+          "component_id": 3,
+          "detuning_channel_id": "chirp_shared_linear_detuning_123",
+          "detuning_gamma": -1.0,
+          "enabled": true,
+          "off_reason": null,
+          "polarization": "sigma_minus",
+          "relative_saturation": 0.5,
+          "role": "upper_F1_F2_mean",
+          "saturation": 2.89,
+          "saturation_channel_id": "chirp_component_3_saturation"
+        },
+        {
+          "active": false,
+          "component_id": 4,
+          "detuning_channel_id": "chirp_component_4_parked_detuning",
+          "detuning_gamma": 2.0,
+          "enabled": false,
+          "off_reason": "parked_off_until_3_plus_1_handoff",
+          "polarization": "sigma_plus",
+          "relative_saturation": 0.0,
+          "role": "upper_F1_F2_mean_confinement",
+          "saturation": 0.0,
+          "saturation_channel_id": "chirp_component_4_saturation"
+        }
+      ],
+      "time_s": 0.001
+    },
+    {
+      "components": [
+        {
+          "active": true,
+          "component_id": 1,
+          "detuning_channel_id": "chirp_shared_linear_detuning_123",
+          "detuning_gamma": -1.0,
+          "enabled": true,
+          "off_reason": null,
+          "polarization": "sigma_plus",
+          "relative_saturation": 0.25,
+          "role": "lower_F1",
+          "saturation": 1.45,
+          "saturation_channel_id": "chirp_component_1_saturation"
+        },
+        {
+          "active": true,
+          "component_id": 2,
+          "detuning_channel_id": "chirp_shared_linear_detuning_123",
+          "detuning_gamma": -1.0,
+          "enabled": true,
+          "off_reason": null,
+          "polarization": "sigma_minus",
+          "relative_saturation": 0.25,
+          "role": "F0",
+          "saturation": 1.45,
+          "saturation_channel_id": "chirp_component_2_saturation"
+        },
+        {
+          "active": true,
+          "component_id": 3,
+          "detuning_channel_id": "chirp_shared_linear_detuning_123",
+          "detuning_gamma": -1.0,
+          "enabled": true,
+          "off_reason": null,
+          "polarization": "sigma_minus",
+          "relative_saturation": 0.5,
+          "role": "upper_F1_F2_mean",
+          "saturation": 2.89,
+          "saturation_channel_id": "chirp_component_3_saturation"
+        },
+        {
+          "active": false,
+          "component_id": 4,
+          "detuning_channel_id": "chirp_component_4_parked_detuning",
+          "detuning_gamma": 2.0,
+          "enabled": false,
+          "off_reason": "parked_off_until_3_plus_1_handoff",
+          "polarization": "sigma_plus",
+          "relative_saturation": 0.0,
+          "role": "upper_F1_F2_mean_confinement",
+          "saturation": 0.0,
+          "saturation_channel_id": "chirp_component_4_saturation"
+        }
+      ],
+      "time_s": 0.002
+    }
+  ],
+  "smoothness": {
+    "endpoint_derivative_behavior": "deterministic one-sided Fritsch-Carlson tangents",
+    "family_id": "monotone-cubic-open-loop-v1",
+    "first_derivative_continuity": "continuous within family interval",
+    "known_discontinuities_s": [
+      0.001
+    ],
+    "second_derivative_continuity": "piecewise continuous and generally discontinuous at knots",
+    "semantic_event_times_s": [
+      0.001
+    ],
+    "structural_knot_times_s": [],
+    "value_continuity": "continuous within family interval"
+  },
+  "source_config": "configs\\run_015\\MODEL_INDEPENDENT_NOT_RODRIGUEZ_REPLICATION_RUN_015_OPEN_LOOP_POLICY_FAMILIES_ONLY_cubic_baseline.yaml",
+  "structural_metrics": {
+    "adjustable_parameter_count": 0,
+    "channels": [
+      {
+        "channel_id": "chirp_shared_linear_detuning_123",
+        "derivative_discontinuity_count": 0,
+        "endpoint_displacement": 7.0,
+        "field": "detuning_gamma",
+        "knot_or_harmonic_count": 2,
+        "maximum_absolute_first_derivative_per_s": 7000.0,
+        "maximum_absolute_second_derivative_per_s2": 0.0,
+        "maximum_value": -1.0,
+        "minimum_value": -8.0,
+        "monotonicity": "MONOTONE",
+        "total_variation": 7.0
+      }
+    ],
+    "compilation_readiness": "READY_FOR_RUN014_SYNTHETIC_COMPILATION",
+    "event_count": 1,
+    "family_complexity": {
+      "channel_schedule_count": 1,
+      "family_id": "monotone-cubic-open-loop-v1"
+    },
+    "parameter_count": 2,
+    "policy_hash": "17809cbf8d4e382313d1fd2a2879f42af0aba0435a19277dd605ca3d35a0a4c8",
+    "structural_boundary_count": 0
+  },
+  "validation": {
+    "issues": []
+  },
+  "vector_round_trip_equal": true
+}

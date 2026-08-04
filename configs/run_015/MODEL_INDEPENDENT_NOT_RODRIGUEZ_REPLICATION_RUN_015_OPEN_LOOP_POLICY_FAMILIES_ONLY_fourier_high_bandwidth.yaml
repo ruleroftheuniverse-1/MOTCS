@@ -1,0 +1,29 @@
+schema_version: mgf-mot-open-loop-policy-family-v1
+family_id: fourier-correction-open-loop-v1
+family_name: Deliberately infeasible high-bandwidth Fourier stress fixture
+parameterization_version: "1"
+implementation_version: run015-open-loop-v1
+abi_source_config: ../rodriguez_baseline_linear_chirp.yaml
+t_start_s: 0.0
+t_end_s: 0.001
+supported_channel_fields: [detuning_gamma, saturation]
+supported_event_behavior: EXPLICIT_ABI_EVENTS_NO_KNOT_EVENT_ALIASING
+statefulness: STATELESS_OPEN_LOOP
+serialization_contract: CANONICAL_JSON_SORTED_KEYS_V1
+channel_schedules:
+  - schedule_type: FOURIER_CORRECTION
+    channel_id: chirp_shared_linear_detuning_123
+    field: detuning_gamma
+    baseline_start: -8.0
+    baseline_end: -1.0
+    harmonic_count: 8
+    coefficients: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.5]
+    adjustable_coefficient_indices: [7]
+    coefficient_units: Gamma
+    basis_id: ENDPOINT_PRESERVING_SIN_N_PI_U_V1
+    correction_amplitude_bound: 2.0
+    monotonicity_requested: true
+provenance:
+  provenance_class: ENGINEERING_STRESS_TEST
+  source_description: Deliberately high-bandwidth Run 015 infeasibility fixture
+  interpretation_notes: Intended to fail constraints without repair; no physical-performance claim
